@@ -1105,6 +1105,8 @@ flamehair_1014 = {
 	dynasty = flamehair
 	culture = eastmarcher
 	religion = nord_cult
+	dna = jorunn_dna_entry
+	
 	trait = fatewoven
 	trait = twin
 	trait = brave
@@ -1133,7 +1135,7 @@ flamehair_1014 = {
 
 	portrait_override={
 		portrait_modifier_overrides={
-			custom_beards=male_beard_fp1_01
+			custom_beards=male_beard_fp1_03
 			custom_hair=male_hair_fp1_08
 			custom_headgear=male_headgear_secular_fp1_royalty_01
 			custom_clothes=male_clothes_secular_fp1_war_nobility_01

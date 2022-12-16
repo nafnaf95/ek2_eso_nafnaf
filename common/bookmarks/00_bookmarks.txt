@@ -1360,7 +1360,7 @@ bm_alliancewar = {
 		culture = iliac
 		religion = breton_cult
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		history_id = Cumberland_1004
+		history_id = cumberland_1004
 		position = { 500 380 }
 
 		animation = personality_honorable

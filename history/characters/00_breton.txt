@@ -4163,8 +4163,8 @@ cumberland_1004 = {
 	portrait_override={
 		portrait_modifier_overrides={
 			custom_headgear=male_headgear_secular_ep1_western_royalty_01
-			custom_hair=male_hair_western_02
-			custom_beards=male_beard_fp2_iberian_muslim_01
+			custom_beards=male_beard_western_09
+			custom_hair=male_hair_indian_02
 		}
 	}
 }
