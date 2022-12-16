@@ -3579,19 +3579,81 @@ c_cath_bedraud = {
 
 #k_wayrest
 
-k_wayrest = {
-	pattern = "pattern_solid.dds"
-	color1 = "blue"
-	color2 = "blue"
-	colored_emblem = {
-		texture = "ce_flower.dds"
-		color1 = "white"
-		color2 = black
-		color3 = black
-		instance = { position = { 0.315 0.32 } scale = { 0.4 0.4 }  }
-		instance = { position = { 0.685 0.32 } scale = { 0.4 0.4 }  }
-		instance = { position = { 0.5 0.62 } scale = { 0.4 0.4 }  }
+k_wayrest = { #BigBaccy
+	pattern="pattern_solid.dds"
+	color1=blue
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=white
+		color2=black
+		color3=black
+		texture="ce_flower.dds"
+		instance={
+			position={ 0.640000 0.550000 }
+			scale={ 0.360000 0.360000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.500000 0.270000 }
+			scale={ 0.360000 0.360000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.360000 0.550000 }
+			scale={ 0.360000 0.360000 }
+			depth=3.010000
+		}
+
 	}
+
+	colored_emblem={
+		color1=blue
+		color2=yellow
+		texture="ce_border_shield_rim.dds"
+		instance={
+			depth=7.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_single_tressure.dds"
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_ornoment_2.dds"
+		instance={
+			position={ 0.600000 0.280000 }
+			scale={ 0.270000 0.270000 }
+			depth=5.010000
+			rotation=94
+		}
+
+		instance={
+			position={ 0.400000 0.280000 }
+			scale={ 0.260000 0.260000 }
+			depth=6.010000
+			rotation=269
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_ornoment_1.dds"
+		instance={
+			position={ 0.500000 0.660000 }
+			scale={ 0.350000 0.350000 }
+			depth=4.010000
+		}
+
+	}
+
 }
 
 d_wayrest = {

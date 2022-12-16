@@ -67,7 +67,7 @@ nomads_alikr = {
 }
 
 craglorn_n = {
-	name = "Craglorn Neutral Zone"
-	culture = forebear
+	name = "Star-Gazers"
+	culture = celestial
 }
 
