@@ -1,0 +1,1373 @@
+﻿### KEPTU
+
+##Tark Dynasty (515000)
+
+#House Tark
+tark_1000 = {
+	name = "Kunukal"
+	dynasty = 515000
+	culture = keptu
+	religion = celestial_cult
+	
+	3327.1.1 = { birth = yes }
+	3382.1.1 = { death = yes }
+}
+
+##Lahk Dynasty (515001)
+
+#House Lahk
+lahk_1000 = {
+	name = "Erushir"
+	dynasty = 515001
+	culture = keptu
+	religion = celestial_cult
+
+	trait = education_diplomacy_3
+	trait = calm
+	trait = vengeful
+	trait = brave
+	
+	3339.1.1 = { birth = yes }
+	3421.1.1 = { death = yes }
+}
+
+##Graysk Dynasty (515002)
+
+#House Graysk
+graysk_100 = {
+	name = "Styriche"
+	dynasty = 515002
+	culture = keptu
+	religion = celestial_cult
+	
+	960.1.1 = { birth = yes }
+	1000.1.1 = { 
+		trait = vampire_character
+		religion = molag_cult
+	}
+	1029.1.1 = { death = yes }
+}
+## KREATH
+
+##Bal Dynasty (545000)
+bal_100 = {
+	name = "Lamae"
+	female = yes
+	dynasty = 525000
+	culture = kreath
+	religion = scions_faith
+	
+	229.1.1 = { birth = yes }
+	253.1.1 = { 
+		trait = vampire_character
+		set_immortal_age = 24
+	}
+	4253.11.15 = { death = yes }
+}
+
+## KOTHRINGI
+##Rehk Dynasty (505000)
+
+#House Rehk
+rehk_999 = {
+	name = "Dethrel" #Chieftain of Rockguard
+	dynasty = 505000
+	culture = kothringi
+	religion = aedric_nede
+	
+	3276.1.1 = { birth = yes }
+	3339.1.1 = { death = yes }
+}
+rehk_1000 = {
+	name = "Desha" #Chieftain of Rockguard
+	female = yes
+	dynasty = 505000
+	culture = kothringi
+	religion = aedric_nede
+	
+	father = rehk_999
+	
+	3323.1.1 = { birth = yes }
+	3369.1.1 = { death = { death_reason = death_accident } }
+}
+rehk_1001 = {
+	name = "Rada" #Chieftain of Rockguard
+	female = yes
+	dynasty = 505000
+	culture = kothringi
+	religion = aedric_nede
+	
+	mother = rehk_1000
+	
+	3343.1.1 = { birth = yes }
+	3359.1.1 = { add_spouse = rehk_1001_spouse }
+	3421.1.1 = { death = yes }
+}
+rehk_1001_spouse = {
+	name = "Kestic"
+	culture = kothringi
+	religion = aedric_nede
+	
+	3341.1.1 = { birth = yes }
+	3423.1.1 = { death = yes }
+}
+rehk_1002 = {
+	name = "Erassa"
+	female = yes
+	dynasty = 505000
+	culture = kothringi
+	religion = aedric_nede
+	
+	mother = rehk_1000
+	
+	3345.1.1 = { birth = yes }
+	3411.1.1 = { death = yes }
+}
+rehk_1003 = {
+	name = "Maela" #Chieftain of Rockguard
+	female = yes
+	dynasty = 505000
+	culture = kothringi
+	religion = aedric_nede
+	
+	father = rehk_1001_spouse
+	mother = rehk_1001
+	
+	3369.1.1 = { birth = yes }
+	3444.1.1 = { death = { death_reason = death_accident } }
+}
+rehk_1100 = {
+	name = "Abareth" #Chieftain of Deathwart's Pond
+	dynasty = 505000
+	culture = kothringi
+	religion = aedric_nede
+	
+	trait = twin
+	
+	father = rehk_999
+	
+	3331.1.1 = { birth = yes }
+	3359.1.1 = { death = { death_reason = death_disappearance } }
+}
+rehk_1101 = {
+	name = "Eradam" #Bastard of Deathwart's Pond
+	dynasty = 505000
+	culture = kothringi
+	religion = aedric_nede
+	
+	trait = bastard
+	trait = education_magical_ability_3
+	trait = lifespan_2
+	
+	father = rehk_1100
+	
+	3344.1.1 = { birth = yes }
+	3497.1.1 = { death = { death_reason = death_disappearance } }
+}
+rehk_1200 = {
+	name = "Ababel" #Chieftain of Dethwart's Pond
+	dynasty = 505000
+	culture = kothringi
+	religion = aedric_nede
+	
+	trait = twin
+	
+	father = rehk_999
+	
+	3321.1.1 = { birth = yes }
+	3402.1.1 = { death = { death_reason = death_old_age } }
+}
+rehk_1201 = {
+	name = "Dethrel" #Chieftain of Deathwart's Pond
+	dynasty = 505000
+	culture = kothringi
+	religion = aedric_nede
+	
+	trait = education_magical_ability_2
+	trait = education_martial_3
+	
+	father = rehk_1200
+	
+	3342.1.1 = { birth = yes }
+	3426.1.1 = { death = { death_reason = death_old_age } }
+}
+rehk_1202 = {
+	name = "Eradeth"
+	dynasty = 505000
+	culture = kothringi
+	religion = aedric_nede
+	
+	father = rehk_1200
+	
+	3346.1.1 = { birth = yes }
+	3419.1.1 = { death = { death_reason = death_old_age } }
+}
+
+##ap Chiluk Dynasty (505001)
+#House ap Chiluk
+chiluk_999 = {
+	name = "Chiluk" #Duke of Gloomire, Chiluk The Ancient ( First BM only ) For Fun!
+	dna = chiluk_dna_entry
+	dynasty = 505001
+	culture = kothringi
+	religion = aedric_nede
+	diplomacy = 4
+	martial = 2
+	stewardship = 5
+	intrigue = 7
+	learning = 4
+	
+	trait = education_learning_3
+	#trait = education_magical_ability_3 #this was a bit overkill, plus he already has an education trait
+	trait = arrogant
+	trait = wrathful
+	trait = ambitious
+	trait = heresiarch
+	
+	3006.1.1 = { 
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+	}
+	3032.1.1 = { add_spouse = chiluk_999_wife }
+	3074.1.1 = {
+		trait = necromancer
+		trait = spindly
+		#trait = lifespan_7 #Lich Kothringi? Placeholder
+		trait = lich_character #this should work in terms of lifespan afaik
+		religion = idealmasters
+	}
+	
+	3355.1.1 = { give_nickname = nick_the_ancient }
+	3369.1.1 = { death = { death_reason = death_spindly } } #Final Death ?
+}
+chiluk_999_wife = {
+	name = "Lafara"
+	female = yes
+	culture = kothringi
+	religion = aedric_nede
+	
+	3008.1.1 = { birth = yes }
+	3074.1.1 = { death = { death_reason = death_heart_ripped_out killer = chiluk_999 } } #Ritual Death?
+}
+chiluk_1000 = {
+	name = "Chiluk" #Chiluk Junior
+	dynasty = 505001
+	culture = kothringi
+	religion = aedric_nede
+	
+	father = chiluk_999
+	
+	3042.1.1 = { birth = yes }
+	3114.1.1 = { death = { death_reason = death_old_age } }
+}
+chiluk_1000_1 = {
+	name = "Chiluk"
+	dynasty = 505001
+	culture = kothringi
+	religion = aedric_nede
+	
+	trait = line_of_x
+	disallow_random_traits = yes
+	father = chiluk_1000
+	
+	3110.1.1 = { birth = yes }
+	3230.1.1 = { give_nickname = nick_line_of }
+	3234.1.1 = { death = yes }
+}
+chiluk_1001 = {
+	name = "Mahvia"
+	female = yes
+	dynasty = 505001
+	culture = kothringi
+	religion = aedric_nede
+	
+	father = chiluk_1000_1
+	
+	3243.1.1 = { birth = yes }
+	3299.1.1 = { death = { death_reason = death_old_age } }
+}
+chiluk_1002 = {
+	name = "Suhlak"
+	female = yes
+	dynasty = 505001
+	culture = kothringi
+	religion = aedric_nede
+	
+	mother = chiluk_1001
+	
+	3275.1.1 = { birth = yes }
+	3341.1.1 = { death = { death_reason = death_old_age } }
+}
+chiluk_1003 = {
+	name = "Sarati"
+	female = yes
+	dynasty = 505001
+	culture = kothringi
+	religion = aedric_nede
+	
+	mother = chiluk_1001
+	
+	3278.1.1 = { birth = yes }
+	3347.1.1 = { death = { death_reason = death_old_age } }
+}
+chiluk_1004 = {
+	name = "Kestic"
+	dynasty = 505001
+	culture = kothringi
+	religion = aedric_nede
+	
+	mother = chiluk_1003
+	
+	3295.1.1 = { birth = yes }
+	3357.1.1 = { death = { death_reason = death_old_age } }
+}
+chiluk_1005 = {
+	name = "Durac"
+	dynasty = 505001
+	culture = kothringi
+	religion = aedric_nede
+	
+	mother = chiluk_1003
+	
+	3310.1.1 = { birth = yes }
+	3368.1.1 = { death = { death_reason = death_old_age } }
+}
+chiluk_1006_bastard = {
+	name = "Kastav" #Chieftain of Shajuhe
+	dynasty = 505001
+	culture = kothringi
+	religion = aedric_nede
+	
+	trait = bastard
+	
+	father = chiluk_1005
+	
+	3352.1.1 = { birth = yes }
+	3421.1.1 = { death = { death_reason = death_old_age } }
+}
+
+##Zuukir Dynasty (505004)
+#House Zuukir
+
+zuukir_1000 = { #Empress Tavia's Knight
+	name = "Zuuk"
+	dynasty = 505004
+	culture = kothringi
+	religion = aedric_nede
+	
+	trait = education_martial_3
+	trait = education_martial_prowess_3
+	
+	2885.1.1 = { birth = yes }
+	2955.1.1 = { death = yes }
+}
+
+zuukir_1001 = { 
+	name = "Zuuk"
+	dynasty = 505004
+	culture = kothringi
+	religion = aedric_nede
+	father = zuukir_1000
+	
+	trait = line_of_x
+	disallow_random_traits = yes
+	
+	2955.1.1 = { birth = yes }
+	3000.1.1 = { give_nickname = nick_line_of }
+	3250.1.1 = { death = yes }
+}
+
+zuukir_1002 = { 
+	name = "Baela"
+	dynasty = 505004
+	culture = kothringi
+	religion = aedric_nede
+	female = yes
+	father = zuukir_1001
+	
+	3250.1.1 = { birth = yes }
+	3320.1.1 = { death = yes }
+}
+
+zuukir_1003 = { 
+	name = "Eral"
+	dynasty = 505004
+	culture = kothringi
+	religion = aedric_nede
+	mother = zuukir_1002
+	
+	3280.1.1 = { birth = yes }
+	3350.1.1 = { death = yes }
+}
+
+zuukir_1004 = { 
+	name = "Chirah"
+	dynasty = 505004
+	culture = kothringi
+	religion = aedric_nede
+	father = zuukir_1003
+	
+	3315.1.1 = { birth = yes }
+	3390.1.1 = { death = yes }
+}
+
+##Abaakul Dynasty (505005)
+#House Abaakul
+
+
+abaakul_1000 = { 
+	name = "Driilik"
+	dynasty = 505005
+	culture = kothringi
+	religion = aedric_nede
+	
+	3270.1.1 = { birth = yes }
+	3320.1.1 = { death = yes }
+}
+
+abaakul_1001 = { 
+	name = "Eral"
+	dynasty = 505005
+	culture = kothringi
+	religion = aedric_nede
+	female = yes
+	father = abaakul_1000
+	
+	3310.1.1 = { birth = yes }
+	3355.1.1 = { death = yes }
+}
+
+abaakul_1002 = {
+	name = "Sana"
+	dynasty = 505005
+	culture = kothringi
+	religion = aedric_nede
+	female = yes
+	mother = abaakul_1001
+	
+	3341.1.1 = { birth = yes }
+	3450.1.1 = { death = yes }
+}
+##Three Chiefs
+
+chief_kothringi_100 = {
+	name = "Chishk"
+	dynasty = 505002
+	culture = kothringi
+	religion = aedric_nede
+	
+	3330.1.1 = { birth = yes }
+	3420.1.1 = { death = yes }
+}
+
+chief_kothringi_101 = {
+	name = "Kunithael"
+	dynasty = 505003
+	culture = kothringi
+	religion = aedric_nede
+	
+	3325.1.1 = { birth = yes }
+	3420.1.1 = { death = yes }
+}
+
+chief_kothringi_102 = {
+	name = "Abillnassur"
+	dynasty = 505003b
+	culture = kothringi
+	religion = aedric_nede
+	
+	3343.1.1 = { birth = yes }
+	3420.1.1 = { death = yes }
+}
+
+### YESPEST
+
+##Akneinas Dynasty (555000)
+#House Akneinas
+akneinas_97 = {
+	name = "Khaiun" #Chieftain of Topal
+	dynasty = 555000
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	
+	3258.1.1 = { birth = yes }
+	3274.1.1 = { add_spouse = atla_203 }
+	3299.1.1 = { death = { death_reason = death_old_age } }
+}
+akneinas_98 = {
+	name = "Quaril" #Chieftain of Topal
+	dynasty = 555000
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	father = akneinas_97
+	mother = atla_203
+	
+	3289.1.1 = { birth = yes }
+	3298.1.1 = { add_spouse = akneinas_98_wife }
+	3362.1.1 = { death = { death_reason = death_old_age } }
+	
+	
+}
+akneinas_98_wife = {
+	name = "Kulpania" #Chieftain of Ove-Shu
+	female = yes
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	
+	3289.1.1 = { birth = yes }
+	3349.1.1 = { death = { death_reason = death_old_age } }
+	
+		portrait_override={
+			portrait_modifier_overrides={
+				custom_headgear=female_empty
+			}
+		}
+}
+
+akneinas_99 = {
+	name = "Pathka" #Chieftain of Topal
+	female = yes
+	dynasty = 555000
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	father = akneinas_98
+	mother = akneinas_98_wife
+	3310.1.1 = { birth = yes }
+	3367.1.1 = { death = { death_reason = death_battle killer = vogian_100 } }
+}
+akneinas_100 = {
+	name = "Pkharan" #Chieftain of Topal
+	dynasty = 555000
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	mother = akneinas_99
+	3328.1.1 = { birth = yes }
+	3367.6.8 = { death = { death_reason = death_battle killer = vogian_100 } }
+}
+#House ap Quarori
+quarori_99 = {
+	name = "Quarori" #Chieftain of Ove-Shu
+	dynasty_house = akneinas_quarori
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	father = akneinas_98
+	mother = akneinas_98_wife
+	3316.1.1 = { birth = yes }
+	3359.1.1 = { death = { death_reason = death_burned } }
+}
+quarori_100 = {
+	name = "Pkherve" #Chieftain of Ove-Shu
+	female = yes
+	dynasty_house = akneinas_quarori
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	father = quarori_99
+	3340.1.1 = { birth = yes }
+	3359.1.1 = { add_matrilineal_spouse = quarori_100_husband }
+	3414.1.1 = { death = { death_reason = death_old_age } }
+}
+quarori_100_husband = {
+	name = "Ventk"
+	dynasty = 555001 #Atla Dynasty
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	father = atla_205
+	3342.1.1 = { birth = yes }
+	3423.1.1 = { death = { death_reason = death_old_age } }
+}
+quarori_101 = {
+	name = "Vemarun" #Chieftain of Ove-Shu
+	dynasty_house = akneinas_quarori
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	father = quarori_100_husband
+	mother = quarori_100
+	3359.12.5 = { birth = yes }
+	3427.1.1 = { death = { death_reason = death_old_age } }
+}
+##Atla Dynasty (555001)
+#House Atla
+atla_001 = {
+	name = "Auril" #First Yespest King of Soulrest
+	dynasty = 555001
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	
+	2624.1.1 = { birth = yes }
+	2698.1.1 = { death = { death_reason = death_old_age } }
+	
+			portrait_override={
+			portrait_modifier_overrides={
+				custom_headgear=male_headgear_secular_ayleid_crown_02
+				custom_jewellery=male_clothes_ayleid_moonstone_01
+			}
+		}
+}
+line_of_atla = {
+	name = "Auril"
+	dynasty = 555001
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	trait = line_of_x
+	disallow_random_traits = yes	
+	father = atla_001
+	2640.1.1 = { birth = yes }
+	3000.1.1 = { give_nickname = nick_line_of }
+	3190.1.1 = { death = yes }
+}
+atla_100 = {
+	name = "Aine" #Queen of Soulrest
+	female = yes
+	dynasty = 555001
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	father = line_of_atla
+	3186.1.1 = { birth = yes }
+	3259.1.1 = { death = { death_reason = death_old_age } }
+	
+			portrait_override={
+			portrait_modifier_overrides={
+				custom_headgear=female_headgear_secular_ayleid_crown_02
+				custom_jewellery=female_clothes_ayleid_moonstone_01
+			}
+		}
+}
+atla_101 = {
+	name = "Aine" #Queen of Soulrest
+	female = yes
+	dynasty = 555001
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	mother = atla_100
+	3217.1.1 = { birth = yes }
+	3293.1.1 = { death = { death_reason = death_old_age } }
+	
+			portrait_override={
+			portrait_modifier_overrides={
+				custom_headgear=female_headgear_secular_ayleid_crown_02
+				custom_jewellery=female_clothes_ayleid_moonstone_01
+			}
+		}
+}
+atla_102 = {
+	name = "Heiatu" #King of Soulrest
+	dynasty = 555001
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	mother = atla_101
+	3246.1.1 = { birth = yes }
+	3325.1.1 = { death = { death_reason = death_old_age } }
+	
+			portrait_override={
+			portrait_modifier_overrides={
+				custom_headgear=male_headgear_secular_ayleid_crown_02
+				custom_jewellery=male_clothes_ayleid_moonstone_01
+			}
+		}
+}
+atla_103 = {
+	name = "Herialu" #King of Soulrest
+	dynasty = 555001
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	trait = giant
+	
+	father = atla_102
+	3289.1.1 = { birth = yes }
+	3328.1.1 = { death = { death_reason = death_giant } }
+	
+			portrait_override={
+			portrait_modifier_overrides={
+				custom_headgear=male_headgear_secular_ayleid_crown_02
+				custom_jewellery=male_clothes_ayleid_moonstone_01
+			}
+		}
+}
+atla_201 = {
+	name = "Hatkh"
+	female = yes
+	dynasty = 555001
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	mother = atla_100
+	3219.1.1 = { birth = yes }
+	3300.1.1 = { death = { death_reason = death_old_age } }
+}
+atla_202 = {
+	name = "Lathkianes"
+	female = yes
+	dynasty = 555001
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	mother = atla_100
+	3219.1.1 = { birth = yes }
+	3288.1.1 = { death = { death_reason = death_old_age } }
+}
+atla_203 = {
+	name = "Letusta"
+	female = yes
+	dynasty = 555001
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	mother = atla_202
+	3258.1.1 = { birth = yes }
+	3290.1.1 = { death = { death_reason = death_old_age } }
+}
+atla_204 = {
+	name = "Teuril" #King of Soulrest
+	dynasty = 555001
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	mother = atla_202
+	3260.1.1 = { birth = yes }
+	3333.1.1 = { death = { death_reason = death_old_age } }
+	
+			portrait_override={
+			portrait_modifier_overrides={
+				custom_headgear=male_headgear_secular_ayleid_crown_02
+				custom_jewellery=male_clothes_ayleid_moonstone_01
+			}
+		}
+}
+atla_205 = {
+	name = "Auril" #King of Soulrest
+	dna = aurilsecond_dna_entry
+	dynasty = 555001
+	culture = yespest
+	religion = sanguine_mysteries
+	diplomacy = 4
+	martial = 6
+	stewardship = 8
+	intrigue = 3
+	learning = 4
+	prowess = 8
+	
+	trait = education_stewardship_3
+	trait = arrogant
+	trait = callous
+	trait = brave
+	trait = wrathful #4th trait intended
+	
+	father = atla_204
+	
+	3312.1.1 = { birth = yes }
+	3330.1.1 = { add_spouse = atul_99b }
+	3355.1.1 = { death = { death_reason = death_battle killer = caro_803 } }
+	
+			portrait_override={
+			portrait_modifier_overrides={
+				custom_hair=male_hair_steppe_02
+				custom_beards=male_beard_indian_02
+				custom_headgear=male_headgear_secular_ayleid_crown_02
+				custom_jewellery=male_clothes_ayleid_moonstone_01
+			}
+		}
+	
+	
+}
+atla_205b = {
+	name = "Aine" #Queen of Soulrest
+	dna = aurilthird_dna_entry
+	sexuality = bisexual
+	female = yes
+	dynasty = 555001
+	culture = yespest
+	religion = sanguine_mysteries
+
+	martial = 6
+	prowess = 8
+	
+	trait = education_stewardship_4
+	trait = patient
+	trait = lustful
+	trait = brave
+	trait = shrewd
+	
+	father = atla_205
+	mother = atul_99b
+	
+	3337.1.1 = { birth = yes }
+	3355.1.1 = {
+		effect = {
+			set_relation_friend = { reason = friend_generic_history target = character:arcato_99 }
+			set_relation_lover = { reason = lover_history target = character:arcato_99 }
+			set_relation_nemesis = { reason = nemesis_historical target = character:caro_805 }
+			add_opinion = {
+						modifier = perk_negotiated_alliance_opinion
+						target = character:arcato_99
+					}
+				}
+		}
+	3378.1.1 = { death = { death_reason = death_battle } }
+
+
+		portrait_override={
+			portrait_modifier_overrides={
+				custom_hair=female_hair_fp1_05
+				custom_headgear=female_headgear_secular_ayleid_crown_02
+				custom_jewellery=female_clothes_ayleid_moonstone_01
+			}
+		}
+}
+		
+atla_206 = {
+	name = "Tialin" #King of Soulrest
+	dynasty = 555001
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	father = atla_205
+	mother = atul_99b
+	3338.1.1 = { birth = yes }
+	3409.1.1 = { death = { death_reason = death_old_age } }
+}
+atla_207 = {
+	name = "Venale"
+	dynasty = 555001
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	father = atla_205
+	mother = atul_99b
+	3341.1.1 = { birth = yes }
+	3404.1.1 = { death = { death_reason = death_old_age } }
+}
+atla_208 = {
+	name = "Veki" #Queen of Soulrest
+	female = yes
+	dynasty = 555001
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	father = atla_206
+	3350.1.1 = { birth = yes }
+	3418.1.1 = { death = { death_reason = death_old_age } }
+}
+atla_209 = {
+	name = "Tus" #King of Soulrest
+	female = yes
+	dynasty = 555001
+	culture = yespest
+	religion = sanguine_mysteries
+	trait = twin
+	
+	mother = atla_208
+	
+	3379.1.1 = { birth = yes }
+	3420.1.1 = { death = yes } #EK TODO, Knahaten Flu
+}
+atla_210 = {
+	name = "Tuza"
+	female = yes
+	dynasty = 555001
+	culture = yespest
+	religion = sanguine_mysteries
+	trait = twin
+	
+	mother = atla_208
+	
+	3379.1.1 = { birth = yes }
+	3420.1.1 = { death = yes } #EK TODO, Knahaten Flu
+}
+##Haretkh Dynasty (555002)
+#House Haretkh
+haretkh_100 = {
+	name = "Katur" #Chieftain of Hearthshield
+	dynasty = 555002
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	3329.1.1 = { birth = yes }
+	3399.1.1 = { death = { death_reason = death_old_age } }
+}
+haretkh_101 = {
+	name = "Karil" #Chieftain of Hearthshield
+	dynasty = 555002
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	father = haretkh_100
+	3341.1.1 = { birth = yes }
+	3412.1.1 = { death = { death_reason = death_old_age } }
+}
+haretkh_102 = {
+	name = "Kelmor" #Chieftain of Hearthshield
+	dynasty = 555002
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	father = haretkh_101
+	3360.1.1 = { birth = yes }
+	3420.1.1 = { death = yes } #Knahaten Flu
+}
+##Ninas Dynasty (555003)
+#House Ninas
+ninas_100 = {
+	name = "Setkh" #Chieftain of Shahe-bak, Ojel-bak
+	dynasty = 555003
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	3344.1.1 = { birth = yes }
+	3399.1.1 = { death = { death_reason = death_old_age } }
+}
+ninas_101 = {
+	name = "Lek" #Chieftain of Shahe-bak, Ojel-bak
+	dynasty = 555003
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	father = ninas_100
+	3366.1.1 = { birth = yes }
+	3418.1.1 = { death = { death_reason = death_old_age } }
+}
+ninas_102 = {
+	name = "Metnai" #Chieftain of Shahe-bak, Ojel-bak
+	dynasty = 555003
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	father = ninas_100
+	3369.1.1 = { birth = yes }
+	3420.1.1 = { death = yes } #Knahaten Flu
+}
+##Zertos Dynasty/Tribe (555004)
+#House Zertos
+zertos_98 = {
+	name = "Niva" #Chieftain of Stonewaste
+	female = yes
+	dynasty = 555004
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	3293.1.1 = { birth = yes }
+	3359.1.1 = { death = { death_reason = death_battle } }
+}
+zertos_99 = {
+	name = "Malda" #Chieftain of Stonewaste
+	female = yes
+	dynasty = 555004
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	mother = zertos_98
+	3329.1.1 = { birth = yes }
+	3387.1.1 = { death = { death_reason = death_old_age } }
+}
+zertos_100 = {
+	name = "Halin"
+	dynasty = 555004
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	mother = zertos_98
+	3334.1.1 = { birth = yes }
+	3390.1.1 = { death = { death_reason = death_old_age } }
+}
+zertos_101 = {
+	name = "Tarkhi" #Chieftain of Stonewaste
+	dynasty = 555004
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	mother = zertos_99
+	3348.1.1 = { birth = yes }
+	3420.1.1 = { death = yes } #Knahaten Flu
+}
+zertos_102 = {
+	name = "Nivek"
+	dynasty = 555004
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	father = zertos_101
+	3368.1.1 = { birth = yes }
+	3439.1.1 = { death = yes }
+}
+##Atul Dynasty/Tribe (555005)
+#House Atul
+atul_99 = {
+	name = "Atrum" #Chieftain of Riverkeep
+	dynasty = 555005
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	3284.1.1 = { birth = yes }
+	3356.1.1 = { death = { death_reason = death_battle } }
+}
+atul_100 = {
+	name = "Adal" #Chieftain of Riverkeep
+	dynasty = 555005
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	trait = twin
+	
+	father = atul_99
+	3326.1.1 = { birth = yes }
+	3399.1.1 = { death = { death_reason = death_battle } }
+}
+atul_101 = {
+	name = "Arndar" #Chieftain of Riverkeep
+	dynasty = 555005
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	trait = twin
+	
+	father = atul_99
+	3326.1.1 = { birth = yes }
+	3401.1.1 = { death = { death_reason = death_battle } }
+}
+atul_102 = {
+	name = "Eiopal" #Chieftain of Riverkeep
+	female = yes
+	dynasty = 555005
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	
+	father = atul_101
+	3391.1.1 = { birth = yes }
+	3420.1.1 = { death = yes } #Knahaten Flu
+}
+
+atul_99b = {
+	name = "Anania"
+	female = yes
+	dynasty = 555005
+	culture = yespest
+	religion = sanguine_mysteries
+	
+	father = atul_99
+	3315.1.1 = { birth = yes }
+	3330.1.1 = { add_spouse = atla_205 }
+	3377.1.1 = { death = { death_reason = death_old_age } }
+}
+
+##Horwalli
+horwalli_shutan_999 = {
+	name = "Vraseth"
+	culture = horwalli
+	religion = aedric_nede
+	dynasty = horwalli_archon
+
+	trait = education_martial_3
+	trait = content #content now, as he accomplished his goal of uniting the horwalli
+	trait = brave
+	trait = stubborn
+	
+
+	3300.1.1 = { birth = yes }
+	3390.1.1 = { death = yes }	
+}
+
+horwalli_shutan_999b = {
+	name = "Momu"
+	culture = horwalli
+	religion = aedric_nede
+	female = yes
+	
+	trait = education_intrigue_2
+	trait = gregarious
+	trait = deceitful
+	trait = wrathful
+
+	3300.1.1 = { birth = yes }
+	3320.1.1 = { add_spouse = horwalli_shutan_999 }
+	3390.1.1 = { death = yes }	
+}
+
+horwalli_shutan_1000 = {
+	name = "Eradeth"
+	culture = horwalli
+	religion = aedric_nede
+	dynasty = horwalli_archon
+	father = horwalli_shutan_999
+	mother = horwalli_shutan_999b
+
+	trait = education_intrigue_1
+	trait = cynical
+	trait = ambitious
+	trait = wrathful
+	
+
+	3330.1.1 = { birth = yes }
+	3390.1.1 = { death = yes }	
+}
+
+horwalli_shutan_1002 = {
+	name = "Galram"
+	culture = horwalli
+	religion = aedric_nede
+	dynasty = horwalli_archon
+	father = horwalli_shutan_999
+	mother = horwalli_shutan_999b
+
+	trait = education_learning_2
+	trait = arbitrary
+	trait = brave
+	trait = lustful
+	
+
+	3325.1.1 = { birth = yes }
+	3390.1.1 = { death = yes }	
+}
+
+horwalli_shutan_1003 = {
+	name = "Chirah"
+	culture = horwalli
+	religion = aedric_nede
+	dynasty = horwalli_archon
+	father = horwalli_shutan_999
+	mother = horwalli_shutan_999b
+
+	trait = education_intrigue_3
+	trait = sadistic
+	trait = paranoid
+	trait = vengeful
+	
+
+	3322.1.1 = { birth = yes }
+	3390.1.1 = { death = yes }	
+}
+horwalli_shutan_1004 = {
+	name = "Baesi"
+	culture = horwalli
+	religion = aedric_nede
+	dynasty = horwalli_archon
+	father = horwalli_shutan_999
+	mother = horwalli_shutan_999b
+	female = yes
+
+	trait = rowdy
+	
+
+	3352.1.1 = { birth = yes }
+	3368.1.1 = {
+		remove_trait = rowdy
+		trait = impatient
+	}
+	3390.1.1 = { death = yes }	
+}
+##Orma
+#Orma-La
+orma_ka_999 = {
+	name = "Irndarus"
+	culture = orma
+	religion = aedric_nede
+	dynasty = orma_ka
+	
+
+	3180.1.1 = { birth = yes }
+	3221.1.1 = { death = yes }	
+}
+
+orma_ka_1000 = {
+	name = "Zural"
+	culture = orma
+	religion = aedric_nede
+	dynasty = orma_ka
+	father = orma_ka_999
+	
+
+	3200.1.1 = { birth = yes }
+	3288.1.1 = { death = yes }
+}
+
+orma_ka_1002 = {
+	name = "Zuubael"
+	culture = orma
+	religion = aedric_nede
+	dynasty = orma_ka
+	father = orma_ka_1000
+	
+
+	3280.1.1 = { birth = yes }
+	3330.1.1 = { death = yes }
+}
+
+orma_ka_1003 = {
+	name = "Eral"
+	culture = orma
+	religion = aedric_nede
+	dynasty = orma_ka
+	father = orma_ka_1002
+	
+
+	3300.1.1 = { birth = yes }
+	3350.1.1 = { death = yes }
+}
+
+orma_ka_1004 = {
+	name = "Ababael"
+	culture = orma
+	religion = aedric_nede
+	dynasty = orma_ka
+	father = orma_ka_1003
+	
+
+	3330.1.1 = { birth = yes }
+	3420.1.1 = { death = yes }
+}
+
+orma_ka_1004b = {
+	name = "Erbael"
+	culture = orma
+	religion = aedric_nede
+	dynasty = orma_ka
+	father = orma_ka_1004
+	mother = orma_ka_1004_wife
+	
+
+	3350.1.1 = { birth = yes }
+	3420.1.1 = { death = yes }
+}
+orma_ka_1004c = {
+	name = "Serasha"
+	culture = orma
+	religion = aedric_nede
+	dynasty = orma_ka
+	father = orma_ka_1004
+	mother = orma_ka_1004_wife
+	female = yes
+	
+
+	3355.1.1 = { birth = yes }
+	3420.1.1 = { death = yes }
+}
+
+orma_ka_1004_wife = {
+	name = "Erassa"
+	culture = orma
+	religion = aedric_nede
+	female = yes
+	
+
+	3330.1.1 = { birth = yes }
+	3350.1.1 = { add_spouse = orma_ka_1004 }
+	3390.1.1 = { death = yes }	
+}
+
+orma_ka_1005 = {
+	name = "Nhalan"
+	culture = orma
+	religion = aedric_nede
+	dynasty = orma_ka
+	father = orma_ka_1003
+	
+
+	3335.1.1 = { birth = yes }
+	3420.1.1 = { death = yes }
+}
+
+orma_ka_1006 = {
+	name = "Nassa"
+	culture = orma
+	religion = aedric_nede
+	dynasty = orma_ka
+	father = orma_ka_1003
+	female = yes
+	
+
+	3349.1.1 = { birth = yes }
+	3420.1.1 = { death = yes }
+}
+
+orma_ka_1007 = {
+	name = "Snesha"
+	culture = orma
+	religion = aedric_nede
+	dynasty = orma_ka
+	father = orma_ka_1003
+	female = yes
+	
+
+	3339.1.1 = { birth = yes }
+	3420.1.1 = { death = yes }
+}
+
+#Orma-Ko
+orma_ko_1002 = {
+	name = "Zurassi"
+	culture = orma
+	religion = aedric_nede
+	dynasty_house = orma_ko
+	father = orma_ka_1000
+	female = yes
+	
+
+	3280.1.1 = { birth = yes }
+	3330.1.1 = { death = yes }
+}
+
+orma_ko_1003 = {
+	name = "Dral"
+	culture = orma
+	religion = aedric_nede
+	dynasty_house = orma_ko
+	mother = orma_ko_1002
+	
+
+	3300.1.1 = { birth = yes }
+	3350.1.1 = { death = yes }
+}
+
+orma_ko_1004 = {
+	name = "Sarati"
+	culture = orma
+	religion = aedric_nede
+	dynasty_house = orma_ko
+	father = orma_ko_1003
+	female = yes
+	
+
+	3335.1.1 = { birth = yes }
+	3420.1.1 = { death = yes }
+}
+orma_ko_1005 = {
+	name = "Durac"
+	culture = orma
+	religion = aedric_nede
+	dynasty_house = orma_ko
+	father = orma_ko_1003
+	trait = twin
+	
+
+	3337.1.1 = { birth = yes }
+	3420.1.1 = { death = yes }
+}
+
+orma_ko_1006 = {
+	name = "Dethur"
+	culture = orma
+	religion = aedric_nede
+	dynasty_house = orma_ko
+	father = orma_ko_1003
+	trait = twin
+	
+
+	3337.1.1 = { birth = yes }
+	3420.1.1 = { death = yes }
+}

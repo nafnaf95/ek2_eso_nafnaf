@@ -1,0 +1,373 @@
+﻿#Blackcaster Arch-Mages
+
+#Felix Blackcaster
+blackcaster_1000 = {
+	name = "Felix"
+	dynasty = 100043 #Augustus
+	culture = colovian
+	religion = imperial_cult
+	
+	3330.1.1 = { birth = yes }
+	# 3346.1.1 = { add_trait = mage_3 }
+	# 3348.1.1 = { add_trait = schemer }
+	# 3349.1.1 = { add_trait = ambitious }
+	3350.1.1 = { give_nickname = nick_blackcaster }
+	3397.1.1 = { death = yes }
+}
+
+#Arch-Mage Yamanu-ko
+blackcaster_1001 = {
+	name = "Yamanu_ko"
+	culture = pellitinian
+	religion = twomoonsdance
+	female = yes
+	
+	3450.1.1 = { birth = yes }
+	# 3466.1.1 = { add_trait = mage_3 }
+	# 3470.1.1 = { add_trait = necromancer }
+	# 3475.1.1 = { secret_religion = king_of_worms_cult }
+	# 3480.1.1 = { add_trait = ambitious }
+	# 3495.1.1 = { add_trait = lunatic }
+	# 3499.1.1 = { religion = king_of_worms_cult }
+	# 3500.1.1 = { 
+		# add_trait = cruel
+		# add_trait = impaler 
+		# add_trait = wroth
+	# }
+	3503.1.1 = { death = yes }
+}
+
+blackcaster_1002 = {
+	name = "Zulfan"
+	culture = crown
+	religion = tall_papa
+	
+	3350.1.1 = { birth = yes }
+	# 3366.1.1 = { add_trait = mage_2 }
+	3370.1.1 = { employer = blackcaster_1000 }
+	3416.1.1 = { death = yes }
+}
+
+blackcaster_1003 = {
+	name = "Felicia"
+	dynasty = 100043 #Augustus
+	culture = colovian
+	religion = imperial_cult
+	female = yes
+	
+	father = blackcaster_1000
+	
+	3368.1.1 = { birth = yes }
+	# 3384.1.1 = { add_trait = mage_3 }
+	3397.1.1 = { employer = blackcaster_1002 }
+	3431.1.1 = { death = yes }
+}
+
+blackcaster_1004 = {
+	name = "Morganna"
+	culture = iliac
+	religion = breton_cult
+	female = yes
+	
+	3400.1.1 = { birth = yes }
+	# 3416.1.1 = { add_trait = mage_2 }
+	3420.1.1 = { employer = blackcaster_1003 }
+	3456.1.1 = { death = yes }
+}
+
+blackcaster_1005 = {
+	name = "Zeno"
+	culture = colovian
+	religion = imperial_cult
+	
+	3430.1.1 = { birth = yes }
+	# 3446.1.1 = { add_trait = mage_2 }
+	3450.1.1 = { employer = blackcaster_1004 }
+	3491.1.1 = { death = yes }
+}
+
+blackcaster_1006 = {
+	name = "Leta"
+	dynasty = 130006 #Doniticus
+	culture = heartlander
+	religion = imperial_cult
+	female = yes
+	
+	3470.1.1 = { birth = yes }
+	# 3486.1.1 = { add_trait = mage_2 }
+	# 3490.1.1 = { add_trait = necromancer }
+	3495.1.1 = { employer = blackcaster_1001 }
+	# 3500.1.1 = { effect = { c_301017 = { add_friend = ROOT } } }
+	# 3501.1.1 = { religion = king_of_worms_cult }
+	# 3502.1.1 = { 
+		# add_trait = cruel
+		# add_trait = paranoid 
+	# }
+	3503.1.1 = { death = yes }
+}
+
+## Dwemer
+
+#Yagrum Bagarn
+dwemer_1000 = {
+	# HistoryToDo: Rename "dwemer_1000" to "bagarn_1000" ?
+	name = "Yagrum"
+	dynasty = 5 
+	culture = dwemer
+	religion = golden_tones
+	give_nickname = nick_last_dwemer
+	dna = yagrum_dna_entry
+	
+	trait = celibate
+	trait = chaste
+	trait = diligent
+	trait = calm
+	trait = education_learning_4
+	trait = shrewd
+	trait = bagarn
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+			#custom_beards=male_beard_dwemer_01 #Unknown portrait modifier
+			custom_hair=no_hair
+			#custom_headgear=no_headgear #Unknown portrait modifier
+		}	
+	}
+	
+	650.1.1 = { 
+		birth = yes
+		effect = {
+			add_character_flag = can_not_marry
+			#can_inherit = no #Unknown effect
+			learn_language = language_chimeris
+			learn_language = language_dunmeris
+			learn_language = language_daedric
+		}
+		}
+	695.1.1 = { 
+		trait = lifespan_7
+		effect = { set_immortal_age = 45 }
+	}
+	3359.1.1 = { move_to_pool = yes }
+	4254.1.1 = { death = yes }
+}
+
+## Dremora
+
+#Velehk Sain
+dremora_1000 = {
+	name = "Velehk"
+	dynasty = 170004 
+	culture = dremora
+	religion = molag_cult
+	
+	trait = sadistic
+	trait = impatient
+	trait = honest
+	trait = education_martial_4
+	
+	2345.1.1 = { birth = yes }
+	2370.1.1 = { 
+		trait = lifespan_7
+		effect = { set_immortal_age = 25 }
+	}
+	3497.1.1 = { death = yes }
+}
+
+dremora_1001 = {
+	name = "Dias"
+	culture = dremora
+	religion = sanguine_cult
+	
+	trait = lustful
+	
+	3335.1.1 = { birth = yes }
+	3356.1.1 = { employer = abdelnour_1000 }
+	3356.1.1 = { effect = { set_relation_lover = { reason = lover_history target = character:abdelnour_1000 } } }
+	3600.1.1 = { death = yes }
+}
+
+dremora_1002 = {
+	name = "Seris"
+	culture = dremora
+	religion = sanguine_cult
+	
+	trait = lustful
+	
+	3335.1.1 = { birth = yes }
+	3356.1.1 = { employer = abdelnour_1000 }
+	3356.1.1 = { effect= { set_relation_lover = { reason = lover_history target = character:abdelnour_1000 } } }
+	3600.1.1 = { death = yes }
+}
+
+#ESO Dremora
+dremora_mati = {
+	name = "Mati"
+	culture = dremora
+	religion = mehrunes_cult
+
+	3390.1.1 = { birth = yes }
+	3502.1.1 = {
+		death = yes
+		#killed by Vestige
+	}
+}
+
+dremora_molag_kena = { #Molag Kena - Imperial City / Legion Zero
+	name = "Molag Kena"
+	female = yes
+	dynasty = 170055 
+	culture = dremora
+	religion = molag_cult
+	
+	trait = sadistic
+	trait = impatient
+	trait = deceitful
+	trait = education_martial_4
+	trait = education_stewardship_2
+	trait = education_martial_prowess_3
+	
+	3451.1.1 = { birth = yes }
+	3476.12.12 = { 
+		trait = lifespan_7
+		effect = { set_immortal_age = 25 }
+	}
+	3562.12.12 = { death = yes }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=female_hair_fp2_iberian_christian_01
+			custom_headgear=female_headgear_secular_indian_royalty_01
+		}
+	}
+}
+
+#Random Stuff
+# mysterious_killer = {
+	# name = "Mysterious_Killer"
+	
+	# culture = sload
+	# religion = sithis
+
+	# trait = line_of_x
+	#disallow_random_traits = yes
+	
+	# 1.1.1 = { birth = yes }
+	# 1.1.2 = { death = { death_reason = death_vanished } }
+# }
+
+##Maormer Pirates
+
+maormer_1_pirate = {
+	name = "Jahlasri"
+	female = yes
+	dynasty = maormer_pirate_1
+	culture = maormer
+	religion = mehrunes_cult
+	dna = maormer_1_pirate_dna_entry
+
+	trait = education_martial_3
+	trait = blademaster_2
+	trait = lifespan_3
+	trait = vengeful
+	trait = reckless
+	trait = beauty_good_2
+	trait = reaver
+	trait = one_eyed
+	
+	martial = 8
+	prowess = 8
+
+	3319.1.1 = { birth = yes }
+	3339.1.1 = { give_nickname = nick_blue_snake }
+	3340.1.1 = { employer = dremora_1000 }
+	3532.1.1 = { 
+		death = { 
+			death_reason = death_duel
+		}
+	}	
+
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+				custom_hair=female_hair_western_05
+				custom_clothes=clothes_altmer_female_common_war_01
+				custom_headgear=female_headgear_secular_western_war_nobility_01
+				custom_legwear=female_legwear_secular_mena_war_nobility_01
+				custom_special=female_headgear_special_eye_patch_01
+		}	
+	}
+}
+
+#sibyls of Dibella
+
+dibella_sibyl_1000 = {
+	name = "Marceline"
+	religion = breton_cult
+	culture = iliac
+	female = yes
+	trait = beauty_good_3
+
+	3330.1.1 = { birth = yes }
+	3350.1.1 = {
+		trait = p_dv_dibella
+		trait = devoted
+		trait = lustful
+		effect = { add_character_modifier = sibyl_of_dibella_modifier } 
+	}
+	3381.1.1 = { death = yes }
+}
+
+dibella_sibyl_1001 = {
+	name = "Mercedene"
+	religion = old_gods
+	culture = reachfolk
+	female = yes
+	trait = beauty_good_3
+
+	3341.1.1 = { birth = yes }
+	3350.1.1 = {
+		trait = p_dv_dibella
+		trait = devoted
+		trait = lustful
+		effect = { add_character_modifier = sibyl_of_dibella_modifier } 
+	}
+	3392.1.1 = { death = yes }
+}
+
+dibella_sibyl_1002 = {
+	name = "Mirkaela"
+	religion = redguard_cult
+	culture = forebear
+	female = yes
+	trait = beauty_good_3
+
+	3323.1.1 = { birth = yes }
+	3350.1.1 = {
+		trait = p_dv_dibella
+		trait = devoted
+		trait = lustful
+		effect = { add_character_modifier = sibyl_of_dibella_modifier } 
+	}
+	3375.1.1 = { death = yes }
+}
+
+# Alessian Order
+
+marukh_100 = {
+	name = "Marukh"
+	dynasty = 7 # Tam-Rugh
+	culture = colovian # HistoryToDo: Make Imga
+	religion = alessian
+
+	260.1.1 = { birth = yes }
+	276.1.1 = {
+		trait = education_learning_4
+		trait = mystic_3
+		trait = theologian
+		trait = zealous
+		trait = callous
+		trait = temperate
+		give_nickname = nick_the_prophet
+	}
+	368.1.1 = { death = yes }
+}

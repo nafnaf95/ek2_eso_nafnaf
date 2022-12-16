@@ -1,0 +1,39 @@
+﻿### EK EDIT: Replaced religion check with a scripted trigger
+
+#As a tribe, if I reform, what government will I get?
+GetTribalReformGovernment = {
+	type = character
+
+	text = {
+		trigger = { should_use_clan_government = yes }
+		localization_key = tribal_reform_clan
+	}
+	text = {
+		trigger = { should_use_feudal_government = yes }
+		localization_key = tribal_reform_feudal
+	}
+	text = {
+		trigger = { should_use_magocracy_government = yes }
+		localization_key = tribal_reform_magocracy
+	}
+	text = {
+		trigger = { should_use_autocracy_government = yes }
+		localization_key = tribal_reform_autocracy
+	}
+}
+
+#What type of authority do I use?
+GetGovernmentAuthority = {
+	type = character
+
+	text = {
+		trigger = { has_government = tribal_government }
+		localization_key = government_authority_tribe
+	}
+	text = {
+		trigger = { always = no }
+		localization_key = government_authority_crown
+		fallback = yes
+	}
+}
+

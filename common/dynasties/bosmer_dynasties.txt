@@ -1,0 +1,287 @@
+﻿# Bosmeris Range: 600000-699999
+	#Bosmer: 600000-669999
+	#Cyro-Bosmer: 610000-519999
+	#Altmeri-Bosmer: 620000-629999
+	#Arenthi: 630000-639999
+
+#Bosmer: 600000-669999
+
+600000 = {
+	name = "Driladan" #Historical, from ESO
+	culture = bosmer
+	motto = dynn_driladan_motto
+}
+
+600001 = {
+	name = "Blackroot" #Historical, from ESO
+	culture = bosmer
+	motto = dynn_blackroot_motto
+}
+
+600002 = {
+	name = "dynn_Sharp_Arrow" #Historical, from ESO
+	culture = bosmer
+}
+
+600003 = {
+	name = "Benoch" #Historical, from the book 'Words and Philosophy'
+	culture = bosmer
+}
+
+600004 = {
+	name = "Parikh" #Historical, from the book 'Words and Philosophy'
+	culture = bosmer
+}
+
+600005 = {
+	name = "Vanellion" #Made-up dynasty for a real ESO character
+	culture = bosmer
+}
+
+600006 = {
+	name = "Springbrook" #Made-up dynasty
+	culture = bosmer
+}
+
+600007 = {
+	name = "Branck" #Based on surname of a random ESO character
+	culture = bosmer
+}
+
+600008 = {
+	name = "Forestwalker" #Based on surname of a random ESO character
+	culture = bosmer
+	}
+
+600009 = {
+	name = "Endrand" #EK1
+	culture = bosmer
+}
+
+600010 = {
+	name = "Bearclaw" #Historical, descendants of Oreyn Bearclaw feature in Morrowind, Oblivion, and ESO
+	culture = bosmer
+}
+
+600011 = {
+	name = "dynn_Bramble_breach" #Historical, from ESO
+	culture = bosmer
+}
+
+600012 = {
+	name = "Valefern" #Made-up name for a real ESO clan
+	culture = bosmer
+}
+
+600013 = {
+	name = "Iyanden" #Obscure WH40K Reference
+	culture = bosmer
+}
+
+600014 = {
+	name = "Greenleaf" #Lord of the Rings reference
+	culture = bosmer
+}
+
+600015 = {
+	name = "Redbranch" #Made-up name
+	culture = bosmer
+}
+
+600016 = {
+	name = "Duskthorn" #Made-up name
+	culture = bosmer
+}
+
+600017 = {
+	name = "Stagfen" #Made-up
+	culture = bosmer
+}
+
+600018 = {
+	name = "Avbala" #Made-up, means 'Upon Power' in Ayleidoon, to imply they are Bosmer with Ayleid ancestry
+	culture = bosmer
+}
+
+600019 = {
+	name = "Ulthran" #Obscure WH40K Reference
+	culture = bosmer
+}
+
+600020 = { 
+	name = "Valen" #Used for the Wilderking, because Hierocracy requires one
+	culture = bosmer
+}
+
+600021 = { 
+	name = "Bonefang" #Made-up
+	culture = bosmer
+}
+
+600022 = {
+	name = "Camoran" #Historical
+	culture = bosmer
+	motto = dynn_camoran_motto
+}
+
+600023 = {
+	name = "Altansar" #Obscure WH40K Reference
+	culture = bosmer
+}
+
+600024 = {
+	name = "Anno" #EK1
+	culture = bosmer
+}
+
+600025 = {
+	name = "Amirriath" #EK1
+	culture = bosmer
+}
+
+600026 = {
+	name = "Boldonor" #EK1
+	culture = altmeribosmer
+}
+
+600027 = {
+	name = "Irillyth" #EK1
+	culture = altmeribosmer
+}
+
+
+#Cyro-Bosmer: 610000-519999
+
+610000 = {
+	name = "Ellenwen" #Made-up
+	culture = cyrobosmer
+}
+
+610001 = {
+	name = "Greenwood"
+	culture = cyrobosmer
+}
+
+#610002 = {
+#	name = "Dornke"
+#	culture = cyrobosmer
+#}
+#
+#610003 = {
+#	name = "Undriel"
+#	culture = cyrobosmer
+#}
+#
+#610004 = {
+#	name = "Drurel"
+#	culture = cyrobosmer
+#}
+#
+#610005 = {
+#	name = "Garnona"
+#	culture = cyrobosmer
+#}
+#
+#610006 = {
+#	name = "Helomaine"
+#	culture = cyrobosmer
+#}
+#
+#610007 = {
+#	name = "Ledure"
+#	culture = cyrobosmer
+#}
+#
+#610008 = {
+#	name = "Marvos"
+#	culture = cyrobosmer
+#}
+#
+#610009 = {
+#	name = "Ramothran"
+#	culture = cyrobosmer
+#}
+#
+#610010 = {
+#	name = "Salandas"
+#	culture = cyrobosmer
+#}
+#
+#610011 = {
+#	name = "Vayn"
+#	culture = cyrobosmer
+#}
+
+#Altmeri-Bosmer: 620000-629999
+
+#620000 = {
+#	name = "Allir" #EK1
+#	culture = altmeribosmer
+#}
+#
+#620001 = {
+#	name = "Elmlock"
+#	culture = altmeribosmer
+#}
+#
+#620002 = {
+#	name = "Rosedale"
+#	culture = altmeribosmer
+#}
+#
+620003 = {
+	name = "Springthorn"
+	culture = silvenari
+}
+
+620004 = {
+	name = "Varantha" #Obscure WH40K Reference
+	culture = altmeribosmer
+}
+
+620005 = {
+	name = "Caerllin" #From an ESO contraband item description
+	culture = altmeribosmer
+}
+
+620006 = {
+	name = "Hedorme" 
+	culture = auridon
+}
+
+glassbarrow = {
+	prefix = "dynnp_of"
+	name = "Glassbarrow"
+	culture = altmeribosmer
+}
+#Arenthi: 630000-639999
+
+630000 = {
+	name = "Vinedusk" #Historical
+	culture = arenthi
+}
+
+630001 = {
+	name = "Dawnbranch" #Made-up
+	culture = arenthi
+}
+
+630002 = {
+	name = "Malaphelle" #Made-up
+	culture = arenthi
+}
+
+630003 = {
+	name = "Furstock" #Slavers from Hadran's Caravan
+	culture = arenthi
+}
+
+#630004 = {
+#	name = "Laeryll"
+#	culture = arenthi
+#}
+
+630005 = {
+	name = "Balfix"
+	culture = arenthi
+}

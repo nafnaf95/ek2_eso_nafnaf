@@ -1,0 +1,1433 @@
+﻿#E_VALENWOOD - 108 counties - 331 baronies
+
+####c_greenheart
+3167 = { #b_wild_court
+	culture = bosmer
+	religion = wilderking
+
+	holding = castle_holding
+	buildings = {
+		castle_02
+		barracks_02
+		watchtowers_01
+	}
+}
+3168 = { #b_greenheart
+	holding = city_holding
+	buildings = {
+		city_02
+		guild_halls_03
+	}
+}
+3169 = { #b_nereid_garden
+	holding = none
+}
+3170 = { #b_bridgeside
+	holding = none
+}
+3171 = { #b_labyrinth
+	holding = church_holding
+}
+####c_pelda_tarn
+3172 = { #b_pelda_tarn
+	culture = bosmer
+	religion = wilderking
+
+	holding = tribal_holding
+}
+3173 = { #b_carac_dena
+	holding = church_holding
+}
+3174 = { #b_alderhorn
+	holding = none
+}
+####c_daresen
+3175 = { #b_daresen
+	culture = bosmer
+	religion = wilderking
+
+	holding = tribal_holding
+}
+3176 = { #b_irgate
+	holding = none
+}
+####c_hawthorn
+3177 = { #b_hawthorn
+	culture = bosmer
+	religion = wilderking
+
+	holding = tribal_holding
+}
+3178 = { #b_sylvestris
+	holding = none
+}
+3179 = { #b_poterium
+	holding = none
+}
+####c_shrouded_vale
+3180 = { #b_spinner_cottage
+	culture = bosmer
+	religion = wilderking
+
+	holding = tribal_holding
+}
+3181 = { #b_shroud_point
+	holding = none
+}
+####c_bouldertree
+3182 = { #b_bouldertree
+	culture = bosmer
+	religion = wilderking
+
+	holding = city_holding
+}
+3183 = { #b_dogrose
+	holding = none
+}
+####c_arananga
+3184 = { #b_arananga
+	culture = bosmer
+	religion = wilderking
+
+	holding = church_holding
+}
+3185 = { #b_gingko
+	holding = none
+}
+3186 = { #b_lindenleaf
+	holding = none
+}
+####c_bramblebreach
+3187 = { #b_bramblebreach
+	culture = bosmer
+	religion = wilderking
+
+	holding = tribal_holding
+}
+3188 = { #b_malinae
+	holding = none
+}
+####c_linleya
+3189 = { #b_gushnukbur
+	culture = wood_orc
+	religion = code_of_malacath
+
+	holding = tribal_holding
+}
+3190 = { #b_linleya
+	holding = none
+}
+3191 = { #b_gurzag
+	holding = none
+}
+####c_marbruk
+3192 = { #b_marbruk
+	culture = bosmer
+	religion = hircine_cult
+
+	holding = tribal_holding
+}
+3193 = { #b_lalorhame
+	holding = none
+}
+3194 = { #b_cliffshade
+	holding = none
+}
+3195 = { #b_iduna
+	holding = none
+}
+3258 = { #b_grahtgate
+	holding = tribal_holding
+}
+####c_southisle
+3196 = { #b_kragg
+	culture = altmeribosmer
+	religion = auriel
+
+	holding = castle_holding
+}
+3197 = { #b_stonehallow
+	holding = none
+}
+3198 = { #b_dibellum
+	holding = city_holding
+}
+####c_coral
+3199 = { #b_coral
+	culture = altmeribosmer
+	religion = auriel
+
+	holding = castle_holding
+}
+####c_sisterstones
+3200 = { #b_sisterstones
+	culture = altmeribosmer
+	religion = auriel
+
+	holding = castle_holding
+}
+####c_woodhearth
+3201 = { #b_woodhearth
+	culture = cyrobosmer
+	religion = greenpact
+
+	holding = castle_holding
+}
+3202 = { #b_port_serpentstone
+	holding = city_holding
+}
+3203 = { #b_tree_ring
+	holding = none
+}
+3204 = { #b_forestmount
+	holding = none
+}
+####c_longhaven
+3205 = { #b_longhaven
+	culture = bosmer
+	religion = greenpact
+
+	holding = city_holding
+}
+3206 = { #b_shademist
+	holding = none
+}
+3207 = { #b_drowned
+	holding = none
+}
+####c_rootwater
+3208 = { #b_rootwater
+	culture = bosmer
+	religion = hermaeus_cult
+
+	holding = church_holding
+}
+3209 = { #b_ilmyris
+	holding = church_holding
+}
+3210 = { #b_naril_nagaia
+	holding = none
+}
+####c_silvermoor
+3211 = { #b_silvermoor
+	culture = bosmer
+	religion = hircine_cult
+
+	holding = tribal_holding
+}
+3212 = { #b_agralin
+	holding = none
+}
+####c_rootwatch
+3213 = { #b_rootwatch
+	culture = mathmeldi
+	religion = molag_cult
+
+	holding = tribal_holding
+}
+3214 = { #b_ledronor
+	holding = none
+}
+3215 = { #b_rulanyil_fall
+	holding = none
+}
+####c_springsite
+3216 = { #b_springsite
+	culture = bosmer
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3217 = { #b_thornwal
+	holding = church_holding
+}
+3218 = { #b_harien
+	holding = none
+}
+3219 = { #b_ulodus
+	holding = none
+}
+####c_green_marrow
+3220 = { #b_green_marrow
+	culture = bosmer
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3221 = { #b_vithien
+	holding = none
+}
+3222 = { #b_harridan_lair
+	holding = none
+}
+####c_driladan
+3223 = { #b_driladan_pass
+	culture = bosmer
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3224 = { #b_driladan
+	holding = tribal_holding
+}
+3225 = { #b_imperial_check
+	holding = city_holding
+}
+3226 = { #b_etelia
+	holding = none
+}
+####c_echo
+3227 = { #b_echo_pond
+	culture = bosmer
+	religion = greenpact
+
+	holding = church_holding
+}
+3228 = { #b_aryth
+	holding = none
+}
+####c_drabble
+3229 = { #b_drabble
+	culture = mathmeldi
+	religion = meridia_cult
+
+	holding = tribal_holding
+	
+}
+3230 = { #b_arnor
+	holding = none
+}
+####c_verrant
+3231 = { #b_verrant_morass
+	culture = bosmer
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3232 = { #b_delidia
+	holding = none
+}
+####c_towerrocks_vale
+3233 = { #b_tower_rocks
+	culture = bosmer
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3234 = { #b_edinia
+	holding = none
+}
+####c_vullain
+3235 = { #b_dread_vullain
+	culture = bosmer
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3236 = { #b_lanalda
+	holding = none
+}
+3237 = { #b_thodundor_view
+	holding = none
+}
+3238 = { #b_temple_of_the_nereids
+	holding = church_holding
+}
+####c_seaside
+3239 = { #b_seaside
+	culture = altmeribosmer
+	religion = auriel
+
+	holding = castle_holding
+}
+3240 = { #b_seaside_sanctuary
+	holding = church_holding
+}
+3241 = { #b_arendra
+	holding = none
+}
+3242 = { #b_diss
+	holding = castle_holding
+}
+####c_diss
+3242 = { #b_diss
+	culture = bosmer
+	religion = greenpact
+
+	holding = castle_holding
+}
+3243 = { #b_grendan
+	holding = none
+}
+3244 = { #b_barrow_trench
+	holding = none
+}
+####c_twin_falls
+3245 = { #b_twin_falls
+	culture = bosmer
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3246 = { #b_agralien
+	holding = none
+}
+####c_moonhenge
+3247 = { #b_moonhenge
+	culture = bosmer
+	religion = greenpact
+
+	holding = church_holding
+}
+3248 = { #b_ethilaseth
+	holding = none
+}
+3249 = { #b_elucien
+	holding = none
+}
+####c_serpent_grotto
+3250 = { #b_serpent_grotto
+	culture = cyrobosmer
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3251 = { #b_fisherman_rest
+	holding = none
+}
+####c_gladwell
+3252 = { #b_gladwell
+	culture = altmeribosmer
+	religion = greenpact
+
+	holding = church_holding
+}
+3253 = { #b_underroot
+	holding = none
+}
+3254 = { #b_gilimer
+	holding = none
+}
+####c_hollow
+3255 = { #b_shadows_crawl
+	culture = bosmer
+	religion = wilderking
+
+	holding = castle_holding
+}
+3256 = { #b_seldor
+	holding = none
+}
+3257 = { #b_hollow_den
+	holding = none
+}
+####c_eldenroot
+3259 = { #b_great_tree
+	culture = grahtwood
+	religion = greenpact
+
+	holding = castle_holding
+	buildings = {
+		castle_03
+		watchtowers_02
+	}
+}
+3260 = { #b_elden_root
+	holding = city_holding
+	buildings = {
+		city_02
+		guild_halls_02
+	}
+}
+3261 = { #b_elden_hollow
+	holding = church_holding
+}
+3262 = { #b_trunkshade
+	holding = none
+}
+####c_burroot
+3264 = { #b_yffre_eight
+	culture = grahtwood
+	religion = greenpact
+
+	holding = church_holding
+}
+3263 = { #b_burroot
+	holding = city_holding
+}
+3265 = { #b_gallowgap
+	holding = none
+}
+####c_wintersite
+3266 = { #b_wintersite
+	culture = grahtwood
+	religion = greenpact
+
+	holding = castle_holding
+}
+3267 = { #b_coolroot
+	holding = none
+}
+####c_long_coast
+3268 = { #b_long_coast
+	culture = grahtwood
+	religion = greenpact
+
+	holding = castle_holding
+}
+3269 = { #b_nindaeril_perch
+	holding = none
+}
+####c_mobar
+3270 = { #b_mobar
+	culture = grahtwood
+	religion = greenpact
+
+	holding = castle_holding
+}
+3271 = { #b_hircine_henge
+	holding = none
+}
+####c_gildervale
+3272 = { #b_gilverdale
+	culture = grahtwood
+	religion = greenpact
+
+	holding = castle_holding
+}
+3273 = { #b_dalyri
+	holding = none
+}
+3274 = { #b_miria
+	holding = none
+}
+3275 = { #b_redwood
+	holding = none
+}
+3276 = { #b_sirion
+	holding = none
+}
+####c_tarlain
+3277 = { #b_tarlain
+	culture = grahtwood
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3278 = { #b_arvand
+	holding = none
+}
+3279 = { #b_valanir_rest
+	holding = none
+}
+####c_goldfolly
+3280 = { #b_goldfolly
+	culture = wood_orc
+	religion = code_of_malacath
+
+	holding = tribal_holding
+}
+3281 = { #b_rootbur
+	holding = none
+}
+3282 = { #b_lamplight
+	holding = none
+}
+####c_quirion
+3283 = { #b_quirion
+	culture = grahtwood
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3284 = { #b_funchal
+	holding = none
+}
+3285 = { #b_doveburrow
+	holding = none
+}
+####c_redfur
+3286 = { #b_redfur
+	culture = bosmer
+	religion = greenpact
+
+	holding = city_holding
+}
+3287 = { #b_lympar
+	holding = none
+}
+3288 = { #b_thugrub
+	holding = none
+}
+3289 = { #b_norment
+	holding = none
+}
+####c_wormroot
+3290 = { #b_wormroot
+	culture = bosmer
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3291 = { #b_penfear
+	holding = none
+}
+####c_reman_bluff
+3292 = { #b_reman_bluff
+	culture = wood_orc
+	religion = code_of_malacath
+
+	holding = castle_holding
+}
+3293 = { #b_barkbite
+	holding = tribal_holding
+}
+3294 = { #b_sinamon
+	holding = none
+}
+####c_faltonia
+3295 = { #b_faltonia
+	culture = grahtwood
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3296 = { #b_sagetree
+	holding = none
+}
+3297 = { #b_barkley
+	holding = none
+}
+####c_cormount
+3298 = { #b_cormount
+	culture = grahtwood
+	religion = blacksapmovement
+
+	holding = castle_holding
+}
+3299 = { #b_new_joy
+	holding = city_holding
+}
+3300 = { #b_somnia
+	holding = none
+}
+3301 = { #b_restling
+	holding = none
+}
+####c_hectaran
+3514 = { #b_hectaran
+	culture = mathmeldi
+	religion = meridia_cult
+
+	holding = castle_holding
+	buildings = {
+		castle_03
+		curtain_walls_02
+	}
+}
+5429 = { #b_va_lorlas
+	holding = church_holding
+}
+5430 = { #b_celeyea
+	holding = none
+}
+5431 = { #b_calda
+	holding = none
+}
+####c_mathmed
+5423 = { #b_mathmed
+	culture = bosmer
+	religion = greenpact
+
+	holding = tribal_holding
+}
+5424 = { #b_ceynasel
+	holding = none
+}
+5425 = { #b_mafrena
+	holding = none
+}
+####c_twylhecul
+5426 = { #b_twylhecul
+	culture = mathmeldi
+	religion = meridia_cult
+
+	holding = tribal_holding
+}
+5427 = { #b_sarvarar
+	holding = none
+}
+5428 = { #b_hena_ma
+	holding = none
+}
+####c_gorinir
+3302 = { #b_gorinir
+	culture = grahtwood
+	religion = blacksapmovement
+
+	holding = castle_holding
+}
+3303 = { #b_brescia
+	holding = none
+}
+3304 = { #b_reliquary_of_stars
+	holding = church_holding
+}
+####c_laeloria
+3305 = { #b_laeloria
+	culture = grahtwood
+	religion = blacksapmovement
+
+	holding = church_holding
+}
+3306 = { #b_juniper
+	holding = none
+}
+####c_medulin
+3307 = { #b_medulin
+	culture = grahtwood
+	religion = blacksapmovement
+
+	holding = tribal_holding
+}
+3308 = { #b_valenoss
+	holding = none
+}
+####c_karthdar
+3309 = { #b_karthdar
+	culture = grahtwood
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3310 = { #b_spiteleaf
+	holding = none
+}
+3311 = { #b_naral
+	holding = none
+}
+####c_cormeir
+3312 = { #b_cormeir
+	culture = mathmeldi
+	religion = auriel
+
+	holding = castle_holding
+}
+3313 = { #b_forked_root
+	holding = none
+}
+####c_southpoint
+3314 = { #b_zantonius
+	culture = cyrobosmer
+	religion = greenpact
+
+	holding = castle_holding
+}
+3315 = { #b_southpoint
+	holding = city_holding
+}
+3316 = { #b_cathedral_of_the_golden_path
+	holding = church_holding
+	special_building = cathedral_of_the_golden_path_01
+}
+3317 = { #b_selindor
+	holding = none
+}
+3318 = { #b_arlathan
+	holding = none
+}
+####c_graymire
+3319 = { #b_gray_mire
+	culture = cyrobosmer
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3320 = { #b_jovale
+	holding = none
+}
+3321 = { #b_eagle_vale
+	holding = none
+}
+####c_havisti
+3322 = { #b_havisti
+	culture = cyrobosmer
+	religion = greenpact
+
+	holding = city_holding
+}
+3323 = { #b_rucinbae
+	holding = none
+}
+3324 = { #b_broken_sail
+	holding = none
+}
+####c_heimdar
+3325 = { #b_heimdar
+	culture = altmeribosmer
+	religion = greenpact
+
+	holding = castle_holding
+}
+3326 = { #b_brecilia
+	holding = none
+}
+####c_sweetbreeze
+3327 = { #b_sweetbreeze
+	culture = grahtwood
+	religion = greenpact
+
+	holding = castle_holding
+}
+3328 = { #b_bone_orchard
+	holding = church_holding
+}
+3329 = { #b_ne_salas
+	holding = none
+}
+####c_haven
+3330 = { #b_fort_haven
+	culture = altmeribosmer
+	religion = greenpact
+
+	holding = castle_holding
+}
+3331 = { #b_haven
+	holding = city_holding
+}
+3332 = { #b_widow_rock
+	holding = none
+}
+3333 = { #b_fisherman
+	holding = none
+}
+####c_brackenleaf
+3334 = { #b_brackenleaf
+	culture = grahtwood
+	religion = greenpact
+
+	holding = church_holding
+}
+3335 = { #b_vineshade
+	holding = none
+}
+####c_rootsunder
+3336 = { #b_root_sunder
+	culture = grahtwood
+	religion = greenpact
+
+	holding = castle_holding
+}
+3337 = { #b_knotwood
+	holding = none
+}
+####c_greenhall
+3338 = { #b_green_hall
+	culture = grahtwood
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3339 = { #b_scuttle
+	holding = none
+}
+3340 = { #b_vindisi
+	holding = none
+}
+####c_dawnleaf
+3341 = { #b_dawnleaf
+	culture = grahtwood
+	religion = greenpact
+
+	holding = castle_holding
+}
+3342 = { #b_molemir
+	holding = none
+}
+3343 = { #b_sacred_leap
+	holding = none
+}
+3344 = { #b_lynpan_march
+	holding = none
+}
+####c_willowind
+3345 = { #b_willowind
+	culture = grahtwood
+	religion = greenpact
+
+	holding = castle_holding
+}
+3346 = { #b_solace_fen
+	holding = none
+}
+####c_vinedeath
+3347 = { #b_vinedeath
+	culture = grahtwood
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3348 = { #b_telacar
+	holding = church_holding
+}
+3349 = { #b_gilvotal
+	holding = none
+}
+3350 = { #b_boar_run
+	holding = none
+}
+
+####c_summersite
+3351 = { #b_summersite
+	culture = silvenari
+	religion = greenpact
+
+	holding = castle_holding
+}
+3352 = { #b_deepwoods
+	holding = church_holding
+}
+3353 = { #b_starwalk
+	holding = none
+}
+3354 = { #b_last_venture
+	holding = none
+}
+####c_velyn
+3355 = { #b_velyn
+	culture = altmeribosmer
+	religion = greenpact
+
+	holding = castle_holding
+}
+3356 = { #b_trader_crescent
+	holding = city_holding
+}
+3357 = { #b_bitterpoint
+	holding = none
+}
+####c_emperor_run
+3358 = { #b_emperor_run
+	culture = altmeribosmer
+	religion = greenpact
+
+	holding = castle_holding
+}
+3359 = { #b_timberborn
+	holding = none
+}
+####c_fullerbreak
+3422 = { #b_fuller_break
+	culture = altmeribosmer
+	religion = greenpact
+
+	holding = castle_holding
+}
+3360 = { #b_ilayas
+	holding = none
+}
+3361 = { #b_dead_man_drop
+	holding = none
+}
+####c_longvale
+3362 = { #b_longvale
+	culture = bosmer
+	religion = hircine_cult
+
+	holding = tribal_holding
+}
+3363 = { #b_nendir
+	holding = none
+}
+3364 = { #b_woodstock
+	holding = none
+}
+####c_larawen
+3365 = { #b_larawen
+	culture = bosmer
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3366 = { #b_aleveren
+	holding = none
+}
+3367 = { #b_meatleaf
+	holding = none
+}
+####c_bonegrappler
+3368 = { #b_tomb_of_the_apostates
+	culture = bosmer
+	religion = greenpact
+
+	holding = church_holding
+}
+3369 = { #b_bonegrappler
+	holding = none
+}
+####c_spearwood
+3372 = { #b_spearwood
+	culture = bosmer
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3370 = { #b_moonmont
+	holding = none
+}
+3371 = { #b_nodagas
+	holding = none
+}
+####c_grahtwhisper
+3373 = { #b_grahtwhisper
+	culture = bosmer
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3374 = { #b_whisper_grove
+	holding = none
+}
+3375 = { #b_fingaei_pass
+	holding = none
+}
+####c_stranglevine
+3376 = { #b_stranglevine
+	culture = bosmer
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3377 = { #b_glenchant
+	holding = none
+}
+####c_abamath
+3378 = { #b_abamath
+	culture = mathmeldi
+	religion = boethiah_cult
+
+	holding = tribal_holding
+}
+3379 = { #b_shael
+	holding = church_holding
+}
+3380 = { #b_rootworm
+	holding = none
+}
+####c_silvenar
+3381 = { #b_silvenar
+	culture = silvenari
+	religion = greenpact
+
+	holding = castle_holding
+	buildings = {
+		castle_02
+	}
+}
+3382 = { #b_chancel_of_divine_entreaty
+	holding = church_holding
+	buildings = {
+		temple_03
+	}
+}
+3383 = { #b_galiolith
+	holding = none
+}
+3384 = { #b_riveredge
+	holding = none
+}
+####c_treebeard
+3385 = { #b_treebeard
+	culture = silvenari
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3386 = { #b_supplication
+	holding = city_holding
+}
+3387 = { #b_severien
+	holding = none
+}
+####c_ouze
+3388 = { #b_ouze
+	culture = silvenari
+	religion = greenpact
+
+	holding = church_holding
+}
+3389 = { #b_elvilinde
+	holding = none
+}
+####c_valeguard
+3390 = { #b_valeguard
+	culture = silvenari
+	religion = greenpact
+
+	holding = castle_holding
+}
+3391 = { #b_falloak
+	holding = none
+}
+3392 = { #b_weatherseed
+	holding = none
+}
+####c_tanglehaven
+3393 = { #b_tanglehaven
+	culture = bosmer
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3394 = { #b_meyglen
+	holding = none
+}
+####c_bloodtoil
+3395 = { #b_bloodtoil
+	culture = wood_orc
+	religion = code_of_malacath
+
+	holding = tribal_holding
+}
+3423 = { #b_belarata
+	holding = none
+}
+####c_jathi
+3398 = { #b_jathi
+	culture = wood_orc
+	religion = code_of_malacath
+
+	holding = tribal_holding
+}
+3397 = { #b_sleepy_senche
+	holding = none
+}
+####c_vulkwasten
+3399 = { #b_vulkwasten
+	culture = silvenari
+	religion = greenpact
+
+	holding = castle_holding
+}
+3400 = { #b_skytree
+	holding = none
+}
+3401 = { #b_tinedien
+	holding = none
+}
+3402 = { #b_silverbeach
+	holding = none
+}
+####c_amondale
+3404 = { #b_amondale
+	culture = wood_orc
+	religion = code_of_malacath
+
+	holding = tribal_holding
+}
+3405 = { #b_jagged_grotto
+	holding = none
+}
+3406 = { #b_crimson_cove
+	holding = none
+}
+####c_horseshoe
+3403 = { #b_horseshoe
+	culture = silvenari
+	religion = greenpact
+
+	holding = tribal_holding
+}
+####c_stranglewatch
+3407 = { #b_stranglewatch
+	culture = silvenari
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3408 = { #b_hoarvor_pit
+	holding = none
+}
+####c_treehenge
+3409 = { #b_treehenge
+	culture = silvenari
+	religion = greenpact
+
+	holding = church_holding
+}
+3410 = { #b_fairmount
+	holding = none
+}
+3411 = { #b_mammoth_retreat
+	holding = none
+}
+####c_windshriek
+3412 = { #b_windshriek_strand
+	culture = silvenari
+	religion = greenpact
+
+	holding = tribal_holding
+}
+3413 = { #b_ogrim_yawn
+	holding = none
+}
+3414 = { #b_jagged_coast
+	holding = none
+}
+####c_ebon_ro
+3415 = { #b_ebon_ro
+	culture = silvenari
+	religion = hircine_cult
+
+	holding = castle_holding
+}
+3416 = { #b_wildling_run
+	holding = none
+}
+3417 = { #b_dareven
+	holding = none
+}
+####c_blackvine
+3418 = { #b_blackvine
+	culture = baandari
+	religion = baandari
+
+	holding = tribal_holding
+}
+3419 = { #b_ragnval
+	holding = none
+}
+3420 = { #b_baandari_outpost
+	holding = city_holding
+}
+3421 = { #b_four_quarry
+	holding = none
+}
+####c_harrowdell
+3482 = { #b_dokrin_monastery
+	culture = anequinan
+	religion = twomoonsdance
+
+	holding = church_holding
+}
+3483 = { #b_maw_of_lorkhaj
+	holding = none
+}
+3484 = { #b_harrowdell
+	holding = none
+}
+####c_arenthia
+3396 = { #b_overwatch
+	culture = colovian
+	religion = imperial_cult
+
+	holding = castle_holding
+	buildings = {
+		castle_02
+		hill_forts_02
+		pastures_01
+	}
+}
+3485 = { #b_arenthia
+	holding = city_holding
+	buildings = {
+		city_03
+	}
+}
+3486 = { #b_stridside
+	holding = none
+}
+3487 = { #b_temple_of_the_divines
+	holding = church_holding
+}
+####c_palatine
+3439 = { #b_palatine
+	culture = anequinan
+	religion = twomoonsdance
+
+	holding = city_holding
+}
+3440 = { #b_ushmal_rest
+	holding = church_holding
+}
+3441 = { #b_kuna_delve
+	holding = none
+}
+3442 = { #b_little_ozur
+	holding = none
+}
+####c_dawnmead
+3443 = { #b_thizzrini
+	culture = anequinan
+	religion = twomoonsdance
+
+	holding = castle_holding
+}
+3444 = { #b_dawnmead
+	holding = none
+}
+3445 = { #b_reaper_henge
+	holding = none
+}
+3446 = { #b_llanowar
+	holding = none
+}
+####c_sleekcreek
+3447 = { #b_rawlkha
+	culture = anequinan
+	religion = twomoonsdance
+	special_building = arena_02
+	holding = castle_holding
+}
+3448 = { #b_waxing_crescent
+	holding = church_holding
+}
+3449 = { #b_sleek_creek
+	holding = none
+}
+####c_sphinxmoth
+3516 = { #b_sphinxmoth
+	culture = colovian
+	religion = imperial_cult
+
+	holding = castle_holding
+}
+3517 = { #b_fardir_folly
+	holding = none
+}
+####c_vinedusk
+3450 = { #b_vinedusk
+	culture = arenthi
+	religion = vineduskpact
+
+	holding = tribal_holding
+}
+3451 = { #b_crystal_corner
+	holding = none
+}
+####c_senalana
+3452 = { #b_senalana
+	culture = arenthi
+	religion = imperial_cult
+
+	holding = church_holding
+}
+3453 = { #b_tysethia
+	holding = none
+}
+3454 = { #b_aleudian
+	holding = none
+}
+3455 = { #b_old_town
+	holding = none
+}
+####c_grimwatch
+3456 = { #b_grimwatch
+	culture = arenthi
+	religion = vineduskpact
+
+	holding = castle_holding
+}
+3457 = { #b_wirewood
+	holding = none
+}
+3458 = { #b_vile_manse
+	holding = none
+}
+####c_greenhill
+3459 = { #b_greenhill
+	culture = arenthi
+	religion = vineduskpact
+
+	holding = castle_holding
+}
+3460 = { #b_big_ozur
+	holding = none
+}
+3461 = { #b_saledid
+	holding = none
+}
+3462 = { #b_alerian
+	holding = none
+}
+####c_autumnsite
+3463 = { #b_autumnsite
+	culture = arenthi
+	religion = vineduskpact
+
+	holding = castle_holding
+}
+3464 = { #b_thibaut_cairn
+	holding = church_holding
+}
+3465 = { #b_greenspeaker_grove
+	holding = church_holding
+}
+####c_deathsong
+3466 = { #b_deathsong_cleft
+	culture = arenthi
+	religion = vineduskpact
+
+	holding = tribal_holding
+}
+3467 = { #b_crescent_river
+	holding = none
+}
+3468 = { #b_claw_strike
+	holding = none
+}
+####c_willowgrove
+3469 = { #b_willowgrove
+	culture = arenthi
+	religion = greenpact
+
+	holding = city_holding
+}
+3470 = { #b_willowcave
+	holding = none
+}
+3471 = { #b_vinewall
+	holding = none
+}
+3472 = { #b_havar
+	holding = none
+}
+####c_thormar
+3476 = { #b_thormar
+	culture = arenthi
+	religion = vineduskpact
+
+	holding = tribal_holding
+}
+3477 = { #b_elrolia
+	holding = none
+}
+3478 = { #b_delebril
+	holding = none
+}
+####c_downriver
+3479 = { #b_downriver
+	culture = arenthi
+	religion = vineduskpact
+
+	holding = tribal_holding
+}
+3480 = { #b_blacktree
+	holding = none
+}
+3481 = { #b_thizzri
+	holding = none
+}
+####c_moonmont
+3473 = { #b_moonmont
+	culture = anequinan
+	religion = twomoonsdance
+
+	holding = church_holding
+}
+3474 = { #b_waterdance_falls
+	holding = none
+}
+3475 = { #b_broken_arch
+	holding = none
+}

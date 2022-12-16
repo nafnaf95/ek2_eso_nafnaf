@@ -1,0 +1,191 @@
+e_yokuda = {
+	575.1.1 = { holder = sesnit_100 }
+	617.1.1 = { holder = torn_100 }
+	737.1.1 = { holder = tagon_100 }
+	780.1.1 = { 
+		change_development_level = 1 #Sanking of Yokuda
+		holder = 0
+	}
+}
+
+k_ravan = {
+	760.1.1 = { holder = tavan_97 }
+	775.1.1 = { holder = tavan_98 }
+	780.1.1 = { holder = 0 }
+}
+
+d_ravan = {
+	760.1.1 = { holder = tavan_97 }
+	775.1.1 = { holder = tavan_98 }
+	822.1.1 = { holder = tavan_100 }
+}
+
+d_kanesh = {
+	3349.1.1 = { holder = na_anu_1000 }
+}
+
+c_tagon = {
+	575.1.1 = { holder = sesnit_100 }
+	617.1.1 = { holder = torn_100 }
+	737.1.1 = { holder = tagon_100 }
+}
+
+c_ravan = {
+	760.1.1 = { holder = tavan_97 }
+	775.1.1 = { holder = tavan_98 }
+	822.1.1 = { holder = tavan_100 }
+}
+
+c_nar_shad = {
+	3353.1.1 = { government = pirate_government
+				 holder = jilani_1000 }
+}
+
+c_yul = {
+	3354.1.1 = { government = pirate_government
+				 liege = d_yoku_freeport
+				 holder = nasur_1000 }
+}
+
+c_lagon = {
+	3356.1.1 = { government = pirate_government
+				 liege = d_yoku_freeport
+				 holder = abdelnour_1000 }
+}
+
+c_irranhu = {
+	3359.1.1 = { holder = jilani_1000 }
+}
+
+c_safan = {
+	3349.1.1 = { holder = na_anu_1000 }
+}
+
+c_kanesh = {
+	3349.1.1 = { holder = na_anu_1000 }
+}
+
+c_teth = {
+	3320.1.1 = { holder = hisan_1000 }
+	3387.1.1 = { holder = hisan_1002 }
+}
+
+c_syut = {
+	3320.1.1 = { holder = hisan_1000 }
+	3387.1.1 = { holder = hisan_1002 }
+}
+
+c_taleskan = {
+	3345.1.1 = { holder = kalam_1000 }
+}
+
+c_sora = {
+	3357.1.1 = { holder = saraj_1000 }
+}
+
+c_legand = {
+	3343.1.1 = { holder = dustspitter_1000 }
+}
+
+c_siuol_yelir = {
+	3355.1.1 = { holder = seadrinker_1000 }
+}
+
+c_kevalla = {
+	3350.1.1 = { holder = kaval_1 }
+}
+
+c_zamunda = {
+	3358.1.1 = { holder = azad_1000 }
+}
+
+c_kefrat = {
+	3354.1.1 = { holder = elamin_1000 }
+}
+
+c_tagon = {
+	3354.1.1 = { holder = ghanem_1000 }
+}
+
+c_rhasakan = {
+	3354.1.1 = { holder = maran_1000 }
+}
+
+c_ravan = {
+	3260.1.1 = { holder = torn_101a }
+	3300.1.1 = { holder = torn_101b }
+	3340.1.1 = { holder = torn_102 }
+	3361.1.1 = { holder = torn_103 }
+}
+
+c_jumia = {
+	3359.1.1 = { holder = yokudanlowborn_1000 }
+}
+
+c_porfan = {
+	3359.1.1 = { holder = yokudanlowborn_1000 }
+}
+
+c_bahia = {
+	3359.1.1 = { holder = asmar_1000 }
+}
+
+c_varkesh = {
+	3359.1.1 = { holder = kazemi_1000 }
+}
+
+c_dragan = {
+	3354.1.1 = { holder = rahaim_1000 }
+}
+
+c_kufan = {
+	3354.1.1 = { holder = yokudanlowborn_1002 }
+}
+
+c_makan = {
+	3354.1.1 = { holder = yokudanlowborn_1002 }
+}
+
+c_kasa = {
+	3354.1.1 = { holder = no_mitana_1000 }
+}
+
+c_soko = {
+	3354.1.1 = { holder = karim_1000 }
+}
+
+c_klithi = {
+	3310.1.1 = { holder = hel_gye_1000 }
+}
+
+c_khamsa = {
+	3330.1.1 = { holder = tahir_1000 }
+}
+
+c_nalonga = {
+	3350.1.1 = { holder = tahir_1000 }
+}
+
+c_kardesh = {
+	3350.1.1 = { holder = aqabi_1000 }
+}
+
+c_zanzar = {
+	3350.1.1 = { holder = yokudanlowborn_1004 }
+}
+
+c_asil_yelir = {
+	3350.1.1 = { holder = yokudanlowborn_1005 }
+}
+
+c_baut = {
+	3350.1.1 = { holder = yokudanlowborn_1006 }
+}
+
+c_coru_scar = {
+	3350.1.1 = { holder = yokudanlowborn_1007 }
+}
+
+c_moni = {
+	3350.1.1 = { holder = yokudanlowborn_1008 }
+}

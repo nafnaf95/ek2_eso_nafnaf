@@ -1,0 +1,80 @@
+﻿# Devs Range: 1.800.000 - 1.899.999
+
+1800000 = {
+	name = "Romus"
+	culture = colovian
+}
+#1800001 = {
+#	name = "Sarethi"
+#	culture = chuzei
+#}
+
+frostvoice = { #AJ
+	name = "Frost_Voice"
+	culture = eastmarcher
+}
+iosephus_eg = {
+	name = "Iosephus"
+	culture = nibenese
+}
+
+tundra_eye = { #Theyn
+	name  = "Tundra_Eyes"
+	culture = cyro_nord
+}
+
+septinius = { # Dionysia
+	name = "Septinius"  
+	culture = heartlander
+}
+
+eilhart = { # Dionysia
+	name = "Eilhart"  
+	culture = glenumbran
+}
+
+half_drink = { # Hedge
+	name = "Half_Drink"  
+	culture = eastmarcher
+	motto = dynn_milk_motto
+}
+
+malleran= { # Yriel
+	name = "Malleran"  
+	culture = chuzei
+}
+
+#Easter Eggs
+
+#Karl Marx, Philosopher real life Reference
+karl_marx = { 
+	name  = "Mordechai"
+	culture = colovian
+	motto = dynn_marx_motto
+}
+#for Grognak, Attorney at Law. CallMeKevin Reference
+attor_ney = {
+	name = "Attor_Ney"
+	culture = mountain_orc
+}
+#the Elvis Himselvis
+dresley_100 = {
+	name = "Dresley"
+	culture = armun_an
+}
+
+##Prize winners
+
+#EK chess competition 1 winner
+chess_morda = {
+	name = "Morda"
+	culture = cyro_nord
+}
+
+#EK chess competition 2 winner
+chess_glory = {
+	prefix = "dynnp_of"
+	name = "Whiterun"
+	culture = westmarcher
+	motto = dynn_glory_motto
+}

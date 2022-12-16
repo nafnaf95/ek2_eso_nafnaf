@@ -1,0 +1,74 @@
+﻿### EK EDIT: Removed references to vanilla religions
+
+BaronyTownType = {
+	type = landed_title
+
+	text = {
+		trigger = {
+			title_province = {
+				county = {
+					development_level > medium_development_level
+				}
+			}
+		}
+		localization_key = barony_town_type_city
+	}
+
+	text = {
+		trigger = {
+			title_province = {
+				fort_level > 0
+			}
+		}
+		localization_key = barony_town_type_castle_town
+	}
+
+	text = {
+		trigger = {
+			title_province = {
+				county = {
+					development_level <= medium_development_level
+					development_level >= bad_development_level
+				}
+			}
+		}
+		localization_key = barony_town_type_town
+	}
+
+	text = {
+		trigger = {
+			title_province = {
+				county = {
+					development_level < bad_development_level
+				}
+			}
+		}
+		localization_key = barony_town_type_village
+	}
+}
+
+### EK EDIT: Grand Temples are tied to your main pantheon
+GetFaithGrandTemple = { # Get name of Grand Temple in religion
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = faith_uses_grand_cathedral } }
+		localization_key = building_type_grand_cathedral_01
+	}
+	text = {
+		trigger = { faith = { has_doctrine_parameter = faith_uses_daedric_shrine } }
+		localization_key = building_type_daedric_shrine_01
+	}
+	text = {
+		trigger = { faith = { has_doctrine_parameter = faith_uses_great_wyrd_tree } }
+		localization_key = building_type_great_wyrd_tree_01
+	}
+	text = {
+		trigger = { faith = { has_doctrine_parameter = faith_uses_dragon_temple } }
+		localization_key = building_type_dragon_temple_01
+	}
+	text = {
+		trigger = { faith = { has_doctrine_parameter = faith_uses_holy_site_other_grand_temple } }
+		localization_key = building_type_holy_site_other_grand_temple_01
+	}
+}

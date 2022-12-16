@@ -1,0 +1,37 @@
+﻿### EK EDIT: Removed references to vanilla cultures
+### EK NOTE: WE CANNOT USE SCRIPTED TRIGGERS HERE
+# THIS FILE IS LOADED *BEFORE* THE SCRIPTED TRIGGERS, TRYING TO USE SOME HERE WILL CRASH THE GAME
+
+fp1_adventure_legacy_track = {
+	is_shown = {
+		has_dlc_feature = the_northern_lords
+		dynasty = {
+			OR = {
+				# dynast = {
+					# culture = {
+						# OR = {
+							# this = culture:norse
+							# any_parent_culture_or_above = {
+								# this = culture:norse
+							# }
+						# }
+					# }
+				# }
+				has_dynasty_perk = fp1_adventure_legacy_1
+			}
+		}
+	}
+}
+
+### EK EDIT: Pillage unlocked by Practiced Pirates
+fp1_pillage_legacy_track = {
+	is_shown = {
+		has_dlc_feature = the_northern_lords
+		dynasty = {
+			OR = {
+				dynast.culture = { has_cultural_parameter = unlock_pillage_legacy }
+				has_dynasty_perk = fp2_urbanism_legacy_1
+			}
+		}
+	}
+}

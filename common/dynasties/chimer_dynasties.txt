@@ -1,0 +1,25 @@
+﻿# Chimeris Range: 900000-999999
+	#Chimer: 900000-919999
+	#Chimeriquey: 920000-929999
+	#Cantemiric 930000-939999
+
+#Chimer: 900000-919999
+
+
+
+#Chimeriquey: 920000-929999
+
+
+
+#Cantemiric 930000-939999
+
+930000 = {
+	name = "Zainat"
+	culture = cantemiric
+	motto = dynn_zainat_motto
+}
+930001 = {
+	name = "Nasir"
+	culture = cantemiric
+	motto = dynn_nasir_motto
+}

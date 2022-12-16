@@ -1,0 +1,122 @@
+﻿# Miscellaneous Range: 1-9.99999
+
+# Cyrodiilic Range: 100.000 - 199.999
+
+	#Colovian: 100.000 - 109.999
+	#Nibenese: 110.000 - 119.999
+	#Blackwood: 120.000 - 129.999
+	#Heartlander: 130.000 - 139.999
+	
+# Yokudan Range: 200.000 - 299.999
+
+	#Yokudan: 200.000 - 209.999
+	#Forebear: 210.000 - 219.999
+	#Crown: 220.000 - 229.999
+	#Lhotunic: 230.000 - 239.999
+	#Alik'r: 240.000 - 249.999
+	#Abecean: 250.000 - 259.999
+	#Horsemen: 260.000 - 269.999
+
+# Nordic Range: 300.000 - 399.999
+
+	#Eastmarcher: 300.000 - 309.999
+	#Westmarcher: 310.000 - 319.999
+	#Cyro-Nord: 320.000 - 329.999
+	#Atmoran: 330.000 - 339.999
+	#Skaal: 340.000 - 349.999
+
+# Bretonic Range: 400.000 - 499.999
+
+	#Glenumbran: 400.000 - 409.999
+	#Northmen: 410.000 - 419.999
+	#Iliac: 420.000 - 429.999
+	#Bjoule: 430.000 - 439.999
+	#Wrothgarian: 440.000 - 449.999
+	
+# Nedic Range: 500.000 - 599.999
+
+	#Reachfolk: 500.000 - 504999
+	#Kothringi: 505000 - 509.999
+	#Galen: 510.000 - 514999
+	#Keptu: 515.000 - 519.999
+	#Duraki: 520.000 - 524999
+	#Kreath: 525.000 - 529.999
+	#Perena: 530.000 - 534999
+	#Gemha: 535.000 - 539.999
+	#Karth: 540.000 - 549.999
+	#Nedes: 545.000 - 554999 
+	
+# Bosmeris Range: 600.000 - 699.999
+
+	#Pact Bosmer: 600.000 - 669.999
+	#Civic Bosmer: 610.000 - 519.999
+	#Arenthi: 620.000 - 629.999
+	
+# Aldmeris Range: 700.000 - 799.999
+
+	#Alinori: 700.000 - 719.999
+	#Aurodoni: 720.000 - 729.999
+	#Balfieri: 730.000 - 739.999
+	#Corelanya: 740.000 - 749.999
+
+# Orsimeris Range: 800.000 - 899.999
+
+	#Mountain Orc: 800.000 - 819.999
+	#Iron Orc: 820.000 - 829.999
+	#Wood Orc: 830.000 - 839.999
+
+# Chimeris Range: 900.000 - 999.999
+
+	#Chimer: 900.000 - 919.999
+	#Chimeriquey: 920.000 - 929.999
+	#Cantemiric 930.000 - 939.999
+	
+# Argonian Range: 1.000.000 - 1.099.999
+
+	#Hleel: 1.000.000 - 1.019.999
+	#Naga: 1.020.000 - 1029.999
+	#Archein: 1.030.000 - 1039.999
+	#Paatru: 1.040.000 - 1049.999
+	#Agaceph: 1.050.000 - 1059.999
+	#Sarpa: 1.060.000 - 1.069.999
+	#Lukiul: 1.070.000 - 1.079.999
+	#Hapsleet: 1.080.000 - 1.089.999
+
+# Khajiiti Range: 1.100.000 - 1.199.999
+
+	#Pellitinian: 1.100.000 - 1.109.999
+	#Anequinan: 1.110.000 - 1.119.999
+	#Baandari: 1.120.000 - 1.129.999
+	
+# Maormeri Range: 1.200.000 - 1.299.999
+
+# Dunmeris Range: 1.300.000 - 1.399.999
+
+	#Dunmer: 1.300.000 - 1.309.999
+	#Ashlander: 1.310.000 - 1.339.999
+
+# Goblinken Range: 1.400.000 - 1.499.999
+
+	#Goblin: 1.400.000 - 1.409.999
+	#Riekling: 1.410.000 - 1.419.999
+
+# Ayleidis Range: 1.500.000 - 1.599.999
+
+	#Ayleidi: 1.500.000 - 1.519.999
+	#Barsaebic: 1.520.000 - 1.529.999
+	#Hectahamic: 1.530.000 - 1.539.999
+
+# Akaviri Range: 1.600.000 - 1.699.999
+
+	#Rimmen: 1.600.000 - 1.619.999
+	#Jaegi: 1.620.000 - 1.629.999
+	#Tsaesci: 1.630.000 - 1.639.999
+
+# Daedric Range: 1.700.000 - 1.799.999
+	
+	#Dremora: 1.700.00 - 1.719.99
+
+# Devs Range: 1.800.000 - 1.899.999
+
+#If you need more than 100,000 IDs for a culture group, you might be adding too many characters :p
+#If you really really need more IDs than allotted here, start from the next free range, do not "move" other ranges.

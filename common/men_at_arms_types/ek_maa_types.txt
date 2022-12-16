@@ -1,0 +1,210 @@
+﻿# standard costs
+@maa_buy_cost = 150
+@maa_low_maintenance_cost = 1.0
+@maa_high_maintenance_cost = 5.0
+
+#Standard regiments
+war_mages = { ##WIP, gonna make them siege troops that also fight in main
+	type = mages
+	
+	damage = 25
+	toughness = 15
+	pursuit = 5
+	screen = 20
+	
+	siege_tier = 1
+	siege_value = 0.1
+	
+	counters = {
+		heavy_infantry = 1
+		pikemen = 1
+	}
+	
+	buy_cost = { gold = heavy_infantry_recruitment_cost }
+	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost }
+	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost }
+	
+	stack = 100
+	ai_quality = { value = culture_ai_weight_heavy_infantry }
+	icon = mages
+}
+
+spellswords = { ##can also fight like archers a bit?
+	type = archers
+	
+	damage = 35
+	toughness = 22
+	pursuit = 10
+	screen = 10
+	
+	counters = {
+		mages = 1
+		archers = 1
+		skirmishers = 1
+	}
+	
+	buy_cost = { gold = heavy_infantry_recruitment_cost }
+	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost }
+	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost }
+	
+	stack = 100
+	ai_quality = { value = culture_ai_weight_heavy_infantry }
+	icon = spellswords
+}
+
+# Special regiments
+daedra = {
+	type = heavy_infantry
+	can_recruit = { always = no }
+	
+	damage = 40
+	toughness = 30
+	pursuit = 0
+	screen = 24
+	
+	counters = {
+		pikemen = 1
+	}
+	
+	buy_cost = { gold = 50 }
+	low_maintenance_cost = { gold = 0 }
+	high_maintenance_cost = { gold = 1 }
+	
+	max_sub_regiments = 1
+	
+	stack = 100
+	ai_quality = { value = 100 }
+
+	icon = daedra
+}
+
+# Low undead, skeletons, zombies and the like
+risen_dead = {
+	type = skirmishers
+	
+	damage = 20
+	toughness = 20
+	pursuit = 0
+	screen = 0
+
+	counters = {
+		heavy_infantry = 1
+	}
+
+	# Free of charge?
+	buy_cost = { gold = 50 }
+	low_maintenance_cost = { gold = 0 }
+	high_maintenance_cost = { gold = 1 }
+	
+	stack = 100
+	ai_quality = { value = culture_ai_weight_skirmishers }
+	
+	icon = risen_dead
+	can_recruit = { always = no } # Spawned by decision
+}
+
+# Mystery of Razak event troops
+razak_army = {
+	type = heavy_infantry
+	
+	damage = 22
+	toughness = 35
+	pursuit = 10
+	screen = 10
+	
+	counters = {
+		mages = 1
+		archers = 1
+		skirmishers = 1
+	}
+
+	# Free of charge?
+	buy_cost = { gold = 50 }
+	low_maintenance_cost = { gold = 0 }
+	high_maintenance_cost = { gold = 1 }
+	
+	stack = 100
+	icon = animunculi
+	can_recruit = { always = no } # Spawned by decision
+}
+
+# Should be self explanatory
+dovah_vahlok = {
+	type = dragon
+	can_recruit = { always = no }
+	
+	damage = 10000
+	toughness = 10000
+	pursuit = 10000
+	screen = 10000
+	
+	counters = {
+		skirmishers = 1
+		heavy_infantry = 1
+		light_cavalry = 1
+		heavy_cavalry = 1
+	}
+	
+	buy_cost = { gold = 50 }
+	low_maintenance_cost = { gold = 0 }
+	high_maintenance_cost = { gold = 1 }
+	
+	max_sub_regiments = 1
+	
+	stack = 10
+	ai_quality = { value = 100 }
+	
+	icon = dovah_vahlok
+}
+
+# Should be self explanatory
+dragons = {
+	type = dragon
+	
+	damage = 500
+	toughness = 500
+	pursuit = 1000	# The flaming breath are very good for rampaging the battlefield
+	screen = 0		# They bail out
+	
+	counters = {
+		skirmishers = 1
+		heavy_infantry = 1
+		light_cavalry = 1
+		heavy_cavalry = 1
+	}
+	
+	buy_cost = { gold = 50 }
+	low_maintenance_cost = { gold = 0 }
+	high_maintenance_cost = { gold = 1 }
+	
+	max_sub_regiments = 1
+	
+	stack = 10
+	ai_quality = { value = 100 }
+	
+	icon = dovah_vahlok
+	can_recruit = { always = no } # Spawned by decision
+}
+
+# AJ will be happy
+minotaurs = {
+	type = heavy_infantry
+	
+	damage = 100
+	toughness = 70
+	pursuit = 30
+	screen = 0
+	
+	counters = {
+		pikemen = 1
+	}
+	
+	buy_cost = { gold = heavy_infantry_recruitment_cost }
+	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost }
+	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost }
+	
+	stack = 50
+	ai_quality = { value = culture_ai_weight_heavy_infantry }
+	icon = heavy_infantry
+	can_recruit = { always = no } # Spawned by decision
+}

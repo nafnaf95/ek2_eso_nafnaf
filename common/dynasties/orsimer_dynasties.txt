@@ -1,0 +1,191 @@
+﻿# Orsimeris Range: 800.000 - 899.999
+
+	#Mountain Orc: 800.000 - 819.999
+	#Iron Orc: 820.000 - 829.999
+	#Wood Orc: 830.000 - 839.999
+
+#Mountain Orc: 800.000 - 819.999
+
+#800000 = {
+#	name = "Dushnikh"
+#	culture = mountain_orc
+#}
+#800001 = {
+#	name = "Gortwog"
+#	culture = mountain_orc
+#}
+#800002 = {
+#	name = "Largash"
+#	culture = mountain_orc
+#}
+800003 = {
+	name = "Ghorak"
+	culture = mountain_orc
+}
+800004 = {
+	name = "Yal"
+	culture = mountain_orc
+	motto = dynn_yal_motto
+}
+#800005 = {
+#	name = "Idrun"
+#	culture = mountain_orc
+#}
+800009 = {
+	name = "Oathbound"
+	culture = mountain_orc
+}
+800010 = {
+	name = "Bloodtusk"
+	culture = mountain_orc
+}
+800011 = {
+	name = "Fharun"
+	culture = mountain_orc
+	motto = dynn_fharun_motto
+}
+800012 = {
+	name = "Morkul"
+	culture = mountain_orc
+	motto = dynn_morkul_motto
+}
+dyn_brohbrokh = {
+	name = "Brohbrokh"
+	culture = mountain_orc
+	motto = dynn_brohbrokh_motto
+}
+800013 = {
+	name = "Seamount"
+	culture = mountain_orc
+}
+800014 = {
+	name = "Tumnosh"
+	culture = mountain_orc
+}
+800015 = {
+	name = "Agluk"
+	culture = mountain_orc
+}
+800016 = {
+	name = "Shatul"
+	culture = mountain_orc
+}
+800017 = {
+	name = "Khazor"
+	culture = mountain_orc
+}
+800018 = {
+	name = "Buzga"
+	culture = mountain_orc
+}
+800019 = {
+	name = "Orgak"
+	culture = mountain_orc
+}
+800020 = {
+	name = "Bagrakh"
+	culture = mountain_orc
+}
+800021 = {
+	name = "Kaval"
+	culture = mountain_orc
+}
+ivory_tooth = {
+	name = "Ivory_Tooth"
+	culture = mountain_orc
+	motto = dynn_ivorytooth_motto
+}
+shardbrok = {
+	name = "Shardbrok"
+	culture = mountain_orc
+}
+800024 = {
+	name = "Murug"
+	culture = mountain_orc
+}
+igrun = {
+	name = "Igrun"
+	culture = mountain_orc
+}
+golzarga = {
+	name = "Golzarga"
+	culture = mountain_orc
+}
+
+shurgak = {
+	name = "Shurgak"
+	culture = mountain_orc
+}
+
+#Iron Orc: 820.000 - 829.999
+
+820000 = {
+	name = "Galatite"
+	culture = iron_orc
+}
+
+820001 = {
+	name = "Orichalc"
+	culture = iron_orc
+	motto = dynn_orichalc_motto
+}
+
+820002 = {
+	name = "Rubedite"
+	culture = iron_orc
+	motto = dynn_rubedite_motto
+}
+
+#820003 = {
+#	name = "Cassiterite"
+#	culture = iron_orc
+#}
+
+820004 = {
+	name = "Malachite"
+	culture = iron_orc
+}
+
+#820005 = {
+#	name = "Adamantite"
+#	culture = iron_orc
+#}
+
+820006 = {
+	name = "Zircon"
+	culture = iron_orc
+}
+
+#Wood Orc: 830.000 - 839.999
+
+830000 = {
+	name = "Barkbite"
+	culture = wood_orc
+	motto = dynn_barkbite_motto
+}
+
+830002 = {
+	name = "Bloodmist"
+	culture = wood_orc
+}
+
+830003 = {
+	name = "Lhurgash"
+	culture = wood_orc
+	motto = dynn_lhurgash_motto
+}
+
+830004 = {
+	name = "Drublog"
+	culture = wood_orc
+}
+
+burzag = {
+	name = "Burzag"
+	culture = mountain_orc
+}
+##ESO
+scaled_court = {
+	name = "Scaled Court"
+	culture = iron_orc
+}

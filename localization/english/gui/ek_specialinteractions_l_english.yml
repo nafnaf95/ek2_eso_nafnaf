@@ -1,0 +1,3 @@
+﻿l_english:
+ MARRIAGE_DIFFERENT_CULTURE_REASON:1 "Your [culture|E] differs from [recipient.GetShortUIName]: $VALUE|+0$"
+ MARRIAGE_DIFFERENT_CULTURE_GROUP_REASON:1 "Your [heritage|E] differs from [recipient.GetShortUIName]: $VALUE|+0$"

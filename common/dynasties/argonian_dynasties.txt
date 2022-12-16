@@ -1,0 +1,516 @@
+﻿# Argonian Range: 1.000.000 - 1.099.999
+
+	#Hleel: 1.000.000 - 1.019.999
+	#Naga: 1.020.000 - 1029.999
+	#Archein: 1.030.000 - 1039.999
+	#Paatru: 1.040.000 - 1049.999
+	#Agaceph: 1.050.000 - 1059.999
+	#Sarpa: 1.060.000 - 1.069.999
+	#Lukiul: 1.070.000 - 1.079.999
+	#Hapsleet: 1.080.000 - 1.089.999
+
+#Hleel: 1.000.000 - 1.019.999
+1000000 = {
+	name= "dynn_Sharp_Fang" #Vampires
+	culture= hleel
+}
+1000001 = {
+	name= "dynn_Sharp_Eye"
+	culture= hleel
+}
+1000002 = {
+	name= "dynn_Su_Zahleel" #Lore from ESO Shadowfen
+	culture= hleel
+	motto = dynn_suzahleel_motto
+}
+1000003 = {
+	name= "dynn_Vos_Eihleel" #Lore from ESO Murkmire
+	culture= hleel
+}
+1000004 = {
+	name= "Xit-Xaht" #Mazzatun Tribe, continued to build "lasting structures" in the Second Era. Could be in c-mazzatun
+	culture= hleel 
+}
+1000005 = {
+	name = "Thuxis"
+	culture= hleel
+}
+place_holder = {
+	name = "dynn_place_holder"
+	culture = hleel
+}
+
+1000006 = {
+	name = "Toteikhleel"
+	culture= hleel
+	motto = dynn_toteikhleel_motto
+}
+1000007 = {
+	name = "Xulmeleel" #Mer-Slayer tribe
+	culture= hleel
+	motto = dynn_xulmeleel_motto
+}
+1000008 = {
+	name = "Kaal-Mota" #
+	culture= hleel
+}
+
+#Naga: 1.020.000 - 1029.999
+1020000 = {
+	prefix = "dynnp_naga"
+	name= "dynn_Sul_Xan"  #The Naga-Kur tribe from ESO Murkmire?
+	culture= naga
+}
+#1020001 = {
+#	name= "dynn_Naka_Desh"
+#	culture= naga
+#}
+1020002 = {
+	prefix = "dynnp_naga"
+	name= "dynn_Xal_Xith"
+	culture= naga
+}
+1020003 = {
+	prefix = "dynnp_naga"
+	name = "Juseius"
+	culture = naga
+	motto = dynn_juseius_motto
+}
+1020004 = {
+	prefix = "dynnp_naga"
+	name = "Kur"
+	culture = naga
+}
+1020005 = {
+	prefix = "dynnp_naga"
+	name = "Shaie"
+	culture = naga
+}
+1020006 = {
+	prefix = "dynnp_naga"
+	name = "Elradaleius"
+	culture = naga
+}
+1020007 = {
+	prefix = "dynnp_naga"
+	name = "Genikeiuslan"
+	culture = naga
+}
+1020008 = {
+	prefix = "dynnp_naga"
+	name = "Juaneius"
+	culture = naga
+}
+#Archein: 1.030.000 - 1039.999
+#1030000 = {
+#	name= "dynn_Su_Matun"
+#	culture= archein
+#}
+#
+1030001 = {
+	name= "dynn_Red_Dream"
+	culture= archein
+}
+
+#1030002 = {
+#	name= "dynn_Amber_Tongue"
+#	culture= archein
+#}
+#
+#1030003 = {
+#	name= "dynn_Shoss_Kaleel"
+#	culture= archein
+#}
+#
+#1030004 = {
+#	name= "Xiptzleel"
+#	culture= archein
+#}
+#
+#1030005 = {
+#	name= "dynn_Sul_Xaht"
+#	culture= archein
+#}
+#
+#1030006 = {
+#	name= "Xitzahleel"
+#	culture= archein
+#}
+#
+#Paatru: 1.040.000 - 1049.999
+#1040001 = {
+#	name = "Bunlei"
+#	culture = paatru
+#}
+#
+#1040002 = {
+#	name = "Bunru"
+#	culture = paatru
+#}
+#
+#1040003 = {
+#	name = "Bunzamwee"
+#	culture = paatru
+#}
+#
+#1040005 = {
+#	name = "Bunkur"
+#	culture = paatru
+#}
+#
+#1040006 = {
+#	name = "Efferumee"
+#	culture = paatru
+#}
+#
+#1040007 = {
+#	name = "Effedarmee"
+#	culture = paatru
+#}
+#
+#1040008 = {
+#	name = "Elfejumee"
+#	culture = paatru
+#}
+#
+#1040009 = {
+#	name = "Eljubunlei"
+#	culture = paatru
+#}
+#
+#1040010 = {
+#	name = "Elleegahzawlan"
+#	culture = paatru
+#}
+#
+#1040011 = {
+#	name = "Elleebunzaw"
+#	culture = paatru
+#}
+#
+#1040012 = {
+#	name = "Eloliwihju"
+#	culture = paatru
+#}
+#
+#1040013 = {
+#	name = "Ferumee"
+#	culture = paatru
+#}
+#
+#1040014 = {
+#	name = "Gahzawmee"
+#	culture = paatru
+#}
+#
+#1040015 = {
+#	name = "Gebunlei"
+#	culture = paatru
+#}
+#
+#1040016 = {
+#	name = "Gefeeius"
+#	culture = paatru
+#}
+#
+#1040017 = {
+#	name = "Gefeleimee"
+#	culture = paatru
+#}
+#
+#1040018 = {
+#	name = "Gefeleilan"
+#	culture = paatru
+#}
+#
+#1040019 = {
+#	name = "Jubunzawmee"
+#	culture = paatru
+#}
+#
+#1040020 = {
+#	name = "Keebunkur"
+#	culture = paatru
+#}
+#
+#1040021 = {
+#	name = "Keebunrumee"
+#	culture = paatru
+#}
+#
+#1040022 = {
+#	name = "Keefekur"
+#	culture = paatru
+#}
+#
+#1040023 = {
+#	name = "Keefeeius"
+#	culture = paatru
+#}
+#
+#1040024 = {
+#	name = "Keejusazaw"
+#	culture = paatru
+#}
+#
+#1040025 = {
+#	name = "Keeolibunru"
+#	culture = paatru
+#}
+#
+#1040026 = {
+#	name = "Keeolieelju"
+#	culture = paatru
+#}
+#
+#1040027 = {
+#	name = "Keeolianeiusmee"
+#	culture = paatru
+#}
+#
+#
+#1040029 = {
+#	name = "Keerajju"
+#	culture = paatru
+#}
+#
+#1040030 = {
+#	name = "Keebunkur"
+#	culture = paatru
+#}
+#
+#1040031 = {
+#	name = "Nikzawmee"
+#	culture = paatru
+#}
+#
+#1040032 = {
+#	name = "Olibunru"
+#	culture = paatru
+#}
+#
+#1040033 = {
+#	name = "Olindarmee"
+#	culture = paatru
+#}
+#
+#1040034 = {
+#	name = "Oliwihiru"
+#	culture = paatru
+#}
+#
+#1040035 = {
+#	name = "Olibunkur"
+#	culture = paatru
+#}
+#
+#1040036 = {
+#	name = "Olidanlahmee"
+#	culture = paatru
+#}
+#
+#1040037 = {
+#	name = "Olidanjumee"
+#	culture = paatru
+#}
+#
+#1040038 = {
+#	name = "Oligazawmee"
+#	culture = paatru
+#}
+#
+#1040039 = {
+#	name = "Oligamleimee"
+#	culture = paatru
+#}
+#
+#1040040 = {
+#	name = "Olijkur"
+#	culture = paatru
+#}
+#
+#1040041 = {
+#	name = "Olijzawmee"
+#	culture = paatru
+#}
+#
+#1040042 = {
+#	name = "Olinlahmee"
+#	culture = paatru
+#}
+#
+#1040043 = {
+#	name = "Radaldarmee"
+#	culture = paatru
+#}
+#
+#1040044 = {
+#	name = "Raeeljumee"
+#	culture = paatru
+#}
+#
+#1040045 = {
+#	name = "Raeeldar"
+#	culture = paatru
+#}
+#
+#
+#1040047 = {
+#	name = "Ragaheiusmee"
+#	culture = paatru
+#}
+#
+#1040048 = {
+#	name = "Wizawmee"
+#	culture = paatru
+#}
+#
+#1040049 = {
+#	name = "Ushicin"
+#	culture = paatru
+#}
+#
+#1040050 = {
+#	name = "Seetul"
+#	culture = paatru
+#}
+#
+#1040046 = {
+#	name = "Keebunkur"
+#	culture = paatru
+#}
+
+#Agaceph: 1.050.000 - 1059.999
+1050000 = {
+	name= "dynn_Ca_Uxith" #Probably should have COA
+	culture= agaceph
+}
+#1050001 = {
+#	prefix = "dynnp_dimik"
+#	name= "Teel-Maz"
+#	culture= agaceph
+#}
+#1050002 = {
+#	name= "dynn_Dimik_Matun"
+#	culture= agaceph
+#}
+#1050003 = {
+#	name= "dynn_Ca_Zahleel"
+#	culture= agaceph
+#}
+#1050004 = {
+#	prefix = "dynnp_dimik"
+#	name= "dynn_Gee_Desh"
+#	culture= agaceph
+#}
+#1050005 = {
+#	name= "dynn_Dimik_Shoss"
+#	culture= agaceph
+#}
+1050006 = {
+	prefix = "dynnp_dimik"
+	name= "dynn_Jujju"
+	culture= agaceph
+}
+1050007 = {
+	prefix = "dynnp_dimik"
+	name= "dynn_Olidanju"
+	culture= agaceph
+}
+1050008 = {
+	prefix = "dynnp_dimik"
+	name= "dynn_Rasakur"
+	culture= agaceph
+}
+1050009 = {
+	prefix = "dynnp_dimik"
+	name= "dynn_Neius"
+	culture= agaceph
+}
+#1050010 = {
+#	prefix = "dynnp_dimik"
+#	name= "dynn_Aneiuslan"
+#	culture= agaceph
+#}
+#1050011 = {
+#	prefix = "dynnp_dimik"
+#	name= "dynn_Veesum"
+#	culture= agaceph
+#}
+
+#Sarpa: 1.060.000 - 1.069.999
+1060000 = {
+	prefix = "dynnp_tseth"
+	name = "Haj"
+	culture = sarpa
+}
+1060001 = {
+	prefix = "dynnp_tseth"
+	name = "Mota"
+	culture = sarpa
+}
+1060002 = {
+	name = "Shaja"
+	culture = sarpa
+}
+
+#Lukiul: 1.070.000 - 1.079.999
+1070000 = {
+	name = "Quixoteleel"
+	culture = lukiul
+}
+
+#Hapsleet: 1.080.000 - 1.089.999
+1080000 = {
+	name = "dynn_Black_Tongue"
+	culture = hapsleet
+}
+1080001 = {
+	name = "dynn_Tum_Taleel" #Root-House
+	culture = hapsleet
+}
+bright_throat = {
+	name = "dynn_Bright_Throat"
+	culture = hapsleet
+}
+moss_skin = {
+	name = "dynn_Moss_Skin"
+	culture = hapsleet
+}
+
+norg_tzel = {
+	name = "dynn_norg_tzel"
+	culture = hapsleet
+}
+
+tharumee = {
+	name = "dynn_Tharumee"
+	culture = hapsleet
+	motto = dynn_tharumee_motto
+}
+
+oligazawmee = {
+	name = "dynn_Oligazawmee"
+	culture = hapsleet
+}
+
+1040046 = {
+	name = "dynn_Raeelru"
+	culture = paatru
+}
+
+1040000 = {
+	name= "dynn_Anzawmee"
+	culture= paatru
+}
+
+1040028 = {
+	name = "dynn_Keeolisalei"
+	culture = paatru
+}
+
+
+seetul = {
+	name = "dynn_Seetul"
+	culture = hapsleet
+}

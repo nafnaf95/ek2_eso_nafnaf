@@ -1,0 +1,1121 @@
+﻿##SEPTIM DYNASTY
+
+#House Septim
+
+septim_002 = {
+	name = "Ukendt"
+	dynasty = 2 #Early-Beard
+	religion = nord_cult
+	culture = atmoran
+	#add_trait = nord
+	#add_trait = adventurer
+	#add_trait = warrior_4
+	3724.1.1 = {
+		birth = "3724.1.1"
+	}
+	3755.12.12 = {
+		dynasty = 1 #Septim
+	}
+	3758.1.1 = {
+		death = { death_reason = death_battle }
+	}
+}
+septim_003 = {
+	name = "Hjalti"
+	dynasty = 2 #Early-Beard
+	religion = nord_cult
+	culture = atmoran #Inherit ethnicity from father
+	#add_trait = nord
+	#add_trait = ambitious
+	#add_trait = ruthless
+	#add_trait = deceitful
+	#add_trait = gregarious
+	#martial = 12
+	#diplomacy = 11
+	#stewardship = 9
+	#learning = 7
+	#intrigue = 13
+	
+	father = septim_002
+	
+	3748.6.24 = { #Tibedetha
+		birth = yes
+		culture = iliac #Culture set to Breton (Alcaire)
+		#effect = {
+		#	set_character_flag = dragonborn_candidate
+		#	set_global_flag = septim_spawned
+		#}
+	}
+	3754.1.1 = {
+		add_trait = diligent
+	}
+	3763.1.1 = {
+		add_trait = arrogant
+	}
+	3764.1.1 = {
+		add_trait = warrior_3
+		add_trait = inspiring_leader
+		add_trait = adventurer
+		add_trait = tiber_portrait
+	}
+	3766.1.1 = {
+		add_trait = nightblade_1
+	}
+	3768.1.1 = { #First military victory
+		add_trait = dragonborn
+		add_trait = veteran_leader_1
+		remove_trait = nightblade_1
+		add_trait = nightblade_2
+		add_trait = lead_from_fore
+		add_trait = aggressive_leader
+		add_trait = thuum_1 #"Shouted" down the walls
+		name = "Talos"
+		dynasty = 3 #Stormcrown
+		culture = cyro_nord
+		effect = {
+			save_global_event_target_as = current_dragonborn
+		#}
+	}
+	3769.1.1 = { #Visited the Greybeards
+		remove_trait = thuum_1
+		add_trait = thuum_3
+		remove_trait = veteran_leader_1
+		add_trait = veteran_leader_2
+		remove_trait = warrior_3
+		add_trait = warrior_4
+		effect = {
+			prestige = 500
+			add_amulet_of_kings = yes
+		}
+	}
+	3771.1.1 = {
+		add_trait = warlord
+		remove_trait = nightblade_2
+		add_trait = nightblade_3
+	}
+	3774.1.1 = {
+		add_trait = veteran_leader_3
+		remove_trait = veteran_leader_2
+	}
+	3777.1.1 = {
+		add_trait = veteran_leader_4
+		remove_trait = veteran_leader_3
+		add_trait = warrior_5
+		remove_trait = warrior_4
+	}
+	3784.1.1 = { #Takes the name Tiber Septim
+		name = "Tiber"
+		dynasty = 1 #Septim
+		culture = heartlander
+		effect = { add_amulet_of_kings = yes }
+		remove_trait = adventurer
+		remove_trait = veteran_leader_4
+		add_trait = veteran_leader_5
+		# His slit throat prevents him from using the Voice
+		add_trait = throat_slit
+		remove_trait = thuum_3
+	}
+	3826.1.1 = { #Last year of the 2nd era (2E 896)
+		effect = { set_character_flag = tamriel_founder }
+		create_bloodline = {
+			type = bloodline_tiber
+		}
+	}
+	3855.1.1 = {
+		death = yes
+	}
+}
+
+septim_004 = {
+	name = "Agnorith" #Tiber Septim's brother
+	dynasty = 2 #Early-Beard
+	religion = nord_cult
+	culture = cyro_nord
+	#add_trait = breton
+	father = septim_002 #Ukendt
+	
+	3752.2.28 = {
+		birth = "3752.2.28"
+	}
+	3774.1.1 = {
+		dynasty = 1 #Septim
+	}
+	3833.1.1 = {
+		death = "3833.1.1"
+	}
+}
+
+septim_006 = {
+	name = "Ukendt" #Tiber Septim's son
+	dynasty = 1 #Septim
+	culture = cyro_nord
+	#add_trait = nord
+	religion = nord_cult
+	father = septim_003 #Tiber
+	
+	3785.2.4 = {
+		birth = yes
+	}
+	3836.1.1 = {
+		death = yes
+	}
+}
+
+septim_007 = {
+	name = "Pelagius" #Pelagius I
+	dynasty = 1 #Septim
+	religion = nord_cult
+	culture = cyro_nord
+	#add_trait = nord
+	father = septim_006 #Ukendt II
+	
+	3830.12.12 = {
+		birth = "3830.12.12"
+	}
+	3855.1.1 = {
+		religion = imperial_cult
+		culture = heartlander
+		#effect = { add_amulet_of_kings = yes }
+	}
+	3858.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+septim_008 = {
+	name = "Kintyra" #Kintyra I
+	female = yes
+	dynasty = 1 #Septim
+	religion = nord_cult
+	culture = iliac 
+	#add_trait = breton
+	father = septim_004 #Agnoriath
+	
+	3772.11.1 = {
+		birth = "3772.11.1"
+	}
+	3774.1.1 = {
+		dynasty = 1 #Septim
+	}
+	3855.1.1 = {
+		religion = imperial_cult
+	}
+	3855.1.1 = {
+		culture = heartlander
+	}
+	3858.1.1 = {
+		#effect = { add_amulet_of_kings = yes }
+	}
+	3870.1.1 = {
+		death = "3870.1.1"
+	}
+}
+
+septim_009 = {
+	name = "Uriel" #Uriel I
+	dynasty = 1 #Septim
+	religion = nord_cult
+	culture = iliac
+	#add_trait = breton
+	mother = septim_008 #Kintyra
+	
+	3795.3.17 = {
+		birth = "3795.3.17"
+		culture = heartlander
+	}
+	3855.1.1 = {
+		religion = imperial_cult
+	}
+	3870.1.1 = {
+		#effect = { add_amulet_of_kings = yes }
+	}
+	3881.1.1 = {
+		death = "3881.1.1"
+	}
+}
+
+septim_010 = {
+	name = "Uriel" #Uriel II
+	dynasty = 1 #Septim
+	religion = nord_cult
+	culture = iliac
+	#add_trait = breton
+	father = septim_009 #Uriel I
+	
+	3816.9.1 = {
+		birth = "3816.9.1"
+	}
+	3855.1.1 = {
+		religion = imperial_cult
+	}
+	3855.1.1 = {
+		culture = heartlander
+	}
+	3881.1.1 = {
+		#effect = { add_amulet_of_kings = yes }
+	}
+	3899.1.1 = {
+		death = "3899.1.1"
+	}
+}
+
+septim_011 = {
+	name = "Pelagius" #Pelagius II
+	dynasty = 1 #Septim
+	religion = nord_cult
+	culture = cyro_nord
+	#add_trait = nord
+	father = septim_010 #Uriel II
+	
+	3841.2.28 = {
+		birth = "3841.2.28"
+	}
+	3855.1.1 = {
+		religion = imperial_cult
+	}
+	3855.1.1 = {
+		culture = heartlander
+	}
+	3870.1.1 = {
+		add_spouse = septim_015
+	}
+	3899.1.1 = {
+		#effect = { add_amulet_of_kings = yes }
+	}
+	3915.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+septim_012 = {
+	name = "Amiel" #Amiel
+	dynasty = 1 #Septim
+	religion = nord_cult
+	culture = cyro_nord
+	#add_trait = nord
+	father = septim_010 #Uriel II
+	
+	3849.1.27 = {
+		birth = "3849.1.27"
+	}
+	3855.1.1 = {
+		religion = imperial_cult
+	}
+	3855.1.1 = {
+		culture = heartlander
+	}
+	3896.1.1 = {
+		death = "3896.1.1"
+	}
+}
+
+septim_013 = {
+	name = "Galana" #Galana
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	female = yes
+	father = septim_010 #Uriel II
+	
+	3860.10.4 = {
+		birth = "3860.10.4"
+	}
+	3930.1.1 = {
+		death = "3930.1.1"
+	}
+}
+
+septim_015 = {
+	name = "Quintilla" #Pelagius II's wife
+	dynasty = 4 #Vulstaed
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	female = yes
+	
+	3842.12.12 = {
+		birth = "3842.12.12"
+	}
+	3916.1.1 = {
+		death = "3916.1.1"
+	}
+}
+
+septim_016 = {
+	name = "Magna" #Antiochus' First Wife
+	
+	religion = imperial_cult
+	culture = heartlander
+	#add_trait = heartlander
+	female = yes
+	
+	3872.1.1 = {
+		birth = "3872.1.1"
+	}
+	3892.1.1 = {
+		death = "3892.1.1"
+	}
+}
+
+septim_017 = {
+	name = "Antiochus" #Antiochus I
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander
+	#add_trait = heartlander
+	father = septim_011 #Pelagius II
+	mother = septim_015 #Quintilla
+	
+	3872.9.1 = {
+		birth = "3872.9.1"
+	}
+	3889.1.1 = {
+		add_spouse = septim_016 #Magna
+	}
+	3893.1.1 = {
+		add_spouse = septim_018 #Gysilla
+	}
+	3915.1.1 = {
+		#effect = { add_amulet_of_kings = yes }
+	}
+	3937.1.1 = {
+		death = "3937.1.1"
+	}
+}
+
+septim_018 = {
+	name = "Gysilla" #Antiochus' Second Wife
+	
+	religion = imperial_cult
+	culture = cyro_nord
+	#add_trait = nord
+	female = yes
+	
+	3874.2.28 = {
+		birth = "3874.2.28"
+	}
+	3945.1.1 = {
+		death = "3945.1.1"
+	}
+}
+
+septim_019 = {
+	name = "Cephorus" #Cephorus I
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	father = septim_011 #Pelagius II
+	mother = septim_015 #Quintilla
+	 
+	3895.10.12 = {
+		birth = "3895.10.12"
+	}
+	3915.1.1 = {
+		add_spouse = septim_024 #Bianki
+	}
+	3937.1.1 = {
+		#effect = { add_amulet_of_kings = yes }
+	}
+	3957.1.1 = {
+		death = "3957.1.1"
+	}
+}
+
+septim_020 = {
+	name = "Potema" #Potema I, The Wolf Queen
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	female = yes
+	father = septim_011 #Pelagius II
+	mother = septim_015 #Quintilla
+	
+	3883.2.4 = {
+		birth = "3883.2.4"
+	}
+	3910.1.1 = {
+		#give_nickname = "nick_the_wolf_queen"
+	}
+	3954.1.1 = {
+		death = "3954.1.1"
+	}
+}
+
+septim_021 = {
+	name = "Magnus" #Magnus I
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	father = septim_011 #Pelagius II
+	mother = septim_015 #Quintilla
+	
+	3896.12.12 = {
+		birth = "3896.12.12"
+	}
+	3916.1.1 = {
+		add_spouse = septim_023
+	}
+	3940.1.1 = {
+		#effect = { add_amulet_of_kings = yes }
+	}
+	3962.1.1 = {
+		death = "3962.1.1"
+	}
+	
+}
+septim_022 = {
+	name = "Thoriz" #King of Solitude
+	dynasty = 5 #af Mantiarco
+	religion = imperial_cult
+	culture = eastmarcher
+	#add_trait = nord
+	
+	3836.11.1 = {
+		birth = "3836.11.1"
+	}
+	3900.1.1 = {
+		add_spouse = septim_020 #Potema
+	}
+	3916.1.1 = {
+		death = "3916.1.1"
+	}
+}
+
+septim_023 = {
+	name = "Hellena" #Magnus' Wife
+	
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	female = yes
+	 
+	3896.3.17 = {
+		birth = "3896.3.17"
+	}
+	3970.1.1 = {
+		death = "3970.1.1"
+	}
+}
+
+septim_024 = {
+	name = "Bianki" #Cephorus I's Wife
+	
+	religion = imperial_cult
+	culture = cyro_nord
+	#add_trait = nord
+	female = yes
+	 
+	3895.9.1 = {
+		birth = "3895.9.1"
+	}
+	3953.1.1 = {
+		death = "3953.1.1"
+	}
+}
+
+septim_025 = {
+	name = "Kintyra" #Kintyra II
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	female = yes
+	father =  septim_017 #Antiochus
+	mother =  septim_018 #Gysilla
+	
+	3921.2.28 = {
+		birth = "3921.2.28"
+	}
+	3937.1.1 = {
+		#effect = { add_amulet_of_kings = yes }
+	}
+	3940.1.1 = {
+		death = {
+			death_reason = death_murder
+			killer = septim_028
+		}
+	}
+}
+
+septim_026 = {
+	name = "Pelagius" #Pelagius III The Mad
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	#add_trait = twin
+	father = septim_021 #Magnus I
+	mother = septim_023 #Hellena
+	
+	3942.1.27 = {
+		birth = "3942.1.27"
+	}
+	3962.1.1 = {
+		add_spouse = septim_029 #Katariah
+	}
+	3962.1.1 = {
+		#give_nickname = "nick_the_mad"
+		#effect = { add_amulet_of_kings = yes }
+	}
+	3970.1.1 = {
+		death = "3970.1.1"
+	}
+}
+
+septim_027 = {
+	name = "Jolethe" #Jolethe
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander 
+	female = yes
+	#add_trait = heartlander
+	#add_trait = twin
+	father = septim_021 #Magnus I
+	mother = septim_023 #Hellena
+	
+	3942.1.27 = {
+		birth = "3942.1.27"
+	}
+	4010.1.1 = {
+		death = "4010.1.1"
+	}
+}
+
+septim_028 = {
+	name = "Uriel" #Uriel III
+	dynasty = 5 #af Mantiarco
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	father = septim_022 #Mantiarco
+	mother = septim_020 #Potema
+	
+	3914.1.27 = {
+		birth = "3914.1.27"
+	}
+	3944.1.1 = {
+		death = "3944.1.1"
+	}
+}
+
+septim_029 = {
+	name = "Katariah" #Pelagius III The Mad's Wife
+	dynasty = 6 #Ra'Athim
+	religion = imperial_cult
+	culture = "balfiera" 
+	#add_trait = dunmer
+	female = yes
+	#father = 48264 
+	
+	3902.11.1 = {
+		birth = "3902.11.1"
+	}
+	#3958.11.1 = { add_trait = disabler immortal_age = 56 }
+	4016.1.1 = {
+		death = "4016.1.1"
+	}
+}
+
+septim_030 = {
+	name = "Gallivere" #Katariah's Lover
+	dynasty = 7 #Lariat
+	religion = imperial_cult
+	culture = northmen
+	#add_trait = breton
+	
+	3951.1.1 = {
+		birth = "3951.1.1"
+	}
+	4016.1.1 = {
+		death = "4016.1.1"
+	}
+}
+
+septim_031 = {
+	name = "Uriel" #Uriel IV
+	dynasty = 7 #Lariat
+	religion = imperial_cult
+	culture = heartlander
+	#add_trait = legit_bastard
+	father = septim_030 #Gallivere
+	mother = septim_029 #Katariah
+	
+	3968.9.1 = {
+		birth = "3968.9.1"
+	}
+	4018.1.1 = {
+		#effect = { add_amulet_of_kings = yes }
+	}
+	4064.1.1 = {
+		death = "4064.1.1"
+	}
+}
+
+septim_032 = {
+	name = "Cassynder" #Cassynder I
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander
+	father = septim_026 #Pelagius
+	mother = septim_029 #Katariah
+	
+	3965.2.28 = {
+		birth = "3965.2.28"
+	}
+	3970.1.1 = {
+		#effect = { add_amulet_of_kings = yes }
+	}
+	4018.1.1 = {
+		death = "4018.1.1"
+	}
+}
+
+septim_033 = {
+	name = "Andorak" #Andorak 
+	dynasty = 7 #Lariat
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	father =  septim_031 #Uriel IV
+	
+	4004.10.12 = {
+		birth = "4004.10.12"
+	}
+	4068.1.1 = {
+		death = "4068.1.1"
+	}
+}
+
+septim_034 = {
+	name = "Cephorus" #Cephorus II
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	mother = septim_027 #Jolethe
+	
+	3997.2.4 = {
+		birth = "3997.2.4"
+	}
+	4064.1.1 = {
+		#effect = { add_amulet_of_kings = yes }
+	}
+	4085.1.1 = {
+		death = "4085.1.1"
+	}
+}
+
+septim_035 = {
+	name = "Uriel" #Uriel V
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	father =  septim_034 #Cephorus
+	
+	4038.12.12 = {
+		birth = "4038.12.12"
+	}
+	4058.1.1 = {
+		add_spouse = septim_036 #Thonica
+	}
+	4085.1.1 = {
+		#effect = { add_amulet_of_kings = yes }
+	}
+	4107.1.1 = {
+		death = "4107.1.1"
+	}
+}
+
+septim_036 = {
+	name = "Thonica" #Uriel V's First Wife
+	
+	religion = imperial_cult
+	culture = heartlander
+	#add_trait = heartlander
+	female = yes
+	
+	4038.11.1 = {
+		birth = "4038.11.1"
+	}
+	4172.1.1 = {
+		death = "4172.1.1"
+	}
+}
+
+septim_037 = {
+	name = "Uriel" #Uriel VI
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	father = septim_035 #Uriel V
+	mother = septim_036 #Thonica
+	
+	4103.3.17 = {
+		birth = "4103.3.17"
+	}
+	4107.1.1 = {
+		#effect = { add_amulet_of_kings = yes }
+	}
+	4134.1.1 = {
+		death = {
+			death_reason = death_accident
+		}
+	}
+}
+
+septim_038 = {
+	name = "Morihatha" #Morihatha I
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander 
+	female = yes
+	#add_trait = heartlander
+	#add_trait = twin
+	father = septim_035 #Uriel V
+	
+	4105.9.1 = {
+		birth = "4105.9.1"
+	}
+	4130.2.3 = {
+		add_spouse = septim_040 #Ulfe
+	}
+	4134.1.1 = {
+		#effect = { add_amulet_of_kings = yes }
+	}
+	4156.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+septim_039 = {
+	name = "Eloisa" #Eloisa
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander 
+	female = yes
+	#add_trait = heartlander
+	#add_trait = twin
+	father = septim_035 #Uriel V
+	
+	4105.9.1 = {
+		birth = "4105.9.1"
+	}
+	4152.7.23 = {
+		death = "4152.7.23"
+	}
+}
+
+septim_040 = {
+	name = "Ulfe" #Morihatha's Husband
+	#dynasty = 70447 #Gersen
+	religion = imperial_cult
+	culture = eastmarcher
+	#add_trait = heartlander
+	
+	4105.1.27 = {
+		birth = "4105.1.27"
+	}
+	4165.1.1 = {
+		death = "4165.1.1"
+	}
+}
+
+septim_041 = {
+	name = "Pelagius" #Pelagius IV
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	mother =  septim_039 #Eloisa
+	 
+	4131.10.4 = {
+		birth = "4131.10.4"
+	}
+	4156.1.1 = {
+		#effect = { add_amulet_of_kings = yes }
+	}
+	4185.1.1 = {
+		death = "4185.1.1"
+	}
+}
+
+septim_042 = {
+	name = "Uriel" #Uriel VII
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	father = septim_041 #Pelagius IV
+	 
+	4163.10.30 = {
+		birth = yes
+	}
+	4185.1.5 = {
+		add_spouse = septim_043 #Caula
+	}
+	4185.1.9 = {
+		#effect = { add_amulet_of_kings = yes }
+	}
+	4250.2.10 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+septim_043 = {
+	name = "Caula" #Uriel VII's Wife
+	#dynasty = 10404 #Voria
+	religion = imperial_cult
+	culture = "colovian" 
+	#add_trait = heartlander
+	female = yes
+	
+	4165.11.1 = {
+		birth = "4165.11.1"
+	}
+	4216.1.1 = {
+		death = "4216.1.1"
+	}
+}
+
+septim_044 = {
+	name = "Gemille" #Uriel VII's Lover
+	
+	religion = imperial_cult
+	culture = cyro_nord
+	female = yes
+	
+	4170.1.1 = {
+		birth = "4170.1.1"
+	}
+	4220.1.1 = {
+		death = "4220.1.1"
+	}
+}
+
+septim_045 = {
+	name = "Calaxes" #Calaxes
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander
+	#add_trait = bastard
+	father = septim_042 #Uriel VII
+	
+	4190.9.1 = {
+		birth = "4190.9.1"
+	}
+	4215.1.1 = {
+		death = {
+			death_reason = death_murder
+			killer = septim_042
+		}
+	}
+}
+
+septim_046 = {
+	name = "Geldall" #Uriel VII and Caula's son
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander
+	#add_trait = heartlander
+	father = septim_042 #Uriel VII
+	mother = septim_043 #Caula
+	
+	4194.2.28 = {
+		birth = "4194.2.28"
+	}
+	4250.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+septim_047 = {
+	name = "Enman" #Uriel VII and Caula's son
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	father = septim_042 #Uriel VII
+	mother = septim_043 #Caula
+	 
+	4195.10.12 = {
+		birth = "4195.10.12"
+	}
+	4250.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+septim_048 = {
+	name = "Ebel" #Uriel VII and Caula's son
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	father = septim_042 #Uriel VII
+	mother = septim_043 #Caula
+	 
+	4197.2.4 = {
+		birth = "4197.2.4"
+	}
+	4250.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+septim_049 = {
+	name = "Martin" #Martin I
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	#add_trait = legit_bastard
+	father = septim_042 #Uriel VII
+	mother = septim_044 #Gemille
+	 
+	4211.1.1 = {
+		birth = "4211.1.1"
+	}
+	4250.2.10 = {
+		#effect = { add_amulet_of_kings = yes }
+		death = "4250.2.10"
+	}
+}
+
+septim_050 = {
+	name = "Ocato" #Potentate Ocato
+	dynasty = 9 #of Firsthold
+	religion = imperial_cult
+	culture = auridon
+	#add_trait = altmer
+	 
+	4100.1.1 = {
+		birth = "4100.1.1"
+	}
+	#4156.1.1 = { add_trait = disabler immortal_age = 56 }
+	4260.1.1 = { 
+		death = { 
+			death_reason = death_murder 
+		} 
+	}
+}
+
+septim_051 = {
+	name = "Titus" #Titus I
+	dynasty = 10 #Mede
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	 
+	4227.3.17 = {
+		birth = "4227.3.17"
+	}
+	4303.1.1 = {
+		death = "4303.1.1"
+	}
+}
+
+septim_052 = {
+	name = "Attrebus" #Attrebus I
+	dynasty = 10 #Mede
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	father = septim_051 #Titus I
+	
+	4268.9.1 = {
+		birth = "4268.9.1"
+	}
+	4348.1.1 = {
+		death = "4348.1.1"
+	}
+}
+
+septim_053 = {
+	name = "Attrebus" #Attrebus II
+	dynasty = 10 #Mede
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	father = septim_052 #Attrebus I
+	
+	4316.2.28 = {
+		birth = "4316.2.28"
+	}
+	4393.7.23 = {
+		death = "4393.7.23"
+	}
+}
+
+septim_054 = {
+	name = "Titus" #Titus II
+	dynasty = 10 #Mede
+	religion = imperial_cult
+	culture = heartlander 
+	#add_trait = heartlander
+	#dna = "aajcd0dgda"
+	#properties= "al0odkbcbb"
+	father = septim_053 #Attrebus II
+	
+	4381.1.27 = {
+		birth = "4381.1.27"
+	}
+	4469.1.1 = {
+		death = "4469.1.1"
+	}
+}
+
+septim_055 = {
+	name = "Jagar" #Jagar Tharn
+	dynasty = 110000 #Tharn
+	religion = imperial_cult
+	culture = nibenese 
+	#add_trait = breton
+	
+	4158.1.27 = {
+		birth = "4158.1.27"
+	}
+	4216.1.1 = {
+		death = "4216.1.1"
+	}
+}
+
+septim_064 = {
+	name = "Ariella" #Uriel VII and Caula's daughter
+	dynasty = 1 #Septim
+	religion = imperial_cult
+	culture = heartlander
+	#add_trait = heartlander
+	father = septim_042 #Uriel VII
+	mother = septim_043 #Caula
+	female = yes
+	
+	4192.1.1 = {
+		birth = "4192.1.1"
+	}
+	4206.1.1 = {
+		death = {
+			death_reason = death_murder
+			killer = septim_055
+		}
+	}
+}

@@ -1,0 +1,453 @@
+﻿### EK EDIT: Removed reference to vanilla religions
+
+GetAppropriateGodname = {
+	type = character
+
+	# text = {
+		# trigger = {
+			# house.last_house_head.faith = {
+				# OR = {
+					# religion_tag = christianity_religion
+					# religion_tag = islam_religion
+					# religion_tag = judaism_religion
+				# }
+			# }
+		# }
+		# localization_key = motto_god
+	# }
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:malacath_religion
+				}
+			}
+		}
+		localization_key = god_malacath_name
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:akaviri_religion
+				}
+			}
+		}
+		localization_key = akaviri_pantheon_name
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:bosmeri_religion
+				}
+			}
+		}
+		localization_key = god_yffre_name
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:reach_religion
+				}
+			}
+		}
+		localization_key = god_oldgods_name
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					faith = {
+						has_doctrine = doctrine_pantheon_herd_mother
+					}
+				}
+			}
+		}
+		localization_key = herd_mother_god_name
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:yokudan_religion
+				}
+			}
+		}
+		localization_key = god_the_gods_name
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:hist_religion
+				}
+			}
+		}
+		localization_key = god_hist_name
+	}
+
+
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:nedic_nordic_religion
+				}
+			}
+		}
+		localization_key = god_the_divines_name
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					faith = {
+						has_doctrine = doctrine_pantheon_tribunal
+					}
+				}
+			}
+		}
+		localization_key = god_tribunal_name
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:velothi_faiths
+				}
+			}
+		}
+		localization_key = god_good_daedra_name
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:aldmer_religion
+				}
+			}
+		}
+		localization_key = god_auriel_name
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:trinimac_religion
+				}
+			}
+		}
+		localization_key = god_trinimac_name
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:atmoran_pantheon
+				}
+			}
+		}
+		localization_key = motto_totems
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:celestial_religion
+				}
+			}
+		}
+		localization_key = god_celestials_name
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:deepones_religion
+				}
+			}
+		}
+		localization_key = god_deepones_name
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:dwemer_religion
+				}
+			}
+		}
+		localization_key = god_reason_and_logic_name
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:khajiiti_religion
+				}
+			}
+		}
+		localization_key = god_moons_name
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:necromantic_religion
+				}
+			}
+		}
+		localization_key = god_death_name
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:sithis_religion
+				}
+			}
+		}
+		localization_key = god_sithis_name
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:stone_religion
+				}
+			}
+		}
+		localization_key = god_stones_name
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:vampiric_religion
+					has_religion = religion:molag_religion
+				}
+			}
+		}
+		localization_key = GET_RANDOM_MOLAG_NAME
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:wyrd_religion
+				}
+			}
+		}
+		localization_key = wyrdhigh_god_name
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:azura_religion
+				}
+			}
+		}
+		localization_key = GET_RANDOM_AZURA_NAME
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:sanguine_religion
+				}
+			}
+		}
+		localization_key = GET_RANDOM_SANGUINE_NAME
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:boethiah_religion
+				}
+			}
+		}
+		localization_key = GET_RANDOM_BOETHIAH_NAME
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:clavicus_religion
+				}
+			}
+		}
+		localization_key = GET_RANDOM_CLAVICUS_NAME
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:hermaeus_religion
+				}
+			}
+		}
+		localization_key = GET_RANDOM_HERMAEUS_NAME
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:hircine_religion
+				}
+			}
+		}
+		localization_key = GET_RANDOM_HIRCINE_NAME
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:malacath_religion
+				}
+			}
+		}
+		localization_key = GET_RANDOM_MALACATH_NAME
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:mehrunes_religion
+				}
+			}
+		}
+		localization_key = GET_RANDOM_MEHRUNES_NAME
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:mephala_religion
+				}
+			}
+		}
+		localization_key = GET_RANDOM_MEPHALA_NAME
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:meridia_religion
+				}
+			}
+		}
+		localization_key = GET_RANDOM_MERIDIA_NAME
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:namira_religion
+				}
+			}
+		}
+		localization_key = GET_RANDOM_NAMIRA_NAME
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:nocturnal_religion
+				}
+			}
+		}
+		localization_key = GET_RANDOM_NOCTURNAL_NAME
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:peryite_religion
+				}
+			}
+		}
+		localization_key = GET_RANDOM_PERYITE_NAME
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:sheogorath_religion
+				}
+			}
+		}
+		localization_key = GET_RANDOM_SHEOGORATH_NAME
+	}
+
+	text = {
+		trigger = {
+			house.last_house_head = {
+				OR = {
+					has_religion = religion:vaermina_religion
+				}
+			}
+		}
+		localization_key = GET_RANDOM_VAERMINA_NAME
+	}	
+
+	### EK EDIT: Our monotheist religions
+	text = {
+		trigger = {
+			house.last_house_head.faith = {
+				NOR = {
+					religion_tag = marukhati_religion
+					has_doctrine = doctrine_pantheon_all_maker
+				}
+			}
+		}
+		localization_key = motto_the_gods
+	}
+
+	text = {
+		trigger = {
+			always = no
+		}
+		localization_key = motto_custom_loc_god
+		fallback = yes
+	}
+}

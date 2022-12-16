@@ -1,0 +1,3139 @@
+﻿#E_SKYRIM - 207 counties - 595 baronies
+
+###c_sunderstone
+
+959 = { #b_sunderstone
+	culture = reachfolk
+	religion = minotaur_cult
+	
+	holding = tribal_holding
+}
+960 = { #b_bilegulch
+	holding = none
+}
+961 = { #b_glenvale
+	holding = none
+}
+
+###c_bannermist
+
+962 = { #b_bannermist
+	culture = reachfolk
+	religion = minotaur_cult
+	
+	holding = tribal_holding
+}
+964 = { #b_knifepoint
+	holding = none
+}
+1314 = { #b_hunter_rest
+	holding = none
+}
+
+###c_evergreen
+
+965 = { #b_evergreen
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	holding = castle_holding
+}
+966 = { #b_falkreath_watch
+	holding = none
+}
+967 = { #b_cracked_tusk
+	holding = none
+}
+968 = { #b_twilight_sepulcher
+	holding = none
+}
+
+###c_shriekwind
+
+970 = { #b_shriekwind
+	culture = cyro_nord
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1311 = { #b_southshriek
+	holding = none
+}
+
+###c_falkreath
+
+1848 = { #b_greypine
+	culture = cyro_nord
+	religion = nord_cult
+	
+	holding = castle_holding
+	buildings = {
+		castle_02
+	}
+
+	3355.1.1 = {
+		culture = mountain_orc
+		religion = code_of_malacath
+	}
+}
+969 = { #b_falkreath
+	holding = city_holding
+	buildings = {
+		hunting_grounds_01
+	}
+}
+1849 = { #b_hakkvildheim
+	holding = none
+}
+1850 = { #b_great_graveyard
+	holding = church_holding
+}
+
+###c_peak_shade
+
+971 = { #b_peak_shade
+	culture = cyro_nord
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1847 = { #b_hafnarstad
+	holding = none
+}
+
+###c_morgate
+
+973 = { #b_morgate
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	holding = castle_holding
+}
+972 = { #b_halldir
+	holding = none
+}
+
+###c_bonechill
+
+976 = { #b_bonechill
+	culture = cyro_nord
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1310 = { #b_ancient_ascent
+	holding = none
+}
+
+###c_ancestor_glade
+
+975 = { #b_ancestor_glade
+	culture = cyro_nord
+	religion = nord_cult
+	
+	holding = church_holding
+}
+974 = { #b_bloodlet
+	holding = none
+}
+
+###c_lakeview
+
+977 = { #b_lakeview
+	culture = cyro_nord
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+978 = { #b_pinewatch
+	holding = none
+}
+979 = { #b_haigar
+	holding = none
+}
+1309 = { #b_falkway
+	holding = none
+}
+
+###c_embershard
+981 = { #b_embershard
+	culture = cyro_nord
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+982 = { #b_dunmarch
+	holding = none
+}
+
+###c_helgen
+
+1846 = { #b_helkeep
+	culture = cyro_nord
+	religion = nord_cult
+	
+	holding = castle_holding
+	buildings = {
+		barracks_01
+	}
+}
+980 = { #b_helgen
+	holding = city_holding
+}
+983 = { #b_skybound
+	holding = none
+}
+1308 = { #b_kreathrest
+	holding = none
+}
+
+###c_orphan_rock
+
+984 = { #b_orphan_rock
+	culture = reachfolk
+	religion = hagraven_cult
+	
+	holding = tribal_holding
+}
+985 = { #b_falkenstein
+	holding = none
+}
+1307 = { #b_norskir
+	holding = none
+}
+
+###c_neugrad
+
+986 = { #b_neugrad
+	culture = cyro_nord
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+987 = { #b_greywater
+	holding = none
+}
+988 = { #b_southfringe
+	holding = none
+}
+989 = { #b_pale_pass
+	holding = none
+}
+
+###c_half_moon
+
+963 = { #b_half_moon
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	holding = castle_holding
+}
+1312 = { #b_tjer_pass
+	holding = none
+}
+1313 = { #b_mossmother
+	holding = none
+}
+
+###c_south_brittleshin
+
+992 = { #b_south_brittleshin
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+991 = { #b_ilinalta
+	holding = none
+}
+993 = { #b_bleak_falls
+	holding = none
+}
+
+###c_steelhead_cleft
+
+995 = { #b_lion_pass
+	culture = reachfolk
+	religion = hagraven_cult
+	
+	holding = tribal_holding
+}
+994 = { #b_haemar_shame
+	holding = none
+}
+
+###c_arcwind
+
+998 = { #b_arcwind
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+996 = { #b_taarengrav
+	holding = none
+}
+997 = { #b_bthalft
+	holding = none
+}
+999 = { #b_autumnwatch
+	holding = none
+}
+
+###c_nimalten
+
+1003 = { #b_valtgard
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1000 = { #b_honeystrand
+	holding = none
+}
+1001 = { #b_grethel_vigil
+	holding = none
+}
+1002 = { #b_nimalten
+	holding = city_holding
+}
+
+###c_honrich
+
+1005 = { #b_honrich
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1004 = { #b_angarvunde
+	holding = none
+}
+1006 = { #b_heartwood
+	holding = church_holding
+}
+1007 = { #b_avanchnzel
+	holding = none
+}
+
+###c_largashbur
+
+1009 = { #b_largashbur
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1008 = { #b_trollslayer_gully
+	holding = none
+}
+
+###c_snowshod
+
+1010 = { #b_snowshod
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1011 = { #b_darklight_tower
+	holding = none
+}
+1012 = { #b_frostmoon
+	holding = none
+}
+
+###c_goldenglow
+
+1013 = { #b_goldenglow
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = academy_holding
+	buildings = { academybard_01 }
+}
+
+###c_crystaldrift
+
+1015 = { #b_crystaldrift
+	culture = cyro_nord
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1014 = { #b_rkund
+	holding = none
+}
+1016 = { #b_jenedusil_claw
+	holding = none
+}
+
+###c_smokefrost
+
+1017 = { #b_smokefrost
+	culture = cyro_nord
+	religion = nord_cult
+	special_building = arena_01
+	holding = city_holding
+}
+1018 = { #b_gromm_pass
+	holding = none
+}
+1019 = { #b_forelhost
+	holding = none
+}
+
+###c_fullhelm
+
+1020 = { #b_fullhelm
+	culture = cyro_nord
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1021 = { #b_broken_helm
+	holding = none
+}
+1022 = { #b_stendarr_beacon
+	holding = none
+}
+
+###c_ivarstead
+
+1023 = { #b_ivarstead
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = city_holding
+}
+1024 = { #b_geirmund_hall
+	holding = city_holding
+}
+1025 = { #b_pinepeak
+	holding = none
+}
+1026 = { #b_nilheim
+	holding = none
+}
+
+###c_treva
+
+1030 = { #b_treva_watch
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1027 = { #b_smapleg
+	holding = none
+}
+1028 = { #b_sarethi
+	holding = none
+}
+1029 = { #b_riftwatch
+	holding = none
+}
+
+###c_clearspring
+
+1031 = { #b_clearspring_tarn
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1032 = { #b_northwind
+	holding = none
+}
+
+###c_vernim_woods
+
+1034 = { #b_vernim_woods
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1033 = { #b_apprentice_glade
+	holding = none
+}
+
+###c_autumnshade
+
+1037 = { #b_faldar_tooth
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1035 = { #b_boulderfall
+	holding = none
+}
+1036 = { #b_autumnshade
+	holding = none
+}
+
+###c_greenwall
+
+1038 = { #b_greenwall
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1039 = { #b_champion_rest
+	holding = none
+}
+1040 = { #b_last_vigil
+	holding = none
+}
+
+###c_shor_stone
+
+1051 = { #b_shor_stone
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = city_holding
+}
+1041 = { #b_redbelly
+	holding = none
+}
+1042 = { #b_ruunvald
+	holding = none
+}
+1052 = { #b_fallowhall
+	holding = castle_holding
+}
+1053 = { #b_shor_watch
+	holding = none
+}
+
+###c_riften
+
+1047 = { #b_mistveil_keep
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+	buildings = {
+		castle_02
+		curtain_walls_02
+	}
+}
+1045 = { #b_riften
+	holding = city_holding
+	buildings = {
+		guild_halls_02
+	}
+}
+1043 = { #b_merryfair
+	holding = none
+}
+1044 = { #b_tsun_hold
+	holding = none
+}
+1046 = { #b_mara_grace
+	holding = church_holding
+}
+
+###c_blackbriar
+
+1050 = { #b_blackbriar
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1048 = { #b_fallowstone
+	holding = none
+}
+1049 = { #b_lost_prospect
+	holding = none
+}
+
+###c_snowgrad
+
+1058 = { #b_snowgrad
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1055 = { #b_volunhall
+	holding = none
+}
+1056 = { #b_shorrun
+	holding = none
+}
+1057 = { #b_whitestone
+	holding = none
+}
+
+###c_pargran
+
+1062 = { #b_pargran
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = city_holding
+}
+1059 = { #b_jarnmalm
+	holding = none
+}
+1060 = { #b_fagrskinna
+	holding = none
+}
+1061 = { #b_porsgrun
+	holding = none
+}
+
+###c_mistwatch
+
+1065 = { #b_mistwatch
+	culture = eastmarcher
+	religion = ternion_totems
+	
+	holding = church_holding
+}
+1063 = { #b_darkpass
+	holding = none
+}
+1064 = { #b_reich_corigate
+	holding = none
+}
+
+###c_icewind
+
+1067 = { #b_icewind
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1066 = { #b_old_sord
+	holding = none
+}
+1068 = { #b_stormcrag
+	holding = none
+}
+1069 = { #b_hfirorg
+	holding = none
+}
+
+###c_ansilvund
+
+1071 = { #b_ansilvund
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1070 = { #b_cragslane
+	holding = none
+}
+1072 = { #b_kagrenzel
+	holding = none
+}
+1073 = { #b_tolvald
+	holding = none
+}
+
+###c_darkshade
+
+1074 = { #b_darkshade
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1075 = { #b_hillgrund_tomb
+	holding = none
+}
+1076 = { #b_fellheim
+	holding = none
+}
+
+###c_amol
+
+1078 = { #b_fort_amol
+	culture = eastmarcher
+	religion = nord_cult
+	special_building = arena_02
+	holding = castle_holding
+}
+1077 = { #b_amol
+	holding = city_holding
+}
+1079 = { #b_lost_knives
+	holding = none
+}
+1080 = { #b_frostwater
+	holding = none
+}
+
+###c_aalto
+
+1082 = { #b_aalto
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+
+	special_building_slot = aalto_sulfur_mines_01
+}
+1081 = { #b_broken_limbs
+	holding = none
+}
+
+###c_darkwater
+
+1085 = { #b_darkwater
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1083 = { #b_eldergleam
+	holding = church_holding
+}
+1084 = { #b_atronach_rock
+	holding = none
+}
+
+###c_wittestadr
+
+1087 = { #b_wittestadr
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1086 = { #b_bonestrewn_crest
+	holding = none
+}
+1088 = { #b_skerd
+	holding = none
+}
+
+###c_cragwallow
+
+1089 = { #b_cragwallow
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1090 = { #b_scarrund
+	holding = none
+}
+1091 = { #b_thuvald
+	holding = none
+}
+1092 = { #b_steamcrag
+	holding = none
+}
+
+###c_bitterblade
+
+1094 = { #b_bitterblade
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1093 = { #b_mzulft
+	holding = none
+}
+1095 = { #b_jorrun_stand
+	holding = none
+}
+
+###c_gallows_rock
+
+1097 = { #b_gallows_rock
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1098 = { #b_rageclaw
+	holding = none
+}
+
+###c_mixwater
+
+1100 = { #b_frostvault
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	holding = tribal_holding
+}
+1099 = { #b_mixwater
+	holding = none
+}
+
+###c_cronvangr
+
+1103 = { #b_cronvangr
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1101 = { #b_riversite
+	holding = none
+}
+1102 = { #b_witchmist
+	holding = none
+}
+
+###c_kynesgrove
+
+1107 = { #b_kynesgrove
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = church_holding
+}
+1104 = { #b_frost_tree
+	holding = none
+}
+1105 = { #b_ragnthar
+	holding = none
+}
+1106 = { #b_icehammer
+	holding = none
+}
+
+###c_gloombound
+
+1109 = { #b_gloombound
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = tribal_holding
+	3363.1.1 = {
+		culture = mountain_orc
+		religion = code_of_malacath
+	}
+}
+1108 = { #b_narzulbur
+	holding = none
+}
+1110 = { #b_karlaz
+	holding = none
+}
+
+###c_morvunskar
+
+1112 = { #b_morvunskar
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1111 = { #b_giant_run
+	holding = none
+}
+1113 = { #b_uttering_hill
+	holding = none
+}
+1114 = { #b_mara_eye
+	holding = none
+}
+
+###c_windhelm
+
+1115 = { #b_palace_of_kings
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+
+	buildings = {
+		castle_03
+		hill_forts_02
+		barracks_02
+	}
+	special_building = palace_of_kings_01
+	duchy_capital_building = nordic_walls_01
+}
+1116 = { #b_windhelm
+	holding = city_holding
+	special_building = arena_02
+	buildings = {
+		city_02
+		logging_camps_02
+	}
+}
+4233 = { #b_snow_quarter
+	holding = city_holding
+	buildings = {
+		city_02
+		common_tradeport_01
+	}
+}
+1117 = { #b_lower_yorgrim
+	holding = city_holding
+	buildings = {
+		pastures_02
+	}	
+}
+1118 = { #b_brandy_mug
+	holding = none
+}
+1119 = { #b_southbridge
+	holding = none
+}
+
+###c_hollyfrost
+
+1122 = { #b_hollyfrost
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1120 = { #b_yngol_barrow
+	holding = none
+}
+1121 = { #b_chill_hollow
+	holding = none
+}
+1123 = { #b_giant_heart
+	holding = none
+}
+
+###c_shorflow
+
+1124 = { #b_shorflow
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1125 = { #b_storjdal
+	holding = none
+}
+
+###c_kastav
+
+1126 = { #b_kastav
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1127 = { #b_winterway
+	holding = none
+}
+
+###c_halfrun
+
+1128 = { #b_halfrun
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1129 = { #b_stillborn
+	holding = none
+}
+1130 = { #b_krondheim
+	holding = none
+}
+
+###c_snow_veil
+
+1132 = { #b_kvarner
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1131 = { #b_snow_veil
+	holding = none
+}
+1133 = { #b_horgrsgard
+	holding = none
+}
+
+###c_bleakcoast
+
+1135 = { #b_bleakcoast
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = tribal_holding
+}
+1134 = { #b_fjallskard
+	holding = none
+}
+1136 = { #b_journeyman_nook
+	holding = none
+}
+1137 = { #b_whistling_mine
+	holding = none
+}
+
+###c_bannerwatch
+
+1140 = { #b_bannerwatch
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1138 = { #b_icewreck
+	holding = none
+}
+1139 = { #b_volungar
+	holding = none
+}
+1141 = { #b_markthal
+	holding = none
+}
+
+###c_winterhold
+
+1144 = { #b_winterhold
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+	buildings = {
+		castle_02
+		barracks_01
+		watchtowers_02
+	}
+	special_building = winterhold_fortress_01
+	duchy_capital_building = nordic_walls_01
+}
+1145 = { #b_winterhold_college
+	holding = academy_holding
+	buildings = { academymag_01 }
+	special_building = winterhold_college_01
+}
+1142 = { #b_hagsfjord
+	holding = city_holding
+	buildings = {
+		city_02
+		common_tradeport_02
+		guild_halls_01
+	}
+}
+1143 = { #b_bjarbrun
+	holding = none
+}
+
+###c_hsaarik
+
+1147 = { #b_skytemple
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = church_holding
+}
+1146 = { #b_porhnak
+	holding = city_holding
+}
+5454 = { #b_gorvigh
+	holding = none
+}
+
+###c_japhet_folly
+
+1148 = { #b_rockjoint
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1149 = { #b_serpentstone
+	holding = none
+}
+
+###c_stromhelm
+
+1150 = { #b_ysgramor_crypt
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = church_holding
+}
+5455 = { #b_nerone
+	holding = castle_holding
+}
+1151 = { #b_stromhelm
+	holding = none
+}
+1152 = { #b_varheim
+	holding = none
+}
+
+###c_saarthal
+
+1155 = { #b_joetnar
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = tribal_holding
+}
+1153 = { #b_saarthal
+	holding = none
+}
+1154 = { #b_sightless_vale
+	holding = none
+}
+1156 = { #b_dusk_pass
+	holding = none
+}
+
+###c_broken_cape
+
+1157 = { #b_pilgrim_rest
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = tribal_holding
+}
+1158 = { #b_halmstad
+	holding = none
+}
+1159 = { #b_trollhatten
+	holding = none
+}
+
+###c_anthor
+
+1163 = { #b_anthor
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1160 = { #b_hodorsheim
+	holding = none
+}
+1161 = { #b_alftand
+	holding = none
+}
+1162 = { #b_kraldar
+	holding = none
+}
+
+###c_yngvild
+
+1166 = { #b_hob_fall
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = city_holding
+}
+1164 = { #b_yngvild
+	holding = none
+}
+1165 = { #b_horker
+	holding = none
+}
+
+###c_frostflow
+
+1169 = { #b_frostflow_watch
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = tribal_holding
+}
+1167 = { #b_isengard
+	holding = none
+}
+1168 = { #b_vanir
+	holding = none
+}
+
+###c_wayward
+
+1172 = { #b_wayward
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = church_holding
+}
+1170 = { #b_orevein
+	holding = none
+}
+1171 = { #b_elvenum
+	holding = none
+}
+
+###c_driftshade
+
+1174 = { #b_driftshade
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1173 = { #b_hela_folly
+	holding = none
+}
+1175 = { #b_snowpoint_beacon
+	holding = none
+}
+
+###c_fellhammer
+
+1176 = { #b_fellhammer
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1177 = { #b_erolgard
+	holding = none
+}
+
+###c_yorgrim_gate
+
+1178 = { #b_yorgrim_overlook
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = tribal_holding
+}
+1179 = { #b_skuldenheim
+	holding = none
+}
+
+###c_horkerbank
+
+1181 = { #b_grinning_horker
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = city_holding
+}
+1180 = { #b_helsingborn
+	holding = none
+}
+
+###c_ironbind
+
+1182 = { #b_ironbind
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1183 = { #b_bronzewater
+	holding = none
+}
+1184 = { #b_nightgate
+	holding = city_holding
+}
+
+###c_weystone
+
+1185 = { #b_weystones
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = church_holding
+}
+1186 = { #b_silverdrift
+	holding = none
+}
+
+###c_shrouded_grove
+
+1188 = { #b_skagen
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = tribal_holding
+}
+1187 = { #b_shrouded_grove
+	holding = none
+}
+
+###c_trumble_arch
+
+1190 = { #b_trumble_arch
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1189 = { #b_korvanjund
+	holding = none
+}
+
+###c_sigilkeep
+
+1192 = { #b_sigilkeep
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1191 = { #b_irkngthand
+	holding = none
+}
+1193 = { #b_raldbthar
+	holding = none
+}
+
+###c_skyborn
+
+1194 = { #b_skyborn
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = church_holding
+}
+1195 = { #b_volunruud
+	holding = none
+}
+
+###c_stonechill
+
+1196 = { #b_stonechill_bluff
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1197 = { #b_mzark
+	holding = none
+}
+1198 = { #b_brantwein
+	holding = none
+}
+
+###c_heljarchen
+
+1199 = { #b_heljarchen
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1200 = { #b_blizzard_rest
+	holding = none
+}
+1201 = { #b_loreius
+	holding = none
+}
+
+###c_shearpoint
+
+1204 = { #b_shearpoint
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = church_holding
+}
+1202 = { #b_rattgram
+	holding = none
+}
+1203 = { #b_skuld
+	holding = none
+}
+
+###c_frostmere
+
+1206 = { #b_frostmere
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = church_holding
+}
+1205 = { #b_mzinchaleft
+	holding = none
+}
+
+###c_dimhollow
+
+1207 = { #b_dimhollow
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1208 = { #b_snestrom
+	holding = none
+}
+
+###c_dunstad
+
+1211 = { #b_dunstad
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1209 = { #b_vigilant_rest
+	holding = none
+}
+1210 = { #b_hjaldheim
+	holding = none
+}
+
+###c_duskglow
+
+1213 = { #b_duskglow
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1212 = { #b_arkavan
+	holding = none
+}
+1214 = { #b_falkenheim
+	holding = none
+}
+
+###c_high_gate
+
+1217 = { #b_high_gate
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = tribal_holding
+}
+1215 = { #b_icerun
+	holding = none
+}
+1216 = { #b_brinehammer
+	holding = none
+}
+
+###c_frozen_coast
+
+1220 = { #b_olrunstead
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1218 = { #b_volgrav
+	holding = none
+}
+1219 = { #b_morvunhall
+	holding = none
+}
+1221 = { #b_askursund
+	holding = none
+}
+
+###c_dawnstar
+
+1226 = { #b_white_hall
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1222 = { #b_dawnstar
+	holding = city_holding
+	buildings = {
+		common_tradeport_02
+	}
+}
+1223 = { #b_shorwind
+	holding = none
+}
+1224 = { #b_lindsfjord
+	holding = none
+}
+1225 = { #b_tower_of_dawn
+	holding = church_holding
+}
+
+###c_windward
+
+1227 = { #b_windward
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1228 = { #b_skovde
+	holding = none
+}
+1229 = { #b_red_road_pass
+	holding = none
+}
+
+###c_dawn_isles
+
+1230 = { #b_kalmar
+	culture = eastmarcher
+	religion = nord_cult
+	
+	holding = tribal_holding
+}
+1231 = { #b_norderney
+	holding = none
+}
+
+###c_riverwood
+
+1233 = { #b_riverwood
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = city_holding
+}
+1232 = { #b_woketree
+	holding = none
+}
+1234 = { #b_gastenheim
+	holding = none
+}
+
+###c_honningbrew
+
+1236 = { #b_honningbrew
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1235 = { #b_pelagia
+	holding = none
+}
+1237 = { #b_alesund
+	holding = none
+}
+
+###c_whiterun
+
+1239 = { #b_dragonsreach
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+	buildings = {
+		castle_02
+		hill_forts_02
+	}
+	special_building = dragon_prison_01
+}
+1243 = { #b_whiterun
+	holding = city_holding
+	buildings = {
+		city_02
+		guild_halls_01
+	}
+}
+1240 = { #b_jorrvaskr
+	holding = castle_holding
+	buildings = {
+		castle_02
+		barracks_01
+	}
+	special_building = jorrvaskr_01
+}
+5348 = { #b_gildergreen
+	holding = church_holding
+	special_building = gildergreen_01
+}
+1238 = { #b_stendal
+	holding = none
+}
+1241 = { #b_battleborn
+	holding = city_holding
+}
+1242 = { #b_chillfurrow
+	holding = none
+}
+
+###c_whitewatch
+
+1244 = { #b_whitewatch
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+	buildings = {
+		watchtowers_01
+	}
+}
+1245 = { #b_shimmermist
+	holding = none
+}
+1246 = { #b_bleakmarch
+	holding = none
+}
+
+###c_graywinter
+
+1249 = { #b_whiteriver_watch
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1247 = { #b_graywinter
+	holding = none
+}
+1248 = { #b_sai_ritual
+	holding = none
+}
+
+###c_fellglow
+
+1250 = { #b_fellglow
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1251 = { #b_oleriad
+	holding = none
+}
+
+###c_valtheim
+
+1252 = { #b_valtheim
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1253 = { #b_guldun_rock
+	holding = none
+}
+
+###c_eversnow
+
+1254 = { #b_eversnow
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1255 = { #b_brettin
+	holding = none
+}
+1256 = { #b_werra
+	holding = none
+}
+
+###c_rorikstead
+
+1257 = { #b_rorikstead
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = city_holding
+	buildings = {
+		cereal_fields_03
+	}
+}
+1258 = { #b_lundshut
+	holding = none
+}
+1259 = { #b_norden
+	holding = none
+}
+
+###c_moldering
+
+1260 = { #b_moldering
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1261 = { #b_jagermeister
+	holding = none
+}
+1262 = { #b_coebbel
+	holding = none
+}
+
+###c_talking_stone
+
+1263 = { #b_talking_stone
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = church_holding
+}
+1264 = { #b_milteren
+	holding = none
+}
+
+###c_fairmoor
+
+1265 = { #b_fairmoor
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1266 = { #b_swindler_den
+	holding = none
+}
+1267 = { #b_njorvela
+	holding = none
+}
+
+###c_hagarmarch
+
+1270 = { #b_hagarmarch
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1268 = { #b_baltrum
+	holding = none
+}
+1269 = { #b_muranak
+	holding = none
+}
+
+###c_gjukar
+
+1272 = { #b_gjukar_monument
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = church_holding
+}
+1271 = { #b_lainalten
+	holding = none
+}
+
+###c_eldersblood
+
+1275 = { #b_eldersblood
+	culture = westmarcher
+	religion = dragon_cult
+	
+	holding = church_holding
+
+	3368.1.1 = {
+		religion = nord_cult
+	}
+}
+1273 = { #b_apen
+	holding = none
+}
+1274 = { #b_rannveig_fest
+	holding = none
+}
+
+###c_hamvir
+
+1277 = { #b_hamvir_rest
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1276 = { #b_sundsvall
+	holding = none
+}
+1278 = { #b_greensprings
+	holding = church_holding
+}
+1279 = { #b_drelas
+	holding = none
+}
+
+###c_greymarch
+
+1282 = { #b_greymarch
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1280 = { #b_dustman_cairn
+	holding = none
+}
+1281 = { #b_redoran_retreat
+	holding = none
+}
+
+###c_silent_moon
+
+1284 = { #b_silent_moon
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = church_holding
+}
+1283 = { #b_ansilheim
+	holding = none
+}
+1285 = { #b_bleakhammer
+	holding = none
+}
+
+###c_halted_stream
+
+1286 = { #b_halted_stream
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1287 = { #b_frostfield
+	holding = none
+}
+
+###c_skulvar
+
+1288 = { #b_skulvar
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1289 = { #b_bockhorn
+	holding = none
+}
+
+###c_steppewatch
+
+1291 = { #b_steppewatch
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+	buildings = {
+		watchtowers_01
+	}
+}
+1290 = { #b_gruben
+	holding = none
+}
+1292 = { #b_secunda_kiss
+	holding = none
+}
+
+###c_darkmoor
+
+1295 = { #b_darkmoor
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+	buildings = {
+		watchtowers_01
+	}
+}
+1294 = { #b_bleakbasin
+	holding = none
+}
+1293 = { #b_black_moor
+	holding = city_holding
+}
+1296 = { #b_lathen
+	holding = none
+}
+1297 = { #b_stavern
+	holding = none
+}
+
+###c_krumm_horn
+
+1299 = { #b_krumm_horn
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1298 = { #b_brinkum
+	holding = none
+}
+1300 = { #b_sleeping_tree
+	holding = none
+}
+
+###c_granite_hall
+
+1303 = { #b_granite_hall
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1301 = { #b_broken_fang
+	holding = none
+}
+1302 = { #b_gavrostead
+	holding = none
+}
+
+###c_north_brittleshin
+
+1305 = { #b_north_brittleshin
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1304 = { #b_vorsia
+	holding = none
+}
+1306 = { #b_bloated_man_grotto
+	holding = none
+}
+
+###c_amberguard
+
+1316 = { #b_amberguard
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1315 = { #b_gefyr
+	holding = none
+}
+1317 = { #b_orotheim
+	holding = none
+}
+
+###c_chillwind
+
+1318 = { #b_chillwind
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1319 = { #b_nilfheim
+	holding = none
+}
+1320 = { #b_kjarta
+	holding = none
+}
+
+###c_old_karth
+
+1322 = { #b_old_karth
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1321 = { #b_gwenstaed
+	holding = none
+}
+1323 = { #b_robber_gorge
+	holding = none
+}
+
+###c_korleva
+
+1324 = { #b_korleva
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1325 = { #b_volger
+	holding = none
+}
+
+###c_valmund
+
+1327 = { #b_valmund
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1326 = { #b_einherjar
+	holding = none
+}
+
+###c_snowhawk
+
+1329 = { #b_snowhawk
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1328 = { #b_black_morass
+	holding = none
+}
+1330 = { #b_haesten
+	holding = none
+}
+1331 = { #b_shearwatch
+	holding = none
+}
+1332 = { #b_meeko
+	holding = none
+}
+
+###c_stormhawk
+
+1335 = { #b_stormhawk
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = church_holding
+}
+1333 = { #b_kendheld
+	holding = none
+}
+1334 = { #b_folgunthur
+	holding = none
+}
+
+###c_morvunrund
+
+1337 = { #b_morvunrund
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1336 = { #b_hjalvik
+	holding = none
+}
+
+###c_winstad
+
+1338 = { #b_winstad
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1339 = { #b_ysel
+	holding = none
+}
+1340 = { #b_ustengrav
+	holding = none
+}
+
+###c_hunstand
+
+1341 = { #b_hunstand
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1342 = { #b_berjord
+	holding = none
+}
+1343 = { #b_hjaalstorm
+	holding = none
+}
+
+###c_hammerhall
+
+1344 = { #b_hammerhall
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1345 = { #b_bjestor
+	holding = none
+}
+
+###c_stonehills
+
+1347 = { #b_stonehills
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1346 = { #b_hailstone
+	holding = none
+}
+
+###c_kjenstag
+
+1349 = { #b_kjenstag
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = church_holding
+}
+1348 = { #b_kjanheim
+	holding = none
+}
+1350 = { #b_merzen
+	holding = none
+}
+
+###c_gruelan
+
+1351 = { #b_gruelan
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1352 = { #b_morvarth
+	holding = none
+}
+
+###c_morthal
+
+1353 = { #b_highmoon
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1354 = { #b_morthal
+	holding = city_holding
+}
+1355 = { #b_morthal_barrows
+	holding = church_holding
+}
+1356 = { #b_dunholm
+	holding = none
+}
+1357 = { #b_laesten
+	holding = none
+}
+
+###c_wildsung
+
+1358 = { #b_wildsung
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = city_holding
+}
+1359 = { #b_sagard
+	holding = none
+}
+
+###c_myrwatch
+
+1360 = { #b_myrwatch
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1415 = { #b_guthlac
+	holding = none
+}
+1416 = { #b_dresten
+	holding = none
+}
+
+###c_valkygg
+
+1361 = { #b_valkygg
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = church_holding
+}
+1362 = { #b_labyrinthian
+	holding = none
+}
+1363 = { #b_helmsdeep
+	holding = none
+}
+
+###c_coldrock
+
+1365 = { #b_coldrock
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1364 = { #b_dead_men_respite
+	holding = none
+}
+454 = { #b_karmist
+	holding = none
+}
+
+###c_rimerock
+
+1367 = { #b_rimerock
+	culture = westmarcher
+	religion = dragon_cult
+	
+	holding = tribal_holding
+}
+1366 = { #b_frostbite
+	holding = none
+}
+1368 = { #b_dragonhome
+	holding = none
+}
+
+###c_northwatch
+
+1370 = { #b_northwatch
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1369 = { #b_giant_coast
+	holding = none
+}
+
+###c_volkihar
+
+1371 = { #b_volkihar
+	culture = westmarcher
+	religion = molag_cult
+	
+	holding = castle_holding
+}
+1372 = { #b_boneshore
+	holding = none
+}
+1373 = { #b_boodstone
+	holding = none
+}
+
+###c_dunbarrow
+
+1375 = { #b_ustenhall
+	culture = westmarcher
+	religion = nord_cult
+
+	holding = castle_holding
+}
+1376 = { #b_dunbarrow
+	holding = city_holding
+}
+1374 = { #b_steepfall
+	holding = none
+}
+
+###c_ravenscar
+
+1378 = { #b_ravenscar
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1377 = { #b_widow_watch
+	holding = none
+}
+1379 = { #b_sword_point
+	holding = none
+}
+
+###c_span_isles
+
+1380 = { #b_kyne_perch
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1381 = { #b_coldstone
+	holding = none
+}
+
+###c_whiteflow
+
+1384 = { #b_whiteflow
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = tribal_holding
+}
+1385 = { #b_shadowgreen
+	holding = none
+}
+1382 = { #b_valthammer
+	holding = none
+}
+1383 = { #b_broaken_oar
+	holding = none
+}
+
+###c_lonewatch
+
+1387 = { #b_lonewatch
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1386 = { #b_brinewater
+	holding = none
+}
+1388 = { #b_karthmouth
+	holding = none
+}
+
+###c_silent_isles
+
+1389 = { #b_aldhelm
+	culture = westmarcher
+	religion = totemism
+	
+	holding = tribal_holding
+}
+1390 = { #b_svellfold
+	holding = none
+}
+
+###c_solitude
+
+1393 = { #b_blue_palace
+	culture = westmarcher
+	religion = nord_cult
+	holding = castle_holding
+	
+	special_building = blue_palace_01
+	duchy_capital_building = solitude_holy_walls_01
+	
+	buildings = {
+		castle_03
+		pastures_02
+		hill_forts_02
+		regimental_grounds_01
+	}
+}
+5476 = { #b_solitude_temple
+	holding = church_holding
+}
+1391 = { #b_dour
+	holding = castle_holding
+	buildings = {
+		castle_02
+		hill_forts_01
+		barracks_02
+	}
+}
+1392 = { #b_solitude
+	holding = city_holding
+	buildings = {
+		city_02
+		common_tradeport_01
+		logging_camps_01
+	}
+}
+1394 = { #b_harbourside
+	holding = none
+}
+
+###c_ironback
+
+1395 = { #b_ironback
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1396 = { #b_glenmarch
+	holding = none
+}
+1397 = { #b_helstead
+	holding = none
+}
+
+###c_kilkreath
+
+1400 = { #b_kilkreath
+	culture = westmarcher
+	religion = meridia_cult
+	
+	holding = church_holding
+
+	#Note: in lore, kilkreath will be abandoned here. i'd replace it with a mehrunes cult for a while, then nord cult again.
+	#HistoryToDo date is 582, has to be synced with the Greymoor expansion (589? idk)
+	3503.1.1 = {
+		religion = mehrunes_cult
+	}
+}
+1398 = { #b_kogmenthist
+	holding = castle_holding
+}
+1399 = { #b_helgar
+	holding = none
+}
+
+###c_falconstar
+
+5453 = { #b_falconstar
+	culture = westmarcher
+	religion = nord_cult
+
+	holding = castle_holding
+}
+1401 = { #b_steedhold
+	holding = city_holding
+}
+1402 = { #b_katla
+	holding = none
+}
+
+###c_dragon_bridge
+
+1404 = { #b_dragon_bridge
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = city_holding
+}
+1403 = { #b_hag_end
+	holding = none
+}
+1405 = { #b_karthshore
+	holding = none
+}
+
+###c_deepwood
+
+1406 = { #b_deepwood
+	culture = reachfolk
+	religion = hircine_cult
+	
+	holding = tribal_holding
+}
+1407 = { #b_volksygge
+	holding = none
+}
+1408 = { #b_pinemoon
+	holding = none
+}
+
+###c_pinefrost
+
+5452 = { #b_cascabel_hall
+	culture = reachfolk
+	religion = hircine_cult
+
+	holding = tribal_holding
+}
+1409 = { #b_pinefrost
+	holding = none
+}
+1410 = { #b_lost_echo
+	holding = none
+}
+
+###c_hraggstad
+
+1411 = { #b_hraggstad
+	culture = westmarcher
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1412 = { #b_jallenheim
+	holding = none
+}
+1413 = { #b_clearpine
+	holding = none
+}
+
+###c_icereach
+
+1418 = { #b_icereach
+	culture = reachfolk
+	religion = hagraven_cult
+
+	holding = tribal_holding
+}
+1419 =  { #b_grenivik
+	holding = church_holding
+}
+1420 = { #b_unhrug 
+	holding = none
+}
+
+###c_darkfall
+
+1421 = { #b_mor_khazgur
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	holding = tribal_holding
+}
+1422 =  { #b_half_finger
+	holding = none
+}
+1423 = { #b_darkfall 
+	holding = none
+}
+
+###c_bruca_leap
+
+1425 = { #b_bruca_leap
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	holding = castle_holding
+}
+1424 =  { #b_champion_ring
+	holding = none
+}
+
+###c_chillbain
+
+1426 = { #b_chillbain
+	culture = westmarcher
+	religion = nord_cult
+
+	holding = tribal_holding
+	3320.1.1 = {
+		culture = reachfolk
+		religion = hagraven_cult
+		}
+	3500.1.1 = {
+		culture = westmarcher
+		religion = nord_cult
+		holding = castle_holding
+		}
+}
+1427 =  { #b_cliffside
+	holding = none
+}
+1428 = { #b_liar_retreat 
+	holding = none
+}
+1429 = { #b_breakwatch 
+	holding = none
+}
+
+###c_karthwatch
+
+1430 = { #b_karthwatch
+	culture = westmarcher
+	religion = nord_cult
+
+	holding = castle_holding
+	3320.1.1 = {
+		culture = reachfolk
+		religion = hagraven_cult
+		}
+	3500.1.1 = {
+		culture = westmarcher
+		religion = nord_cult
+		}
+}
+1431 =  { #b_silversnow
+	holding = none
+}
+1432 = { #b_froststone 
+	holding = none
+}
+1433 = { #b_scarhammer 
+	holding = none
+}
+
+###c_bleakwind
+
+1436 = { #b_bleakwind
+	culture = reachfolk
+	religion = hagraven_cult
+
+	holding = tribal_holding
+}
+1434 =  { #b_sundered
+	holding = none
+}
+1435 = { #b_rebel_cairn 
+	holding = none
+}
+
+###c_druadach
+
+1438 = { #b_druadach
+	culture = reachfolk
+	religion = old_gods
+
+	holding = tribal_holding
+}
+1437 =  { #b_deep_folk_crossing
+	holding = none
+}
+1439 = { #b_reachreach 
+	holding = none
+}
+
+###c_dragontooth
+
+1441 = { #b_harmugstahl
+	culture = reachfolk
+	religion = old_gods
+
+	holding = tribal_holding
+}
+1440 =  { #b_witchborne
+	holding = none
+}
+1442 = { #b_dragontooth 
+	holding = none
+}
+
+###c_blackmoon
+
+1443 = { #b_blackmoon
+	culture = reachfolk
+	religion = old_gods
+
+	holding = tribal_holding
+}
+1444 =  { #b_peryitein
+	holding = church_holding
+}
+
+###c_karthwasten
+
+1448 = { #b_karthkeep
+	culture = reachfolk
+	religion = old_gods
+
+	holding = tribal_holding
+}
+1447 =  { #b_karthwasten
+	holding = city_holding
+}
+1445 = { #b_sanuarach 
+	holding = none
+}
+1446 = { #b_crow_eye 
+	holding = none
+}
+
+###c_luspardain
+
+1451 = { #b_luspardain
+	culture = reachfolk
+	religion = druadach_cult
+
+	holding = tribal_holding
+}
+1449 =  { #b_bthardamz
+	holding = none
+}
+1450 = { #b_rearial 
+	holding = none
+}
+
+###c_blindcliff
+
+1453 = { #b_blindcliff
+	culture = reachfolk
+	religion = old_gods
+
+	holding = tribal_holding
+}
+1452 =  { #b_nocturn
+	holding = none
+}
+
+###c_ragnvald
+
+1454 = { #b_ragnvald
+	culture = reachfolk
+	religion = druadach_cult
+
+	holding = tribal_holding
+}
+1455 =  { #b_deadchime
+	holding = none
+}
+1456 = { #b_tor_ayarla 
+	holding = none
+}
+
+###c_kolskeggr
+
+1458 = { #b_kolskeggr
+	culture = reachfolk
+	religion = old_gods
+
+	holding = tribal_holding
+}
+1457 =  { #b_wildspear
+	holding = none
+}
+
+###c_markarth
+
+1459 = { #b_understone
+	culture = reachfolk
+	religion = old_gods
+
+	holding = castle_holding
+	
+	special_building = understone_keep_01
+	buildings = {
+		castle_02
+	}
+}
+1460 =  { #b_markarth
+	holding = city_holding
+	
+}
+1461 = { #b_salvius 
+	holding = none
+}
+1462 = { #b_left_handed 
+	holding = none
+}
+1463 = { #b_cidhna 
+	holding = none
+	
+	special_building_slot = cidhna_mine_silver_mines_01
+}
+
+###c_brasswater
+
+1464 = { #b_brasswater
+	culture = reachfolk
+	religion = dwemer_idolatry
+
+	holding = tribal_holding
+}
+1465 =  { #b_bonechime
+	holding = none
+}
+1466 = { #b_duimnach 
+	holding = none
+}
+
+###c_purewater
+
+1468 = { #b_purewater_run
+	culture = reachfolk
+	religion = dwemer_idolatry
+
+	holding = tribal_holding
+}
+1467 =  { #b_hag_rock
+	holding = none
+}
+
+###c_hraggen
+
+1472 = { #b_hraggen
+	culture = reachfolk
+	religion = hagraven_cult
+
+	holding = church_holding
+}
+1469 =  { #b_fourskull
+	holding = none
+}
+1470 = { #b_red_eagle 
+	holding = none
+}
+1471 = { #b_dunruadh 
+	holding = none
+}
+
+###c_karthspire
+
+1474 = { #b_karthspire
+	culture = reachfolk
+	religion = old_gods
+
+	holding = tribal_holding
+	3350.1.1 = {
+		religion = old_gods
+		holding = castle_holding
+		}
+	3370.1.1 = {
+		religion = old_gods
+		holding = tribal_holding
+		}
+}
+1473 =  { #b_sky_haven
+	holding = none
+}
+
+###c_soljund
+
+1477 = { #b_soljund
+	culture = reachfolk
+	religion = hagraven_cult
+
+	holding = tribal_holding
+}
+1475 =  { #b_rebel_retreat
+	holding = none
+}
+
+###c_hroldan
+
+1479 = { #b_hroldan
+	culture = reachfolk
+	religion = old_gods
+
+	holding = tribal_holding
+}
+1478 =  { #b_harrowed_haunt
+	holding = none
+}
+1476 = { #b_cinderheart 
+	holding = none
+}
+
+###c_ravenhall
+
+1481 = { #b_ravenhall
+	culture = reachfolk
+	religion = old_gods
+
+	holding = tribal_holding
+}
+1480 =  { #b_falkhall
+	holding = none
+}
+1482 = { #b_ustunhammer 
+	holding = none
+}
+
+###c_sungard
+
+1485 = { #b_sungard
+	culture = reachfolk
+	religion = minotaur_cult
+
+	holding = tribal_holding
+}
+1483 =  { #b_helwatch
+	holding = none
+}
+1484 = { #b_hendraheim 
+	holding = none
+}
+1486 = { #b_bjorlam 
+	holding = none
+}
+
+###c_breakwind
+
+1487 = { #b_breakwind
+	culture = reachfolk
+	religion = hagraven_cult
+
+	holding = tribal_holding
+}
+1488 =  { #b_lost_valley
+	holding = none
+}
+1489 = { #b_cradle_stone 
+	holding = none
+}
+
+###c_valthume
+
+1493 = { #b_valthume
+	culture = reachfolk
+	religion = hagraven_cult
+
+	holding = tribal_holding
+}
+1490 =  { #b_shadefeather
+	holding = none
+}
+1491 = { #b_gloomreach 
+	holding = none
+}
+1492 = { #b_volgard 
+	holding = none
+}
+
+###c_skyhammer
+
+1496 = { #b_skyhammer
+	culture = reachfolk
+	religion = old_gods
+
+	holding = tribal_holding
+}
+1501 =  { #b_reachcliff
+	holding = none
+}
+1494 =  { #b_ansilgard
+	holding = none
+}
+1495 = { #b_sheargen 
+	holding = none
+}
+
+###c_rockwatch
+
+1499 = { #b_rockwatch
+	culture = reachfolk
+	religion = hagraven_cult
+
+	holding = tribal_holding
+}
+1497 =  { #b_gearagh
+	holding = none
+}
+1498 = { #b_arkngthamz 
+	holding = none
+}
+
+###c_reachwind
+
+1502 = { #b_reachwind 
+	culture = reachfolk
+	religion = hagraven_cult
+	special_building = arena_01
+	holding = tribal_holding
+}
+1500 = { #b_reachwater
+	holding = none
+}
+1503 = { #b_eyrie 
+	holding = none
+}
+
+###c_dushnikh
+
+1504 = { #b_dushnikh
+	culture = reachfolk
+	religion = hagraven_cult
+
+	holding = tribal_holding
+}
+1505 =  { #b_vateshran_hollow
+	holding = none
+}
+1506 = { #b_nalzthdbar 
+	holding = none
+}
+
+### c_leylan
+
+1508 = { #b_leylan
+	culture = reachfolk
+	religion = druadach_cult
+
+	holding = castle_holding
+}
+1509 = { #b_druadein
+	holding = none
+}
+
+### c_bleakrock
+
+1662 = { #b_bleakrock
+	culture = eastmarcher
+	religion = nord_cult
+
+	holding = tribal_holding
+}
+1660 = { #b_hozzin_folly
+	holding = none
+}
+1661 = { #b_skyshroud
+	holding = none
+}
+
+# ### c_northshore
+
+ 1663 = { #b_northshore_landing
+	 culture = riekling
+	 religion = hircine_cult
+
+	 holding = tribal_holding
+ }
+ 1664 = { #b_karstaag
+	 holding = none
+ }
+ 1665 = { #b_hrothmund_bane
+	 holding = none
+ }
+
+### c_felsaad
+
+1666 = { #b_skaal
+	culture = skaal
+	religion = anuic_skaal
+
+	holding = tribal_holding
+}
+1667 = { #b_frossel
+	holding = none
+}
+1668 = { #b_rimhull
+	holding = none
+}
+
+### c_thormoor
+
+1670 = { #b_thormoor_watch
+	culture = riekling
+	religion = goblin_shamanism
+
+	holding = tribal_holding
+}
+1669 = { #b_varstaad
+	holding = none
+}
+
+### c_harstrad
+
+1672 = { #b_harstrad
+	culture = skaal
+	religion = anuic_skaal
+
+	holding = tribal_holding
+}
+1671 = { #b_thrond
+	holding = none
+}
+1673 = { #b_gronn
+	holding = none
+}
+
+### c_moesring
+
+1675 = { #b_moesring
+	culture = riekling
+	religion = goblin_shamanism
+
+	holding = tribal_holding
+	special_building = fahlbtharz_01
+}
+1674 = { #b_hvitkald
+	holding = none
+}
+1676 = { #b_snowclad
+	holding = none
+}
+
+### c_snowfallow
+
+1678 = { #b_snowfallow
+	culture = skaal
+	religion = anuic_skaal
+
+	holding = tribal_holding
+}
+1677 = { #b_vahlok
+	holding = none
+}
+1679 = { #b_nchardak
+	holding = none
+}
+
+### c_bloodskal
+
+1680 = { #b_bloodskal
+	culture = skaal
+	religion = anuic_skaal
+
+	holding = tribal_holding
+}
+1681 = { #b_damphall
+	holding = none
+}
+
+### c_solvjord
+
+1683 = { #b_solvjord
+	culture = skaal
+	religion = anuic_skaal
+
+	holding = tribal_holding
+}
+1682 = { #b_brodir
+	holding = none
+}
+
+### c_raven_rock
+
+1687 = { #b_raven_rock
+	culture = skaal
+	religion = anuic_skaal
+
+	holding = tribal_holding
+}
+1685 = { #b_severin
+	holding = none
+}
+1686 = { #b_ravenmine
+	holding = none
+	
+	special_building_slot = ravenmine_ebony_mines_01
+}
+1688 = { #b_coldcinder
+	holding = none
+}
+
+### c_highpoint
+
+1689 = { #b_highpoint
+	culture = riekling
+	religion = goblin_shamanism
+
+	holding = tribal_holding
+}
+1690 = { #b_penumbra
+	holding = none
+}
+1691 = { #b_gandrung
+	holding = none
+}
+
+### c_himmelhost
+
+1694 = { #b_himmelhost
+	culture = skaal
+	religion = anuic_skaal
+
+	holding = tribal_holding
+}
+1692 = { #b_skogsdrake
+	holding = none
+}
+1693 = { #b_toralf
+	holding = none
+}
+
+### c_frostmoth
+
+1697 = { #b_frostmoth
+	culture = skaal
+	religion = anuic_skaal
+
+	holding = tribal_holding
+}
+1695 = { #b_kolbjorn
+	holding = none
+}
+1696 = { #b_stormpfund
+	holding = none
+}
+
+### c_fjalding
+
+1701 = { #b_fjalding
+	culture = skaal
+	religion = anuic_skaal
+
+	holding = tribal_holding
+}
+1699 = { #b_sjobal
+	holding = none
+}
+1700 = { #b_gyldenhul
+	holding = none
+}

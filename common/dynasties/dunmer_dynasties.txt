@@ -1,0 +1,3296 @@
+﻿# Dunmeris Range: 1.300.000 - 1.399.999
+
+	#Dunmer: 1.300.000 - 1.309.999
+	#Ashlander: 1.310.000 - 1.339.999
+
+1300000 = {
+	name = "Indoril"
+	culture = chuzei
+	motto = dynn_indoril_motto
+}
+
+olms = {
+	name = "Olms"
+	culture = chuzei
+}
+
+llothis = {
+	name = "Llothis"
+	culture = chuzei
+}
+
+ilvi = {
+	name = "Ilvi"
+	culture = chuzei
+}
+
+llothis = {
+	name = "Llothis"
+	culture = chuzei
+}
+
+meris = {
+	name = "Meris"
+	culture = chuzei
+}
+
+parys = {
+	name = "Parys"
+	culture = chuzei
+}
+
+salvu = {
+	name = "Salvu"
+	culture = chuzei
+}
+
+seras = {
+	name = "Seras"
+	culture = chuzei
+}
+
+triffith = {
+	name = "Triffith"
+	culture = chuzei
+}
+
+
+1300001 = {
+	name = "Redoran"
+	culture = gah_julan
+	motto = dynn_redoran_motto
+}
+
+
+1300002 = {
+	name = "Hlaalu"
+	culture = armun_an
+	motto = dynn_hlaalu_motto
+}
+
+
+telvanni = {
+	name = "Telvanni"
+	culture = chi_addun
+	motto = dynn_telvanni_motto
+}
+fathryon = {
+	name = "Fathryon"
+	culture = chi_addun
+}
+maryon = {
+	name = "Maryon"
+	culture = chi_addun
+}
+drenim = {
+	name = "Drenim"
+	culture = chi_addun
+}
+sarys = {
+	name = "Sarys"
+	culture = chi_addun
+}
+selaro = {
+	name = "Selaro"
+	culture = chi_addun
+}
+vedran = {
+	name = "Vedran"
+	culture = chi_addun
+}
+suth = {
+	name = "Suth"
+	culture = chi_addun
+}
+oren = {
+	name = "Oren"
+	culture = chi_addun
+}
+onthim = {
+	name = "Onthim"
+	culture = chi_addun
+}
+sendrul = {
+	name = "Sendrul"
+	culture = chi_addun
+}
+1300004 = {
+	name = "Dres"
+	culture = marduhn_oad
+	motto = dynn_dres_motto
+}
+beleran = {
+	name = "Beleran"
+	culture = marduhn_oad
+}
+melur = {
+	name = "Melur"
+	culture = marduhn_oad
+}
+hlor = {
+	name = "Hlor"
+	culture = marduhn_oad
+}
+venali = {
+	name = "Venali"
+	culture = marduhn_oad
+}
+1300005 = {
+	name = "Dagoth"
+	culture = chuzei
+}
+1300006 = {
+	name = "Veloth"
+	culture = chimer
+}
+1300007 = {
+	name = "Sadras"
+	culture = chimer
+}
+#1300008 = {
+#	name="Ienith"
+#	culture = chimer
+#}
+1300009 = {
+	name="Arvel"
+	culture = chimer
+}
+#1300010 = {
+#	name="Dralor"
+#	culture = chimer
+#}
+#1300011 = {
+#	name="Llervu"
+#	culture = chimer
+#}
+1300012 = {
+	name="Sadri"
+	culture = chimer
+}
+#1300013 = {
+#	name="Saren"
+#	culture = chimer
+#}
+#1300014 = {
+#	name="Andas"
+#	culture = chimer
+#}
+#1300015 = {
+#	name="Dren"
+#	culture = chimer
+#}
+#1300016 = {
+#	name="Faryon"
+#	culture = chimer
+#}
+#1300017 = {
+#	name="Girith"
+#	culture = chimer
+#}
+1300018 = {
+	name="Hleran"
+	culture = chimer
+	motto = dynn_hleran_motto
+}
+#1300019 = {
+#	name="Indaram"
+#	culture = chimer
+#}
+#1300020 = {
+#	name="Seleth"
+#	culture = chimer
+#}
+#1300021 = {
+#	name="Aryon"
+#	culture = chimer
+#}
+#1300022 = {
+#	name="Indaren"
+#	culture = chimer
+#}
+#1300023 = {
+#	name="Indrano"
+#	culture = chimer
+#}
+#1300024 = {
+#	name="Sarano"
+#	culture = chimer
+#}
+#1300025 = {
+#	name="Seran"
+#	culture = chimer
+#}
+#1300026 = {
+#	name="Andarys"
+#	culture = chimer
+#}
+#1300027 = {
+#	name="Andus"
+#	culture = chimer
+#}
+#1300028 = {
+#	name="Arenim"
+#	culture = chimer
+#}
+#1300029 = {
+#	name="Athren"
+#	culture = chimer
+#}
+#1300030 = {
+#	name="Farano"
+#	culture = chimer
+#}
+1300031 = {
+	name="Fyr"
+	culture = chimer
+}
+#1300032 = {
+#	name="Gilnith"
+#	culture = chimer
+#}
+#1300033 = {
+#	name="Hlaren"
+#	culture = chimer
+#}
+1300034 = {
+	name="Llethri"
+	culture = chimer
+}
+#1300035 = {
+#	name="Maryon"
+#	culture = chimer
+#}
+#1300036 = {
+#	name="Omoran"
+#	culture = chimer
+#}
+#1300037 = {
+#	name="Salas"
+#	culture = chimer
+#}
+#1300038 = {
+#	name="Saryon"
+#	culture = chimer
+#}
+#1300039 = {
+#	name="Uvayn"
+#	culture = chimer
+#}
+#1300040 = {
+#	name="Vendu"
+#	culture = chimer
+#}
+#1300041 = {
+#	name="Andaram"
+#	culture = chimer
+#}
+#1300042 = {
+#	name="Aralas"
+#	culture = chimer
+#}
+#1300043 = {
+#	name="Arelas"
+#	culture = chimer
+#}
+1300044 = {
+	name="Arobar"
+	culture = chimer
+}
+#1300045 = {
+#	name="Helas"
+#	culture = chimer
+#}
+#1300046 = {
+#	name="Hlervu"
+#	culture = chimer
+#}
+#1300047 = {
+#	name="Llaren"
+#	culture = chimer
+#}
+#1300048 = {
+#	name="Lleran"
+#	culture = chimer
+#}
+#1300049 = {
+#	name="Maren"
+#	culture = chimer
+#}
+#1300050 = {
+#	name="Nerethi"
+#	culture = chimer
+#}
+#1300051 = {
+#	name="Othravel"
+#	culture = chimer
+#}
+#1300052 = {
+#	name="Othril"
+#	culture = chimer
+#}
+#1300053 = {
+#	name="Rathryon"
+#	culture = chimer
+#}
+#1300054 = {
+#	name="Relas"
+#	culture = chimer
+#}
+#1300055 = {
+#	name="Rethan"
+#	culture = chimer
+#}
+#1300056 = {
+#	name="Retheran"
+#	culture = chimer
+#}
+#1300057 = {
+#	name="Salvani"
+#	culture = chimer
+#}
+#1300058 = {
+#	name="Saram"
+#	culture = chimer
+#}
+1300059 = {
+	name="Sarethi"
+	culture = chimer
+}
+#1300060 = {
+#	name="Senim"
+#	culture = chimer
+#}
+#1300061 = {
+#	name="Teran"
+#	culture = chimer
+#}
+#1300062 = {
+#	name="Tharen"
+#	culture = chimer
+#}
+1300063 = {
+	name="Ules"
+	culture = chimer
+}
+#1300064 = {
+#	name="Velas"
+#	culture = chimer
+#}
+1300065 = {
+	name="Venim"
+	culture = chimer
+}
+#1300066 = {
+#	name="Veran"
+#	culture = chimer
+#}
+#1300067 = {
+#	name="Verethi"
+#	culture = chimer
+#}
+#1300068 = {
+#	name="Virith"
+#	culture = chimer
+#}
+#1300069 = {
+#	name="Adas"
+#	culture = chimer
+#}
+#1300070 = {
+#	name="Alen"
+#	culture = chimer
+#}
+#1300071 = {
+#	name="Andalas"
+#	culture = chimer
+#}
+#1300072 = {
+#	name="Andalen"
+#	culture = chimer
+#}
+#1300073 = {
+#	name="Andoril"
+#	culture = chimer
+#}
+#1300074 = {
+#	name="Andules"
+#	culture = chimer
+#}
+1300075 = {
+	name="Arano"
+	culture = chimer
+}
+#1300076 = {
+#	name="Aravel"
+#	culture = chimer
+#}
+#1300077 = {
+#	name="Aren"
+#	culture = chimer
+#}
+#1300078 = {
+#	name="Arethan"
+#	culture = chimer
+#}
+#1300079 = {
+#	name="Arethi"
+#	culture = chimer
+#}
+#1300080 = {
+#	name="Berano"
+#	culture = chimer
+#}
+#1300081 = {
+#	name="Dral"
+#	culture = chimer
+#}
+#1300082 = {
+#	name="Dralas"
+#	culture = chimer
+#}
+#1300083 = {
+#	name="Drelas"
+#	culture = chimer
+#}
+# 1300084 = {
+# 	name="Drenim"
+# 	culture = chimer
+# }
+#1300085 = {
+#	name="Drethan"
+#	culture = chimer
+#}
+#1300086 = {
+#	name="Drothan"
+#	culture = chimer
+#}
+#1300087 = {
+#	name="Helvi"
+#	culture = chimer
+#}
+#1300088 = {
+#	name="Henim"
+#	culture = chimer
+#}
+1300089 = {
+	name="Ieneth"
+	culture = chimer
+}
+#1300090 = {
+#	name="Indalas"
+#	culture = chimer
+#}
+#1300091 = {
+#	name="Irano"
+#	culture = chimer
+#}
+#1300092 = {
+#	name="Llaram"
+#	culture = chimer
+#}
+#1300093 = {
+#	name="Llarys"
+#	culture = chimer
+#}
+#1300094 = {
+#	name="Llenim"
+#	culture = chimer
+#}
+#1300095 = {
+#	name="Llethan"
+#	culture = chimer
+#}
+#1300096 = {
+#	name="Lloran"
+#	culture = chimer
+#}
+1300097 = {
+	name="Mandas"
+	culture = chimer
+}
+#1300098 = {
+#	name="Nethan"
+#	culture = chimer
+#}
+#1300099 = {
+#	name="Omalen"
+#	culture = chimer
+#}
+#1300100 = {
+#	name="Omavel"
+#	culture = chimer
+#}
+#1300101 = {
+#	name="Omayn"
+#	culture = chimer
+#}
+#1300102 = {
+#	name="Oran"
+#	culture = chimer
+#}
+#1300103 = {
+#	name="Oren"
+#	culture = chimer
+#}
+#1300104 = {
+#	name="Orethi"
+#	culture = chimer
+#}
+#1300105 = {
+#	name="Oril"
+#	culture = chimer
+#}
+#1300106 = {
+#	name="Othan"
+#	culture = chimer
+#}
+#1300107 = {
+#	name="Othran"
+#	culture = chimer
+#}
+#1300108 = {
+#	name="Othren"
+#	culture = chimer
+#}
+#1300109 = {
+#	name="Radas"
+#	culture = chimer
+#}
+#1300110 = {
+#	name="Ralen"
+#	culture = chimer
+#}
+#1300111 = {
+#	name="Rendas"
+#	culture = chimer
+#}
+#1300112 = {
+#	name="Sadus"
+#	culture = chimer
+#}
+#1300113 = {
+#	name="Sarendas"
+#	culture = chimer
+#}
+## 1300114 = {
+## 	name="Sarys"
+## 	culture = chimer
+## }
+#1300115 = {
+#	name="Serethi"
+#	culture = chimer
+#}
+#1300116 = {
+#	name="Tedas"
+#	culture = chimer
+#}
+#1300117 = {
+#	name="Tenim"
+#	culture = chimer
+#}
+#1300118 = {
+#	name="Thelas"
+#	culture = chimer
+#}
+#1300119 = {
+#	name="Thirandus"
+#	culture = chimer
+#}
+#1300120 = {
+#	name="Thirano"
+#	culture = chimer
+#}
+#1300121 = {
+#	name="Uvaren"
+#	culture = chimer
+#}
+#1300122 = {
+#	name="Uvenim"
+#	culture = chimer
+#}
+#1300123 = {
+#	name="Uveran"
+#	culture = chimer
+#}
+#1300124 = {
+#	name="Varen"
+#	culture = chimer
+#}
+#1300125 = {
+#	name="Varis"
+#	culture = chimer
+#}
+#1300126 = {
+#	name="Adren"
+#	culture = chimer
+#}
+#1300127 = {
+#	name="Alver"
+#	culture = chimer
+#}
+#1300128 = {
+#	name="Andaren"
+#	culture = chimer
+#}
+#1300129 = {
+#	name="Andavel"
+#	culture = chimer
+#}
+#1300130 = {
+#	name="Andoren"
+#	culture = chimer
+#}
+#1300131 = {
+#	name="Andrelo"
+#	culture = chimer
+#}
+#1300132 = {
+#	name="Aralen"
+#	culture = chimer
+#}
+1300133 = {
+	name="Areleth"
+	culture = chimer
+}
+#1300134 = {
+#	name="Arinith"
+#	culture = chimer
+#}
+#1300135 = {
+#	name="Arothan"
+#	culture = chimer
+#}
+#1300136 = {
+#	name="Athram"
+#	culture = chimer
+#}
+#1300137 = {
+#	name="Athrys"
+#	culture = chimer
+#}
+#1300138 = {
+#	name="Balen"
+#	culture = chimer
+#}
+#1300139 = {
+#	name="Belas"
+#	culture = chimer
+#}
+#1300140 = {
+#	name="Beleth"
+#	culture = chimer
+#}
+#1300141 = {
+#	name="Berendas"
+#	culture = chimer
+#}
+#1300142 = {
+#	name="Berethi"
+#	culture = chimer
+#}
+#1300143 = {
+#	name="Dalen"
+#	culture = chimer
+#}
+#1300144 = {
+#	name="Darethi"
+#	culture = chimer
+#}
+#1300145 = {
+#	name="Daryon"
+#	culture = chimer
+#}
+#1300146 = {
+#	name="Darys"
+#	culture = chimer
+#}
+#1300147 = {
+#	name="Dran"
+#	culture = chimer
+#}
+#1300148 = {
+#	name="Drom"
+#	culture = chimer
+#}
+#1300149 = {
+#	name="Falas"
+#	culture = chimer
+#}
+#1300150 = {
+#	name="Falen"
+#	culture = chimer
+#}
+#1300151 = {
+#	name="Faram"
+#	culture = chimer
+#}
+1300152 = {
+	name="Faren"
+	culture = chimer
+}
+#1300153 = {
+#	name="Farethi"
+#	culture = chimer
+#}
+1300154 = {
+	name="Farys"
+	culture = chimer
+}
+#1300155 = {
+#	name="Favelnim"
+#	culture = chimer
+#}
+#1300156 = {
+#	name="Gilvayn"
+#	culture = chimer
+#}
+#1300157 = {
+#	name="Heran"
+#	culture = chimer
+#}
+#1300158 = {
+#	name="Hlaalo"
+#	culture = chimer
+#}
+#1300159 = {
+#	name="Hlan"
+#	culture = chimer
+#}
+#1300160 = {
+#	name="Hlas"
+#	culture = chimer
+#}
+#1300161 = {
+#	name="Hlen"
+#	culture = chimer
+#}
+#1300162 = {
+#	name="Hler"
+#	culture = chimer
+#}
+#1300163 = {
+#	name="Hloran"
+#	culture = chimer
+#}
+#1300164 = {
+#	name="Indalen"
+#	culture = chimer
+#}
+#1300165 = {
+#	name="Indarys"
+#	culture = chimer
+#}
+#1300166 = {
+#	name="Llendu"
+#	culture = chimer
+#}
+#1300167 = {
+#	name="Marvel"
+#	culture = chimer
+#}
+#1300168 = {
+#	name="Marys"
+#	culture = chimer
+#}
+#1300169 = {
+#	name="Moren"
+#	culture = chimer
+#}
+1300170 = {
+	name="Morvayn"
+	culture = chimer
+}
+#1300171 = {
+#	name="Mothryon"
+#	culture = chimer
+#}
+#1300172 = {
+#	name="Nelas"
+#	culture = chimer
+#}
+#1300173 = {
+#	name="Nerano"
+#	culture = chimer
+#}
+#1300174 = {
+#	name="Nirith"
+#	culture = chimer
+#}
+#1300175 = {
+#	name="Norvayn"
+#	culture = chimer
+#}
+#1300176 = {
+#	name="Norvayne"
+#	culture = chimer
+#}
+#1300177 = {
+#	name="Omalas"
+#	culture = chimer
+#}
+1300178 = {
+	name="Omalor"
+	culture = chimer
+}
+#1300179 = {
+#	name="Omoril"
+#	culture = chimer
+#}
+#1300180 = {
+#	name="Omothan"
+#	culture = chimer
+#}
+#1300181 = {
+#	name="Othralen"
+#	culture = chimer
+#}
+#1300182 = {
+#	name="Othrelas"
+#	culture = chimer
+#}
+#1300183 = {
+#	name="Othreleth"
+#	culture = chimer
+#}
+#1300184 = {
+#	name="Andrethis"
+#	culture = chimer
+#}
+#1300185 = {
+#	name="Othrenim"
+#	culture = chimer
+#}
+#1300186 = {
+#	name="Ralas"
+#	culture = chimer
+#}
+#1300187 = {
+#	name="Raledran"
+#	culture = chimer
+#}
+#1300188 = {
+#	name="Ravel"
+#	culture = chimer
+#}
+##1300189 = {
+##	name="Releth"
+##	culture = chimer
+##}
+#1300190 = {
+#	name="Romoren"
+#	culture = chimer
+#}
+#1300191 = {
+#	name="Romori"
+#	culture = chimer
+#}
+#1300192 = {
+#	name="Rothandus"
+#	culture = chimer
+#}
+#1300193 = {
+#	name="Samori"
+#	culture = chimer
+#}
+#1300194 = {
+#	name="Sarandas"
+#	culture = chimer
+#}
+#1300195 = {
+#	name="Sarothril"
+#	culture = chimer
+#}
+#1300196 = {
+#	name="Savel"
+#	culture = chimer
+#}
+#1300197 = {
+#	name="Savil"
+#	culture = chimer
+#}
+#1300198 = {
+#	name="Sedas"
+#	culture = chimer
+#}
+#1300199 = {
+#	name="Selaren"
+#	culture = chimer
+#}
+#1300200 = {
+#	name="Selas"
+#	culture = chimer
+#}
+#1300201 = {
+#	name="Selvilo"
+#	culture = chimer
+#}
+#1300202 = {
+#	name="Sendas"
+#	culture = chimer
+#}
+#1300203 = {
+#	name="Sethan"
+#	culture = chimer
+#}
+#1300204 = {
+#	name="Telas"
+#	culture = chimer
+#}
+#1300205 = {
+#	name="Thendas"
+#	culture = chimer
+#}
+#1300206 = {
+#	name="Tures"
+#	culture = chimer
+#}
+#1300207 = {
+#	name="Ulven"
+#	culture = chimer
+#}
+#1300208 = {
+#	name="Uvelas"
+#	culture = chimer
+#}
+#1300209 = {
+#	name="Uvirith"
+#	culture = chimer
+#}
+#1300210 = {
+#	name="Varam"
+#	culture = chimer
+#}
+#1300211 = {
+#	name="Vari"
+#	culture = chimer
+#}
+#1300212 = {
+#	name="Varyon"
+#	culture = chimer
+#}
+#1300213 = {
+#	name="Varys"
+#	culture = chimer
+#}
+#1300214 = {
+#	name="Vedas"
+#	culture = chimer
+#}
+#1300215 = {
+#	name="Vedran"
+#	culture = chimer
+#}
+#1300216 = {
+#	name="Veleth"
+#	culture = chimer
+#}
+#1300217 = {
+#	name="Verano"
+#	culture = chimer
+#}
+#1300218 = {
+#	name="Vules"
+#	culture = chimer
+#}
+#1300219 = {
+#	name="Ababael"
+#	culture = chimer
+#}
+#1300220 = {
+#	name="Adram"
+#	culture = chimer
+#}
+#1300221 = {
+#	name="Adryn"
+#	culture = chimer
+#}
+#1300222 = {
+#	name="Adus"
+#	culture = chimer
+#}
+#1300223 = {
+#	name="Alam"
+#	culture = chimer
+#}
+#1300224 = {
+#	name="Alan"
+#	culture = chimer
+#}
+#1300225 = {
+#	name="Alar"
+#	culture = chimer
+#}
+#1300226 = {
+#	name="Alvor"
+#	culture = chimer
+#}
+#1300227 = {
+#	name="Amori"
+#	culture = chimer
+#}
+#1300228 = {
+#	name="Andalor"
+#	culture = chimer
+#}
+#1300229 = {
+#	name="Andothan"
+#	culture = chimer
+#}
+#1300230 = {
+#	name="Andral"
+#	culture = chimer
+#}
+#1300231 = {
+#	name="Andrani"
+#	culture = chimer
+#}
+#1300232 = {
+#	name="Andrilo"
+#	culture = chimer
+#}
+#1300233 = {
+#	name="Androm"
+#	culture = chimer
+#}
+#1300234 = {
+#	name="Andromo"
+#	culture = chimer
+#}
+#1300235 = {
+#	name="Androthi"
+#	culture = chimer
+#}
+#1300236 = {
+#	name="Apo"
+#	culture = chimer
+#}
+#1300237 = {
+#	name="Aradil"
+#	culture = chimer
+#}
+#1300238 = {
+#	name="Aram"
+#	culture = chimer
+#}
+1300239 = {
+	name="Areloth"
+	culture = chimer
+}
+#1300240 = {
+#	name="Ares"
+#	culture = chimer
+#}
+#1300241 = {
+#	name="Areth"
+#	culture = chimer
+#}
+#1300242 = {
+#	name="Arns"
+#	culture = chimer
+#}
+#1300243 = {
+#	name="Arval"
+#	culture = chimer
+#}
+#1300244 = {
+#	name="Athelvis"
+#	culture = chimer
+#}
+#1300245 = {
+#	name="Athin"
+#	culture = chimer
+#}
+#1300246 = {
+#	name="Athones"
+#	culture = chimer
+#}
+#1300247 = {
+#	name="Avani"
+#	culture = chimer
+#}
+#1300248 = {
+#	name="Avel"
+#	culture = chimer
+#}
+#1300249 = {
+#	name="Avilo"
+#	culture = chimer
+#}
+#1300250 = {
+#	name="Avon"
+#	culture = chimer
+#}
+#1300251 = {
+#	name="Balur"
+#	culture = chimer
+#}
+#1300252 = {
+#	name="Balvel"
+#	culture = chimer
+#}
+#1300253 = {
+#	name="Bandas"
+#	culture = chimer
+#}
+#1300254 = {
+#	name="Baram"
+#	culture = chimer
+#}
+#1300255 = {
+#	name="Barelo"
+#	culture = chimer
+#}
+#1300256 = {
+#	name="Baren"
+#	culture = chimer
+#}
+#1300257 = {
+#	name="Baro"
+#	culture = chimer
+#}
+#1300258 = {
+#	name="Barus"
+#	culture = chimer
+#}
+#1300259 = {
+#	name="Baryon"
+#	culture = chimer
+#}
+#1300260 = {
+#	name="Barys"
+#	culture = chimer
+#}
+#1300261 = {
+#	name="Bavani"
+#	culture = chimer
+#}
+#1300262 = {
+#	name="Bedas"
+#	culture = chimer
+#}
+#1300263 = {
+#	name="Belaal"
+#	culture = chimer
+#}
+#1300264 = {
+#	name="Belan"
+#	culture = chimer
+#}
+#1300265 = {
+#	name="Belaram"
+#	culture = chimer
+#}
+#1300266 = {
+#	name="Belden"
+#	culture = chimer
+#}
+#1300267 = {
+#	name="Beloren"
+#	culture = chimer
+#}
+#1300268 = {
+#	name="Bels"
+#	culture = chimer
+#}
+#1300269 = {
+#	name="Belvani"
+#	culture = chimer
+#}
+#1300270 = {
+#	name="Belvayn"
+#	culture = chimer
+#}
+#1300271 = {
+#	name="Belvilo"
+#	culture = chimer
+#}
+#1300272 = {
+#	name="Bemis"
+#	culture = chimer
+#}
+#1300273 = {
+#	name="Benelas"
+#	culture = chimer
+#}
+#1300274 = {
+#	name="Beneran"
+#	culture = chimer
+#}
+#1300275 = {
+#	name="Benethran"
+#	culture = chimer
+#}
+#1300276 = {
+#	name="Beni"
+#	culture = chimer
+#}
+#1300277 = {
+#	name="Bereloth"
+#	culture = chimer
+#}
+#1300278 = {
+#	name="Beren"
+#	culture = chimer
+#}
+#1300279 = {
+#	name="Berendus"
+#	culture = chimer
+#}
+#1300280 = {
+#	name="Berer"
+#	culture = chimer
+#}
+#1300281 = {
+#	name="Bero"
+#	culture = chimer
+#}
+#1300282 = {
+#	name="Bethrano"
+#	culture = chimer
+#}
+#1300283 = {
+#	name="Bethrimo"
+#	culture = chimer
+#}
+#1300284 = {
+#	name="Bradyn"
+#	culture = chimer
+#}
+#1300285 = {
+#	name="Braryn"
+#	culture = chimer
+#}
+#1300286 = {
+#	name="Braven"
+#	culture = chimer
+#}
+#1300287 = {
+#	name="Brenos"
+#	culture = chimer
+#}
+#1300288 = {
+#	name="Brenur"
+#	culture = chimer
+#}
+#1300289 = {
+#	name="Brilyn"
+#	culture = chimer
+#}
+#1300290 = {
+#	name="Carvaren"
+#	culture = chimer
+#}
+#1300291 = {
+#	name="Dalas"
+#	culture = chimer
+#}
+#1300292 = {
+#	name="Dalis"
+#	culture = chimer
+#}
+#1300293 = {
+#	name="Dalobar"
+#	culture = chimer
+#}
+#1300294 = {
+#	name="Dalomo"
+#	culture = chimer
+#}
+#1300295 = {
+#	name="Dals"
+#	culture = chimer
+#}
+#1300296 = {
+#	name="Dalvani"
+#	culture = chimer
+#}
+#1300297 = {
+#	name="Damori"
+#	culture = chimer
+#}
+#1300298 = {
+#	name="Danoran"
+#	culture = chimer
+#}
+#1300299 = {
+#	name="Daram"
+#	culture = chimer
+#}
+#1300300 = {
+#	name="Darano"
+#	culture = chimer
+#}
+#1300301 = {
+#	name="Daren"
+#	culture = chimer
+#}
+#1300302 = {
+#	name="Darethran"
+#	culture = chimer
+#}
+#1300303 = {
+#	name="Darothril"
+#	culture = chimer
+#}
+#1300304 = {
+#	name="Darvel"
+#	culture = chimer
+#}
+#1300305 = {
+#	name="Dathren"
+#	culture = chimer
+#}
+#1300306 = {
+#	name="Davor"
+#	culture = chimer
+#}
+#1300307 = {
+#	name="Davus"
+#	culture = chimer
+#}
+#1300308 = {
+#	name="Daynes"
+#	culture = chimer
+#}
+#1300309 = {
+#	name="Delms"
+#	culture = chimer
+#}
+#1300310 = {
+#	name="Deltis"
+#	culture = chimer
+#}
+#1300311 = {
+#	name="Delvi"
+#	culture = chimer
+#}
+# 1300312 = {
+# 	name="Demnevanni" Made a Cadet of Telvanni
+# 	culture = chimer
+# }
+#1300313 = {
+#	name="Deras"
+#	culture = chimer
+#}
+#1300314 = {
+#	name="Dilmyn"
+#	culture = chimer
+#}
+#1300315 = {
+#	name="Dobar"
+#	culture = chimer
+#}
+#1300316 = {
+#	name="Doran"
+#	culture = chimer
+#}
+#1300317 = {
+#	name="Doren"
+#	culture = chimer
+#}
+#1300318 = {
+#	name="Doravyn"
+#	culture = chimer
+#}
+#1300319 = {
+#	name="Doves"
+#	culture = chimer
+#}
+#1300320 = {
+#	name="Dradas"
+#	culture = chimer
+#}
+#1300321 = {
+#	name="Dralayn"
+#	culture = chimer
+#}
+#1300322 = {
+#	name="Dralen"
+#	culture = chimer
+#}
+#1300323 = {
+#	name="Dralno"
+#	culture = chimer
+#}
+#1300324 = {
+#	name="Drals"
+#	culture = chimer
+#}
+#1300325 = {
+#	name="Drath"
+#	culture = chimer
+#}
+#1300326 = {
+#	name="Drathen"
+#	culture = chimer
+#}
+#1300327 = {
+#	name="Dredayn"
+#	culture = chimer
+#}
+#1300328 = {
+#	name="Dredil"
+#	culture = chimer
+#}
+#1300329 = {
+#	name="Dreleth"
+#	culture = chimer
+#}
+#1300330 = {
+#	name="Dreloth"
+#	culture = chimer
+#}
+#1300331 = {
+#	name="Dreth"
+#	culture = chimer
+#}
+#1300332 = {
+#	name="Driler"
+#	culture = chimer
+#}
+#1300333 = {
+#	name="Drilvi"
+#	culture = chimer
+#}
+#1300334 = {
+#	name="Drin"
+#	culture = chimer
+#}
+1300335 = {
+	name="Drinith"
+	culture = chimer
+}
+#1300336 = {
+#	name="Drivam"
+#	culture = chimer
+#}
+#1300337 = {
+#	name="Drobar"
+#	culture = chimer
+#}
+#1300338 = {
+#	name="Drolan"
+#	culture = chimer
+#}
+#1300339 = {
+#	name="Drolnor"
+#	culture = chimer
+#}
+1300340 = {
+	name="Drora"
+	culture = chimer
+}
+#1300341 = {
+#	name="Droryn"
+#	culture = chimer
+#}
+#1300342 = {
+#	name="Droth"
+#	culture = chimer
+#}
+#1300343 = {
+#	name="Drurel"
+#	culture = chimer
+#}
+#1300344 = {
+#	name="Dulfass"
+#	culture = chimer
+#}
+#1300345 = {
+#	name="Dulni"
+#	culture = chimer
+#}
+#1300346 = {
+#	name="Duro"
+#	culture = chimer
+#}
+#1300347 = {
+#	name="Elarven"
+#	culture = chimer
+#}
+#1300348 = {
+#	name="Elval"
+#	culture = chimer
+#}
+#1300349 = {
+#	name="Elvul"
+#	culture = chimer
+#}
+#1300350 = {
+#	name="Ertis"
+#	culture = chimer
+#}
+#1300351 = {
+#	name="Evos"
+#	culture = chimer
+#}
+#1300352 = {
+#	name="Falandas"
+#	culture = chimer
+#}
+#1300353 = {
+#	name="Falavel"
+#	culture = chimer
+#}
+#1300354 = {
+#	name="Falos"
+#	culture = chimer
+#}
+#1300355 = {
+#	name="Fals"
+#	culture = chimer
+#}
+#1300356 = {
+#	name="Falvani"
+#	culture = chimer
+#}
+#1300357 = {
+#	name="Famori"
+#	culture = chimer
+#}
+#1300358 = {
+#	name="Faralen"
+#	culture = chimer
+#}
+#1300359 = {
+#	name="Farandas"
+#	culture = chimer
+#}
+#1300360 = {
+#	name="Faravel"
+#	culture = chimer
+#}
+#1300361 = {
+#	name="Fareloth"
+#	culture = chimer
+#}
+#1300362 = {
+#	name="Farethan"
+#	culture = chimer
+#}
+#1300363 = {
+#	name="Farothran"
+#	culture = chimer
+#}
+#1300364 = {
+#	name="Fatheran"
+#	culture = chimer
+#}
+#1300365 = {
+#	name="Fathyron"
+#	culture = chimer
+#}
+#1300366 = {
+#	name="Favani"
+#	culture = chimer
+#}
+#1300367 = {
+#	name="Faveran"
+#	culture = chimer
+#}
+#1300368 = {
+#	name="Fedos"
+#	culture = chimer
+#}
+#1300369 = {
+#	name="Felas"
+#	culture = chimer
+#}
+#1300370 = {
+#	name="Felder"
+#	culture = chimer
+#}
+#1300371 = {
+#	name="Fels"
+#	culture = chimer
+#}
+#1300372 = {
+#	name="Fendyn"
+#	culture = chimer
+#}
+#1300373 = {
+#	name="Fererus"
+#	culture = chimer
+#}
+#1300374 = {
+#	name="Fevur"
+#	culture = chimer
+#}
+#1300375 = {
+#	name="Folvyn"
+#	culture = chimer
+#}
+#1300376 = {
+#	name="Gadar"
+#	culture = chimer
+#}
+#1300377 = {
+#	name="Galen"
+#	culture = chimer
+#}
+#1300378 = {
+#	name="Gals"
+#	culture = chimer
+#}
+#1300379 = {
+#	name="Garer"
+#	culture = chimer
+#}
+#1300380 = {
+#	name="Garil"
+#	culture = chimer
+#}
+#1300381 = {
+#	name="Garvon"
+#	culture = chimer
+#}
+#1300382 = {
+#	name="Gavos"
+#	culture = chimer
+#}
+#1300383 = {
+#	name="Gavyn"
+#	culture = chimer
+#}
+#1300384 = {
+#	name="Gidran"
+#	culture = chimer
+#}
+#1300385 = {
+#	name="Gilaram"
+#	culture = chimer
+#}
+#1300386 = {
+#	name="Gilvani"
+#	culture = chimer
+#}
+#1300387 = {
+#	name="Gilvilo"
+#	culture = chimer
+#}
+#1300388 = {
+#	name="Gimalvel"
+#	culture = chimer
+#}
+#1300389 = {
+#	name="Gimayn"
+#	culture = chimer
+#}
+#1300390 = {
+#	name="Gindu"
+#	culture = chimer
+#}
+#1300391 = {
+#	name="Ginith"
+#	culture = chimer
+#}
+#1300392 = {
+#	name="Giral"
+#	culture = chimer
+#}
+#1300393 = {
+#	name="Giralvel"
+#	culture = chimer
+#}
+#1300394 = {
+#	name="Girando"
+#	culture = chimer
+#}
+#1300395 = {
+#	name="Girano"
+#	culture = chimer
+#}
+#1300396 = {
+#	name="Girendas"
+#	culture = chimer
+#}
+#1300397 = {
+#	name="Girethi"
+#	culture = chimer
+#}
+#1300398 = {
+#	name="Girothran"
+#	culture = chimer
+#}
+#1300399 = {
+#	name="Girvayne"
+#	culture = chimer
+#}
+#1300400 = {
+#	name="Githendas"
+#	culture = chimer
+#}
+#1300401 = {
+#	name="Omayn"
+#	culture = chimer
+#}
+#1300402 = {
+#	name="Githrano"
+#	culture = chimer
+#}
+#1300403 = {
+#	name="Givyn"
+#	culture = chimer
+#}
+#1300404 = {
+#	name="Gobor"
+#	culture = chimer
+#}
+#1300405 = {
+#	name="Golathyn"
+#	culture = chimer
+#}
+#1300406 = {
+#	name="Gols"
+#	culture = chimer
+#}
+#1300407 = {
+#	name="Goran"
+#	culture = chimer
+#}
+#1300408 = {
+#	name="Gorvas"
+#	culture = chimer
+#}
+#1300409 = {
+#	name="Guls"
+#	culture = chimer
+#}
+#1300410 = {
+#	name="Guvron"
+#	culture = chimer
+#}
+#1300411 = {
+#	name="Hardil"
+#	culture = chimer
+#}
+#1300412 = {
+#	name="Heladren"
+#	culture = chimer
+#}
+#1300413 = {
+#	name="Heleran"
+#	culture = chimer
+#}
+#1300414 = {
+#	name="Helni"
+#	culture = chimer
+#}
+#1300415 = {
+#	name="Helothan"
+#	culture = chimer
+#}
+#1300416 = {
+#	name="Helothran"
+#	culture = chimer
+#}
+#1300417 = {
+#	name="Helothren"
+#	culture = chimer
+#}
+#1300418 = {
+#	name="Herandus"
+#	culture = chimer
+#}
+#1300419 = {
+#	name="Herendas"
+#	culture = chimer
+#}
+#1300420 = {
+#	name="Herothran"
+#	culture = chimer
+#}
+#1300421 = {
+#	name="Hlaano"
+#	culture = chimer
+#}
+#1300422 = {
+#	name="Hlaando"
+#	culture = chimer
+#}
+#1300423 = {
+#	name="Hlarar"
+#	culture = chimer
+#}
+#1300424 = {
+#	name="Hlarys"
+#	culture = chimer
+#}
+#1300425 = {
+#	name="Hledas"
+#	culture = chimer
+#}
+#1300426 = {
+#	name="Hledri"
+#	culture = chimer
+#}
+#1300427 = {
+#	name="Ildram"
+#	culture = chimer
+#}
+#1300428 = {
+#	name="Ilnith"
+#	culture = chimer
+#}
+#1300429 = {
+#	name="Imayn"
+#	culture = chimer
+#}
+#1300430 = {
+#	name="Indavel"
+#	culture = chimer
+#}
+#1300431 = {
+#	name="Indobar"
+#	culture = chimer
+#}
+#1300432 = {
+#	name="Indoran"
+#	culture = chimer
+#}
+#1300433 = {
+#	name="Indules"
+#	culture = chimer
+#}
+#1300434 = {
+#	name="Inlador"
+#	culture = chimer
+#}
+#1300435 = {
+#	name="Irathi"
+#	culture = chimer
+#}
+#1300436 = {
+#	name="Irethi"
+#	culture = chimer
+#}
+#1300437 = {
+#	name="Lauravenya"
+#	culture = chimer
+#}
+#1300438 = {
+#	name="Ledd"
+#	culture = chimer
+#}
+#1300439 = {
+#	name="Lladri"
+#	culture = chimer
+#}
+#1300440 = {
+#	name="Llandu"
+#	culture = chimer
+#}
+#1300441 = {
+#	name="Llendo"
+#	culture = chimer
+#}
+#1300442 = {
+#	name="Llerayn"
+#	culture = chimer
+#}
+#1300443 = {
+#	name="Llervi"
+#	culture = chimer
+#}
+#1300444 = {
+#	name="Lleryn"
+#	culture = chimer
+#}
+#1300445 = {
+#	name="Lloryn"
+#	culture = chimer
+#}
+#1300446 = {
+#	name="Llothas"
+#	culture = chimer
+#}
+#1300447 = {
+#	name="Lothri"
+#	culture = chimer
+#}
+#1300448 = {
+#	name="Madalas"
+#	culture = chimer
+#}
+#1300449 = {
+#	name="Madalvel"
+#	culture = chimer
+#}
+1300450 = {
+	name="Madryon"
+	culture = chimer
+}
+#1300451 = {
+#	name="Malas"
+#	culture = chimer
+#}
+#1300452 = {
+#	name="Maloren"
+#	culture = chimer
+#}
+#1300453 = {
+#	name="Malvayn"
+#	culture = chimer
+#}
+#1300454 = {
+#	name="Manas"
+#	culture = chimer
+#}
+#1300455 = {
+#	name="Manel"
+#	culture = chimer
+#}
+#1300456 = {
+#	name="Mano"
+#	culture = chimer
+#}
+#1300457 = {
+#	name="Marvayn"
+#	culture = chimer
+#}
+#1300458 = {
+#	name="Marvos"
+#	culture = chimer
+#}
+#1300459 = {
+#	name="Mavandes"
+#	culture = chimer
+#}
+#1300460 = {
+#	name="Mathendis"
+#	culture = chimer
+#}
+#1300461 = {
+#	name="Mels"
+#	culture = chimer
+#}
+#1300462 = {
+#	name="Menas"
+#	culture = chimer
+#}
+#1300463 = {
+#	name="Mencele"
+#	culture = chimer
+#}
+#1300464 = {
+#	name="Merys"
+#	culture = chimer
+#}
+#1300465 = {
+#	name="Milar"
+#	culture = chimer
+#}
+#1300466 = {
+#	name="Milo"
+#	culture = chimer
+#}
+#1300467 = {
+#	name="Mirel"
+#	culture = chimer
+#}
+#1300468 = {
+#	name="Molor"
+#	culture = chimer
+#}
+#1300469 = {
+#	name="Moran"
+#	culture = chimer
+#}
+#1300470 = {
+#	name="Nadram"
+#	culture = chimer
+#}
+#1300471 = {
+#	name="Nadus"
+#	culture = chimer
+#}
+#1300472 = {
+#	name="Nalyn"
+#	culture = chimer
+#}
+#1300473 = {
+#	name="Naros"
+#	culture = chimer
+#}
+#1300474 = {
+#	name="Navur"
+#	culture = chimer
+#}
+#1300475 = {
+#	name="Nedalor"
+#	culture = chimer
+#}
+#1300476 = {
+#	name="Neladren"
+#	culture = chimer
+#}
+#1300477 = {
+#	name="Nelaram"
+#	culture = chimer
+#}
+#1300478 = {
+#	name="Neleth"
+#	culture = chimer
+#}
+#1300479 = {
+#	name="Nelvani"
+#	culture = chimer
+#}
+#1300480 = {
+#	name="Nelvayn"
+#	culture = chimer
+#}
+#1300481 = {
+#	name="Nelvilo"
+#	culture = chimer
+#}
+#1300482 = {
+#	name="Nerandas"
+#	culture = chimer
+#}
+1300483 = {
+	name="Nerothan"
+	culture = chimer
+}
+#1300484 = {
+#	name="Nerothren"
+#	culture = chimer
+#}
+#1300485 = {
+#	name="Nerus"
+#	culture = chimer
+#}
+#1300486 = {
+#	name="Nervion"
+#	culture = chimer
+#}
+#1300487 = {
+#	name="Ralvani"
+#	culture = chimer
+#}
+1300488 = {
+	name="Ralvayn"
+	culture = chimer
+}
+#1300489 = {
+#	name="Ramarys"
+#	culture = chimer
+#}
+1300490 = {
+	name="Ramoran"
+	culture = chimer
+}
+#1300491 = {
+#	name="Ramori"
+#	culture = chimer
+#}
+#1300492 = {
+#	name="Ramothran"
+#	culture = chimer
+#}
+#1300493 = {
+#	name="Randas"
+#	culture = chimer
+#}
+#1300494 = {
+#	name="Raram"
+#	culture = chimer
+#}
+#1300495 = {
+#	name="Rathri"
+#	culture = chimer
+#}
+#1300496 = {
+#	name="Redas"
+#	culture = chimer
+#}
+#1300497 = {
+#	name="Redothril"
+#	culture = chimer
+#}
+#1300498 = {
+#	name="Reladren"
+#	culture = chimer
+#}
+#1300499 = {
+#	name="Relarys"
+#	culture = chimer
+#}
+#1300500 = {
+#	name="Relavel"
+#	culture = chimer
+#}
+#1300501 = {
+#	name="Relenim"
+#	culture = chimer
+#}
+#1300502 = {
+#	name="Relnim"
+#	culture = chimer
+#}
+#1300503 = {
+#	name="Reloro"
+#	culture = chimer
+#}
+#1300504 = {
+#	name="Reloth"
+#	culture = chimer
+#}
+#1300505 = {
+#	name="Relvani"
+#	culture = chimer
+#}
+#1300506 = {
+#	name="Rendo"
+#	culture = chimer
+#}
+#1300507 = {
+#	name="Reni"
+#	culture = chimer
+#}
+#1300508 = {
+#	name="Renim"
+#	culture = chimer
+#}
+#1300509 = {
+#	name="Reram"
+#	culture = chimer
+#}
+#1300510 = {
+#	name="Rervam"
+#	culture = chimer
+#}
+#1300511 = {
+#	name="Rethelas"
+#	culture = chimer
+#}
+#1300512 = {
+#	name="Rethul"
+#	culture = chimer
+#}
+#1300513 = {
+#	name="Reyas"
+#	culture = chimer
+#}
+#1300514 = {
+#	name="Rilvayn"
+#	culture = chimer
+#}
+#1300515 = {
+#	name="Rindo"
+#	culture = chimer
+#}
+#1300516 = {
+#	name="Rindu"
+#	culture = chimer
+#}
+#1300517 = {
+#	name="Rinith"
+#	culture = chimer
+#}
+#1300518 = {
+#	name="Rivul"
+#	culture = chimer
+#}
+#1300519 = {
+#	name="Rols"
+#	culture = chimer
+#}
+#1300520 = {
+#	name="Romandas"
+#	culture = chimer
+#}
+#1300521 = {
+#	name="Romari"
+#	culture = chimer
+#}
+#1300522 = {
+#	name="Romavel"
+#	culture = chimer
+#}
+#1300523 = {
+#	name="Romoran"
+#	culture = chimer
+#}
+#1300524 = {
+#	name="Romothran"
+#	culture = chimer
+#}
+#1300525 = {
+#	name="Rothalen"
+#	culture = chimer
+#}
+#1300526 = {
+#	name="Rothalnim"
+#	culture = chimer
+#}
+#1300527 = {
+#	name="Rothalor"
+#	culture = chimer
+#}
+#1300528 = {
+#	name="Rothan"
+#	culture = chimer
+#}
+#1300529 = {
+#	name="Rothari"
+#	culture = chimer
+#}
+#1300530 = {
+#	name="Rotheloth"
+#	culture = chimer
+#}
+#1300531 = {
+#	name="Rotheran"
+#	culture = chimer
+#}
+#1300532 = {
+#	name="Rothrano"
+#	culture = chimer
+#}
+#1300533 = {
+#	name="Rothren"
+#	culture = chimer
+#}
+#1300534 = {
+#	name="Rurvyn"
+#	culture = chimer
+#}
+#1300535 = {
+#	name="Ryon"
+#	culture = chimer
+#}
+#1300536 = {
+#	name="Sadalas"
+#	culture = chimer
+#}
+#1300537 = {
+#	name="Sadalvel"
+#	culture = chimer
+#}
+#1300538 = {
+#	name="Sadas"
+#	culture = chimer
+#}
+#1300539 = {
+#	name="Sadoro"
+#	culture = chimer
+#}
+#1300540 = {
+#	name="Sadralo"
+#	culture = chimer
+#}
+#1300541 = {
+#	name="Sandrano"
+#	culture = chimer
+#}
+#1300542 = {
+#	name="Sadryon"
+#	culture = chimer
+#}
+#1300543 = {
+#	name="Sadrys"
+#	culture = chimer
+#}
+#1300544 = {
+#	name="Sala"
+#	culture = chimer
+#}
+#1300545 = {
+#	name="Salam"
+#	culture = chimer
+#}
+#1300546 = {
+#	name="Salandas"
+#	culture = chimer
+#}
+#1300547 = {
+#	name="Salaren"
+#	culture = chimer
+#}
+#1300548 = {
+#	name="Salaron"
+#	culture = chimer
+#}
+#1300549 = {
+#	name="Salavel"
+#	culture = chimer
+#}
+#1300550 = {
+#	name="Salen"
+#	culture = chimer
+#}
+#1300551 = {
+#	name="Salenim"
+#	culture = chimer
+#}
+#1300552 = {
+#	name="Salmyn"
+#	culture = chimer
+#}
+#1300553 = {
+#	name="Salobar"
+#	culture = chimer
+#}
+#1300554 = {
+#	name="Salor"
+#	culture = chimer
+#}
+#1300555 = {
+#	name="Salvi"
+#	culture = chimer
+#}
+#1300556 = {
+#	name="Samandas"
+#	culture = chimer
+#}
+#1300557 = {
+#	name="Sandus"
+#	culture = chimer
+#}
+#1300558 = {
+#	name="Sarandus"
+#	culture = chimer
+#}
+#1300559 = {
+#	name="Sarathram"
+#	culture = chimer
+#}
+#1300560 = {
+#	name="Sareloth"
+#	culture = chimer
+#}
+#1300561 = {
+#	name="Sarethari"
+#	culture = chimer
+#}
+#1300562 = {
+#	name="Sarothran"
+#	culture = chimer
+#}
+#1300563 = {
+#	name="Sari"
+#	culture = chimer
+#}
+#1300564 = {
+#	name="Sarinith"
+#	culture = chimer
+#}
+#1300565 = {
+#	name="Sarobar"
+#	culture = chimer
+#}
+#1300566 = {
+#	name="Sarothren"
+#	culture = chimer
+#}
+#1300567 = {
+#	name="Saryoni"
+#	culture = chimer
+#}
+#1300568 = {
+#	name="Sathendas"
+#	culture = chimer
+#}
+#1300569 = {
+#	name="Sathis"
+#	culture = chimer
+#}
+#1300570 = {
+#	name="Sathren"
+#	culture = chimer
+#}
+#1300571 = {
+#	name="Sathryon"
+#	culture = chimer
+#}
+#1300572 = {
+#	name="Savani"
+#	culture = chimer
+#}
+#1300573 = {
+#	name="Sedrethi"
+#	culture = chimer
+#}
+1300574 = {
+	name="Sedri"
+	culture = ashlander
+}
+#1300575 = {
+#	name="Selandas"
+#	culture = chimer
+#}
+#1300576 = {
+#	name="Selaro"
+#	culture = chimer
+#}
+#1300577 = {
+#	name="Selarys"
+#	culture = chimer
+#}
+1300578 = {
+	name="Seles"
+	culture = chimer
+}
+#1300579 = {
+#	name="Selothan"
+#	culture = chimer
+#}
+#1300580 = {
+#	name="Selvayn"
+#	culture = chimer
+#}
+#1300581 = {
+#	name="Sendu"
+#	culture = chimer
+#}
+#1300582 = {
+#	name="Senoril"
+#	culture = chimer
+#}
+#1300583 = {
+#	name="Seralas"
+#	culture = chimer
+#}
+#1300584 = {
+#	name="Serano"
+#	culture = chimer
+#}
+#1300585 = {
+#	name="Seri"
+#	culture = chimer
+#}
+#1300586 = {
+#	name="Serothan"
+#	culture = chimer
+#}
+#1300587 = {
+#	name="Servan"
+#	culture = chimer
+#}
+#1300588 = {
+#	name="Sethandas"
+#	culture = chimer
+#}
+#1300589 = {
+#	name="Sethandus"
+#	culture = chimer
+#}
+#1300590 = {
+#	name="Sethri"
+#	culture = chimer
+#}
+#1300591 = {
+#	name="Surishpi"
+#	culture = chimer
+#}
+#1300592 = {
+#	name="Talds"
+#	culture = chimer
+#}
+#1300593 = {
+#	name="Tedalen"
+#	culture = chimer
+#}
+#1300594 = {
+#	name="Tedran"
+#	culture = chimer
+#}
+#1300595 = {
+#	name="Telandas"
+#	culture = chimer
+#}
+#1300596 = {
+#	name="Telmon"
+#	culture = chimer
+#}
+#1300597 = {
+#	name="Telnim"
+#	culture = chimer
+#}
+#1300598 = {
+#	name="Telvani"
+#	culture = chimer
+#}
+#1300599 = {
+#	name="Teneran"
+#	culture = chimer
+#}
+#1300600 = {
+#	name="Terandas"
+#	culture = chimer
+#}
+#1300601 = {
+#	name="Terano"
+#	culture = chimer
+#}
+#1300602 = {
+#	name="Teri"
+#	culture = chimer
+#}
+#1300603 = {
+#	name="Teria"
+#	culture = chimer
+#}
+#1300604 = {
+#	name="Terilu"
+#	culture = chimer
+#}
+#1300605 = {
+#	name="Tervayn"
+#	culture = chimer
+#}
+#1300606 = {
+#	name="Thalas"
+#	culture = chimer
+#}
+#1300607 = {
+#	name="Thalor"
+#	culture = chimer
+#}
+#1300608 = {
+#	name="Thando"
+#	culture = chimer
+#}
+#1300609 = {
+#	name="Tharam"
+#	culture = chimer
+#}
+#1300610 = {
+#	name="Tharyon"
+#	culture = chimer
+#}
+#1300611 = {
+#	name="Tharys"
+#	culture = chimer
+#}
+#1300612 = {
+#	name="Theman"
+#	culture = chimer
+#}
+#1300613 = {
+#	name="Thenim"
+#	culture = chimer
+#}
+#1300614 = {
+#	name="Therayn"
+#	culture = chimer
+#}
+#1300615 = {
+#	name="Therethi"
+#	culture = chimer
+#}
+#1300616 = {
+#	name="Thilandas"
+#	culture = chimer
+#}
+#1300617 = {
+#	name="Thilarvel"
+#	culture = chimer
+#}
+#1300618 = {
+#	name="Thimalvel"
+#	culture = chimer
+#}
+#1300619 = {
+#	name="Thindo"
+#	culture = chimer
+#}
+#1300620 = {
+#	name="Thiralas"
+#	culture = chimer
+#}
+#1300621 = {
+#	name="Thireloth"
+#	culture = chimer
+#}
+#1300622 = {
+#	name="Thirith"
+#	culture = chimer
+#}
+#1300623 = {
+#	name="Tirothan"
+#	culture = chimer
+#}
+#1300624 = {
+#	name="Thirvayn"
+#	culture = chimer
+#}
+#1300625 = {
+#	name="Tilvur"
+#	culture = chimer
+#}
+#1300626 = {
+#	name="Tistar"
+#	culture = chimer
+#}
+#1300627 = {
+#	name="Tobor"
+#	culture = chimer
+#}
+#1300628 = {
+#	name="Trandel"
+#	culture = chimer
+#}
+#1300629 = {
+#	name="Tunel"
+#	culture = chimer
+#}
+#1300630 = {
+#	name="Tyravel"
+#	culture = chimer
+#}
+#1300631 = { #Repurposed into a house of Urshilaku
+#	name="Uleni"
+#	culture = chimer
+#}
+#1300632 = {
+#	name="Ulessen"
+#	culture = chimer
+#}
+#1300633 = {
+#	name="Ulom"
+#	culture = chimer
+#}
+#1300634 = {
+#	name="Ulver"
+#	culture = chimer
+#}
+#1300635 = {
+#	name="Urns"
+#	culture = chimer
+#}
+#1300636 = {
+#	name="Urvon"
+#	culture = chimer
+#}
+#1300637 = {
+#	name="Urvyn"
+#	culture = chimer
+#}
+#1300638 = {
+#	name="Urvalas"
+#	culture = chimer
+#}
+#1300639 = {
+#	name="Uvalas"
+#	culture = chimer
+#}
+#1300640 = {
+#	name="Uvalen"
+#	culture = chimer
+#}
+#1300641 = {
+#	name="Uvalor"
+#	culture = chimer
+#}
+#1300642 = {
+#	name="Uvani"
+#	culture = chimer
+#}
+#1300643 = {
+#	name="Uvaram"
+#	culture = chimer
+#}
+#1300644 = {
+#	name="Uveleth"
+#	culture = chimer
+#}
+#1300645 = {
+#	name="Uvulas"
+#	culture = chimer
+#}
+#1300646 = {
+#	name="Vadryon"
+#	culture = chimer
+#}
+#1300647 = {
+#	name="Valaai"
+#	culture = chimer
+#}
+#1300648 = {
+#	name="Valas"
+#	culture = chimer
+#}
+#1300649 = {
+#	name="Valen"
+#	culture = chimer
+#}
+#1300650 = {
+#	name="Valno"
+#	culture = chimer
+#}
+#1300651 = {
+#	name="Valor"
+#	culture = chimer
+#}
+#1300652 = {
+#	name="Vando"
+#	culture = chimer
+#}
+#1300653 = {
+#	name="Vandram"
+#	culture = chimer
+#}
+#1300654 = {
+#	name="Varo"
+#	culture = chimer
+#}
+#1300655 = {
+#	name="Vavas"
+#	culture = chimer
+#}
+#1300656 = {
+#	name="Vavyn"
+#	culture = chimer
+#}
+#1300657 = {
+#	name="Vedaren"
+#	culture = chimer
+#}
+#1300658 = {
+#	name="Vedralu"
+#	culture = chimer
+#}
+#1300659 = {
+#	name="Vedrano"
+#	culture = chimer
+#}
+#1300660 = {
+#	name="Velni"
+#	culture = chimer
+#}
+#1300661 = {
+#	name="Veloren"
+#	culture = chimer
+#}
+#1300662 = {
+#	name="Velotho"
+#	culture = chimer
+#}
+#1300663 = {
+#	name="Velothreri"
+#	culture = chimer
+#}
+#1300664 = {
+#	name="Velothril"
+#	culture = chimer
+#}
+#1300665 = {
+#	name="Veralor"
+#	culture = chimer
+#}
+#1300666 = {
+#	name="Verelas"
+#	culture = chimer
+#}
+#1300667 = {
+#	name="Verendas"
+#	culture = chimer
+#}
+#1300668 = {
+#	name="Veri"
+#	culture = chimer
+#}
+#1300669 = {
+#	name="Verilnith"
+#	culture = chimer
+#}
+#1300670 = {
+#	name="Verothan"
+#	culture = chimer
+#}
+#1300671 = {
+#	name="Viake"
+#	culture = chimer
+#}
+#1300672 = {
+#	name="Vian"
+#	culture = chimer
+#}
+#1300673 = {
+#	name="Vibato"
+#	culture = chimer
+#}
+#1300674 = {
+#	name="Vidron"
+#	culture = chimer
+#}
+#1300675 = {
+#	name="Vilas"
+#	culture = chimer
+#}
+#1300676 = {
+#	name="Vinden"
+#	culture = chimer
+#}
+#1300677 = {
+#	name="Volos"
+#	culture = chimer
+#}
+#1300678 = {
+#	name="Alas"
+#	culture = chimer
+#}
+#1300679 = {
+#	name="Aran"
+#	culture = chimer
+#}
+#1300680 = {
+#	name="Arus"
+#	culture = chimer
+#}
+1300681 = {
+	name="Beran"
+	culture = chimer
+}
+#1300682 = {
+#	name="Dareleth"
+#	culture = chimer
+#}
+#1300683 = {
+#	name="Dulo"
+#	culture = chimer
+#}
+#1300684 = {
+#	name="Fadathram"
+#	culture = chimer
+#}
+#1300685 = {
+#	name="Favel"
+#	culture = chimer
+#}
+#1300686 = {
+#	name="Gilmothran"
+#	culture = chimer
+#}
+#1300687 = {
+#	name="Helan"
+#	culture = chimer
+#}
+#1300688 = {
+#	name="Hlervi"
+#	culture = chimer
+#}
+#1300689 = {
+#	name="Llando"
+#	culture = chimer
+#}
+#1300690 = {
+#	name="Marvani"
+#	culture = chimer
+#}
+1300691 = {
+	name="Raviro"
+	culture = chimer
+}
+#1300692 = {
+#	name="Rethandus"
+#	culture = chimer
+#}
+#1300693 = {
+#	name="Salothan"
+#	culture = chimer
+#}
+#1300694 = {
+#	name="Salothran"
+#	culture = chimer
+#}
+#1300695 = {
+#	name="Salvel"
+#	culture = chimer
+#}
+#1300696 = {
+#	name="Samarys"
+#	culture = chimer
+#}
+#1300697 = {
+#	name="Sandas"
+#	culture = chimer
+#}
+#1300698 = { #This is an EK1 cadet house being imported
+#	name="Telvayn"
+#	culture = chimer
+#}
+#1300699 = {
+#	name="Tharys"
+#	culture = chimer
+#}
+#1300700 = {
+#	name="Vandus"
+#	culture = chimer
+#}
+1300701 = {
+	name="Verelnim"
+	culture = chimer
+}
+#1300702 = {
+#	name="Dalvilu"
+#	culture = chimer
+#}
+#1300703 = {
+#	name="Drad"
+#	culture = chimer
+#}
+#1300704 = {
+#	name="Lythandas"
+#	culture = chimer
+#}
+#1300705 = {
+#	name="Norvalo"
+#	culture = chimer
+#}
+#1300706 = {
+#	name="Alor"
+#	culture = chimer
+#}
+#1300707 = {
+#	name="Devani"
+#	culture = chimer
+#}
+#1300708 = {
+#	name="Dolovas"
+#	culture = chimer
+#}
+#1300709 = {
+#	name="Douar"
+#	culture = chimer
+#}
+#1300710 = {
+#	name="Drarara"
+#	culture = chimer
+#}
+#1300711 = {
+#	name="Fandas"
+#	culture = chimer
+#}
+#1300712 = {
+#	name="Gatharian"
+#	culture = chimer
+#}
+#1300713 = {
+#	name="Hlavel"
+#	culture = chimer
+#}
+#1300714 = {
+#	name="Lerano"
+#	culture = chimer
+#}
+#1300715 = {
+#	name="Llethro"
+#	culture = chimer
+#}
+#1300716 = {
+#	name="Lonavo"
+#	culture = chimer
+#}
+#1300717 = {
+#	name="Malvulis"
+#	culture = chimer
+#}
+#1300718 = {
+#	name="Nedaren"
+#	culture = chimer
+#}
+#1300719 = {
+#	name="Nyrandil"
+#	culture = chimer
+#}
+#1300720 = {
+#	name="Ralvel"
+#	culture = chimer
+#}
+#1300721 = {
+#	name="Romalen"
+#	culture = chimer
+#}
+#1300722 = {
+#	name="Selvani"
+#	culture = chimer
+#}
+#1300723 = {
+#	name="Seringi"
+#	culture = chimer
+#}
+#1300724 = {
+#	name="Thelis"
+#	culture = chimer
+#}
+#1300725 = {
+#	name="Theran"
+#	culture = chimer
+#}
+#1300726 = {
+#	name="Vamori"
+#	culture = chimer
+#}
+#1300727 = {
+#	name="Verenim"
+#	culture = chimer
+#}
+#1300728 = {
+#	name="Atheron"
+#	culture = chimer
+#}
+#1300729 = {
+#	name="Athis"
+#	culture = chimer
+#}
+#1300730 = {
+#	name="Balu"
+#	culture = chimer
+#}
+#1300731 = {
+#	name="Duleri"
+#	culture = chimer
+#}
+#1300732 = {
+#	name="Elenil"
+#	culture = chimer
+#}
+#1300733 = {
+#	name="Faldrus"
+#	culture = chimer
+#}
+#1300734 = {
+#	name="Giryon"
+#	culture = chimer
+#}
+#1300735 = {
+#	name="Idren"
+#	culture = chimer
+#}
+#1300736 = {
+#	name="Imyan"
+#	culture = chimer
+#}
+#1300737 = {
+#	name="Indaryn"
+#	culture = chimer
+#}
+#1300738 = {
+#	name="Maluril"
+#	culture = chimer
+#}
+#1300739 = {
+#	name="Nasyal"
+#	culture = chimer
+#}
+#1300740 = {
+#	name="Neloren"
+#	culture = chimer
+#}
+#1300741 = {
+#	name="Nethri"
+#	culture = chimer
+#}
+#1300742 = {
+#	name="Rendar"
+#	culture = chimer
+#}
+#1300743 = {
+#	name="Seloth"
+#	culture = chimer
+#}
+#1300744 = {
+#	name="Talvur"
+#	culture = chimer
+#}
+#1300745 = {
+#	name="Telendas"
+#	culture = chimer
+#}
+#1300746 = {
+#	name="Ulen"
+#	culture = chimer
+#}
+#1300747 = {
+#	name="Veren"
+#	culture = chimer
+#}
+#1300748 = {
+#	name="Nethalen"
+#	culture = chimer
+#}
+#1300749 = {
+#	name="Nilem"
+#	culture = chimer
+#}
+#1300750 = {
+#	name="Nilvon"
+#	culture = chimer
+#}
+#1300751 = {
+#	name="Nithryon"
+#	culture = chimer
+#}
+#1300752 = {
+#	name="Nolar"
+#	culture = chimer
+#}
+#1300753 = {
+#	name="Nothro"
+#	culture = chimer
+#}
+#1300754 = {
+#	name="Nothryon"
+#	culture = chimer
+#}
+#1300755 = {
+#	name="Nulen"
+#	culture = chimer
+#}
+#1300756 = {
+#	name="Ofemalen"
+#	culture = chimer
+#}
+#1300757 = {
+#	name="Omani"
+#	culture = chimer
+#}
+#1300758 = {
+#	name="Omaren"
+#	culture = chimer
+#}
+#1300759 = {
+#	name="Ondyn"
+#	culture = chimer
+#}
+#1300760 = {
+#	name="Onmar"
+#	culture = chimer
+#}
+#1300761 = {
+#	name="Orelu"
+#	culture = chimer
+#}
+#1300762 = {
+#	name="Ores"
+#	culture = chimer
+#}
+#1300763 = {
+#	name="Oreyn"
+#	culture = chimer
+#}
+#1300764 = {
+#	name="Othralas"
+#	culture = chimer
+#}
+#1300765 = {
+#	name="Othrobar"
+#	culture = chimer
+#}
+#1300766 = {
+#	name="Quintella"
+#	culture = chimer
+#}
+#1300767 = {
+#	name="Radarys"
+#	culture = chimer
+#}
+#1300768 = {
+#	name="Radobar"
+#	culture = chimer
+#}
+#1300769 = {
+#	name="Ralaal"
+#	culture = chimer
+#}
+#1300770 = {
+#	name="Raloran"
+#	culture = chimer
+#}
+#1300771 = {
+#	name="Ra'athim"
+#	culture = chimer
+#}
+#1300772 = {
+#	name="Dorom"
+#	culture = chimer
+#}
+#1300773 = {
+#	name="Andrano"
+#	culture = chimer
+#}
+#1300774 = {
+#	name="Salvendu"
+#	culture = chimer
+#}
+1300775 = {
+	name="Sul"
+	culture = chimer
+}
+#1300776 = {
+#	name="Talvenna"
+#	culture = chimer
+#}
+#1300777 = {
+#	name="Andrethi"
+#	culture = chimer
+#}
+1300778 = {
+	name="Otheri"
+	culture = chimer
+}
+1300779 = {
+	name="Mora"
+	culture = chimer
+}
+1300780 = {
+	name="Sotha"
+	culture = chimer
+}
+1300781 = {
+	name = "Sandil"
+	culture = chimer
+}
+#1300782 = {
+#	name = "Virian"
+#	culture = chimer
+#}
+#1300783 = {
+#	name = "Marethi"
+#	culture = chimer
+#}
+1300784 = {
+	name = "Arys"
+	culture = chimer
+}
+1300785 = {
+	name = "Arthalen"
+	culture = chimer
+}
+1300786 = {
+	name = "Nethril"
+	culture = chimer
+}
+1300787 = { #half-nord bastard of the Shatter-Shield clan
+	name = "Ghardun"
+	culture = chimer
+}
+1300788 = { 
+	name = "Manothrel"
+	culture = chimer
+}
+1300789 = { 
+	name = "Sathil"
+	culture = chimer
+}
+
+1300790 = { 
+	name = "Vermethys"
+	culture = chimer
+}
+
+1300791 = { 
+	name = "Ornavel"
+	culture = chimer
+}
+
+1300792 = { 
+	name = "Llori"
+	culture = chimer
+}
+
+
+

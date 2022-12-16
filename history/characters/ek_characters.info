@@ -1,0 +1,25 @@
+### ARTIFICIAL LIFESPAN ###
+
+#USE THIS EFFECT IF YOU INTEND TO MAKE A CHARACTER ARTIFICIALLY LONG-LIVED 
+#(IN OPPOSITION TO NATURALLY LONG-LIVED, LIKE AN ELF)
+
+#IN "natural_lifespan_X" THE "X" IS THE CHARACTER INTENDED NATURAL LIFESPAN (<5)
+
+#THE NATURAL LONG LIFESPAN SPECTRUM GOES FROM "natural_lifespan_1"/"lifespan_1" to "natural_lifespan_4"/"lifespan_4"
+#FROM "lifespan_5" to "lifespan_7", it's all artificial
+
+#effect = {
+#	add_trait = lifespan_1
+#	add_character_flag = artificial_lifespan
+#	add_character_flag = natural_lifespan_0
+#}
+
+
+### LINE OF ###
+
+#USE THIS COMBINATION OF NAME, TRAIT AND NICKNAME TO MAKE A "LINE OF" CHARACTER
+#REMEMBER: MAKE SURE THAT NO LIVING CHARACTER HAS A "LINE OF" FATHER OR GRANDFATHER
+
+#name = "Parent's Name"
+#trait = line_of_x
+#yyyy.mm.dd = { give_nickname = nick_line_of }

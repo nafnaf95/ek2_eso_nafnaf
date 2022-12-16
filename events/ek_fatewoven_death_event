@@ -1,0 +1,808 @@
+﻿### This file will look a lot like story_cycles/story_cycle_pet_animals_events
+
+namespace = ek_pet_animal
+
+###########################################
+# PARROT (0001-0999)
+#	ek_pet_animal.0001 - Name your parrot!
+#
+# Other events for your parrot
+#	ek_pet_animal.0101 - Share some healthy fruits with your parrot, smol health bonus
+#	ek_pet_animal.0102 - Your parrot follows you in battle, prowess bonus
+#	ek_pet_animal.0103 - Your parrot hurts a vassal (wounded, small chance for one-eyed/blinded)
+#
+#	ek_pet_animal.0199 - Parrot dies :(
+#
+#
+# PARROT DECISION EVENTS
+#	ek_pet_animal.0501 - You pet your parrot
+#	ek_pet_animal.0502 - You pet your parrot v2
+#
+###########################################
+
+
+###########################################
+# Name your parrot
+#	0001-0999
+###########################################
+
+#Name your parrot
+ek_pet_animal.0001 = {
+	type = character_event
+	title = ek_pet_animal.0001.t
+	desc = ek_pet_animal.0001.desc
+	theme = pet
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+
+	immediate = {
+		#To give some options to show
+		assign_name_options_parrot_story_cycle_effect = yes
+		assign_name_options_parrot_story_cycle_effect = yes
+		assign_name_options_parrot_story_cycle_effect = yes
+		play_music_cue = "mx_cue_low_key_positive"
+
+		if = {
+			limit = { is_ai = yes }
+			random_list = {
+				1 = {
+					trigger = { has_character_flag = name_orsone }
+					set_variable = {
+						name = story_cycle_parrot_name
+						value = flag:parrot_name_orsone
+					}
+				}
+				1 = {
+					trigger = { has_character_flag = name_coco }
+					set_variable = {
+						name = story_cycle_parrot_name
+						value = flag:parrot_name_coco
+					}
+				}
+				1 = {
+					trigger = { has_character_flag = name_abby }
+					set_variable = {
+						name = story_cycle_parrot_name
+						value = flag:parrot_name_abby
+					}
+				}
+			}
+		}
+	}
+
+	widget = {
+		gui = "event_window_widget_enter_text"
+		container = "dynamic_birth_name"
+		controller = {
+			type = text
+			data = {
+				key = story_cycle_parrot_name
+				default = {
+					localization_key = parrot_name_orsone
+					trigger = {
+						has_character_flag = name_orsone
+					}
+				}
+				default = {
+					localization_key = parrot_name_coco
+					trigger = {
+						has_character_flag = name_coco
+					}
+				}
+				default = {
+					localization_key = parrot_name_abby
+					trigger = {
+						has_character_flag = name_abby
+					}
+				}
+			}
+		}
+		setup_scope = {
+			root = { save_scope_as = text_target }
+		}
+	}
+
+	option = { 
+		name = ek_pet_animal.0001.a
+	}
+
+	after = {
+		remove_character_flag = is_naming_parrot
+		remove_character_flag = name_orsone
+		remove_character_flag = name_coco
+		remove_character_flag = name_abby
+		
+		if = {
+			# We entered custom text into the pop up
+			limit = { NOT = { has_variable = story_cycle_cat_name } }
+			set_variable = {
+				name = story_cycle_cat_name
+				value = flag:custom
+			}
+		}
+	}
+}
+
+###########################################
+# Other events for your parrot
+#	0100-0199
+###########################################
+
+# Share some healthy fruits with your parrot, smol health bonus
+ek_pet_animal.0101 = {
+	type = character_event
+	title = ek_pet_animal.0101.t
+	desc = ek_pet_animal.0101.desc
+	theme = pet
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	override_background = {
+		event_background = bedchamber
+	}
+	
+	trigger = {
+		NOT = { has_character_flag = had_ek_pet_animal_0101_event }
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = had_ek_pet_animal_0101_event
+			years = 10
+		}
+	}
+
+	option = { # Hey, leave some for me!
+		name = ek_pet_animal.0101.a
+		
+		add_character_modifier = {
+			modifier = parrot_story_eating_fruit_modifier
+			days = 3650
+		}
+	}
+}
+
+# Your parrot follows you in battle, prowess bonus
+ek_pet_animal.0102 = {
+	type = character_event
+	title = ek_pet_animal.0102.t
+	desc = ek_pet_animal.0102.desc
+	theme = pet
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	override_background = {
+		event_background = army_camp
+	}
+	
+	trigger = {
+		NOT = { has_character_flag = had_ek_pet_animal_0102_event }
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = had_ek_pet_animal_0102_event
+			years = 10
+		}
+	}
+
+	option = { # With me, into battle!
+		name = ek_pet_animal.0102.a
+		
+		add_character_modifier = {
+			modifier = parrot_story_fighting_with_you_modifier
+			days = 3650
+		}
+	}
+}
+
+# Your parrot hurts a vassal (wounded, small chance for one-eyed/blinded)
+ek_pet_animal.0103 = {
+	type = character_event
+	title = ek_pet_animal.0103.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { local_var:ek_pet_animal_0103_result = flag:wounded }
+				desc = ek_pet_animal.0103.desc_wounded
+			}
+			triggered_desc = {
+				trigger = {
+					local_var:ek_pet_animal_0103_result = flag:eye_removed
+					scope:vassal = { NOT = { has_trait = one_eyed } }
+				}
+				desc = ek_pet_animal.0103.desc_eye_removed_not_one_eyed
+			}
+			triggered_desc = { # That will hurt
+				trigger = {
+					local_var:ek_pet_animal_0103_result = flag:eye_removed
+					scope:vassal = { has_trait = one_eyed }
+				}
+				desc = ek_pet_animal.0103.desc_eye_removed_one_eyed
+			}
+		}
+	}
+	theme = pet
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = scope:vassal
+		animation = severelywounded
+	}
+	right_portrait = {
+		character = root
+		animation = shock
+	}
+	
+	trigger = {
+		NOT = { has_character_flag = had_ek_pet_animal_0103_event }
+		any_vassal = {
+			is_available_ai = yes
+		}
+	}
+
+	immediate = {
+		random_vassal = {
+			limit = {
+				is_available_ai = yes
+				NOT = { has_trait = blind }
+			}
+			weight = {
+				base = 50
+			}
+			save_scope_as = vassal
+		}
+		add_character_flag = {
+			flag = had_ek_pet_animal_0103_event
+			years = 10
+		}
+		# Do we just wound or remove an eye?
+		random_list = {
+			80 = {
+				set_local_variable = {
+					name = ek_pet_animal_0103_result
+					value = flag:wounded
+				}
+			}
+			20 = {
+				set_local_variable = {
+					name = ek_pet_animal_0103_result
+					value = flag:eye_removed
+				}
+			}
+		}
+	}
+	
+	# Just wounded
+	option = {
+		trigger = { local_var:ek_pet_animal_0103_result = flag:wounded }
+		
+		name = ek_pet_animal.0103.a
+
+		scope:vassal = {
+			add_opinion = {
+				modifier = scared_opinion
+				target = root
+				opinion = -30
+			}
+			
+			increase_wounds_effect = { REASON = attacked }
+		}
+	}
+	
+	# Eye(s) pecked
+	option = {
+		trigger = { local_var:ek_pet_animal_0103_result = flag:eye_removed }
+		
+		name = ek_pet_animal.0103.b
+
+		# Push towards becoming Nemesis
+		progress_towards_rival_effect = {
+			CHARACTER = scope:vassal
+			OPINION = no
+			REASON = rival_imprisoned
+		}
+		
+		# Remove one eye
+		scope:vassal = {
+			if = {
+				limit = { has_trait = one_eyed }
+				remove_trait = one_eyed
+				add_trait = blind
+			}
+			else = {
+				add_trait_force_tooltip = one_eyed
+			}
+		}
+	}
+}
+
+#Parrot dies
+ek_pet_animal.0199 = {
+	type = character_event
+	title = ek_pet_animal.0199.t
+	desc = ek_pet_animal.0199.desc
+	theme = pet
+	left_portrait = {
+		character = root
+		animation = sadness
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_prison"
+	}
+
+	option = {
+		name = ek_pet_animal.0199.a
+		show_as_tooltip = {
+			remove_parrot_story_modifiers_effect = yes
+		}
+		scope:story = {
+			hidden_effect = { end_story = yes }
+		}
+	}
+	after = {
+		remove_character_flag = parrot_is_dying
+	}
+}
+
+#########################
+#########################
+## PARROT DECISION EVENTS
+#########################
+#########################
+
+###You pet your parrot
+# Parrots get out of its cage, sings and you cuddle it
+ek_pet_animal.0501 = {
+	type = character_event
+	title = ek_pet_animal.0501.t
+	desc = ek_pet_animal.0501.desc
+	theme = pet
+	override_background = {
+		event_background = sitting_room
+	}
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	
+	weight_multiplier = {
+		base = 1
+		modifier = { #No blockage, so the decision is available, but very unlikely with repetition
+			add = -0.9
+			has_character_flag = had_ek_pet_animal_0501_event
+		}
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = had_ek_pet_animal_0501_event
+			years = 10
+		}
+	}
+
+	option = {
+		name = ek_pet_animal.0501.a
+		add_stress = minor_stress_loss
+	}
+}
+# Parrot was already out, you bring it a snack and it happily sings and eats in your hand
+ek_pet_animal.0502 = {
+	type = character_event
+	title = ek_pet_animal.0501.t
+	desc = ek_pet_animal.0502.desc
+	theme = pet
+	override_background = {
+		event_background = sitting_room
+	}
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	
+	weight_multiplier = {
+		base = 1
+		modifier = { #No blockage, so the decision is available, but very unlikely with repetition
+			add = -0.9
+			has_character_flag = had_ek_pet_animal_0502_event
+		}
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = had_ek_pet_animal_0502_event
+			years = 10
+		}
+	}
+
+	option = {
+		name = ek_pet_animal.0502.a
+		add_stress = minor_stress_loss
+	}
+}
+
+###########################################
+# SCORPION (1001-1999)
+#	ek_pet_animal.1001 - Name your scorpion!
+#
+# Other events for your scorpion
+#	ek_pet_animal.1101 - Observe your scorpion, smol intrigue bonus
+#	ek_pet_animal.1102 - Your scorpion follows you in battle, prowess bonus
+#	ek_pet_animal.1103 - Your scorpion hurts a vassal (wounded, small chance for death from poisoning)
+#
+#	ek_pet_animal.1199 - Scorpion dies :(
+#
+#
+# SCORPION DECISION EVENTS
+#	ek_pet_animal.1501 - You play with your scorpion
+#	ek_pet_animal.1502 - You play with your scorpion v2
+#
+###########################################
+
+
+###########################################
+# Name your scorpion
+#	1001-1099
+###########################################
+
+#Name your scorpion
+ek_pet_animal.1001 = {
+	type = character_event
+	title = ek_pet_animal.1001.t
+	desc = ek_pet_animal.1001.desc
+	theme = pet
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+
+	immediate = {
+		#To give some options to show
+		assign_name_options_scorpion_story_cycle_effect = yes
+		assign_name_options_scorpion_story_cycle_effect = yes
+		assign_name_options_scorpion_story_cycle_effect = yes
+		play_music_cue = "mx_cue_low_key_positive"
+
+		if = {
+			limit = { is_ai = yes }
+			random_list = {
+				1 = {
+					trigger = { has_character_flag = name_kaveh }
+					set_variable = {
+						name = story_cycle_scorpion_name
+						value = flag:scorpion_name_kaveh
+					}
+				}
+			}
+		}
+	}
+
+	widget = {
+		gui = "event_window_widget_enter_text"
+		container = "dynamic_birth_name"
+		controller = {
+			type = text
+			data = {
+				key = story_cycle_scorpion_name
+				default = {
+					localization_key = scorpion_name_kaveh
+					trigger = {
+						has_character_flag = name_kaveh
+					}
+				}
+			}
+		}
+		setup_scope = {
+			root = { save_scope_as = text_target }
+		}
+	}
+
+	option = { 
+		name = ek_pet_animal.1001.a
+	}
+
+	after = {
+		remove_character_flag = is_naming_scorpion
+		remove_character_flag = name_kaveh
+		
+		if = {
+			# We entered custom text into the pop up
+			limit = { NOT = { has_variable = story_cycle_cat_name } }
+			set_variable = {
+				name = story_cycle_cat_name
+				value = flag:custom
+			}
+		}
+	}
+}
+
+###########################################
+# Other events for your scorpion
+#	1100-1199
+###########################################
+
+# Observe your scorpion, smol intrigue bonus
+ek_pet_animal.1101 = {
+	type = character_event
+	title = ek_pet_animal.1101.t
+	desc = ek_pet_animal.1101.desc
+	theme = pet
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	override_background = {
+		event_background = bedchamber
+	}
+	
+	trigger = {
+		NOT = { has_character_flag = had_ek_pet_animal_1101_event }
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = had_ek_pet_animal_1101_event
+			years = 10
+		}
+	}
+
+	option = { # How sneaky!
+		name = ek_pet_animal.1101.a
+		
+		add_character_modifier = {
+			modifier = scorpion_story_observing_modifier
+			days = 3650
+		}
+	}
+}
+
+# Your scorpion follows you in battle, prowess bonus
+ek_pet_animal.1102 = {
+	type = character_event
+	title = ek_pet_animal.1102.t
+	desc = ek_pet_animal.1102.desc
+	theme = pet
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	override_background = {
+		event_background = army_camp
+	}
+	
+	trigger = {
+		NOT = { has_character_flag = had_ek_pet_animal_1102_event }
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = had_ek_pet_animal_1102_event
+			years = 10
+		}
+	}
+
+	option = { # With me, into battle!
+		name = ek_pet_animal.1102.a
+		
+		add_character_modifier = {
+			modifier = scorpion_story_fighting_with_you_modifier
+			days = 3650
+		}
+	}
+}
+
+# Your scorpion hurts a vassal (wounded, small chance for death from poisoning)
+ek_pet_animal.1103 = {
+	type = character_event
+	title = ek_pet_animal.1103.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { local_var:ek_pet_animal_1103_result = flag:wounded }
+				desc = ek_pet_animal.1103.desc_wounded
+			}
+			triggered_desc = {
+				trigger = {	local_var:ek_pet_animal_1103_result = flag:poisoned	}
+				desc = ek_pet_animal.1103.desc_poisoned
+			}
+		}
+	}
+	theme = pet
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = scope:vassal
+		animation = severelywounded
+	}
+	right_portrait = {
+		character = root
+		animation = shock
+	}
+	
+	trigger = {
+		NOT = { has_character_flag = had_ek_pet_animal_1103_event }
+		any_vassal = {
+			is_available_ai = yes
+		}
+	}
+
+	immediate = {
+		random_vassal = {
+			limit = {
+				is_available_ai = yes
+			}
+			weight = {
+				base = 50
+			}
+			save_scope_as = vassal
+		}
+		add_character_flag = {
+			flag = had_ek_pet_animal_1103_event
+			years = 10
+		}
+		# Do we just wound or remove an eye?
+		random_list = {
+			80 = {
+				set_local_variable = {
+					name = ek_pet_animal_1103_result
+					value = flag:wounded
+				}
+			}
+			20 = {
+				set_local_variable = {
+					name = ek_pet_animal_1103_result
+					value = flag:poisoned
+				}
+			}
+		}
+	}
+	
+	# Just wounded
+	option = {
+		trigger = { local_var:ek_pet_animal_1103_result = flag:wounded }
+		
+		name = ek_pet_animal.1103.a
+
+		scope:vassal = {
+			add_opinion = {
+				modifier = scared_opinion
+				target = root
+				opinion = -30
+			}
+			
+			increase_wounds_effect = { REASON = attacked }
+		}
+	}
+	
+	# Poisoned
+	option = {
+		trigger = { local_var:ek_pet_animal_1103_result = flag:poisoned }
+		
+		name = ek_pet_animal.1103.b
+
+		# Push towards becoming Nemesis
+		progress_towards_rival_effect = {
+			CHARACTER = scope:vassal
+			OPINION = no
+			REASON = rival_imprisoned
+		}
+		
+		# Poison
+		scope:vassal = {
+			death = { death_reason = death_accident }
+		}
+	}
+}
+
+
+#Scorpion dies
+ek_pet_animal.1199 = {
+	type = character_event
+	title = ek_pet_animal.1199.t
+	desc = ek_pet_animal.1199.desc
+	theme = pet
+	left_portrait = {
+		character = root
+		animation = sadness
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_prison"
+	}
+
+	option = {
+		name = ek_pet_animal.1199.a
+		show_as_tooltip = {
+			remove_scorpion_story_modifiers_effect = yes
+		}
+		scope:story = {
+			hidden_effect = { end_story = yes }
+		}
+	}
+	after = {
+		remove_character_flag = scorpion_is_dying
+	}
+}
+
+#########################
+#########################
+## SCORPION DECISION EVENTS
+#########################
+#########################
+
+###You pet your parrot
+# Scorpion get out of its cage, but it goes to you and you put it back in
+ek_pet_animal.1501 = {
+	type = character_event
+	title = ek_pet_animal.1501.t
+	desc = ek_pet_animal.1501.desc
+	theme = pet
+	override_background = {
+		event_background = sitting_room
+	}
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	
+	weight_multiplier = {
+		base = 1
+		modifier = { #No blockage, so the decision is available, but very unlikely with repetition
+			add = -0.9
+			has_character_flag = had_ek_pet_animal_1501_event
+		}
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = had_ek_pet_animal_1501_event
+			years = 10
+		}
+	}
+
+	option = {
+		name = ek_pet_animal.1501.a
+		add_stress = minor_stress_loss
+	}
+}
+# Scorpion was already out, you bring it a snack and it happily eats in your hand
+ek_pet_animal.1502 = {
+	type = character_event
+	title = ek_pet_animal.1501.t
+	desc = ek_pet_animal.1502.desc
+	theme = pet
+	override_background = {
+		event_background = sitting_room
+	}
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	
+	weight_multiplier = {
+		base = 1
+		modifier = { #No blockage, so the decision is available, but very unlikely with repetition
+			add = -0.9
+			has_character_flag = had_ek_pet_animal_1502_event
+		}
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = had_ek_pet_animal_1502_event
+			years = 10
+		}
+	}
+
+	option = {
+		name = ek_pet_animal.1502.a
+		add_stress = minor_stress_loss
+	}
+}

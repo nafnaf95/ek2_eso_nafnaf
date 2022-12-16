@@ -1,0 +1,112 @@
+﻿ArcanaLevel = {
+	type = character
+
+	text = {
+		localization_key = SKILL_TERRIBLE
+		trigger = { root.arcana < { value = terrible_skill_level add = 2 } }
+	}
+
+	text = {
+		localization_key = SKILL_POOR
+		trigger = {
+			root.arcana >= { value = terrible_skill_level add = 2 }
+			root.arcana < { value = poor_skill_level add = 2 }
+		}
+	}
+
+	text = {
+		localization_key = SKILL_AVERAGE
+		trigger = {
+			root.arcana >= { value = poor_skill_level add = 2 }
+			root.arcana < { value = average_skill_level add = 2 }
+		}
+	}
+
+	text = {
+		localization_key = SKILL_GOOD
+		trigger = {
+			root.arcana >= { value = average_skill_level add = 2 }
+			root.arcana < { value = good_skill_level add = 2 }
+		}
+	}
+
+	text = {
+		localization_key = SKILL_EXCELLENT
+		trigger = { root.arcana >= { value = good_skill_level add = 2 } }
+	}
+}
+
+# On the lifestyle window
+arcana_group_impact_magic_lifestyle_experience = {
+	type = character
+	
+	text = {
+		localization_key = arcana_group_impact_magic_lifestyle_experience_good_3
+		trigger = { has_trait = arcana_good_3 }
+	}
+	text = {
+		localization_key = arcana_group_impact_magic_lifestyle_experience_good_2
+		trigger = { has_trait = arcana_good_2 }
+	}
+	text = {
+		localization_key = arcana_group_impact_magic_lifestyle_experience_good_1
+		trigger = { has_trait = arcana_good_1 }
+	}
+	text = {
+		localization_key = arcana_group_impact_magic_lifestyle_experience_bad_1
+		trigger = { has_trait = arcana_bad_1 }
+	}
+	text = {
+		localization_key = arcana_group_impact_magic_lifestyle_experience_bad_2
+		trigger = { has_trait = arcana_bad_3 }
+	}
+	text = {
+		localization_key = arcana_group_impact_magic_lifestyle_experience_bad_3
+		trigger = { has_trait = arcana_bad_3 }
+	}
+}
+education_magical_ability_impact_magic_lifestyle_experience = {
+	type = character
+	
+	text = {
+		localization_key = education_magical_ability_impact_magic_lifestyle_experience_4
+		trigger = { has_trait = education_magical_ability_4 }
+	}
+	text = {
+		localization_key = education_magical_ability_impact_magic_lifestyle_experience_3
+		trigger = { has_trait = education_magical_ability_3 }
+	}
+	text = {
+		localization_key = education_magical_ability_impact_magic_lifestyle_experience_2
+		trigger = { has_trait = education_magical_ability_2 }
+	}
+	text = {
+		localization_key = education_magical_ability_impact_magic_lifestyle_experience_1
+		trigger = { has_trait = education_magical_ability_1 }
+	}
+}
+
+GetStageName = {
+	type = story
+
+	text = {
+		trigger = { exists = var:stage var:stage = 5 }
+		localization_key = "stage_5"
+	}
+	text = {
+		trigger = { exists = var:stage var:stage = 4 }
+		localization_key = "stage_4"
+	}
+	text = {
+		trigger = { exists = var:stage var:stage = 3 }
+		localization_key = "stage_3"
+	}
+	text = {
+		trigger = { exists = var:stage var:stage = 2 }
+		localization_key = "stage_2"
+	}
+	text = {
+		trigger = { exists = var:stage var:stage = 1 }
+		localization_key = "stage_1"
+	}
+}

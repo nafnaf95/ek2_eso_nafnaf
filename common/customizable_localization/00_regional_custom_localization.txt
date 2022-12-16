@@ -1,0 +1,3230 @@
+﻿### EK EDIT: Removed references to vanilla regions and religions
+### EK TODO: Add our terrains in here
+
+MountedWarriorTerm = {
+	type = character
+
+	#Faris for muslims
+
+	text = {
+		localization_key = knight
+	}
+}
+
+
+MountedWarriorTermPlural = {
+	type = character
+
+	#Faris for muslims
+
+	text = {
+		localization_key = knights
+	}
+}
+
+
+MountedWarriorAdjective = {
+	type = character
+
+	#Faris for muslims
+
+	text = {
+		localization_key = knightly
+	}
+}
+
+MartialTournamentAdjective = {
+	type = character
+
+	text = { # We keep the direct reference to the feudal gov here because it better fits what Bretons would do, so Autocracies and the like will keep sparring
+		trigger = {
+			has_government = feudal_government
+			# capital_province = {
+				# geographical_region = world_europe_west
+			# }
+		}
+		localization_key = tournament_jousting
+	}
+	text = {
+		trigger = {
+			OR = {		
+				has_government = tribal_government
+				# faith = {
+					# has_doctrine = pagan_hostility_doctrine
+				# }
+				# capital_province = {
+					# geographical_region = world_europe_north
+				# }
+			}
+		}
+		localization_key = tournament_wrestling
+	}
+	text = {
+		trigger = {
+			always = no
+		}
+		localization_key = tournament_sparring
+		fallback = yes
+	}
+}
+
+LevyMenWomen = {
+	type = character
+
+	#Gender law triggers
+
+	text = {
+		localization_key = levies_men
+	}
+
+	text = {
+		localization_key = levies_women
+	}
+
+	text = {
+		localization_key = levies_people
+	}
+}
+
+FortifiedBuilding = { #Castle, Fort, Kasbah etc.
+	type = character
+
+	# text = {
+		# trigger = {
+			# culture = { has_cultural_pillar = language_arabic }
+		# }
+		# localization_key = kasbah
+	# }
+
+	# text = {
+		# trigger = {
+			# culture = { has_cultural_pillar = heritage_indo_aryan }
+		# }
+		# localization_key = durga
+	# }
+
+	# text = {
+		# trigger = {
+			# culture = { has_cultural_pillar = language_greek }
+		# }
+		# localization_key = kastron
+	# }
+
+	text = {
+		trigger = { has_government = tribal_government }
+		localization_key = stronghold
+	}
+
+	text = {
+		trigger = { always = no }
+		localization_key = castle
+		fallback = yes
+	}
+}
+
+### EK EDIT: Hierocracies live in a Temple too
+ResidenceBuilding = { #Castle, Palace, etc.
+	type = character
+
+	text = {
+		trigger = {
+			has_government = republic_government
+		}
+		localization_key = mansion
+	}
+
+	text = {
+		trigger = {
+			OR = {
+				has_government = theocracy_government
+				is_theocratic_lessee = yes
+				
+				has_government = hierocracy_government
+			}
+		}
+		localization_key = temple
+	}
+
+	text = {
+		trigger = {
+			NOR = {
+				has_government = republic_government
+				has_government = theocracy_government
+				is_theocratic_lessee = yes
+				
+				has_government = hierocracy_government
+			}
+		}
+		localization_key = castle
+		fallback = yes
+	}
+}
+
+OutdoorsHidingPlace = { #Something you can find in nature / by the road
+	type = character
+
+	text = {
+		localization_key = trees
+	}
+
+	text = {
+		localization_key = rocks
+	}
+}
+
+ObjectToClimb = {
+	type = character
+
+	text = {	
+		trigger = { location = { terrain = desert } }
+		localization_key = sand_dune
+	}
+	text = {	
+		trigger = {
+			location = {
+				OR = {
+					terrain = plains
+					terrain = mountains
+					terrain = desert_mountains
+					terrain = drylands
+					terrain = steppe
+				}
+			}
+		}
+		localization_key = boulder
+	}
+	text = {	
+		localization_key = tree
+	}
+}
+
+IndefiniteBodyOfWater = { #Lake, River, Oasis, etc.
+	type = character
+
+	text = {
+		trigger = { location = { terrain = oasis } }
+		localization_key = body_of_water_an_oasis
+	}
+	text = {
+		trigger = { location.county = { is_coastal_county = yes } }
+		localization_key = body_of_water_the_ocean
+	}
+	text = {
+		localization_key = body_of_water_a_lake
+	}
+}
+
+RandomExampleName = {
+	type = character
+
+	text = {
+		localization_key = random_example_name_default
+	}
+}
+
+TerrainTypeCountyScope = {
+	type = landed_title
+
+	text = {	
+		trigger = { title_province = { terrain = plains } }
+		localization_key = terrain_plains
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = farmlands } }
+		localization_key = terrain_farmlands
+	}
+
+	text = {	
+		trigger = {
+			title_province = {
+				OR = {
+					terrain = hills
+					terrain = desert_hills
+				}
+			}
+		}
+		localization_key = terrain_hills
+	}
+
+	text = {	
+		trigger = {
+			title_province = {
+				OR = {
+					terrain = mountains
+					terrain = desert_mountains
+				}
+			}
+		}
+		localization_key = terrain_mountains
+	}
+
+	text = {	
+		trigger = {
+			title_province = {
+				OR = {
+					terrain = desert
+				}
+			}
+		}
+		localization_key = terrain_desert
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = oasis } }
+		localization_key = terrain_oasis
+	}
+
+	text = {	
+		trigger = {
+			title_province = {
+				OR = {
+					terrain = jungle
+					terrain = valenwood
+					terrain = jungle_hills
+					terrain = valenwood
+					terrain = valenwood_hills
+				}
+			}
+		}
+		localization_key = terrain_jungle
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = forest } }
+		localization_key = terrain_forest
+	}
+
+	text = {	
+		trigger = {
+			title_province = {
+				OR = {
+					terrain = taiga
+					terrain = taiga_hills
+				}
+			}
+		}
+		localization_key = terrain_taiga
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = wetlands } }
+		localization_key = terrain_wetlands
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = steppe } }
+		localization_key = terrain_steppe
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = floodplains } }
+		localization_key = terrain_floodplains
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = drylands } }
+		localization_key = terrain_drylands
+	}
+
+	### EK specific
+	text = {	
+		trigger = { title_province = { terrain = ashlands } }
+		localization_key = terrain_ashlands
+	}
+	
+	text = {	
+		trigger = { title_province = { terrain = volcanic } }
+		localization_key = terrain_volcanic
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = mangrove_forest } }
+		localization_key = terrain_mangrove_forest
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = wasteland } }
+		localization_key = terrain_wasteland
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = tundra } }
+		localization_key = terrain_tundra
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = black_marsh } }
+		localization_key = terrain_black_marsh
+	}
+
+	text = {	
+		trigger = { always = no }
+		fallback = yes
+		
+		localization_key = terrain_missing
+	}
+}
+
+### EK EDIT: Added our own terrain types
+TerrainType = {
+	type = character
+
+	text = {	
+		trigger = { capital_province = { terrain = plains } }
+		localization_key = terrain_plains
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = farmlands } }
+		localization_key = terrain_farmlands
+	}
+
+	text = {	
+		trigger = {
+			capital_province = {
+				OR = {
+					terrain = hills
+					terrain = desert_hills
+				}
+			}
+		}
+		localization_key = terrain_hills
+	}
+
+	text = {	
+		trigger = {
+			capital_province = {
+				OR = {
+					terrain = mountains
+					terrain = desert_mountains
+				}
+			}
+		}
+		localization_key = terrain_mountains
+	}
+
+	text = {	
+		trigger = {
+			capital_province = {
+				OR = {
+					terrain = desert
+				}
+			}
+		}
+		localization_key = terrain_desert
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = oasis } }
+		localization_key = terrain_oasis
+	}
+
+	text = {	
+		trigger = {
+			capital_province = {
+				OR = {
+					terrain = jungle
+					terrain = valenwood
+					terrain = jungle_hills
+					terrain = valenwood
+					terrain = valenwood_hills
+				}
+			}
+		}
+		localization_key = terrain_jungle
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = forest } }
+		localization_key = terrain_forest
+	}
+
+	text = {	
+		trigger = {
+			capital_province = {
+				OR = {
+					terrain = taiga
+					terrain = taiga_hills
+				}
+			}
+		}
+		localization_key = terrain_taiga
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = wetlands } }
+		localization_key = terrain_wetlands
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = steppe } }
+		localization_key = terrain_steppe
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = floodplains } }
+		localization_key = terrain_floodplains
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = drylands } }
+		localization_key = terrain_drylands
+	}
+
+	### EK specific
+	text = {	
+		trigger = { capital_province = { terrain = ashlands } }
+		localization_key = terrain_ashlands
+	}
+	
+	text = {	
+		trigger = { capital_province = { terrain = volcanic } }
+		localization_key = terrain_volcanic
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = mangrove_forest } }
+		localization_key = terrain_mangrove_forest
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = wasteland } }
+		localization_key = terrain_wasteland
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = tundra } }
+		localization_key = terrain_tundra
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = black_marsh } }
+		localization_key = terrain_black_marsh
+	}
+
+	text = {	
+		trigger = { always = no }
+		fallback = yes
+		
+		localization_key = terrain_missing
+	}
+}
+
+TerrainTypeProvince = {
+	type = province
+
+	text = {	
+		trigger = { terrain = plains }
+		localization_key = terrain_plains
+	}
+
+	text = {	
+		trigger = { terrain = farmlands }
+		localization_key = terrain_farmlands
+	}
+
+	text = {	
+		trigger = { terrain = hills }
+		localization_key = terrain_hills
+	}
+
+	text = {	
+		trigger = {
+			OR = {
+				terrain = mountains
+				terrain = desert_mountains
+			}
+		}
+		localization_key = terrain_mountains
+	}
+
+	text = {	
+		trigger = { terrain = desert }
+		localization_key = terrain_desert
+	}
+
+	text = {	
+		trigger = { terrain = oasis }
+		localization_key = terrain_oasis
+	}
+
+	text = {	
+		trigger = {
+			title_province = {
+				OR = {
+					terrain = jungle
+					terrain = valenwood
+					terrain = jungle_hills
+					terrain = valenwood
+					terrain = valenwood_hills
+				}
+			}
+		}
+		localization_key = terrain_jungle
+	}
+
+	text = {	
+		trigger = { terrain = forest }
+		localization_key = terrain_forest
+	}
+
+	text = {	
+		trigger = { terrain = taiga }
+		localization_key = terrain_taiga
+	}
+
+	text = {	
+		trigger = { terrain = wetlands }
+		localization_key = terrain_wetlands
+	}
+
+	text = {	
+		trigger = { terrain = steppe }
+		localization_key = terrain_steppe
+	}
+
+	text = {	
+		trigger = { terrain = floodplains }
+		localization_key = terrain_floodplains
+	}
+
+	text = {	
+		trigger = { terrain = drylands }
+		localization_key = terrain_drylands
+	}
+
+	### EK specific
+	text = {
+		trigger = { terrain = ashlands }
+		localization_key = terrain_ashlands
+	}
+	
+	text = {
+		trigger = { terrain = volcanic }
+		localization_key = terrain_volcanic
+	}
+
+	text = {	
+		trigger = { terrain = mangrove_forest }
+		localization_key = terrain_mangrove_forest
+	}
+
+	text = {	
+		trigger = { terrain = wasteland }
+		localization_key = terrain_wasteland
+	}
+
+	text = {	
+		trigger = { terrain = tundra }
+		localization_key = terrain_tundra
+	}
+
+	text = {	
+		trigger = { terrain = black_marsh }
+		localization_key = terrain_black_marsh
+	}
+
+	text = {	
+		trigger = { always = no }
+		fallback = yes
+		
+		localization_key = terrain_missing
+	}
+}
+
+LocalAnimal = {
+	type = character
+
+	text = {
+		localization_key = animal_hart
+		trigger = {
+			var:local_animal = flag:hart
+		}
+	}
+
+	text = {
+		localization_key = animal_stag
+		trigger = {
+			var:local_animal = flag:stag
+		}
+	}
+
+	text = {
+		localization_key = animal_boar
+		trigger = {
+			var:local_animal = flag:boar
+		}
+	}
+
+	text = {
+		localization_key = animal_wolf
+		trigger = {
+			var:local_animal = flag:wolf
+		}
+	}
+
+	text = {
+		localization_key = animal_fox
+		trigger = {
+			var:local_animal = flag:fox
+		}
+	}
+
+	text = {
+		localization_key = animal_hare
+		trigger = {
+			var:local_animal = flag:hare
+		}
+	}
+
+	text = {
+		localization_key = animal_scrib
+		trigger = {
+			var:local_animal = flag:scrib
+		}
+	}
+
+	text = {
+		localization_key = animal_lion
+		trigger = {
+			var:local_animal = flag:lion
+		}
+	}
+
+	text = {
+		localization_key = animal_tiger
+		trigger = {
+			var:local_animal = flag:tiger
+		}
+	}
+
+	text = {
+		localization_key = animal_bear
+		trigger = {
+			var:local_animal = flag:bear
+		}
+	}
+	
+	text = {
+		localization_key = animal_lynx
+		trigger = {
+			var:local_animal = flag:lynx
+		}
+	}
+
+	text = {
+		localization_key = animal_unicorn
+		trigger = {
+			var:local_animal = flag:unicorn
+		}
+	}
+
+	text = {
+		localization_key = animal_dragon
+		trigger = {
+			var:local_animal = flag:dragon
+		}
+	}
+	
+	### EK EDIT: EK animals
+	text = {
+		localization_key = animal_bull_netch
+		trigger = {
+			var:local_animal = flag:bull_netch
+		}
+	}
+	text = {
+		localization_key = animal_senche_cougar
+		trigger = {
+			var:local_animal = flag:senche_cougar
+		}
+	}
+	text = {
+		localization_key = animal_senche_leopard
+		trigger = {
+			var:local_animal = flag:senche_leopard
+		}
+	}
+	text = {
+		localization_key = animal_senche_lion
+		trigger = {
+			var:local_animal = flag:senche_lion
+		}
+	}
+	text = {
+		localization_key = animal_senche_panther
+		trigger = {
+			var:local_animal = flag:senche_panther
+		}
+	}
+	text = {
+		localization_key = animal_dire_wolf
+		trigger = {
+			var:local_animal = flag:dire_wolf
+		}
+	}
+	text = {
+		localization_key = animal_giant_wasp
+		trigger = {
+			var:local_animal = flag:giant_wasp
+		}
+	}
+	text = {
+		localization_key = animal_tusked_bristleback
+		trigger = {
+			var:local_animal = flag:tusked_bristleback
+		}
+	}
+	text = {
+		localization_key = animal_kwama_warrior
+		trigger = {
+			var:local_animal = flag:kwama_warrior
+		}
+	}
+	text = {
+		localization_key = animal_gryphon
+		trigger = {
+			var:local_animal = flag:gryphon
+		}
+	}
+	text = {
+		localization_key = animal_mammoth
+		trigger = {
+			var:local_animal = flag:mammoth
+		}
+	}
+	text = {
+		localization_key = animal_horker
+		trigger = {
+			var:local_animal = flag:horker
+		}
+	}
+	text = {
+		localization_key = animal_cliff-strider
+		trigger = {
+			var:local_animal = flag:cliff-strider
+		}
+	}
+	text = {
+		localization_key = animal_troll
+		trigger = {
+			var:local_animal = flag:troll
+		}
+	}
+	text = {
+		localization_key = animal_lurcher
+		trigger = {
+			var:local_animal = flag:lurcher
+		}
+	}
+	text = {
+		localization_key = animal_giant_bat
+		trigger = {
+			var:local_animal = flag:giant_bat
+		}
+	}
+	text = {
+		localization_key = animal_crocodile
+		trigger = {
+			var:local_animal = flag:crocodile
+		}
+	}
+	text = {
+		localization_key = animal_alit
+		trigger = {
+			var:local_animal = flag:alit
+		}
+	}
+	text = {
+		localization_key = animal_dreugh
+		trigger = {
+			var:local_animal = flag:dreugh
+		}
+	}
+	text = {
+		localization_key = animal_sep_adder
+		trigger = {
+			var:local_animal = flag:sep_adder
+		}
+	}
+	text = {
+		localization_key = animal_wamasu
+		trigger = {
+			var:local_animal = flag:wamasu
+		}
+	}
+	text = {
+		localization_key = animal_nix_hound
+		trigger = {
+			var:local_animal = flag:nix_hound
+		}
+	}
+	text = {
+		localization_key = animal_chaurus
+		trigger = {
+			var:local_animal = flag:chaurus
+		}
+	}
+	
+	text = {
+		localization_key = animal_animal
+		trigger = { always = no	}
+		fallback = yes
+	}					
+}
+
+LocalAnimalMultiple = {
+	type = character
+
+	text = {
+		localization_key = animal_harts
+		trigger = {
+			var:local_animal = flag:hart
+		}
+	}
+
+	text = {
+		localization_key = animal_stags
+		trigger = {
+			var:local_animal = flag:stag
+		}
+	}
+
+	text = {
+		localization_key = animal_boars
+		trigger = {
+			var:local_animal = flag:boar
+		}
+	}
+
+	text = {
+		localization_key = animal_wolfs
+		trigger = {
+			var:local_animal = flag:wolf
+		}
+	}
+	
+	text = {
+		localization_key = animal_lynxes
+		trigger = {
+			var:local_animal = flag:lynx
+		}
+	}
+
+	text = {
+		localization_key = animal_foxes
+		trigger = {
+			var:local_animal = flag:fox
+		}
+	}
+
+	text = {
+		localization_key = animal_hares
+		trigger = {
+			var:local_animal = flag:hare
+		}
+	}
+
+	text = {
+		localization_key = animal_lions
+		trigger = {
+			var:local_animal = flag:lion
+		}
+	}
+
+	text = {
+		localization_key = animal_tigers
+		trigger = {
+			var:local_animal = flag:tiger
+		}
+	}
+
+	text = {
+		localization_key = animal_bears
+		trigger = {
+			var:local_animal = flag:bear
+		}
+	}
+
+	text = {
+		localization_key = animal_unicorns
+		trigger = {
+			var:local_animal = flag:unicorn
+		}
+	}
+
+	text = {
+		localization_key = animal_dragons
+		trigger = {
+			var:local_animal = flag:dragon
+		}
+	}
+
+	### EK EDIT: EK animals
+	text = {
+		localization_key = animal_scribs
+		trigger = {
+			var:local_animal = flag:scrib
+		}
+	}
+
+	text = {
+		localization_key = animal_nix_hounds
+		trigger = {
+			var:local_animal = flag:nix_hound
+		}
+	}
+	text = {
+		localization_key = animal_chaurus
+		trigger = {
+			var:local_animal = flag:chaurus
+		}
+	}
+	
+	text = {
+		localization_key = animal_bull_netches
+		trigger = {
+			var:local_animal = flag:bull_netch
+		}
+	}
+	text = {
+		localization_key = animal_senche_cougars
+		trigger = {
+			var:local_animal = flag:senche_cougar
+		}
+	}
+	text = {
+		localization_key = animal_senche_leopards
+		trigger = {
+			var:local_animal = flag:senche_leopard
+		}
+	}
+	text = {
+		localization_key = animal_senche_lionesses
+		trigger = {
+			var:local_animal = flag:senche_lion
+		}
+	}
+	text = {
+		localization_key = animal_senche_panthers
+		trigger = {
+			var:local_animal = flag:senche_panther
+		}
+	}
+	text = {
+		localization_key = animal_dire_wolves
+		trigger = {
+			var:local_animal = flag:dire_wolf
+		}
+	}
+	text = {
+		localization_key = animal_giant_wasps
+		trigger = {
+			var:local_animal = flag:giant_wasp
+		}
+	}
+	text = {
+		localization_key = animal_tusked_bristlebacks
+		trigger = {
+			var:local_animal = flag:tusked_bristleback
+		}
+	}
+	text = {
+		localization_key = animal_mammoths
+		trigger = {
+			var:local_animal = flag:mammoth
+		}
+	}
+	text = {
+		localization_key = animal_horkers
+		trigger = {
+			var:local_animal = flag:horker
+		}
+	}
+	text = {
+		localization_key = animal_kwama_warriors
+		trigger = {
+			var:local_animal = flag:kwama_warrior
+		}
+	}
+	text = {
+		localization_key = animal_gryphons
+		trigger = {
+			var:local_animal = flag:gryphon
+		}
+	}
+	text = {
+		localization_key = animal_cliff-striders
+		trigger = {
+			var:local_animal = flag:cliff-strider
+		}
+	}
+	text = {
+		localization_key = animal_trolls
+		trigger = {
+			var:local_animal = flag:troll
+		}
+	}
+	text = {
+		localization_key = animal_lurchers
+		trigger = {
+			var:local_animal = flag:lurcher
+		}
+	}
+	text = {
+		localization_key = animal_giant_bats
+		trigger = {
+			var:local_animal = flag:giant_bat
+		}
+	}
+	text = {
+		localization_key = animal_crocodiles
+		trigger = {
+			var:local_animal = flag:crocodile
+		}
+	}
+	text = {
+		localization_key = animal_alits
+		trigger = {
+			var:local_animal = flag:alit
+		}
+	}
+	text = {
+		localization_key = animal_dreughs
+		trigger = {
+			var:local_animal = flag:dreugh
+		}
+	}
+	text = {
+		localization_key = animal_sep_adders
+		trigger = {
+			var:local_animal = flag:sep_adder
+		}
+	}
+	text = {
+		localization_key = animal_wamasus
+		trigger = {
+			var:local_animal = flag:wamasu
+		}
+	}
+	text = {
+		localization_key = animal_nix_hounds
+		trigger = {
+			var:local_animal = flag:nix_hound
+		}
+	}
+	text = {
+		localization_key = animal_chaurus
+		trigger = {
+			var:local_animal = flag:chaurus
+		}
+	}
+	
+	text = {
+		localization_key = animal_animals
+		trigger = { always = no	}
+		fallback = yes
+	}
+}
+
+LocalAnimalDesc = {
+	type = character
+
+	text = {
+		localization_key = animal_flighty_desc
+		trigger = {
+			OR = {
+				var:local_animal = flag:hart
+				var:local_animal = flag:hare
+				var:local_animal = flag:scrib
+			}
+		}
+	}
+
+	text = {
+		localization_key = animal_majestic_desc
+		trigger = {
+			OR = {
+				var:local_animal = flag:stag
+				var:local_animal = flag:dragon
+				var:local_animal = flag:lion
+			}
+		}
+	}
+
+	text = {
+		localization_key = animal_powerful_desc
+		trigger = {
+			OR = {
+				var:local_animal = flag:boar
+				var:local_animal = flag:tiger
+				var:local_animal = flag:lion
+				var:local_animal = flag:wolf
+				var:local_animal = flag:bear
+			}
+		}
+	}
+
+	text = {
+		localization_key = animal_sly_desc
+		trigger = {
+			var:local_animal = flag:fox
+		}
+	}
+
+	text = {
+		localization_key = animal_quick_desc
+		trigger = {
+			OR = {
+				var:local_animal = flag:hare
+				var:local_animal = flag:hart
+				var:local_animal = flag:scrib
+			}
+		}
+	}
+
+	text = {
+		localization_key = animal_cunning_desc
+		trigger = {
+			var:local_animal = flag:fox
+		}
+	}
+
+	text = {
+		localization_key = animal_fabled_desc
+		trigger = {
+			OR = {
+				var:local_animal = flag:unicorn
+				var:local_animal = flag:dragon
+			}
+		}
+	}
+
+	text = {
+		localization_key = animal_mystical_desc
+		trigger = {
+			OR = {
+				var:local_animal = flag:dragon
+				var:local_animal = flag:unicorn
+			}
+		}
+	}
+}
+
+Abortifacient = {
+	type = character
+
+	random_valid = yes
+
+	text = {
+		localization_key = abortifacient_pennyroyal
+		weight_multiplier = {
+			base = 3
+		}
+		#Europe, North Africa, Middle East
+	}
+
+	text = {
+		localization_key = abortifacient_catmint
+		#Europe, Asia, Africa
+	}
+
+	text = {
+		localization_key = abortifacient_thymbra
+		#North Africa, Southern Europe, Middle East, Central Asia
+	}
+
+	text = {
+		localization_key = abortifacient_broadleaf_sage
+		#Mediterranean
+	}
+
+	text = {
+		localization_key = abortifacient_soapwort
+		#Europe and Asia
+	}
+
+	text = {
+		localization_key = abortifacient_galingales
+		#Africa, Asia
+	}
+
+	text = {
+		localization_key = abortifacient_bishops_lace
+		#Christian only
+		#Europe and Southwest Asia
+	}
+
+	text = {
+		localization_key = abortifacient_wild_carrot
+		#Same as Bishop's Lace
+		#Europe and Southwest Asia
+	}
+
+	text = {
+		localization_key = abortifacient_bitter_melon
+		#India
+	}
+
+	text = {
+		localization_key = abortifacient_nutmeg
+		#India
+	}
+
+	text = {
+		localization_key = abortifacient_saffron
+		#India
+	}
+
+	text = {
+		localization_key = abortifacient_vervain
+		#Europe
+	}
+
+	#text = {
+	#	localization_key = abortifacient_mugwort
+	#	#lesser chance in Europe, rest of Asia
+	#}
+
+	text = {
+		localization_key = abortifacient_herb_of_grace
+		#Christian only
+		#Balkans, Anatolia, Mediterranean
+	}
+
+	text = {
+		localization_key = abortifacient_rue
+		#Same as herb-of-grace
+		#Balkans, Anatolia, Mediterranean
+	}
+
+	text = {
+		localization_key = abortifacient_tansy
+		#Europe, Mediterranean
+	}
+
+	text = {
+		localization_key = abortifacient_ergot
+		weight_multiplier = {
+			base = 3
+		}
+		#Europe
+	}
+}
+
+
+#Various Venomous Creatures
+VenomousCreature = {
+	type = character
+
+	text = {
+		localization_key = venomous_creature_rare_spider
+		trigger = {
+			scope:venomous_creature = flag:rare_spider #Not Northern Europe or the Steppes
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_deathstalker
+		trigger = {
+			scope:venomous_creature = flag:deathstalker #North Africa or Middle East
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_red_scorpion
+		trigger = {
+			scope:venomous_creature = flag:red_scorpion #India, Nepal
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_fat_tail
+		trigger = {
+			scope:venomous_creature = flag:fat_tail #Arabia, Middle East, Egypt
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_viper
+		trigger = {
+			scope:venomous_creature = flag:viper #Northern and Eastern Europe
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_mamba
+		trigger = {
+			scope:venomous_creature = flag:mamba #Sub-saharan Africa
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_boomslang
+		trigger = {
+			scope:venomous_creature = flag:boomslang #Sub-saharan Africa
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_king_cobra
+		trigger = {
+			scope:venomous_creature = flag:king_cobra #South-east Asia + India
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_daboia
+		trigger = {
+			scope:venomous_creature = flag:daboia #India
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_saw_scale
+		trigger = {
+			scope:venomous_creature = flag:saw_scale #North Africa, Middle East, Pakistan, India
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_krait
+		trigger = {
+			scope:venomous_creature = flag:krait #North Africa, Middle East, Pakistan, India
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_beaked_mammal
+		trigger = {
+			scope:venomous_creature = flag:beaked_mammal #Australia
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_snake
+		trigger = {
+			always = no
+		}
+		fallback = yes
+	}
+}
+
+#VenomousCreatureType
+VenomousCreatureType = {
+	type = character
+
+	text = {
+		localization_key = venomous_creature_scorpion
+		trigger = {
+			OR = {
+				scope:venomous_creature = flag:red_scorpion
+				scope:venomous_creature = flag:deathstalker
+				scope:venomous_creature = flag:fat_tail
+			}
+		}
+	}
+	text = {
+		localization_key = venomous_creature_spider
+		trigger = {
+			OR = {
+				scope:venomous_creature = flag:rare_spider
+			}
+		}
+	}
+	text = {
+		localization_key = venomous_creature_thing
+		trigger = {
+			OR = {
+				scope:venomous_creature = flag:beaked_mammal
+			}
+		}
+	}
+	text = {
+		localization_key = venomous_creature_snake
+		trigger = {
+			OR = {
+				scope:venomous_creature = flag:viper
+				scope:venomous_creature = flag:mamba
+				scope:venomous_creature = flag:boomslang
+				scope:venomous_creature = flag:king_cobra
+				scope:venomous_creature = flag:daboia
+				scope:venomous_creature = flag:saw_scale
+				scope:venomous_creature = flag:krait
+			}
+		}
+		fallback = yes
+	}
+}
+
+#VenomousCreatureType
+VenomousCreatureTypePlural = {
+	type = character
+
+	text = {
+		localization_key = venomous_creature_scorpion_plural
+		trigger = {
+			OR = {
+				scope:venomous_creature = flag:red_scorpion
+				scope:venomous_creature = flag:deathstalker
+				scope:venomous_creature = flag:fat_tail
+			}
+		}
+	}
+	text = {
+		localization_key = venomous_creature_spider_plural
+		trigger = {
+			OR = {
+				scope:venomous_creature = flag:rare_spider
+			}
+		}
+	}
+	text = {
+		localization_key = venomous_creature_thing_plural
+		trigger = {
+			OR = {
+				scope:venomous_creature = flag:beaked_mammal
+			}
+		}
+	}
+	text = {
+		localization_key = venomous_creature_snake_plural
+		trigger = {
+			OR = {
+				scope:venomous_creature = flag:viper
+				scope:venomous_creature = flag:mamba
+				scope:venomous_creature = flag:boomslang
+				scope:venomous_creature = flag:king_cobra
+				scope:venomous_creature = flag:daboia
+				scope:venomous_creature = flag:saw_scale
+				scope:venomous_creature = flag:krait
+			}
+		}
+		fallback = yes
+	}
+}
+
+#VenomousCreatureType
+VenomousCreatureAttack = {
+	type = character
+
+	text = {
+		localization_key = venomous_creature_sting
+		trigger = {
+			OR = {
+				scope:venomous_creature = flag:red_scorpion
+				scope:venomous_creature = flag:deathstalker
+				scope:venomous_creature = flag:fat_tail
+				scope:venomous_creature = flag:beaked_mammal
+			}
+		}
+	}
+	text = {
+		localization_key = venomous_creature_bite
+		trigger = {
+			OR = {
+				scope:venomous_creature = flag:rare_spider
+				scope:venomous_creature = flag:viper
+				scope:venomous_creature = flag:mamba
+				scope:venomous_creature = flag:boomslang
+				scope:venomous_creature = flag:king_cobra
+				scope:venomous_creature = flag:daboia
+				scope:venomous_creature = flag:saw_scale
+				scope:venomous_creature = flag:krait
+			}
+		}
+	}
+}
+
+#VenomousCreatureAttackPlural
+VenomousCreatureAttackPlural = {
+	type = character
+
+	text = {
+		localization_key = venomous_creature_stings
+		trigger = {
+			OR = {
+				scope:venomous_creature = flag:red_scorpion
+				scope:venomous_creature = flag:deathstalker
+				scope:venomous_creature = flag:fat_tail
+				scope:venomous_creature = flag:beaked_mammal
+			}
+		}
+	}
+	text = {
+		localization_key = venomous_creature_bites
+		trigger = {
+			OR = {
+				scope:venomous_creature = flag:rare_spider
+				scope:venomous_creature = flag:viper
+				scope:venomous_creature = flag:mamba
+				scope:venomous_creature = flag:boomslang
+				scope:venomous_creature = flag:king_cobra
+				scope:venomous_creature = flag:daboia
+				scope:venomous_creature = flag:saw_scale
+				scope:venomous_creature = flag:krait
+			}
+		}
+	}
+}
+
+VenomousCreatureMovement = {
+	type = character
+
+	text = {
+		localization_key = venomous_creature_scutter
+		trigger = {
+			OR = {
+				scope:venomous_creature = flag:red_scorpion
+				scope:venomous_creature = flag:deathstalker
+				scope:venomous_creature = flag:fat_tail
+				scope:venomous_creature = flag:rare_spider
+			}
+		}
+	}
+	text = {
+		localization_key = venomous_creature_slither
+		trigger = {
+			OR = {
+				scope:venomous_creature = flag:viper
+				scope:venomous_creature = flag:mamba
+				scope:venomous_creature = flag:boomslang
+				scope:venomous_creature = flag:king_cobra
+				scope:venomous_creature = flag:daboia
+				scope:venomous_creature = flag:saw_scale
+				scope:venomous_creature = flag:krait
+			}
+		}
+	}
+	text = {
+		localization_key = venomous_creature_scamper
+		trigger = {
+			OR = {
+				scope:venomous_creature = flag:beaked_mammal
+			}
+		}
+	}
+}
+
+
+RandomReligiousTextName = {
+	type = character
+
+	text = {
+		trigger = {
+			scope:religious_book_title = flag:a_tale_forever_told
+		}
+		localization_key = random_religious_text_a_tale_forever_told
+	}
+
+	text = {
+		trigger = {
+			scope:religious_book_title = flag:sithis
+		}
+		localization_key = random_religious_text_sithis
+	}
+
+	text = {
+		trigger = {
+			scope:religious_book_title = flag:the_will_of_the_master
+		}
+		localization_key = random_religious_text_the_will_of_the_master
+	}
+
+	text = {
+		trigger = {
+			scope:religious_book_title = flag:monomyth
+		}
+		localization_key = random_religious_text_monomyth
+	}
+
+	text = {
+		trigger = {
+			scope:religious_book_title = flag:song_of_pelinal
+		}
+		localization_key = random_religious_text_song_of_pelinal
+	}
+
+	text = {
+		trigger = {
+			scope:religious_book_title = flag:thief_gods_treasures
+		}
+		localization_key = random_religious_text_thief_gods_treasures
+	}
+
+	text = {
+		trigger = {
+			scope:religious_book_title = flag:spinners_of_yffre
+		}
+		localization_key = random_religious_text_spinners_of_yffre
+	}
+	text = {
+		trigger = {
+			scope:religious_book_title = flag:blood_for_our_enemies
+		}
+		localization_key = random_religious_text_blood_for_our_enemies
+	}
+	text = {
+		trigger = {
+			scope:religious_book_title = flag:aura_of_the_righteous
+		}
+		localization_key = random_religious_text_aura_of_the_righteous
+	}
+	text = {
+		trigger = {
+			scope:religious_book_title = flag:zoaraym
+		}
+		localization_key = random_religious_text_zoaraym
+	}
+	text = {
+		trigger = {
+			scope:religious_book_title = flag:end_of_the_journey
+		}
+		localization_key = random_religious_text_end_of_the_journey
+	}
+}
+
+
+RandomEntertainmentTextName = {
+	type = character
+
+	text = {
+		trigger = {
+			scope:entertainment_book_title = flag:forest_dark
+		}
+		localization_key = random_entertainment_text_forest_dark
+	}
+
+	text = {
+		trigger = {
+			scope:entertainment_book_title = flag:hypothetical_treachery
+		}
+		localization_key = random_entertainment_text_hypothetical_treachery
+	}
+
+	text = {
+		trigger = {
+			scope:entertainment_book_title = flag:bankers_bet
+		}
+		localization_key = random_entertainment_text_bankers_bet
+	}
+
+	text = {
+		trigger = {
+			scope:entertainment_book_title = flag:scared_little_snow_moth
+		}
+		localization_key = random_entertainment_text_scared_little_snow_moth
+	}
+
+	text = {
+		trigger = {
+			scope:entertainment_book_title = flag:blue_book_of_riddles
+		}
+		localization_key = random_entertainment_text_blue_book_of_riddles
+	}
+
+	text = {
+		trigger = {
+			scope:entertainment_book_title = flag:rear_guard
+		}
+		localization_key = random_entertainment_text_rear_guard
+	}
+
+	text = {
+		trigger = {
+			scope:entertainment_book_title = flag:palla
+		}
+		localization_key = random_entertainment_text_palla
+	}
+
+	text = {
+		trigger = {
+			scope:entertainment_book_title = flag:deathbrand
+		}
+		localization_key = random_entertainment_text_deathbrand
+	}
+
+	text = {
+		trigger = {
+			scope:entertainment_book_title = flag:beggar
+		}
+		localization_key = random_entertainment_text_beggar
+	}
+
+	text = {
+		trigger = {
+			scope:entertainment_book_title = flag:aoml
+		}
+		localization_key = random_entertainment_text_aoml
+	}
+
+	text = {
+		trigger = {
+			scope:entertainment_book_title = flag:2920
+		}
+		localization_key = random_entertainment_text_2920
+	}
+}
+
+
+RandomInformativeTextName = {
+	type = character
+
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:mystery_of_artaeum
+		}
+		localization_key = random_informative_text_mystery_of_artaeum
+	}
+
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:guide_to_better_thieving
+		}
+		localization_key = random_informative_text_guide_to_better_thieving
+	}
+
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:moon_sugar_a_report
+		}
+		localization_key = random_informative_text_moon_sugar_a_report
+	}
+
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:recommended_methods_of_moon_sugar_cultivation
+		}
+		localization_key = random_informative_text_recommended_methods_of_moon_sugar_cultivation
+	}
+
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:gold_coast_guide
+		}
+		localization_key = random_informative_text_gold_coast_guide
+	}
+
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:fire_and_darkness
+		}
+		localization_key = random_informative_text_fire_and_darkness
+	}
+
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:how_to_train_your_guar
+		}
+		localization_key = random_informative_text_how_to_train_your_guar
+	}
+
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:on_the_college_of_sapiarchs
+		}
+		localization_key = random_informative_text_on_the_college_of_sapiarchs
+	}
+
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:tribes_of_murkmire
+		}
+		localization_key = random_informative_text_tribes_of_murkmire
+	}	
+
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:magic_from_the_sky
+		}
+		localization_key = random_informative_text_magic_from_the_sky
+	}
+	
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:galerion_the_mystic
+		}
+		localization_key = random_informative_text_galerion_the_mystic
+	}
+
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:feast_saint_coellicia
+		}
+		localization_key = random_informative_text_feast_saint_coellicia
+	}	
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:forged_heart_mundus
+		}
+		localization_key = random_informative_text_forged_heart_mundus
+	}
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:necromancy_tamriel
+		}
+		localization_key = random_informative_text_necromancy_tamriel
+	}
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:dwarves
+		}
+		localization_key = random_informative_text_dwarves
+	}
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:auridon_explored
+		}
+		localization_key = random_informative_text_auridon_explored
+	}
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:king_thunder
+		}
+		localization_key = random_informative_text_king_thunder
+	}
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:htoo
+		}
+		localization_key = random_informative_text_htoo
+	}
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:dwarf_light
+		}
+		localization_key = random_informative_text_dwarf_light
+	}
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:tla
+		}
+		localization_key = random_informative_text_tla
+	}
+	text = {
+		trigger = {
+			scope:informative_book_title = flag:tfoe
+		}
+		localization_key = random_informative_text_tfoe
+	}	
+}
+
+MusicalPerformer = {
+	type = character
+	random_valid = yes
+
+	text = {
+		#Latin
+		localization_key = music_performer_troubadour
+	}
+}
+
+MusicalPerformerPossessive = {
+	type = character
+	random_valid = yes
+
+	text = {
+		#Latin
+		localization_key = music_performer_troubadour_possessive
+	}
+}
+
+### EK TODO: Add our own
+### Faiths with the Green Pact pantheon are forbidden from using plant-based drinks, based on vanilla Islam not having alcohol
+#NOTE! All of these nouns should work with "a" (not "an")
+RegionalDrink = {
+	type = character
+	random_valid = yes
+	
+	text = {
+		localization_key = ale
+		weight_multiplier = { base = 3 }
+		trigger = {
+			faith = { NOT = { has_doctrine = doctrine_pantheon_green_pact } }
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					OR = {
+						geographical_region = mundus_tamriel_cyrodiil
+						geographical_region = mundus_tamriel_skyrim
+					}
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = beer
+		trigger = {
+			faith = { NOT = { has_doctrine = doctrine_pantheon_green_pact } }
+		}
+	}
+	
+	text = {
+		localization_key = cider
+		weight_multiplier = { base = 3 }
+		trigger = {
+			faith = { NOT = { has_doctrine = doctrine_pantheon_green_pact } }
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					OR = {
+						geographical_region = mundus_tamriel_reach
+						geographical_region = mundus_tamriel_high_rock
+					}
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = honey_wine
+		weight_multiplier = { base = 3 }
+		trigger = {
+			faith = { NOT = { has_doctrine = doctrine_pantheon_green_pact } }
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = { geographical_region = mundus_tamriel_summerset_isles }
+			}
+		}
+	}
+	
+	text = {
+		localization_key = jagga
+		weight_multiplier = { base = 3 }
+		trigger = {
+			OR = {
+				faith = { has_doctrine = doctrine_pantheon_green_pact }
+				liege = {
+					exists = capital_province
+					capital_province = { geographical_region = mundus_tamriel_valenwood }
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = mead
+		weight_multiplier = { base = 3 }
+		trigger = {
+			faith = { NOT = { has_doctrine = doctrine_pantheon_green_pact } }
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = { geographical_region = mundus_tamriel_skyrim }
+			}
+		}
+	}
+	
+	text = {
+		localization_key = sujamma
+		weight_multiplier = { base = 3 }
+		trigger = {
+			faith = { NOT = { has_doctrine = doctrine_pantheon_green_pact } }
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = { geographical_region = mundus_tamriel_morrowind }
+			}
+		}
+	}
+	
+	text = {
+		localization_key = theilul
+		weight_multiplier = { base = 3 }
+		trigger = {
+			faith = { NOT = { has_doctrine = doctrine_pantheon_green_pact } }
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = { geographical_region = mundus_tamriel_black_marsh }
+			}
+		}
+	}
+	
+	text = {
+		localization_key = wine
+		trigger = {
+			faith = { NOT = { has_doctrine = doctrine_pantheon_green_pact } }
+		}
+	}
+	
+	### Put here the non-alcoholic beverages	
+	text = {
+		localization_key = tea
+		trigger = {
+			faith = { NOT = { has_doctrine = doctrine_pantheon_green_pact } }
+		}
+	}
+}
+
+### EK TODO: Add our own
+### Faiths with the Green Pact pantheon are forbidden from using plant-based drinks, based on vanilla Islam not having alcohol
+# Most non-generic drinks (i.e: available everywhere) should have a weight_multiplier = { base = 2 }
+RegionalAlcoholicDrink = {
+	type = character
+	random_valid = yes
+
+	text = {
+		localization_key = ale
+		weight_multiplier = { base = 3 }
+		trigger = {
+			faith = { NOT = { has_doctrine = doctrine_pantheon_green_pact } }
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					OR = {
+						geographical_region = mundus_tamriel_cyrodiil
+						geographical_region = mundus_tamriel_skyrim
+					}
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = beer
+		trigger = {
+			faith = { NOT = { has_doctrine = doctrine_pantheon_green_pact } }
+		}
+	}
+	
+	text = {
+		localization_key = cider
+		weight_multiplier = { base = 3 }
+		trigger = {
+			faith = { NOT = { has_doctrine = doctrine_pantheon_green_pact } }
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					OR = {
+						geographical_region = mundus_tamriel_reach
+						geographical_region = mundus_tamriel_high_rock
+					}
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = honey_wine
+		weight_multiplier = { base = 3 }
+		trigger = {
+			faith = { NOT = { has_doctrine = doctrine_pantheon_green_pact } }
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = { geographical_region = mundus_tamriel_summerset_isles }
+			}
+		}
+	}
+	
+	text = {
+		localization_key = jagga
+		weight_multiplier = { base = 3 }
+		trigger = {
+			OR = {
+				faith = { has_doctrine = doctrine_pantheon_green_pact }
+				liege = {
+					exists = capital_province
+					capital_province = { geographical_region = mundus_tamriel_valenwood }
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = mead
+		weight_multiplier = { base = 3 }
+		trigger = {
+			faith = { NOT = { has_doctrine = doctrine_pantheon_green_pact } }
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = { geographical_region = mundus_tamriel_skyrim }
+			}
+		}
+	}
+	
+	text = {
+		localization_key = sujamma
+		weight_multiplier = { base = 3 }
+		trigger = {
+			faith = { NOT = { has_doctrine = doctrine_pantheon_green_pact } }
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = { geographical_region = mundus_tamriel_morrowind }
+			}
+		}
+	}
+	
+	text = {
+		localization_key = theilul
+		weight_multiplier = { base = 3 }
+		trigger = {
+			faith = { NOT = { has_doctrine = doctrine_pantheon_green_pact } }
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = { geographical_region = mundus_tamriel_black_marsh }
+			}
+		}
+	}
+	
+	text = {
+		localization_key = wine
+		trigger = {
+			faith = { NOT = { has_doctrine = doctrine_pantheon_green_pact } }
+		}
+	}
+}
+
+#NOTE! All of these nouns should work with "a" (not "an")
+RegionalGameObject = {
+	type = character
+	random_valid = yes
+
+	text = {
+		localization_key = deck_of_cards
+	}
+
+	text = {
+		# trigger = {
+			# exists = capital_province
+			# capital_province = {
+				# geographical_region = world_india
+			# }
+		# }
+		localization_key = pachisi_board #indian
+	}
+
+	text = {
+		localization_key = chess_set
+	}
+}
+
+CulturalCurse = {
+	type = character
+	random_valid = yes
+
+	# #Christian
+	# text = {
+		# trigger = { faith.religion = religion:christianity_religion }
+		# localization_key = curse_by_the_blood
+	# }
+	# text = {
+		# trigger = { faith.religion = religion:christianity_religion }
+		# localization_key = curse_gods_wounds
+	# }
+	# text = {
+		# trigger = { faith.religion = religion:christianity_religion }
+		# localization_key = curse_by_gods_nails
+	# }
+
+	# #Swedish
+	# text = {
+		# trigger = {
+			# OR = {
+				# culture = { has_name_list = name_list_norwegian }
+				# culture = { has_name_list = name_list_swedish }
+			# }
+		# }
+		# localization_key = curse_helvete
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_swedish } }
+		# localization_key = curse_helvetes_javla_skit
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_swedish } }
+		# localization_key = curse_skit
+	# }
+	# text = {
+		# trigger = {
+			# OR = {
+				# culture = { has_name_list = name_list_swedish }
+				# culture = { has_name_list = name_list_norse }
+			# }
+			# faith = faith:norse_pagan
+		# }
+		# localization_key = curse_balders_balle
+	# }
+
+	# #Norse
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_norse } }
+		# localization_key = curse_skitr
+	# }
+
+	# #Scanian
+	# text = {
+		# trigger = {
+			# OR = {
+				# culture = { has_name_list = name_list_danish }
+				# culture = { has_name_list = name_list_swedish }
+			# }
+			# capital_province.duchy = title:d_skane
+		# }
+		# localization_key = curse_jevla_mog
+	# }
+	# text = {
+		# trigger = {
+			# OR = {
+				# culture = { has_name_list = name_list_danish }
+				# culture = { has_name_list = name_list_swedish }
+			# }
+			# capital_province.duchy = title:d_skane
+		# }
+		# localization_key = curse_alahue
+	# }
+
+	# #Norwegian
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_norwegian } }
+		# localization_key = curse_fy_fanden
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_norwegian } }
+		# localization_key = curse_pokker
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_norwegian } }
+		# localization_key = curse_haestkuk
+	# }
+
+
+	# #German
+	# text = {
+		# trigger = { culture = { has_cultural_pillar = language_central_germanic } }
+		# localization_key = curse_scheisse
+	# }
+	# text = {
+		# trigger = { culture = { has_cultural_pillar = language_central_germanic } }
+		# localization_key = curse_dreck
+	# }
+	# text = {
+		# trigger = { culture = { has_cultural_pillar = language_central_germanic } }
+		# localization_key = curse_verdammt
+	# }
+	# text = {
+		# trigger = { culture = { has_cultural_pillar = language_central_germanic } }
+		# localization_key = curse_gottverdammt
+	# }
+	# text = {
+		# trigger = { culture = { has_cultural_pillar = language_central_germanic } }
+		# localization_key = curse_zum_teufel
+	# }
+	# text = {
+		# trigger = { culture = { has_cultural_pillar = language_central_germanic } }
+		# localization_key = curse_himmel_arsch_und_zwirn
+	# }
+	# text = {
+		# trigger = { culture = { has_cultural_pillar = language_central_germanic } }
+		# localization_key = curse_kreuzdonnerwetter
+	# }
+	# text = {
+		# trigger = { culture = { has_cultural_pillar = language_central_germanic } }
+		# localization_key = curse_zur_holle
+	# }
+	# text = {
+		# trigger = { culture = { has_cultural_pillar = language_central_germanic } }
+		# localization_key = curse_was_fur_ein_mist
+	# }
+	# text = {
+		# trigger = { culture = { has_cultural_pillar = language_central_germanic } }
+		# localization_key = curse_was_fur_ein_dreck
+	# }
+
+
+	# #Dutch
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_dutch } }
+		# localization_key = curse_godver
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_dutch } }
+		# localization_key = curse_godverdomme
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_dutch } }
+		# localization_key = curse_tering
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_dutch } }
+		# localization_key = curse_godgloeiende
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_dutch } }
+		# localization_key = curse_kanker
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_dutch } }
+		# localization_key = curse_vervloekt
+	# }
+
+	# #Polish
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_polish } }
+		# localization_key = curse_niech_mnie_diabli
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_polish } }
+		# localization_key = curse_zaraza
+	# }
+
+	# #French
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_french } }
+		# localization_key = curse_merde
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_french } }
+		# localization_key = curse_putain
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_french } }
+		# localization_key = curse_fils_de_pute
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_french } }
+		# localization_key = curse_sacrebleu
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_french } }
+		# localization_key = curse_nom_dune_pipe
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_french } }
+		# localization_key = curse_calisse
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_french } }
+		# localization_key = curse_ostie_de_criss_de_tabarnak
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_french } }
+		# localization_key = curse_morbleu
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_french } }
+		# localization_key = curse_diantre
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_french } }
+		# localization_key = curse_peste
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_french } }
+		# localization_key = curse_mortecouille
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_french } }
+		# localization_key = curse_ventre_dieu
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_french } }
+		# localization_key = curse_puterelle
+	# }
+
+	# #Spanish
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_castilian } }
+		# localization_key = curse_maldicion
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_castilian } }
+		# localization_key = curse_maldita_sea
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_castilian } }
+		# localization_key = curse_mierda
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_castilian } }
+		# localization_key = curse_habrase_visto
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_castilian } }
+		# localization_key = curse_madre_mia
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_castilian } }
+		# localization_key = curse_ay_de_mi
+	# }
+
+	# #Italian
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_italian } }
+		# localization_key = curse_cazzo
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_italian } }
+		# localization_key = curse_minchia
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_italian } }
+		# localization_key = curse_merda
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_italian } }
+		# localization_key = curse_vaffanculo
+	# }
+
+	# #Russian
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_russian } }
+		# localization_key = curse_proklyatie
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_russian } }
+		# localization_key = curse_dyavol
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_russian } }
+		# localization_key = curse_vot_dermo
+	# }
+
+	# #Lithuanian
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_lithuanian } }
+		# localization_key = curse_rupus_miltai
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_lithuanian } }
+		# localization_key = curse_velniai_rautu
+	# }
+	# text = {
+		# trigger = { culture = { has_name_list = name_list_lithuanian } }
+		# localization_key = curse_rupuze
+	# }
+
+	#Fallback (english)
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = curse_curses
+	}
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = curse_shit
+	}
+
+}
+GetOldBook = {
+	type = character
+	# text = {
+		# trigger = {
+			# culture = { has_cultural_pillar = language_greek }
+		# }
+		# localization_key = old_book_greek
+	# }
+	# text = {
+		# trigger = {
+			# faith.religion = { is_in_family = rf_abrahamic }
+			# NOT = {
+				# culture = { has_cultural_pillar = language_greek }
+			# }
+		# }
+		# localization_key = old_book_abrahamic
+	# }
+	# text = {
+		# trigger = {
+			# faith.religion = { is_in_family = rf_eastern }
+		# }
+		# localization_key = old_book_eastern
+	# }
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = old_book_general
+	}
+}
+
+get_region_dog_type = {
+	type = character 
+	random_valid = yes
+
+	# # Britain
+	# text = {
+		# trigger = {
+			# current_date >= 1300.1.1
+			# capital_province = { geographical_region = world_europe_west_britannia }
+		# }
+		# localization_key = dog_type_talbot # Talbot
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = { geographical_region = world_europe_west_britannia }
+		# }
+		# localization_key = dog_type_corgi # Corgi
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = { geographical_region = world_europe_west_britannia }
+		# }
+		# localization_key = dog_type_rache # Rache
+	# }
+	# # Germany
+	# text = {
+		# trigger = {
+			# capital_province = { geographical_region = world_europe_west_germania }
+		# }
+		# localization_key = dog_type_bullenbeisser # Bullenbeisser
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = { geographical_region = world_europe_west_germania }
+		# }
+		# localization_key = dog_type_spitz # Spitz
+	# }
+	# # France
+	# text = {
+		# trigger = {
+			# current_date >= 1100.1.1
+			# capital_province = { geographical_region = world_europe_west_francia }
+		# }
+		# localization_key = dog_type_chiengris # Chien-gris
+	# }
+	# # Europe
+	# text = {
+		# trigger = {
+			# capital_province = { geographical_region = world_europe_south }
+		# }
+		# localization_key = dog_type_molossian # Molossus
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = { geographical_region = world_europe }
+		# }
+		# localization_key = dog_type_mastiff # Mastiff
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = { geographical_region = world_europe_north }
+		# }
+		# localization_key = dog_type_vallhund # Vallhund
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = { geographical_region = world_europe }
+		# }
+		# localization_key = dog_type_limer # Limer
+	# }
+	# # Steppe
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe
+					# geographical_region = world_steppe_west
+				# }
+			# }
+		# }
+		# localization_key = dog_type_alaunt # Alaunt
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe_north
+					# geographical_region = world_steppe_west
+				# }
+			# }
+		# }
+		# localization_key = dog_type_laika # Laika (Samoyed)
+	# }
+	# # Africa
+	# text = {
+		# trigger = {
+			# capital_province = { geographical_region = world_africa }
+		# }
+		# localization_key = dog_type_basenji # Basenji
+	# }
+	# # Asia
+	# text = {
+		# trigger = {
+			# capital_province = { geographical_region = world_middle_east }
+		# }
+		# localization_key = dog_type_canaan # Canaan
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_middle_east
+					# geographical_region = world_africa_north
+				# }
+			# }
+		# }
+		# localization_key = dog_type_saluki # Saluki
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = { geographical_region = world_persian_empire }
+		# }
+		# localization_key = dog_type_tazi # Tazi (Afghan)
+	# }
+	# # India
+	# text = {
+		# trigger = {
+			# capital_province = { geographical_region = world_india }
+		# }
+		# localization_key = dog_type_desi # Desi
+	# }
+	# # East
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_himalaya
+					# geographical_region = world_steppe_tarim
+					# geographical_region = world_steppe_east
+				# }
+			# }
+		# }
+		# localization_key = dog_type_lion_dog # Lion dog (Chow Chow / Shar Pei)
+	# }
+	# Generic
+	text = {
+		trigger = { always = yes }
+		localization_key = dog_type_hound # Hound
+	}
+}
+
+get_region_flower_type = {
+	type = character 
+	random_valid = yes
+
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_india
+					# geographical_region = world_middle_east
+					# geographical_region = world_africa_west
+					# geographical_region = world_africa_east
+				# }
+			# }
+		# }
+		# localization_key = flower_type_hibiscus # Hibiscus
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_india
+					# geographical_region = world_africa_west
+					# geographical_region = world_africa_east
+				# }
+			# }
+		# }
+		# localization_key = flower_type_gardenia # Gardenia
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_steppe_east
+					# geographical_region = world_steppe_tarim
+					# geographical_region = world_himalaya
+					# geographical_region = world_india
+				# }
+			# }
+		# }
+		# localization_key = flower_type_lotus # Lotus
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_steppe_east
+					# geographical_region = world_steppe_tarim
+					# geographical_region = world_himalaya
+					# geographical_region = world_india
+				# }
+			# }
+		# }
+		# localization_key = flower_type_chrysanthemum # Chrysanthemum
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_india
+					# geographical_region = world_middle_east
+					# geographical_region = world_asia_minor
+					# geographical_region = world_steppe_west
+				# }
+			# }
+		# }
+		# localization_key = flower_type_jasmine # Jasmine
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe
+					# geographical_region = world_middle_east
+					# geographical_region = world_asia_minor
+					# geographical_region = world_steppe
+					# geographical_region = world_africa
+				# }
+			# }
+		# }
+		# localization_key = flower_type_delphinium # Delphinium
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe
+					# geographical_region = world_middle_east
+					# geographical_region = world_asia_minor
+					# geographical_region = world_steppe_west
+				# }
+			# }
+		# }
+		# localization_key = flower_type_violet # Violet/Pansy
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe
+					# geographical_region = world_middle_east
+					# geographical_region = world_asia_minor
+					# geographical_region = world_steppe_west
+				# }
+			# }
+		# }
+		# localization_key = flower_type_peony # Peony
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe
+					# geographical_region = world_middle_east
+					# geographical_region = world_asia_minor
+					# geographical_region = world_steppe
+				# }
+			# }
+		# }
+		# localization_key = flower_type_lavender # Lavender
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe
+					# geographical_region = world_middle_east
+					# geographical_region = world_asia_minor
+					# geographical_region = world_steppe
+					# geographical_region = world_india
+				# }
+			# }
+		# }
+		# localization_key = flower_type_lily # Lily
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe
+					# geographical_region = world_middle_east
+					# geographical_region = world_asia_minor
+					# geographical_region = world_steppe
+				# }
+			# }
+		# }
+		# localization_key = flower_type_geranium # Geranium
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe
+					# geographical_region = world_middle_east
+					# geographical_region = world_asia_minor
+					# geographical_region = world_steppe
+				# }
+			# }
+		# }
+		# localization_key = flower_type_iris # Iris
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe
+					# geographical_region = world_middle_east
+					# geographical_region = world_asia_minor
+					# geographical_region = world_steppe_west
+					# geographical_region = world_africa_north
+				# }
+			# }
+		# }
+		# localization_key = flower_type_foxglove # Foxglove/Digitalis
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe_south
+					# geographical_region = world_africa_north
+				# }
+			# }
+		# }
+		# localization_key = flower_type_carnation # Carnation/Dianthus
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe_south
+					# geographical_region = world_africa_north
+				# }
+			# }
+		# }
+		# localization_key = flower_type_snapdragon # Snapdragon/Antirrhinum
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe
+					# geographical_region = world_africa_north
+					# geographical_region = world_asia_minor
+					# geographical_region = world_middle_east
+					# geographical_region = world_steppe
+				# }
+			# }
+		# }
+		# localization_key = flower_type_narcissus # Narcissus/Daffodil
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe_south
+					# geographical_region = world_africa_north
+					# geographical_region = world_asia_minor
+					# geographical_region = world_middle_east
+					# geographical_region = world_steppe
+				# }
+			# }
+		# }
+		# localization_key = flower_type_crocus # Crocus
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_asia_minor
+					# geographical_region = world_middle_east
+					# geographical_region = world_steppe_west
+				# }
+			# }
+		# }
+		# localization_key = flower_type_tulip # Tulip
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe_south
+					# geographical_region = world_africa_north
+					# geographical_region = world_asia_minor
+					# geographical_region = world_middle_east
+					# geographical_region = world_steppe
+				# }
+			# }
+		# }
+		# localization_key = flower_type_poppy # Poppy
+	# }
+	text = {
+		trigger = { always = yes }
+		localization_key = flower_type_rose # Rose
+	}
+	text = {
+		trigger = { always = yes }
+		localization_key = flower_type_orchid # Orchid
+	}
+	text = {
+		trigger = { always = yes }
+		localization_key = flower_type_aster # Aster/Daisy
+	}
+}
+
+get_region_flower_type_plural = {
+	type = character 
+	random_valid = yes
+
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_india
+					# geographical_region = world_middle_east
+					# geographical_region = world_africa_west
+					# geographical_region = world_africa_east
+				# }
+			# }
+		# }
+		# localization_key = flower_type_hibiscus_plural # Hibiscuses
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_india
+					# geographical_region = world_africa_west
+					# geographical_region = world_africa_east
+				# }
+			# }
+		# }
+		# localization_key = flower_type_gardenia_plural # Gardenias
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_steppe_east
+					# geographical_region = world_steppe_tarim
+					# geographical_region = world_himalaya
+					# geographical_region = world_india
+				# }
+			# }
+		# }
+		# localization_key = flower_type_lotus_plural # Lotuses
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_steppe_east
+					# geographical_region = world_steppe_tarim
+					# geographical_region = world_himalaya
+					# geographical_region = world_india
+				# }
+			# }
+		# }
+		# localization_key = flower_type_chrysanthemum_plural # Chrysanthemums
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_india
+					# geographical_region = world_middle_east
+					# geographical_region = world_asia_minor
+					# geographical_region = world_steppe_west
+				# }
+			# }
+		# }
+		# localization_key = flower_type_jasmine # Jasmine
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe
+					# geographical_region = world_middle_east
+					# geographical_region = world_asia_minor
+					# geographical_region = world_steppe
+					# geographical_region = world_africa
+				# }
+			# }
+		# }
+		# localization_key = flower_type_delphinium_plural # Delphiniums
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe
+					# geographical_region = world_middle_east
+					# geographical_region = world_asia_minor
+					# geographical_region = world_steppe_west
+				# }
+			# }
+		# }
+		# localization_key = flower_type_violet_plural # Violets/Pansies
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe
+					# geographical_region = world_middle_east
+					# geographical_region = world_asia_minor
+					# geographical_region = world_steppe_west
+				# }
+			# }
+		# }
+		# localization_key = flower_type_peony_plural # Peonies
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe
+					# geographical_region = world_middle_east
+					# geographical_region = world_asia_minor
+					# geographical_region = world_steppe
+				# }
+			# }
+		# }
+		# localization_key = flower_type_lavender # Lavender
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe
+					# geographical_region = world_middle_east
+					# geographical_region = world_asia_minor
+					# geographical_region = world_steppe
+					# geographical_region = world_india
+				# }
+			# }
+		# }
+		# localization_key = flower_type_lily_plural # Lilies
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe
+					# geographical_region = world_middle_east
+					# geographical_region = world_asia_minor
+					# geographical_region = world_steppe
+				# }
+			# }
+		# }
+		# localization_key = flower_type_geranium_plural # Geraniums
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe
+					# geographical_region = world_middle_east
+					# geographical_region = world_asia_minor
+					# geographical_region = world_steppe
+				# }
+			# }
+		# }
+		# localization_key = flower_type_iris_plural # Irises
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe
+					# geographical_region = world_middle_east
+					# geographical_region = world_asia_minor
+					# geographical_region = world_steppe_west
+					# geographical_region = world_africa_north
+				# }
+			# }
+		# }
+		# localization_key = flower_type_foxglove_plural # Foxgloves/Digitalises
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe_south
+					# geographical_region = world_africa_north
+				# }
+			# }
+		# }
+		# localization_key = flower_type_carnation_plural # Carnations/Dianthuses
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe_south
+					# geographical_region = world_africa_north
+				# }
+			# }
+		# }
+		# localization_key = flower_type_snapdragon_plural # Snapdragons/Antirrhinums
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe
+					# geographical_region = world_africa_north
+					# geographical_region = world_asia_minor
+					# geographical_region = world_middle_east
+					# geographical_region = world_steppe
+				# }
+			# }
+		# }
+		# localization_key = flower_type_narcissus_plural # Narcissuses/Daffodils
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe_south
+					# geographical_region = world_africa_north
+					# geographical_region = world_asia_minor
+					# geographical_region = world_middle_east
+					# geographical_region = world_steppe
+				# }
+			# }
+		# }
+		# localization_key = flower_type_crocus_plural # Crocuses
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_asia_minor
+					# geographical_region = world_middle_east
+					# geographical_region = world_steppe_west
+				# }
+			# }
+		# }
+		# localization_key = flower_type_tulip_plural # Tulips
+	# }
+	# text = {
+		# trigger = {
+			# capital_province = {
+				# OR = {
+					# geographical_region = world_europe_south
+					# geographical_region = world_africa_north
+					# geographical_region = world_asia_minor
+					# geographical_region = world_middle_east
+					# geographical_region = world_steppe
+				# }
+			# }
+		# }
+		# localization_key = flower_type_poppy_plural # Poppies
+	# }
+	text = {
+		trigger = { always = yes }
+		localization_key = flower_type_rose_plural # Roses
+	}
+	text = {
+		trigger = { always = yes }
+		localization_key = flower_type_orchid_plural # Orchids
+	}
+	text = {
+		trigger = { always = yes }
+		localization_key = flower_type_aster_plural # Asters/Daisies
+	}
+}

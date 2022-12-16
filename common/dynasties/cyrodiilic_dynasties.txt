@@ -1,0 +1,1505 @@
+﻿# Cyrodiilic Range: 100.000 - 199.999
+
+	#Colovian: 100.000 - 109.999
+	#Nibenese: 110.000 - 119.999
+	#Blackwood: 120.000 - 129.999
+	#Heartlander: 130.000 - 139.999
+	#non-numerical dynasties
+
+#Colovian: 100.000 - 109.999
+
+#100000 = {
+#	name = "Mede"
+#	culture = colovian
+#}
+100001 = {
+	name = "Larich"
+	culture = colovian
+	motto = dynn_larich_motto
+}
+#100002 = {
+#	name = "Vlindrel"
+#	culture = colovian
+#}
+100003 = {
+	name = "Sirota"
+	culture = strident
+}
+100004 = {
+	name = "Matić"
+	culture = strident
+}
+#100005 = {
+#	prefix = "dynnp_of"
+#	name = "Stirk"
+#	culture = colovian
+#}
+100006 = {
+	name = "Gurges"
+	culture = colovian
+}
+#100007 = {
+#	name = "Valga"
+#	culture = colovian
+#}
+#100008 = {
+#	name = "Merula"
+#	culture = colovian
+#}
+#100009 = {
+#	name = "Coventine"
+#	culture = colovian
+#}
+#100010 = {
+#	name = "Decan"
+#	culture = colovian
+#}
+100011 = {
+	name = "Jeril"
+	culture = colovian
+}
+100012 = {
+	prefix = "dynnp_of"
+	name = "Rivercrest"
+	culture = colovian
+}
+100013 = { #of Cyrodiil
+	prefix = "dynnp_of"
+	name = "dynn_Cyrodiil"
+	culture = colovian
+	motto = dynn_reman_motto
+}
+100014 = {
+	name = "Faleria"
+	culture = colovian
+}
+100015 = {
+	name = "Falto"
+	culture = colovian
+}
+100016 = {
+	name = "Romuval"
+	culture = colovian
+}
+100017 = {
+	name = "Chiral"
+	culture = colovian
+}
+100018 = {
+	name = "Jano"
+	culture = colovian
+}
+100019 = {
+	name = "Mantori"
+	culture = colovian
+}
+100020 = {
+	name = "Conician"
+	culture = colovian
+}
+100021 = {
+	name = "Mervial"
+	culture = colovian
+}
+#100022 = {
+#	name = "Richton"
+#	culture = colovian
+#}
+100023 = {
+	name = "Rirol"
+	culture = colovian
+}
+100024 = {
+	name = "Tevidor"
+	culture = colovian
+}
+100025 = {
+	name = "Odiil"
+	culture = colovian
+}
+100026 = {
+	name = "Pasic"
+	culture = colovian
+}
+100027 = {
+	name = "Artellian"
+	culture = colovian
+}
+100028 = {
+	name = "Inveran"
+	culture = colovian
+}
+100029 = {
+	name = "Siborel"
+	culture = colovian
+	motto = dynn_siborel_motto
+}
+100030 = {
+	name = "Sintav"
+	culture = colovian
+}
+100031 = {
+	name = "Vywich"
+	culture = colovian
+}
+#100032 = {
+#	name = "Wavrick"
+#	culture = colovian
+#}
+100033 = {
+	name = "Vede"
+	culture = colovian
+}
+100034 = {
+	name = "Massiner"
+	culture = colovian
+}
+100035 = {
+	name = "Broder"
+	culture = colovian
+}
+100036 = {
+	name = "Cyrivel"
+	culture = colovian
+}
+100037 = {
+	name = "Zantonius" #Southpoint
+	culture = strident
+	motto = dynn_zantonius_motto
+}
+100038 = {
+	name = "Pullia"
+	culture = colovian
+	motto = dynn_pullia_motto
+}
+100039 = {
+	name = "Nipia"
+	culture = colovian
+	motto = dynn_nipia_motto
+}
+100040 = {
+	prefix = "dynnp_of"
+	name = "Stirk"
+	culture = colovian
+}
+100041 = {
+	name = "Vorenus"
+	culture = colovian
+	motto = dynn_vorenus_motto
+}
+100042 = {
+	prefix = "dynnp_ap"
+	name = "Dugal"
+	culture = colovian
+	motto = dynn_dugal_motto
+}
+100043 = {
+	name = "Augustus"
+	culture = colovian
+}
+#100044 = {
+#	name = "Hassildor"
+#	culture = colovian
+#	motto = dynn_hassildor_motto
+#}
+100045 = {
+	name = "Axius"
+	culture = colovian
+}
+100046 = {
+	name = "Renmus"
+	culture = colovian
+}
+100047 = {
+	name = "Kovich"
+	culture = colovian
+}
+100048 = {
+	name = "Wavrick"
+	culture = colovian
+}
+100049 = {
+	name = "Haridor"
+	culture = colovian
+}
+100050 = {
+	name = "Tevitich"
+	culture = colovian
+}
+100051 = {
+	name = "Luvel"
+	culture = colovian
+}
+100052 = {
+	name = "Sevrick"
+	culture = colovian
+}
+100053 = {
+	name = "Uvravo"
+	culture = colovian
+}
+100054 = {
+	name = "Justani"
+	culture = strident
+}
+100055 = {
+	name = "Wasil"
+	culture = strident
+}
+100056 = {
+	name = "Attar"
+	culture = strident
+}
+#100057 = {
+#	name = "Mahari"  #can be used, no characters yet
+#	culture = strident
+#}
+#100058 = {
+#	name = "Ossa"  #can be used, no characters yet
+#	culture = strident
+#}
+
+100059 = { #First startdate Altadoon
+	name = "Bonavo"
+	culture = colovian
+}
+
+#100060 = {
+#	name = "Quadraeia"
+#	culture = colovian
+#}
+#
+#100061 = {
+#	name = "Ramennor"
+#	culture = colovian
+#}
+#
+#100062 = {
+#	name = "Saccav"
+#	culture = colovian
+#}
+#
+#100063 = {
+#	name = "Talaner"
+#	culture = colovian
+#}
+#
+#100064 = {
+#	name = "Umbranant"
+#	culture = colovian
+#}
+#
+#100065 = {
+#	name = "Valad"
+#	culture = colovian
+#}
+#
+#100066 = {
+#	name = "Abor"
+#	culture = colovian
+#}
+#
+#100067 = {
+#	name = "Barbatus"
+#	culture = colovian
+#}
+#
+#100068 = {
+#	name = "Cadiusus"
+#	culture = colovian
+#}
+#
+#100069 = {
+#	name = "Darlliun"
+#	culture = colovian
+#}
+#
+#100070 = {
+#	name = "Atrius"
+#	culture = colovian
+#}
+#
+100071 = {
+	name = "Vanarius"
+	culture = colovian
+}
+
+#Nibenese: 110.000 - 119.999
+110000 = {
+	name = "Tharn"
+	culture = nibenese
+	motto = dynn_tharn_motto
+}
+110001 = {
+	name = "Aeresius"
+	culture = nibenese
+}
+110002 = {
+	name = "Cidian"
+	culture = nibenese
+}
+110003 = {
+	name = "Tremellian"
+	culture = nibenese
+}
+#110004 = {
+#	name = "Viria"
+#	culture = nibenese
+#}
+110005 = {
+	prefix = "dynnp_of"
+	name = "Crestbridge"
+	culture = nibenese
+}
+110006 = {
+	prefix = "dynnp_of"
+	name = "Cropsford"
+	culture = nibenese
+}
+110007 = {
+	name = "Helian"
+	culture = nibenese
+}
+110008 = {
+	name = "Valentian"
+	culture = nibenese
+}
+110009 = {
+	name = "Facian"
+	culture = heartlander
+}
+110010 = {
+	name = "Catio"
+	culture = nibenese
+}
+dyn_cuptor = {
+	name = "Cuptor"
+	culture = nibenese
+	motto = dynn_cuptor_motto
+}
+110012 = {
+	name = "Cedrian"
+	culture = nibenese
+}
+110013 = {
+	name = "Sartos"
+	culture = nibenese
+}
+110014 = {
+	name = "Meronian"
+	culture = nibenese
+}
+110015 = {
+	name = "Suviero"
+	culture = nibenese
+}
+110016 = {
+	name = "Ciero"
+	culture = nibenese
+}
+110017 = {
+	name = "Belucci"
+	culture = nibenese
+}
+110018 = {
+	name = "Cavilla"
+	culture = nibenese
+}
+110019 = {
+	name = "Bartholomo"
+	culture = nibenese
+}
+110020 = {
+	name = "Quarra"
+	culture = blackwood
+}
+110021 = {
+	name = "Afelio"
+	culture = nibenese
+}
+110022 = {
+	name = "Fleccian"
+	culture = nibenese
+	motto = dynn_fleccian_motto
+}
+110023 = {
+	name = "Crito"
+	culture = nibenese
+}
+110024 = {
+	name = "Varyuis"
+	culture = nibenese
+}
+110025 = {
+	name = "Quivelius"
+	culture = nibenese
+}
+110026 = {
+	name = "Domian"
+	culture = nibenese
+}
+110027 = {
+	name = "Nepiliae"
+	culture = nibenese
+}
+110028 = {
+	name = "Aylerian"
+	culture = nibenese
+}
+110029 = {
+	name = "Duronian"
+	culture = nibenese
+}
+110030 = {
+	name = "Efinicci"
+	culture = nibenese
+}
+110031 = {
+	name = "Scivia"
+	culture = nibenese
+	motto = dynn_scivia_motto
+}
+
+#110032 = {
+#	name = "Voteporix"
+#	culture = nibenese
+#}
+#
+#110033 = {
+#	name = "Abitarnian"
+#	culture = nibenese
+#}
+#
+#110034 = {
+#	name = "Baenius"
+#	culture = nibenese
+#}
+#
+#110035 = {
+#	name = "Cadiusus"
+#	culture = nibenese
+#}
+#
+#110036 = {
+#	name = "Dannus"
+#	culture = nibenese
+#}
+#
+#110037 = {
+#	name = "Egnatius"
+#	culture = nibenese
+#}
+#
+#110038 = {
+#	name = "Facian"
+#	culture = nibenese
+#}
+#
+#110039 = {
+#	name = "Gabenagus"
+#	culture = nibenese
+#}
+#
+#110040 = {
+#	name = "Hanotepelus"
+#	culture = nibenese
+#}
+#
+#110041 = {
+#	name = "Idolus"
+#	culture = nibenese
+#}
+#
+#110042 = {
+#	name = "Jannus"
+#	culture = nibenese
+#}
+#
+#110043 = {
+#	name = "Kratuleius"
+#	culture = nibenese
+#}
+#
+#110044 = {
+#	name = "Lachance"
+#	culture = nibenese
+#}
+#
+#110045 = {
+#	name = "Mabilchiotus"
+#	culture = nibenese
+#}
+#
+#110046 = {
+#	name = "Nanus"
+#	culture = nibenese
+#}
+#
+#110047 = {
+#	name = "Odiil"
+#	culture = nibenese
+#	motto = dynn_odiil_motto
+#}
+#
+#110048 = {
+#	name = "Palenix"
+#	culture = nibenese
+#}
+#
+#110049 = {
+#	name = "Quarra"
+#	culture = nibenese
+#}
+#
+#110050 = {
+#	name = "Raman"
+#	culture = nibenese
+#}
+#
+#110051 = {
+#	name = "Saccus"
+#	culture = nibenese
+#}
+#
+#110052 = {
+#	name = "Talanian"
+#	culture = nibenese
+#}
+#
+#110053 = {
+#	name = "Umbranox"
+#	culture = nibenese
+#}
+#
+#110054 = {
+#	name = "Valentia"
+#	culture = nibenese
+#}
+#
+#110055 = {
+#	name = "Wavrick"
+#	culture = nibenese
+#}
+#
+#110056 = {
+#	name = "Abant"
+#	culture = nibenese
+#}
+#
+#110057 = {
+#	name = "Baeniant"
+#	culture = nibenese
+#}
+#
+#110058 = {
+#	name = "Cadiusain"
+#	culture = nibenese
+#}
+#
+#110059 = {
+#	name = "Dannain"
+#	culture = nibenese
+#}
+#
+#110060 = {
+#	name = "Egnatain"
+#	culture = nibenese
+#}
+#
+#110061 = {
+#	name = "Facette"
+#	culture = nibenese
+#}
+#
+#110062 = {
+#	name = "Falco"
+#	culture = nibenese
+#}
+#
+#110063 = {
+#	name = "Gabinia"
+#	culture = nibenese
+#}
+#
+#110064 = {
+#	name = "Hadrianus"
+#	culture = nibenese
+#}
+#
+#110065 = {
+#	name = "Jano"
+#	culture = nibenese
+#}
+#
+#110066 = {
+#	name = "Facette"
+#	culture = nibenese
+#}
+#
+#110067 = {
+#	name = "Kirbatha"
+#	culture = nibenese
+#}
+#
+#110068 = {
+#	name = "Lactucinus"
+#	culture = nibenese
+#}
+#
+#110069 = {
+#	name = "Macatus"
+#	culture = nibenese
+#}
+#
+#110070 = {
+#	name = "Naborius"
+#	culture = nibenese
+#}
+#
+#110071 = {
+#	name = "Ocella"
+#	culture = nibenese
+#}
+#
+#110072 = {
+#	name = "Pamphelius"
+#	culture = nibenese
+#}
+#
+#110073 = {
+#	name = "Quettius"
+#	culture = nibenese
+#}
+#
+#110074 = {
+#	name = "Raetus"
+#	culture = nibenese
+#}
+#
+#110075 = {
+#	name = "Tappo"
+#	culture = nibenese
+#}
+#
+#110076 = {
+#	name = "Ulpius"
+#	culture = nibenese
+#}
+#
+#110077 = {
+#	name = "Valerius"
+#	culture = nibenese
+#}
+#
+#110078 = {
+#	name = "Weston"
+#	culture = nibenese
+#}
+#
+#110079 = {
+#	name = "Arctus"
+#	culture = nibenese
+#}
+#
+#110080 = {
+#	name = "Magna"
+#	culture = nibenese
+#}
+#
+#110081 = {
+#	name = "Corvinus"
+#	culture = nibenese
+#}
+#
+#110082 = {
+#	name = "Galenus"
+#	culture = nibenese
+#}
+#
+#110083 = {
+#	name = "Lentinus"
+#	culture = nibenese
+#}
+#
+#110084 = {
+#	name = "Sophus"
+#	culture = nibenese
+#}
+#
+#110085 = {
+#	name = "Arius"
+#	culture = nibenese
+#}
+#
+#110086 = {
+#	name = "Asellus"
+#	culture = nibenese
+#}
+#
+#110087 = {
+#	name = "Attius"
+#	culture = nibenese
+#}
+#
+#110088 = {
+#	name = "Axilla"
+#	culture = nibenese
+#}
+#
+#110089 = {
+#	name = "Berne"
+#	culture = nibenese
+#}
+#
+#110090 = {
+#	name = "Blasio"
+#	culture = nibenese
+#}
+#
+#110091 = {
+#	name = "Brolus"
+#	culture = nibenese
+#}
+#
+#110092 = {
+#	name = "Buca"
+#	culture = nibenese
+#}
+#
+#110093 = {
+#	name = "Castorius"
+#	culture = nibenese
+#}
+#
+#110094 = {
+#	name = "Celatus"
+#	culture = nibenese
+#}
+#
+#110095 = {
+#	name = "Dorso"
+#	culture = nibenese
+#}
+#
+#110096 = {
+#	name = "Lucullus"
+#	culture = nibenese
+#}
+#
+#110097 = {
+#	name = "Scipio"
+#	culture = nibenese
+#}
+#
+#110098 = {
+#	name = "Arvina"
+#	culture = nibenese
+#}
+#
+#110099 = {
+#	name = "Barbula"
+#	culture = nibenese
+#}
+#
+#110100 = {
+#	name = "Bincal"
+#	culture = nibenese
+#}
+
+110101 = { #family of archeologists-adventurer, founded Cyrodiilic Curiosities in ESO
+	name = "Mercius"
+	culture = nibenese
+}
+
+#11.11.11
+111111 = {
+	name = "Howardus"
+	culture = dremora
+	motto = dynn_howardus_motto
+}
+
+#Blackwood: 120.000 - 129.999
+
+120000 = {
+	name = "Caro"
+	culture = nibenese
+	motto = dynn_caro_motto
+}
+120001 = {
+	name = "Vandacia"
+	culture = nibenese
+	motto = dynn_vandacia_motto
+}
+120002 = {
+	name = "Lovidicus"
+	culture = nibenese
+	motto = dynn_lovidicus_motto
+}
+120003 = {
+	name = "Jirich"
+	culture = nibenese
+	motto = dynn_jirich_motto
+}
+120004 = {
+	name = "Divarios"
+	culture = nibenese
+}
+120005 = {
+	name = "Arcato"
+	culture = nibenese
+	motto = dynn_arcato_motto
+}
+120006 = {
+	name = "Zelik"
+	culture = blackwood
+}
+120007 = {
+	name = "Vogian"
+	culture = blackwood
+}
+120008 = {
+	name = "Parvalugio"
+	culture = nibenese
+}
+120009 = {
+	name = "Delevian"
+	culture = blackwood
+}
+120010 = {
+	name = "Douar"
+	culture = nibenese
+}
+120011 = {
+	name = "Arynit"
+	culture = nibenese
+}
+120012 = {
+	name = "Tasellis"
+	culture = nibenese
+}
+120013 = {
+	name = "Minicci"
+	culture = nibenese
+}
+
+120014 = {
+	name = "Rosentian"
+	culture = nibenese
+}
+120015 = {
+	name = "Locundus"
+	culture = blackwood
+}
+120016 = {
+	name = "Hertir"
+	culture = blackwood
+}
+120017 = {
+	name = "Kamhara"
+	culture = blackwood
+}
+#"imperialised" blackwoods
+120018 = {
+	name = "Scepestos"
+	culture = blackwood
+}
+120019 = {
+	name = "Xanthianus"
+	culture = blackwood
+}
+120020 = {
+	name = "Varopodius"
+	culture = blackwood
+}
+120021 = {
+	name = "Saluphus"
+	culture = blackwood
+}
+#120022 = {
+#	name = "Tigriandros"
+#	culture = blackwood
+#}
+120023 = {
+	name = "Martius"
+	culture = blackwood
+}
+120024 = {
+	name = "Galenus"
+	culture = blackwood
+}
+120025 = {
+	name = "Ancotis"
+	culture = blackwood
+}
+120026 = {
+	name = "Chiral"
+	culture = blackwood
+}
+#Heartlander: 130.000 - 139.999
+
+130000 = {
+	name = "Terentius"
+	culture = heartlander
+}
+130001 = {
+	name = "Benirus"
+	culture = heartlander
+}
+130002 = {
+	prefix = "dynnp_of"
+	name = "Agrippa"
+	culture = heartlander
+}
+#130003 = {
+#	name = "Tasus"
+#	culture = heartlander
+#}
+#130004 = {
+#	name = "Ponticus"
+#	culture = heartlander
+#}
+#130005 = {
+#	name = "Zenas"
+#	culture = heartlander
+#}
+130006 = {
+	name = "Doniticus"
+	culture = heartlander
+}
+#130007 = {
+#	name = "Caerellius"
+#	culture = heartlander
+#}
+130008 = {
+	name = "Osician"
+	culture = heartlander
+}
+130009 = {
+	name = "Ottiliae"
+	culture = heartlander
+}
+130010 = {
+	name= "Bascilius"
+	culture = heartlander
+	motto = dynn_bascilius_motto
+}
+130011 = {
+	name = "Quintilius"
+	culture = heartlander
+}
+130012 = {
+	name = "Vetilii"
+	culture = heartlander
+}
+130013 = {
+	name = "Aerius"
+	culture = heartlander
+}
+130014 = {
+	name = "Antonius"
+	culture = heartlander
+}
+#130015 = {
+#	name = "Gabenage"
+#	culture = heartlander
+#}
+#130016 = {
+#	name = "Hanant"
+#	culture = heartlander
+#}
+#130017 = {
+#	name = "Idoluius"
+#	culture = heartlander
+#}
+#130018 = {
+#	name = "Jannano"
+#	culture = heartlander
+#}
+#130019 = {
+#	name = "Kratuleen"
+#	culture = heartlander
+#}
+#130020 = {
+#	name = "Lachuius"
+#	culture = heartlander
+#}
+#130021 = {
+#	name = "Maboris"
+#	culture = heartlander
+#}
+#130022 = {
+#	name = "Navaliil"
+#	culture = heartlander
+#}
+#130023 = {
+#	name = "Odance"
+#	culture = heartlander
+#}
+#130024 = {
+#	name = "Palena"
+#	culture = heartlander
+#}
+#
+#130025 = {
+#	name = "Cennan"
+#	culture = heartlander
+#}
+#
+#130026 = {
+#	name = "Romus"
+#	culture = heartlander
+#}
+#
+#130027 = {
+#	name = "Perus"
+#	culture = heartlander
+#}
+#
+#130028 = {
+#	name = "Varnus"
+#	culture = heartlander
+#}
+#
+#130029 = {
+#	name = "Plecia"
+#	culture = heartlander
+#}
+#
+#130030 = {
+#	name = "Bellienus"
+#	culture = heartlander
+#}
+#
+#130031 = {
+#	name = "Spatec"
+#	culture = heartlander
+#}
+#
+#130032 = {
+#	name = "Abaconis"
+#	culture = heartlander
+#}
+#
+#130033 = {
+#	name = "Abalius"
+#	culture = heartlander
+#}
+#
+#130034 = {
+#	name = "Abelius"
+#	culture = heartlander
+#}
+#
+#130035 = {
+#	name = "Abitius"
+#	culture = heartlander
+#}
+#
+#130036 = {
+#	name = "Accius"
+#	culture = heartlander
+#}
+#
+#130037 = {
+#	name = "Acicius"
+#	culture = heartlander
+#}
+#
+#130038 = {
+#	name = "Acilius"
+#	culture = heartlander
+#}
+#
+#130039 = {
+#	name = "Aereptim"
+#	culture = heartlander
+#}
+#
+#130040 = {
+#	name = "Afarmevus"
+#	culture = heartlander
+#}
+#
+#130041 = {
+#	name = "Afentius"
+#	culture = heartlander
+#}
+#
+#130042 = {
+#	name = "Aferus"
+#	culture = heartlander
+#}
+#
+#130043 = {
+#	name = "Afiel"
+#	culture = heartlander
+#}
+#
+#130044 = {
+#	name = "Afranius"
+#	culture = heartlander
+#}
+#
+#130045 = {
+#	name = "Afravicus"
+#	culture = heartlander
+#}
+#
+#130046 = {
+#	name = "Afrentius"
+#	culture = heartlander
+#}
+#
+#130047 = {
+#	name = "Afrorus"
+#	culture = heartlander
+#}
+#
+#130048 = {
+#	name = "Agatiotus"
+#	culture = heartlander
+#}
+#
+#130049 = {
+#	name = "Agician"
+#	culture = heartlander
+#}
+#
+#130050 = {
+#	name = "Agitulian"
+#	culture = heartlander
+#}
+#
+#130051 = {
+#	name = "Agraspus"
+#	culture = heartlander
+#}
+#
+#130052 = {
+#	name = "Agratrus"
+#	culture = heartlander
+#}
+#
+#130053 = {
+#	name = "Agretus"
+#	culture = heartlander
+#}
+#
+#130054 = {
+#	name = "Agronis"
+#	culture = heartlander
+#}
+#
+#130055 = {
+#	name = "Agrudilius"
+#	culture = heartlander
+#}
+#
+#130056 = {
+#	name = "Agruintus"
+#	culture = heartlander
+#}
+#
+#130057 = {
+#	name = "Albarnian"
+#	culture = heartlander
+#}
+#
+#130058 = {
+#	name = "Albuttian"
+#	culture = heartlander
+#}
+#
+#130059 = {
+#	name = "Allectus"
+#	culture = heartlander
+#}
+#
+#130060 = {
+#	name = "Alleius"
+#	culture = heartlander
+#}
+#
+#130061 = {
+#	name = "Amarus"
+#	culture = heartlander
+#}
+#
+#130062 = {
+#	name = "Amatius"
+#	culture = heartlander
+#}
+#
+#130063 = {
+#	name = "Amedius"
+#	culture = heartlander
+#}
+#
+#130064 = {
+#	name = "Amerentius"
+#	culture = heartlander
+#}
+#
+#130065 = {
+#	name = "Amiulusus"
+#	culture = heartlander
+#}
+#
+#130066 = {
+#	name = "Amneptim"
+#	culture = heartlander
+#}
+#
+#130067 = {
+#	name = "Amnis"
+#	culture = heartlander
+#}
+#
+#130068 = {
+#	name = "Amantus"
+#	culture = heartlander
+#}
+#
+#130069 = {
+#	name = "Analius"
+#	culture = heartlander
+#}
+#
+#130070 = {
+#	name = "Anatotius"
+#	culture = heartlander
+#}
+#
+#130071 = {
+#	name = "Ancrus"
+#	culture = heartlander
+#}
+#
+#130072 = {
+#	name = "Andronicus"
+#	culture = heartlander
+#}
+#
+#130073 = {
+#	name = "Andus"
+#	culture = heartlander
+#}
+#
+#130074 = {
+#	name = "Anentius"
+#	culture = heartlander
+#}
+#
+#130075 = {
+#	name = "Angedus"
+#	culture = heartlander
+#}
+#
+#130076 = {
+#	name = "Angiel"
+#	culture = heartlander
+#}
+#
+#130077 = {
+#	name = "Angirus"
+#	culture = heartlander
+#}
+#
+#130078 = {
+#	name = "Angius"
+#	culture = heartlander
+#}
+#
+#130079 = {
+#	name = "Angonius"
+#	culture = heartlander
+#}
+#
+#130080 = {
+#	name = "Anician"
+#	culture = heartlander
+#}
+#
+#130081 = {
+#	name = "Anim"
+#	culture = heartlander
+#}
+#
+#130082 = {
+#	name = "Anium"
+#	culture = heartlander
+#}
+#
+#130083 = {
+#	name = "Annium"
+#	culture = heartlander
+#}
+#
+#130084 = {
+#	name = "Annius"
+#	culture = heartlander
+#}
+#
+#130085 = {
+#	name = "Antabolis"
+#	culture = heartlander
+#}
+#
+#130086 = {
+#	name = "Antonius"
+#	culture = heartlander
+#}
+#
+#130087 = {
+#	name = "Arius"
+#	culture = heartlander
+#}
+#
+#130088 = {
+#	name = "Artalvius"
+#	culture = heartlander
+#}
+#
+#130089 = {
+#	name = "Artician"
+#	culture = heartlander
+#}
+#
+#130090 = {
+#	name = "Artium"
+#	culture = heartlander
+#}
+#
+#130091 = {
+#	name = "Artorius"
+#	culture = heartlander
+#}
+#
+#130092 = {
+#	name = "Artufus"
+#	culture = heartlander
+#}
+#
+#130093 = {
+#	name = "Artus"
+#	culture = heartlander
+#}
+#
+#130094 = {
+#	name = "Atician"
+#	culture = heartlander
+#}
+#
+#130095 = {
+#	name = "Atirrium"
+#	culture = heartlander
+#}
+#
+#130096 = {
+#	name = "Atius"
+#	culture = heartlander
+#}
+#
+#130097 = {
+#	name = "Atrius"
+#	culture = heartlander
+#}
+#
+#130098 = {
+#	name = "Attius"
+#	culture = heartlander
+#}
+#
+#130099 = {
+#	name = "Aurrus"
+#	culture = heartlander
+#}
+#
+#130100 = {
+#	name = "Avidius"
+#	culture = heartlander
+#}
+
+130101 = {
+	name = "Cassian"
+	culture = heartlander
+}
+
+#Rimmenese 
+140000 = {
+	name = "Pardus" #Royal House of Rimmen
+	culture = rimmen
+	motto = dynn_pardus_motto
+}
+140001 = {
+	name = "Pallas" #Ducal House of Meir Lynmount
+	culture = rimmen
+	motto = dynn_pallas_motto
+}
+
+#non-numerical dynasties
+lex = {
+	name = "Lex"
+	culture = heartlander
+	motto = dynn_lex_motto
+}
+olo = {
+	name = "Olo"
+	culture = colovian
+	motto = dynn_olo_motto
+}
+kvinchal = {
+	name = "Kvinchal"
+	culture = colovian
+	motto = dynn_kvinchal_motto
+}
+pinder = {
+	name = "Pinder"
+	culture = colovian
+}
+sosildor = {
+	name = "Sosildor"
+	culture = colovian
+	motto = dynn_sosildor_motto
+}
+aquilarios = {
+	name = "Aquilarios"
+	culture = colovian
+	motto = dynn_aquilarios_motto
+}
+dralgoner = {
+	name = "Dralgoner"
+	culture = strident
+}
+senyan = {
+	name = "Senyan"
+	culture = strident
+}
+
+#Order of the Hour Grandmasters
+decan = {
+	name = "Decan"
+	culture = colovian
+}
+coventine = {
+	name = "Coventine"
+	culture = colovian
+}
+ancrus = {
+	name = "Ancrus"
+	culture = colovian
+}
+ponticus = {
+	name = "Ponticus"
+	culture = colovian
+}
+merula = {
+	name = "Merula"
+	culture = colovian
+}
+
+#South Argonia Development Committee
+south_argonia_prelineus = {
+	name = "Prelineus"
+	culture = nibenese
+}

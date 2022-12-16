@@ -1,0 +1,311 @@
+﻿# Bretonic Range: 400.000 - 499.999
+
+	#Glenumbran: 400.000 - 409.999
+	#Northmen: 410.000 - 419.999
+	#Iliac: 420.000 - 429.999
+	#Bjoule: 430.000 - 439.999
+	#Wrothgarian: 440.000 - 449.999
+	#Galen: 450.000 - 459.999
+
+#Glenumbran: 400.000 - 409.999
+
+400000 ={ #Royal House of Daggerfall during the First Era
+	name = "Daguer"
+	culture = glenumbran
+}
+400001 = { #Royal House of Daggerfall
+	name = "Deleyn"
+	culture = glenumbran
+	motto = dynn_deleyn_motto
+}
+400002 = {
+	name = "Noellaume"
+	culture = glenumbran
+}
+400003 = {  #Royal House of Camlorn
+	name = "Rielle"
+	culture = glenumbran
+	motto = dynn_rielle_motto
+}
+400004 = {
+	name = "Blanche"
+	culture = glenumbran
+}
+400005 = {
+	name = "Ildene"
+	culture = glenumbran
+}
+400006 = {
+	name = "Granve"
+	culture = glenumbran
+}
+400007 = {
+	name = "Stroud"
+	culture = glenumbran
+}
+400008 = {
+	name = "Baelborne"
+	culture = glenumbran
+}
+400009 = {
+	name = "Themond"
+	culture = glenumbran
+}
+400010 = {
+	name = "Llugwych"
+	culture = glenumbran
+}
+400011 = {
+	name = "Laurent"
+	culture = glenumbran
+}
+400012 = {
+	name = "Yeomwing"
+	culture = glenumbran
+}
+400013 = {
+	name = "Lariat"
+	culture = glenumbran
+}
+loriot = { #bastard dynasty founded by a Lariat bastard
+	name = "Loriot"
+	culture = glenumbran
+}
+400014 = {
+	name = "Croix"
+	culture = glenumbran
+}
+400015 = {
+	name = "Brousseau"
+	culture = glenumbran
+}
+400016 = {
+	name = "Tailas"
+	culture = glenumbran
+}
+400017 = {
+	name = "Hearthton"
+	culture = glenumbran
+}
+400018 ={
+	name = "Garclay"
+	culture = glenumbran
+	motto = dynn_garclay_motto
+}
+400019 = {
+	name = "Gulitte"
+	culture = glenumbran
+}
+400020 = {
+	name = "Copperfield"
+	culture = glenumbran
+}
+400021 = {
+	name = "Marie"
+	culture = glenumbran
+	motto = dynn_marie_motto
+}
+400022 = {
+	name = "Merten"
+	culture = glenumbran
+}
+400023 = {  #Ducal House of the Systres
+	name = "Dufort"
+	culture = glenumbran
+	motto = dynn_dufort_motto
+}
+400024 = {  #Knightly House of Glenumbra
+	name = "Cassel"
+	culture = glenumbran
+}
+#00025 = {  #Knightly House of Glenumbra
+#	name = "Roland"
+#	culture = glenumbran
+#
+#00026 = {  #Knightly House of Glenumbra, became culturally Northman 
+#	name = "Thibault"
+#	culture = glenumbran
+#
+#00027 = {  #Knightly House of Glenumbra, became culturally Iliac
+#	name = "Blois"
+#	culture = glenumbran
+#
+
+#Northmen: 410.000 - 419.999
+
+410000 = {
+	name = "Elde"
+	culture = northmen
+}
+410001 = {
+	name = "Succoth"
+	culture = northmen
+}
+410002 = {
+	name = "Edrald"
+	culture = northmen
+}
+410003 = {
+	name = "Imbel"
+	culture = northmen
+}
+410004 = { #Royal House of Shornhelm
+	name = "Branquette"
+	culture = northmen
+	motto = dynn_branquette_motto
+}
+410005 = { #Important House of Shornhelm
+	name = "Tamrith"
+	culture = northmen
+	motto = dynn_tamrith_motto
+}
+410006 = { #Important House of Shornhelm
+	name = "Flowdys"
+	culture = northmen
+	motto = dynn_dorell_motto
+}
+410007 = {  #Knightly House of Rivenspire
+	name = "Aurmine"
+	culture = northmen
+}
+410008 = {
+	name = "Farr"
+	culture = northmen
+}
+410009 = {  #Knightly House of Rivenspire
+	name = "Percy"
+	culture = northmen
+}
+410010 = {
+	name = "Montclair"
+	culture = northmen
+}
+#410011 = {  #Knightly House of Rivenspire
+#	name = "Flowdys"
+#	culture = northmen
+#}
+410012 = {
+	name = "Spenard"
+	culture = northmen
+}
+#410013 = { #Knightly House of Rivenspire
+#	name = "Hinault"
+#	culture = northmen
+#}
+
+#Iliac: 420.000 - 429.999
+
+420000 = {
+	name = "Ysciele"
+	culture = iliac
+}
+420001 = {
+	name = "Horley"
+	culture = iliac
+}
+420002 = {  #Royal House of Wayrest after the Knahaten Flu, Emeric's dynasty
+	name = "Cumberland"
+	culture = iliac
+	motto = dynn_cumberland_motto
+}
+420003 = {
+	name = "Oldland"
+	culture = iliac
+}
+420004 = {
+	name = "Viralaine"
+	culture = iliac
+}
+420005 = {  #Royal House of Wayrest before the Knahaten Flu
+	name = "Gardner"
+	culture = iliac
+	motto = dynn_gardner_motto
+}
+420006 = {
+	name = "Beanique"
+	culture = iliac
+}
+#420007 = {
+#	name = "Sauvage"
+#	culture = iliac
+#}
+#420008 = {  #Royal House of Evermore after the Moile
+#	name = "Guimard"
+#	culture = iliac
+#	motto = dynn_guimard_motto
+#}
+#420009 = {
+#	name = "Woodborne"
+#	culture = iliac
+#}
+420010 = {  #Royal House of Evermore 
+	name = "Moile"
+	culture = iliac
+	motto = dynn_moile_motto
+}
+#420011 = {  #Knightly House of Stormhaven
+#	name = "Davaux"
+#	culture = iliac
+#}
+420012 = {
+	name = "Amelion"
+	culture = iliac
+}
+420013 = {  #Knightly House of Stormhaven
+	name = "Troivois"
+	culture = iliac
+}
+420014 = {
+	name = "Vien"
+	culture = iliac
+}
+420015 = {  #Knightly House of Stormhaven
+	name = "Montaine"
+	culture = iliac
+}
+420016 = { #Knightly House of Stormhaven, one of theirs is a member of the Wayrest Mages' Guild around the Alliance War
+	name = "Dumonte"
+	culture = iliac
+}
+420017 = {  #Ducal House of the Systres
+	name = "Mornard"
+	culture = iliac
+	motto = dynn_mornard_motto
+}
+#420018 = {  #Knightly House of Stormhaven
+#	name = "Mantel"
+#	culture = iliac
+#}
+#420019 = {  #Knightly House of Stormhaven, famous tailors based in Wind Keep #EK TODO add a woman of this house with a Strong claim on Wind Keep in the Gavaudon Court
+#	name = "Manteau"
+#	culture = iliac
+#}
+
+420020 = {  
+	name = "Egun"
+	culture = iliac
+}
+
+#Bjoule: 430.000 - 439.999
+
+430000 = {
+	name = "Guimard"
+	culture = bjoule
+}
+430001 = {
+	name = "Rane"
+	culture = bjoule
+}
+430002 = {
+	name = "Galien"
+	culture = bjoule
+}
+
+#Wrothgarian: 440.000 - 449.999
+
+#Galen: 450.000 - 459.999
+
+450000 = {
+	name = "Solais"
+	culture = galen
+}

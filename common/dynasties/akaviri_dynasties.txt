@@ -1,0 +1,524 @@
+﻿# Akaviri Range: 1.600.000 - 1.699.999
+
+	#Tsaesci: 1.600.000 - 1.619.999
+	#Rimmen: 1.620.000 - 1.629.999
+	#Jaegi: 1.630.000 - 1.639.999
+
+#Tsaesci: 1.600.000 - 1.619.999
+
+1600000 = {
+	name = "Vethrakk"
+	culture = ilniviri
+	motto = dynn_vethrakk_motto
+}
+1600001 = {
+	name = "Ssaryz"
+	culture = ilniviri
+	motto = dynn_ssaryz_motto
+}
+dyn_akavir = {
+	prefix = "dynnp_of"
+	name = "Akavir"
+	culture = ilniviri
+	motto = dynn_akavir_motto
+}
+# Chorak is now a house: akavir_chorak
+#1600003 = {
+#	name = "Chorak"
+#	culture = ilniviri
+#	motto = dynn_chorak_motto
+#}
+1600004 = {
+	name = "Rhalta"
+	culture = ilniviri
+}
+1600005 = {
+	name = "Cybiak"
+	culture = ilniviri
+}
+1600006 = {
+	name = "Shouz"
+	culture = ilniviri
+}
+1600007 = {
+	name = "Zhenas"
+	culture = ilniviri
+}
+dyn_kssazi = {
+	name = "Kssazi"
+	culture = ilniviri
+}
+1600009 = {
+	name = "Leztixus"
+	culture = ilniviri
+}
+1600010 = {
+	name = "Tsavizus"
+	culture = ilniviri
+}
+1600011 = {
+	name = "Szivi"
+	culture = ilniviri
+}
+#those have proper dynasties setup
+#1600012 = {
+#	name = "Shaie"
+#	culture = ilniviri
+#}
+#
+#1600013 = {
+#	name = "Kaie"
+#	culture = ilniviri
+#}
+
+#1600014 = {
+#	name = "Nashae"
+#	culture = ilniviri
+#}
+
+dyn_drassi = {
+	name = "Drassi"
+	culture = ilniviri
+}
+
+#1600016 = {
+#	name = "Ves"
+#	culture = ilniviri
+#}
+#
+dyn_brol = { #only used for a tharn wife atm
+	name = "Brol"
+	culture = ilniviri
+}
+
+#1600018 = {
+#	name = "Banar"
+#	culture = ilniviri
+#}
+#
+#1600019 = {
+#	name = "Bardiek"
+#	culture = ilniviri
+#}
+#
+#1600020 = {
+#	name = "Kor"
+#	culture = ilniviri
+#}
+#
+#1600021 = {
+#	name = "Ashak"
+#	culture = ilniviri
+#}
+#
+#1600022 = {
+#	name = "Pir"
+#	culture = ilniviri
+#}
+#
+#1600023 = {
+#	name = "Darak"
+#	culture = ilniviri
+#}
+
+dyn_haraka = {
+	name = "Haraka"
+	culture = ilniviri
+}
+
+#1600025 = {
+#	name = "Yora"
+#	culture = ilniviri
+#}
+
+dyn_perwa = {
+	name = "Perwa"
+	culture = ilniviri
+}
+
+dyn_dherirrik = {
+	name = "Dherirrik"
+	culture = ilniviri
+}
+
+#1600028 = {
+#	name = "Cheriej"
+#	culture = ilniviri
+#}
+#
+#1600029 = {
+#	name = "Gezze"
+#	culture = ilniviri
+#}
+#
+#1600030 = {
+#	name = "Nik"
+#	culture = ilniviri
+#}
+#
+#1600031 = {
+#	name = "Chylnus"
+#	culture = ilniviri
+#}
+#
+#1600032 = {
+#	name = "Xhizessah"
+#	culture = ilniviri
+#}
+#
+#1600033 = {
+#	name = "Sezuk"
+#	culture = ilniviri
+#}
+#
+#1600034 = {
+#	name = "Zafun"
+#	culture = ilniviri
+#}
+#
+#1600035 = {
+#	name = "Elvessuk"
+#	culture = ilniviri
+#}
+#
+#1600036 = {
+#	name = "Zashasen"
+#	culture = ilniviri
+#}
+#
+#1600037 = {
+#	name = "Allysah"
+#	culture = ilniviri
+#}
+#
+#1600038 = {
+#	name = "Gegrej"
+#	culture = ilniviri
+#}
+#
+#1600039 = {
+#	name = "Sylla"
+#	culture = ilniviri
+#}
+#
+#1600040 = {
+#	name = "Shis"
+#	culture = ilniviri
+#}
+#
+#1600041 = {
+#	name = "Shalluh"
+#	culture = ilniviri
+#}
+#
+#1600042 = {
+#	name = "Dhis"
+#	culture = ilniviri
+#}
+#
+#1600043 = {
+#	name = "Sadexa"
+#	culture = ilniviri
+#}
+#
+#1600044 = {
+#	name = "Kise"
+#	culture = ilniviri
+#}
+#
+#1600045 = {
+#	name = "Reafa"
+#	culture = ilniviri
+#}
+#
+#1600046 = {
+#	name = "Rifiek"
+#	culture = ilniviri
+#}
+#
+#1600047 = {
+#	name = "Melixu"
+#	culture = ilniviri
+#}
+#
+#1600048 = {
+#	name = "Hied"
+#	culture = ilniviri
+#}
+#
+#1600049 = {
+#	name = "Adrenes"
+#	culture = ilniviri
+#}
+#
+#1600050 = {
+#	name = "Feil"
+#	culture = ilniviri
+#}
+#
+#1600051 = {
+#	name = "Dhevida"
+#	culture = ilniviri
+#}
+#
+#1600052 = {
+#	name = "Chirde"
+#	culture = ilniviri
+#}
+#
+#1600053 = {
+#	name = "Kershes"
+#	culture = ilniviri
+#}
+#
+#1600054 = {
+#	name = "Kige"
+#	culture = ilniviri
+#}
+#
+#1600055 = {
+#	name = "Kidrykan"
+#	culture = ilniviri
+#}
+#
+#1600056 = {
+#	name = "Dynnen"
+#	culture = ilniviri
+#}
+#
+#1600057 = {
+#	name = "Yrsas"
+#	culture = ilniviri
+#}
+#
+#1600058 = {
+#	name = "Delrun"
+#	culture = ilniviri
+#}
+#
+#1600059 = {
+#	name = "Serdaxa"
+#	culture = ilniviri
+#}
+#
+#1600060 = {
+#	name = "Dennalik"
+#	culture = ilniviri
+#}
+#
+#1600061 = {
+#	name = "Oshiro"
+#	culture = ilniviri
+#}
+#
+#1600062 = {
+#	name = "Mizushima"
+#	culture = ilniviri
+#}
+#
+#1600063 = {
+#	name = "Hamasaki"
+#	culture = ilniviri
+#}
+#
+#1600064 = {
+#	name = "Tsukuda"
+#	culture = ilniviri
+#}
+#
+#1600065 = {
+#	name = "Ueno"
+#	culture = ilniviri
+#}
+#
+#1600066 = {
+#	name = "Kimura"
+#	culture = ilniviri
+#}
+#
+#1600067 = {
+#	name = "Fukui"
+#	culture = ilniviri
+#}
+#
+#1600068 = {
+#	name = "Akiyama"
+#	culture = ilniviri
+#}
+#
+#1600069 = {
+#	name = "Hannori"
+#	culture = ilniviri
+#}
+#
+#1600070 = {
+#	name = "Kaizuo"
+#	culture = ilniviri
+#}
+#
+#1600071 = {
+#	name = "Hanaboru"
+#	culture = ilniviri
+#}
+#
+#1600072 = {
+#	name = "Utori"
+#	culture = ilniviri
+#}
+#
+#1600073 = {
+#	name = "Kuro"
+#	culture = ilniviri
+#}
+#
+#1600074 = {
+#	name = "Hirzen"
+#	culture = ilniviri
+#}
+#
+#1600075 = {
+#	name = "Yagyu"
+#	culture = ilniviri
+#}
+#
+#1600076 = {
+#	name = "Yato"
+#	culture = ilniviri
+#}
+#
+#1600077 = {
+#	name = "Heian"
+#	culture = ilniviri
+#}
+#
+#1600078 = {
+#	name = "Kanzaki"
+#	culture = ilniviri
+#}
+#
+#1600079 = {
+#	name = "Ikeda"
+#	culture = ilniviri
+#}
+#
+#1600080 = {
+#	name = "Yasha"
+#	culture = ilniviri
+#}
+#
+#1600081 = {
+#	name = "Tanaka"
+#	culture = ilniviri
+#}
+#
+#1600082 = {
+#	name = "Matsumori"
+#	culture = ilniviri
+#}
+#
+#1600083 = {
+#	name = "Shibata"
+#	culture = ilniviri
+#}
+#
+#1600084 = {
+#	name = "Goto"
+#	culture = ilniviri
+#}
+#
+#1600085 = {
+#	name = "Takahashi"
+#	culture = ilniviri
+#}
+#
+#1600086 = {
+#	name = "Oushi"
+#	culture = ilniviri
+#}
+#
+#1600087 = {
+#	name = "Vstirielaes"
+#	culture = ilniviri
+#}
+#
+#1600088 = {
+#	name = "Tksilye"
+#	culture = ilniviri
+#}
+#
+#1600089 = {
+#	name = "Biwaoh"
+#	culture = ilniviri
+#}
+#
+#1600090 = {
+#	name = "Zanarma"
+#	culture = ilniviri
+#}
+#
+#1600091 = {
+#	name = "Tenzerkwaie"
+#	culture = ilniviri
+#}
+#
+#1600092 = {
+#	name = "Vsusyes"
+#	culture = ilniviri
+#}
+#
+#1600093 = {
+#	name = "Kas"
+#	culture = ilniviri
+#}
+#
+#1600094 = {
+#	name = "Qou"
+#	culture = ilniviri
+#}
+#
+#1600095 = {
+#	name = "Mje"
+#	culture = ilniviri
+#}
+#
+#1600096 = {
+#	name = "Quh"
+#	culture = ilniviri
+#}
+#
+#1600097 = {
+#	name = "Lin"
+#	culture = ilniviri
+#}
+#
+#1600098 = {
+#	name = "Kumui"
+#	culture = ilniviri
+#}
+
+1600099 = {
+	name = "Nivae"
+	culture = ilniviri
+}
+
+#1600100 = {
+#	name = "Miroe"
+#	culture = ilniviri
+#}
+
+1600101 = {
+	name = "Zidakye"
+	culture = ilniviri
+	motto = dynn_zidakye_motto
+}
+1600102 = {
+	name = "dynn_Sylla"
+	culture = ilniviri
+	motto = dynn_sylla_motto
+}
+
+#Rimmen: 1.620.000 - 1.629.999
+
+
+
+#Jaegi: 1.630.000 - 1.639.999

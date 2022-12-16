@@ -1,0 +1,2993 @@
+﻿
+# Standard Signature Weapon Loc
+signature_weapon = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_sword
+		trigger = {
+			exists = var:signature_weapon
+			var:signature_weapon = flag:sword
+		}
+		fallback = yes
+	}
+
+	text = {
+		localization_key = signature_weapon_mace
+		trigger = {
+			exists = var:signature_weapon
+			var:signature_weapon = flag:mace
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_axe
+		trigger = {
+			exists = var:signature_weapon
+			var:signature_weapon = flag:axe
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_hammer
+		trigger = {
+			exists = var:signature_weapon
+			var:signature_weapon = flag:hammer
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_spear
+		trigger = {
+			exists = var:signature_weapon
+			var:signature_weapon = flag:spear
+		}
+	}
+
+	### EK EDIT: added staff and bow
+	text = {
+		localization_key = signature_weapon_staff
+		trigger = {
+			exists = var:signature_weapon
+			var:signature_weapon = flag:staff
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_bow
+		trigger = {
+			exists = var:signature_weapon
+			var:signature_weapon = flag:bow
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_dagger
+		trigger = {
+			exists = var:signature_weapon
+			var:signature_weapon = flag:dagger
+		}
+	}
+}
+SignatureWeaponNameOrType = {
+	type = character
+
+	text = {
+		trigger = {
+			exists = var:signature_weapon_scope
+		}
+		localization_key = signature_weapon_name
+	}
+
+	text = {
+		localization_key = signature_weapon_type
+		fallback = yes
+	}
+}
+SignatureWeaponArticle = {
+	type = character
+
+	text = {
+		localization_key = article_an
+		trigger = {
+			var:signature_weapon = flag:axe
+		}
+	}
+
+	text = {
+		localization_key = article_a
+	}
+}
+SignatureWeaponAction = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_sword_draw
+		trigger = {
+			var:signature_weapon = flag:sword
+		}
+		fallback = yes
+	}
+
+	text = {
+		localization_key = signature_weapon_mace_lift
+		trigger = {
+			var:signature_weapon = flag:mace
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_axe_heft
+		trigger = {
+			var:signature_weapon = flag:axe
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_hammer_raise
+		trigger = {
+			var:signature_weapon = flag:hammer
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_spear_couch
+		trigger = {
+			var:signature_weapon = flag:spear
+		}
+	}
+
+	### EK EDIT: Added staff and bow
+	text = {
+		localization_key = signature_weapon_staff_wield
+		trigger = {
+			var:signature_weapon = flag:staff
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_bow_ready
+		trigger = {
+			var:signature_weapon = flag:bow
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_dagger_brandish
+		trigger = {
+			var:signature_weapon = flag:dagger
+		}
+	}	
+}
+SignatureWeaponActionThirdPerson = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_sword_draws
+		trigger = {
+			var:signature_weapon = flag:sword
+		}
+		fallback = yes
+	}
+
+	text = {
+		localization_key = signature_weapon_mace_lifts
+		trigger = {
+			var:signature_weapon = flag:mace
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_axe_hefts
+		trigger = {
+			var:signature_weapon = flag:axe
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_hammer_raises
+		trigger = {
+			var:signature_weapon = flag:hammer
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_spear_couches
+		trigger = {
+			var:signature_weapon = flag:spear
+		}
+	}
+
+	### EK EDIT: Added staff and bow
+	text = {
+		localization_key = signature_weapon_staff_wields
+		trigger = {
+			var:signature_weapon = flag:staff
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_bow_readies
+		trigger = {
+			var:signature_weapon = flag:bow
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_dagger_brandishes
+		trigger = {
+			var:signature_weapon = flag:dagger
+		}
+	}	
+}
+SignatureWeaponActionPresentParticiple = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_sword_drawing
+		trigger = {
+			var:signature_weapon = flag:sword
+		}
+		fallback = yes
+	}
+
+	text = {
+		localization_key = signature_weapon_mace_lifting
+		trigger = {
+			var:signature_weapon = flag:mace
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_axe_hefting
+		trigger = {
+			var:signature_weapon = flag:axe
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_hammer_raising
+		trigger = {
+			var:signature_weapon = flag:hammer
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_spear_couching
+		trigger = {
+			var:signature_weapon = flag:spear
+		}
+	}
+
+	### EK EDIT: Added staff and bow
+	text = {
+		localization_key = signature_weapon_staff_wielding
+		trigger = {
+			var:signature_weapon = flag:staff
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_bow_readying
+		trigger = {
+			var:signature_weapon = flag:bow
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_dagger_brandishing
+		trigger = {
+			var:signature_weapon = flag:dagger
+		}
+	}	
+}
+SignatureWeaponActionReaction = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_a_quick_slash
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_a_mighty_heave
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_a_fast_thrust
+		trigger = {
+			var:signature_weapon = flag:spear
+		}
+	}
+
+	### EK EDIT: added staff and bow
+	text = {
+		localization_key = signature_weapon_a_skillful_ward
+		trigger = {
+			var:signature_weapon = flag:staff
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_a_masterful_dodge
+		trigger = {
+			var:signature_weapon = flag:bow
+		}
+	}
+}
+SignatureWeaponCritical = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_slash
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_crush
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_pierce
+		trigger = {
+			var:signature_weapon = flag:spear
+		}
+	}
+
+	### EK EDIT: added staff and bow
+	text = {
+		localization_key = signature_weapon_cast_spell
+		trigger = {
+			var:signature_weapon = flag:staff
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_shoot_arrow
+		trigger = {
+			var:signature_weapon = flag:bow
+		}
+	}
+}
+SignatureWeaponCriticalPresent = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_slash_present
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_crush_present
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_pierce_present
+		trigger = {
+			var:signature_weapon = flag:spear
+		}
+	}
+
+	### EK EDIT: staff and bow
+	text = {
+		localization_key = signature_weapon_cast_present
+		trigger = {
+			var:signature_weapon = flag:staff
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_shoot_present
+		trigger = {
+			var:signature_weapon = flag:bow
+		}
+	}
+}
+
+# Non-Lethal Attacks
+SignatureWeaponAttemptedHeavy = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attempted_heavy_slash
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attempted_heavy_crush
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attempted_heavy_pierce
+		trigger = {
+			var:signature_weapon = flag:spear
+		}
+	}
+	### EK EDIT: staf n bo
+	text = {
+		localization_key = signature_weapon_attempted_concentrated_cast
+		trigger = {
+			var:signature_weapon = flag:staff
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attempted_concentrated_shot
+		trigger = {
+			var:signature_weapon = flag:bow
+		}
+	}
+}
+SignatureWeaponAttemptedLight = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attempted_light_slash
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attempted_light_crush
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attempted_light_pierce
+		trigger = {
+			var:signature_weapon = flag:spear
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attempted_quick_cast
+		trigger = {
+			var:signature_weapon = flag:staff
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_attempted_quick_shot
+		trigger = {
+			var:signature_weapon = flag:bow
+		}
+	}
+}
+SignatureWeaponAttemptedHeavyPlural = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attempted_heavy_plural_slash
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attempted_heavy_plural_crush
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attempted_heavy_plural_pierce
+		trigger = {
+			var:signature_weapon = flag:spear
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attempted_heavy_plural_cast
+		trigger = {
+			var:signature_weapon = flag:staff
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attempted_heavy_plural_shot
+		trigger = {
+			var:signature_weapon = flag:bow
+		}
+	}
+}
+SignatureWeaponAttemptedLightPlural = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attempted_light_plural_slash
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attempted_light_plural_crush
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attempted_light_plural_pierce
+		trigger = {
+			var:signature_weapon = flag:spear
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attempted_light_plural_cast
+		trigger = {
+			var:signature_weapon = flag:staff
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attempted_light_plural_shot
+		trigger = {
+			var:signature_weapon = flag:bow
+		}
+	}
+}
+SignatureWeaponFlourishPresentParticiple = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_flourish_whirling
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_flourish_flailing
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_flourish_swinging
+		trigger = {
+			var:signature_weapon = flag:spear
+		}
+	}
+	text = {
+		localization_key = signature_weapon_flourish_weaving
+		trigger = {
+			var:signature_weapon = flag:staff
+		}
+	}
+	text = {
+		localization_key = signature_weapon_flourish_drawing
+		trigger = {
+			var:signature_weapon = flag:bow
+		}
+	}
+}
+SignatureWeaponFlourishThirdPersonPresentParticiple = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_flourish_whirls
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_flourish_flails
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_flourish_swings
+		trigger = {
+			var:signature_weapon = flag:spear
+		}
+	}
+	text = {
+		localization_key = signature_weapon_flourish_weaves
+		trigger = {
+			var:signature_weapon = flag:staff
+		}
+	}
+	text = {
+		localization_key = signature_weapon_flourish_draws
+		trigger = {
+			var:signature_weapon = flag:bow
+		}
+	}
+}
+
+# Various Verb Types
+SignatureWeaponWoundVerb1 = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attack_verb_hew
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_smash
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_stab
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_burn
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:staff
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_shoot
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:bow
+			}
+		}
+	}
+}
+SignatureWeaponWoundVerb1PresentParticiple = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attack_verb_hewing
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_smashing
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_stabbing
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_burning
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:staff
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_shooting
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:bow
+			}
+		}
+	}
+}
+SignatureWeaponWoundVerb1ThirdPersonPresent = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attack_verb_hews
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_smashes
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_stabs
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_burns
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:staff
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_shoots
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:bow
+			}
+		}
+	}
+}
+SignatureWeaponWoundVerb2 = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attack_verb_bite
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_crack
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_puncture
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_electrocute
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:staff
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_snipe
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:bow
+			}
+		}
+	}
+}
+SignatureWeaponWoundVerb2ThirdPersonPresent = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attack_verb_bites
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_cracks
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_punctures
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_electrocutes
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:staff
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_snipes
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:bow
+			}
+		}
+	}
+}
+SignatureWeaponWoundVerb2PresentParticiple = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attack_verb_biting
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_cracking
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_puncturing
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_electrocuting
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:staff
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_sniping
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:bow
+			}
+		}
+	}
+}
+SignatureWeaponWoundVerb3 = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attack_verb_rend
+		trigger = { var:signature_weapon = flag:axe }
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_annihilate
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_freeze
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:staff
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_volley
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:bow
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_skewer
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+}
+SignatureWeaponWoundVerb4 = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attack_verb_carve
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_mangle
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_chop
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_drain
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:staff
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_scatter
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:bow
+			}
+		}
+	}
+}
+SignatureWeaponWoundVerb4ThirdPersonPresent = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attack_verb_carves
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_mangles
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_chops
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_drains
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:staff
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_scatters
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:bow
+			}
+		}
+	}
+}
+SignatureWeaponWoundVerb5 = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attack_verb_plunge
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_drive
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_disintegrate
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:staff
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_spray
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:bow
+			}
+		}
+	}
+}
+SignatureWeaponWoundVerb5ThirdPersonPresent = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attack_verb_plunges
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_drives
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_disintegrates
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:staff
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_sprays
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:bow
+			}
+		}
+	}
+}
+SignatureWeaponWoundVerb5PresentParticiple = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attack_verb_plunging
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_driving
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_disintegrating
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:staff
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_spraying
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:bow
+			}
+		}
+	}
+}
+SignatureWeaponWoundVerb6PresentParticiple = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attack_verb_cutting
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_smashing
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_strangulating
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:staff
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_long_shooting
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:bow
+			}
+		}
+	}
+}
+
+# Weapon Descriptors
+SignatureWeaponEndType = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_haft
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:axe
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:staff
+				var:signature_weapon = flag:bow
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_pommel
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:dagger
+				var:signature_weapon = flag:hammer
+				var:signature_weapon = flag:mace
+			}
+		}
+	}
+}
+SignatureWeaponTipType = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_point
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:staff
+				var:signature_weapon = flag:bow
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_head
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_edge
+		trigger = { var:signature_weapon = flag:axe }
+	}
+}
+SignatureWeaponEndMaterial = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_end_wood
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:staff
+				var:signature_weapon = flag:bow
+				var:signature_weapon = flag:axe
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_end_metal
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:dagger
+				var:signature_weapon = flag:hammer
+				var:signature_weapon = flag:mace
+			}
+		}
+		fallback = yes
+	}
+}
+SignatureWeaponTipAdjective = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_tip_adjective_sharp
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:axe
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_tip_adjective_heavy
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:hammer
+				var:signature_weapon = flag:mace
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_tip_adjective_blunt
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:staff
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_tip_adjective_sharp_arrow
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:bow
+			}
+		}
+	}
+}
+SignatureWeaponBreaksThirdPersonSingularPresent = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_breaks_blade_bends
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_breaks_haft_snaps_in_two
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:staff
+				var:signature_weapon = flag:bow
+				var:signature_weapon = flag:axe
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_breaks_haft_bends
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:hammer
+				var:signature_weapon = flag:mace
+			}
+		}
+		fallback = yes
+	}
+}
+SignatureWeaponBreaksThirdPersonSingularPresent2 = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_breaks_bends_the_blade
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_breaks_snaps_the_haft_in_two
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:staff
+				var:signature_weapon = flag:bow
+				var:signature_weapon = flag:axe
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_breaks_bends_the_haft
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:hammer
+				var:signature_weapon = flag:mace
+			}
+		}
+		fallback = yes
+	}
+}
+SignatureWeaponBreaksVerbPresentParticiple = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_breaks_bending_the_blade
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_breaks_snapping_the_haft
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:staff
+				var:signature_weapon = flag:bow
+				var:signature_weapon = flag:axe
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_breaks_bending_the_haft
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:hammer
+				var:signature_weapon = flag:mace
+			}
+		}
+		fallback = yes
+	}
+}
+SignatureWeaponBreaksVerbPastTense = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_breaks_bend_the_blade
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_breaks_snap_the_haft
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:staff
+				var:signature_weapon = flag:bow
+				var:signature_weapon = flag:axe
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_breaks_bend_the_haft
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:hammer
+				var:signature_weapon = flag:mace
+			}
+		}
+		fallback = yes
+	}
+}
+SignatureWeaponBreaksVerbPastTense2 = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_breaks_bent_the_blade
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_breaks_snapped_the_haft
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:staff
+				var:signature_weapon = flag:bow
+				var:signature_weapon = flag:axe
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_breaks_bent_the_haft
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:hammer
+				var:signature_weapon = flag:mace
+			}
+		}
+		fallback = yes
+	}
+}
+
+# Generic deaths
+SignatureWeaponKillType = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_crush
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_run_through
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_cut_down
+		trigger = { var:signature_weapon = flag:axe }
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_gut
+		trigger = { var:signature_weapon = flag:dagger }
+	}
+	text = {
+		localization_key = signature_weapon_killed_reduce
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_go_through
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypePastTense = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_crushed
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_run_through
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_cut_down
+		trigger = { var:signature_weapon = flag:axe }
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_gutted
+		trigger = { var:signature_weapon = flag:dagger }
+	}
+	text = {
+		localization_key = signature_weapon_killed_reduced
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_went_through
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeFirstPersonFuture = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_crush_me
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_run_me_through
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_cut_me_down
+		trigger = { var:signature_weapon = flag:axe }
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_gut_me
+		trigger = { var:signature_weapon = flag:dagger }
+	}
+	text = {
+		localization_key = signature_weapon_killed_reduce_me
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_go_through_me
+		trigger = { var:signature_weapon = flag:staff }
+	}
+}
+SignatureWeaponKillTypeThirdPersonFutureGendered = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_crush_herhim
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_run_herhim_through
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_cut_herhim_down
+		trigger = { var:signature_weapon = flag:axe }
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_gut_herhim
+		trigger = { var:signature_weapon = flag:dagger }
+	}
+	text = {
+		localization_key = signature_weapon_killed_reduced_herhim
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_went_through_herhim
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeFirstPersonPresentParticiple = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_crushing_me
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_running_me_through
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_cutting_me_down
+		trigger = { var:signature_weapon = flag:axe }
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_gutting_me
+		trigger = { var:signature_weapon = flag:dagger }
+	}
+	text = {
+		localization_key = signature_weapon_killed_reducing_me
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_going_through_me
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeThirdPersonPresentParticipleGendered = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_crushing_herhim
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_running_herhim_through
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_cutting_herhim_down
+		trigger = { var:signature_weapon = flag:axe }
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_gutting_herhim
+		trigger = { var:signature_weapon = flag:dagger }
+	}
+	text = {
+		localization_key = signature_weapon_killed_reducing_herhim
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_going_through_herhim
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeThirdPersonActive = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_crushes_me
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_runs_me_through
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_cuts_me_down
+		trigger = { var:signature_weapon = flag:axe }
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_guts_me
+		trigger = { var:signature_weapon = flag:dagger }
+	}
+	text = {
+		localization_key = signature_weapon_killed_reduces_me
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_goes_through_me
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypePastParticiple = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_crushed
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_run_through
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_cut_down
+		trigger = { var:signature_weapon = flag:axe }
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_gutted
+		trigger = { var:signature_weapon = flag:dagger }
+	}
+	text = {
+		localization_key = signature_weapon_killed_reduced
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_went_through
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+
+# Groin-centric deaths
+SignatureWeaponKillTypeGroinFirstPersonFuture = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_pulverise_my_waist
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_unseam_me_groin_to_neck
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_split_my_groin_in_two
+		trigger = { var:signature_weapon = flag:axe }
+	}
+	text = {
+		localization_key = signature_weapon_killed_stab_me_repeatedly_in_the_groin
+		trigger = { var:signature_weapon = flag:dagger }
+	}
+	text = {
+		localization_key = signature_weapon_killed_reduced_my_groin
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_shot_my_groin
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeGroinThirdPersonFutureGendered = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_pulverise_herhis_waist
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_unseam_herhim_groin_to_neck
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_split_herhis_groin_in_two
+		trigger = { var:signature_weapon = flag:axe }
+	}
+	text = {
+		localization_key = signature_weapon_killed_stab_herhim_repeatedly_in_the_groin
+		trigger = { var:signature_weapon = flag:dagger }
+	}
+	text = {
+		localization_key = signature_weapon_killed_reduced_hisher_groin
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_shot_hisher_groin
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeGroinThirdPersonActive = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_pulverises_my_waist
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_unseams_me_groin_to_neck
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_splits_my_groin_in_two
+		trigger = { var:signature_weapon = flag:axe }
+	}
+	text = {
+		localization_key = signature_weapon_killed_stabs_me_repeatedly_in_the_groin
+		trigger = { var:signature_weapon = flag:dagger }
+	}
+	text = {
+		localization_key = signature_weapon_killed_reduces_my_groin
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_shoots_my_groin
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeGroinThirdPersonActive_Aftermath = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_aftermath_forcing_my_hip_bones_through_my_thigh
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_aftermath_spilling_intestines_and_viscera_everywhere
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:axe
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_aftermath_fountaining_blood_from_my_crotch
+		trigger = { var:signature_weapon = flag:dagger }
+	}
+	text = {
+		localization_key = signature_weapon_killed_aftermath_exploding_me
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_aftermath_perforating_my_crotch
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeGroinThirdPersonPresentParticipleGendered = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_pulverising_herhis_waist
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_unseaming_herhim_groin_to_neck
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_splitting_herhis_groin_in_two
+		trigger = { var:signature_weapon = flag:axe }
+	}
+	text = {
+		localization_key = signature_weapon_killed_stabbing_herhim_repeatedly_in_the_groin
+		trigger = { var:signature_weapon = flag:dagger }
+	}
+	text = {
+		localization_key = signature_weapon_killed_aftermath_exploding_herhim
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_aftermath_shooting_herhim_repeatedly_in_the_groin
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeGroinThirdPersonPresentParticipleGendered_Aftermath = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_aftermath_forcing_herhis_hip_bones_through_herhis_thigh
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_aftermath_spilling_intestines_and_viscera_everywhere
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:axe
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_aftermath_fountaining_blood_from_herhis_crotch
+		trigger = { var:signature_weapon = flag:dagger }
+	}
+	text = {
+		localization_key = signature_weapon_killed_aftermath_exploding_herhis_crotch
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_aftermath_perforating_herhis_crotch
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+
+
+# Head-centric deaths
+SignatureWeaponKillTypeHeadFirstPersonFuture = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_crush_my_skull
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_cut_my_throat
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_hack_off_my_head
+		trigger = { var:signature_weapon = flag:axe }
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_stab_me_in_the_brain
+		trigger = { var:signature_weapon = flag:dagger }
+	}
+	text = {
+		localization_key = signature_weapon_killed_pulverize_my_head
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_headshoot_me
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeHeadThirdPersonFutureGendered = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_crush_herhis_skull
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_cut_herhis_throat
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_hack_off_herhis_head
+		trigger = { var:signature_weapon = flag:axe }
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_stab_herhim_in_the_brain
+		trigger = { var:signature_weapon = flag:dagger }
+	}
+	text = {
+		localization_key = signature_weapon_killed_pulverize_herhis_head
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_headshoot_herhim
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeHeadThirdPersonPresentGendered = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_crushing_herhis_skull
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_cutting_herhis_throat
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_hacking_off_herhis_head
+		trigger = { var:signature_weapon = flag:axe }
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_stabbing_herhim_in_the_brain
+		trigger = { var:signature_weapon = flag:dagger }
+	}
+	text = {
+		localization_key = signature_weapon_killed_pulverizing_herhis_head
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_headshooting_herhim
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+
+SignatureWeaponKillTypeHead2FirstPersonFuture = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_shatter_my_jaw
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_cut_my_throat
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_hack_out_my_throat
+		trigger = { var:signature_weapon = flag:axe }
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_magically_choke_me
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_throatshoot_me
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeHead2ThirdPersonActive = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_shatters_my_jaw
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_cuts_my_throat
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_hacks_out_my_throat
+		trigger = { var:signature_weapon = flag:axe }
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_magically_chokes_me
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_throatshoots_me
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeHead2ThirdPersonActiveGendered = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_shatters_herhis_jaw
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_cuts_herhis_throat
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_hacks_out_herhis_throat
+		trigger = { var:signature_weapon = flag:axe }
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_magically_chokes_herhim
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_throatshoots_herhim
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeHead2PresentParticiple = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_shattering_my_jaw
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_cutting_my_throat
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_hacking_out_my_throat
+		trigger = { var:signature_weapon = flag:axe }
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_magically_choking_me
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_throatshooting_me
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeHead2ThirdPersonPresentParticipleGendered = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_shattering_herhis_jaw
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_cutting_herhis_throat
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_hacking_out_herhis_throat
+		trigger = { var:signature_weapon = flag:axe }
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_magically_choking_herhim
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_throatshooting_herhim
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+
+# Rear Head-centric deaths
+SignatureWeaponKillTypeRearHeadThirdPersonPresentGendered = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_crush_herhis_skull
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_stab_herhim_in_the_base_of_the_skull
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_split_herhis_skull_in_two
+		trigger = { var:signature_weapon = flag:axe }
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_lightining_split_herhis_skull_in_two
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_headshoot_herhim2
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+
+# Torso-centric deaths
+SignatureWeaponKillTypeTorsoThirdPersonActive = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_crushes_my_sternum
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_punches_through_my_sternum
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_hews_into_my_sternum
+		trigger = { var:signature_weapon = flag:axe }
+	}
+	text = {
+		localization_key = signature_weapon_killed_blasts_my_sternum
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_chestshoots_me
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeTorsoThirdPersonActiveGendered = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_crushes_herhis_sternum
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_punches_through_herhis_sternum
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_hews_into_herhis_sternum
+		trigger = { var:signature_weapon = flag:axe }
+	}
+	text = {
+		localization_key = signature_weapon_killed_blasts_herhis_sternum
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_chestshoots_herhim
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeTorsoFirstPersonFuture = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_crush_my_sternum
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_punch_through_my_sternum
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_hew_through_my_sternum
+		trigger = { var:signature_weapon = flag:axe }
+	}
+	text = {
+		localization_key = signature_weapon_killed_blast_my_sternum
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_chestshoot_me
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeTorsoThirdPersonFutureGendered = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_crush_herhis_sternum
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_punch_through_herhis_sternum
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_hew_through_herhis_sternum
+		trigger = { var:signature_weapon = flag:axe }
+	}
+	text = {
+		localization_key = signature_weapon_killed_blast_herhis_sternum
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_chestshoot_herhim
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeTorsoPresentParticiple = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_crushing_my_sternum
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_punching_through_my_sternum
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_hewing_into_my_sternum
+		trigger = { var:signature_weapon = flag:axe }
+	}
+	text = {
+		localization_key = signature_weapon_killed_blasting_my_sternum
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_chestshooting_me
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeTorsoThirdPersonPresentParticipleGendered = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_crushing_herhis_sternum
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_punching_through_herhis_sternum
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_hewing_into_herhis_sternum
+		trigger = { var:signature_weapon = flag:axe }
+	}
+	text = {
+		localization_key = signature_weapon_killed_blasting_herhis_sternum
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_chestshooting_herhim
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeTorso2PresentParticiple = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attack_verb_sliding_between_my_ribs
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_stoving_in_my_ribs
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_pushing_through_my_ribs
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_ribshooting_me
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeTorso2ThirdPersonPresentParticipleGendered = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attack_verb_sliding_between_herhis_ribs
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_stoving_in_herhis_ribs
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_hacking_through_herhis_ribs
+		trigger = { var:signature_weapon = flag:axe }
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_pushing_through_herhis_ribs
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_ribshooting_herhim
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeTorso2ThirdPersonSimplePresentGendered = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attack_verb_stab_between_herhis_ribs
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_stove_in_herhis_ribs
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_hack_through_herhis_ribs
+		trigger = { var:signature_weapon = flag:axe }
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_push_through_herhis_ribs
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_attack_verb_ribshoot_herhim
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+
+# Rear Torso-centric deaths
+SignatureWeaponKillTypeRearTorsoThirdPersonActive = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_snaps_my_spine
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_impales_my_spine
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_hacks_my_spine_in_two
+		trigger = { var:signature_weapon = flag:axe }
+	}
+	text = {
+		localization_key = signature_weapon_killed_withered_my_spine_away
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_spineshot_me
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeRearTorsoThirdPersonActiveGendered = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_snaps_herhis_spine
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_impales_herhis_spine
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_hacks_herhis_spine_in_two
+		trigger = { var:signature_weapon = flag:axe }
+	}
+	text = {
+		localization_key = signature_weapon_killed_withers_herhis_spine_away
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_spineshoots_herhim
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeRearTorsoFirstPersonFuture = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_snap_my_spine
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_impale_my_spine
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_hack_my_spine_in_two
+		trigger = { var:signature_weapon = flag:axe }
+	}
+	text = {
+		localization_key = signature_weapon_killed_wither_my_spine_away
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_spineshoot_me
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeRearTorsoThirdPersonFutureGendered = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_snap_herhis_spine
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_impale_herhis_spine
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_hack_herhis_spine_in_two
+		trigger = { var:signature_weapon = flag:axe }
+	}
+	text = {
+		localization_key = signature_weapon_killed_wither_herhis_spine_away
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_spineshoot_herhim
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeRearTorsoPresentParticiple = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_snapping_my_spine
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_impaling_my_spine
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_hacking_my_spine_in_two
+		trigger = { var:signature_weapon = flag:axe }
+	}
+	text = {
+		localization_key = signature_weapon_killed_withering_my_spine_away
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_spineshooting_me
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}
+SignatureWeaponKillTypeRearTorsoThirdPersonPresentParticipleGendered = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_killed_snapping_herhis_spine
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_killed_impaling_herhis_spine
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:spear
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_killed_hacking_herhis_spine_in_two
+		trigger = { var:signature_weapon = flag:axe }
+	}
+	text = {
+		localization_key = signature_weapon_killed_withering_herhis_spine_away
+		trigger = { var:signature_weapon = flag:staff }
+	}
+	text = {
+		localization_key = signature_weapon_killed_spineshooting_herhim
+		trigger = { var:signature_weapon = flag:bow }
+	}
+}

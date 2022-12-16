@@ -1,0 +1,881 @@
+﻿### EK TODO: Add the Get[Base/Custom][God]NamePossessive
+
+### These custom loc allow you to get a custom (i.e 'special') and base title from a god, namely the Daedric Princes
+## That can allow us to give cultural or more specific names to our deities (poggies)
+# Azura
+GetCustomAzuraName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Regional
+	text = {
+		trigger = { faith = { has_doctrine_parameter = pantheon_adds_deities_good_daedra } }
+		localization_key = god_azura_ancitipation_of_sotha_sil_name
+	}
+
+	# Generic
+	text = {
+		localization_key = god_azura_queen_dawn_and_dusk_name
+	}
+	text = {
+		localization_key = god_azura_mother_soul_name
+	}
+	text = {
+		localization_key = god_azura_queen_fate_name
+	}
+	text = {
+		localization_key = god_azura_moonshadow_name
+	}
+	text = {
+		localization_key = god_azura_mother_of_the_rose_name
+	}
+	text = {
+		localization_key = god_azura_queen_of_the_night_sky_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = GET_RANDOM_AZURA_NAME
+	}
+}
+
+GetBaseAzuraName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Regional
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_khajiiti } }
+		localization_key = god_azurah_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_azura_name
+	}
+}
+
+# Boethiah
+GetCustomBoethiahName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Regional
+	text = {
+		trigger = { faith = { has_doctrine_parameter = pantheon_adds_deities_good_daedra } }
+		localization_key = god_boethiah_ancitipation_of_almalexia_name
+	}
+	
+	# Generic
+	text = {
+		localization_key = god_boethiah_prince_of_plots_name
+	}
+	text = {
+		localization_key = god_boethiah_dark_warrior_name
+	}
+	text = {
+		localization_key = god_boethiah_deceiver_of_nations_name
+	}
+	text = {
+		localization_key = god_boethiah_queen_of_shadows_name
+	}
+	text = {
+		localization_key = god_boethiah_goddess_of_destruction_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = GET_RANDOM_BOETHIAH_NAME
+	}
+}
+
+GetBaseBoethiahName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Regional	
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_khajiiti } }
+		localization_key = god_boethra_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_boethiah_name
+	}
+}
+
+# Clavicus Vile
+GetCustomClavicusName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Generic
+	text = {
+		localization_key = god_clavicus_prince_of_trickery_name
+	}
+	text = {
+		localization_key = god_clavicus_prince_of_bargains_name
+	}
+	text = {
+		localization_key = god_clavicus_master_of_insidious_wishes_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = GET_RANDOM_CLAVICUS_NAME
+	}
+}
+
+GetBaseClavicusName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_clavicus_name
+	}
+}
+
+# Hermaus Mora
+GetCustomHermaeusName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Regional
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_bosmeri } }
+		localization_key = god_hermaeus_woodland_man_name
+	}
+	
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_atmoran } }
+		localization_key = god_hermaeus_woodland_man_name
+	}
+	
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_khajiiti } }
+		localization_key = god_hermaeus_watcher_name
+	}
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_khajiiti } }
+		localization_key = god_hermaeus_spirit_of_the_tides_name
+	}
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_khajiiti } }
+		localization_key = god_hermaeus_tide_king_name
+	}
+	
+	# Generic
+	text = {
+		localization_key = god_hermaeus_demon_of_knowledge_name
+	}
+	text = {
+		localization_key = god_hermaeus_master_of_the_tides_of_fate_name
+	}
+	text = {
+		localization_key = god_hermaeus_gardner_of_men_name
+	}
+	text = {
+		localization_key = god_hermaeus_prince_of_fate_name
+	}
+	text = {
+		localization_key = god_hermaeus_lord_of_secrets_name
+	}
+	text = {
+		localization_key = god_hermaeus_golden_eye_name
+	}
+	text = {
+		localization_key = god_hermaeus_ur_deadra_name
+	}
+	text = {
+		localization_key = god_hermaeus_abyssal_cephaliarch_name
+	}
+	text = {
+		localization_key = god_hermaeus_old_antecedent_name
+	}
+	text = {
+		localization_key = god_hermaeus_scryer_name
+	}
+	text = {
+		localization_key = god_hermaeus_inevitable_knower_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = GET_RANDOM_HERMAEUS_NAME
+	}
+}
+
+GetBaseHermaeusName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Regional
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_bosmeri } }
+		localization_key = god_hermamora_name
+	}
+	
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_atmoran } }
+		localization_key = god_hermamora_name
+	}
+	
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_khajiiti } }
+		localization_key = god_hermorah_name
+	}
+	
+	text = {
+		trigger = { has_culture = culture:ayleid }
+		localization_key = god_hyrmamora_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_hermaeus_name
+	}
+}
+
+# Hircine
+GetCustomHircineName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Regional
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_nedic_north } }
+		localization_key = god_hircine_spirit_of_the_hunt_name
+	}
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_nedic_north } }
+		localization_key = god_hircine_great_beast_name
+	}
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_nedic_north } }
+		localization_key = god_hircine_hunt_father_name
+	}
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_nedic_north } }
+		localization_key = god_hircine_hunt_king_name
+	}
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_nedic_north } }
+		localization_key = god_hircine_beast_father_name
+	}
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_nedic_north } }
+		localization_key = god_hircine_old_elk_eye_name
+	}
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_nedic_north } }
+		localization_key = god_hircine_skinshaper_name
+	}
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_nedic_north } }
+		localization_key = god_hircine_spear_with_five_points_name
+	}
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_nedic_north } }
+		localization_key = god_hircine_horned_lord_name
+	}
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_nedic_north } }
+		localization_key = god_hircine_wolf_charmer_name
+	}
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_nedic_north } }
+		localization_key = god_hircine_master_of_the_chase_name
+	}
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_nedic_north } }
+		localization_key = god_hircine_huntsman_of_the_princes_name
+	}
+	
+	# Generic
+	text = {
+		localization_key = god_hircine_the_huntsman_name
+	}
+	text = {
+		localization_key = god_hircine_the_father_of_manbeasts_name
+	}
+	text = {
+		localization_key = god_hircine_lord_of_the_hunt_name
+	}
+	text = {
+		localization_key = god_hircine_master_of_the_great_hunt_name
+	}
+	text = {
+		localization_key = god_hircine_master_of_beasts_name
+	}
+	text = {
+		localization_key = god_hircine_master_of_the_chase_name
+	}
+	text = {
+		localization_key = god_hircine_half_the_conscience_of_man_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = GET_RANDOM_HIRCINE_NAME
+	}
+}
+
+GetBaseHircineName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_hircine_name
+	}
+}
+
+# Malacath
+GetCustomMalacathName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Regional
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_dunmeri } }
+		localization_key = god_malacath_god_king_of_orcs_name
+	}
+	
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_atmoran } }
+		localization_key = god_malacath_god_of_orcs_name
+	}
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_atmoran } }
+		localization_key = god_malacath_old_knocker_name
+	}
+	
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_yokudan } }
+		localization_key = god_malacath_horde_king_name
+	}
+	
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_goblinken } }
+		localization_key = god_malacath_blue_god_name
+	}
+	
+	# Generic
+	text = {
+		localization_key = god_malacath_god_of_curses_name
+	}
+	text = {
+		localization_key = god_malacath_prince_of_the_bloody_oath_name
+	}
+	text = {
+		localization_key = god_malacath_lord_of_ash_and_bones_name
+	}
+	text = {
+		localization_key = god_malacath_oathbreaker_name
+	}
+	text = {
+		localization_key = god_malacath_creator_of_curses_name
+	}
+	text = {
+		localization_key = god_malacath_furious_one_name
+	}
+	text = {
+		localization_key = god_malacath_keeper_of_the_bloody_curse_name
+	}
+	text = {
+		localization_key = god_malacath_defender_of_the_betrayed_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = GET_RANDOM_MALACATH_NAME
+	}
+}
+
+GetBaseMalacathName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Regional
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_atmoran } }
+		localization_key = god_orkey_name
+	}
+	
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_khajiiti } }
+		localization_key = god_orkha_name
+	}
+	
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_yokudan } }
+		localization_key = god_malooc_name
+	}
+	
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_dunmeri } }
+		localization_key = god_malak_name
+	}
+	
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_goblinken } }
+		localization_key = god_muluk_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_malacath_name
+	}
+}
+
+# Mehrunes Dagon
+GetCustomMehrunesName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Regional
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_dunmeri } }
+		localization_key = god_mehrunes_god_of_destruction_name
+	}
+	
+	# Generic
+	text = {
+		localization_key = god_mehrunes_prince_of_destruction_name
+	}
+	text = {
+		localization_key = god_mehrunes_prince_of_change_name
+	}
+	text = {
+		localization_key = god_mehrunes_prince_of_revolution_name
+	}
+	text = {
+		localization_key = god_mehrunes_black_daedra_lord_name
+	}
+	text = {
+		localization_key = god_mehrunes_thieftaker_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = GET_RANDOM_MEHRUNES_NAME
+	}
+}
+
+GetBaseMehrunesName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Regional
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_khajiiti } }
+		localization_key = god_merrunz_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_mehrunes_name
+	}
+}
+
+# Mephala
+GetCustomMephalaName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Regional
+	text = {
+		trigger = { faith = { has_doctrine_parameter = pantheon_adds_deities_good_daedra } }
+		localization_key = god_mephala_ancitipation_of_vivec_name
+	}
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_khajiiti } }
+		localization_key = god_mephala_clan_mother_of_dark_secrets_name
+	}
+	
+	# Generic
+	text = {
+		localization_key = god_mephala_webspinner_name
+	}
+	text = {
+		localization_key = god_mephala_spinner_name
+	}
+	text = {
+		localization_key = god_mephala_spider_name
+	}
+	text = {
+		localization_key = god_mephala_teacher_of_secret_arts_name
+	}
+	text = {
+		localization_key = god_mephala_queen_eight_shadows_of_murder_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = GET_RANDOM_MEPHALA_NAME
+	}
+}
+
+GetBaseMephalaName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Regional
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_khajiiti } }
+		localization_key = god_mafala_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_mephala_name
+	}
+}
+
+# Meridia
+GetCustomMeridiaName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Generic
+	text = {
+		localization_key = god_meridia_lady_infinite_energies_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = GET_RANDOM_MERIDIA_NAME
+	}
+}
+
+GetBaseMeridiaName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Regional
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_khajiiti } }
+		localization_key = god_meridnunda_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_meridia_name
+	}
+}
+
+# Molag Bal
+GetCustomMolagName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Generic
+	text = {
+		localization_key = god_molag_prince_of_domination_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = GET_RANDOM_MOLAG_NAME
+	}
+}
+
+GetBaseMolagName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Regional
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_khajiiti } }
+		localization_key = god_molagh_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_molag_name
+	}
+}
+
+# Namira
+GetCustomNamiraName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Generic
+	text = {
+		localization_key = god_namira_lady_of_decay_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = GET_RANDOM_NAMIRA_NAME
+	}
+}
+
+GetBaseNamiraName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Regional
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_khajiiti } }
+		localization_key = god_namiira_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_namira_name
+	}
+}
+
+# Nocturnal
+GetCustomNocturnalName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Generic
+	text = {
+		localization_key = god_nocturnal_mistress_of_shadows_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = GET_RANDOM_NOCTURNAL_NAME
+	}
+}
+
+GetBaseNocturnalName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Regional
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_khajiiti } }
+		localization_key = god_noctra_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_nocturnal_name
+	}
+}
+
+# Peryite
+GetCustomPeryiteName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Generic
+	text = {
+		localization_key = god_peryite_taskmaster_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = GET_RANDOM_PERYITE_NAME
+	}
+}
+
+GetBasePeryiteName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_peryite_name
+	}
+}
+
+# Sanguine
+GetCustomSanguineName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Generic
+	text = {
+		localization_key = god_sanguine_lord_revelry_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = GET_RANDOM_SANGUINE_NAME
+	}
+}
+
+GetBaseSanguineName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Regional
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_khajiiti } }
+		localization_key = god_sangiin_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_sanguine_name
+	}
+}
+
+# Sheogorath
+GetCustomSheogorathName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Generic
+	text = {
+		localization_key = god_sheogorath_prince_of_madness_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = GET_RANDOM_SHEOGORATH_NAME
+	}
+}
+
+GetBaseSheogorathName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Regional
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_khajiiti } }
+		localization_key = god_skoomacat_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_sheogorath_name
+	}
+}
+
+# Vaermina
+GetCustomVaerminaName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Generic
+	text = {
+		localization_key = god_vaermina_prince_dreams_and_nightmares_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = GET_RANDOM_VAERMINA_NAME
+	}
+}
+
+GetBaseVaerminaName = {
+	type = character
+	
+	random_valid = yes
+	
+	# Regional
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_khajiiti } }
+		localization_key = god_varmiina_name
+	}
+	
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_vaermina_name
+	}
+}

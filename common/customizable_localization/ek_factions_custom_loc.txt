@@ -1,0 +1,101 @@
+﻿BanditFaction = {
+	type = character
+
+	text = {
+		localization_key = black_bow
+		trigger = {
+			var:bandit_faction_name = flag:black_bow
+		}
+	}
+	text = {
+		localization_key = band_three
+		trigger = {
+			var:bandit_faction_name = flag:band_three
+		}
+	}	
+	text = {
+		localization_key = bitterhand
+		trigger = {
+			var:bandit_faction_name = flag:bitterhand
+		}
+	}
+	text = {
+		localization_key = bjoulsae_boys
+		trigger = {
+			var:bandit_faction_name = flag:bjoulsae_boys
+		}
+	}
+	text = {
+		localization_key = black_daggers
+		trigger = {
+			var:bandit_faction_name = flag:black_daggers
+		}
+	}
+	text = {
+		localization_key = black_dart
+		trigger = {
+			var:bandit_faction_name = flag:black_dart
+		}
+	}
+	text = {
+		localization_key = crosstree
+		trigger = {
+			var:bandit_faction_name = flag:crosstree
+		}
+	}
+	text = {
+		localization_key = dawnmead
+		trigger = {
+			var:bandit_faction_name = flag:dawnmead
+		}
+	}
+	text = {
+		localization_key = duneraider
+		trigger = {
+			var:bandit_faction_name = flag:duneraider
+		}
+	}
+	text = {
+		localization_key = frostedge
+		trigger = {
+			var:bandit_faction_name = flag:frostedge
+		}
+	}
+	text = {
+		localization_key = outlaws
+		trigger = {
+			var:bandit_faction_name = flag:outlaws
+		}
+	}
+	text = {
+		localization_key = snowblades
+		trigger = {
+			var:bandit_faction_name = flag:snowblades
+		}
+	}
+	text = {
+		localization_key = sphinxmoth
+		trigger = {
+			var:bandit_faction_name = flag:sphinxmoth
+		}
+	}
+	text = {
+		localization_key = thorns
+		trigger = {
+			var:bandit_faction_name = flag:thorns
+		}
+	}
+	text = {
+		localization_key = ungodly
+		trigger = {
+			var:bandit_faction_name = flag:ungodly
+		}
+	}
+	text = {
+		trigger = {
+			always = no
+		}
+		fallback = yes
+		localization_key = generic_bandit
+	}					
+}

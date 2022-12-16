@@ -1,0 +1,254 @@
+###Bookmark Placeholder CoA for Titles
+
+c_tawia={
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=yellow
+	color3=yellow
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_crescent.dds"
+		instance={
+			position={ 0.500000 0.665000 }
+			scale={ 0.660000 0.660000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_mena_fess.dds"
+		instance={
+			position={ 0.500000 0.250000 }
+			scale={ 1.000000 0.500000 }
+		}
+
+	}
+
+}
+
+d_worm_kingdom={
+	pattern="pattern__solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=red
+		color2=yellow
+		color3=yellow
+		texture="Wormcult.dds"
+		instance={
+			position={ 0.500000 0.420000 }
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		texture="ce_frame_side.dds"
+		instance={
+			position={ 0.510000 0.440000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+
+k_wilderking_court={
+	pattern="pattern_solid.dds"
+	color1=rgb { 29 40 17 }
+	colored_emblem={
+		color1=yellow
+		color2=rgb { 20 61 24 }
+		color3=rgb { 77 93 60 }
+		texture="ce_dunmer_frame_temple_velothi_1.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 206 137 99 }
+		color2=brown
+		color3=brown
+		texture="wilderking.dds"
+		instance={
+			position={ 0.500000 0.380000 }
+			scale={ 0.810000 0.810000 }
+		}
+
+	}
+
+}
+
+
+k_falinesti={
+	pattern = "pattern_solid.dds"
+	color1 = rgb  { 29 40 17 }
+	#colored_emblem = {
+	#    texture = "ce_bosmer_branches_4.dds"
+	#    color1 = rgb  { 195 167 123 }
+	#    instance = {	position = { 0.5 0.3 }	scale = { 2.3 -1.5 }	}
+	#}
+	#colored_emblem = {
+	#    texture = "ce_bosmer_branches_4.dds"
+	#    color1 = rgb  { 195 167 123 }
+	#    instance = {	position = { 0.5 0.55 }	scale = { -2.3 1.5 }	}
+	#}
+	colored_emblem = {
+	    texture = "ce_mena_pale.dds"
+	    color1 = rgb  { 195 167 123 }
+	    instance = {	position = { 0.5 0.5 }	scale = { 2.6 1 }	}
+	}
+	colored_emblem = {
+	    texture = "ce_mena_pale.dds"
+	    color1 = rgb  { 29 40 17 }
+	    instance = {	position = { 0.5 0.5 }	scale = { 2.2 1 }	}
+	}
+	#colored_emblem = {
+	#    texture = "ce_border_nebuly.dds"
+	#    color1 = rgb  { 29 40 17 }
+	#    color2 = rgb  { 195 167 123 }
+	#    instance = {	position = { 0.5 -0.08 }	scale = { 1.2 0.55 }#	}
+	#}
+	#colored_emblem = {
+	#    texture = "ce_valenwood_stars.dds"
+	#    color1 = rgb  { 195 167 123 }
+	#    instance = {	position = { 0.5 0.44 }	scale = { 0.7 0.7 }	}
+	#}
+	colored_emblem = {
+	    texture = "ce_valenwood.dds"
+	    color1 = rgb  { 195 167 123 }
+	    instance = {	position = { 0.5 0.45 }	scale = { 0.72 0.72 }	}
+	}
+	colored_emblem = {
+	    texture = "ce_ornoment_1.dds"
+	    color1 = rgb  { 195 167 123 }
+	    instance = {	position = { 0.5 0.61 }	scale = { 0.65 0.62 }	}
+	}
+	colored_emblem = {
+	    texture = "ce_auriel_stars.dds"
+	    color1 = rgb  { 195 167 123 }
+	    instance = {	position = { 0.5 0.16 }	scale = { 0.65 0.68 }	}
+	}
+}
+
+d_green_pact={
+	pattern="pattern_solid.dds"
+	color1=rgb { 29 40 17 }
+	colored_emblem={
+		color1=yellow
+		color2=rgb { 29 40 17 }
+		texture="ce_bosmer_branches_2.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.650000 0.650000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_frame_side.dds"
+		instance={
+			scale={ 0.850000 1.000000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 77 93 60 }
+		color2=rgb { 8 29 10 }
+		texture="ce_dunmer_frame_greathouse_1.dds"
+		instance={
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 29 40 17 }
+		color2=yellow
+		texture="ce_septim_diamond.dds"
+		instance={
+			position={ 0.500000 0.000000 }
+			scale={ 1.500000 0.550000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 29 40 17 }
+		texture="ce_frame_side.dds"
+		instance={
+			scale={ 0.950000 1.000000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+
+
+
+
+c_autumnsite={
+	pattern="pattern_solid.dds"
+	color1=blue
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=white
+		color2=red
+		texture="ce_ordinary_pale_5.dds"
+	}
+
+}
+
+
+c_spellscar = {
+	pattern="pattern_solid.dds"
+	color1=yellow
+	color2=red
+	color3=white
+	colored_emblem={
+		color1=red
+		color2=white
+		texture="ce_gironny_12.dds"
+	}
+}
+
+c_caelcalen = {
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ce_polish_siekierz.dds"
+	}
+}
+
+d_sea_vipers={
+	pattern="pattern_vertical_stripes_03.dds"
+	color1=white
+	color2=purple
+	color3=red
+	colored_emblem={
+		color1=yellow
+		texture="ce_rellenthil_corner.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}

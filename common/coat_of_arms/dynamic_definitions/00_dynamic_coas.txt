@@ -1,0 +1,107 @@
+﻿# Note: If no item is matched then falls back to the default coat of arms for that title
+
+#there is no e_reach_reachfolk coa
+#e_reach = {
+#	item = {
+#		trigger = { holder.culture = culture:reachfolk }
+#		coat_of_arms = e_reach_reachfolk
+#	}
+#}
+
+e_skyrim = {
+	item = {
+		trigger = { holder.capital_province = { geographical_region = mundus_tamriel_skyrim_haafingar } }
+		coat_of_arms = e_solitude
+	}
+	item = {
+		trigger = { holder.capital_province = { geographical_region = mundus_tamriel_skyrim_eastmarch } }
+		coat_of_arms = e_windhelm
+	}
+	item = {
+		trigger = { holder.capital_province = { geographical_region = mundus_tamriel_skyrim_whiterun } }
+		coat_of_arms = e_whiterun
+	}
+	item = {
+		trigger = { holder.capital_province = { geographical_region = mundus_tamriel_skyrim_karth } }
+		coat_of_arms = e_markarth
+	}
+	item = {
+		trigger = { holder.capital_province = { geographical_region = mundus_tamriel_skyrim_winterhold } }
+		coat_of_arms = e_winterhold
+	}
+	item = {
+		trigger = { holder.capital_province = { geographical_region = mundus_tamriel_skyrim_hjaalmarch } }
+		coat_of_arms = e_morthal
+	}
+	item = {
+		trigger = { holder.capital_province = { geographical_region = mundus_tamriel_skyrim_the_pale } }
+		coat_of_arms = e_dawnstar
+	}
+	item = {
+		trigger = { holder.capital_province = { geographical_region = mundus_tamriel_skyrim_falkreath } }
+		coat_of_arms = e_falkreath
+	}
+	item = {
+		trigger = { holder.capital_province = { geographical_region = mundus_tamriel_skyrim_the_rift } }
+		coat_of_arms = e_riften
+	}
+}
+
+k_rimmen = {
+	item = {
+		trigger = { holder.culture = { has_cultural_pillar = heritage_cyrodiilic } }
+		coat_of_arms = k_euraxian_rimmen
+	}
+}
+
+k_solstheim = {
+	item = {
+		trigger = { holder.culture = { has_cultural_pillar = heritage_goblinken } }
+		coat_of_arms = k_riekling_solstheim
+	}
+}
+
+k_markarth = {
+	item = {
+		trigger = { holder.culture = { has_cultural_pillar = heritage_nedic_north } }
+		coat_of_arms = k_markarth_reach
+	}
+	item = {
+		trigger = { holder.culture = { has_cultural_pillar = heritage_nedic_south } }
+		coat_of_arms = k_markarth_reach
+	}
+	item = {
+		trigger = { holder.culture = { has_cultural_pillar = heritage_nedic_central } }
+		coat_of_arms = k_markarth_reach
+	}
+}
+
+d_markarth = {
+	item = {
+		trigger = { holder.culture = { has_cultural_pillar = heritage_nedic_north } }
+		coat_of_arms = d_markarth_reach
+	}
+	item = {
+		trigger = { holder.culture = { has_cultural_pillar = heritage_nedic_south } }
+		coat_of_arms = d_markarth_reach
+	}
+	item = {
+		trigger = { holder.culture = { has_cultural_pillar = heritage_nedic_central } }
+		coat_of_arms = d_markarth_reach
+	}
+}
+
+d_karthald = {
+	item = {
+		trigger = { holder.culture = { has_cultural_pillar = heritage_nedic_north } }
+		coat_of_arms = d_karthald_reach
+	}
+	item = {
+		trigger = { holder.culture = { has_cultural_pillar = heritage_nedic_south } }
+		coat_of_arms = d_karthald_reach
+	}
+	item = {
+		trigger = { holder.culture = { has_cultural_pillar = heritage_nedic_central } }
+		coat_of_arms = d_karthald_reach
+	}
+}

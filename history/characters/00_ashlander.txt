@@ -1,0 +1,1928 @@
+﻿##Urshilaku Dynasty (1310190)
+
+#House Urshilaku, One the Four Great Tribes of Vvardenfell
+
+urshilaku_1 = {
+	name = "Lammak" #EK TODO: give the first ashkhans personalities corresponding to their tribes
+	dynasty = 1310190
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	
+	170.1.1 = { birth = yes }
+	200.1.1 = { give_nickname = nick_the_first_ashkhan }
+	500.1.1 = { death = yes }
+}
+urshilaku_1a = {
+	name = "Lammak" 
+	dynasty = 1310190
+	religion = old_velothi
+	culture = ashlander
+	father = urshilaku_1
+
+	trait = line_of_x
+	trait = lifespan_3
+	
+	200.1.1 = { birth = yes }
+	200.1.1 = { give_nickname = nick_line_of }
+	405.1.1 = { death = yes }
+}
+
+urshilaku_1b = {
+	name = "Yan-Ahhe" 
+	dynasty = 1310190
+	religion = old_velothi
+	culture = ashlander
+	father = urshilaku_1
+	female = yes
+
+	trait = lifespan_3
+	
+	400.1.1 = { birth = yes }
+	675.1.1 = { add_spouse = sul_100 }
+	800.1.1 = { death = yes }
+}
+
+urshilaku_97 = {
+	name = "Anit" 
+	dynasty = 1310190
+	religion = old_velothi
+	culture = ashlander
+	father = urshilaku_1a
+	
+	trait = lifespan_3
+	
+	2950.1.1 = { birth = yes }
+	3280.1.1 = { death = yes }
+}
+
+urshilaku_98 = {
+	name = "Nummu" 
+	dynasty = 1310190
+	religion = old_velothi
+	culture = ashlander
+	father = urshilaku_97
+	female = yes
+	
+	trait = lifespan_3
+	trait = education_learning_3
+	trait = witch
+	trait = mystic_3
+	
+	3011.1.1 = { birth = yes }
+	3530.1.1 = { death = yes }
+}
+
+urshilaku_99 = {
+	name = "Enkidu" 
+	dynasty = 1310190
+	religion = old_velothi
+	culture = ashlander
+	father = urshilaku_97
+	
+	trait = lifespan_3
+	
+	3050.1.1 = { birth = yes }
+	3325.1.1 = { death = yes }
+}
+
+urshilaku_100 = { #Ashkhan in 440 and 450
+	name = "Kaid_Arbul" 
+	dynasty = 1310190
+	religion = old_velothi
+	culture = ashlander
+	father = urshilaku_99
+	
+	trait = lifespan_3
+	trait = education_learning_3
+	trait = zealous
+	trait = calm
+	trait = compassionate
+	trait = arcana_good_2
+	
+	3112.1.1 = { birth = yes 
+		effect = {
+			add_perk = alteration_novice_perk
+			add_perk = alteration_apprentice_perk
+			add_perk = alteration_journeyman_perk
+			add_perk = destruction_novice_perk
+			add_perk = destruction_apprentice_perk
+			add_perk = destruction_journeyman_perk			
+		}
+	}
+	3380.1.1 = { death = yes }
+}
+
+urshilaku_101 = {
+	name = "Ashulerib" 
+	dynasty = 1310190
+	religion = old_velothi
+	culture = ashlander
+	father = urshilaku_100
+	
+	trait = lifespan_3
+	
+	3190.1.1 = { birth = yes }
+	3300.1.1 = { death = yes }
+}
+
+urshilaku_102 = {
+	name = "Emah-Ral" 
+	dynasty = 1310190
+	religion = old_velothi
+	culture = ashlander
+	father = urshilaku_100
+	
+	trait = lifespan_3
+	
+	3213.1.1 = { birth = yes }
+	3310.1.1 = { death = yes }
+}
+
+urshilaku_103 = {
+	name = "Zabi" 
+	dynasty = 1310190
+	religion = old_velothi
+	culture = ashlander
+	father = urshilaku_100
+	female = yes
+	
+	trait = lifespan_3
+	
+	3250.1.1 = { birth = yes }
+	3520.1.1 = { death = yes }
+}
+
+urshilaku_104 = {
+	name = "Galam" 
+	dynasty = 1310190
+	religion = old_velothi
+	culture = ashlander
+	father = urshilaku_100
+	
+	trait = lifespan_3
+	trait = education_diplomacy_2
+	trait = craven
+	trait = shy
+	trait = education_magical_ability_1
+	
+	3300.1.1 = { birth = yes }
+	3540.1.1 = { death = yes }
+}
+
+urshilaku_105 = {
+	name = "Sul" 
+	dynasty = 1310190
+	religion = old_velothi
+	culture = ashlander
+	father = urshilaku_104
+	
+	trait = lifespan_3
+	
+	3367.1.1 = { birth = yes }
+	3540.1.1 = { death = yes }
+}
+
+urshilaku_106 = {
+	name = "Mubdan" 
+	dynasty = 1310190
+	religion = old_velothi
+	culture = ashlander
+	mother = urshilaku_103
+	
+	trait = lifespan_3
+	
+	3359.1.1 = { birth = yes }
+	3540.1.1 = { death = yes }
+}
+
+#House Uleni
+
+uleni_98 = {
+	name = "Draitsuul" 
+	dynasty_house = urshilaku_uleni
+	religion = old_velothi
+	culture = ashlander
+	father = urshilaku_1a
+	
+	trait = lifespan_3
+	
+	3089.1.1 = { birth = yes }
+	3300.1.1 = { death = yes }
+}
+
+uleni_99 = {
+	name = "Unamaeth" 
+	dynasty_house = urshilaku_uleni
+	religion = old_velothi
+	culture = ashlander
+	father = uleni_98
+	
+	trait = lifespan_3
+	
+	3200.1.1 = { birth = yes }
+	3359.1.1 = { death = yes }
+}
+
+uleni_100 = {
+	name = "Zuko" 
+	dynasty_house = urshilaku_uleni
+	religion = old_velothi
+	culture = ashlander
+	father = uleni_99
+	
+	trait = lifespan_3
+	
+	3299.1.1 = { birth = yes }
+	3560.1.1 = { death = yes }
+}
+
+uleni_101 = {
+	name = "Pilu" 
+	dynasty_house = urshilaku_uleni
+	religion = old_velothi
+	culture = ashlander
+	father = uleni_99
+	
+	trait = lifespan_3
+	
+	3355.1.1 = { birth = yes }
+	3700.1.1 = { death = yes }
+}
+
+#House Conoon
+
+conoon_98 = {
+	name = "Zabamib" 
+	dynasty_house = urshilaku_conoon
+	religion = old_velothi
+	culture = ashlander
+	father = urshilaku_1a
+	
+	trait = lifespan_3
+	
+	2890.1.1 = { birth = yes }
+	3100.1.1 = { death = yes }
+}
+
+conoon_99 = {
+	name = "Dakin" 
+	dynasty_house = urshilaku_conoon
+	religion = old_velothi
+	culture = ashlander
+	father = conoon_98
+	
+	trait = lifespan_3
+	
+	3000.1.1 = { birth = yes }
+	3210.1.1 = { death = yes }
+}
+
+conoon_100 = {
+	name = "Ahasour" 
+	dynasty_house = urshilaku_conoon
+	religion = old_velothi
+	culture = ashlander
+	father = conoon_99
+	
+	trait = lifespan_3
+	trait = ambitious
+	trait = education_martial_4
+	trait = education_magical_ability_1
+	
+	3150.1.1 = { birth = yes }
+	3491.1.1 = { death = yes }
+}
+
+conoon_101 = {
+	name = "Dralas" 
+	dynasty_house = urshilaku_conoon
+	religion = old_velothi
+	culture = ashlander
+	father = conoon_100
+	
+	trait = lifespan_3
+	
+	3290.1.1 = { birth = yes }
+	3460.1.1 = { death = yes }
+}
+
+conoon_102 = {
+	name = "Chodala" #TODO - Add Nerevarine trait
+	dynasty_house = urshilaku_conoon
+	religion = old_velothi
+	culture = ashlander
+	father = conoon_101
+	
+	trait = ambitious
+	trait = arrogant
+	trait = zealous
+	trait = adventurer
+	trait = lifespan_3
+	
+	3432.1.1 = { birth = yes }
+	3502.10.1 = { death = yes }
+}
+
+conoon_103 = {
+	name = "Seryn" 
+	dynasty_house = urshilaku_conoon
+	religion = old_velothi
+	culture = ashlander
+	female = yes
+	father = conoon_2
+	
+	trait = lifespan_3
+	
+	3449.1.1 = { birth = yes }
+	3690.10.1 = { death = yes }
+}
+
+conoon_104 = {
+	name = "Emul-Ran" 
+	dynasty_house = urshilaku_conoon
+	religion = old_velothi
+	culture = ashlander
+	father = conoon_100
+	
+	trait = lifespan_3
+	
+	3301.1.1 = { birth = yes }
+	3476.1.1 = { death = yes }
+}
+
+
+##Ahemmusa Dynasty (1310192)
+
+#House Ahemmusa, One the Four Great Tribes of Vvardenfell
+
+ahemmusa_1 = {
+	name = "Nalor" 
+	dynasty = 1310192
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	
+	170.1.1 = { birth = yes }
+	200.1.1 = { give_nickname = nick_the_first_ashkhan }
+	413.1.1 = { death = yes }
+}
+ahemmusa_1a = {
+	name = "Nalor" 
+	dynasty = 1310192
+	religion = old_velothi
+	culture = ashlander
+	father = ahemmusa_1
+
+	trait = line_of_x
+	trait = lifespan_3
+	
+	200.1.1 = { birth = yes }
+	170.1.1 = { give_nickname = nick_line_of }
+	413.1.1 = { death = yes }
+}
+
+ahemmusa_97 = {
+	name = "Zabamib" 
+	dynasty = 1310192
+	religion = old_velothi
+	culture = ashlander
+	father = ahemmusa_1a
+	
+	trait = lifespan_3
+	
+	2900.1.1 = { birth = yes }
+	3110.1.1 = { death = yes }
+}
+
+ahemmusa_98 = {
+	name = "Dun-Ilu" 
+	dynasty = 1310192
+	religion = old_velothi
+	culture = ashlander
+	father = ahemmusa_97
+	
+	trait = lifespan_3
+	
+	3050.1.1 = { birth = yes }
+	3230.1.1 = { death = yes }
+}
+
+ahemmusa_99 = {
+	name = "Vasamannu" 
+	dynasty = 1310192
+	religion = old_velothi
+	culture = ashlander
+	father = ahemmusa_98
+	
+	trait = lifespan_3
+	
+	3200.1.1 = { birth = yes }
+	3290.1.1 = { death = yes }
+}
+
+ahemmusa_100 = {
+	name = "Nevon" 
+	dynasty = 1310192
+	religion = old_velothi
+	culture = ashlander
+	father = ahemmusa_99
+	
+	trait = lifespan_3
+	
+	3227.1.1 = { birth = yes }
+	3350.1.1 = { death = yes }
+}
+
+ahemmusa_101 = {
+	name = "Ibaal" 
+	dynasty = 1310192
+	religion = old_velothi
+	culture = ashlander
+	father = ahemmusa_100
+	
+	trait = lifespan_3
+	trait = education_stewardship_2
+	trait = shy
+	trait = content
+	trait = calm
+	trait = arcana_good_3
+	
+	3247.1.1 = { birth = yes }
+	3500.1.1 = { death = yes }
+}
+
+ahemmusa_102 = {
+	name = "Seryn" 
+	dynasty_house = ahemmusa_ahemmannu
+	religion = old_velothi
+	culture = ashlander
+	father = ahemmusa_100
+	
+	trait = lifespan_3
+	
+	3301.1.1 = { birth = yes }
+	3490.1.1 = { death = yes }
+}
+
+#House Sinnammu
+
+sinnammu_100 = { #Remnants of the Ahemmusa who stayed behind after they were kicked from their traditional lands and relocated to the Bitter Coast
+	name = "Ashu_Awa" 
+	dynasty_house = ahemmusa_sinnammu
+	religion = old_velothi
+	culture = ashlander
+	father = ahemmusa_98
+	
+	trait = lifespan_3
+	trait = education_stewardship_3
+	trait = zealous
+	trait = content
+	trait = scarred
+	
+	3159.1.1 = { birth = yes }
+	3372.1.1 = { death = yes }
+}
+
+sinnammu_101 = { 
+	name = "Shara" 
+	dynasty_house = ahemmusa_sinnammu
+	religion = old_velothi
+	culture = ashlander
+	father = sinnammu_100
+	female = yes
+	
+	trait = lifespan_3
+	trait = education_learning_3
+	trait = witch
+	trait = mystic_3
+	trait = twin
+	
+	3200.1.1 = { birth = yes }
+	3670.1.1 = { death = yes }
+}
+
+sinnammu_102 = { 
+	name = "Zebba" 
+	dynasty_house = ahemmusa_sinnammu
+	religion = old_velothi
+	culture = ashlander
+	father = sinnammu_100
+	female = yes
+	
+	trait = lifespan_3
+	trait = education_learning_3
+	trait = witch
+	trait = mystic_3
+	trait = twin
+	
+	3200.1.1 = { birth = yes }
+	3700.1.1 = { death = yes }
+}
+
+sinnammu_103 = { 
+	name = "Nummu" 
+	dynasty_house = ahemmusa_sinnammu
+	religion = old_velothi
+	culture = ashlander
+	father = sinnammu_100
+	female = yes
+	
+	trait = lifespan_3
+	trait = education_learning_3
+	trait = witch
+	trait = mystic_3
+	trait = twin
+	
+	3200.1.1 = { birth = yes }
+	3705.1.1 = { death = yes }
+}
+
+
+##Zainab Dynasty (dyn_zainab)
+
+#House Zainab, One the Four Great Tribes of Vvardenfell
+
+zainab_1 = {
+	name = "Akami" 
+	dynasty = dyn_zainab
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	
+	170.1.1 = { birth = yes }
+	200.1.1 = { give_nickname = nick_the_first_ashkhan }
+	390.1.1 = { death = yes }
+}
+zainab_1a = {
+	name = "Akami" 
+	dynasty = dyn_zainab
+	religion = old_velothi
+	culture = ashlander
+	father = zainab_1
+
+	trait = line_of_x
+	trait = lifespan_3
+	
+	300.1.1 = { birth = yes }
+	300.1.1 = { give_nickname = nick_line_of }
+	390.1.1 = { death = yes }
+}
+
+zainab_99 = {
+	name = "Trehaddu" 
+	dynasty = dyn_zainab
+	religion = old_velothi
+	culture = ashlander
+	father = zainab_1a
+	
+	trait = lifespan_3
+	
+	3000.1.1 = { birth = yes }
+	3250.1.1 = { death = yes }
+}
+
+zainab_100 = {
+	name = "Ulath_Pal" 
+	dynasty = dyn_zainab
+	religion = old_velothi
+	culture = ashlander
+	father = zainab_99
+	
+	trait = lifespan_3
+	
+	3190.1.1 = { birth = yes }
+	3340.1.1 = { death = yes }
+}
+
+zainab_101 = {
+	name = "Ulath_Pal" 
+	dynasty = dyn_zainab
+	religion = old_velothi
+	culture = ashlander
+	father = zainab_100
+	
+	trait = lifespan_3
+	trait = gregarious
+	trait = greedy
+	trait = trusting
+	trait = education_stewardship_2
+	trait = education_martial_prowess_3
+	
+	3300.1.1 = { birth = yes }
+	3515.1.1 = { death = yes }
+}
+
+zainab_102 = {
+	name = "Ashur-dan" 
+	dynasty = dyn_zainab
+	religion = old_velothi
+	culture = ashlander
+	father = zainab_100
+	
+	trait = lifespan_3
+	
+	3320.1.1 = { birth = yes }
+	3530.1.1 = { death = yes }
+}
+
+zainab_103 = {
+	name = "Akami" 
+	dynasty = dyn_zainab
+	religion = old_velothi
+	culture = ashlander
+	father = zainab_100
+	
+	trait = lifespan_3
+	
+	3330.1.1 = { birth = yes }
+	3600.1.1 = { death = yes }
+}
+
+zainab_104 = {
+	name = "Tashpi" 
+	dynasty = dyn_zainab
+	religion = old_velothi
+	culture = ashlander
+	father = zainab_100
+	female = yes
+	
+	trait = lifespan_3
+	trait = mystic_2
+	trait = education_magical_ability_2
+	
+	3250.1.1 = { birth = yes }
+	3630.1.1 = { death = yes }
+}
+
+zainab_105 = {
+	name = "Ahanabi" 
+	dynasty = dyn_zainab
+	religion = old_velothi
+	culture = ashlander
+	father = zainab_99
+	female = yes
+	
+	trait = lifespan_3
+	trait = witch
+	trait = education_magical_ability_2
+	
+	3245.1.1 = { birth = yes }
+	3510.1.1 = { death = yes }
+}
+
+zainab_106 = {
+	name = "Iya" 
+	dynasty = dyn_zainab
+	religion = old_velothi
+	culture = ashlander
+	father = zainab_101
+	
+	trait = lifespan_3
+	trait = patient
+	trait = arbitrary
+	trait = compassionate
+	trait = education_diplomacy_2
+	
+	3314.1.1 = { birth = yes }
+	3515.1.1 = { death = yes }
+}
+
+zainab_107 = {
+	name = "Yanit" 
+	dynasty = dyn_zainab
+	religion = old_velothi
+	culture = ashlander
+	father = zainab_101
+	
+	trait = lifespan_3
+	trait = stubborn
+	trait = wrathful
+	trait = honest
+	trait = education_stewardship_3
+	
+	3319.1.1 = { birth = yes }
+	3515.1.1 = { death = yes }
+}
+
+#House Oubani
+
+oubani_98 = {
+	name = "Dreyla" 
+	dynasty_house = zainab_oubani
+	religion = old_velothi
+	culture = ashlander
+	father = zainab_1a
+	female = yes
+	
+	trait = lifespan_3
+	trait = mystic_2
+	
+	3077.1.1 = { birth = yes }
+	3362.1.1 = { death = yes }
+}
+
+oubani_99 = {
+	name = "Beden" 
+	dynasty_house = zainab_oubani
+	religion = old_velothi
+	culture = ashlander
+	mother = oubani_98
+	
+	trait = lifespan_3
+	
+	3150.1.1 = { birth = yes }
+	3300.1.1 = { death = yes }
+}
+
+oubani_100 = {
+	name = "Enkidu" 
+	dynasty_house = zainab_oubani
+	religion = old_velothi
+	culture = ashlander
+	father = oubani_99
+	
+	trait = lifespan_3
+	trait = education_martial_prowess_4
+	trait = hunter_3
+	
+	3179.1.1 = { birth = yes }
+	3400.1.1 = { death = yes }
+}
+
+oubani_101 = {
+	name = "Selk" 
+	dynasty_house = zainab_oubani
+	religion = old_velothi
+	culture = ashlander
+	father = oubani_100
+	
+	trait = lifespan_3
+	
+	3220.1.1 = { birth = yes }
+	3450.1.1 = { death = yes }
+}
+
+oubani_102 = {
+	name = "Dredase-Hlarar" 
+	dynasty_house = zainab_oubani
+	religion = old_velothi
+	culture = ashlander
+	father = oubani_100
+	
+	trait = lifespan_3
+	
+	3250.1.1 = { birth = yes }
+	3410.1.1 = { death = yes }
+}
+
+#House Bensiberib
+
+bensiberib_1 = {
+	name = "Zalit" 
+	dynasty_house = zainab_bensiberib
+	religion = old_velothi
+	culture = ashlander
+	father = zainab_99
+	
+	trait = lifespan_3
+	
+	3230.1.1 = { birth = yes }
+	3430.1.1 = { death = yes }
+}
+
+##Erabenimsun Dynasty (1310191)
+
+#House Erabenimsun, One the Four Great Tribes of Vvardenfell
+
+erabenimsun_1 = {
+	name = "Shadar" 
+	dynasty = 1310191
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	
+	170.1.1 = { birth = yes }
+	200.1.1 = { give_nickname = nick_the_first_ashkhan }
+	395.1.1 = { death = yes }
+}
+erabenimsun_1a = {
+	name = "Shadar" 
+	dynasty = 1310191
+	religion = old_velothi
+	culture = ashlander
+	father = erabenimsun_1
+
+	trait = line_of_x
+	trait = lifespan_3
+	
+	300.1.1 = { birth = yes }
+	300.1.1 = { give_nickname = nick_line_of }
+	390.1.1 = { death = yes }
+}
+
+erabenimsun_98 = {
+	name = "Zalit" 
+	dynasty = 1310191
+	religion = old_velothi
+	culture = ashlander
+	father = erabenimsun_1a
+	
+	trait = lifespan_3
+	
+	3100.1.1 = { birth = yes }
+	3240.1.1 = { death = yes }
+}
+
+erabenimsun_99 = {
+	name = "Ulamadash" 
+	dynasty = 1310191
+	religion = old_velothi
+	culture = ashlander
+	father = erabenimsun_98
+	
+	trait = lifespan_3
+	
+	3178.1.1 = { birth = yes }
+	3250.1.1 = { death = yes }
+}
+
+erabenimsun_100 = {
+	name = "Ainab" 
+	dynasty = 1310191
+	religion = old_velothi
+	culture = ashlander
+	father = erabenimsun_99
+	
+	trait = lifespan_3
+	trait = education_martial_prowess_2
+	trait = education_martial_2
+	trait = cynical
+	trait = sadistic
+	trait = greedy
+	trait = arcana_good_1
+	
+	3198.1.1 = { birth = yes }
+	3499.1.1 = { death = yes }
+}
+
+erabenimsun_101 = {
+	name = "Sul-Bareth" 
+	dynasty = 1310191
+	religion = old_velothi
+	culture = ashlander
+	father = erabenimsun_100
+	
+	trait = lifespan_3
+	trait = education_martial_4
+	trait = arrogant
+	trait = sadistic
+	trait = arcana_good_1
+	trait = education_magical_ability_1
+	
+	3260.1.1 = { birth = yes }
+	3320.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:erabenimsun_102 } } }
+	3369.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:erabenimsun_100 } } } #Watched erabenimsun_104 get beaten to death by their father for being too weak
+	3369.1.1 = { effect = { remove_relation_rival = character:erabenimsun_102 } }
+	3510.1.1 = { death = yes }
+}
+
+erabenimsun_102 = {
+	name = "Sul-Matuul" 
+	dynasty = 1310191
+	religion = old_velothi
+	culture = ashlander
+	father = erabenimsun_100
+	
+	trait = lifespan_3
+	trait = education_martial_prowess_4
+	trait = arrogant 
+	trait = greedy
+	
+	3264.1.1 = { birth = yes }
+	3369.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:erabenimsun_100 } } } #Watched erabenimsun_104 get beaten to death by their father for being too weak
+	3513.1.1 = { death = yes }
+}
+
+erabenimsun_103 = {
+	name = "Midnabi" 
+	dynasty = 1310191
+	religion = old_velothi
+	culture = ashlander
+	father = erabenimsun_100
+	female = yes
+	
+	trait = lifespan_3
+	trait = education_learning_3
+	trait = education_magical_ability_2
+	trait = cynical
+	trait = forgiving
+	trait = honest
+	
+	3300.1.1 = { birth = yes }
+	3369.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:erabenimsun_100 } } } #Watched erabenimsun_104 get beaten to death by their father for being too weak
+	3513.1.1 = { death = yes }
+}
+
+erabenimsun_104 = {
+	name = "Manat" 
+	dynasty = 1310191
+	religion = old_velothi
+	culture = ashlander
+	father = erabenimsun_100
+	
+	trait = lifespan_3
+	trait = education_martial_1
+	trait = craven
+	trait = compassionate
+	trait = shy
+	
+	3342.1.1 = { birth = yes }
+	3369.1.1 = { death = { death_reason = death_piteously_cut_down killer = erabenimsun_100 } } #"YOU NEED TO TOUGHEN UP, BOY"
+}
+
+#House Erabenawia
+
+erabenawia_98 = {
+	name = "Udami" 
+	dynasty_house = urabenimsun_urabenawia
+	religion = old_velothi
+	culture = ashlander
+	father = erabenimsun_1a
+	
+	trait = lifespan_3
+	
+	2900.1.1 = { birth = yes }
+	3100.1.1 = { death = yes }
+}
+
+erabenawia_99 = {
+	name = "Zershishi" 
+	dynasty_house = urabenimsun_urabenawia
+	religion = old_velothi
+	culture = ashlander
+	father = erabenawia_98
+	
+	trait = lifespan_3
+	
+	2980.1.1 = { birth = yes }
+	3130.1.1 = { death = yes }
+}
+
+erabenawia_100 = {
+	name = "Udami" 
+	dynasty_house = urabenimsun_urabenawia
+	religion = old_velothi
+	culture = ashlander
+	father = erabenawia_99
+	
+	trait = lifespan_3
+	
+	3020.1.1 = { birth = yes }
+	3365.1.1 = { death = yes }
+}
+
+erabenawia_101 = {
+	name = "Missami" 
+	dynasty_house = urabenimsun_urabenawia
+	religion = old_velothi
+	culture = ashlander
+	father = erabenawia_100
+	
+	trait = lifespan_3
+	
+	3130.1.1 = { birth = yes }
+	3450.1.1 = { death = yes }
+}
+
+erabenawia_102 = {
+	name = "Nakan-Obar" 
+	dynasty_house = urabenimsun_urabenawia
+	religion = old_velothi
+	culture = ashlander
+	father = erabenawia_99
+	
+	trait = lifespan_3
+	
+	3100.1.1 = { birth = yes }
+	3380.1.1 = { death = yes }
+}
+
+erabenawia_103 = {
+	name = "Yeheradad" 
+	dynasty_house = urabenimsun_urabenawia
+	religion = old_velothi
+	culture = ashlander
+	father = erabenawia_102
+	
+	trait = lifespan_3
+	
+	3276.1.1 = { birth = yes }
+	3512.1.1 = { death = yes }
+}
+
+erabenawia_104 = {
+	name = "Tunipy" 
+	dynasty_house = urabenimsun_urabenawia
+	religion = old_velothi
+	culture = ashlander
+	father = erabenawia_102
+	female = yes
+	
+	trait = lifespan_3
+	
+	3290.1.1 = { birth = yes }
+	3600.1.1 = { death = yes }
+}
+
+##Shamirbasour Dynasty (1310150)
+
+#House Shamirbasour
+
+shamirbasour_1 = {
+	name = "Ahanabi" 
+	dynasty = 1310150
+	religion = old_velothi
+	culture = ashlander
+	female = yes
+	
+	trait = lifespan_3
+	trait = mystic_3
+	trait = education_learning_3
+	
+	3165.1.1 = { birth = yes }
+	3367.1.1 = { death = yes }
+}
+
+
+##Urlvannu Dynasty (1310194)
+
+#House Urlvannu
+
+urlvannu_1 = {
+	name = "Ohibaal" 
+	dynasty = 1310194
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	trait = arcana_good_1
+	
+	3334.1.1 = { birth = yes }
+	3430.1.1 = { death = yes }
+}
+
+
+
+##Serranipu Dynasty (1310195)
+
+#House Serranipu
+
+serranipu_1 = {
+	name = "Yan" 
+	dynasty = 1310195
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	trait = arcana_bad_1
+	
+	3280.1.1 = { birth = yes }
+	3490.1.1 = { death = yes }
+}
+
+##Mabrigash Dynasty (1310196)
+
+#House Mabrigash, Tribe of Ghost Snake Vale
+
+mabrigash_1 = {
+	name = "Hareth" 
+	dynasty = 1310196
+	religion = coiled_path
+	culture = ashlander
+	female = yes
+	
+	trait = lifespan_3
+	
+	300.1.1 = { birth = yes }
+	330.1.1 = { give_nickname = nick_the_first_ashkhan }
+	570.1.1 = { death = yes }
+}
+mabrigash_1a = {
+	name = "Hareth" 
+	dynasty = 1310196
+	religion = coiled_path
+	culture = ashlander
+	female = yes
+	mother = mabrigash_1
+	
+	trait = lifespan_3
+	trait = line_of_x
+	
+	330.1.1 = { birth = yes }
+	330.1.1 = { give_nickname = nick_line_of }
+	570.1.1 = { death = yes }
+}
+
+mabrigash_2 = {
+	name = "Nammu" 
+	dynasty = 1310196
+	religion = coiled_path
+	culture = ashlander
+	mother = mabrigash_1a
+	female = yes
+	
+	trait = lifespan_3
+	
+	3090.1.1 = { birth = yes }
+	3355.1.1 = { death = yes }
+}
+
+mabrigash_3 = {
+	name = "Adusamsi" 
+	dynasty = 1310196
+	religion = coiled_path
+	culture = ashlander
+	female = yes
+	mother = mabrigash_2
+	
+	trait = lifespan_3
+	
+	3250.1.1 = { birth = yes }
+	3485.1.1 = { death = yes }
+}
+
+mabrigash_4 = {
+	name = "Bodani" 
+	dynasty = 1310196
+	religion = coiled_path
+	culture = ashlander
+	female = yes
+	mother = mabrigash_3
+	
+	trait = lifespan_3
+	
+	3327.1.1 = { birth = yes }
+	3650.1.1 = { death = yes }
+}
+
+mabrigash_5 = {
+	name = "Dakin" 
+	dynasty = 1310196
+	religion = coiled_path
+	culture = ashlander
+	mother = mabrigash_2
+	
+	trait = lifespan_3
+	
+	3272.1.1 = { birth = yes }
+	3489.1.1 = { death = yes }
+}
+
+##Sedri Dynasty (1300574)
+
+#House Sedri
+
+sedri_1 = {
+	name = "Yanabu" 
+	dynasty = 1300574
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	
+	3301.1.1 = { birth = yes }
+	3540.1.1 = { death = yes }
+}
+
+##Zelma-Alit Dynasty (1310188)
+
+#House Zelma-Alit
+
+zelmaalit_1 = {
+	name = "Milu" 
+	dynasty = 1310188
+	religion = old_velothi
+	culture = ashlander
+	female = yes
+	
+	trait = lifespan_3
+	
+	3278.1.1 = { birth = yes }
+	3535.1.1 = { death = yes }
+}
+
+##Aharasaplit Dynasty (1310188)
+
+#House Aharasaplit
+
+aharasaplit_1 = { #girlboss
+	name = "Garlubash" 
+	dynasty = 1310197
+	religion = old_velothi
+	culture = ashlander
+	female = yes
+	
+	trait = education_martial_prowess_3
+	trait = lifespan_3
+	
+	3259.1.1 = { birth = yes }
+	3500.1.1 = { death = yes }
+}
+
+aharasaplit_2 = { 
+	name = "Assatlit" 
+	dynasty = 1310197
+	religion = old_velothi
+	culture = ashlander
+	mother = aharasaplit_1
+	
+	trait = lifespan_3
+	
+	3316.1.1 = { birth = yes }
+	3577.1.1 = { death = yes }
+}
+
+##Ilabael Dynasty (1310095)
+
+#House Ilabael
+
+ilabael_1 = {
+	name = "Vasamannu" 
+	dynasty = 1310095
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	
+	3299.1.1 = { birth = yes }
+	3390.1.1 = { death = yes }
+}
+
+ilabael_2 = {
+	name = "Esar-Don" 
+	dynasty = 1310095
+	religion = old_velothi
+	culture = ashlander
+	father = ilabael_1
+	
+	trait = lifespan_3
+	
+	3350.1.1 = { birth = yes }
+	3499.1.1 = { death = yes }
+}
+
+##Zenammu Dynasty (1310189)
+
+#House Zenammu
+
+zenammu_1 = {
+	name = "Dunsalipal" 
+	dynasty = 1310189
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	
+	3333.1.1 = { birth = yes }
+	3570.1.1 = { death = yes }
+}
+
+##Abalkawa Dynasty (1310008)
+
+#House Abalkawa
+
+abalkawa_1 = {
+	name = "Oril" 
+	dynasty = 1310008
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	
+	3239.1.1 = { birth = yes }
+	3580.1.1 = { death = yes }
+}
+
+##Zama-Rasour Dynasty (1310007)
+
+#House Zama-Rasour
+
+zamarasour_1 = {
+	name = "Ervas" 
+	dynasty = 1310007
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	
+	3298.1.1 = { birth = yes }
+	3600.1.1 = { death = yes }
+}
+
+##Kaushadassa Dynasty (1310008)
+
+#House Kaushadassa
+
+kaushadassa_1 = {
+	name = "Yenammu" 
+	dynasty = 1310198
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	
+	3257.1.1 = { birth = yes }
+	3490.1.1 = { death = yes }
+}
+
+kaushadassa_2 = {
+	name = "Assirari" 
+	dynasty = 1310198
+	religion = old_velothi
+	culture = ashlander
+	female = yes
+	father = kaushadassa_1
+	
+	trait = lifespan_3
+	
+	3323.1.1 = { birth = yes }
+	3540.1.1 = { death = yes }
+}
+
+##Ulath Dynasty (1310201)
+
+#House Ulath, Tribe of Stonefalls
+
+ulath_1 = {
+	name = "Mansilamat" 
+	dynasty = 1310201
+	religion = mephala_cult
+	culture = ashlander
+	
+	trait = lifespan_3
+	
+	3240.1.1 = { birth = yes }
+	3495.1.1 = { death = yes }
+}
+
+ulath_2 = {
+	name = "Yantus" 
+	dynasty = 1310201
+	religion = mephala_cult
+	culture = ashlander
+	father = ulath_1
+	
+	trait = lifespan_3
+	
+	3267.1.1 = { birth = yes }
+	3520.1.1 = { death = yes }
+}
+
+ulath_3 = {
+	name = "Mamaea" 
+	dynasty = 1310201
+	religion = mephala_cult
+	culture = ashlander
+	female = yes
+	father = ulath_1
+	
+	trait = lifespan_3
+	
+	3299.1.1 = { birth = yes }
+	3526.1.1 = { death = yes }
+}
+
+##Kagesh Dynasty (1310200)
+
+#House Kagesh, Tribe of Stonefalls
+
+kagesh_1 = {
+	name = "Zabarbael" 
+	dynasty = 1310200
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	
+	3154.1.1 = { birth = yes }
+	# 3200.1.1 = { give_nickname = nick_the_first_ashkhan }
+	3380.1.1 = { death = yes }
+}
+
+kagesh_2 = {
+	name = "Yapal" 
+	dynasty = 1310200
+	religion = old_velothi
+	culture = ashlander
+	father = kagesh_1
+	
+	trait = lifespan_3
+	
+	3230.1.1 = { birth = yes }
+	# 3200.1.1 = { give_nickname = nick_the_first_ashkhan }
+	3410.1.1 = { death = yes }
+}
+
+kagesh_3 = {
+	name = "Addut-Lamanu" 
+	dynasty = 1310200
+	religion = old_velothi
+	culture = ashlander
+	female = yes
+	father = kagesh_1
+	
+	trait = lifespan_3
+	
+	3272.1.1 = { birth = yes }
+	# 3200.1.1 = { give_nickname = nick_the_first_ashkhan }
+	3520.1.1 = { death = yes }
+}
+
+##Ahalkalun Dynasty (1310016)
+
+#House Akalkalun
+
+ahalkalun_1 = {
+	name = "Sul_Matuul" 
+	dynasty = 1310016
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	
+	3115.1.1 = { birth = yes }
+	3371.1.1 = { death = yes }
+}
+
+ahalkalun_2 = {
+	name = "Zenabi" 
+	dynasty = 1310016
+	religion = old_velothi
+	culture = ashlander
+	father = ahalkalun_1
+	
+	trait = lifespan_3
+	
+	3268.1.1 = { birth = yes }
+	3570.1.1 = { death = yes }
+}
+
+##Zainsubani Dynasty (1310006)
+
+#House Zainsubani
+
+zainsubani_1 = {
+	name = "Enassour" 
+	dynasty = 1310006
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	
+	3345.1.1 = { birth = yes }
+	3570.1.1 = { death = yes }
+}
+
+##Vereansu Dynasty (1310199)
+
+#House Vereansu, Tribe of Deshaan
+
+vereansu_100 = {
+	name = "Sannit" 
+	dynasty = 1310199
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	
+	2890.1.1 = { birth = yes }
+	2920.1.1 = { give_nickname = nick_the_first_ashkhan }
+	3100.1.1 = { death = yes }
+}
+
+vereansu_101 = {
+	name = "Ulamadash" 
+	dynasty = 1310199
+	religion = old_velothi
+	culture = ashlander
+	father = vereansu_100
+	
+	trait = lifespan_3
+	
+	3000.1.1 = { birth = yes }
+	3355.1.1 = { death = yes }
+}
+
+vereansu_102 = {
+	name = "Oidaran" 
+	dynasty = 1310199
+	religion = old_velothi
+	culture = ashlander
+	father = vereansu_101
+	
+	trait = lifespan_3
+	
+	3140.1.1 = { birth = yes }
+	3490.1.1 = { death = yes }
+}
+
+vereansu_103 = {
+	name = "Ginasa" 
+	dynasty = 1310199
+	religion = old_velothi
+	culture = ashlander
+	father = vereansu_102
+	
+	trait = lifespan_3
+	
+	3320.1.1 = { birth = yes }
+	3500.1.1 = { death = yes }
+}
+
+
+##Varnan-Adda Dynasty (dyn_varnan_adda)
+
+#House Varnan-Adda, Tribe of Deshaan
+
+varnan_adda_100 = {
+	name = "Udami" 
+	dynasty = dyn_varnan_adda
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	
+	3211.1.1 = { birth = yes }
+	3371.1.1 = { death = yes }
+}
+
+varnan_adda_101 = {
+	name = "Addarari" 
+	dynasty = dyn_varnan_adda
+	religion = old_velothi
+	culture = ashlander
+	female = yes
+	father = varnan_adda_100
+	
+	trait = lifespan_3
+	
+	3289.1.1 = { birth = yes }
+	3390.1.1 = { death = yes }
+}
+
+varnan_adda_102 = {
+	name = "Zabamund" 
+	dynasty = dyn_varnan_adda
+	religion = old_velothi
+	culture = ashlander
+	father = varnan_adda_100
+	
+	trait = lifespan_3
+	
+	3280.1.1 = { birth = yes }
+	3540.1.1 = { death = yes }
+}
+
+##Eribael Dynasty (1310202)
+
+#House Eribael, Tribe of Gnisis
+
+eribael_100 = {
+	name = "Kummi-Namus" 
+	dynasty = 1310202
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	
+	3140.1.1 = { birth = yes }
+	3380.1.1 = { death = yes }
+}
+
+eribael_101 = {
+	name = "Sen" 
+	dynasty = 1310202
+	religion = old_velothi
+	culture = ashlander
+	female = yes
+	father = eribael_100
+	
+	trait = lifespan_3
+	
+	3210.1.1 = { birth = yes }
+	3400.1.1 = { death = yes }
+}
+
+eribael_102 = {
+	name = "Sahnivaran" 
+	dynasty = 1310202
+	religion = old_velothi
+	culture = ashlander
+
+	mother = eribael_101
+	
+	trait = lifespan_3
+	
+	3269.1.1 = { birth = yes }
+	3480.1.1 = { death = yes }
+}
+
+##Shashmassamsi Dynasty (1310153)
+
+#House Shashmassamsi, Tribe of the Amber Forest
+
+shashmassamsi_100 = {
+	name = "Shabinbael" 
+	dynasty = 1310153
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	
+	2810.1.1 = { birth = yes }
+	3050.1.1 = { death = yes }
+}
+
+shashmassamsi_101 = {
+	name = "Sul" 
+	dynasty = 1310153
+	religion = old_velothi
+	culture = ashlander
+	father = shashmassamsi_100
+	
+	trait = lifespan_3
+	
+	2900.1.1 = { birth = yes }
+	3180.1.1 = { death = yes }
+}
+
+shashmassamsi_102 = {
+	name = "Galshar" 
+	dynasty = 1310153
+	religion = old_velothi
+	culture = ashlander
+	father = shashmassamsi_101
+	
+	trait = lifespan_3
+	
+	2940.1.1 = { birth = yes }
+	3200.1.1 = { death = yes }
+}
+
+shashmassamsi_103 = {
+	name = "Odaishah" 
+	dynasty = 1310153
+	religion = old_velothi
+	culture = ashlander
+	father = shashmassamsi_101
+	
+	trait = lifespan_3
+	
+	3025.1.1 = { birth = yes }
+	3371.1.1 = { death = { death_reason = death_fire_magic } } 
+}
+
+shashmassamsi_104 = {
+	name = "Zabamib" 
+	dynasty = 1310153
+	religion = old_velothi
+	culture = ashlander
+	father = shashmassamsi_103
+	
+	trait = lifespan_3
+	
+	3180.1.1 = { birth = yes }
+	3371.1.1 = { death = { death_reason = death_fire_magic } } 
+}
+
+shashmassamsi_105 = {
+	name = "Ellarapal" 
+	dynasty = 1310153
+	religion = old_velothi
+	culture = ashlander
+	female = yes
+	father = shashmassamsi_103
+	
+	trait = lifespan_3
+	
+	3240.1.1 = { birth = yes }
+	3520.1.1 = { death = yes }
+}
+
+shinirbael_100 = {
+	name = "Arith-Enle" 
+	dynasty = 1310157
+	religion = old_velothi
+	culture = ashlander
+	female = yes
+	
+	trait = lifespan_3
+	trait = mystic_2
+	trait = education_diplomacy_4
+	
+	3235.1.1 = { birth = yes }
+	3490.1.1 = { death = yes }
+	}
+	
+## Nasir Tribe/Dynasty (930001)
+
+#House Nasir
+nasir_98 = {
+	name = "Nasir"
+	dynasty = 930001
+	culture = ashlander
+	religion = old_velothi
+	
+	trait = lifespan_3
+	trait = deceitful
+	trait = greedy
+	trait = arrogant
+	trait = education_stewardship_3
+
+	3040.1.1 = { birth = yes }
+	# 3060.1.1 = { give_nickname = nick_the_redsmith }
+	3290.1.1 = { death = yes }
+}
+nasir_99 = {
+	name = "Neht"
+	dynasty = 930001
+	culture = ashlander
+	religion = old_velothi
+	father = nasir_98
+
+	trait = lifespan_3
+	trait = education_learning_2
+	trait = blademaster_2
+	trait = humble
+	trait = content
+	disallow_random_traits = yes
+
+	3250.1.1 = { birth = yes }
+	3350.1.1 = { trait = devoted }
+	3480.1.1 = { death = { death_reason = death_ill } } #knahaten
+}
+
+nasir_100 = { #Chieftain of the Nasir Tribe in Cantemarch, led her people into an exile invasion after they had been expelled by House Dres
+	name = "Xayah"
+	religion = old_velothi
+	culture = ashlander
+	dynasty = 930001
+	female = yes
+	father = nasir_98
+	
+	trait = lifespan_3
+	trait = education_intrigue_4
+	trait = craven
+	trait = calm
+	trait = deceitful
+	
+	3287.1.1 = { birth = yes }
+	3490.1.1 = { death = { death_reason = death_ill } } #knahaten
+}
+
+### Ashlander Lowborns
+
+ashlander_lowborn_1 = {
+	name = "Numani-Rasi" 
+	religion = old_velothi
+	culture = ashlander
+	female = yes
+	
+	trait = lifespan_3
+	
+	3194.1.1 = { birth = yes }
+	3470.1.1 = { death = yes }
+}
+
+ashlander_lowborn_2 = {
+	name = "Elitlaya" 
+	religion = old_velothi
+	culture = ashlander
+	female = yes
+	
+	trait = lifespan_3
+	
+	3270.1.1 = { birth = yes }
+	3500.1.1 = { death = yes }
+}
+
+ashlander_lowborn_3 = {
+	name = "Ulisamsi" 
+	religion = old_velothi
+	culture = ashlander
+	female = yes
+	
+	trait = lifespan_3
+	
+	3125.1.1 = { birth = yes }
+	3520.1.1 = { death = yes }
+	}
+	
+ashlander_lowborn_4 = {
+	name = "Ahnat-Suna" 
+	religion = old_velothi
+	culture = ashlander
+	female = yes
+	
+	trait = lifespan_3
+	
+	3012.1.1 = { birth = yes }
+	3465.1.1 = { death = yes }
+	}
+	
+ashlander_lowborn_5 = {
+	name = "Addut-Lamanu" 
+	religion = old_velothi
+	culture = ashlander
+	female = yes
+	
+	trait = lifespan_3
+	trait = witch
+	trait = mystic_1
+	
+	3103.1.1 = { birth = yes }
+	3150.1.1 = { effect = { give_malacath_worshipper_secret_or_trait_effect = yes } }
+	3310.1.1 = { death = yes }
+	}
+	
+ashlander_lowborn_6 = {
+	name = "Elumabi" 
+	religion = old_velothi
+	culture = ashlander
+	female = yes
+	
+	trait = lifespan_3
+	
+	3209.1.1 = { birth = yes }
+	3350.1.1 = { effect = { give_sheogorath_worshipper_secret_or_trait_effect = yes } }
+	3520.1.1 = { death = yes }
+	}
+	
+ashlander_lowborn_7 = {
+	name = "Ulath-Timmu" 
+	religion = old_velothi
+	culture = ashlander
+	female = yes
+	
+	trait = lifespan_3
+	
+	3306.1.1 = { birth = yes }
+	3350.1.1 = { effect = { give_molag_worshipper_secret_or_trait_effect = yes } }
+	3479.1.1 = { death = yes }
+	}
+	
+ashlander_lowborn_8 = {
+	name = "Iru-Ahan" 
+	religion = old_velothi
+	culture = ashlander
+	female = yes
+	
+	trait = lifespan_3
+	
+	3252.1.1 = { birth = yes }
+	3350.1.1 = { effect = { give_mehrunes_worshipper_secret_or_trait_effect = yes } }
+	3540.1.1 = { death = yes }
+	}
+
+####################
+### Adventurers  ###
+####################
+
+#Ashlanders in Morrowind
+
+gilgamesh_100 = {
+	name = "Gilgamesh" 
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	
+	3270.1.1 = { birth = yes }
+	3500.1.1 = { death = yes }
+}
+gilgamesh_101 = {
+	name = "Enkidu" 
+	religion = old_velothi
+	culture = ashlander
+	
+	trait = lifespan_3
+	
+	3270.1.1 = { birth = yes }
+	3500.1.1 = { death = yes }
+}
+gilgamesh_102 = {
+	name = "Shamhat" 
+	religion = old_velothi
+	culture = ashlander
+	female = yes
+	
+	trait = lifespan_3
+	
+	3270.1.1 = { birth = yes }
+	3500.1.1 = { death = yes }
+}

@@ -1,0 +1,2211 @@
+﻿##Republics/Theocracies
+
+green_pact_999 = {
+	name = "Laelrion"
+	religion = greenpact
+	culture = silvenari
+	dynasty = 620003
+	dna = cortisellis_1_dna_entry
+	
+	trait = lifespan_3
+
+	300.1.1 = { birth = yes }
+	361.1.1 = { add_spouse = green_pact_999b }
+	500.1.1 = { death = yes }
+}
+
+green_pact_999b = {
+	name = "Mordaya"
+	religion = greenpact
+	culture = mathmeldi
+	female = yes
+	dna = camoran_13_dna_entry	
+	
+	trait = lifespan_3
+
+	346.1.1 = { birth = yes }
+	361.1.1 = { give_nickname = nick_green_lady }		
+	350.1.1 = {
+		culture = silvenari
+	}
+	500.1.1 = { death = yes }
+}
+
+green_pact_1000 = {
+	name = "Edhelorn" #ESO
+	religion = greenpact
+	culture = silvenari
+	
+	trait = lifespan_3
+
+	3295.1.1 = { birth = yes }
+	3502.1.1 = { death = yes }
+}
+
+green_pact_1000b = {
+	name = "Finoriell"
+	religion = greenpact
+	culture = arenthi
+	female = yes
+	
+	trait = lifespan_3
+
+	3295.1.1 = { birth = yes }
+	3340.1.1 = { add_spouse = green_pact_1000 }
+	3502.1.1 = { death = yes }
+}
+
+#The Wilderking
+#wilderking_100 = { #Leave your God characters at the door
+#	name = "Ostion" #First (and for our startdates, only) Wilderking
+#
+#	dna = ostion_dna_entry
+#	culture = bosmer
+#	religion = wilderking
+#	dynasty = 600020
+#	trait = content
+#	trait = honest
+#	trait = temperate
+#	trait = education_learning_4
+#	trait = sign_mage
+#	trait = mystic_3
+#	#trait = wilderking #not a trait
+#
+#	2845.4.9 = { birth = yes }
+#	3502.10.1 = { death = yes }
+#}
+
+cortisellis_1 = {
+	name = "Senisel" #Snesh Deltir
+	dna = cortisellis_1_dna_entry
+	culture = bosmer
+	dynasty = 600020
+	religion = wilderking
+
+	trait = lazy
+	trait = greedy
+	trait = craven
+	trait = shrewd
+	trait = lifespan_3
+
+	3250.7.9 = { birth = yes }
+	3495.1.6 = { death = yes }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=no_hair
+			custom_beards=male_empty
+		}
+	}	
+}
+
+bramblebreach_100 = {
+	name = "Galathel"
+	dynasty = 600011
+	culture = bosmer
+	religion = wilderking
+	female = yes
+	
+	trait = lifespan_3
+
+	3265.4.9 = { birth = yes }
+	3490.1.1 = { death = yes }
+}
+
+bramblebreach_101 = {
+	name = "Niriel"
+	dynasty = 600011
+	culture = bosmer
+	religion = wilderking
+	female = yes
+
+	trait = humble
+	trait = impatient
+	trait = zealous
+	trait = lifespan_3
+
+	3340.4.9 = { birth = yes }
+	3570.1.1 = { death = yes }
+}
+
+valefern_100 = {
+	name = "Ondor"
+	dynasty = 600012
+	culture = bosmer
+	religion = wilderking
+	
+	trait = lifespan_3
+
+	3330.4.9 = { birth = yes }
+	3555.1.1 = { death = yes }
+}
+
+iyanden_100 = {
+	name = "Galithor"
+	dynasty = 600013
+	culture = bosmer
+	religion = wilderking
+	
+	trait = lifespan_3
+
+	3300.4.9 = { birth = yes }
+	3520.1.1 = { death = yes }
+}
+
+## CAMORAN DYNASTY
+
+camoran_1 = {
+	name = "Eplear"
+	dynasty = 600022
+	religion = greenpact
+	culture = bosmer
+	trait = ambitious
+	trait = generous
+	trait = gregarious
+	trait = education_martial_4
+	trait = lifespan_3
+
+	2.1.1 = { birth = yes }
+	106.4.9 = { death = yes }
+}
+
+camoran_2 = {
+	name = "Eplear"
+	dynasty = 600022
+	religion = greenpact
+	culture = bosmer
+	father = camoran_1
+	trait = line_of_x
+	disallow_random_traits = yes
+
+	105.4.8 = { birth = yes }
+	250.1.1 = { give_nickname = nick_line_of }
+	2714.1.1 = { death = yes }
+}
+
+camoran_2a = {
+	name = "Falinesti"
+	dynasty = 600022
+	religion = greenpact
+	culture = grahtwood
+	father = camoran_2
+	trait = line_of_x
+	disallow_random_traits = yes
+
+	2714.1.1 = { birth = yes }
+	2715.1.1 = { give_nickname = nick_line_of }
+	3300.1.2 = { death = yes }
+}
+
+camoran_2b = {
+	name = "Adwien"
+	dynasty = 600022
+	religion = greenpact
+	culture = grahtwood
+	father = camoran_2a
+	
+	trait = lifespan_3
+
+	2728.1.1 = { birth = yes }
+	2940.1.1 = { death = yes }
+}
+
+camoran_2c = {
+	name = "Maenlorn"
+	dynasty = 600022
+	religion = greenpact
+	culture = grahtwood
+	father = camoran_2b
+	
+	trait = lifespan_3
+
+	2790.1.1 = { birth = yes }
+	3030.1.1 = { death = yes }
+}
+
+camoran_2d = {
+	name = "Nedhelfin"
+	dynasty = 600022
+	religion = greenpact
+	culture = grahtwood
+	father = camoran_2c
+	
+	trait = lifespan_3
+
+	2900.1.1 = { birth = yes }
+	3150.1.1 = { death = yes }
+}
+
+camoran_2e = {
+	name = "Anoriath"
+	dynasty = 600022
+	religion = greenpact
+	culture = grahtwood
+	father = camoran_2d
+	
+	trait = lifespan_3
+
+	3010.1.1 = { birth = yes }
+	3300.1.1 = { death = yes }
+}
+
+camoran_2f = {
+	name = "Aenedhel" #vanished king of falinesti
+	dynasty = 600022
+	religion = greenpact
+	culture = grahtwood
+	father = camoran_2e
+	
+	trait = lifespan_3
+	trait = ambitious
+	trait = education_diplomacy_4
+
+	3120.1.1 = { birth = yes }
+	3340.1.1 = { give_nickname = nick_the_lamented }
+	3340.1.2 = { death = { death_reason = death_falinesti } }
+}
+
+camoran_2g = {
+	name = "Briminor"
+	dynasty = 600022
+	religion = greenpact
+	culture = grahtwood
+	father = camoran_2f
+	
+	trait = lifespan_3
+
+	3200.1.1 = { birth = yes }
+	3340.1.2 = { death = { death_reason = death_falinesti } }
+}
+
+camoran_2h = {
+	name = "Aradraen"
+	dynasty = 600022
+	religion = greenpact
+	culture = grahtwood
+	father = camoran_2f
+	female = yes
+	
+	trait = lifespan_3
+
+	3260.1.1 = { birth = yes }
+	3340.1.2 = { death = { death_reason = death_falinesti } }
+}
+
+camoran_2i = {
+	name = "Falicia"
+	dynasty = 600022
+	religion = greenpact
+	culture = grahtwood
+	father = camoran_2e
+	female = yes
+	
+	trait = lifespan_3
+
+	3165.1.1 = { birth = yes }
+	3340.1.2 = { death = { death_reason = death_falinesti } }
+}
+
+camoran_3 = {
+	name = ""
+	dynasty_house = camoran_graht
+	religion = greenpact
+	culture = grahtwood
+	father = camoran_2
+	trait = line_of_x
+	disallow_random_traits = yes
+
+	2714.1.1 = { birth = yes }
+	2715.1.1 = { give_nickname = nick_line_of }
+	3355.1.2 = { death = yes }
+}
+
+camoran_4 = {
+	name = ""
+	dynasty_house = camoran_woodhearth
+	religion = greenpact
+	culture = bosmer
+	father = camoran_2
+	trait = line_of_x
+	disallow_random_traits = yes
+
+	2714.1.1 = { birth = yes }
+	2715.1.1 = { give_nickname = nick_line_of }
+	3355.1.2 = { death = yes }
+}
+
+camoran_5 = {
+	name = ""
+	dynasty_house = camoran_haven
+	religion = greenpact
+	culture = altmeribosmer
+	father = camoran_2
+	trait = line_of_x
+	disallow_random_traits = yes
+
+	2714.1.1 = { birth = yes }
+	2715.1.1 = { give_nickname = nick_line_of }
+	3355.1.2 = { death = yes }
+}
+
+camoran_6 = {
+	name = ""
+	dynasty_house = camoran_silvenar
+	religion = greenpact
+	culture = silvenari
+	father = camoran_2
+	trait = line_of_x
+	disallow_random_traits = yes
+
+	2714.1.1 = { birth = yes }
+	2715.1.1 = { give_nickname = nick_line_of }
+	3355.1.2 = { death = yes }
+}
+
+camoran_6a = {
+	name = ""
+	dynasty_house = camoran_arenthia
+	religion = greenpact
+	culture = arenthi
+	father = camoran_2
+	trait = line_of_x
+	disallow_random_traits = yes
+
+	2714.1.1 = { birth = yes }
+	2715.1.1 = { give_nickname = nick_line_of }
+	3355.1.2 = { death = yes }
+}
+
+camoran_7 = { # Elden Root ruler's dad
+	name = "Galandir"
+	dynasty_house = camoran_graht
+	religion = greenpact
+	culture = grahtwood
+	father = camoran_17
+	
+	trait = lifespan_3
+
+	3201.2.1 = { birth = yes }
+	3354.8.1 = { death = yes }
+}
+
+camoran_8 = { # Elden Root ruler
+	name = "Nilwen"
+	dynasty_house = camoran_graht
+	religion = greenpact
+	culture = grahtwood
+	father = camoran_7
+	female = yes
+	
+	dna = camoran_8_dna_entry
+
+	trait = ambitious
+	trait = stubborn
+	trait = patient
+	trait = education_martial_3
+	trait = lifespan_3
+
+	3277.7.4 = { birth = yes }
+	3330.1.1 = { add_matrilineal_spouse = altansar_1 }
+	3466.7.4 = { death = yes }
+	
+	portrait_override={
+	portrait_modifier_overrides={
+		custom_hair=female_hair_rtt_02_milla
+	}
+}
+}
+
+camoran_9 = { # Aeradan
+	name = "Aeradan"
+	dynasty_house = camoran_graht
+	religion = greenpact
+	culture = grahtwood
+	mother = camoran_8
+	father = altansar_1
+	
+	trait = lifespan_3
+	trait = curious
+
+	3357.1.1 = { birth = yes }
+	3370.1.1 = {
+		trait = callous
+		trait = brave
+	}
+	#3500.4.7 = { effect = { imprison_character_effect = character:camoran_11 } } #effect 'imprison_character_effect' returned false
+	3650.9.4 = { death = yes }
+}
+
+camoran_10 = { # Cormount ruler
+	name = "Andriel"
+	dynasty_house = camoran_gorinir
+	religion = greenpact
+	culture = grahtwood
+	father = camoran_7
+
+	trait = education_learning_2
+	trait = bastard_founder
+	trait = lifespan_3
+	trait = trusting
+	trait = content
+	trait = craven
+
+	3236.1.1 = { birth = yes }
+	3330.1.1 = { add_spouse = bosmer_lowborn_1 }
+	3369.1.1 = { death = yes }
+}
+
+camoran_11 = { # Cormount ruler's son
+	name = "Gelthior"
+	dynasty_house = camoran_gorinir
+	religion = blacksapmovement
+	culture = grahtwood
+	father = camoran_10
+	mother = bosmer_lowborn_1
+	
+	trait = patient
+	trait = ambitious
+	trait = zealous
+	trait = lifespan_3
+
+	3334.1.1 = { birth = yes }
+	3500.4.7 = { 
+		effect = {
+			imprison = {
+				target = character:camoran_9
+				type = house_arrest
+			}
+		}
+	}
+	3533.9.4 = { death = yes }
+}
+
+camoran_12 = { # Woodhearth
+	name = "Erasmo"
+	dynasty_house = camoran_woodhearth
+	religion = greenpact
+	culture = cyrobosmer
+	father = camoran_18
+
+	trait = education_intrigue_1
+	trait = reclusive
+	trait = shy
+	trait = compassionate
+	trait = temperate
+	trait = lifespan_3
+
+
+	3183.1.1 = { birth = yes }
+	3385.1.1 = { death = yes } 
+}
+
+camoran_13 = { # Haven
+	name = "Elirus"
+	dynasty_house = camoran_haven
+	religion = auriel
+	culture = altmeribosmer
+	father = camoran_20
+	mother = jaroril_1001
+
+	trait = education_diplomacy_2
+	trait = beauty_good_2
+	trait = gregarious
+	trait = content
+	trait = lustful
+	trait = reveler_1
+	trait = lifespan_3
+
+	3339.6.9 = { birth = yes }
+	3459.9.6 = { death = yes }
+	
+	dna = camoran_13_dna_entry
+	
+	portrait_override={
+	portrait_modifier_overrides={
+		custom_hair=male_hair_western_09
+		custom_beards=male_empty
+	}
+}
+}
+
+camoran_14 = { # Silvenar
+	name = "Phylandra"
+	dynasty_house = camoran_silvenar
+	religion = greenpact
+	culture = silvenari
+	female = yes
+	father = camoran_15
+	
+	dna = camoran_14_dna_entry
+
+	trait = education_diplomacy_3
+	trait = arrogant
+	trait = fickle
+	trait = generous
+	trait = lifespan_3
+
+	3304.9.7 = { birth = yes }
+	3500.1.1 = { death = yes }
+	
+	portrait_override={
+	portrait_modifier_overrides={
+		custom_hair=female_hair_mena_02
+	}
+}
+}
+
+camoran_15 = { # Silvenar
+	name = "Aralas"
+	dynasty_house = camoran_silvenar
+	religion = greenpact
+	culture = silvenari
+	father = camoran_16
+	mother = wenayalae_2a
+	
+	trait = lifespan_3
+
+	3180.9.7 = { birth = yes }
+	3358.8.10 = { death = yes }
+}
+
+camoran_16a = { # Silvenar
+	name = "Nivenia"
+	female = yes
+	dynasty_house = camoran_silvenar
+	religion = greenpact
+	culture = silvenari
+	father = camoran_6
+	
+	trait = lifespan_3
+
+	2900.1.2 = { birth = yes }
+	3100.1.1 = { death = yes }
+}
+
+camoran_16 = { # Silvenar
+	name = "Silnor"
+	dynasty_house = camoran_silvenar
+	religion = greenpact
+	culture = silvenari
+	mother = camoran_16a
+	
+	trait = lifespan_3
+
+	2989.9.7 = { birth = yes }
+	3175.1.1 = { add_spouse = wenayalae_2a }
+	3200.1.2 = { death = yes }
+}
+
+camoran_17 = { # Elden Root ruler's grandad
+	name = "Talas"
+	dynasty_house = camoran_graht
+	religion = greenpact
+	culture = grahtwood
+	father = camoran_3
+	
+	trait = lifespan_3
+
+	3029.4.7 = { birth = yes }
+	3231.2.1 = { death = yes }
+}
+
+camoran_18 = { # Woodhearth
+	name = "Gwilon"
+	dynasty_house = camoran_woodhearth
+	religion = greenpact
+	culture = cyrobosmer
+	father = camoran_19
+	
+	trait = lifespan_3
+
+	3153.9.7 = { birth = yes }
+	3313.2.8 = { death = yes }
+}
+
+camoran_19 = { # Woodhearth
+	name = "Breduin"
+	dynasty_house = camoran_woodhearth
+	religion = greenpact
+	culture = cyrobosmer
+	father = camoran_4
+	
+	trait = lifespan_3
+
+	2979.9.7 = { birth = yes }
+	3210.1.2 = { death = yes }
+}
+
+camoran_20 = { # Haven
+	name = "Haron"
+	dynasty_house = camoran_haven
+	religion = auriel
+	culture = altmeribosmer
+	father = camoran_21
+	
+	trait = lifespan_3
+
+	3201.9.7 = { birth = yes }
+	3300.1.1 = { add_spouse = jaroril_1001 }
+	3350.3.6 = { death = yes }
+}
+
+camoran_21 = { # Haven
+	name = "Belegond"
+	dynasty_house = camoran_haven
+	religion = greenpact
+	culture = altmeribosmer
+	father = camoran_21h1
+	
+	trait = lifespan_3
+
+	3021.9.7 = { birth = yes }
+	3251.1.2 = { death = yes }
+}
+
+camoran_21h1 = { # Haven
+	name = "Aldor"
+	dynasty_house = camoran_haven
+	religion = greenpact
+	culture = altmeribosmer
+	father = camoran_21h2
+	
+	trait = lifespan_3
+
+	2821.1.1 = { birth = yes }
+	3113.1.1 = { death = yes }
+}
+
+camoran_21h2 = { # Haven
+	name = "Elthras"
+	dynasty_house = camoran_haven
+	religion = greenpact
+	culture = altmeribosmer
+	father = camoran_21h3
+	
+	trait = lifespan_3
+
+	2789.1.1 = { birth = yes }
+	2821.1.1 = { death = yes }
+}
+
+camoran_21h3 = { # Haven
+	name = "Gaenor"
+	dynasty_house = camoran_haven
+	religion = greenpact
+	culture = altmeribosmer
+	father = camoran_5
+	
+	trait = lifespan_3
+
+	2756.1.1 = { birth = yes }
+	2925.1.1 = { death = yes }
+}
+
+camoran_22 = { 
+	name = "Syndus"
+	dynasty = 600022
+	religion = greenpact
+	culture = grahtwood
+	father = camoran_2e
+
+	trait = bastard
+	trait = denounced
+	trait = lifespan_3
+	trait = ambitious
+	trait = callous
+	trait = arrogant
+	trait = education_diplomacy_1
+
+	3150.1.1 = { birth = yes }
+	3400.1.2 = { death = yes }
+}
+
+camoran_23a = {
+	name = "Fenton"
+	dynasty_house = camoran_graht
+	religion = greenpact
+	culture = grahtwood
+	father = camoran_3
+	
+	trait = lifespan_3
+
+	3070.1.1 = { birth = yes }
+	3210.1.2 = { death = yes }
+}
+
+camoran_23b = {
+	name = "Elhiel"
+	dynasty_house = camoran_graht
+	religion = greenpact
+	culture = grahtwood
+	father = camoran_23a
+	
+	trait = lifespan_3
+
+	3150.1.1 = { birth = yes }
+	3330.1.2 = { death = yes }
+}
+
+camoran_23 = {
+	name = "Hartmin"
+	dynasty_house = camoran_graht
+	religion = greenpact
+	culture = grahtwood
+	father = camoran_23b
+	
+	trait = lifespan_3
+
+	3212.1.1 = { birth = yes }
+	3500.1.2 = { death = yes }
+}
+
+camoran_24 = {
+	name = "Sylch"
+	dynasty_house = camoran_graht
+	religion = greenpact
+	culture = grahtwood
+	mother = camoran_24a
+	
+	trait = lifespan_3
+
+	3310.1.1 = { birth = yes }
+	3545.1.2 = { death = yes }
+}
+
+camoran_24a = {
+	name = "Anrela"
+	dynasty_house = camoran_graht
+	religion = greenpact
+	culture = grahtwood
+	father = camoran_24b
+	female = yes
+	
+	trait = lifespan_3
+
+	3200.1.1 = { birth = yes }
+	3350.1.2 = { death = yes }
+}
+
+camoran_24b = {
+	name = "Anrel"
+	dynasty_house = camoran_graht
+	religion = greenpact
+	culture = grahtwood
+	father = camoran_3
+	
+	trait = lifespan_3
+
+	3150.1.1 = { birth = yes }
+	3300.1.2 = { death = yes }
+}
+
+camoran_25 = {
+	name = "Fargoth"
+	dynasty_house = camoran_haven
+	religion = greenpact
+	culture = altmeribosmer
+	father = camoran_25hb
+	
+	trait = lifespan_3
+
+	3240.1.1 = { birth = yes }
+	3445.1.2 = { death = yes }
+}
+
+camoran_25hb = {
+	name = "Gaenor"
+	dynasty_house = camoran_haven
+	religion = greenpact
+	culture = altmeribosmer
+	father = camoran_21h2
+	
+	trait = lifespan_3
+
+	2990.1.1 = { birth = yes }
+	3240.1.2 = { death = yes }
+}
+
+camoran_26 = {
+	name = "Lilisandra"
+	dynasty_house = camoran_haven
+	religion = greenpact
+	culture = altmeribosmer
+	father = camoran_25hc
+	female = yes
+	
+	trait = lifespan_3
+
+	3150.1.1 = { birth = yes }
+	3361.1.1 = { death = yes }
+}
+
+camoran_25hc = {
+	name = "Urunil"
+	dynasty_house = camoran_haven
+	religion = greenpact
+	culture = altmeribosmer
+	father = camoran_21h2
+	
+	trait = lifespan_3
+
+	2990.1.1 = { birth = yes }
+	3240.1.2 = { death = yes }
+}
+
+camoran_27 = {
+	name = "Tarhiel"
+	dynasty_house = camoran_silvenar
+	religion = greenpact
+	culture = silvenari
+	father = camoran_16
+	
+	trait = lifespan_3
+
+	3145.1.1 = { birth = yes }
+	3380.1.2 = { death = yes }
+}
+
+camoran_28 = {
+	name = "Galereth"
+	dynasty_house = camoran_silvenar
+	religion = greenpact
+	culture = silvenari
+	mother = camoran_28a
+	female = yes
+	
+	trait = lifespan_3
+
+	3262.1.1 = { birth = yes }
+	3480.1.2 = { death = yes }
+}
+
+camoran_28a = {
+	name = "Elegnan"
+	dynasty_house = camoran_silvenar
+	religion = greenpact
+	culture = silvenari
+	mother = camoran_28b
+	female = yes
+	
+	trait = lifespan_3
+
+	3220.1.1 = { birth = yes }
+	3340.1.2 = { death = yes }
+}
+
+camoran_28b = {
+	name = "Natesse"
+	dynasty_house = camoran_silvenar
+	religion = greenpact
+	culture = silvenari
+	father = camoran_6
+	female = yes
+	
+	trait = lifespan_3
+
+	3100.1.1 = { birth = yes }
+	3300.1.2 = { death = yes }
+}
+
+camoran_29 = {
+	name = "Pegebor"
+	dynasty_house = camoran_silvenar
+	religion = greenpact
+	mother = camoran_28a
+	culture = silvenari
+	
+	trait = lifespan_3
+
+	3321.1.1 = { birth = yes }
+	3560.1.2 = { death = yes }
+}
+
+camoran_30 = {
+	name = "Maevelle"
+	dynasty_house = camoran_arenthia
+	religion = greenpact
+	culture = arenthi
+	father = camoran_30ab
+	female = yes
+	
+	dna = camoran_30_dna_entry
+	
+	trait = education_diplomacy_2
+	trait = lifespan_3
+	trait = diligent
+	trait = ambitious
+	trait = vengeful
+
+	3190.1.1 = { birth = yes }
+	3380.1.2 = { death = yes }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=female_hair_northern_03
+		}
+	}
+}
+
+camoran_30ab = {
+	name = "Aeradan"
+	dynasty_house = camoran_arenthia
+	religion = greenpact
+	culture = arenthi
+	father = camoran_30ac
+	
+	trait = lifespan_3
+
+	3052.1.1 = { birth = yes }
+	3352.1.2 = { death = yes }
+}
+
+camoran_30ac = {
+	name = "Mathal"
+	dynasty_house = camoran_arenthia
+	religion = greenpact
+	culture = arenthi
+	father = camoran_6a
+	
+	trait = lifespan_3
+
+	2852.1.1 = { birth = yes }
+	3052.1.2 = { death = yes }
+}
+
+camoran_31 = {
+	name = "Faella"
+	dynasty_house = camoran_haven
+	religion = greenpact
+	culture = altmeribosmer
+	female = yes
+	mother = camoran_26
+	
+	trait = lifespan_3
+
+	3220.1.1 = { birth = yes }
+	3460.1.2 = { death = yes }
+}
+
+camoran_32 = { # Son of Gelthior, co-leader of the Second Blacksap Rebellion
+	name = "Gorinir"
+	dynasty_house = camoran_gorinir
+	religion = blacksapmovement
+	culture = grahtwood
+	father = camoran_11
+	mother = bosmer_lowborn_17
+	trait = vengeful
+	trait = wrathful
+	trait = zealous
+	trait = twin
+	trait = lifespan_3
+
+	3370.1.1 = { birth = yes }
+	3620.9.4 = { death = yes }
+}
+
+camoran_33 = { # Son of Gelthior, co-leader of the Second Blacksap Rebellion
+	name = "Lorchon"
+	dynasty_house = camoran_gorinir
+	religion = blacksapmovement
+	culture = grahtwood
+	father = camoran_11
+	mother = bosmer_lowborn_17
+	trait = fickle
+	trait = calm
+	trait = zealous
+	trait = twin
+	trait = lifespan_3
+
+	3370.1.1 = { birth = yes }
+	3620.9.4 = { death = yes }
+}
+
+benoch_1 = { # Wormroot
+	name = "Ulmion"
+	dynasty = 600003
+	religion = greenpact
+	culture = bosmer
+	
+	trait = lifespan_3
+
+	3314.9.9 = { birth = yes }
+	3485.1.6 = { death = yes }
+}
+
+parikh_1 = { # Quirrion
+	name = "Aerin"
+	dynasty = 600004
+	religion = greenpact
+	culture = grahtwood
+	female = yes
+	
+	trait = lifespan_3
+
+	3324.9.9 = { birth = yes }
+	3525.1.6 = { death = yes }
+}
+
+bearclaw_1 = { 
+	name = "Faume"
+	dynasty = 600010
+	religion = greenpact
+	culture = bosmer
+	give_nickname = nick_toad_eye
+	dna = bearclaw_1_dna_entry
+
+	trait = education_learning_3
+	trait = callous
+	trait = ambitious
+	trait = shy
+	trait = beauty_bad_1
+	trait = necromancer
+	trait = education_magical_ability_1
+	trait = lifespan_3
+
+	3280.9.9 = { birth = yes }
+	3332.1.1 = { add_spouse = bosmer_lowborn_3 }
+	3361.9.9 = { religion = idealmasters }
+	3372.1.1 = { death = { death_reason = death_duel killer = bearclaw_2 } }
+}
+
+bearclaw_2 = {
+	name = "Oreyn"
+	dynasty = 600010
+	religion = greenpact
+	culture = bosmer
+	father = bearclaw_1
+	mother = bosmer_lowborn_3
+	dna = bearclaw_2_dna_entry
+
+	trait = education_martial_4
+	trait = brave
+	trait = ambitious
+	trait = deceitful
+	trait = hunter_3
+	trait = adventurer
+	trait = lifespan_3
+
+	3323.1.1 = { birth = yes }
+	3338.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:bearclaw_1 } } }
+	3355.1.1 = { effect = { set_relation_friend =  { reason = friend_generic_history target = character:shatul_1001 } } }
+	3355.1.1 = { employer = camoran_8 }
+	3460.1.1 = { death = { death_reason = death_bubonic_plague } }
+}
+
+bearclaw_3 = { 
+	name = "Nimriell"
+	dynasty = 600010
+	religion = greenpact
+	culture = bosmer
+	female = yes
+	father = bearclaw_1
+	mother = bosmer_lowborn_3
+	
+	trait = lifespan_3
+
+	3343.1.1 = { birth = yes }
+	3460.1.1 = { death = { death_reason = death_bubonic_plague } }
+}
+
+redfur_2 = {
+	name = "Shan_ra"
+	religion = twomoonsdance
+	culture = pellitinian
+
+	3465.7.9 = { birth = yes }
+	3530.1.6 = { death = yes }
+}
+
+driladan_1 = { # Driladan
+	name = "Emalith"
+	dynasty = 600000
+	religion = greenpact
+	culture = bosmer
+	female = yes
+	
+	trait = lifespan_3
+
+	3186.7.9 = { birth = yes }
+	3400.1.6 = { death = yes }
+}
+
+driladan_2 = { # Driladan
+	name = "Indanas"
+	dynasty = 600000
+	religion = greenpact
+	culture = bosmer
+	female = yes
+
+	trait = brave
+	trait = stubborn
+	trait = honest
+	trait = lifespan_3
+
+	3470.1.1 = { birth = yes }
+	3502.10.10 = { death = yes }
+}
+
+driladan_3 = { # Driladan
+	name = "Celanir"
+	dynasty = 600000
+	religion = greenpact
+	culture = bosmer
+	
+	trait = lifespan_3
+
+	3303.1.1 = { birth = yes }
+	3369.7.9 = { religion = hircine_cult }
+	3430.10.10 = { death = yes }
+}
+
+blackroot_1 = { # Blackroot clan
+	name = "Malgoth"
+	dynasty = 600001
+	religion = greenpact
+	culture = bosmer
+
+	trait = education_martial_2
+	trait = ambitious
+	trait = zealous
+	trait = callous
+	trait = lifespan_3
+
+	3230.7.9 = { birth = yes }
+	3371.1.6 = { death = yes }
+}
+
+redbranch_1 = { # Whisper Grove
+	name = "Anoriath"
+	dynasty = 600015
+	religion = greenpact
+	culture = bosmer
+	
+	trait = lifespan_3
+
+	3335.7.9 = { birth = yes }
+	3450.10.6 = { death = yes }
+}
+
+vanellion_1 = { # Whisper Grove
+	name = "Erthas"
+	dynasty = 600005
+	religion = greenpact
+	culture = bosmer
+
+	trait = deceitful
+	trait = lifespan_3
+
+	3428.7.9 = { birth = yes }
+	3502.1.1 = { religion = mehrunes_cult }
+	3502.10.6 = { death = yes }
+}
+
+springbrook_1 = { # Vullain
+	name = "Urunil"
+	dynasty = 600006
+	religion = greenpact
+	culture = bosmer
+	
+	trait = lifespan_3
+
+	3143.7.9 = { birth = yes }
+	3371.1.6 = { death = yes }
+}
+
+greenleaf_1 = {
+	name = "Legonis"
+	dynasty = 600014
+	religion = greenpact
+	culture = bosmer
+
+	trait = education_martial_prowess_4
+	trait = lifespan_3
+
+	3331.7.9 = { birth = yes }
+	3555.1.6 = { death = yes }
+}
+
+forestwalker_1 = { # Longvale
+	name = "Halindor"
+	dynasty = 600008
+	religion = hircine_cult
+	culture = bosmer
+	
+	trait = lifespan_3
+
+	3252.7.9 = { birth = yes }
+	3461.1.6 = { death = yes }
+}
+
+forestwalker_2 = { # Longvale
+	name = "Ulthorn"
+	dynasty = 600008
+	religion = hircine_cult
+	culture = bosmer
+	give_nickname = nick_the_hound
+	
+	trait = lifespan_3
+
+	3445.7.9 = { birth = yes }
+	3502.10.6 = { death = yes }
+}
+
+branck_1 = { # Larawen
+	name = "Orben"
+	dynasty = 600007
+	religion = greenpact
+	culture = bosmer
+	
+	trait = lifespan_3
+
+	3352.7.9 = { birth = yes }
+	3520.1.6 = { death = yes }
+}
+
+sharparrow_1 = { # Spearwood
+	name = "Foldor"
+	dynasty = 600002
+	religion = greenpact
+	culture = bosmer
+	
+	trait = lifespan_3
+
+	3100.1.1 = { birth = yes }
+	3330.1.1 = { death = yes }
+}
+
+sharparrow_2 = { # Spearwood
+	name = "Eginir"
+	dynasty = 600002
+	religion = greenpact
+	culture = bosmer
+	father = sharparrow_1
+	
+	trait = lifespan_3
+
+	3200.1.1 = { birth = yes }
+	3340.1.1 = { death = yes }
+}
+
+sharparrow_3 = { # Spearwood
+	name = "Foldor"
+	dynasty = 600002
+	religion = greenpact
+	culture = bosmer
+	father = sharparrow_2
+	
+	trait = lifespan_3
+
+	3240.1.1 = { birth = yes }
+	3450.1.1 = { death = yes }
+}
+
+sharparrow_4 = { # Spearwood
+	name = "Falicia"
+	dynasty = 600002
+	religion = greenpact
+	culture = bosmer
+	female = yes
+	father = sharparrow_3
+	
+	trait = lifespan_3
+
+	3320.1.1 = { birth = yes }
+	3534.1.1 = { death = yes }
+}
+
+sharparrow_5 = { # Spearwood
+	name = "Lirela"
+	dynasty = 600002
+	religion = greenpact
+	culture = bosmer
+	female = yes
+	father = sharparrow_2
+	
+	trait = lifespan_3
+
+	3290.1.1 = { birth = yes }
+	3530.1.1 = { death = yes }
+}
+
+
+endrand_1 = { # Stranglevine
+	name = "Faendal"
+	dynasty = 600009
+	religion = greenpact
+	culture = bosmer
+	
+	trait = lifespan_3
+
+	3312.7.9 = { birth = yes }
+	3499.1.6 = { death = yes }
+}
+
+endrand_2 = { # Stranglevine
+	name = "Perinor"
+	dynasty = 600009
+	religion = greenpact
+	culture = bosmer
+	
+	trait = lifespan_3
+
+	3335.7.9 = { birth = yes }
+	3550.1.6 = { death = yes }
+}
+
+duskthorn_1 = {
+	name = "Aglion"
+	dynasty = 600016
+	religion = greenpact
+	culture = bosmer
+	
+	trait = lifespan_3
+
+	3215.7.9 = { birth = yes }
+	3450.1.6 = { death = yes }
+}
+
+vinedusk_1 = { # Vinedusk
+	name = "Nendaer"
+	dynasty = 630000
+	religion = vineduskpact
+	culture = arenthi
+	give_nickname = nick_the_ironbark
+	
+	dna = vinedusk_1_dna_entry
+
+	trait = education_martial_3
+	trait = open_terrain_expert
+	trait = flexible_leader
+	trait = just
+	trait = stubborn
+	trait = brave
+	trait = lifespan_3
+	disallow_random_traits = yes
+
+	3320.7.4 = { birth = yes }
+	3337.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:dakarn_1 } } }
+	3490.6.4 = { death = yes }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_indian_02
+			custom_beards=male_empty
+		}
+	}	
+}
+
+stagfern_1 = {
+	name = "Erodir"
+	dynasty = 600017
+	religion = blacksapmovement
+	culture = grahtwood
+	
+	trait = lifespan_3
+
+	3289.7.9 = { birth = yes }
+	3470.1.6 = { death = yes }
+}
+
+avbala_1 = {
+	name = "Fangilmir"
+	dynasty = 600018
+	religion = blacksapmovement
+	culture = grahtwood
+	
+	trait = lifespan_3
+
+	3320.7.9 = { birth = yes }
+	3499.1.6 = { death = yes }
+}
+
+altansar_1 = {
+	name = "Heluin"
+	dynasty = 600023
+	religion = greenpact
+	culture = grahtwood
+	
+	trait = lifespan_3
+	trait = education_martial_2
+	trait = just
+	trait = diligent
+	trait = craven
+
+	3240.7.9 = { birth = yes }
+	3470.1.6 = { death = yes }
+}
+
+ellenwen_1 = {
+	name = "Eslion"
+	dynasty = 610000
+	religion = greenpact
+	culture = cyrobosmer
+	
+	trait = lifespan_3
+
+	3233.7.9 = { birth = yes }
+	3460.1.6 = { death = yes }
+}
+
+varantha_1 = {
+	name = "Thaeril"
+	dynasty = 620004
+	religion = auriel
+	culture = altmeribosmer
+	
+	trait = lifespan_3
+
+	3300.7.9 = { birth = yes }
+	3455.1.6 = { death = yes }
+}
+
+anno_1 = {
+	name = "Liman"
+	dynasty = 600024
+	religion = blacksapmovement
+	culture = silvenari
+	
+	trait = lifespan_3
+
+	3210.7.9 = { birth = yes }
+	3430.1.6 = { death = yes }
+}
+
+amirriath_1 = {
+	name = "Elanir"
+	dynasty = 600025
+	religion = hircine_cult
+	culture = silvenari
+	mother = amirriath_2
+	father = amirriath_3
+	
+	trait = lifespan_3
+
+	3328.7.9 = { birth = yes }
+	3390.1.6 = { death = yes }
+}
+
+amirriath_2 = {
+	name = "Ellewelle"
+	dynasty = 600025
+	religion = greenpact
+	culture = silvenari
+	female = yes
+	
+	trait = lifespan_3
+
+	3211.7.9 = { birth = yes }
+	3345.1.6 = { death = yes }
+}
+
+amirriath_3 = {
+	name = "Leonicus"
+	religion = hero_cult
+	culture = colovian
+
+	3295.7.9 = { birth = yes }
+	3350.1.6 = { death = yes }
+}
+
+boldonor_1 = {
+	name = "Virgeraurd"
+	dynasty = 600026
+	religion = greenpact
+	culture = silvenari
+	
+	trait = lifespan_3
+
+	3288.7.9 = { birth = yes }
+	3500.1.6 = { death = yes }
+}
+
+boldonor_2 = {
+	name = "Entor"
+	dynasty = 600026
+	religion = greenpact
+	culture = bosmer
+	
+	trait = lifespan_3
+
+	3308.7.9 = { birth = yes }
+	3600.1.6 = { death = yes }
+}
+
+ulthran_1 = {
+	name = "Anaris"
+	dynasty = 600019
+	religion = greenpact
+	culture = silvenari
+	
+	trait = lifespan_3
+
+	3240.7.9 = { birth = yes }
+	3470.1.6 = { death = yes }
+}
+
+balfix_1 = {
+	name = "Ferlion"
+	dynasty = 630005
+	religion = vineduskpact
+	culture = arenthi
+	
+	trait = lifespan_3
+
+	3333.7.9 = { birth = yes }
+	3550.1.6 = { death = yes }
+}
+
+dawnbranch_1 = {
+	name = "Rilandra"
+	dynasty = 630001
+	religion = vineduskpact
+	culture = arenthi
+	female = yes
+	
+	trait = lifespan_3
+
+	3340.7.9 = { birth = yes }
+	3570.1.6 = { death = yes }
+}
+
+irillyth_1 = {
+	name = "Nalguin"
+	dynasty = 600027
+	religion = greenpact
+	culture = bosmer
+	
+	trait = lifespan_3
+
+	3275.7.9 = { birth = yes }
+	3520.1.6 = { death = yes }
+}
+
+caerllin_1 = {
+	name = "Skelos"
+	religion = greenpact
+	culture = altmeribosmer
+	dynasty = 620005
+	
+	trait = lifespan_3
+	trait = zealous
+	trait = holy_warrior
+	trait = impatient
+	trait = arbitrary
+
+	3247.1.1 = { birth = yes }
+	3471.1.7 = { death = yes }
+}
+
+malaphelle_1 = {
+	name = "Skelos"
+	religion = vineduskpact
+	culture = arenthi
+	dynasty = 630002
+	
+	trait = lifespan_3
+
+	3310.1.1 = { birth = yes }
+	3561.1.7 = { death = yes }
+}
+
+bonefang_1 = {
+	name = "Ulwaen"
+	religion = greenpact
+	culture = grahtwood
+	dynasty = 600021
+	
+	trait = lifespan_3
+
+	3140.1.1 = { birth = yes }
+	3359.1.1 = { death = yes }
+}
+
+bonefang_2 = {
+	name = "Thoromlallor"
+	religion = greenpact
+	culture = grahtwood
+	dynasty = 600021
+	father = bonefang_1
+	
+	trait = twin
+	trait = lifespan_3
+
+	3246.1.1 = { birth = yes }
+	3250.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:bonefang_3 } } }
+	3365.1.1 = { death = { death_reason = death_duel killer = bonefang_3 } }
+}
+
+bonefang_3 = {
+	name = "Eginir"
+	religion = greenpact
+	culture = grahtwood
+	dynasty = 600021
+	father = bonefang_1
+	
+	trait = twin
+	trait = lifespan_3
+
+	3246.1.1 = { birth = yes }
+	3365.1.1 = { death = { death_reason = death_duel killer = bonefang_2 } }
+}
+
+bonefang_4 = {
+	name = "Nedhelfin"
+	religion = greenpact
+	culture = grahtwood
+	dynasty = 600021
+	father = bonefang_1
+	
+	trait = craven
+	trait = lifespan_3
+
+	3280.1.1 = { birth = yes }
+	3480.1.1 = { death = yes }
+}
+
+###Hedorme Dynasty (620006)
+
+# House Hedorme
+hedorme_96 = { #Emigrated from Auridon and successfully installed his kinhold in Rictus
+	name = "Welcano"
+	religion = auriel
+	culture = auridon
+	dynasty = 620006 
+
+	trait = lifespan_3
+	
+	2680.1.1 = { birth = yes }
+	2870.1.1 = { add_spouse = hedorme_96a }
+	2900.1.1 = { death = yes }
+}
+hedorme_96a = {
+	name = "Fiola" 
+	religion = auriel
+	culture = altmeribosmer
+	female = yes
+	
+	trait = lifespan_3
+
+	2680.1.1 = { birth = yes }
+	2900.1.1 = { death = yes }
+}
+hedorme_97 = {
+	name = "Namilion"
+	religion = auriel
+	culture = auridon
+	dynasty = 620006
+	father = hedorme_96
+	mother = hedorme_96a
+
+	trait = lifespan_3
+
+	2880.1.1 = { birth = yes }
+	3070.1.1 = { add_spouse = hedorme_97a }
+	3100.1.1 = { death = yes }
+}
+hedorme_97a = {
+	name = "Meria" 
+	religion = auriel
+	culture = auridon
+	female = yes
+	
+	trait = lifespan_3
+
+	2880.1.1 = { birth = yes }
+	3100.1.1 = { death = yes }
+}
+hedorme_98 = {
+	name = "Velmalmo" 
+	religion = auriel
+	culture = auridon
+	dynasty = 620006 
+	father = hedorme_97
+	mother = hedorme_97a
+
+	trait = lifespan_3
+
+	3080.1.1 = { birth = yes }
+	3270.1.1 = { add_spouse = hedorme_98a }
+	3300.1.1 = { death = yes }
+}
+hedorme_98a = {
+	name = "Teynanwe"
+	religion = auriel
+	culture = auridon
+	female = yes
+	
+	trait = lifespan_3
+
+	3080.1.1 = { birth = yes }
+	3300.1.1 = { death = yes }
+}
+hedorme_99 = {
+	name = "Anglorn" 
+	religion = auriel
+	culture = auridon
+	dynasty = 620006 
+	father = hedorme_98
+	mother = hedorme_98a
+	
+	trait = diligent
+	trait = content
+	trait = humble #Abdicated to his son, stayed in his service
+	trait = lifespan_3
+
+	3280.1.1 = { birth = yes }
+	3290.1.1 = { add_spouse = hedorme_99a }
+	3320.1.1 = { death = { death_reason = death_ritually_eaten killer = caerllin_1 } }
+}
+hedorme_99a = {
+	name = "Anenya"
+	religion = auriel
+	culture = auridon
+	female = yes
+	
+	trait = craven
+	trait = lifespan_3
+
+	3250.1.1 = { birth = yes }
+	3320.1.1 = { death = { death_reason = death_ritually_eaten killer = caerllin_1 } }
+}
+hedorme_100 = {
+	name = "Anglorn" #Anglorn II of Rictus, lost the throne to the machinations of a local Green Pact Zealot and fled in exile to Alinor
+	religion = auriel
+	culture = auridon
+	dynasty = 620006 
+	father = hedorme_99
+	mother = hedorme_99a
+	dna = hedorme_100_dna_entry
+	
+	disallow_random_traits = yes
+	trait = greedy
+	trait = ambitious
+	trait = sadistic
+	trait = seducer
+	trait = education_intrigue_4
+	trait = praxis_negative_2
+	trait = impure
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+			custom_hair=male_hair_byzantine_01
+			custom_cloaks=male_cloaks_secular_ep1_adventurer_01
+		}
+	}	
+
+	3300.1.1 = { birth = yes }
+	3340.1.1 = { 
+		effect = {
+			add_pressed_claim = title:d_southisles
+			add_pressed_claim = title:c_southisle
+		}
+		#employer = aunoroe_99 
+	}
+	3341.1.1 = {
+		effect = { add_character_flag = has_scripted_appearance }
+	}
+	3343.1.1 = { set_relation_lover = { reason = lover_history target = character:aunoroe_99 } }
+	3450.1.1 = { death = yes }
+	
+	
+	
+}
+hedorme_101 = {
+	name = "Bolion"
+	religion = auriel
+	culture = auridon
+	dynasty = 620006 
+	father = hedorme_99
+	mother = hedorme_99a
+	
+	disallow_random_traits = yes
+	trait = lazy
+	trait = fickle
+	trait = compassionate
+	trait = education_learning_4
+
+	3303.1.1 = { birth = yes }
+	3340.1.1 = { 
+		effect = {
+			add_pressed_claim = title:d_southisles
+			add_pressed_claim = title:c_southisle
+		}
+		employer = aunoroe_99 
+	}
+	3350.1.1 = { employer = hedorme_100 }
+	3450.1.1 = { death = yes }
+}
+hedorme_102 = {
+	name = "Benduin"
+	religion = auriel
+	culture = altmeribosmer
+	dynasty = 620006 
+	father = hedorme_99
+	mother = hedorme_99a
+	
+	disallow_random_traits = yes
+	trait = zealous
+	trait = hunter_3
+	trait = brave
+	trait = trusting
+	trait = education_martial_4
+	trait = blademaster_3
+	#trait = praxis_negative_2   ### praxis traits are only for rulers atm
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+			custom_hair=male_hair_mena_04
+			custom_cloaks=male_furs_secular_fp1_nobility_03
+		}
+	}	
+
+	3307.1.1 = { birth = yes }
+	3340.1.1 = { 
+		effect = {
+			add_pressed_claim = title:d_southisles
+			add_pressed_claim = title:c_southisle
+		}
+		employer = aunoroe_99 
+	}
+	3341.1.1 = {
+		effect = { 	add_character_flag = has_scripted_appearance }
+	}
+	3360.1.1 = { employer = aunoroe_100 }
+	3450.1.1 = { death = yes }
+
+
+	
+}
+hedorme_103 = {
+	name = "Berisse"
+	religion = auriel
+	culture = auridon
+	dynasty = 620006 
+	father = hedorme_99
+	mother = hedorme_99a
+	female = yes
+	
+	disallow_random_traits = yes
+	trait = generous
+	trait = content
+	trait = vengeful
+	trait = education_stewardship_3
+
+	3310.1.1 = { birth = yes }
+	3340.1.1 = { 
+		employer = aunoroe_99
+		effect = { set_relation_rival = { reason = rival_historical target = character:caerllin_1 } }
+	}
+	3350.1.1 = { employer = hedorme_100 }
+	3450.1.1 = { death = yes }
+}
+hedorme_104 = {
+	name = "Cariel"
+	religion = auriel
+	culture = auridon
+	dynasty = 620006 
+	father = hedorme_99
+	mother = hedorme_99a
+	female = yes
+	
+	disallow_random_traits = yes
+	trait = generous
+	trait = ambitious
+	trait = vengeful
+	trait = education_martial_3
+
+	3320.1.1 = { birth = yes }
+	3340.1.1 = { 
+		employer = aunoroe_99
+		effect = { set_relation_rival = { reason = rival_historical target = character:caerllin_1 } }
+	}
+	3360.1.1 = { employer = aunoroe_100 }
+	3450.1.1 = { death = yes }
+}
+
+
+#Hadran's Caravan
+hadran_001 = { #Hadran's father
+	name = "Aldran"
+	religion = vineduskpact
+	culture = arenthi
+	dynasty = 630003
+	
+	trait = lifespan_3
+
+	3291.1.1 = { birth = yes }
+	3445.1.1 = { death = yes }
+}
+#Pelda Tarn former Ayleid man
+etitan_1 = { 
+	name = "Celemaril" 
+	dynasty = 1530002
+	religion = wilderking
+	culture = bosmer
+	
+	trait = lifespan_3
+	trait = education_magical_ability_3
+	trait = reclusive
+	
+	3250.7.9 = { birth = yes }
+	3485.1.6 = { death = yes }
+}
+
+#Pirate
+glassbarrow_100 = {
+	name = "Minglos" #Part of the Brethren of the Gold Coast, holds Belport in 450
+	dynasty = glassbarrow
+	culture = cyrobosmer
+	religion = greenpact
+	
+	trait = lifespan_3
+	
+	3249.1.1 = { birth = yes }
+	3396.1.1 = { death = yes }
+}
+
+# LOWBORNS
+
+bosmer_lowborn_1 = { # Gelthior's Mother
+	name = "Ulandra"
+	religion = blacksapmovement
+	culture = grahtwood
+	female = yes
+	
+	trait = lifespan_3
+
+	3315.9.1 = { birth = yes }
+	3435.1.7 = { death = yes }
+}
+
+bosmer_lowborn_2 = { # Velyn Leader
+	name = "Aenedhel"
+	dynasty = 610001
+	religion = greenpact
+	culture = altmeribosmer
+	
+	trait = lifespan_3
+
+	3325.9.1 = { birth = yes }
+	3535.1.7 = { death = yes }
+}
+
+bosmer_lowborn_3 = { # Faume Toad-Eye's Dunmer Wife
+	name = "Milesa"
+	dynasty = 610001
+	religion = idealmasters
+	culture = chuzei
+	female = yes
+
+	trait = necromancer
+	trait = lifespan_3
+
+	3300.9.1 = { birth = yes }
+	3505.1.7 = { death = yes }
+}
+
+bosmer_lowborn_4 = { # Rootwater
+	name = "Saromir"
+	religion = hermaeus_cult
+	culture = bosmer
+	
+	trait = lifespan_3
+
+	3382.9.1 = { birth = yes }
+	3505.1.7 = { death = yes }
+}
+
+bosmer_lowborn_5 = { # Arananga
+	name = "Althomir"
+	religion = wilderking
+	culture = bosmer
+	
+	trait = lifespan_3
+
+	3200.9.1 = { birth = yes }
+	3450.1.7 = { death = yes }
+}
+
+bosmer_lowborn_6 = { # Arananga
+	name = "Maruin"
+	religion = wilderking
+	culture = bosmer
+
+	trait = calm
+	trait = compassionate
+	trait = gregarious
+	trait = lifespan_3
+
+	3469.9.1 = { birth = yes }
+	3679.1.7 = { death = yes }
+}
+
+bosmer_lowborn_7 = { # Gladwell
+	name = "Basthelidir"
+	religion = greenpact
+	culture = bosmer
+	trait = lifespan_3
+
+	3216.9.1 = { birth = yes }
+	3431.1.7 = { death = yes }
+}
+
+bosmer_lowborn_8 = { # Rootwater
+	name = "Balia"
+	religion = hermaeus_cult
+	culture = bosmer
+	female = yes
+	
+	trait = lifespan_3
+
+	3300.9.1 = { birth = yes }
+	3501.12.26 = { death = yes }
+}
+
+bosmer_lowborn_9 = { # Longhaven
+	name = "Gwilir"
+	religion = greenpact
+	culture = bosmer
+	
+	trait = lifespan_3
+
+	3250.9.1 = { birth = yes }
+	3470.1.1 = { death = yes }
+}
+
+bosmer_lowborn_10 = { # Longhaven
+	name = "Breduin"
+	religion = greenpact
+	culture = bosmer
+	
+	trait = lifespan_3
+
+	3436.1.1 = { birth = yes }
+	3650.1.7 = { death = yes }
+}
+
+bosmer_lowborn_11 = {
+	name = "Cylna"
+	religion = blacksapmovement
+	culture = grahtwood
+	female = yes
+	
+	trait = lifespan_3
+
+	3260.1.1 = { birth = yes }
+	3480.1.7 = { death = yes }
+}
+
+bosmer_lowborn_12 = {
+	name = "Tanis"
+	religion = greenpact
+	culture = bosmer
+	
+	trait = lifespan_3
+
+	3299.1.1 = { birth = yes }
+	3550.1.7 = { death = yes }
+}
+
+bosmer_lowborn_13 = {
+	name = "Minlandra"
+	religion = greenpact
+	culture = grahtwood
+	female = yes
+	
+	trait = lifespan_3
+
+	3320.1.1 = { birth = yes }
+	3560.1.7 = { death = yes }
+}
+
+bosmer_lowborn_14 = {
+	name = "Haymon"
+	religion = greenpact
+	culture = bosmer
+	
+	trait = lifespan_3
+
+	3230.1.1 = { birth = yes }
+	3471.1.7 = { death = yes }
+}
+
+bosmer_lowborn_15 = {
+	name = "Ardell"
+	religion = greenpact
+	culture = bosmer
+	
+	trait = lifespan_3
+
+	3157.1.1 = { birth = yes }
+	3371.1.7 = { death = yes }
+}
+
+bosmer_lowborn_16 = {
+	name = "Riadell"
+	religion = greenpact
+	culture = cyrobosmer
+	
+	trait = lifespan_3
+
+	3140.1.1 = { birth = yes }
+	3380.1.7 = { death = yes }
+}
+
+bosmer_lowborn_17 = { # Gelthior's wife, mother of Gorinir and Lorchon
+	name = "Ulandra"
+	religion = blacksapmovement
+	culture = grahtwood
+	female = yes
+	
+	trait = lifespan_3
+
+	3351.9.1 = { birth = yes }
+	3556.1.7 = { death = yes }
+}
+
+bosmer_lowborn_18 = { 
+	name = "Cenirond"
+	religion = greenpact
+	culture = bosmer
+	
+	trait = lifespan_3
+
+	3220.1.1 = { birth = yes }
+	3556.1.1 = { death = yes }
+}
+
+####################
+### Adventurers  ###
+####################
+
+#Bosmer in High Rock
+
+rodrigue_100 = {
+	name = "Rodring" #Warband Rodrigue
+	religion = vineduskpact
+	culture = arenthi
+	
+	trait = greedy
+	trait = vengeful
+	trait = callous
+	trait = lifespan_3
+
+	trait = education_intrigue_2
+	trait = schemer
+	trait = blademaster_1
+	trait = adventurer
+	disallow_random_traits = yes
+
+	3344.1.1 = {birth = yes}
+	3356.1.1 = {
+		effect = { #criminal mastermind
+			add_prestige_level = 3
+		}
+	}
+
+	3360.1.1 = { employer = lariat_999 }
+	3365.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	# 3369.1.1 = { move_to_pool = yes } #retainers don't leave :p
+	3375.1.1 = {death = no}
+}

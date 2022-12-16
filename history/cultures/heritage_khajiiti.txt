@@ -1,0 +1,19 @@
+0.1.1 = {
+	join_era = culture_era_tribal
+}
+
+1000.1.1 = {
+	discover_innovation = innovation_bannus
+	discover_innovation = innovation_casus_belli
+	discover_innovation = innovation_motte
+	discover_innovation = innovation_war_magic
+	discover_innovation = innovation_lunar_lattice # Replaces innovation_basic_armor_forging
+	
+	discover_innovation = innovation_city_planning
+	discover_innovation = innovation_currency_01
+	discover_innovation = innovation_development_01
+	discover_innovation = innovation_gavelkind
+	
+	discover_innovation = innovation_clan_mothers
+	discover_innovation = innovation_might_makes_right
+}

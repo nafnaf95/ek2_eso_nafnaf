@@ -1,0 +1,276 @@
+﻿### Majesty perk tree
+a_life_of_glory_tribal_ruler_prestige_level_increase_effect = {
+	global = A_LIFE_OF_GLORY_TRIBAL_RULER_PRESTIGE_LEVEL_INCREASE_EFFECT
+	first = A_LIFE_OF_GLORY_TRIBAL_RULER_PRESTIGE_LEVEL_INCREASE_EFFECT
+	third = A_LIFE_OF_GLORY_TRIBAL_RULER_PRESTIGE_LEVEL_INCREASE_EFFECT
+}
+
+true_ruler_perk_bypass_offer_vassalization_requirements_effect = {
+	global = TRUE_RULER_PERK_BYPASS_OFFER_VASSALIZATION_REQUIREMENTS_EFFECT
+	first = TRUE_RULER_PERK_BYPASS_OFFER_VASSALIZATION_REQUIREMENTS_EFFECT
+	third = TRUE_RULER_PERK_BYPASS_OFFER_VASSALIZATION_REQUIREMENTS_EFFECT
+}
+
+### Theology perk tree
+enable_ek_learn_liturgical_language_scheme = {
+	global = ENABLE_EK_LEARN_LITURGICAL_LANGUAGE_SCHEME
+	first = ENABLE_EK_LEARN_LITURGICAL_LANGUAGE_SCHEME
+	third = ENABLE_EK_LEARN_LITURGICAL_LANGUAGE_SCHEME
+}
+
+enable_ek_life_extension_scheme = {
+	global = ENABLE_EK_LIFE_EXTENSION_SCHEME
+	first = ENABLE_EK_LIFE_EXTENSION_SCHEME
+	third = ENABLE_EK_LIFE_EXTENSION_SCHEME
+}
+
+radiant_perk_religions_piety_level_increase_effect = {
+	global = RADIANT_PERK_RELIGIONS_PIETY_LEVEL_INCREASE_EFFECT
+	first = RADIANT_PERK_RELIGIONS_PIETY_LEVEL_INCREASE_EFFECT
+	third = RADIANT_PERK_RELIGIONS_PIETY_LEVEL_INCREASE_EFFECT
+}
+
+### Raider perk tree
+raider_perk_effect = {
+	global = RAIDER_PERK_EFFECT
+	first = RAIDER_PERK_EFFECT
+	third = RAIDER_PERK_EFFECT
+}
+sea_raider_perk_effect = {
+	global = SEA_RAIDER_PERK_EFFECT
+	first = SEA_RAIDER_PERK_EFFECT
+	third = SEA_RAIDER_PERK_EFFECT
+}
+sacred_raids_perk_effect = {
+	global = SACRED_RAIDS_PERK_EFFECT
+	first = SACRED_RAIDS_PERK_EFFECT
+	third = SACRED_RAIDS_PERK_EFFECT
+}
+grand_raider_perk_effect = {
+	global = GRAND_RAIDER_PERK_EFFECT
+	first = GRAND_RAIDER_PERK_EFFECT
+	third = GRAND_RAIDER_PERK_EFFECT
+}
+prisoners_and_loot_perk_effect = {
+	global = PRISONERS_AND_LOOT_PERK_EFFECT
+	first = PRISONERS_AND_LOOT_PERK_EFFECT
+	third = PRISONERS_AND_LOOT_PERK_EFFECT
+}
+loot_and_prisoners_perk_effect = {
+	global = LOOT_AND_PRISONERS_PERK_EFFECT
+	first = LOOT_AND_PRISONERS_PERK_EFFECT
+	third = LOOT_AND_PRISONERS_PERK_EFFECT
+}
+raider_blood_perk_effect = {
+	global = RAIDER_BLOOD_PERK_EFFECT
+	first = RAIDER_BLOOD_PERK_EFFECT
+	third = RAIDER_BLOOD_PERK_EFFECT
+}
+
+### Soul Magic perk tree
+risen_dead_perk_effect = {
+	global = CAN_USE_THE_RAISE_THE_DEAD_DECISION
+}
+
+enthrall_prisoner_perk_effect = {
+	global = CAN_TURN_PRISONER_UNDEAD_DECISION
+}
+
+soul_release_perk_effect = {
+	global = CAN_CONSULT_SOUL_LOST_LOVED_ONES_DECISION
+}
+
+path_to_lichdom_perk_effect = {
+	global = CAN_PERFORM_RITUAL_LICHDOM_DECISION
+}
+
+### Dynasty legacies
+# Dragonblood
+dragonblood_legacy_2_effect = {
+	global = GAIN_SKILLS_DURING_CHILDHOOD
+}
+dragonblood_legacy_5_effect = {
+	global = DRAGON_GUARD_DESCRIPTION
+	first = DRAGON_GUARD_DESCRIPTION
+	third = DRAGON_GUARD_DESCRIPTION
+}
+
+# Hegemon
+hegemon_legacy_1_effect = {
+	global = CLAIM_DYNAST_SAME_COST_YOURSELF_PERK_BONUS
+	first = CLAIM_DYNAST_SAME_COST_YOURSELF_PERK_BONUS
+	third = CLAIM_DYNAST_SAME_COST_YOURSELF_PERK_BONUS
+}
+hegemon_legacy_2_effect = {
+	global = CHARACTER_STAT_DYNASTY_POWERFUL_VASSAL_PERK_BONUS
+	first = CHARACTER_STAT_DYNASTY_POWERFUL_VASSAL_PERK_BONUS
+	third = CHARACTER_STAT_DYNASTY_POWERFUL_VASSAL_PERK_BONUS
+}
+hegemon_legacy_3_a_effect = {
+	global = SPLENDOR_INCREASES_DOMAIN_LIMIT_PERK_BONUS
+	first = SPLENDOR_INCREASES_DOMAIN_LIMIT_PERK_BONUS
+	third = SPLENDOR_INCREASES_DOMAIN_LIMIT_PERK_BONUS
+}
+hegemon_legacy_3_b_effect = {
+	global = SPLENDOR_INCREASES_VASSAL_LIMIT_PERK_BONUS
+	first = SPLENDOR_INCREASES_VASSAL_LIMIT_PERK_BONUS
+	third = SPLENDOR_INCREASES_VASSAL_LIMIT_PERK_BONUS
+}
+hegemon_legacy_4_a_effect = {
+	global = DYNASTY_INTERACTION_COST_REDUCTION_PERK_BONUS
+	first = DYNASTY_INTERACTION_COST_REDUCTION_PERK_BONUS
+	third = DYNASTY_INTERACTION_COST_REDUCTION_PERK_BONUS
+}
+hegemon_legacy_4_b_effect = {
+	global = DYNASTY_HOUSE_ADDS_DYNASTY_PRESTIGE_PERK_BONUS
+	first = DYNASTY_HOUSE_ADDS_DYNASTY_PRESTIGE_PERK_BONUS
+	third = DYNASTY_HOUSE_ADDS_DYNASTY_PRESTIGE_PERK_BONUS
+}
+hegemon_legacy_4_c_effect = {
+	global = SPLENDOR_INCREASES_TAXES_PERK_BONUS
+	first = SPLENDOR_INCREASES_TAXES_PERK_BONUS
+	third = SPLENDOR_INCREASES_TAXES_PERK_BONUS
+}
+hegemon_legacy_5_a_effect = {
+	global = HOUSE_HEAD_GET_HOOKS_DYNASTY_PERK_BONUS
+	first = HOUSE_HEAD_GET_HOOKS_DYNASTY_PERK_BONUS
+	third = HOUSE_HEAD_GET_HOOKS_DYNASTY_PERK_BONUS
+}
+hegemon_legacy_5_b_effect = {
+	global = SPLENDOR_INCREASES_LEVY_SIZE_PERK_BONUS
+	first = SPLENDOR_INCREASES_LEVY_SIZE_PERK_BONUS
+	third = SPLENDOR_INCREASES_LEVY_SIZE_PERK_BONUS
+}
+
+# Magicka
+magicka_legacy_1_a_effect = {
+	global = ARCANA_BOOST_PERK_BONUS
+	first = ARCANA_BOOST_PERK_BONUS
+	third = ARCANA_BOOST_PERK_BONUS
+}
+magicka_legacy_1_b_effect = {
+	global = MAGICKA_REGENERATION_PERK_BONUS
+	first = MAGICKA_REGENERATION_PERK_BONUS
+	third = MAGICKA_REGENERATION_PERK_BONUS
+}
+magicka_legacy_1_c_effect = {
+	global = GOOD_ARCANA_GENETIC_TRAIT_PERK_BONUS
+	first = GOOD_ARCANA_GENETIC_TRAIT_PERK_BONUS
+	third = GOOD_ARCANA_GENETIC_TRAIT_PERK_BONUS
+}
+magicka_legacy_3_a_effect = {
+	global = CAN_EDUCATE_MAGICAL_ARTS_NO_INNOVATION_PERK_BONUS
+	first = CAN_EDUCATE_MAGICAL_ARTS_NO_INNOVATION_PERK_BONUS
+	third = CAN_EDUCATE_MAGICAL_ARTS_NO_INNOVATION_PERK_BONUS
+}
+magicka_legacy_3_b_effect = {
+	global = MAGICAL_ARTS_EDUCATION_RESULT_BONUS_WITH_INNOVATION_PERK_BONUS
+	first = MAGICAL_ARTS_EDUCATION_RESULT_BONUS_WITH_INNOVATION_PERK_BONUS
+	third = MAGICAL_ARTS_EDUCATION_RESULT_BONUS_WITH_INNOVATION_PERK_BONUS
+}
+magicka_legacy_4_a_effect = {
+	global = UNLOCKS_MAGICAL_COURT_TYPE_PERK_BONUS
+	first = UNLOCKS_MAGICAL_COURT_TYPE_PERK_BONUS
+	third = UNLOCKS_MAGICAL_COURT_TYPE_PERK_BONUS
+}
+magicka_legacy_5_a_effect = {
+	global = ADDITIONAL_RITUAL_PERK_BONUS
+	first = ADDITIONAL_RITUAL_PERK_BONUS
+	third = ADDITIONAL_RITUAL_PERK_BONUS
+}
+
+### Magical Arts lifestyle
+conjuration_novice_perk_ritual_effect = {
+	global = conjuration_novice_perk_ritual_effect
+}
+conjuration_novice_perk_effect = {
+	global = conjuration_novice_perk_effect
+}
+conjuration_apprentice_perk_effect = {
+	global = conjuration_apprentice_perk_effect
+}
+conjuration_journeyman_perk_effect = {
+	global = conjuration_journeyman_perk_effect
+}
+conjuration_expert_perk_effect = {
+	global = conjuration_expert_perk_effect
+}
+conjuration_master_perk_effect = {
+	global = conjuration_master_perk_effect
+}
+
+destruction_novice_perk_ritual_effect = {
+	global = destruction_novice_perk_ritual_effect
+}
+destruction_novice_perk_effect = {
+	global = destruction_novice_perk_effect
+}
+destruction_apprentice_perk_effect = {
+	global = destruction_apprentice_perk_effect
+}
+destruction_journeyman_perk_effect = {
+	global = destruction_journeyman_perk_effect
+}
+destruction_expert_perk_effect = {
+	global = destruction_expert_perk_effect
+}
+destruction_master_perk_effect = {
+	global = destruction_master_perk_effect
+}
+
+alteration_novice_perk_ritual_effect = {
+	global = alteration_novice_perk_ritual_effect
+}
+alteration_novice_perk_effect = {
+	global = alteration_novice_perk_effect
+}
+alteration_apprentice_perk_effect = {
+	global = alteration_apprentice_perk_effect
+}
+alteration_journeyman_perk_effect = {
+	global = alteration_journeyman_perk_effect
+}
+alteration_expert_perk_effect = {
+	global = alteration_expert_perk_effect
+}
+alteration_master_perk_effect = {
+	global = alteration_master_perk_effect
+}
+
+illusion_novice_perk_ritual_effect = {
+	global = illusion_novice_perk_ritual_effect
+}
+illusion_novice_perk_effect = {
+	global = illusion_novice_perk_effect
+}
+illusion_apprentice_perk_effect = {
+	global = illusion_apprentice_perk_effect
+}
+illusion_journeyman_perk_effect = {
+	global = illusion_journeyman_perk_effect
+}
+illusion_expert_perk_effect = {
+	global = illusion_expert_perk_effect
+}
+illusion_master_perk_effect = {
+	global = illusion_master_perk_effect
+}
+
+restoration_novice_perk_ritual_effect = {
+	global = restoration_novice_perk_ritual_effect
+}
+restoration_novice_perk_effect = {
+	global = restoration_novice_perk_effect
+}
+restoration_apprentice_perk_effect = {
+	global = restoration_apprentice_perk_effect
+}
+restoration_journeyman_perk_effect = {
+	global = restoration_journeyman_perk_effect
+}
+restoration_expert_perk_effect = {
+	global = restoration_expert_perk_effect
+}
+restoration_master_perk_effect = {
+	global = restoration_master_perk_effect
+}

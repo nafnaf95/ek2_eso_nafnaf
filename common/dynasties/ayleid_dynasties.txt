@@ -1,0 +1,77 @@
+﻿# Ayleidoon Range: 1.500.000 - 1.599.999
+
+	#Ayleid: 1.500.000 - 1.519.999
+	#Barsaebic: 1.520.000 - 1.529.999
+	#Mathmeldi: 1.530.000 - 1.539.999
+	#Dynari: 1.540.000 - 1.549.999
+
+#Ayleid: 1.500.000 - 1.519.999
+
+1500000 = {
+	name = "Adonai"
+	culture = ayleid
+}
+
+#Barsaebic: 1.520.000 - 1.529.999
+1520000 = {
+	name = "Myfrandi"
+	culture = barsaebic
+}
+
+1520001 = {
+	name = "Silyanorn"
+	culture = barsaebic
+	motto = dynn_silyanorn_motto
+}
+
+carandol = {
+	name = "Carandol"
+	culture = barsaebic
+	motto = dynn_carandol_motto
+}
+
+
+#mathmeldi: 1.530.000 - 1.539.999
+
+1530000 = {
+	name = "Oiobala" #From EK1
+	culture = mathmeldi
+}
+
+1530001 = {
+	name = "Abasel" #From EK1
+	culture = mathmeldi
+}
+
+1530002 = {
+	name = "Etitan" #Surname of a Storm Atronach boss at their base in ESO
+	culture = mathmeldi
+}
+
+1530003 = {
+	name = "Rulanyil" #Canonical clan of Vilverin, built the ruined city of Rulanyil's Fall in Valenwood
+	culture = mathmeldi
+}
+
+1530004 = {
+	name = "Varondo" #Canonical clan of Varondo in Cyrodiil
+	culture = mathmeldi
+}
+
+1530005 = {
+	name = "Wenayalae" #Clan of Hectaran (lit translation 'Green Throat', indicating their clan's adoption of the Green Pact after their escape from Cyrodiil)
+	culture = mathmeldi
+	motto = dynn_hectaran_motto
+}
+
+#Dynari: 1.540.000 - 1.549.999
+dynar = {
+	name = "Dynar" #Lore; Clan of the Laloriaran, the 'Last King of the Ayleids'
+	culture = dynari
+	motto = dynn_dynar_motto
+}
+dimaethor = {
+	name = "Dimaethor" #Clan of Calinden, Ayleid Knight from the Battle of Glenumbra Moors
+	culture = dynari
+	motto = dynn_dimaethor_motto
+}

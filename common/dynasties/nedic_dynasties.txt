@@ -1,0 +1,528 @@
+﻿# Nedic Range: 500.000 - 599.999
+
+	#Reachfolk: 500.000 - 504.999
+	#Kothringi: 505000 - 509.999
+	#Galen: 510.000 - 514.999
+	#Keptu: 515.000 - 519.999
+	#Duraki: 520.000 - 524.999
+	#Kreath: 525.000 - 529.999
+	#Perena: 530.000 - 534.999
+	#Gemha: 535.000 - 539.999
+	#Karth: 540.000 - 549.999
+	#Nedes: 545.000 - 554.999 
+	#Yespest: 555.000 - 559.999
+
+#Reachfolk: 500.000 - 504.999
+
+dyn_faolan = {
+	name = "\"Blood of the Reach\""
+	culture = reachfolk
+}
+500000 = {
+	name = "Duimnach"
+	culture = reachfolk
+}
+500001 = {
+	name = "Sanuarach"
+	culture = reachfolk
+}
+500002 = {
+	name = "Bullblood"
+	culture = reachfolk
+}
+500003 = {
+	name = "Ironhand"
+	culture = reachfolk
+}
+500004 = {
+	name = "Blackdrake" #EK1 Vasenon
+	culture = reachfolk
+	motto = dynn_blackdrake_motto
+}
+500005 = {
+	name = "Thornroot"
+	culture = reachfolk
+	motto = dynn_thornroot_motto
+}
+500006 = {
+	name = "dynn_Cinder_Heart"
+	culture = reachfolk
+}
+500007 = {
+	name = "Spiritblood"
+	culture = reachfolk
+}
+500008 = {
+	name = "Shadefeather"
+	culture = reachfolk
+}
+500009 = {
+	name = "Ghostsong"
+	culture = reachfolk
+}
+500010 = {
+	name = "Hillhunter"
+	culture = reachfolk
+}
+500011 = {
+	name = "dynn_Red_Crow"
+	culture = reachfolk
+	motto = dynn_redcrow_motto
+}
+500012 = {
+	name = "dynn_Crow_Eye"
+	culture = reachfolk
+}
+500013 = {
+	name = "dynn_Black_Moon"
+	culture = reachfolk
+	motto = dynn_blacknoon_motto
+}
+500014 = {
+	name = "Sarkarain"
+	culture = reachfolk
+}
+500015 = {
+	name = "Rimerock"
+	culture = reachfolk
+}
+500016 = {
+	name = "Wolfblood"
+	culture = reachfolk
+	motto = dynn_Wolfblood_motto
+}
+500017 = {
+	name = "Wildspear"
+	culture = reachfolk
+}
+#50018 free
+500019 = {
+	name = "Bloodcaller"
+	culture = reachfolk
+}
+500020 = {
+	name = "Sorrowsower"
+	culture = reachfolk
+	motto = dynn_sorrowsower_motto
+}
+500022 = {
+	name = "Winterborn"
+	culture = reachfolk
+	motto = dynn_winterborn_motto
+}
+500023 = {
+	name = "Ironbeak"
+	culture = reachfolk
+}
+#500024 = {
+#	name = "Silvertalon"
+#	culture = reachfolk
+#}
+#500025 = {
+#	name = "Heartspire"
+#	culture = reachfolk
+#}
+500026 = {
+	name = "Crowfeather"
+	culture = reachfolk
+}
+#500027 = {
+#	name = "Iceblade"
+#	culture = reachfolk
+#}
+#500028 = {
+#	name = "Greenskull"
+#	culture = reachfolk
+#}
+#500029 = {
+#	name = "Stormwraith"
+#	culture = reachfolk
+#}
+dyn_bloodstone = {
+	name = "Bloodstone"
+	culture = reachfolk
+}
+#500031 = {
+#	name = "Icetalon"
+#	culture = reachfolk
+#}
+#500032 = {
+#	name = "Fairfeather"
+#	culture = reachfolk
+#}
+#500033 = {
+#	name = "dynn_Ice_Vein"
+#	culture = reachfolk
+#}
+#500034 = {
+#	name = "dynn_Ice_Blood"
+#	culture = reachfolk
+#}
+#500035 = {
+#	name = "Blackmantle"
+#	culture = reachfolk
+#}
+#500036 = {
+#	name = "Stormsinger"
+#	culture = reachfolk
+#}
+#500037 = {
+#	name = "Blackthumb"
+#	culture = reachfolk
+#}
+#500038 = {
+#	name = "dynn_Fell_Speaker"
+#	culture = reachfolk
+#}
+#500039 = {
+#	name = "Silvertongue"
+#	culture = reachfolk
+#}
+dyn_knotbeard = {
+	name = "Knotbeard"
+	culture = reachfolk
+}
+#500041 = {
+#	name = "Trollslaughter"
+#	culture = reachfolk
+#}
+#500042 = {
+#	name = "dynn_Bone_Carver"
+#	culture = reachfolk
+#}
+dyn_Gate_Basher = {
+	name = "dynn_Gate_Basher"
+	culture = reachfolk
+}
+
+froststone = {
+	name = "Froststone"
+	culture = reachfolk
+}
+
+#500044 = {
+#	name = "dynn_Bear_Heart"
+#	culture = reachfolk
+#}
+#
+#500045 = {
+#	name = "dynn_Black_Moon"
+#	culture = reachfolk
+#}
+#
+#500046 = {
+#	name = "Blackoath"
+#	culture = reachfolk
+#}
+#
+#500047 = {
+#	name = "Boldclaw"
+#	culture = reachfolk
+#}
+#
+#500048 = {
+#	name = "Boneshaper"
+#	culture = reachfolk
+#}
+#
+#500049 = {
+#	name = "dynn_Cinder_Heart"
+#	culture = reachfolk
+#}
+#
+#500050 = {
+#	name = "dynn_Crow_Eye"
+#	culture = reachfolk
+#}
+#
+#500051 = {
+#	name = "dynn_Crow_Wife"
+#	culture = reachfolk
+#}
+#
+#500052 = {
+#	name = "Dark Witness"
+#	culture = reachfolk
+#}
+#
+#500053 = {
+#	name = "Deathwing"
+#	culture = reachfolk
+#}
+#
+#500054 = {
+#	name = "Doomfang"
+#	culture = reachfolk
+#}
+#
+#500055 = {
+#	name = "Dragonclaw"
+#	culture = reachfolk
+#}
+#
+#500056 = {
+#	name = "Eagleseer"
+#	culture = reachfolk
+#}
+#
+#500057 = {
+#	name = "Ghostsong"
+#	culture = reachfolk
+#}
+#
+#500058 = {
+#	name = "Grimfang"
+#	culture = reachfolk
+#}
+#
+#500059 = {
+#	name = "Hearteater"
+#	culture = reachfolk
+#}
+#
+#500060 = {
+#	name = "Hillhunter"
+#	culture = reachfolk
+#}
+#
+#500061 = {
+#	name = "dynn_Horn_Stride"
+#	culture = reachfolk
+#}
+#
+#500062 = {
+#	name = "Icereach"
+#	culture = reachfolk
+#}
+#
+#500063 = {
+#	name = "Kairian"
+#	culture = reachfolk
+#}
+#
+#500064 = {
+#	name = "Mistrunner"
+#	culture = reachfolk
+#}
+#
+#500065 = {
+#	name = "Quicktalon"
+#	culture = reachfolk
+#}
+#
+#500065 = {
+#	name = "Rageclaw"
+#	culture = reachfolk
+#}
+#
+#500066 = {
+#	name = "dynn_River_Elk"
+#	culture = reachfolk
+#}
+#
+#500067 = {
+#	name = "Shadowbloom"
+#	culture = reachfolk
+#}
+#
+#500067 = {
+#	name = "Hillhunter"
+#	culture = reachfolk
+#}
+#
+#500068 = {
+#	name = "The Shunned Ones"
+#	culture = reachfolk
+#}
+
+#500069 = {
+#	name = "dynn_Six_Ford"
+#	culture = reachfolk
+#}
+#
+#500070 = {
+#	name = "Skyweaver"
+#	culture = reachfolk
+#}
+#
+#500071 = {
+#	name = "Spiritdancer"
+#	culture = reachfolk
+#}
+#
+#500072 = {
+#	name = "dynn_Spirit_Tale"
+#	culture = reachfolk
+#}
+#
+#500073 = {
+#	name = "dynn_Stag_Heart"
+#	culture = reachfolk
+#}
+#
+#500074 = {
+#	name = "Starsinger"
+#	culture = reachfolk
+#}
+#
+#500075 = {
+#	name = "Stonetalon"
+#	culture = reachfolk
+#}
+#
+#500076 = {
+#	name = "Stranglehollow"
+#	culture = reachfolk
+#}
+#
+#500077 = {
+#	name = "Timberclaw"
+#	culture = reachfolk
+#}
+#
+#500078 = {
+#	name = "Timbercrow"
+#	culture = reachfolk
+#}
+#
+#500079 = {
+#	name = "Treeshade"
+#	culture = reachfolk
+#}
+#
+#500080 = {
+#	name = "Twisted Briar"
+#	culture = reachfolk
+#}
+
+#Kothringi: 505000 - 509.999
+505000 = {
+	name = "Rehk"
+	culture = kothringi
+}
+505001 = {
+	prefix = "dynnp_ap"
+	name = "Chiluk"
+	culture = kothringi
+}
+505002 = {
+	name = "Tymrokk"
+	culture = kothringi
+}
+505003 = {
+	name = "Vlarzyn"
+	culture = kothringi
+}
+
+505003b = {
+	name = "Tark"
+	culture = kothringi
+}
+
+505004 = {
+	name = "Zuukir"
+	culture = kothringi
+	motto = dynn_zuukir_motto
+}
+
+505005 = {
+	name = "Abaakul"
+	culture = kothringi
+}
+
+#Galen: 510.000 - 514.999
+
+
+
+#Keptu: 515.000 - 519.999
+
+515000 = {
+	name = "Tark"
+	culture = keptu
+}
+
+515001 = {
+	name = "Lahk"
+	culture = keptu
+	motto = dynn_lahk_motto
+}
+
+515002 = {
+	name = "Graysk"
+	culture = keptu
+}
+
+#Duraki: 520.000 - 524.999
+
+
+
+#Kreath: 525.000 - 529.999
+525000 = {
+	name = "Bal"
+	culture = kreath
+}
+
+
+#Perena: 530.000 - 534.999
+
+
+
+#Gemha: 535.000 - 539.999
+
+
+
+#Karth: 540.000 - 549.999
+
+
+
+#Nedes: 545.000 - 554.999 
+
+#Yespest: 555.000 - 559.999
+555000 = {
+	prefix = "dynnp_clan"
+	name = "Akneinas"
+	culture = yespest
+	motto = dynn_akneinas_motto
+}
+555001 = {
+	prefix = "dynnp_clan"
+	name = "Atla"
+	culture = yespest
+	motto = dynn_atla_motto
+}
+555002 = {
+	prefix = "dynnp_clan"
+	name = "Haretkh"
+	culture = yespest
+}
+555003 = {
+	prefix = "dynnp_clan"
+	name = "Ninas"
+	culture = yespest
+}
+555004 = {
+	prefix = "dynnp_clan"
+	name = "Zertos"
+	culture = yespest
+}
+555005 = {
+	prefix = "dynnp_clan"
+	name = "Atul"
+	culture = yespest
+	motto = dynn_atul_motto
+}
+
+#horwalli
+
+horwalli_archon = {
+	name = "Vraseth"
+	culture = horwalli
+	motto = dynn_vraseth_motto
+}
+
+#Orma
+orma_ka = {
+	name = "Orma_Ka"
+	culture = orma
+	motto = dynn_ormaka_motto
+}

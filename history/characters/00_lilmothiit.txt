@@ -1,0 +1,283 @@
+﻿ #3360.1.1 <- STARTDATE
+#3420.1.1 <- Knahaten Flu?
+
+blackrose_dyaan_001 = { # King of Lilmoth
+	name = "Xir"
+	dynasty = blackrose_dyaan
+	religion = lilmothiit_hist
+	culture = lilmothiit
+	
+	trait = education_stewardship_4
+	trait = shrewd
+	trait = patient
+	trait = just
+	trait = fickle
+	
+	disallow_random_traits = yes
+
+	300.1.1 = {
+		birth = yes
+	}
+	350.1.1 = { give_nickname = nick_the_fox }	# ;)
+	400.1.1 = {
+		death = yes
+	}
+}
+
+blackrose_dyaan_001b = { # Line of King of Lilmoth
+	name = "Xir"
+	dynasty = blackrose_dyaan
+	religion = lilmothiit_hist
+	culture = lilmothiit
+	trait = line_of_x
+	disallow_random_traits = yes
+	father = blackrose_dyaan_001	
+
+	400.1.1 = { birth = yes }
+	500.1.1 = { give_nickname = nick_line_of }		
+	3270.1.1 = {
+		death = yes
+	}
+}
+
+blackrose_dyaan_002 = { # Dead Duke of Blackrose
+	name = "Aimxir"
+	dynasty = blackrose_dyaan
+	religion = lilmothiit_hist
+	culture = lilmothiit
+	father = blackrose_dyaan_001b		
+
+	3270.1.1 = {
+		birth = yes
+	}
+	3345.1.1 = {
+		death = yes
+	}
+}
+
+blackrose_dyaan_01 = { # Dead Duke of Blackrose
+	name = "Aiisxar"
+	dynasty = blackrose_dyaan
+	religion = lilmothiit_hist
+	culture = lilmothiit
+	
+	trait = gregarious
+	trait = ambitious
+	trait = just
+	trait = shrewd
+	trait = education_stewardship_4
+	father = blackrose_dyaan_002	
+
+	3300.1.1 = {
+		birth = yes
+	}
+	3320.1.1 = { add_spouse = blackrose_dyaan_01_spouse }
+	#3345.1.1 = { give_nickname = nick_the_fox }	# i hate delta i hate delta i hate delta i ha
+	3360.1.1 = {
+		death = yes
+	}
+}
+blackrose_dyaan_01_spouse = { # Dead Duke of Blackrose'S Wife
+	name = "Marle"
+	female = yes
+	religion = lilmothiit_hist
+	culture = lilmothiit
+	dynasty = lakemire_mispatiit
+	mother = lakemire_mispatiit_00
+	
+	trait = gregarious
+
+	3300.1.1 = {
+		birth = yes
+	}
+	3320.1.1 = { add_spouse = blackrose_dyaan_01 }
+	3370.1.1 = {
+		death = yes
+	}
+}
+
+blackrose_dyaan_02 = { #Exiled Would-Be-Heir / Duke of Lakemire
+	name = "Xir"
+	dynasty = blackrose_dyaan
+	religion = lilmothiit_hist
+	culture = lilmothiit
+	father = blackrose_dyaan_01
+	mother = blackrose_dyaan_01_spouse
+	
+	trait = education_martial_2
+	trait = disinherited
+	trait = ambitious
+	trait = greedy
+	trait = arrogant
+	trait = adventurer
+	diplomacy = 10
+
+	3320.1.1 = {
+		birth = yes
+	}
+	3360.1.1 = {
+		effect = { add_pressed_claim = title:d_blackrose }
+		effect = { set_relation_rival = { reason = rival_historical target = character:blackrose_dyaan_03 } }
+		give_nickname = nick_the_usurper
+	}
+	3340.1.1 = { add_spouse = blackrose_dyaan_02_spouse }
+	3420.1.1 = {
+		death = yes
+	}
+}
+
+blackrose_dyaan_02_spouse = {
+	name = "Tartiti"
+	religion = lilmothiit_hist
+	culture = lilmothiit
+	female = yes
+
+	3321.1.1 = {
+		birth = yes
+	}
+	3420.1.1 = {
+		death = yes
+	}
+}
+
+blackrose_dyaan_02_son = {
+	name = "Aimxir"
+	religion = lilmothiit_hist
+	culture = lilmothiit
+	father = blackrose_dyaan_02
+	mother = blackrose_dyaan_02_spouse
+	dynasty = blackrose_dyaan
+	trait = twin
+	trait = education_martial_3
+
+	3341.9.8 = {
+		birth = yes
+		}
+	3430.1.1 = {
+		death = yes
+	}	
+}
+
+blackrose_dyaan_02_daughter = {
+	name = "FA_ina"
+	religion = lilmothiit_hist
+	culture = lilmothiit
+	female = yes
+	father = blackrose_dyaan_02
+	mother = blackrose_dyaan_02_spouse
+	dynasty = blackrose_dyaan
+	trait = twin
+	trait = education_intrigue_3
+
+	3341.9.9 = {
+		birth = yes
+		}
+	3360.1.1 = { add_spouse = lakemire_mispatiit_03 }
+	3430.1.1 = {
+		death = yes
+	}	
+}
+
+blackrose_dyaan_03 = { #Daughter / Duchess of Blackrose 
+	name = "Mispaxa"
+	female = yes
+	dynasty = blackrose_dyaan
+	religion = lilmothiit_hist
+	culture = lilmothiit
+	father = blackrose_dyaan_01
+	mother = blackrose_dyaan_01_spouse
+	
+	trait = education_diplomacy_3
+	trait = shrewd
+	trait = deceitful
+	trait = craven
+	trait = patient
+
+	3340.1.1 = {
+		birth = yes
+	}
+	3360.1.1 = {
+		effect = { add_pressed_claim = title:d_lakemire }
+			}
+	3420.1.1 = {
+		death = yes
+	}
+}
+
+# holders of northern Lakemire/ Buwomousa region
+
+lakemire_mispatiit_00 = {
+	name = "FA_ina"
+	female = yes
+	dynasty = lakemire_mispatiit
+	religion = lilmothiit_hist
+	culture = lilmothiit
+	
+	
+	3280.1.1 = { birth = yes }
+	3340.1.1 = { death = yes }
+}
+
+lakemire_mispatiit_01 = {
+	name = "Sanonta"
+	female = yes
+	dynasty = lakemire_mispatiit
+	religion = lilmothiit_hist
+	culture = lilmothiit
+	mother = lakemire_mispatiit_00
+	
+	trait = education_martial_1
+	
+	3300.1.1 = { birth = yes }
+	3350.1.1 = { death = yes }
+}
+
+lakemire_mispatiit_02 = {
+	name = "AapomA_rs"
+	dynasty = lakemire_mispatiit
+	religion = lilmothiit_hist
+	culture = lilmothiit
+	mother = lakemire_mispatiit_01
+	
+	trait = education_martial_2
+	
+	3321.1.1 = { birth = yes }
+	3339.1.1 = { add_spouse = lakemire_mispatiit_02_spouse }
+	3393.1.1 = { death = yes }
+}
+
+lakemire_mispatiit_02_spouse = {
+	name = "Mimini"
+	religion = lilmothiit_hist
+	culture = lilmothiit
+	female = yes
+	
+	3321.1.1 = { birth = yes }
+	3339.1.1 = { add_spouse = lakemire_mispatiit_02 }
+	3393.1.1 = { death = yes }
+}
+
+lakemire_mispatiit_03 = {
+	name = "PA_ita"
+	dynasty = lakemire_mispatiit
+	religion = lilmothiit_hist
+	culture = lilmothiit
+	father = lakemire_mispatiit_02
+	mother = lakemire_mispatiit_02_spouse
+		
+	3340.1.1 = { birth = yes }
+	3420.1.1 = { death = yes }
+}
+
+#lowborn
+arnand_the_fox = {
+	name = "Arnand"
+	religion = breton_cult
+	culture = lilmothiit
+		
+	3340.1.1 = { birth = yes }
+	3342.1.1 = { give_nickname = nick_the_fox }
+	3360.1.1 = { employer = viralaine_1000 }
+	#3360.1.2 = { set_culture_same_as = viralaine_1000 } TODO: PRODUCES ERRORS - BUCK
+	3420.1.1 = { death = yes }
+}

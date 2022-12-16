@@ -1,0 +1,3 @@
+﻿### EK EDIT: Emptied the file
+### EK TODO: Add our bookmarks characters
+#Bookmark Characters

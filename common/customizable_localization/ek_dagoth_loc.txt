@@ -1,0 +1,31 @@
+﻿sixth_house_dynamic_desc = {
+	type = character
+
+	text = {
+		trigger = {
+			has_faith = faith:sixth_house
+		}
+		localization_key = sixth_house_follower_desc
+	}
+	
+	text = {
+		fallback = yes
+		localization_key = sixth_house_nonfollower_desc
+	}
+}
+
+divine_disease_dynamic_desc = {
+	type = character
+
+	text = {
+		trigger = {
+			has_faith = faith:sixth_house
+		}
+		localization_key = tenet_divine_disease_follower_desc
+	}
+	
+	text = {
+		fallback = yes
+		localization_key = tenet_divine_disease_nonfollower_desc
+	}
+}

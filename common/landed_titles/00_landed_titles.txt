@@ -1,0 +1,58 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+
+#################
+#Special Titles
+#################
+
+e_tamriel = {
+	color = { 150 0 0 }
+
+	capital = c_imperial_city
+	can_be_named_after_dynasty = no
+
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+}
+
+e_ghost_sea = {
+	color = { 100 0 0 }
+
+	capital = c_volkihar
+	can_be_named_after_dynasty = no
+}
+
+e_reach = {
+	color = { 15 110 15 }
+
+	capital = c_markarth
+	can_be_named_after_dynasty = no
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		if = {
+			limit = { culture = culture:reachfolk }
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
+#(Pirate) Confederacy of the Isles
+k_the_isles = {
+	color = { 100 75 25 }
+	#definite_form = yes
+
+	capital = c_abah_landing
+	can_be_named_after_dynasty = no
+}
+
+#Kingdom of Falinesti, currently just for history purposes
+k_falinesti = {
+	color = { 1 114 1 }
+	#definite_form = yes
+
+	capital = c_summersite
+	can_be_named_after_dynasty = no
+}

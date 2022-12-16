@@ -1,0 +1,13 @@
+﻿# A few vanilla titles are used in script and code, so we have to keep them
+
+k_fashion = { # Kingdom of Fashion from Establish a New Fashion at Court decision
+	color = { 140 45 165 }
+	landless = yes
+	destroy_on_succession = yes
+	can_be_named_after_dynasty = no
+	capital = c_imperial_city # De-Jure capital has to be somewhere, will move as characters gain the title
+
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_be_named_after_dynasty = no
+}

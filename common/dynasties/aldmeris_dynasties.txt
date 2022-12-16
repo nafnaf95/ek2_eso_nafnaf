@@ -1,0 +1,360 @@
+﻿# Aldmeris Range: 700.000-799.999
+	#Alinori: 700.000 - 719.999
+	#Aurodoni: 720.000 - 729.999
+	#Balfieri: 730.000 - 739.999
+	#Corelanya: 740.000 - 749.999
+
+#Alinori: 700.000-719.999
+
+700000 = { #Royal House of the Summerset Isles, claims descent from no less than Auriel himself 
+	#name = "Arana"
+	prefix = "dynnp_av"
+	name = "Auriel"
+	culture = alinor
+	motto = dynn_auriel_motto
+}
+
+700002 =  {
+	name = "Galerion" #Vanus Galerion's dynasty
+	culture = alinor
+	motto = dynn_galerion_motto
+}
+700003 =  {
+	prefix = "dynnp_av"
+	name = "Et'Ada" #Mannimarco's dynasty
+	culture = alinor
+	motto = dynn_mannimarco_motto
+}
+
+aangdil = {
+	name = "Aangdil"
+	culture = alinor
+}
+athlarean = {
+	name = "Athlarean"
+	culture = alinor
+}
+aunsamiran = { #Royal House of Dusk
+	name = "Aunsamiran"
+	culture = alinor
+	motto = dynn_aunsamiran_motto
+}
+arknisar = {
+	name = "Arknisar"
+	culture = alinor
+}
+aroroui = {
+	name = "Aroroui"
+	culture = alinor
+}
+calianor = {
+	name = "Calianor"
+	culture = alinor
+}
+calicen = {
+	name = "Calicen"
+	culture = alinor
+}
+celcerar = {
+	name = "Celcerar"
+	culture = alinor
+}
+fisenon = {
+	name = "Fisenon"
+	culture = alinor
+}
+gildera = {
+	name = "Gildera"
+	culture = alinor
+}
+grevil = {
+	name = "Grevil"
+	culture = alinor
+}
+hesene = {
+	name = "Hesene"
+	culture = alinor
+	motto = dynn_hesene_motto
+}
+heslia = {
+	name = "Heslia"
+	culture = alinor
+}
+hesnaton = {
+	name = "Hesnaton"
+	culture = alinor
+}
+hinyal = {
+	name = "Hinyal"
+	culture = alinor
+}
+ilnisan = {
+	name = "Ilnisan"
+	culture = alinor
+}
+isquer = {
+	name ="Isquer"
+	culture = alinor
+	motto = dynn_isquer_motto
+}
+iteroris = {
+	name = "Iteroris"
+	culture = alinor
+}
+itecerie = { #Royal House of Shimmerene
+	name = "Itecerie"
+	culture = alinor
+	motto = dynn_itecerie_motto
+}
+levena = {
+	name = "Levena"
+	culture = alinor
+}
+lirgonme = {
+	name = "Lirgonme"
+	culture = alinor
+}
+lirmiron = {
+	name = "Lirmiron"
+	culture = alinor
+}
+ravmiral = {
+	name = "Ravmiral"
+	culture = alinor
+}
+sirmia = {
+	name = "Sirmia"
+	culture = alinor
+}
+tilata = {
+	name = "Tilata"
+	culture = alinor
+}
+tyegar = {
+	name = "Tyegar"
+	culture = alinor
+}
+yanilia = { #Current Kinlords of Torhamekard, usurped the Hinrorue at some point in the past
+	name = "Yanilia"
+	culture = alinor
+}
+yannalve = {
+	name = "Yannalve"
+	culture = alinor
+}
+vecerme = {
+	name = "Vecerme"
+	culture = alinor
+}
+ukmiar = {
+	name = "Ukmiar"
+	culture = alinor 
+}
+aundae = {
+	name = "Aundae"
+	culture = alinor 
+}
+herecalon = {
+	name = "Herecalon"
+	culture = alinor 
+}
+illiuar = {
+	name = "Illiuar"
+	culture = alinor 
+}
+mernilon = {
+	name = "Mernilon"
+	culture = alinor 
+}
+ocyan = {
+	name = "Ocyan"
+	culture = alinor 
+}
+salnilde = {
+	name = "Salnilde"
+	culture = alinor 
+}
+firoruar = {
+	name = "Firoruar"
+	culture = alinor 
+}
+anccermo = { #House of Sapiarch Larnatille
+	name = "Anccermo"
+	culture = alinor 
+}
+ancmirar = { #Royal House of Cloudrest
+	name = "Ancmirar"
+	culture = alinor 
+	motto = dynn_ancmirar_motto
+}
+mothril = { #House of King's Haven
+	name = "Mothril"
+	culture = alinor 
+}
+aunoroe = { #Royal House of Lillandril
+	name = "Aunoroe"
+	culture = alinor 
+	motto = dynn_aunoroe_motto
+}
+cellian = {
+	name = "Cellian"
+	culture = alinor 
+}
+#fimie = {
+#	name = "Fimie"
+#	culture = alinor 
+#}
+#fimion = {
+#	name = "Fimion"
+#	culture = alinor 
+#}
+#finarenon = {
+#	name = "Finarenon"
+#	culture = alinor 
+#}
+#oxsatis = {
+#	name = "Oxsatis"
+#	culture = alinor 
+#}
+hinrorue = { #Former Kinlords of Torhamekhard, descended from Prime Battlereeve Firfarya
+	name = "Hinrorue"
+	culture = alinor 
+	motto = dynn_hinrorue_motto
+}
+agea_relle = {
+	name = "cn_agea_relle"
+	culture = alinor
+}
+
+helenil = {
+	name = "Helenil"
+	culture = alinor
+}
+
+#Auridoni: 720.000-729.999
+
+
+auridon = { #Royal House of Firsthold, through the Rilis Cadet
+	name = "Auridon"
+	culture = auridon
+	motto = dynn_auridon_motto
+}
+ancuryil = {
+	name = "Ancuryil"
+	culture = auridon
+}
+
+720001 =  { #House of Ocato
+	prefix = "dynnp_of"
+	name = "Firsthold"
+	culture = auridon
+	motto = dynn_motto_firsthold
+}
+errinorne =  { #Royal House of Skywatch
+	prefix = "dynnp_of"
+	name = "Errinorne"
+	culture = auridon
+}
+720003 =  { #House of Seaside Kinhold, in Vullain, Valenwood
+	prefix = "dynnp_of"
+	name = "Eldamar"
+	culture = auridon
+	motto = dynn_eldamar_motto
+}
+
+surnaluar = {
+	name = "Surnaluar"
+	culture = auridon
+}
+arelsenil = {
+	name = "Arelsenil"
+	culture = auridon
+}
+adalil = {
+	name = "Adalil"
+	culture = auridon
+}
+larion = {
+	name = "Larion"
+	culture = auridon
+}
+caerinor = {
+	name = "Caerion"
+	culture = auridon
+}
+tyegoni = {
+	name = "Tyegoni"
+	culture = auridon
+}
+derinil = {
+	name = "Derinil"
+	culture = auridon
+}
+lithin = {
+	name = "Lithin"
+	culture = auridon
+}
+phaeris = {
+	name = "Phaeris"
+	culture = auridon
+}
+valano = {
+	name = "Valano"
+	culture = auridon
+}
+hesenil = {
+	name = "Hesenil"
+	culture = auridon
+}
+arelsamirmo = {
+	name = "Arelsamirmo"
+	culture = auridon
+}
+fiora = {
+	name = "Fiora"
+	culture = auridon
+}
+jororil = {
+	name = "Jororil"
+	culture = auridon
+}
+auralus = {
+	name = "Auralus"
+	culture = auridon
+}
+
+
+#Balfieri: 730.000-739.999
+
+730000 = { #Royal House of Balfiera
+	name = "Direnni"
+	culture = balfiera
+	motto = dynn_direnni_motto
+}
+
+730001 = { #House of Ravenwatch
+	name = "Ravenn"
+	culture = balfiera
+	motto = dynn_ravenn_motto
+}
+
+730002 = {
+	name = "Phoenicia" #Flamingo order
+	culture = balfiera
+	motto = dynn_ravenn_motto
+}
+
+730003 = {
+	name = "Strisor" #Hummingbird order
+	culture = balfiera
+	motto = dynn_ravenn_motto
+}
+
+730004 = { #Bastard line of Raven Direnni through an obscure but reliable claim
+	name = "Aquila" #Eagle vernacular group
+	culture = balfiera
+	motto = dynn_aquila_motto
+}
+
+#Corelanya: 740.000-749.999
+

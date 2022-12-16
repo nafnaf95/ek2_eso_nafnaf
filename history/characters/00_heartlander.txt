@@ -1,0 +1,1907 @@
+﻿## Lex Dynasty (lex)
+# House Lex
+lex_caius = {
+	name = "Caius"
+	dynasty = lex
+	culture = heartlander
+	religion = imperial_cult
+	dna = lex_caius_dna_entry
+
+	trait = education_stewardship_4
+	trait = just
+	trait = diligent
+	trait = patient
+
+	3312.1.1 = { birth = yes }
+	3336.1.1 = { add_spouse = lex_caius_wife }
+	3347.1.1 = { give_nickname = nick_the_just }
+	3350.1.1 = {
+		set_relation_friend = { target = character:odiil_100 reason = friend_generic_history }
+		effect = { # Chosen by the Elder Council to get the Heartlands if still alive when it's supposed to happen
+			add_character_modifier = caius_lex_chosen_ec_modifier
+		}
+	}
+	3364.1.1 = {
+		# Caius wishes to protect the heartlands from yet another pretender destabilizing the area
+		set_relation_rival = { target = character:cuptor_99 reason = rival_historical }
+	}
+	3369.8.17 = {
+		# Caius wishes to protect the heartlands from yet another pretender destabilizing the area
+		set_relation_rival = { target = character:tor_912 reason = rival_historical }
+	}
+	3370.1.1 = {
+		#effect = {
+		#	if = { limit = { is_in_society = yes } leave_society = yes }
+		#	join_society = elder_council
+		#	set_society_grandmaster = yes
+		#	set_global_flag = imperial_commune_active
+		#	set_global_flag = commune399debug
+		#}
+		remove_trait = diligent
+		trait = content
+	}
+	3376.1.1 = { death = yes }
+
+		portrait_override={
+			portrait_modifier_overrides={
+				custom_hair=male_hair_fp1_07
+				custom_beards=male_beard_western_01
+			}
+		}	
+	
+}
+lex_caius_wife = {
+	name = "Caecillia"
+	female = yes
+	dynasty = 100025
+	culture = heartlander
+	religion = imperial_cult
+	
+	father = odiil_99
+
+	3319.1.1 = { birth = yes }
+	3336.1.1 = { add_spouse = lex_caius }
+	3383.1.1 = { death = yes }
+}
+lex_101 = {
+	name = "Hadrian"
+	dynasty = lex
+	culture = heartlander
+	religion = imperial_cult
+	
+	trait = intellect_good_1
+	trait = education_stewardship_3
+
+	sexuality = homosexual
+
+	father = lex_caius
+	mother = lex_caius_wife
+	
+	3338.1.1 = { birth = yes }
+	#3365.1.1 = { 
+	#	secret_religion = daedra_sanguine
+	#	effect = { c_15575 = { add_friend = ROOT } }
+	#}
+	#3376.1.1 = {
+	#	effect = {
+	#		if = { limit = { is_in_society = yes } leave_society = yes }
+	#		join_society = elder_council
+	#		set_society_grandmaster = yes
+	#	}
+	#}
+	3406.1.1 = { death = yes }
+}
+lex_102 = {
+	name = "Clagius"
+	dynasty = lex
+	culture = heartlander
+	religion = imperial_cult
+
+	trait = intellect_bad_3
+	trait = education_martial_2
+	prowess = 8
+	
+	father = lex_caius
+	mother = lex_caius_wife
+
+	3341.1.1 = { birth = yes }
+	3382.1.1 = { death = yes }
+}
+lex_103 = {
+	name = "Silvia"
+	female = yes
+	dynasty = lex
+	culture = heartlander
+	religion = imperial_cult
+	
+	father = lex_caius
+	mother = lex_caius_wife
+
+	3350.1.1 = { birth = yes }
+	3411.1.1 = { death = yes }
+}
+lex_104 = {
+	name = "Gergius"
+	dynasty = lex
+	culture = heartlander
+	religion = imperial_cult
+	
+	father = lex_101
+	
+	3365.1.1 = { birth = yes }
+	3430.1.1 = { death = yes }
+}
+lex_105 = {
+	name = "Caius"
+	dynasty = lex
+	culture = heartlander
+	religion = imperial_cult
+	
+	father = lex_101
+	
+	3390.1.1 = { birth = yes }
+	3450.1.1 = { death = yes }
+}
+lex_106 = {
+	name = "Augurius"
+	dynasty = lex
+	culture = heartlander
+	religion = imperial_cult
+	
+	father = lex_105
+	
+	3425.1.1 = { birth = yes }
+	#3455.1.1 = {
+	#	effect = {
+	#		clr_global_flag = imperial_commune_active
+	#		clr_global_flag = commune399debug
+	#	}
+	#}
+	3500.1.1 = { death = yes }
+}
+lex_107 = {
+	name = "Dolcettus"
+	dynasty = lex
+	culture = heartlander
+	religion = imperial_cult
+	
+	father = lex_106
+	
+	3460.1.1 = { birth = yes }
+	3530.1.1 = { death = yes }
+}
+lex_108 = {
+	name = "Lutherius"
+	dynasty = lex
+	culture = heartlander
+	religion = imperial_cult
+	
+	father = lex_107
+	
+	3483.1.1 = { birth = yes }
+	3541.1.1 = { death = yes }
+}
+
+## Terentius Dynasty (130000)
+
+# House Terentius
+terentius_97 = {
+	name = "Naspis" #Duke of Caractacus
+	dynasty = 130000
+	culture = heartlander
+	religion = imperial_cult
+
+	3213.1.1 = { birth = yes }
+	3280.1.1 = { death = yes }
+}
+terentius_80 = {
+	name = "Septima"
+	female = yes
+	dynasty = 130000
+	culture = heartlander
+	religion = imperial_cult
+	father = terentius_97
+
+	3236.1.1 = { birth = yes }
+	3308.1.1 = { death = yes }
+}
+terentius_98 = {
+	name = "Petrus"
+	dynasty = 130000
+	culture = heartlander
+	religion = imperial_cult
+	father = terentius_97
+
+	3232.1.1 = { birth = yes }
+	3308.1.1 = { death = yes }
+}
+terentius_99 = {
+	name = "Ormellius" #Duke of Caractacus
+	dynasty = 130000
+	culture = heartlander
+	religion = imperial_cult
+	father = terentius_97
+
+	3245.1.1 = { birth = yes }
+	3310.1.1 = { death = yes }
+}
+terentius_100 = {
+	name = "Idessa" #Duke of Caractacus, marries Jano
+	female = yes
+	dynasty = 130000
+	culture = heartlander
+	religion = imperial_cult
+	father = terentius_99
+
+	3267.1.1 = { birth = yes }
+	3339.1.1 = { death = { death_reason = death_murder } }
+}
+terentius_101 = {
+	name = "Jon" #Count of Chalman
+	dynasty = 130000
+	culture = heartlander
+	religion = imperial_cult
+	father = terentius_98
+
+	3270.1.1 = { birth = yes }
+	3351.1.1 = { death = yes }
+}
+terentius_102 = {
+	name = "Gabinus" #Duke of Urasek (Warlords & Interregnum)
+	dynasty = 130000
+	culture = heartlander
+	religion = imperial_cult
+	father = terentius_101
+
+	trait = education_martial_3
+	trait = just
+	trait = paranoid
+	trait = honest
+
+	3292.1.1 = { birth = yes }
+	3324.1.1 = { add_spouse = terentius_102_wife }
+	3360.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1
+			}
+		}
+	}
+	3380.1.1 = { death = yes }
+}
+terentius_102_wife = {
+	name = "Carmala"
+	female = yes
+	culture = heartlander
+	religion = imperial_cult
+
+	3305.1.1 = { birth = yes }
+	3324.1.1 = { add_spouse = terentius_102 }
+	3370.1.1 = { death = yes }
+}
+terentius_102_daughter = {
+	name = "Vianis"
+	dynasty = 130000
+	female = yes
+	culture = heartlander
+	religion = imperial_cult
+
+	trait = education_stewardship_2
+	trait = brave
+	trait = patient
+	trait = just
+
+	father = terentius_102
+	mother = terentius_102_wife
+
+	3338.1.1 = { birth = yes }
+	3357.1.1 = { add_spouse = quintilius_350 } #Valandrus Quintilius, Duke of Virtue
+	3403.1.1 = { death = yes }
+}
+terentius_103 = {
+	name = "Florin" #Duke of Urasek
+	dynasty = 130000
+	culture = heartlander
+	religion = imperial_cult
+
+	trait = education_martial_2
+	trait = brave
+	trait = forgiving
+	trait = humble
+
+	father = terentius_102
+	mother = terentius_102_wife
+
+	3336.1.1 = { birth = yes }
+	3414.1.1 = { death = yes }
+}
+terentius_104 = {
+	name = "Lysidamus" #Duke of Urasek after Florin
+	dynasty = 130000
+	culture = heartlander
+	religion = imperial_cult
+
+	father = terentius_102
+	mother = terentius_102_wife
+
+	trait = twin #twin caro_806
+	trait = education_martial_4
+	trait = generous
+	trait = vengeful
+	trait = calm
+
+	3341.1.1 = { birth = yes }
+	3418.1.1 = { death = yes }
+}
+terentius_105 = {
+	name = "Clovius" #Duke of Urasek
+	dynasty = 130000
+	culture = heartlander
+	religion = imperial_cult
+	father = terentius_104
+
+	3392.1.1 = { birth = yes }
+	3466.1.1 = { death = yes }
+}
+terentius_106 = {
+	name = "Corrudus"
+	dynasty = 130000
+	culture = heartlander
+	religion = imperial_cult
+	father = terentius_104
+
+	3394.1.1 = { birth = yes }
+	3465.1.1 = { death = yes }
+}
+terentius_107 = {
+	name = "Juventius" #Duke of Urasek
+	dynasty = 130000
+	culture = heartlander #EK TODO: extend this further and make them Nibenese, add  Flaccus
+	religion = imperial_cult
+	father = terentius_105
+
+	3421.1.1 = { birth = yes }
+	3494.1.1 = { death = yes }
+}
+
+##Dynasty of Agrippa (130002)
+
+#House of Agrippa
+agrippa_99 = {
+	name = "Justinius" #Count of Agrippa (Shinbone)
+	dynasty = 130002
+	religion = imperial_cult
+	culture = heartlander
+	
+	3294.1.1 = { birth = yes }
+	3357.1.1 = { death = yes }
+}
+agrippa_100 = {
+	name = "Caldana" #Count of Agrippa (Shinbone) (Warlords)
+	female = yes
+	dynasty = 130002
+	religion = imperial_cult
+	culture = heartlander
+	father = agrippa_99
+
+	trait = stubborn
+	trait = arbitrary
+	trait = craven
+	
+	3334.1.1 = { birth = yes }
+	3360.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1
+			}
+		}
+	}
+	3362.12.4 = { death = { death_reason = death_battle killer = broder_100 } }
+}
+agrippa_husband_100 = {
+	name = "Eviryas"
+	religion = court_dawnbeauty
+	culture = ilniviri
+	
+	3334.1.1 = { birth = yes }
+	3350.1.1 = { add_matrilineal_spouse = agrippa_100 }
+	3362.12.4 = { death = { death_reason = death_battle killer = broder_100 } }
+}
+agrippa_101 = {
+	name = "Domitia"
+	female = yes
+	dynasty = 130002
+	religion = imperial_cult
+	culture = heartlander
+	father = agrippa_99
+	
+	3336.1.1 = { birth = yes }
+	3362.12.4 = { death = { death_reason = death_battle killer = broder_100 } }
+}
+agrippa_102 = {
+	name = "Rimalus" #Count of Agrippa (Shinbone) (Interregnum)
+	dynasty = 130002
+	religion = imperial_cult
+	culture = heartlander
+	father = agrippa_husband_100
+	mother = agrippa_100
+
+	trait = arbitrary
+	trait = gregarious
+	trait = rowdy
+	
+	3357.1.1 = { birth = yes }
+	3423.1.1 = { death = yes }
+}
+agrippa_103 = {
+	name = "Nerius"
+	dynasty = 130002
+	religion = imperial_cult
+	culture = heartlander
+	father = agrippa_husband_100
+	mother = agrippa_100
+	
+	3359.1.1 = { birth = yes }
+	3430.1.1 = { death = yes }
+}
+agrippa_104 = {
+	name = "Cinia"
+	dynasty = 130002
+	religion = imperial_cult
+	culture = heartlander
+	mother = agrippa_101
+	
+	3358.1.1 = { birth = yes }
+	3410.1.1 = { death = yes }
+}
+agrippa_105 = {
+	name = "Larianus" #Count of Agrippa (Shinbone)
+	dynasty = 130002
+	religion = imperial_cult
+	culture = heartlander
+	father = agrippa_102
+	
+	3398.1.1 = { birth = yes }
+	3470.1.1 = { death = yes }
+}
+agrippa_106 = {
+	name = "Numerius" #Count of Agrippa (Shinbone)
+	dynasty = 130002
+	religion = imperial_cult
+	culture = heartlander
+	father = agrippa_105
+	
+	3433.1.1 = { birth = yes }
+	3502.1.1 = { death = yes }
+}
+agrippa_107 = {
+	name = "Gargonius" #Count of Agrippa (Shinbone) (Alliance War)
+	dynasty = 130002
+	religion = imperial_cult
+	culture = heartlander
+	father = agrippa_106
+	
+	3468.1.1 = { birth = yes }
+	3536.1.1 = { death = yes }
+}
+#Osician Dynasty (130008)
+osician_225 = {
+	name = "Belisarius" #Duke of Homestead (Warlord)
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	trait = education_martial_3
+	3319.1.1 = { birth = yes }
+	3360.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1
+			}
+		}
+	}
+	3369.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = ottiliae_251 #Manilius Ottus EK1
+		}
+	}
+}
+osician_226 = {
+	name = "Calvarius" #Count of Culotte (Interregnum)
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	trait = education_martial_3
+	father = osician_225
+	3343.1.1 = { birth = yes }
+	3369.1.1 = { effect = {
+		add_pressed_claim = title:d_homestead }
+	}
+	3400.1.1 = { death = yes }
+}
+osician_227 = {
+	name = "Cosmus"
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	trait = education_magical_ability_3
+
+	father = osician_225
+	3349.1.1 = { birth = yes }
+	3369.1.1 = { effect = {
+		add_pressed_claim = title:d_homestead }
+	}
+	3398.1.1 = { death = yes }
+}
+osician_228 = {
+	name = "Teranus" #Count of Alessia (Interregnum)
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = osician_225
+	3351.1.1 = { birth = yes }
+	3369.1.1 = { effect = {
+		add_pressed_claim = title:d_homestead }
+	}
+	3406.1.1 = { death = yes }
+}
+osician_229 = {
+	name = "Vittoria"
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = osician_225
+	female = yes
+	3353.1.1 = { birth = yes }
+	369.1.1 = {
+		effect = { add_pressed_claim = title:d_homestead }
+	}
+	3421.1.1 = { death = yes }
+}
+osician_230 = {
+	name = "Xanderius" #Count of Culotte
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = osician_226
+	
+	3390.1.1 = { birth = yes }
+	3460.1.1 = { death = yes }
+}
+osician_231 = {
+	name = "Paratus" #Duke of Sejanus (Reachmen)/(Kamal)
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = osician_230
+	
+	3440.1.1 = { birth = yes }
+	3510.1.1 = { death = yes }
+}
+osician_232 = {
+	name = "Vespasius" #Count of Alessia
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = osician_228
+	
+	3380.1.1 = { birth = yes }
+	3440.1.1 = { death = yes }
+}
+osician_233 = {
+	name = "Cornelia" #Countess of Alessia (Reachmen)
+	#EK1 This character's heir is of a new dynasty, starting at ID 450
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = osician_232
+	female = yes
+	
+	3430.1.1 = { birth = yes }
+	3490.1.1 = { death = yes }
+}
+osician_234 = {
+	name = "Justinius" #Heir to Sejanus(d_heartlands) (Kamal)
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = osician_231
+	
+	3474.1.1 = { birth = yes }
+	3496.1.1 = { add_spouse = 2105 }
+	3547.1.1 = { death = yes }
+}
+osician_235 = {
+	name = "Ilendius" #Heir to Sejanus(d_heartlands)
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = osician_234
+	#mother = 2105
+	
+	3498.1.1 = { birth = yes }
+	3551.1.1 = { death = yes }
+}
+osician_236 = {
+	name = "Tertia" #Heir to Sejanus(d_heartlands)
+	dynasty = 130008
+	female = yes
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = osician_234
+	#mother = 2105
+	
+	3501.1.1 = { birth = yes }
+	3572.1.1 = { death = yes }
+}
+osician_237 = {
+	name = "Postumius" #Heir to Sejanus(d_heartlands)
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = osician_234
+	#mother = 2105
+	
+	3509.1.1 = { birth = yes }
+	3559.1.1 = { death = yes }
+}
+osician_238 = {
+	name = "Aquilio"
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = osician_235
+	3520.1.1 = { birth = yes }
+	3588.1.1 = { death = yes }
+}
+osician_239 = {
+	name = "Lepida"
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	female = yes
+	father = osician_238
+	3560.1.1 = { birth = yes }
+	3631.1.1 = { death = yes }
+}
+osician_240 = {
+	name = "Sanctius"
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	mother = osician_239
+	3590.1.1 = { birth = yes }
+	3656.1.1 = { death = yes }
+}
+osician_241 = {
+	name = "Safia"
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	female = yes
+	father = osician_240
+	3630.1.1 = { birth = yes }
+	3695.1.1 = { death = yes }
+}
+osician_242 = {
+	name = "Chalinus"
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	mother = osician_241
+	3655.1.1 = { birth = yes }
+	3723.1.1 = { death = yes }
+}
+osician_243 = {
+	name = "Gemma"
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	female = yes
+	father = osician_242
+	3685.1.1 = { birth = yes }
+	3754.1.1 = { death = yes }
+}
+osician_244 = {
+	name = "Aemilius"
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	mother = osician_243
+	3716.1.1 = { birth = yes }
+	3784.1.1 = { death = yes }
+}
+osician_245 = {
+	name = "Marana"
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	female = yes
+	father = osician_244
+	3742.1.1 = { birth = yes }
+	3812.1.1 = { death = yes }
+}
+osician_246 = {
+	name = "Jena"
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	female = yes
+	mother = osician_245
+	3762.1.1 = { birth = yes }
+	3830.1.1 = { death = yes }
+}
+osician_247 = {
+	name = "Etius"
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	female = yes
+	mother = osician_246
+	3794.1.1 = { birth = yes }
+	3860.1.1 = { death = yes }
+}
+osician_248 = {
+	name = "Bruno"
+	dynasty = 130008
+	religion = imperial_cult
+	culture = heartlander
+	
+	mother = osician_247
+	3829.1.1 = { birth = yes }
+	3899.1.1 = { death = yes }
+}
+#Ottiliae Dynasty (130009)
+ottiliae_250 = {
+	name = "Marius"
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+	
+	#trait = gladiator
+
+	3284.1.1 = { birth = yes }
+	# 3320.1.1 = { add_spouse = 3109 }
+	3340.1.1 = { death = yes } #{ death_reason = death_duel }
+}
+ottiliae_251 = {
+	name = "Manilius" #Duke of Pell's Gate (Interregnum)
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+	
+	#trait = warlord
+	trait = education_martial_3
+	trait = brave
+	trait = arrogant
+	trait = wrathful
+
+	father = ottiliae_250
+	#mother = 3109
+
+	3322.6.13 = { birth = yes }
+	#3344.1.1 = { add_spouse = 300000 }
+	3373.1.1 = { death = yes }
+}
+ottiliae_252 = {
+	name = "Collatinus" #Duke of Pell's Gate
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+
+	trait = education_diplomacy_4
+	trait = paranoid
+	trait = honest
+	trait = greedy
+	
+	father = ottiliae_251
+	#mother = 300000
+	3347.11.1 = { birth = yes }
+	3420.1.1 = { death = yes }
+}
+ottiliae_253 = {
+	name = "Maveus"
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+
+	trait = education_intrigue_2
+	trait = callous
+	trait = gluttonous
+	trait = diligent
+	
+	father = ottiliae_251
+	#mother = 300000
+
+	3350.8.19 = { birth = yes }
+	3397.1.1 = { death = yes }
+}
+ottiliae_254 = {
+	name = "Salvianus"
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+	
+	trait = legitimized_bastard
+	trait = just
+	trait = shy
+	
+	father = ottiliae_250
+	3330.1.1 = { birth = yes }
+	3373.1.1 = { death = yes }
+}
+ottiliae_255 = {
+	name = "Luvenius" #Count of Pell's Gate
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = ottiliae_252
+	
+	3385.1.1 = { birth = yes }
+	3460.1.1 = { death = yes }
+}
+ottiliae_256 = {
+	name = "Manilius" #Count of Pell's Gate (Reachmen)
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = ottiliae_255
+	
+	3420.1.1 = { birth = yes }
+	3490.1.1 = { death = yes }
+}
+ottiliae_257 = {
+	name = "Reglius" #Count of Pell's Gate (Kamal)
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+	trait = education_diplomacy_2
+	trait = cynical
+	trait = craven
+	trait = content
+	
+	father = ottiliae_256
+	
+	3458.1.1 = { birth = yes }
+	3496.1.1 = { 
+		death = { 
+			death_reason = death_battle
+			killer = nipia_1000 #Slain by Dion Nipia who takes over his titles at the begining of Varen's Rebellion.
+			}
+		}
+}
+ottiliae_258 = {
+	name = "Zedrius" #Count of Pell's Gate
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = ottiliae_257
+	
+	3484.1.1 = { birth = yes }
+	3547.1.1 = { death = yes }
+}
+ottiliae_259 = {
+	name = "Vodiaka" #Countess of Pell's Gate
+	female = yes
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = ottiliae_258
+	
+	3514.1.1 = { birth = yes }
+	3568.1.1 = { death = yes }
+}
+ottiliae_260 = {
+	name = "Idessa"
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+	female = yes
+	mother = ottiliae_259
+	3541.1.1 = { birth = yes }
+	3608.1.1 = { death = yes }
+}
+ottiliae_261 = {
+	name = "Graecina"
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+	female = yes
+	mother = ottiliae_260
+	3571.1.1 = { birth = yes }
+	3638.1.1 = { death = yes }
+}
+ottiliae_262 = {
+	name = "Isa"
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+	female = yes
+	mother = ottiliae_261
+	3607.1.1 = { birth = yes }
+	3681.1.1 = { death = yes }
+}
+ottiliae_263 = {
+	name = "Pania"
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+	female = yes
+	mother = ottiliae_262
+	3640.1.1 = { birth = yes }
+	3705.1.1 = { death = yes }
+}
+ottiliae_264 = {
+	name = "Marlena"
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+	female = yes
+	mother = ottiliae_263
+	3659.1.1 = { birth = yes }
+	3723.1.1 = { death = yes }
+}
+ottiliae_265 = {
+	name = "Javolia"
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+	female = yes
+	mother = ottiliae_264
+	3688.1.1 = { birth = yes }
+	3758.1.1 = { death = yes }
+}
+ottiliae_266 = {
+	name = "Fuficius"
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+	mother = ottiliae_265
+	3713.1.1 = { birth = yes }
+	3785.1.1 = { death = yes }
+}
+ottiliae_267 = {
+	name = "Fruscia"
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+	female = yes
+	father = ottiliae_266
+	3741.1.1 = { birth = yes }
+	3808.1.1 = { death = yes }
+}
+ottiliae_268 = {
+	name = "Calidorus"
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+	mother = ottiliae_267
+	3760.1.1 = { birth = yes }
+	3828.1.1 = { death = yes }
+}
+ottiliae_269 = {
+	name = "Sabrina"
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+	female = yes
+	father = ottiliae_268
+	3791.1.1 = { birth = yes }
+	3862.1.1 = { death = yes }
+}
+ottiliae_270 = {
+	name = "Ettiene"
+	dynasty = 130009
+	religion = imperial_cult
+	culture = heartlander
+	female = yes
+	mother = ottiliae_269
+	3813.1.1 = { birth = yes }
+	3880.1.1 = { death = yes }
+}
+
+#Bascilius Dynasty (130010)
+bascilius_999 = {
+	name = "Petruvius"
+	dynasty = 130010
+	religion = imperial_cult
+	culture = heartlander
+
+	3314.1.1 = { birth = yes }
+	3368.1.1 = { death = yes }
+}
+basicilius_1000 = { #Mentioned in a ESO Treasure description as "legendary battlemage", made a strategy game popular called "intrigue on the nibenay" neeeerd
+	name = "Leona"
+	female = yes #by UESP policy, there is no way of knowing this! Leona might be a male name!
+	dynasty = 130010 #Bascilius
+	religion = imperial_cult #questionable, as a battlemage she could have been agnostic?
+	culture = heartlander #those ek people make up cultures, imperials in the heartlands are always described as nibenese
+	diplomacy = 7
+	martial = 6
+	stewardship = 5
+	intrigue = 6
+	learning = 5
+	prowess = 10
+	sexuality = bisexual
+	trait = sign_ritual
+	trait = education_martial_4 #battle...
+	trait = education_magical_ability_4 #...mage
+	trait = arcana_good_2
+	trait = ambitious #she could have become a legendary battlemage out of sheer luck
+	trait = diligent
+	trait = patient
+	trait = shrewd
+
+	father = bascilius_999
+
+	3339.1.1 = { birth = yes } #lifedates of her were never given
+	3364.1.1 = {
+		effect = {
+			set_relation_friend = { reason = friend_generic_history target = character:lex_101 } #becomes friends with the heir of Caius Lex during her studies in the IC, which later gets her into the inner circle
+		}
+	 }
+	3368.9.22 = { capital = c_bastion } #EC proclaims Imperial Commune, Caius becomes Lord Protector, Leona becomes Imperial Battlemage
+	3368.9.22 = {
+		effect = {
+			liege = {
+				appoint_court_position = {
+					recipient = root
+					court_position = court_mage_position
+				}
+			}
+		}
+	}
+	3369.1.1 = {
+		remove_trait = ambitious
+		trait = brave
+		trait = lifespan_1
+	}
+	3385.1.1 = { death = yes } #nor the day of her death
+}
+
+#Quintilius Dynasty (130011)
+quintilius_349 = {
+	name = "Ilovius"
+	dynasty = 130011
+	religion = imperial_cult
+	culture = heartlander
+	
+	3302.1.1 = { birth = yes }
+	3359.1.1 = { death = yes }
+}
+quintilius_350 = {
+	name = "Valandrus" #Duke of Virtue (Interregnum)
+	dynasty = 130011
+	religion = imperial_cult
+	culture = heartlander
+
+	trait = education_learning_1
+	trait = trusting
+	trait = impatient
+	trait = honest
+	
+	father = quintilius_349
+	
+	3331.1.1 = { birth = yes }
+	3357.1.1 = { add_spouse = terentius_102_daughter } #Vianis Terentius
+	3360.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1
+			}
+		}
+	}	
+	3372.1.1 = { death = yes }
+}
+quintilius_350_1 = {
+	name = "Ysabel"
+	dynasty = 130011
+	female = yes
+	religion = imperial_cult
+	culture = heartlander
+
+	father = quintilius_349
+
+	3339.1.1 = { birth = yes }
+	3378.1.1 = { death = yes }
+}
+quintilius_351 = {
+	name = "Magnus" #Duke of Virtue
+	dynasty = 130011
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = quintilius_350
+	mother = terentius_102_daughter
+
+	3359.1.1 = { birth = yes }
+	3372.1.1 = { 
+		effect = {
+			add_pressed_claim = title:d_virtue
+		}
+	}
+	3436.1.1 = { death = yes }
+}
+quintilius_352 = {
+	name = "Bruscus" #Duke of Virtue (Reachmen)
+	dynasty = 130011
+	religion = imperial_cult
+	culture = heartlander
+	
+	trait = twin
+
+	father = quintilius_351
+	
+	3395.1.1 = { birth = yes }
+	3418.1.1 = { add_spouse = tharn_215 } #Pallia Tharn
+	3470.1.1 = { death = yes }
+}
+quintilius_352_1 = {
+	name = "Ysabel"
+	dynasty = 130011
+	female = yes
+	religion = imperial_cult
+	culture = heartlander
+
+	trait = twin
+
+	father = quintilius_351
+
+	3395.1.1 = { birth = yes }
+	3470.1.1 = { death = yes }
+}
+quintilius_353 = {
+	name = "Glabrius" #Duke of Virtue (Kamal)
+	dynasty = 130011
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = quintilius_352
+	mother = tharn_215 #Pallia Tharn
+	
+	3423.1.1 = { birth = yes }
+	3495.1.1 = { death = yes }
+}
+quintilius_354 = {
+	name = "Magnus" #Heir to Virtue (Kamal)
+	dynasty = 130011
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = quintilius_353
+	
+	3475.1.1 = { birth = yes }
+	3540.1.1 = { death = yes }
+}
+quintilius_355 = {
+	name = "Paula" #Heir to Virtue
+	female = yes
+	dynasty = 130011
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = quintilius_354
+	
+	3501.1.1 = { birth = yes }
+	3586.1.1 = { death = yes }
+}
+quintilius_356 = {
+	name = Anyte
+	dynasty = 130011
+	religion = imperial_cult
+	culture = heartlander
+	
+	female = yes
+	mother = quintilius_355
+	3528.1.1 = { birth = yes }
+	3595.1.1 = { death = yes }
+}
+quintilius_357 = {
+	name = Euraxia
+	dynasty = 130011
+	religion = imperial_cult
+	culture = heartlander
+	
+	female = yes
+	mother = quintilius_356
+	3566.1.1 = { birth = yes }
+	3634.1.1 = { death = yes }
+}
+quintilius_358 = {
+	name = Plinius
+	dynasty = 130011
+	religion = imperial_cult
+	culture = heartlander
+	
+	mother = quintilius_357
+	3593.1.1 = { birth = yes }
+	3663.1.1 = { death = yes }
+}
+quintilius_359 = {
+	name = Gualtierus
+	dynasty = 130011
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = quintilius_358
+	3613.1.1 = { birth = yes }
+	3683.1.1 = { death = yes }
+}
+quintilius_360 = {
+	name = Adrian
+	dynasty = 130011
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = quintilius_359
+	3635.1.1 = { birth = yes }
+	3703.1.1 = { death = yes }
+}
+quintilius_361 = {
+	name = Candidus
+	dynasty = 130011
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = quintilius_360
+	3672.1.1 = { birth = yes }
+	3723.1.1 = { death = yes }
+}
+quintilius_362 = {
+	name = Carfulenus
+	dynasty = 130011
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = quintilius_361
+	3693.1.1 = { birth = yes }
+	3767.1.1 = { death = yes }
+}
+quintilius_363 = {
+	name = Rosentia
+	dynasty = 130011
+	religion = imperial_cult
+	culture = heartlander
+	
+	female = yes
+	father = quintilius_362
+	3719.1.1 = { birth = yes }
+	3788.1.1 = { death = yes }
+}
+quintilius_364 = {
+	name = Tullus
+	dynasty = 130011
+	religion = imperial_cult
+	culture = heartlander
+	
+	mother = quintilius_363
+	3756.1.1 = { birth = yes }
+	3828.1.1 = { death = yes }
+}
+quintilius_365 = {
+	name = Lucilla
+	dynasty = 130011
+	religion = imperial_cult
+	culture = heartlander
+	
+	female = yes
+	father = quintilius_364
+	3781.1.1 = { birth = yes }
+	3855.1.1 = { death = yes }
+}
+quintilius_366 = {
+	name = Nrio
+	dynasty = 130011
+	religion = imperial_cult
+	culture = heartlander
+	
+	mother = quintilius_365
+	3799.1.1 = { birth = yes }
+	3874.1.1 = { death = yes }
+}
+
+#Vetilii Dynasty (130012)
+vertilii_1000 = {
+	name = "Otius"
+	dynasty = 130012
+	religion = imperial_cult
+	culture = heartlander
+
+	trait = education_stewardship_1
+	trait = compassionate
+	trait = impatient
+	trait = humble
+
+	3327.2.13 = { birth = yes }
+	3391.12.2 = { death = yes }
+}
+
+#Aerius Dynasty (130013)
+aerius_275 = {
+	name = "Marinus" #Count of Vilverin (Interregnum)
+	dynasty = 130013
+	religion = imperial_cult
+	culture = heartlander
+
+	3330.1.1 = { birth = yes }
+	3403.1.1 = { death = yes }
+}
+aerius_276 = {
+	name = "Ertius" #Count of Vilverin
+	dynasty = 130013
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = aerius_275
+	
+	3365.1.1 = { birth = yes }
+	3430.1.1 = { death = yes }
+}
+aerius_277 = {
+	name = "Rallus" #Count of Vilverin (Reachmen)
+	dynasty = 130013
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = aerius_276
+	
+	3400.1.1 = { birth = yes }
+	3470.1.1 = { death = yes }
+}
+
+aerius_278 = {
+	name = "Clibergus" #Duke of Urasek (Kamal)
+	dynasty = 130013
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = aerius_277
+	
+	3435.1.1 = { birth = yes }
+	3500.1.1 = { death = yes }
+}
+aerius_279 = {
+	name = "Vittoria" #Heir to Urasek (Kamal)
+	dynasty = 130013
+	religion = imperial_cult
+	culture = heartlander
+	
+	female = yes
+	father = aerius_278
+	
+	3478.1.1 = { birth = yes }
+	3546.1.1 = { death = yes }
+}
+aerius_280 = {
+	name = "Eponis" #Heir to Urasek
+	dynasty = 130013
+	religion = imperial_cult
+	culture = heartlander
+	
+	female = yes
+	mother = aerius_279
+	
+	3500.1.1 = { birth = yes }
+	3572.1.1 = { death = yes }
+}
+
+aerius_281 = {
+	name = "Mattius"
+	dynasty = 130013
+	religion = imperial_cult
+	culture = heartlander
+	
+	mother = aerius_280
+	3523.1.1 = { birth = yes }
+	3592.1.1 = { death = yes }
+}
+aerius_282 = {
+	name = "Marina"
+	dynasty = 130013
+	religion = imperial_cult
+	culture = heartlander
+	
+	female = yes
+	father = aerius_281
+	3562.1.1 = { birth = yes }
+	3632.1.1 = { death = yes }
+}
+aerius_283 = {
+	name = "Gaudentius"
+	dynasty = 130013
+	religion = imperial_cult
+	culture = heartlander
+	
+	mother = aerius_282
+	3581.1.1 = { birth = yes }
+	3646.1.1 = { death = yes }
+}
+aerius_284 = {
+	name = "Norbanus"
+	dynasty = 130013
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = aerius_283
+	3607.1.1 = { birth = yes }
+	3675.1.1 = { death = yes }
+}
+aerius_285 = {
+	name = "Plautius"
+	dynasty = 130013
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = aerius_284
+	3630.1.1 = { birth = yes }
+	3697.1.1 = { death = yes }
+}
+aerius_286 = {
+	name = "Stlubo"
+	dynasty = 130013
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = aerius_285
+	3656.1.1 = { birth = yes }
+	3725.1.1 = { death = yes }
+}
+aerius_287 = {
+	name = "Moria"
+	dynasty = 130013
+	religion = imperial_cult
+	culture = heartlander
+	
+	female = yes
+	father = aerius_286
+	3679.1.1 = { birth = yes }
+	3746.1.1 = { death = yes }
+}
+aerius_288 = {
+	name = "Scelian"
+	dynasty = 130013
+	religion = imperial_cult
+	culture = heartlander
+	
+	mother = aerius_287
+	3718.1.1 = { birth = yes }
+	3787.1.1 = { death = yes }
+}
+aerius_289 = {
+	name = "Volgo"
+	dynasty = 130013
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = aerius_288
+	3738.1.1 = { birth = yes }
+	3804.1.1 = { death = yes }
+}
+aerius_290 = {
+	name = "Iribia"
+	dynasty = 130013
+	religion = imperial_cult
+	culture = heartlander
+	
+	female = yes
+	father = aerius_289
+	3770.1.1 = { birth = yes }
+	3836.1.1 = { death = yes }
+}
+aerius_291 = {
+	name = "Salanius"
+	dynasty = 130013
+	religion = imperial_cult
+	culture = heartlander
+	
+	mother = aerius_290
+	3792.1.1 = { birth = yes }
+	3866.1.1 = { death = yes }
+}
+aerius_292 = {
+	name = "Vulius"
+	dynasty = 130013
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = aerius_291
+	3821.1.1 = { birth = yes }
+	3894.1.1 = { death = yes }
+}
+
+#Antonius Dynasty (110030)
+antonius_300 = {
+	name = "Rufinus" #Count of Chalman (Interregnum)
+	dynasty = 130014
+	religion = imperial_cult
+	culture = heartlander
+	
+	trait = education_magical_ability_3
+
+	3324.1.1 = { birth = yes }
+	3347.1.1 = { add_spouse = sartos_100_sister }
+	3359.1.1 = {
+		effect = {
+			create_alliance = character:sartos_100
+		}
+	}
+	3400.1.1 = { death = yes }
+}
+
+antonius_301 = {
+	name = "Fasilus" #Count of Chalman
+	dynasty = 130014
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = antonius_300
+	mother = sartos_100_sister
+	
+	3360.1.1 = { birth = yes }
+	3425.1.1 = { death = yes }
+}
+
+antonius_302 = {
+	name = "Janonia" #Countess of Chalman
+	dynasty = 130014
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = antonius_301
+	female = yes
+	
+	3400.1.1 = { birth = yes }
+	3465.1.1 = { death = yes }
+}
+antonius_303 = {
+	name = "Carlotta"
+	dynasty = 130014
+	religion = imperial_cult
+	culture = heartlander
+	
+	mother = antonius_302
+	female = yes
+	
+	3445.1.1 = { birth = yes }
+	3505.1.1 = { death = yes }
+}
+antonius_304 = {
+	name = "Surus"
+	dynasty = 130014
+	religion = imperial_cult
+	culture = heartlander
+	
+	mother = antonius_303
+	
+	3468.1.1 = { birth = yes }
+	3510.1.1 = { death = yes }
+}
+antonius_305 = {
+	name = "Gallus"
+	dynasty = 130014
+	religion = imperial_cult
+	culture = heartlander
+	
+	father = antonius_304
+	
+	3499.1.1 = { birth = yes }
+	3567.1.1 = { death = yes }
+}
+
+###Non-Dynastic Character Entries
+#Republics
+pell_gate_1000 = {
+	name = "Didius"
+	religion = imperial_cult
+	culture = heartlander
+
+	trait = p_dv_akatosh
+
+	3311.1.1 = { birth = yes }
+	3384.1.1 = { death = yes }
+}
+pell_gate_1002 = {
+	name = "Iperia"
+	female = yes
+	religion = imperial_cult
+	culture = heartlander
+
+	trait = p_dv_akatosh
+
+	3361.1.1 = { birth = yes }
+	3428.1.1 = { death = yes }
+}
+weye_1000 = {
+	name = "Noster"
+	religion = imperial_cult
+	culture = heartlander
+
+	trait = education_stewardship_3
+	trait = lazy
+	trait = sadistic
+	trait = arrogant
+	trait = p_dv_zenithar
+
+	3331.1.1 = { birth = yes }
+	3404.1.1 = { death = yes }
+}
+yellowtick_1000 = {
+	name = "Rotus"
+	religion = imperial_cult
+	culture = heartlander
+
+	3326.1.1 = { birth = yes }
+	3401.1.1 = { death = yes }
+}
+rumare_100 = {
+	name = "Quantilibus"
+	religion = imperial_cult
+	culture = heartlander
+
+	trait = education_martial_1
+
+	3331.1.1 = { birth = yes }
+	3389.1.1 = { death = yes }
+}
+
+#Theocracies
+imperial_cult_1000 = {
+	name = "Gallinius"
+	religion = imperial_cult
+	culture = colovian
+
+	trait = education_learning_4
+	
+	3309.1.1 = { birth = yes }
+	3382.1.1 = { death = yes }
+}
+fanacasecul_1000 = {
+	name = "Nivelius"
+	religion = imperial_cult
+	culture = heartlander
+
+	trait = education_learning_3
+	trait = p_dv_shezarr
+
+	3325.1.1 = { birth = yes }
+	3401.1.1 = { death = yes }
+}
+
+#Academies
+arcanorum_100 = {
+	name = "Colicorus"
+	religion = imperial_cult
+	culture = heartlander
+
+	trait = education_learning_2
+	trait = education_magical_ability_2
+
+	3321.5.3 = { birth = yes }
+	3369.9.22 = {
+		effect = {
+			liege = {
+				appoint_court_position = {
+					recipient = root
+					court_position = court_mage_position
+				}
+			}
+		}
+	}
+	3401.8.16 = { death = yes }
+}
+
+
+###South Argonia Development Committee
+south_argonia_0001 = {
+	name = "Rufius"
+	religion = imperial_cult
+	culture = nibenese
+	dynasty = south_argonia_prelineus
+	
+	2655 = { birth = yes }
+	2705 = { death = yes }
+}
+south_argonia_amagrina = {
+	name = "Amagrina"
+	religion = imperial_cult
+	culture = nibenese
+	dynasty = south_argonia_prelineus
+	female = yes
+	father = south_argonia_0001
+	
+	2675 = { birth = yes }
+	2705 = { death = yes }	### drowned by revolting lilmothiit
+}
+south_argonia_caldaria = {	# sister of amagrina
+	name = "Caldaria"
+	religion = imperial_cult
+	culture = nibenese
+	dynasty = south_argonia_prelineus
+	female = yes
+	father = south_argonia_0001
+	
+	trait = vengeful
+	
+	2680 = { birth = yes }
+	2714 = { death = yes }	### also drowned by revolting lilmothiit
+}
+south_argonia_0998 = {
+	name = "Zenek"
+	religion = imperial_cult
+	culture = colovian
+	
+	3240.1.1 = { birth = yes }
+	3300.1.1 = { death = yes }
+}
+south_argonia_0999 = {
+	name = "Adrian"
+	religion = imperial_cult
+	culture = heartlander
+	
+	trait = physique_good_2
+	
+	3259.1.1 = { birth = yes }
+	3359.1.1 = { death = yes }
+}
+south_argonia_1000 = {
+	name = "Aberius"
+	religion = imperial_cult
+	culture = heartlander
+	
+	trait = intellect_bad_2
+	trait = impatient
+	
+	3311.1.1 = { birth = yes }
+	3360.1.1 = {
+		effect = {
+			remove_short_term_gold = 500
+		}
+	}
+	3391.1.1 = { death = yes }
+}
+south_argonia_1000_vassal = {
+	name = "Trenus"
+	religion = imperial_cult
+	culture = nibenese
+	
+	3315.1.1 = { birth = yes }
+	3360.1.1 = {
+		effect = {
+			remove_short_term_gold = 200
+		}
+	}
+	3370.1.1 = { death = yes }	
+}
+
+
+####################
+### Adventurers  ###
+####################
+
+#Heartlanders in High Rock
+
+dranton_100 = {
+	name = "Drantonius" #Warband Dranton
+	culture = heartlander
+	religion = imperial_cult
+
+	trait = stubborn
+	trait = diligent
+	trait = brave
+
+	trait = education_martial_2
+	trait = blademaster_3
+	trait = education_martial_prowess_4
+	trait = adventurer
+	disallow_random_traits = yes
+
+	3334.1.1 = { birth = yes }
+	3356.1.1 = {
+		effect = { #arena champion
+			add_prestige_level = 4
+		}
+	}
+
+	# 3360.1.1 = { employer = dorell_1000 }
+	3365.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	3369.1.1 = { move_to_pool = yes }
+	3409.1.1 = { death = yes }
+}
+xander_100 = {
+	name = "Xander" #Warband Xander
+	culture = nibenese
+	religion = imperial_cult
+
+	trait = stubborn
+	trait = diligent
+	trait = brave
+
+	trait = education_martial_2
+	trait = blademaster_3
+	trait = education_martial_prowess_4
+	trait = adventurer
+	disallow_random_traits = yes
+
+	3334.1.1 = { birth = yes }
+	3356.1.1 = {
+		effect = { #arena champion
+			add_prestige_level = 4
+		}
+	}
+
+	# 3360.1.1 = { employer = dorell_1000 }
+	3365.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	3369.1.1 = { move_to_pool = yes }
+	3409.1.1 = { death = yes }
+}
+xerina_100 = {
+	name = "Xerina" #Warband Xerina
+	culture = nibenese
+	religion = imperial_cult
+	female = yes
+
+	trait = stubborn
+	trait = diligent
+	trait = brave
+
+	trait = education_martial_2
+	trait = blademaster_3
+	trait = education_martial_prowess_4
+	trait = adventurer
+	disallow_random_traits = yes
+
+	3334.1.1 = { birth = yes }
+	3356.1.1 = {
+		effect = { #arena champion
+			add_prestige_level = 4
+		}
+	}
+
+	# 3360.1.1 = { employer = dorell_1000 }
+	3365.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	3369.1.1 = { move_to_pool = yes }
+	3409.1.1 = { death = yes }
+}
+
+## Dragonstar ESO Regent Cassipia
+
+cassipia_1 = {
+	name = "Regent Cassipia" 
+	culture = colovian
+	religion = imperial_cult
+	female = yes
+	
+	3440.1.1 = { birth = yes }
+	3520.1.1 = { death = yes }
+}

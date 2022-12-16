@@ -1,0 +1,73 @@
+﻿# Miscellaneous Range: 1-999999
+
+1 = {
+	name = "Septim"
+	culture = heartlander
+}
+
+2 = {
+	name = "Early_Beard"
+	culture = atmoran
+}
+
+3 = {
+	name = "Stormcrown"
+	culture = cyro_nord
+}
+
+4 = {
+	name = "Aleshut"
+	culture = heartlander
+	motto = dynn_alessia_motto
+}
+
+5 = {
+	name = "Bagarn"
+	culture = dwemer
+}
+
+6 = {
+	name = "Whitestrake"
+	culture = blackwood
+}
+
+7 = {
+	name = "Tam_Rugh"
+	culture = colovian #EK TODO: Replace with imga once/if we make imgas a thing
+}
+
+8 = {
+	name = "Avatheled" # "fifteen-and-one"
+	culture = dwemer
+}
+
+9 = {
+	name = "Duamaka" # "our kings"
+	culture = dwemer
+}
+
+10 = {
+	name = "Mora"
+	culture = armun_an
+}
+
+11 = {
+	name = "Vehk"
+	culture = gah_julan
+}
+
+maormer_pirate_1 = {
+	name = "Inlyn"
+	culture = maormer
+}
+
+nomads_alikr = {
+	name = "Nomads of the Alik'R"
+	culture = alikr
+}
+
+craglorn_n = {
+	name = "Craglorn Neutral Zone"
+	culture = forebear
+}
+

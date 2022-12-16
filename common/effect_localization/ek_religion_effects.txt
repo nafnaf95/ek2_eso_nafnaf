@@ -1,0 +1,7 @@
+﻿pilgrimage_because_i_have_tenet_sacred_alchemy = {
+	first = pilgrimage_because_i_have_tenet_sacred_alchemy
+}
+
+pilgrimage_because_i_have_tenet_divine_purity = {
+	first = pilgrimage_because_i_have_tenet_divine_purity
+}

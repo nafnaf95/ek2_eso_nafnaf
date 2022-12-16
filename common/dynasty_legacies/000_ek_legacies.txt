@@ -1,0 +1,21 @@
+﻿dragonblood_legacy_track = {
+	is_shown = {
+		#has_trait = dragonborn
+		always = no
+	}
+}
+
+hegemon_legacy_track = {
+	is_shown = {
+		dynasty = {
+			OR = {
+				exists = var:can_get_hegemon_legacy_track
+				has_dynasty_perk = hegemon_legacy_1
+			}
+		}
+	}
+}
+
+magicka_legacy_track = {
+
+}

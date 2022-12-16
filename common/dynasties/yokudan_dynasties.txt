@@ -1,0 +1,602 @@
+﻿# Yokudan Range: 200.000 - 299.999
+
+	#Yokudan: 200.000 - 209.999
+	#Forebear: 210.000 - 219.999
+	#Crown: 220.000 - 229.999
+	#Lhotunic: 230.000 - 239.999
+	#Alik'r: 240.000 - 249.999
+	#Abecean: 250.000 - 259.999
+	#Horsemen: 260.000 - 269.999
+
+#Yokudan: 200.000 - 209.999
+
+200000 = {
+	prefix = "dynn_al-"
+	name = "Saran"
+	culture = yokudan
+	motto = dynn_saran_motto
+}
+200001 = {
+	name = "Sesnit"
+	culture = yokudan
+	motto = dynn_sesnit_motto
+}
+200002 = {
+	name = "Torn"
+	culture = yokudan
+	motto = dynn_torn_motto
+}
+200003 = {
+	prefix = "dynn_al-"
+	name = "Tagon"
+	culture = yokudan
+}
+200004 = {
+	prefix = "dynn_al-"
+	name = "Yath"
+	culture = yokudan
+}
+200005 = { #Tavan dynasty, of Admirable Zaqueeb and Prince Hubalajad
+	prefix = "dynn_al-"
+	name = "Tava"
+	culture = yokudan
+}
+200006 = {
+	name = "Hunding"
+	culture = yokudan
+	motto = dynn_hunding_motto
+}
+200007 = {
+	prefix = "dynnpat_pre_at-"
+	name = "Rasfa"
+	culture = yokudan
+}
+200008 = {
+	prefix = "dynn_al-"
+	name = "Anka"
+	culture = yokudan
+}
+200009 = {
+	prefix = "dynn_al-"
+	name = "Kanesh"
+	culture = yokudan
+}
+
+200010 = {
+	name = "Sutaf"
+	culture = yokudan
+}
+
+200011 = {
+	name = "dynn_Na_anu"
+	culture = yokudan
+}
+
+200012 = {
+	name = "Nasur"
+	culture = yokudan
+}
+
+#200013 = {
+#	name = "Jilani"
+#	culture = yokudan
+#}
+
+200014 = {
+	name = "Maran"
+	culture = yokudan
+}
+
+200015 = {
+	prefix = "dynn_al-"
+	name = "Asmar"
+	culture = yokudan
+}
+
+200016 = {
+	prefix = "dynn_al-"
+	name = "Ghanem"
+	culture = yokudan
+}
+
+200017 = {
+	name = "Abdelnour"
+	culture = yokudan
+}
+
+200018 = {
+	prefix = "dynn_al-"
+	name = "Azad"
+	culture = yokudan
+}
+
+200019 = {
+	prefix = "dynn_al-"
+	name = "Elamin"
+	culture = yokudan
+}
+
+200020 = {
+	name = "Kazemi"
+	culture = yokudan
+}
+
+200021 = {
+	prefix = "dynn_al-"
+	name = "Rahaim"
+	culture = yokudan
+}
+
+200022 = {
+	name = "Hel Gye"
+	culture = yokudan
+}
+
+200023 = {
+	name = "dynn_No_Mitana"
+	culture = yokudan
+}
+
+200024 = {
+	prefix = "dynn_al-"
+	name = "Karim"
+	culture = yokudan
+}
+
+200025 = {
+	prefix = "dynn_al-"
+	name = "Tahir"
+	culture = yokudan
+}
+
+200026 = {
+	prefix = "dynn_al-"
+	name = "Aqabi"
+	culture = yokudan
+}
+
+hattu_dynasty = {
+	prefix = "dynn_al-"
+	name = "Hattu"
+	culture = yokudan
+}
+
+shinji = { #House of Blademaster Gaiden Shinji, founder of the Imperial Arena
+	name = "Shinji"
+	culture = yokudan
+}
+
+#Forebear: 210.000 - 219.999
+
+210001 = {
+	prefix = "dynn_al-"
+	name = "Nisewan"
+	culture = forebear
+	motto = dynn_nisewan_motto
+}
+210002 = {
+	prefix = "dynn_al-"
+	name = "Danobia" 
+	culture = forebear
+	motto = dynn_danobia_motto
+}
+210003 = {
+	prefix = "dynn_al-"
+	name = "Atuhon"
+	culture = forebear
+}
+210004 = {
+	prefix = "dynn_al-"
+	name = "Praren"
+	culture = forebear
+}
+210005 = {
+	prefix = "dynn_al-"
+	name = "Katrica"
+	culture = forebear
+}
+210006 = {
+	prefix = "dynnp_af-"
+	name = "Lainlyn"
+	culture = forebear
+	motto = dynn_lainlyn_motto
+}
+210007 = {
+	prefix = "dynn_al-"
+	name = "Tigonus"
+	culture = forebear
+}
+210008 = {
+	prefix = "dynnpat_pre_at-"
+	name = "Ojwa"
+	culture = forebear
+	motto = dynn_ojwa_motto
+}
+210009 = {
+	prefix = "dynn_al-"
+	name = "Taneth"
+	culture = forebear
+	motto = dynn_taneth_motto
+}
+210010 = {
+	prefix = "dynn_al-"
+	name = "Ain"
+	culture = forebear
+}
+210011 = {
+	prefix = "dynn_al-"
+	name = "Oritar"
+	culture = forebear
+}
+210012 = {
+	prefix = "dynn_al-"
+	name = "Ragad"
+	culture = forebear
+}
+210013 = {
+	prefix = "dynnpat_pre_at-"
+	name = "Hallin"
+	culture = forebear
+}
+210014 = {
+	prefix = "dynn_al-"
+	name = "Mashid"
+	culture = forebear
+}
+210015 = {
+	prefix = "dynn_al-"
+	name = "Rahal"
+	culture = forebear
+}
+#210016 = {
+#	prefix = "dynn_al-"
+#	name = "Hafar"
+#	culture = forebear
+#}
+#210017 = {
+#	prefix = "dynn_al-"
+#	name = "Corten"
+#	culture = forebear
+#}
+#210018 = {
+#	prefix = "dynn_al-"
+#	name = "Chad"
+#	culture = forebear
+#}
+#210019 = {
+#	prefix = "dynn_al-"
+#	name = "Kardala"
+#	culture = forebear
+#}
+#210020 = {
+#	prefix = "dynn_al-"
+#	name = "Bahah"
+#	culture = forebear
+#}
+#
+#210021 = {
+#	prefix = "dynn_al-"
+#	name = "Dwyr"
+#	culture = forebear
+#}
+#
+#210022 = {
+#	prefix = "dynn_al-"
+#	name = "Satakalaam"
+#	culture = forebear
+#}
+#
+#210023 = {
+#	prefix = "dynn_al-"
+#	name = "Kozanset"
+#	culture = forebear
+#}
+#
+#210024 = {
+#	prefix = "dynnpat_pre-at-"
+#	name = "Tarin"
+#	culture = forebear
+#}
+#
+#210025 = {
+#	prefix = "dynnpat_pre-at-"
+#	name = "Tarin"
+#	culture = forebear
+#}
+#
+#210026 = {
+#	name = "Volag"
+#	culture = forebear
+#}
+#
+#210027 = {
+#	name = "Razul"
+#	culture = forebear
+#}
+#
+#210028 = {
+#	prefix = "dynnpat_pre-at-"
+#	name = "Tarin"
+#	culture = forebear
+#}
+#
+#210029 = {
+#	prefix = "dynn_al-"
+#	name = "Sentinel"
+#	culture = forebear
+#	motto = dynn_placeholder_motto
+#}
+#
+#210030 = {
+#	prefix = "dynnpat_pre_at-"
+#	name = "Amil"
+#	culture = forebear
+#}
+#
+#210031 = {
+#	prefix = "dynn_al-"
+#	name = "Sentinel"
+#	culture = forebear
+#}
+#
+#210032 = {
+#	name = "Northbridge"
+#	culture = forebear
+#}
+#
+#210032 = {
+#	prefix = "dynnp_af-"
+#	name = "Perah"
+#	culture = forebear
+#}
+
+210033 = {
+	prefix = "dynn_al-"
+	name = "Dihar"
+	culture = forebear
+}
+
+210034 = { #Easter Egg
+	name = "Qadesh"
+	culture = forebear
+	motto = dynn_qadesh_motto
+}
+
+leki = { #House of Makela Leki, ones of Hammerfell last known Ansei
+	name = "Leki"
+	culture = forebear
+	motto = dynn_leki_motto
+}
+
+210035 = { 
+	name = "Djen"
+	culture = forebear
+}
+
+#Crown: 220.000 - 229.999
+
+220000 = {
+	name = "Phyllocid"
+	culture = crown
+	motto = dynn_phyllocid_motto
+}
+220001 = {
+	prefix = "dynn_al-"
+	name = "Curetar"
+	culture = crown
+	motto = dynn_curetar_motto
+}
+220002 = {
+	prefix = "dynnpat_pre_at-"
+	name = "Tura"
+	culture = crown
+}
+220003 = {
+	prefix = "dynn_al-"
+	name = "Bamenda"
+	culture = crown
+}
+220004 = {
+	prefix = "dynn_al-"
+	name = "Nizwa"
+	culture = crown
+	motto = dynn_nizwa_motto
+}
+220005 = {
+	prefix = "dynn_al-"
+	name = "Agrabah"
+	culture = crown
+}
+220006 = {
+	prefix = "dynn_al-"
+	name = "Skavyn"
+	culture = crown
+}
+220007 = {
+	prefix = "dynn_al-"
+	name = "Pharos"
+	culture = crown
+}
+220008 = {
+	prefix = "dynn_al-"
+	name = "Haran"
+	culture = crown
+}
+220009 = {
+	prefix = "dynn_al-"
+	name = "Hadaf"
+	culture = crown
+}
+220010 = {
+	prefix = "dynn_al-"
+	name = "Ahvaz"
+	culture = crown
+}
+220011 = {
+	prefix = "dynn_al-"
+	name = "Agadem"
+	culture = crown
+}
+
+#220012 = {
+#	name = "Bridwell"
+#	culture = crown
+#}
+#
+#220013 = {
+#	name = "KElmar"
+#	culture = crown
+#}
+#
+#220014 = {
+#	name = "Hawker"
+#	culture = crown
+#}
+#
+#220015 = {
+#	prefix = "dynn_al-"
+#	name = "Bergama"
+#	culture = crown
+#}
+
+220016 = {
+	prefix = "dynn_al-"
+	name = "Ragath"
+	culture = crown
+}
+
+220017 = {
+	prefix = "dynn_al-"
+	name = "Rihad"
+	culture = crown
+}
+
+220018 = {
+	prefix = "dynnpat_pre_at-"
+	name = "Owynok"
+	culture = crown
+}
+
+220019 = {
+	prefix = "dynnp_af-"
+	name = "Jahannif"
+	culture = crown
+}
+
+220020 = {
+	prefix = "dynnp_af-"
+	name = "Jamadin"
+	culture = crown
+}
+
+#Lhotunic: 230.000 - 239.999
+
+
+#Alik'r: 240.000 - 249.999
+
+240000 = {
+	name = "Curezo"
+	culture = alikr
+}
+240001 = {
+	name = "Ashabah"
+	culture = alikr
+	motto = dynn_ashabah_motto
+}
+240002 = {
+	name = "Jawesek"
+	culture = alikr
+}
+240003 = {
+	name = "Eneroc"
+	culture = alikr
+}
+240004 = {
+	name = "Curylen"
+	culture = alikr
+}
+240005 = {
+	name = "Dariene"
+	culture = alikr
+}
+240006 = {
+	name = "Lhoehon"
+	culture = alikr
+}
+240007 = {
+	name = "Hilacan"
+	culture = alikr
+}
+240008 = {
+	name = "Acatis"
+	culture = alikr
+}
+240009 = {
+	name = "Rhali"
+	culture = alikr
+}
+240010 = {
+	name = "Brenewon"
+	culture = alikr
+}
+240011 = {
+	name = "Americk"
+	culture = alikr
+}
+240012 = {
+	name = "Shaelan"
+	culture = alikr
+}
+240013 = {
+	name = "Rusofiz"
+	culture = alikr
+	motto = dynn_rusofiz_motto
+}
+
+#Abecean: 250.000 - 259.999
+
+250000 = {
+	prefix = "dynnpat_pre_at-"
+	name = "Addin"
+	culture = abecean
+}
+
+250001 = {
+	prefix = "dynn_al-"
+	name = "Hnas"
+	culture = abecean
+}
+
+250002 = {
+	prefix = "dynn_al-"
+	name = "Berbera"
+	culture = abecean
+}
+
+#Horsemen: 260.000 - 269.999
+
+260000 = {
+	prefix = "dynn_al-"
+	name = "Silwer"
+	culture = horsemen
+	motto = dynn_silwer_motto
+}
+
+260001 = {
+	prefix = "dynn_al-"
+	name = "Hisan"
+	culture = horsemen
+}
+
+260002 = {
+	prefix = "dynn_al-"
+	name = "Kalam"
+	culture = horsemen
+}
+
+260003 = {
+	prefix = "dynn_al-"
+	name = "Saraj"
+	culture = horsemen
+	motto = dynn_saraj_motto
+}

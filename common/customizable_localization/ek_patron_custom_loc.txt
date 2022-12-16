@@ -1,0 +1,5056 @@
+﻿GetPatronName = {
+	type = character
+
+	# Azura
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:azura
+		}
+		localization_key = patron_azura_name
+	}
+
+	# Boethiah
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:boethiah
+		}
+		localization_key = patron_boethiah_name
+	}
+
+	# Clavicus Vile
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:clavicus
+		}
+		localization_key = patron_clavicus_name
+	}
+
+	# Hermaeus Mora
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:hermaeus
+		}
+		localization_key = patron_hermaeus_name
+	}
+
+	# Hircine
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:hircine
+		}
+		localization_key = patron_hircine_name
+	}
+
+	# Jyggalag
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:jyggalag
+		}
+		localization_key = patron_jyggalag_name
+	}
+
+	# Malacath
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:malacath
+		}
+		localization_key = patron_malacath_name
+	}
+
+	# Mehrunes Dagon
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:mehrunes
+		}
+		localization_key = patron_mehrunes_name
+	}
+
+	# Mephala
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:mephala
+		}
+		localization_key = patron_mephala_name
+	}
+
+	# Meridia
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:meridia
+		}
+		localization_key = patron_meridia_name
+	}
+
+	# Molag Bal
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:molag
+		}
+		localization_key = patron_molag_name
+	}
+
+	# Namira
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:namira
+		}
+		localization_key = patron_namira_name
+	}
+
+	# Nocturnal
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:nocturnal
+		}
+		localization_key = patron_nocturnal_name
+	}
+
+	# Peryite
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:peryite
+		}
+		localization_key = patron_peryite_name
+	}
+
+	# Sanguine
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:sanguine
+		}
+		localization_key = patron_sanguine_name
+	}
+
+	# Sheogorath
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:sheogorath
+		}
+		localization_key = patron_sheogorath_name
+	}
+
+	# Vaermina
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:vaermina
+		}
+		localization_key = patron_vaermina_name
+	}
+
+	# Fallback - no selection
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_no_selection
+	}
+}
+
+GetPatronDesc = {
+	type = character
+
+	# Azura
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:azura
+		}
+		localization_key = patron_azura_desc
+	}
+
+	# Boethiah
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:boethiah
+		}
+		localization_key = patron_boethiah_desc
+	}
+
+	# Clavicus Vile
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:clavicus
+		}
+		localization_key = patron_clavicus_desc
+	}
+
+	# Hermaeus Mora
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:hermaeus
+		}
+		localization_key = patron_hermaeus_desc
+	}
+
+	# Hircine
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:hircine
+		}
+		localization_key = patron_hircine_desc
+	}
+
+	# Jyggalag
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:jyggalag
+		}
+		localization_key = patron_jyggalag_desc
+	}
+
+	# Malacath
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:malacath
+		}
+		localization_key = patron_malacath_desc
+	}
+
+	# Mehrunes Dagon
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:mehrunes
+		}
+		localization_key = patron_mehrunes_desc
+	}
+
+	# Mephala
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:mephala
+		}
+		localization_key = patron_mephala_desc
+	}
+
+	# Meridia
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:meridia
+		}
+		localization_key = patron_meridia_desc
+	}
+
+	# Molag Bal
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:molag
+		}
+		localization_key = patron_molag_desc
+	}
+
+	# Namira
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:namira
+		}
+		localization_key = patron_namira_desc
+	}
+
+	# Nocturnal
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:nocturnal
+		}
+		localization_key = patron_nocturnal_desc
+	}
+
+	# Peryite
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:peryite
+		}
+		localization_key = patron_peryite_desc
+	}
+
+	# Sanguine
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:sanguine
+		}
+		localization_key = patron_sanguine_desc
+	}
+
+	# Sheogorath
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:sheogorath
+		}
+		localization_key = patron_sheogorath_desc
+	}
+
+	# Vaermina
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:vaermina
+		}
+		localization_key = patron_vaermina_desc
+	}
+}
+
+GetPatronLongDesc = {
+	type = character
+
+	# Azura
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:azura
+		}
+		localization_key = patron_azura_long_desc
+	}
+
+	# Boethiah
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:boethiah
+		}
+		localization_key = patron_boethiah_long_desc
+	}
+
+	# Clavicus Vile
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:clavicus
+		}
+		localization_key = patron_clavicus_long_desc
+	}
+
+	# Hermaeus Mora
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:hermaeus
+		}
+		localization_key = patron_hermaeus_long_desc
+	}
+
+	# Hircine
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:hircine
+		}
+		localization_key = patron_hircine_long_desc
+	}
+
+	# Jyggalag
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:jyggalag
+		}
+		localization_key = patron_jyggalag_long_desc
+	}
+
+	# Malacath
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:malacath
+		}
+		localization_key = patron_malacath_long_desc
+	}
+
+	# Mehrunes Dagon
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:mehrunes
+		}
+		localization_key = patron_mehrunes_long_desc
+	}
+
+	# Mephala
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:mephala
+		}
+		localization_key = patron_mephala_long_desc
+	}
+
+	# Meridia
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:meridia
+		}
+		localization_key = patron_meridia_long_desc
+	}
+
+	# Molag Bal
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:molag
+		}
+		localization_key = patron_molag_long_desc
+	}
+
+	# Namira
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:namira
+		}
+		localization_key = patron_namira_long_desc
+	}
+
+	# Nocturnal
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:nocturnal
+		}
+		localization_key = patron_nocturnal_long_desc
+	}
+
+	# Peryite
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:peryite
+		}
+		localization_key = patron_peryite_long_desc
+	}
+
+	# Sanguine
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:sanguine
+		}
+		localization_key = patron_sanguine_long_desc
+	}
+
+	# Sheogorath
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:sheogorath
+		}
+		localization_key = patron_sheogorath_long_desc
+	}
+
+	# Vaermina
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			var:patron_shown = flag:vaermina
+		}
+		localization_key = patron_vaermina_long_desc
+	}
+}
+
+GetPatronStatus = {
+	type = character
+
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			switch = {
+				trigger = var:patron_shown
+				flag:azura = { global_var:status_azura = flag:ascendant }
+				flag:boethiah = { global_var:status_boethiah = flag:ascendant }
+				flag:clavicus = { global_var:status_clavicus = flag:ascendant }
+				flag:hermaeus = { global_var:status_hermaeus = flag:ascendant }
+				flag:hircine = { global_var:status_hircine = flag:ascendant }
+				flag:malacath = { global_var:status_malacath = flag:ascendant }
+				flag:mehrunes = { global_var:status_mehrunes = flag:ascendant }
+				flag:mephala = { global_var:status_mephala = flag:ascendant }
+				flag:meridia = { global_var:status_meridia = flag:ascendant }
+				flag:molag = { global_var:status_molag = flag:ascendant }
+				flag:namira = { global_var:status_namira = flag:ascendant }
+				flag:nocturnal = { global_var:status_nocturnal = flag:ascendant }
+				flag:peryite = { global_var:status_peryite = flag:ascendant }
+				flag:sanguine = { global_var:status_sanguine = flag:ascendant }
+				flag:sheogorath = { global_var:status_sheogorath = flag:ascendant }
+				flag:vaermina = { global_var:status_vaermina = flag:ascendant }
+			}
+		}
+		localization_key = patron_status_ascendant
+	}
+
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			switch = {
+				trigger = var:patron_shown
+				flag:azura = { global_var:status_azura = flag:convalescing }
+				flag:boethiah = { global_var:status_boethiah = flag:convalescing }
+				flag:clavicus = { global_var:status_clavicus = flag:convalescing }
+				flag:hermaeus = { global_var:status_hermaeus = flag:convalescing }
+				flag:hircine = { global_var:status_hircine = flag:convalescing }
+				flag:malacath = { global_var:status_malacath = flag:convalescing }
+				flag:mehrunes = { global_var:status_mehrunes = flag:convalescing }
+				flag:mephala = { global_var:status_mephala = flag:convalescing }
+				flag:meridia = { global_var:status_meridia = flag:convalescing }
+				flag:molag = { global_var:status_molag = flag:convalescing }
+				flag:namira = { global_var:status_namira = flag:convalescing }
+				flag:nocturnal = { global_var:status_nocturnal = flag:convalescing }
+				flag:peryite = { global_var:status_peryite = flag:convalescing }
+				flag:sanguine = { global_var:status_sanguine = flag:convalescing }
+				flag:sheogorath = { global_var:status_sheogorath = flag:convalescing }
+				flag:vaermina = { global_var:status_vaermina = flag:convalescing }
+			}
+		}
+		localization_key = patron_status_convalescing
+	}
+
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			switch = {
+				trigger = var:patron_shown
+				flag:azura = { global_var:status_azura = flag:cataclysm }
+				flag:boethiah = { global_var:status_boethiah = flag:cataclysm }
+				flag:clavicus = { global_var:status_clavicus = flag:cataclysm }
+				flag:hermaeus = { global_var:status_hermaeus = flag:cataclysm }
+				flag:hircine = { global_var:status_hircine = flag:cataclysm }
+				flag:malacath = { global_var:status_malacath = flag:cataclysm }
+				flag:mehrunes = { global_var:status_mehrunes = flag:cataclysm }
+				flag:mephala = { global_var:status_mephala = flag:cataclysm }
+				flag:meridia = { global_var:status_meridia = flag:cataclysm }
+				flag:molag = { global_var:status_molag = flag:cataclysm }
+				flag:namira = { global_var:status_namira = flag:cataclysm }
+				flag:nocturnal = { global_var:status_nocturnal = flag:cataclysm }
+				flag:peryite = { global_var:status_peryite = flag:cataclysm }
+				flag:sanguine = { global_var:status_sanguine = flag:cataclysm }
+				flag:sheogorath = { global_var:status_sheogorath = flag:cataclysm }
+				flag:vaermina = { global_var:status_vaermina = flag:cataclysm }
+			}
+		}
+		localization_key = patron_status_cataclysm
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_status_nominal
+	}
+}
+GetPatronStatus_azura = {
+	type = character
+
+	text = {
+		trigger = { global_var:status_azura = flag:ascendant }
+		localization_key = patron_status_ascendant
+	}
+
+	text = {
+		trigger = { global_var:status_azura = flag:convalescing }
+		localization_key = patron_status_convalescing
+	}
+
+	text = {
+		trigger = { global_var:status_azura = flag:cataclysm }
+		localization_key = patron_status_cataclysm
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_status_nominal
+	}
+}
+GetPatronStatus_boethiah = {
+	type = character
+
+	text = {
+		trigger = { global_var:status_boethiah = flag:ascendant }
+		localization_key = patron_status_ascendant
+	}
+
+	text = {
+		trigger = { global_var:status_boethiah = flag:convalescing }
+		localization_key = patron_status_convalescing
+	}
+
+	text = {
+		trigger = { global_var:status_boethiah = flag:cataclysm }
+		localization_key = patron_status_cataclysm
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_status_nominal
+	}
+}
+GetPatronStatus_clavicus = {
+	type = character
+
+	text = {
+		trigger = { global_var:status_clavicus = flag:ascendant }
+		localization_key = patron_status_ascendant
+	}
+
+	text = {
+		trigger = { global_var:status_clavicus = flag:convalescing }
+		localization_key = patron_status_convalescing
+	}
+
+	text = {
+		trigger = { global_var:status_clavicus = flag:cataclysm }
+		localization_key = patron_status_cataclysm
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_status_nominal
+	}
+}
+GetPatronStatus_hermaeus = {
+	type = character
+
+	text = {
+		trigger = { global_var:status_hermaeus = flag:ascendant }
+		localization_key = patron_status_ascendant
+	}
+
+	text = {
+		trigger = { global_var:status_hermaeus = flag:convalescing }
+		localization_key = patron_status_convalescing
+	}
+
+	text = {
+		trigger = { global_var:status_hermaeus = flag:cataclysm }
+		localization_key = patron_status_cataclysm
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_status_nominal
+	}
+}
+GetPatronStatus_hircine = {
+	type = character
+
+	text = {
+		trigger = { global_var:status_hircine = flag:ascendant }
+		localization_key = patron_status_ascendant
+	}
+
+	text = {
+		trigger = { global_var:status_hircine = flag:convalescing }
+		localization_key = patron_status_convalescing
+	}
+
+	text = {
+		trigger = { global_var:status_hircine = flag:cataclysm }
+		localization_key = patron_status_cataclysm
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_status_nominal
+	}
+}
+GetPatronStatus_malacath = {
+	type = character
+
+	text = {
+		trigger = { global_var:status_malacath = flag:ascendant }
+		localization_key = patron_status_ascendant
+	}
+
+	text = {
+		trigger = { global_var:status_malacath = flag:convalescing }
+		localization_key = patron_status_convalescing
+	}
+
+	text = {
+		trigger = { global_var:status_malacath = flag:cataclysm }
+		localization_key = patron_status_cataclysm
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_status_nominal
+	}
+}
+GetPatronStatus_mehrunes = {
+	type = character
+
+	text = {
+		trigger = { global_var:status_mehrunes = flag:ascendant }
+		localization_key = patron_status_ascendant
+	}
+
+	text = {
+		trigger = { global_var:status_mehrunes = flag:convalescing }
+		localization_key = patron_status_convalescing
+	}
+
+	text = {
+		trigger = { global_var:status_mehrunes = flag:cataclysm }
+		localization_key = patron_status_cataclysm
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_status_nominal
+	}
+}
+GetPatronStatus_mephala = {
+	type = character
+
+	text = {
+		trigger = { global_var:status_mephala = flag:ascendant }
+		localization_key = patron_status_ascendant
+	}
+
+	text = {
+		trigger = { global_var:status_mephala = flag:convalescing }
+		localization_key = patron_status_convalescing
+	}
+
+	text = {
+		trigger = { global_var:status_mephala = flag:cataclysm }
+		localization_key = patron_status_cataclysm
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_status_nominal
+	}
+}
+GetPatronStatus_meridia = {
+	type = character
+
+	text = {
+		trigger = { global_var:status_meridia = flag:ascendant }
+		localization_key = patron_status_ascendant
+	}
+
+	text = {
+		trigger = { global_var:status_meridia = flag:convalescing }
+		localization_key = patron_status_convalescing
+	}
+
+	text = {
+		trigger = { global_var:status_meridia = flag:cataclysm }
+		localization_key = patron_status_cataclysm
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_status_nominal
+	}
+}
+GetPatronStatus_molag = {
+	type = character
+
+	text = {
+		trigger = { global_var:status_molag = flag:ascendant }
+		localization_key = patron_status_ascendant
+	}
+
+	text = {
+		trigger = { global_var:status_molag = flag:convalescing }
+		localization_key = patron_status_convalescing
+	}
+
+	text = {
+		trigger = { global_var:status_molag = flag:cataclysm }
+		localization_key = patron_status_cataclysm
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_status_nominal
+	}
+}
+GetPatronStatus_namira = {
+	type = character
+
+	text = {
+		trigger = { global_var:status_namira = flag:ascendant }
+		localization_key = patron_status_ascendant
+	}
+
+	text = {
+		trigger = { global_var:status_namira = flag:convalescing }
+		localization_key = patron_status_convalescing
+	}
+
+	text = {
+		trigger = { global_var:status_namira = flag:cataclysm }
+		localization_key = patron_status_cataclysm
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_status_nominal
+	}
+}
+GetPatronStatus_nocturnal = {
+	type = character
+
+	text = {
+		trigger = { global_var:status_nocturnal = flag:ascendant }
+		localization_key = patron_status_ascendant
+	}
+
+	text = {
+		trigger = { global_var:status_nocturnal = flag:convalescing }
+		localization_key = patron_status_convalescing
+	}
+
+	text = {
+		trigger = { global_var:status_nocturnal = flag:cataclysm }
+		localization_key = patron_status_cataclysm
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_status_nominal
+	}
+}
+GetPatronStatus_peryite = {
+	type = character
+
+	text = {
+		trigger = { global_var:status_peryite = flag:ascendant }
+		localization_key = patron_status_ascendant
+	}
+
+	text = {
+		trigger = { global_var:status_peryite = flag:convalescing }
+		localization_key = patron_status_convalescing
+	}
+
+	text = {
+		trigger = { global_var:status_peryite = flag:cataclysm }
+		localization_key = patron_status_cataclysm
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_status_nominal
+	}
+}
+GetPatronStatus_sanguine = {
+	type = character
+
+	text = {
+		trigger = { global_var:status_sanguine = flag:ascendant }
+		localization_key = patron_status_ascendant
+	}
+
+	text = {
+		trigger = { global_var:status_sanguine = flag:convalescing }
+		localization_key = patron_status_convalescing
+	}
+
+	text = {
+		trigger = { global_var:status_sanguine = flag:cataclysm }
+		localization_key = patron_status_cataclysm
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_status_nominal
+	}
+}
+GetPatronStatus_sheogorath = {
+	type = character
+
+	text = {
+		trigger = { global_var:status_sheogorath = flag:ascendant }
+		localization_key = patron_status_ascendant
+	}
+
+	text = {
+		trigger = { global_var:status_sheogorath = flag:convalescing }
+		localization_key = patron_status_convalescing
+	}
+
+	text = {
+		trigger = { global_var:status_sheogorath = flag:cataclysm }
+		localization_key = patron_status_cataclysm
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_status_nominal
+	}
+}
+GetPatronStatus_vaermina = {
+	type = character
+
+	text = {
+		trigger = { global_var:status_vaermina = flag:ascendant }
+		localization_key = patron_status_ascendant
+	}
+
+	text = {
+		trigger = { global_var:status_vaermina = flag:convalescing }
+		localization_key = patron_status_convalescing
+	}
+
+	text = {
+		trigger = { global_var:status_vaermina = flag:cataclysm }
+		localization_key = patron_status_cataclysm
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_status_nominal
+	}
+}
+
+GetPatronWorshipType = {
+	type = character
+
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			switch = {
+				trigger = var:patron_shown
+				flag:azura = { faith = { has_doctrine_parameter = worship_azura_focused_active } }
+				flag:boethiah = { faith = { has_doctrine_parameter = worship_boethiah_focused_active } }
+				flag:clavicus = { faith = { has_doctrine_parameter = worship_clavicus_focused_active } }
+				flag:hermaeus = { faith = { has_doctrine_parameter = worship_hermaeus_focused_active } }
+				flag:hircine = { faith = { has_doctrine_parameter = worship_hircine_focused_active } }
+				flag:malacath = { faith = { has_doctrine_parameter = worship_malacath_focused_active } }
+				flag:mehrunes = { faith = { has_doctrine_parameter = worship_mehrunes_focused_active } }
+				flag:mephala = { faith = { has_doctrine_parameter = worship_mephala_focused_active } }
+				flag:meridia = { faith = { has_doctrine_parameter = worship_meridia_focused_active } }
+				flag:molag = { faith = { has_doctrine_parameter = worship_molag_focused_active } }
+				flag:namira = { faith = { has_doctrine_parameter = worship_namira_focused_active } }
+				flag:nocturnal = { faith = { has_doctrine_parameter = worship_nocturnal_focused_active } }
+				flag:peryite = { faith = { has_doctrine_parameter = worship_peryite_focused_active } }
+				flag:sanguine = { faith = { has_doctrine_parameter = worship_sanguine_focused_active } }
+				flag:sheogorath = { faith = { has_doctrine_parameter = worship_sheogorath_focused_active } }
+				flag:vaermina = { faith = { has_doctrine_parameter = worship_vaermina_focused_active } }
+			}
+		}
+		localization_key = patron_worship_type_focused
+	}
+
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			switch = {
+				trigger = var:patron_shown
+				flag:azura = { faith = { has_doctrine_parameter = adds_azura_pantheon_active } }
+				flag:boethiah = { faith = { has_doctrine_parameter = adds_boethiah_pantheon_active } }
+				flag:clavicus = { faith = { has_doctrine_parameter = adds_clavicus_pantheon_active } }
+				flag:hermaeus = { faith = { has_doctrine_parameter = adds_hermaeus_pantheon_active } }
+				flag:hircine = { faith = { has_doctrine_parameter = adds_hircine_pantheon_active } }
+				flag:malacath = { faith = { has_doctrine_parameter = adds_malacath_pantheon_active } }
+				flag:mehrunes = { faith = { has_doctrine_parameter = adds_mehrunes_pantheon_active } }
+				flag:mephala = { faith = { has_doctrine_parameter = adds_mephala_pantheon_active } }
+				flag:meridia = { faith = { has_doctrine_parameter = adds_meridia_pantheon_active } }
+				flag:molag = { faith = { has_doctrine_parameter = adds_molag_pantheon_active } }
+				flag:namira = { faith = { has_doctrine_parameter = adds_namira_pantheon_active } }
+				flag:nocturnal = { faith = { has_doctrine_parameter = adds_nocturnal_pantheon_active } }
+				flag:peryite = { faith = { has_doctrine_parameter = adds_peryite_pantheon_active } }
+				flag:sanguine = { faith = { has_doctrine_parameter = adds_sanguine_pantheon_active } }
+				flag:sheogorath = { faith = { has_doctrine_parameter = adds_sheogorath_pantheon_active } }
+				flag:vaermina = { faith = { has_doctrine_parameter = adds_vaermina_pantheon_active } }
+			}
+		}
+		localization_key = patron_worship_type_pantheon
+	}
+
+	text = {
+		trigger = {
+			exists = var:patron_shown
+			switch = {
+				trigger = var:patron_shown
+				flag:azura = { faith = { has_doctrine_parameter = worship_azura_allowed_active } }
+				flag:boethiah = { faith = { has_doctrine_parameter = worship_boethiah_allowed_active } }
+				flag:clavicus = { faith = { has_doctrine_parameter = worship_clavicus_allowed_active } }
+				flag:hermaeus = { faith = { has_doctrine_parameter = worship_hermaeus_allowed_active } }
+				flag:hircine = { faith = { has_doctrine_parameter = worship_hircine_allowed_active } }
+				flag:malacath = { faith = { has_doctrine_parameter = worship_malacath_allowed_active } }
+				flag:mehrunes = { faith = { has_doctrine_parameter = worship_mehrunes_allowed_active } }
+				flag:mephala = { faith = { has_doctrine_parameter = worship_mephala_allowed_active } }
+				flag:meridia = { faith = { has_doctrine_parameter = worship_meridia_allowed_active } }
+				flag:molag = { faith = { has_doctrine_parameter = worship_molag_allowed_active } }
+				flag:namira = { faith = { has_doctrine_parameter = worship_namira_allowed_active } }
+				flag:nocturnal = { faith = { has_doctrine_parameter = worship_nocturnal_allowed_active } }
+				flag:peryite = { faith = { has_doctrine_parameter = worship_peryite_allowed_active } }
+				flag:sanguine = { faith = { has_doctrine_parameter = worship_sanguine_allowed_active } }
+				flag:sheogorath = { faith = { has_doctrine_parameter = worship_sheogorath_allowed_active } }
+				flag:vaermina = { faith = { has_doctrine_parameter = worship_vaermina_allowed_active } }
+			}
+		}
+		localization_key = patron_worship_type_allowed
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_worship_type_secret
+	}
+}
+GetPatronWorshipType_azura = {
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_azura_focused_active } }
+		localization_key = patron_worship_type_focused
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = adds_azura_pantheon_active } }
+		localization_key = patron_worship_type_pantheon
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_azura_allowed_active } }
+		localization_key = patron_worship_type_allowed
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_worship_type_secret
+	}
+}
+GetPatronWorshipType_boethiah = {
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_boethiah_focused_active } }
+		localization_key = patron_worship_type_focused
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = adds_boethiah_pantheon_active } }
+		localization_key = patron_worship_type_pantheon
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_boethiah_allowed_active } }
+		localization_key = patron_worship_type_allowed
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_worship_type_secret
+	}
+}
+GetPatronWorshipType_clavicus = {
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_clavicus_focused_active } }
+		localization_key = patron_worship_type_focused
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = adds_clavicus_pantheon_active } }
+		localization_key = patron_worship_type_pantheon
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_clavicus_allowed_active } }
+		localization_key = patron_worship_type_allowed
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_worship_type_secret
+	}
+}
+GetPatronWorshipType_hermaeus = {
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_hermaeus_focused_active } }
+		localization_key = patron_worship_type_focused
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = adds_hermaeus_pantheon_active } }
+		localization_key = patron_worship_type_pantheon
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_hermaeus_allowed_active } }
+		localization_key = patron_worship_type_allowed
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_worship_type_secret
+	}
+}
+GetPatronWorshipType_hircine = {
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_hircine_focused_active } }
+		localization_key = patron_worship_type_focused
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = adds_hircine_pantheon_active } }
+		localization_key = patron_worship_type_pantheon
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_hircine_allowed_active } }
+		localization_key = patron_worship_type_allowed
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_worship_type_secret
+	}
+}
+GetPatronWorshipType_malacath = {
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_malacath_focused_active } }
+		localization_key = patron_worship_type_focused
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = adds_malacath_pantheon_active } }
+		localization_key = patron_worship_type_pantheon
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_malacath_allowed_active } }
+		localization_key = patron_worship_type_allowed
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_worship_type_secret
+	}
+}
+GetPatronWorshipType_mehrunes = {
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_mehrunes_focused_active } }
+		localization_key = patron_worship_type_focused
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = adds_mehrunes_pantheon_active } }
+		localization_key = patron_worship_type_pantheon
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_mehrunes_allowed_active } }
+		localization_key = patron_worship_type_allowed
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_worship_type_secret
+	}
+}
+GetPatronWorshipType_mephala = {
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_mephala_focused_active } }
+		localization_key = patron_worship_type_focused
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = adds_mephala_pantheon_active } }
+		localization_key = patron_worship_type_pantheon
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_mephala_allowed_active } }
+		localization_key = patron_worship_type_allowed
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_worship_type_secret
+	}
+}
+GetPatronWorshipType_meridia = {
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_meridia_focused_active } }
+		localization_key = patron_worship_type_focused
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = adds_meridia_pantheon_active } }
+		localization_key = patron_worship_type_pantheon
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_meridia_allowed_active } }
+		localization_key = patron_worship_type_allowed
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_worship_type_secret
+	}
+}
+GetPatronWorshipType_molag = {
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_molag_focused_active } }
+		localization_key = patron_worship_type_focused
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = adds_molag_pantheon_active } }
+		localization_key = patron_worship_type_pantheon
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_molag_allowed_active } }
+		localization_key = patron_worship_type_allowed
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_worship_type_secret
+	}
+}
+GetPatronWorshipType_namira = {
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_namira_focused_active } }
+		localization_key = patron_worship_type_focused
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = adds_namira_pantheon_active } }
+		localization_key = patron_worship_type_pantheon
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_namira_allowed_active } }
+		localization_key = patron_worship_type_allowed
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_worship_type_secret
+	}
+}
+GetPatronWorshipType_nocturnal = {
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_nocturnal_focused_active } }
+		localization_key = patron_worship_type_focused
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = adds_nocturnal_pantheon_active } }
+		localization_key = patron_worship_type_pantheon
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_nocturnal_allowed_active } }
+		localization_key = patron_worship_type_allowed
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_worship_type_secret
+	}
+}
+GetPatronWorshipType_peryite = {
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_peryite_focused_active } }
+		localization_key = patron_worship_type_focused
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = adds_peryite_pantheon_active } }
+		localization_key = patron_worship_type_pantheon
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_peryite_allowed_active } }
+		localization_key = patron_worship_type_allowed
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_worship_type_secret
+	}
+}
+GetPatronWorshipType_sanguine = {
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_sanguine_focused_active } }
+		localization_key = patron_worship_type_focused
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = adds_sanguine_pantheon_active } }
+		localization_key = patron_worship_type_pantheon
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_sanguine_allowed_active } }
+		localization_key = patron_worship_type_allowed
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_worship_type_secret
+	}
+}
+GetPatronWorshipType_sheogorath = {
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_sheogorath_focused_active } }
+		localization_key = patron_worship_type_focused
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = adds_sheogorath_pantheon_active } }
+		localization_key = patron_worship_type_pantheon
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_sheogorath_allowed_active } }
+		localization_key = patron_worship_type_allowed
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_worship_type_secret
+	}
+}
+GetPatronWorshipType_vaermina = {
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_vaermina_focused_active } }
+		localization_key = patron_worship_type_focused
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = adds_vaermina_pantheon_active } }
+		localization_key = patron_worship_type_pantheon
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine_parameter = worship_vaermina_allowed_active } }
+		localization_key = patron_worship_type_allowed
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = patron_worship_type_secret
+	}
+}
+
+## LOOK INTO VARIANTS  ## - you cant add prefix = limited utility
+
+# Divines
+get_dv_akatosh = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_akatosh"
+	}
+}
+get_dv_akatosh_icon = { #all of them give errors during hot reload. normal is fine.
+	type = character #replace faith
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_yokudan
+				LANGUAGE = language_cyrodiilic
+			}
+		}
+		localization_key = "p_dv_akatosh_rc_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_breton
+				LANGUAGE = language_bretic
+			}
+		}
+		localization_key = "p_dv_akatosh_br_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_dv_akatosh_nbg.dds"
+	}
+}
+GetDvAkatoshName = {
+	type = character
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_atmoran_totems } }
+		localization_key = god_dragon_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_nord } }
+		localization_key = god_alduin_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_akatosh_name
+	}
+}
+# GetDvAkatoshDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { faith = { has_doctrine = tenet_children_skyrim } }
+# 		localization_key = desc_alduin
+# 	}
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_akatosh
+# 	}
+# }
+
+get_dv_arkay = {
+	type = character #replace faith
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_yokudan
+				LANGUAGE = language_cyrodiilic
+			}
+		}
+		localization_key = "_tuwhacca"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_arkay"
+	}
+}
+get_dv_arkay_icon = {
+	type = character #replace faith
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_atmoran
+				LANGUAGE = language_nordic
+			}
+		}
+		localization_key = "p_dv_arkay_np_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_yokudan
+				LANGUAGE = language_cyrodiilic
+			}
+		}
+		localization_key = "p_dv_arkay_rc_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_breton
+				LANGUAGE = language_bretic
+			}
+		}
+		localization_key = "p_dv_arkay_br_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_dv_arkay_nbg.dds"
+	}
+}
+GetDvArkayName = {
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_atmoran_totems } }
+		localization_key = god_snake_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_nord } }
+		localization_key = god_orkey_name
+	}
+
+	text = {
+		trigger = {
+			faith = {
+				patron_culture_variant_trigger = {
+					HERITAGE = heritage_yokudan
+					LANGUAGE = language_cyrodiilic
+				}
+			}
+		}
+		localization_key = god_tuwhacca_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_arkay_name
+	}
+}
+# GetDvArkayDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { faith = { has_doctrine = tenet_children_skyrim } }
+# 		localization_key = desc_orkey
+# 	}
+
+# 	text = {
+# 		trigger = { faith = { has_doctrine = tenet_desert_traditions } }
+# 		localization_key = desc_tuwhacca
+# 	}
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_arkay
+# 	}
+# }
+
+get_dv_dibella = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_dibella"
+	}
+}
+get_dv_dibella_icon = {
+	type = character #replace faith
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_atmoran
+				LANGUAGE = language_nordic
+			}
+		}
+		localization_key = "p_dv_dibella_np_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_yokudan
+				LANGUAGE = language_cyrodiilic
+			}
+		}
+		localization_key = "p_dv_dibella_rc_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_breton
+				LANGUAGE = language_bretic
+			}
+		}
+		localization_key = "p_dv_dibella_br_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_nedic_north
+				LANGUAGE = language_reachtongue
+			}
+		}
+		localization_key = "p_dv_dibella_rf_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_dv_dibella_nbg.dds"
+	}
+}
+GetDvDibellaName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_dibella_name
+	}
+}
+# GetDvDibellaDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_dibella
+# 	}
+# }
+
+get_dv_julianos = {
+	type = character #replace faith
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_atmoran
+				LANGUAGE = language_nordic
+			}
+		}
+		localization_key = "_jhunal"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_julianos"
+	}
+}
+get_dv_julianos_icon = {
+	type = character #replace faith
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_atmoran
+				LANGUAGE = language_nordic
+			}
+		}
+		localization_key = "p_dv_julianos_np_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_yokudan
+				LANGUAGE = language_cyrodiilic
+			}
+		}
+		localization_key = "p_dv_julianos_rc_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_breton
+				LANGUAGE = language_bretic
+			}
+		}
+		localization_key = "p_dv_julianos_br_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_dv_julianos_nbg.dds"
+	}
+}
+GetDvJulianosName = {
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_atmoran_totems } }
+		localization_key = god_owl_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_nord } }
+		localization_key = god_jhunal_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_julianos_name
+	}
+}
+# GetDvJulianosDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { faith = { has_doctrine = tenet_children_skyrim } }
+# 		localization_key = desc_jhunal
+# 	}
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_julianos
+# 	}
+# }
+
+get_dv_kynareth = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = "_khenarthi"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_atmoran
+				LANGUAGE = language_nordic
+			}
+		}
+		localization_key = "_kyne"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_nedic_north
+				LANGUAGE = language_reachtongue
+			}
+		}
+		localization_key = "_kyne" #separate for future changes, if better nedic name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_kynareth"
+	}
+}
+get_dv_kynareth_icon = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = "p_kj_khenarthi_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_atmoran
+				LANGUAGE = language_nordic
+			}
+		}
+		localization_key = "p_dv_kynareth_np_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_yokudan
+				LANGUAGE = language_cyrodiilic
+			}
+		}
+		localization_key = "p_dv_kynareth_rc_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_breton
+				LANGUAGE = language_bretic
+			}
+		}
+		localization_key = "p_dv_kynareth_br_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_nedic_north
+				LANGUAGE = language_reachtongue
+			}
+		}
+		localization_key = "p_dv_kynareth_rf_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_dv_kynareth_nbg.dds"
+	}
+}
+GetDvKynarethName = {
+	type = character
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = god_khenarthi_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_riddlethar } }
+		localization_key = god_khenarthi_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_khajiiti } }
+		localization_key = god_khenarthi_name
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_atmoran_totems } }
+		localization_key = god_hawk_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_nord } }
+		localization_key = god_kyne_name
+	}
+
+	text = {
+		trigger = {
+			faith = {
+				patron_culture_variant_trigger = {
+					HERITAGE = heritage_yokudan
+					LANGUAGE = language_cyrodiilic
+				}
+			}
+		}
+		localization_key = god_tava_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_kynareth_name
+	}
+}
+# faith_test = { #"[GuiScope.SetRoot(GetPlayer.GetFaith.MakeScope).Custom('faith_test')]"
+# 	type = faith
+
+# 	text = {
+# 		trigger = { has_doctrine = tenet_children_skyrim }
+# 		localization_key = god_kyne_name
+# 	}
+
+# 	text = {
+# 		trigger = { has_doctrine = tenet_desert_traditions }
+# 		localization_key = god_tava_name
+# 	}
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = god_kynareth_name
+# 	}
+# }
+# GetDvKynarethDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { faith = { has_doctrine = tenet_children_skyrim } }
+# 		localization_key = desc_kyne
+# 	}
+
+# 	text = {
+# 		trigger = { faith = { has_doctrine = tenet_desert_traditions } }
+# 		localization_key = desc_tava
+# 	}
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_kynareth
+# 	}
+# }
+
+get_dv_mara = {
+	type = character #replace faith
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_yokudan
+				LANGUAGE = language_cyrodiilic
+			}
+		}
+		localization_key = "_morwha"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_mara"
+	}
+}
+get_dv_mara_icon = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = "p_dv_mara_kj_nbg.dds"
+	}
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:bosmeri_religion }
+		localization_key = "p_gp_mara_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_atmoran
+				LANGUAGE = language_nordic
+			}
+		}
+		localization_key = "p_dv_mara_np_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_yokudan
+				LANGUAGE = language_cyrodiilic
+			}
+		}
+		localization_key = "p_dv_mara_rc_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_breton
+				LANGUAGE = language_bretic
+			}
+		}
+		localization_key = "p_dv_mara_br_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_nedic_north
+				LANGUAGE = language_reachtongue
+			}
+		}
+		localization_key = "p_dv_mara_rf_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_dv_mara_nbg.dds"
+	}
+}
+GetDvMaraName = {
+	type = character
+
+	text = {
+		trigger = {
+			faith = {
+				patron_culture_variant_trigger = {
+					HERITAGE = heritage_yokudan
+					LANGUAGE = language_cyrodiilic
+				}
+			}
+		}
+		localization_key = god_morwha_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_mara_name
+	}
+}
+# GetDvMaraDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { faith = { has_doctrine = tenet_desert_traditions } }
+# 		localization_key = desc_morwha
+# 	}
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_mara
+# 	}
+# }
+
+get_dv_stendarr = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = "_srendarr"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_atmoran
+				LANGUAGE = language_nordic
+			}
+		}
+		localization_key = "_stuhn"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_stendarr"
+	}
+}
+get_dv_stendarr_icon = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = "p_rt_srendarr_nbg.dds"
+	}
+	
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:bosmeri_religion }
+		localization_key = "p_gp_stendarr_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_atmoran
+				LANGUAGE = language_nordic
+			}
+		}
+		localization_key = "p_dv_stendarr_np_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_yokudan
+				LANGUAGE = language_cyrodiilic
+			}
+		}
+		localization_key = "p_dv_stendarr_rc_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_breton
+				LANGUAGE = language_bretic
+			}
+		}
+		localization_key = "p_dv_stendarr_br_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_dv_stendarr_nbg.dds"
+	}
+}
+GetDvStendarrName = {
+	type = character
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = god_srendarr_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_riddlethar } }
+		localization_key = god_srendarr_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_khajiiti } }
+		localization_key = god_srendarr_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_atmoran_totems } }
+		localization_key = god_whale_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_nord } }
+		localization_key = god_stuhn_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_stendarr_name
+	}
+}
+# GetDvStendarrDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { faith = { has_doctrine = tenet_children_skyrim } }
+# 		localization_key = desc_stuhn
+# 	}
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_stendarr
+# 	}
+# }
+
+get_dv_zenithar = {
+	type = character #replace faith
+
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_atmoran_totems } }
+		localization_key = god_bear_name
+	}
+	
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_yokudan
+				LANGUAGE = language_cyrodiilic
+			}
+		}
+		localization_key = "_zeht"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_zenithar"
+	}
+}
+get_dv_zenithar_icon = {
+	type = character #replace faith
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_atmoran
+				LANGUAGE = language_nordic
+			}
+		}
+		localization_key = "p_dv_zenithar_np_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_yokudan
+				LANGUAGE = language_cyrodiilic
+			}
+		}
+		localization_key = "p_dv_zenithar_rc_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_breton
+				LANGUAGE = language_bretic
+			}
+		}
+		localization_key = "p_dv_zenithar_br_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_dv_zenithar_nbg.dds"
+	}
+}
+GetDvZenitharName = {
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_atmoran_totems } }
+		localization_key = god_bear_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_nord } }
+		localization_key = god_tsun_name
+	}
+
+	text = {
+		trigger = {
+			faith = {
+				patron_culture_variant_trigger = {
+					HERITAGE = heritage_yokudan
+					LANGUAGE = language_cyrodiilic
+				}
+			}
+		}
+		localization_key = god_zeht_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_zenithar_name
+	}
+}
+# GetDvZenitharDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { faith = { has_doctrine = tenet_children_skyrim } }
+# 		localization_key = desc_tsun
+# 	}
+
+# 	text = {
+# 		trigger = { faith = { has_doctrine = tenet_desert_traditions } }
+# 		localization_key = desc_zeht
+# 	}
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_zenithar
+# 	}
+# }
+
+get_dv_shezarr = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = "_lorkhaj"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_atmoran
+				LANGUAGE = language_nordic
+			}
+		}
+		localization_key = "_shor"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_yokudan
+				LANGUAGE = language_cyrodiilic
+			}
+		}
+		localization_key = "_hoonding"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_nedic_north
+				LANGUAGE = language_reachtongue
+			}
+		}
+		localization_key = "_lorkh"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_shezarr"
+	}
+}
+get_dv_shezarr_icon = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = "p_rt_lorkhaj_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_atmoran
+				LANGUAGE = language_nordic
+			}
+		}
+		localization_key = "p_dv_shezarr_np_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_yokudan
+				LANGUAGE = language_cyrodiilic
+			}
+		}
+		localization_key = "p_dv_shezarr_rc_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_nedic_north
+				LANGUAGE = language_reachtongue
+			}
+		}
+		localization_key = "p_dv_shezarr_rf_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_dv_shezarr_nbg.dds"
+	}
+}
+GetDvShezarrName = {
+	type = character
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = god_lorkhaj_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_riddlethar } }
+		localization_key = god_lorkhaj_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_khajiiti } }
+		localization_key = god_lorkhaj_name
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_atmoran_totems } }
+		localization_key = god_fox_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_nord } }
+		localization_key = god_shor_name
+	}
+
+	text = {
+		trigger = {
+			faith = {
+				patron_culture_variant_trigger = {
+					HERITAGE = heritage_yokudan
+					LANGUAGE = language_cyrodiilic
+				}
+			}
+		}
+		localization_key = god_hoonding_name
+	}
+
+	text = {
+		trigger = {
+			faith = {
+				patron_culture_variant_trigger = {
+					HERITAGE = heritage_nedic_north
+					LANGUAGE = language_reachtongue
+				}
+			}
+		}
+		localization_key = god_lorkh_name
+	}
+	
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_shezarr_name
+	}
+}
+# GetDvShezarrDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { faith = { has_doctrine = tenet_children_skyrim } }
+# 		localization_key = desc_shor
+# 	}
+
+# 	text = {
+# 		trigger = { faith = { has_doctrine = tenet_desert_traditions } }
+# 		localization_key = desc_hoonding
+# 	}
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_shezarr
+# 	}
+# }
+
+# Aldmer
+get_ae_auriel = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = "_alkosh"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_auriel"
+	}
+}
+get_ae_auriel_icon = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = "p_rt_alkosh_nbg.dds"
+	}
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:bosmeri_religion }
+		localization_key = "p_gp_auriel_nbg.dds"
+	}
+	
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_ae_auriel_nbg.dds"
+	}
+}
+GetAeAurielName = {
+	type = character
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = god_alkosh_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_riddlethar } }
+		localization_key = god_alkosh_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_khajiiti } }
+		localization_key = god_alkosh_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_auriel_name
+	}
+}
+# GetAeAurielDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_auriel
+# 	}
+# }
+
+get_ae_jephre = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:bosmeri_religion }
+		localization_key = "_yffre"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_jephre"
+	}
+}
+get_ae_jephre_icon = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:bosmeri_religion }
+		localization_key = "p_gp_yffre_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_breton
+				LANGUAGE = language_bretic
+			}
+		}
+		localization_key = "p_ae_jephre_br_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_ae_jephre_nbg.dds"
+	}
+}
+GetAeJephreName = {
+	type = character
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:bosmeri_religion }
+		localization_key = god_yffre_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_jephre_name
+	}
+}
+# GetAeJephreDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_jephre
+# 	}
+# }
+
+get_ae_magnus = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = "_magrus"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_magnus"
+	}
+}
+get_ae_magnus_icon = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = "p_rt_magrus_nbg.dds"
+	}
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_breton
+				LANGUAGE = language_bretic
+			}
+		}
+		localization_key = "p_ae_magnus_br_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_ae_magnus_nbg.dds"
+	}
+}
+GetAeMagnusName = {
+	type = character
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = god_magrus_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_riddlethar } }
+		localization_key = god_magrus_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_khajiiti } }
+		localization_key = god_magrus_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_magnus_name
+	}
+}
+# GetAeMagnusDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_magnus
+# 	}
+# }
+
+get_ae_phynaster = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_phynaster"
+	}
+}
+get_ae_phynaster_icon = {
+	type = character #replace faith
+
+	text = {
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_breton
+				LANGUAGE = language_bretic
+			}
+		}
+		localization_key = "p_ae_phynaster_br_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_ae_phynaster_nbg.dds"
+	}
+}
+GetAePhynasterName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_phynaster_name
+	}
+}
+# GetAePhynasterDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_phynaster
+# 	}
+# }
+
+get_ae_syrabane = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_syrabane"
+	}
+}
+GetAeSyrabaneName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_syrabane_name
+	}
+}
+# GetAeSyrabaneDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_syrabane
+# 	}
+# }
+
+get_ae_trinimac = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_trinimac"
+	}
+}
+GetAeTrinimacName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_trinimac_name
+	}
+}
+# GetAeTrinimacDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_trinimac
+# 	}
+# }
+
+get_ae_xarxes = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_xarxes"
+	}
+}
+GetAeXarxesName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_xarxes_name
+	}
+}
+
+get_ae_xarxes_icon = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:bosmeri_religion }
+		localization_key = "p_gp_xarxes_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_ae_xarxes_nbg.dds"
+	}
+}
+# GetAeXarxesDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_xarxes
+# 	}
+# }
+
+get_ae_xen = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:bosmeri_religion }
+		localization_key = "_zen"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_xen"
+	}
+}
+get_ae_xen_icon = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:bosmeri_religion }
+		localization_key = "p_gp_zen_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_ae_phynaster_nbg.dds"
+	}
+}
+GetAeXenName = {
+	type = character
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:bosmeri_religion }
+		localization_key = god_zen_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_xen_name
+	}
+}
+# GetAeXenDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_xen
+# 	}
+# }
+
+# Dwemer Ancestors
+get_da_architect = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_da_architect"
+	}
+}
+GetDaArchitectName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_da_architect_name
+	}
+}
+# GetDaArchitectDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_da_architect
+# 	}
+# }
+
+get_da_warrior = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_da_warrior"
+	}
+}
+GetDaWarriorName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_da_warrior_name
+	}
+}
+# GetDaWarriorDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_da_warrior
+# 	}
+# }
+
+get_da_giant = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_da_giant"
+	}
+}
+GetDaGiantName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_da_giant_name
+	}
+}
+# GetDaGiantDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_da_giant
+# 	}
+# }
+
+get_da_lost_king = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_da_lost_king"
+	}
+}
+GetDaLostKingName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_da_lost_king_name
+	}
+}
+# GetDaLostKingDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_da_lost_king
+# 	}
+# }
+
+# Atmoran Totems
+get_at_bear = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = "_tsun"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_bear"
+	}
+}
+get_at_bear_icon = { #all of them give errors during hot reload. normal is fine.
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = "p_dv_zenithar_np_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_at_bear_nbg.dds"
+	}
+}
+GetAtBearName = {
+	type = character
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = god_tsun_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_at_bear_name
+	}
+}
+
+
+# GetAtBearDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_at_bear
+# 	}
+# }
+
+get_at_dragon = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = "_alduin"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_dragon"
+	}
+}
+
+get_at_dragon_icon = { #all of them give errors during hot reload. normal is fine.
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = "p_dv_akatosh_np_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_at_dragon_nbg.dds"
+	}
+}
+GetAtDragonName = {
+	type = character
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = god_alduin_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_at_dragon_name
+	}
+}
+# GetAtDragonDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_at_dragon
+# 	}
+# }
+
+get_at_fox = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = "_shor"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_fox"
+	}
+}
+get_at_fox_icon = { #all of them give errors during hot reload. normal is fine.
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = "p_dv_shezarr_np_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_at_fox_nbg.dds"
+	}
+}
+GetAtFoxName = {
+	type = character
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = god_shor_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_at_fox_name
+	}
+}
+# GetAtFoxDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_at_fox
+# 	}
+# }
+
+get_at_hawk = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = "_kyne"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_hawk"
+	}
+}
+get_at_hawk_icon = { #all of them give errors during hot reload. normal is fine.
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = "p_dv_kynareth_np_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_at_fox_nbg.dds"
+	}
+}
+GetAtHawkName = {
+	type = character
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = god_kyne_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_at_hawk_name
+	}
+}
+# GetAtHawkDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_at_hawk
+# 	}
+# }
+
+get_at_moth = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_moth"
+	}
+}
+GetAtMothName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_at_moth_name
+	}
+}
+# GetAtMothDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_at_moth
+# 	}
+# }
+
+get_at_owl = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = "_jhunal"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_owl"
+	}
+}
+get_at_owl_icon = { #all of them give errors during hot reload. normal is fine.
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = "p_dv_julianos_np_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_at_owl_nbg.dds"
+	}
+}
+GetAtOwlName = {
+	type = character
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = god_jhunal_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_at_owl_name
+	}
+}
+# GetAtOwlDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_at_owl
+# 	}
+# }
+
+get_at_snake = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = "_orkey"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_snake"
+	}
+}
+
+get_at_snake_icon = { #all of them give errors during hot reload. normal is fine.
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = "p_dv_arkay_np_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_at_snake_nbg.dds"
+	}
+}
+GetAtSnakeName = {
+	type = character
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = god_orkey_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_at_snake_name
+	}
+}
+# GetAtSnakeDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_at_snake
+# 	}
+# }
+
+get_at_whale = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = "_stuhn"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_whale"
+	}
+}
+get_at_whale_icon = { #all of them give errors during hot reload. normal is fine.
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = "p_dv_stendarr_np_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_at_whale_nbg.dds"
+	}
+}
+GetAtWhaleName = {
+	type = character
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = god_stuhn_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_at_whale_name
+	}
+}
+# GetAtWhaleDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_at_whale
+# 	}
+# }
+
+get_at_wolf = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_wolf"
+	}
+}
+GetAtWolfName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_at_wolf_name
+	}
+}
+# GetAtWolfDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_at_wolf
+# 	}
+# }
+
+# Elemental Gods
+get_eg_myn = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_myn"
+	}
+}
+GetEgMynName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_eg_myn_name
+	}
+}
+# GetEgMynDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_eg_myn
+# 	}
+# }
+
+get_eg_zisa = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_zisa"
+	}
+}
+GetEgZisaName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_eg_zisa_name
+	}
+}
+# GetEgZisaDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_eg_zisa
+# 	}
+# }
+
+get_eg_nyfa = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_nyfa"
+	}
+}
+GetEgNyfaName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_eg_nyfa_name
+	}
+}
+# GetEgNyfaDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_eg_nyfa
+# 	}
+# }
+
+get_eg_ilni = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_ilni"
+	}
+}
+GetEgIlniName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_eg_ilni_name
+	}
+}
+# GetEgIlniDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_eg_ilni
+# 	}
+# }
+
+get_eg_tam = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_tam"
+	}
+}
+GetEgTamName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_eg_tam_name
+	}
+}
+# GetEgTamDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_eg_tam
+# 	}
+# }
+
+# Cyrodiilic Heroes
+get_ch_alessia = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_ch_alessia"
+	}
+}
+GetChAlessiaName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_ch_alessia_name
+	}
+}
+# GetChAlessiaDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_ch_alessia
+# 	}
+# }
+
+get_ch_pelinal = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_ch_pelinal"
+	}
+}
+GetChPelinalName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_ch_pelinal_name
+	}
+}
+# GetChPelinalDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_ch_pelinal
+# 	}
+# }
+
+get_ch_morihaus = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_ch_morihaus"
+	}
+}
+GetChMorihausName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_ch_morihaus_name
+	}
+}
+# GetChMorihausDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_ch_morihaus
+# 	}
+# }
+
+get_ch_reman = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_ch_reman"
+	}
+}
+GetChRemanName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_ch_reman_name
+	}
+}
+# GetChRemanDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_ch_reman
+# 	}
+# }
+
+get_ch_bendu = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_ch_bendu"
+	}
+}
+GetChBenduName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_ch_bendu_name
+	}
+}
+# GetChBenduDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_ch_bendu
+# 	}
+# }
+
+get_ch_attrebus = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_ch_attrebus"
+	}
+}
+GetChAttrebusName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_ch_attrebus_name
+	}
+}
+# GetChAttrebusDesc = {
+# 	type = character
+
+# 	text = {
+# 		trigger = { always = no }
+# 		fallback = yes
+# 		localization_key = desc_ch_attrebus
+# 	}
+# }
+
+
+# Daedra
+get_ob_azura = {
+	type = character #replace 
+	
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = _azurah
+	}
+		
+
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_azura"
+	}
+}
+get_ob_azura_icon = { #all of them give errors during hot reload. normal is fine.
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = "p_rt_azurah_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_ob_azura_nbg.dds"
+	}
+}
+GetObAzuraName = {
+	type = character
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = god_azurah_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_riddlethar } }
+		localization_key = god_azurah_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_khajiiti } }
+		localization_key = god_azurah_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_azura_name
+	}
+}
+GetObAzuraDesc = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = desc_azura
+	}
+}
+
+get_ob_boethiah = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = "_boethra"
+	}
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_boethiah"
+	}
+}
+get_ob_boethiah_icon = { #all of them give errors during hot reload. normal is fine.
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = "p_rt_boethra_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_ob_boethiah_nbg.dds"
+	}
+}
+GetObBoethiahName = {
+	type = character
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = god_boethra_name
+	}
+
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_riddlethar } }
+		localization_key = god_boethra_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_khajiiti } }
+		localization_key = god_boethra_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_boethiah_name
+	}
+}
+GetObBoethiahDesc = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = desc_boethiah
+	}
+}
+
+get_ob_clavicus = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_clavicus"
+	}
+}
+GetObClavicusName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_clavicus_name
+	}
+}
+GetObClavicusDesc = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = desc_clavicus
+	}
+}
+
+get_ob_hermaeus = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = _hermorah
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_hermaeus"
+	}
+}
+get_ob_hermaeus_icon = { #all of them give errors during hot reload. normal is fine.
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = "p_kj_hermora_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_ob_hermaeus_nbg.dds"
+	}
+}
+GetObHermaeusName = {
+	type = character
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = god_hermorah_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_riddlethar } }
+		localization_key = god_hermorah_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_khajiiti } }
+		localization_key = god_hermorah_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_hermaeus_name
+	}
+}
+GetObHermaeusDesc = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = desc_hermaeus
+	}
+}
+
+get_ob_hircine = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_hircine"
+	}
+}
+get_ob_hircine_icon = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = "p_rt_hircine_nbg.dds"
+	}
+
+	text = {
+		#trigger = { exists = var:faith_window var:faith_window.religion = religion:reach_religion } #would be better as a doctrine check if one exists
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_nedic_north
+				LANGUAGE = language_reachtongue
+			}
+		}
+		localization_key = "p_ob_hircine_rf_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_ob_hircine_nbg.dds"
+	}
+}
+GetObHircineName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_hircine_name
+	}
+}
+GetObHircineDesc = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = desc_hircine
+	}
+}
+
+get_ob_malacath = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_malacath"
+	}
+}
+get_ob_malacath_icon = {
+	type = character #replace faith
+
+	text = {
+		#trigger = { exists = var:faith_window var:faith_window.religion = religion:reach_religion } #would be better as a doctrine check if one exists
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_nedic_north
+				LANGUAGE = language_reachtongue
+			}
+		}
+		localization_key = "p_ob_malacath_rf_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_ob_malacath_nbg.dds"
+	}
+}
+GetObMalacathName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_malacath_name
+	}
+}
+GetObMalacathDesc = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = desc_malacath
+	}
+}
+
+get_ob_mephala = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = _mafala
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_mephala"
+	}
+}
+get_ob_mephala_icon = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = "p_kj_mafala_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_ob_mephala_nbg.dds"
+	}
+}
+GetObMephalaName = {
+	type = character
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = god_mafala_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_riddlethar } }
+		localization_key = god_mafala_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_khajiiti } }
+		localization_key = god_mafala_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_mephala_name
+	}
+}
+GetObMephalaDesc = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = desc_mephala
+	}
+}
+
+get_ob_mehrunes = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_mehrunes"
+	}
+}
+get_ob_mehrunes_icon = {
+	type = character #replace faith
+
+	text = {
+		#trigger = { exists = var:faith_window var:faith_window.religion = religion:reach_religion } #would be better as a doctrine check if one exists
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_nedic_north
+				LANGUAGE = language_reachtongue
+			}
+		}
+		localization_key = "p_ob_mehrunes_rf_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_ob_mehrunes_nbg.dds"
+	}
+}
+GetObMehrunesName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_mehrunes_name
+	}
+}
+GetObMehrunesDesc = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = desc_mehrunes
+	}
+}
+
+get_ob_meridia = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_meridia"
+	}
+}
+GetObMeridiaName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_meridia_name
+	}
+}
+GetObMeridiaDesc = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = desc_meridia
+	}
+}
+
+get_ob_molag = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_molag"
+	}
+}
+get_ob_molag_icon = {
+	type = character #replace faith
+
+	text = {
+		#trigger = { exists = var:faith_window var:faith_window.religion = religion:reach_religion } #would be better as a doctrine check if one exists
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_nedic_north
+				LANGUAGE = language_reachtongue
+			}
+		}
+		localization_key = "p_ob_molag_rf_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_ob_molag_nbg.dds"
+	}
+}
+GetObMolagName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_molag_name
+	}
+}
+GetObMolagDesc = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = desc_molag
+	}
+}
+
+get_ob_namira = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_namira"
+	}
+}
+get_ob_namira_icon = {
+	type = character #replace faith
+
+	text = {
+		#trigger = { exists = var:faith_window var:faith_window.religion = religion:reach_religion } #would be better as a doctrine check if one exists
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_nedic_north
+				LANGUAGE = language_reachtongue
+			}
+		}
+		localization_key = "p_ob_namira_rf_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_ob_namira_nbg.dds"
+	}
+}
+GetObNamiraName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_namira_name
+	}
+}
+GetObNamiraDesc = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = desc_namira
+	}
+}
+
+get_ob_nocturnal = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = _noctra
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_nocturnal"
+	}
+}
+get_ob_nocturnal_icon = {
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:khajiiti_religion }
+		localization_key = "p_kj_noctra_nbg.dds"
+	}
+
+	text = {
+		#trigger = { exists = var:faith_window var:faith_window.religion = religion:reach_religion } #would be better as a doctrine check if one exists
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_nedic_north
+				LANGUAGE = language_reachtongue
+			}
+		}
+		localization_key = "p_ob_nocturnal_rf_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_ob_nocturnal_nbg.dds"
+	}
+}
+GetObNocturnalName = {
+	type = character
+
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_riddlethar } }
+		localization_key = god_noctra_name
+	}
+	
+	text = {
+		trigger = { faith = { has_doctrine = doctrine_pantheon_khajiiti } }
+		localization_key = god_noctra_name
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_nocturnal_name
+	}
+}
+GetObNocturnalDesc = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = desc_nocturnal
+	}
+}
+
+get_ob_peryite = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_peryite"
+	}
+}
+get_ob_peryite_icon = {
+	type = character #replace faith
+
+	text = {
+		#trigger = { exists = var:faith_window var:faith_window.religion = religion:reach_religion } #would be better as a doctrine check if one exists
+		trigger = {
+			patron_culture_variant_window_trigger = {
+				HERITAGE = heritage_nedic_north
+				LANGUAGE = language_reachtongue
+			}
+		}
+		localization_key = "p_ob_peryite_rf_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_ob_peryite_nbg.dds"
+	}
+}
+GetObPeryiteName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_peryite_name
+	}
+}
+GetObPeryiteDesc = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = desc_peryite
+	}
+}
+
+get_ob_sanguine = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_sanguine"
+	}
+}
+GetObSanguineName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_sanguine_name
+	}
+}
+GetObSanguineDesc = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = desc_sanguine
+	}
+}
+
+get_ob_sheogorath = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_sheogorath"
+	}
+}
+GetObSheogorathName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_sheogorath_name
+	}
+}
+GetObSheogorathDesc = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = desc_sheogorath
+	}
+}
+
+get_ob_vaermina = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_vaermina"
+	}
+}
+GetObVaerminaName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_vaermina_name
+	}
+}
+GetObVaerminaDesc = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = desc_vaermina
+	}
+}
+
+GetAurielVerse = {
+	type = character
+
+	text = {
+		trigger = { has_trait = poet }
+		localization_key = poet_desc_auriel
+	}
+
+	text = {
+		fallback = yes
+		localization_key = normal_desc_auriel
+	}
+}
+
+GetJephreVerse = {
+	type = character
+
+	text = {
+		trigger = { has_trait = poet }
+		localization_key = poet_desc_jephre
+	}
+
+	text = {
+		fallback = yes
+		localization_key = normal_desc_jephre
+	}
+}
+
+GetMagnusVerse = {
+	type = character
+
+	text = {
+		trigger = { has_trait = poet }
+		localization_key = poet_desc_magnus
+	}
+
+	text = {
+		fallback = yes
+		localization_key = normal_desc_magnus
+	}
+}
+
+GetPhynasterVerse = {
+	type = character
+
+	text = {
+		trigger = { has_trait = poet }
+		localization_key = poet_desc_phynaster
+	}
+
+	text = {
+		fallback = yes
+		localization_key = normal_desc_phynaster
+	}
+}
+
+GetSyrabaneVerse = {
+	type = character
+
+	text = {
+		trigger = { has_trait = poet }
+		localization_key = poet_desc_syrabane
+	}
+
+	text = {
+		fallback = yes
+		localization_key = normal_desc_syrabane
+	}
+}
+
+GetTrinimacVerse = {
+	type = character
+
+	text = {
+		trigger = { has_trait = poet }
+		localization_key = poet_desc_trinimac
+	}
+
+	text = {
+		fallback = yes
+		localization_key = normal_desc_trinimac
+	}
+}
+
+GetXarxesVerse = {
+	type = character
+
+	text = {
+		trigger = { has_trait = poet }
+		localization_key = poet_desc_xarxes
+	}
+
+	text = {
+		fallback = yes
+		localization_key = normal_desc_xarxes
+	}
+}
+
+GetXenVerse = {
+	type = character
+
+	text = {
+		trigger = { has_trait = poet }
+		localization_key = poet_desc_xen
+	}
+
+	text = {
+		fallback = yes
+		localization_key = normal_desc_xen
+	}
+}
+
+# Yokudan Pantheon
+
+get_yp_diagna = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_diagna"
+	}
+}
+GetYpDiagnaName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_diagna_name
+	}
+}
+
+get_yp_morwha = {
+	type = character #replace faith
+
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_morwha"
+	}
+}
+
+get_yp_morwha_icon = { #all of them give errors during hot reload. normal is fine.
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = "p_dv_mara_rc_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_yp_morwha_nbg.dds"
+	}
+}
+GetYpMorwhaName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_morwha_name
+	}
+}
+
+get_yp_onsi = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_onsi"
+	}
+}
+GetYpOnsiName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_onsi_name
+	}
+}
+
+get_yp_ruptga = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_ruptga"
+	}
+}
+GetYpRuptgaName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_ruptga_name
+	}
+}
+
+get_yp_satakal = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_satakal"
+	}
+}
+GetYpSatakalName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_satakal_name
+	}
+}
+
+get_yp_tava = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_tava"
+	}
+}
+
+get_yp_tava_icon = { #all of them give errors during hot reload. normal is fine.
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = "p_dv_kynareth_rc_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_yp_tava_nbg.dds"
+	}
+}
+
+GetYpTavaName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_tava_name
+	}
+}
+
+get_yp_tuwhacca = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_tuwhacca"
+	}
+}
+
+get_yp_tuwhacca_icon = { #all of them give errors during hot reload. normal is fine.
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = "p_dv_arkay_rc_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_yp_tuwhacca_nbg.dds"
+	}
+}
+
+GetYpTuwhaccaName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_tuwhacca_name
+	}
+}
+
+get_yp_zeht = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_zeht"
+	}
+}
+get_yp_zeht_icon = { #all of them give errors during hot reload. normal is fine.
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:nedic_nordic_religion }
+		localization_key = "p_dv_zenithar_rc_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_yp_zeht_nbg.dds"
+	}
+}
+GetYpZehtName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_zeht_name
+	}
+}
+
+# Tribunal
+
+get_tr_vivec = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_vivec"
+	}
+}
+GetTrVivecName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_vivec_name
+	}
+}
+
+get_tr_almalexia = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_almalexia"
+	}
+}
+GetTrAlmalexiaName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_almalexia_name
+	}
+}
+
+get_tr_sotha = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_sotha"
+	}
+}
+GetTrSothaName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_sotha_name
+	}
+}
+
+# Velothi Saints
+
+get_vl_aralor = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_aralor"
+	}
+}
+GetVlAralorName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_aralor_name
+	}
+}
+
+get_vl_felms = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_felms"
+	}
+}
+GetVlFelmsName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_felms_name
+	}
+}
+
+get_vl_meris = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_meris"
+	}
+}
+GetVlMerisName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_meris_name
+	}
+}
+
+get_vl_nerevar = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_nerevar"
+	}
+}
+GetVlNerevarName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_nerevar_name
+	}
+}
+
+get_vl_olms = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_olms"
+	}
+}
+GetVlOlmsName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_olms_name
+	}
+}
+
+get_vl_rilms = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_rilms"
+	}
+}
+GetVlRilmsName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_rilms_name
+	}
+}
+
+get_vl_seryn = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_seryn"
+	}
+}
+GetVlSerynName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_seryn_name
+	}
+}
+
+get_vl_veloth = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_veloth"
+	}
+}
+GetVlVelothName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_veloth_name
+	}
+}
+
+get_vl_vorys = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_vorys"
+	}
+}
+GetVlVorysName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_vorys_name
+	}
+}
+
+get_kj_baandar = {
+	type = character #replace faith
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "_baandar"
+	}
+}
+get_kj_baandar_icon = { #all of them give errors during hot reload. normal is fine.
+	type = character #replace faith
+
+	text = {
+		trigger = { exists = var:faith_window var:faith_window.religion = religion:bosmeri_religion }
+		localization_key = "p_gp_baandar_nbg.dds"
+	}
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = "p_kj_baandar_nbg.dds"
+	}
+}
+GetKjBaanDarName = {
+	type = character
+
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = god_baandar_name
+	}
+}

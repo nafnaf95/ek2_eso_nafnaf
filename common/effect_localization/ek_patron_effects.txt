@@ -1,0 +1,8 @@
+﻿confirm_tt = {
+	first = confirm_tt
+}
+
+patron_ardor_change = {
+	first = gain_ardor_effect
+	first_neg = lose_ardor_effect
+}

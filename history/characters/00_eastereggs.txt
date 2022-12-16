@@ -1,0 +1,1584 @@
+﻿###EASTER EGG CHARACTERS
+
+easteregg_1 = { 
+	name = "Vriska" 
+	dynasty = 170063
+	religion = molag_cult
+	culture = dremora
+	sexuality = bisexual
+	trait = sign_atronach
+	female = yes
+	
+	trait = education_martial_3
+	trait = callous
+	trait = ambitious
+	trait = arbitrary
+	trait = one_eyed
+	
+	3341.4.13 = { birth = yes }
+	3410.1.1 = { death = yes }
+}
+
+toddus_howardus = {
+	name = "Toddus_VI" #Yes its him
+	dynasty = 111111
+	religion = imperial_cult
+	culture = heartlander
+
+	trait = ambitious
+	trait = diligent
+	trait = lifespan_6
+	trait = devoted
+
+	2920.12.30 = { birth = yes } #2920 because why not
+	4450.11.11 = { death = yes } #TES5 year 11.11
+}
+ee_fix_1 = {
+	name = "Llevi"
+	religion = tribunal_temple
+	culture = chuzei
+
+	2920.12.30 = { birth = yes }
+	3002.1.1 = { death = yes }
+}
+
+grognak_the_destroyer = {
+	name = "Grognak"
+	female = yes
+	dynasty = attor_ney
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	3330.1.1 = { birth = yes }
+	3356.1.1 = { give_nickname = nick_the_destroyer }
+	3375.1.1 = { death = yes }
+}
+
+#Undertale Dynasty
+undertale_0 = {
+	name = "Avec" 
+	religion = idealmasters
+	culture = chi_addun
+	
+	trait = education_intrigue_3
+	trait = content
+	trait = lazy
+	trait = just
+	trait = education_magical_ability_1
+	trait = depressed_genetic
+	trait = undead_character
+	dna = papyrus_undertale_entry
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+				custom_hair=no_hair
+				custom_beards=male_empty
+		}
+	}
+	
+	3304.4.13 = { birth = yes }
+	3351.1.1 = { death = yes }
+}
+undertale_0a = {
+	name = "Calamus" 
+	religion = idealmasters
+	culture = chi_addun
+	female = yes
+	dna = papyrus_undertale_entry
+	
+	trait = education_diplomacy_4
+	trait = arrogant
+	trait = diligent
+	trait = arbitrary
+	trait = education_magical_ability_1
+	trait = lunatic_genetic
+	trait = undead_character
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+				custom_hair=no_hair
+		}
+	}	
+	
+	3304.4.13 = { birth = yes }
+	3351.1.1 = { death = yes }
+}
+undertale_1 = {
+	name = "Sans" 
+	religion = idealmasters
+	culture = chi_addun
+	dna = sans_undertale_entry
+	father = undertale_0
+	mother = undertale_0a
+	
+	trait = education_learning_3
+	trait = content
+	trait = lazy
+	trait = just
+	trait = education_magical_ability_1
+	trait = depressed_genetic
+	trait = undead_character
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+				custom_beards=male_empty
+				custom_hair=no_hair
+				custom_cloaks=male_furs_secular_fp1_nobility_02
+		}
+	}	
+	
+	3328.4.13 = { birth = yes }
+	3360.1.1 = { employer = telvanni_98 }
+	3371.1.1 = { death = yes }
+}
+
+undertale_2 = {
+	name = "Papyrus" 
+	religion = idealmasters
+	culture = chi_addun
+	dna = papyrus_undertale_entry
+	father = undertale_0
+	mother = undertale_0a
+	
+	trait = education_martial_1
+	trait = ambitious
+	trait = forgiving
+	trait = honest
+	trait = education_martial_prowess_1
+	trait = undead_character
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+				custom_hair=no_hair
+				custom_beards=male_empty
+		}
+	}	
+	
+	3328.4.13 = { birth = yes }
+	3360.1.1 = { employer = telvanni_98 }
+	3371.1.1 = { death = yes }
+}
+
+###DEV CHARACTERS
+
+## Romus Dynasty (romus)
+# House Romus
+romus_099 = {
+	name = "Brand_Shei"
+	religion = hist
+	culture = hleel
+	
+	3310.1.1 = { birth = yes }
+	3340.1.1 = { add_spouse = romus_099_spouse }
+	3360.1.1 = { death = yes }
+}
+
+romus_099_spouse = {
+	name = "Nikicla"
+	religion = hist
+	culture = hleel
+	female = yes
+	
+	3310.1.1 = { birth = yes }
+	3360.1.1 = { death = yes }
+}
+
+romus_100 = {
+	name = "Heracles" # Elder Councillor in Colovia
+	dynasty = 1800000
+	religion = hist
+	culture = hleel
+	father = romus_099
+	mother = romus_099_spouse
+
+	3341.1.1 = { birth = yes }
+	3359.1.1 = {
+		religion = imperial_cult
+		culture = colovian
+		# HistoryToDo: Give him an Argonian birth name and dynasty, make him begin as a ruler in Black Marsh before he moves to Colovia, takes a Colovian name, founds a new Colovian dynasty, etc.
+	}
+	3360.1.1 = {
+		effect = {
+			add_character_flag = race_argonian
+		}
+	}
+	3422.1.1 = { death = yes }
+}
+
+## Sarethi Dynasty (sarethi)
+# House Sarethi
+# sarethi_100 = { #dup
+# 	name = "Alarvyne" # Indoril Countess
+# 	dynasty = 1800001
+# 	religion = tribunal_temple
+# 	culture = 
+# 	female = yes
+
+# 	trait = education_martial_4
+# 	trait = scarred
+# 	trait = zealous
+# 	trait = sadistic
+# 	trait = wrathful
+# 	trait = brave
+
+# 	3340.1.1 = { birth = yes }
+# 	3664.1.1 = { death = yes }
+# }
+
+## Frost-Voice Dynasty (frostvoice) AJ easter egg dynasty
+frostvoice_hemming = {
+	name = "Hemming"
+	dynasty = frostvoice
+	dna = hemming_dna_entry
+	religion = nord_cult
+	culture = eastmarcher
+	disallow_random_traits = yes
+
+	trait = education_martial_2
+	trait = physique_good_2
+	trait = poet
+	trait = brave
+	trait = patient
+	trait = gregarious
+	trait = sign_lady
+	
+	martial = 4
+	diplomacy = 9
+	prowess = 7
+	stewardship = 2
+	learning = 4
+	intrigue = 1
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+			custom_beards=male_beard_fp1_02
+			custom_hair=no_hair
+		}	
+	}
+
+	3325.9.1 = { birth = yes }
+	3350.1.1 = { add_spouse = frostvoice_orla }
+	3360.1.1 = {
+		effect = {
+			set_relation_friend = { reason = friend_generic_history target = character:frostvoice_finn }
+			set_relation_friend = { reason = friend_generic_history target = character:frostvoice_neekho }
+		}
+	}
+	3400.1.1 = { death = yes }
+}
+frostvoice_orla = {
+	name = "Orla"
+	female = yes
+	religion = nord_cult
+	culture = eastmarcher
+
+	trait = education_martial_2
+	trait = patient
+
+	3334.1.1 = { birth = yes }
+	3400.1.1 = { death = yes }
+}
+frostvoice_hadring = {
+	name = "Hadring"
+	dynasty = frostvoice
+	religion = nord_cult
+	culture = eastmarcher
+
+	father = frostvoice_hemming
+	mother = frostvoice_orla
+
+	3347.1.1 = { birth = yes }
+	3368.1.1 = { trait = education_diplomacy_2 }
+	3413.1.1 = { death = yes }
+}
+frostvoice_halund = {
+	name = "Halund"
+	dynasty = frostvoice
+	religion = nord_cult
+	culture = eastmarcher
+
+	father = frostvoice_hemming
+	mother = frostvoice_orla
+
+	3355.1.1 = { birth = yes }
+	3421.1.1 = { death = yes }
+}
+frostvoice_bedrafloda = {
+	name = "Bedrafloda"
+	female = yes
+	dynasty = frostvoice
+	religion = nord_cult
+	culture = eastmarcher
+
+	father = frostvoice_hemming
+	mother = frostvoice_orla
+
+	3363.1.1 = { birth = yes }
+	3428.1.1 = { death = yes }
+}
+#And his entourage
+frostvoice_finn = {
+	name = "Finn"
+	religion = hist
+	culture = lukiul
+	
+	trait = craven
+	trait = ambitious
+	trait = paranoid
+	trait = education_magical_ability_4
+	trait = education_learning_3
+	trait = sign_mage
+	
+	martial = 3
+	prowess = 0
+	diplomacy = 6
+	stewardship = 5
+	intrigue = 1
+	learning = 7
+	
+	3332.4.16 = { birth = yes }
+	3359.1.1 = { employer = frostvoice_hemming }
+	3360.1.1 = { 
+		effect = {
+			liege = {
+				appoint_court_position = {
+					recipient = root
+					court_position = court_mage_position
+				}
+			}
+		}
+	}
+	3360.1.1 = {
+		effect = {
+			add_arcana_skill = { VALUE = 10 }
+			set_relation_best_friend = { reason = friend_generic_history target = character:frostvoice_neekho }
+			set_relation_rival = { reason = rival_historical target = character:frostvoice_marakai }
+		}
+	}
+	3400.1.1 = { death = yes }
+	
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+			custom_clothes=male_clothes_religious_mage
+			custom_headgear=male_headgear_secular_colovian_01
+		}
+	}
+	
+	
+}
+frostvoice_neekho = {
+	name = "Neekho"
+	religion = manypathsdance
+	culture = baandari
+	female = yes
+	sexuality = homosexual
+
+	trait = education_intrigue_3
+	trait = diligent
+	trait = deceitful
+	trait = sadistic
+	trait = sign_warrior
+	trait = furstock_suthay
+	
+	martial = 2
+	prowess = 2
+	diplomacy = 5
+	stewardship = 5
+	intrigue = 8
+	learning = 0
+
+	3330.8.1 = { birth = yes }
+	3359.1.1 = { employer = frostvoice_hemming }
+	3360.1.1 = { give_council_position = councillor_spymaster }
+	3360.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:frostvoice_marakai } } }
+	3400.1.1 = { death = yes }
+}
+frostvoice_marakai = {
+	name = "Marakai"
+	religion = code_of_malacath
+	culture = mountain_orc
+	
+	father = deltacortis_2
+
+	trait = education_martial_3
+	trait = arbitrary
+	trait = sign_lady
+	martial = 8
+
+	3330.1.1 = { birth = yes }
+	3359.1.1 = { employer = frostvoice_hemming }
+	3360.1.1 = { give_council_position = councillor_marshal }
+	3397.1.1 = {
+		death = {
+			death_reason = death_murder
+			killer = frostvoice_neekho
+		}
+	}
+}
+frostvoice_galmar = {
+	name = "Galmar"
+	religion = nord_cult
+	culture = eastmarcher
+
+	trait = education_stewardship_3
+
+	3330.1.1 = { birth = yes }
+	3359.1.1 = { employer = frostvoice_hemming }
+	3360.1.1 = { give_council_position = councillor_steward }
+	3400.1.1 = { death = yes }
+}
+
+aj_1 = {
+	name = "Hadrianus"
+	dynasty = iosephus_eg
+	culture = colovian
+	religion = imperial_cult
+	
+	dna = aj_dna_data
+	
+	trait=skooma_drinker
+	trait=rakish
+	trait=athletic
+	trait=inappetetic
+	trait=physique_bad_1
+	trait=beauty_good_1
+	trait=depressed_genetic
+	trait=education_martial_prowess_3
+	trait=education_diplomacy_1
+	trait=sign_lover
+	
+	trait=stubborn
+	trait=ambitious
+	trait=wrathful
+	
+	martial = 1
+	diplomacy = 10
+	prowess = 8
+	stewardship = 2
+	intrigue = 5
+	learning = 3
+
+	3339.1.1 = { 
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+	}
+	3340.1.1 = { move_to_pool = yes }
+	3340.5.5 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	3400.4.3 = { 
+		death = { 
+			death_reason = death_defenestration
+			killer = aj_2
+		} 
+	}	
+
+	portrait_override = {	## TODO: glass armor
+		portrait_modifier_overrides = {
+				custom_headgear=male_empty
+				custom_hair=male_hair_western_03
+				custom_beards=male_beard_fp2_iberian_christian_01
+		}
+	}	
+}
+
+aj_2 = {
+	name = "Dissi"
+	culture = kothringi
+	religion = aedric_nede
+	female = yes
+	
+	trait=fickle
+	trait=arbitrary
+	trait=cynical
+	
+	trait=education_intrigue_2
+	trait=possessed_1
+	trait=one_eyed
+	trait=cannibal
+	trait=skooma_drinker
+	trait=sign_ritual
+	
+	martial = 1
+	diplomacy = 6
+	prowess = 2
+	stewardship = 3
+	intrigue = 6
+	learning = 7
+	
+	3337.1.1 = { 
+		birth = yes
+		#effect = {
+		#	add_character_flag = has_scripted_appearance
+		#}
+	}
+	3340.1.1 = { move_to_pool = yes }
+	3340.5.5 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	3400.4.4 = { death = { death_reason = death_accident } }	
+}
+
+## Half-Altmer child :)
+
+easteregg_2_father = {
+	name = "Solilas"
+	culture = alinor
+	religion = sanguine_cult
+
+	trait = lifespan_3
+	trait = compassionate
+	trait = lustful
+	trait = beauty_good_1
+
+	3314.1.1 = { birth = yes }
+	3340.1.1 = { employer = dremora_1000 }
+	3526.1.1 = { 
+		death = { 
+			death_reason = death_duel
+			killer = dremora_1000
+		}
+	}
+}
+easteregg_2 = {
+	name = "Jolund"
+	religion = nord_cult
+	culture = westmarcher
+	dynasty = 310007
+	dna = easteregg_2_dna_entry
+
+	trait = lifespan_2
+	trait = bastard
+
+	father = easteregg_2_father
+	mother = snowwhale_99
+	
+	3351.1.1 = { birth = yes }
+	3561.1.1 = { death = yes }
+}
+
+## Chess competition winners
+chesswinner_ryan = {		### EK discord server chess competition 1 winner
+	name = Ryan
+	culture = westmarcher
+	religion = nord_cult
+	dna = chesswinner_ryan_entry
+	
+	trait = education_martial_2
+	trait = patient
+	trait = ambitious
+	trait = just
+	
+	3335.1.1 = { birth = yes }
+	3359.1.1 = { employer = percy_1001 }
+	3403.1.1 = { death = yes }
+	
+	portrait_override = {
+		portrait_modifier_overrides = {
+				custom_hair=male_hair_western_07
+				custom_beards=male_beard_western_03
+		}
+	}
+}
+chesswinner_ryan_emily = {
+	name = Emily
+	dynasty = chess_morda
+	religion = nord_cult
+	culture = westmarcher
+	female = yes
+	dna = chesswinner_ryan_emily_entry
+	
+	trait = education_intrigue_2
+	trait = brave
+	trait = stubborn
+	trait = diligent
+
+	3335.1.1 = { birth = yes }
+	3359.1.1 = { employer = percy_1001 }
+	3334.1.1 = { add_spouse = chesswinner_ryan }
+	3403.1.1 = { death = yes }
+	
+	portrait_override = {
+		portrait_modifier_overrides = {
+			custom_hair= female_hair_northern_03
+			custom_headgear = female_empty
+		}
+	}
+}
+
+
+chesswinner_glory = {		### EK discord server chess competition 2 winner
+	name = "Frina" #Glory
+	dynasty = chess_glory
+	culture = westmarcher
+	religion = nord_cult
+	female = yes
+	# dna = chesswinner_glory_entry
+	
+	trait = brave
+	trait = compassionate
+	trait = ambitious
+	trait = calm
+	trait = sign_lady
+
+	trait = order_member #monastic stuff but can fight I guess
+	trait = education_martial_2
+	# trait = thuum #tbd when we make voice magic
+	
+	3337.1.1 = { birth = yes }
+	3356.1.1 = {
+		effect = { 
+			add_prestige_level = 1 #a woman of modest renown
+			add_piety_level = 2 #a woman who followed an act of god to arenthia
+		}
+	}
+	3359.1.1 = { employer = pullia_1 }
+	3403.1.1 = { death = yes }
+	
+	# portrait_override = {
+	# 	portrait_modifier_overrides = {
+	# 			custom_hair=male_hair_western_07
+	# 			custom_beards=male_beard_western_03
+	# 	}
+	# }
+}
+
+
+##Tundra-Eyes Dynasty (tundra_eye)
+tundra_eye_1000 = {
+	name = "Gunnar"
+	dna = liudwulf_tundra_eye_entry
+	dynasty = tundra_eye
+	religion = nord_cult
+	culture = cyro_nord
+
+	trait = education_stewardship_3
+	trait = compassionate
+	trait = shy
+	trait = honest
+
+	portrait_override = {
+		portrait_modifier_overrides = {
+			custom_hair = male_hair_fp1_04
+			custom_beards = male_beard_fp1_02
+			custom_clothes = male_clothes_secular_northern_nobility_01_low
+		}
+	}
+
+	3317.7.19 = { birth = yes }
+	3334.1.1 = { add_spouse = tundra_eye_1000_wife }
+	3378.3.29 = { death = yes }
+}
+tundra_eye_1000_wife = {
+	name = "Ulfra"
+	dna = ulfra_tundra_eye_entry
+	female = yes
+	religion = nord_cult
+	culture = cyro_nord
+
+	trait = education_diplomacy_2
+	trait = deceitful
+	trait = chaste
+	trait = temperate
+
+	portrait_override = {
+		portrait_modifier_overrides = {
+			custom_hair= female_hair_fp1_01
+			custom_cloaks = female_furs_secular_fp1_nobility_01
+			custom_clothes = female_clothes_secular_fp1_nobility_02_low
+			custom_headgear = female_empty
+		}
+	}
+
+	3317.7.19 = { birth = yes }
+	3378.3.29 = { death = yes }
+}
+tundra_eye_1001 = {
+	name = "Liudwulf"
+	dna = gunnar_tundra_eye_entry
+	dynasty = tundra_eye
+	religion = nord_cult
+	culture = cyro_nord
+	sexuality = bisexual
+
+	trait = education_martial_3
+	trait = winter_soldier
+	trait = just
+	trait = ambitious
+	trait = sadistic
+
+	father = tundra_eye_1000
+	mother = tundra_eye_1000_wife
+
+	portrait_override = {
+		portrait_modifier_overrides = {
+			custom_headgear = male_empty
+			custom_hair = male_hair_fp1_06
+			custom_beards = male_beard_mena_04
+			custom_cloaks = male_furs_secular_fp1_nobility_02
+			custom_clothes = male_clothes_secular_northern_war_nobility_01_common
+		}
+	}
+
+	3336.3.18 = { birth = yes }
+	3358.1.1 = { 
+		effect = {
+			set_relation_friend = { reason = friend_generic_history target = character:tundra_eye_1001_lover }
+			set_relation_lover = { reason = lover_history target = character:tundra_eye_1001_lover }
+		}	
+	}
+	3391.10.7 = { death = yes }
+}
+tundra_eye_1001_lover = {
+	name = "Evangeline"
+	female = yes
+	religion = breton_cult
+	culture = iliac
+	sexuality = bisexual
+
+	trait = education_intrigue_1
+	trait = beauty_good_1
+	trait = lustful
+	trait = content
+	trait = cynical
+
+	3335.6.21 = { birth = yes }
+	3356.1.1 = { employer = tundra_eye_1000 }
+	3368.1.1 = {employer = tundra_eye_1001 }
+	3387.4.4 = { death = yes }
+}
+tundra_eye_1002 = {
+	name = "Ronja"
+	female = yes
+	dynasty = tundra_eye
+	religion = nord_cult
+	culture = cyro_nord
+
+	trait = education_martial_3
+	trait = brave
+	trait = vengeful
+	trait = arbitrary
+	trait = cautious_leader
+
+	father = tundra_eye_1000
+	mother = tundra_eye_1000_wife
+
+	3343.6.25 = { birth = yes }
+	3404.11.30 = { death = yes }
+}
+tundra_eye_1003 = {
+	name = "Imsa"
+	female = yes
+	dynasty = tundra_eye
+	religion = nord_cult
+	culture = cyro_nord
+
+	trait = lazy
+	trait = curious
+	trait = physique_bad_2
+
+	father = tundra_eye_1000
+	mother = tundra_eye_1000_wife
+
+	3351.6.25 = { birth = yes }
+	3367.3.1 = { death = { death_reason = death_disappearance }
+	}
+}
+
+#athlarean_37350-37399 Athlarean-Arakhor's custom dynasty (imported from ek1)
+athlarean_37350 = {
+	name = "Galgaliel" #ESO character
+	dynasty = athlarean
+	#dna="ajlfgviabcd"
+	#properties="al0bhc00000"
+	religion = auriel
+	culture = alinor
+
+	trait = intellect_good_1
+	trait = adventurer
+	trait = reckless
+	trait = cynical
+	trait = ambitious	
+	trait = education_magical_ability_4
+	3345.1.1 = { birth = yes }
+	3444.1.1 = { remove_trait = ambitious }
+	3480.1.1 = { add_trait = content }
+	3490.1.1 = { effect = { add_pressed_claim = title:c_rosefield } }
+	3701.1.1 = { death = yes }
+}
+athlarean_37351 = {
+	name = "Calindil"
+	dynasty = athlarean
+	religion = auriel
+	culture = alinor
+
+	trait = intellect_good_1
+	father = athlarean_37350
+	3480.1.1 = { birth = yes }
+	3496.1.1 = {
+		add_trait = education_magical_ability_2
+	}
+	3843.1.1 = { death = yes }
+}
+athlarean_37352 = {
+	name = "Tusamircil"
+	dynasty = athlarean
+	religion = auriel
+	culture = alinor
+
+	trait = intellect_good_1
+	father = athlarean_37351
+	3752.1.1 = { birth = yes }
+	3768.1.1 = {
+		add_trait = education_intrigue_2
+		add_trait = just
+	}
+	3947.1.1 = { death = yes }
+}
+athlarean_37353 = {
+	name = "Mossanon"
+	dynasty = athlarean
+	religion = auriel
+	culture = alinor
+
+	trait = physique_good_1
+	father = athlarean_37351
+	3758.1.1 = { birth = yes }
+	3774.1.1 = {
+		add_trait = brave
+		add_trait = reckless
+		add_trait = ambitious
+		add_trait = adventurer
+		add_trait = education_magical_ability_4
+	}
+	4015.1.1 = { death = yes }
+}
+athlarean_37354 = {
+	name = "Methrenton"
+	dynasty = athlarean
+	religion = auriel
+	culture = alinor
+
+	trait = intellect_good_1
+	father = athlarean_37353
+	3922.1.1 = { birth = yes }
+	3938.1.1 = {
+		add_trait = content
+		add_trait = cynical
+		add_trait = education_magical_ability_3
+	}
+	4250.1.1 = { death = yes } #Died at the fall of the Crystal Tower
+}
+athlarean_37355 = { #Morrowind+ Character
+	name = "Caelestion"
+	dynasty = athlarean
+	#dna="ajlfgviabcd"
+	#properties="al0bhc00000"
+	religion = auriel
+	culture = alinor
+	disallow_random_traits = yes
+
+	trait = intellect_good_1
+	sexuality = homosexual
+	father = athlarean_37354
+	4184.1.1 = { birth = yes }
+	4200.1.1 = {
+		add_trait = reckless
+		add_trait = adventurer
+		add_trait = education_magical_ability_4
+	}
+	4594.1.1 = { death = yes }
+}
+athlarean_37356 = { #Nalcarya of White Haven
+	name = "Nalcarya"
+	dynasty = athlarean
+	religion = auriel
+	culture = alinor
+	disallow_random_traits = yes
+
+	trait = intellect_good_1
+	father = athlarean_37354
+	4192.1.1 = { birth = yes }
+	4208.1.1 = {
+		add_trait = diligent
+		#add_trait = alchemist
+		add_trait = education_magical_ability_2
+		add_trait = content
+	}
+	4265.1.1 = { death = yes }
+}
+athlarean_37357 = {
+	name = Frenenora
+	dynasty = athlarean
+	religion = auriel
+	culture = alinor
+	female = yes
+	father = athlarean_37351
+	3588.1.1 = { birth = yes }
+	3896.1.1 = { death = yes }
+}
+athlarean_37358 = {
+	name = Carfinwen
+	dynasty = athlarean
+	religion = auriel
+	culture = alinor
+	female = yes
+	mother = athlarean_37357
+	3672.1.1 = { birth = yes }
+	3959.1.1 = { death = yes }
+}
+
+deltacortis_1 = {
+	name = "Lamzakha"
+	dna = lamzakha_dna_entry
+	religion = trinimac_cult
+	culture = mountain_orc
+	
+	female = yes
+	sexuality = bisexual
+	father = deltacortis_2
+	
+	trait = education_martial_2
+	trait = brave
+	trait = just
+	trait = zealous
+	#trait = compassionate
+	trait = blademaster_2
+	trait = aggressive_attacker
+	trait = holy_warrior
+	trait = beauty_good_2
+	trait = strong
+	trait = sign_lady
+	
+	martial = 6
+	diplomacy = 4
+	prowess = 7
+	stewardship = 6
+	intrigue = 2
+	learning = 5
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+				custom_hair=female_hair_fp1_02
+				custom_beards=female_empty
+				custom_clothes=female_clothes_secular_fp1_war_nobility_01
+				custom_legwear=female_legwear_secular_mena_war_nobility_01
+				custom_cloaks=female_furs_secular_fp1_nobility_02
+		}	
+	}
+
+	3340.9.16 = { birth = yes }
+	3350.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:frostvoice_marakai } } }
+	3350.5.5 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	3359.1.1 = { move_to_pool = yes }
+	3401.1.8 = { death = yes }
+}
+
+deltacortis_2 = {
+	name = "Morlak"
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3300.1.1 = { birth = yes }
+	3350.1.1 = {
+		death = {
+			death_reason = death_duel
+			killer = frostvoice_marakai
+		}
+	}
+}
+
+jeanne_the_maid = { #Jeanne the Maid
+	name = "Jeanne"
+	dna = jeanne_the_maid_dna_entry
+	religion = breton_cult
+	culture = iliac
+	
+	female = yes
+	sexuality = heterosexual
+	
+
+	trait = education_martial_3
+	trait = holy_warrior
+	trait = unyielding_defender
+	trait = aggressive_attacker
+	trait = zealous
+	trait = chaste
+	trait = honest
+	trait = brave
+	trait = celibate
+	trait = beauty_good_1
+	trait = sign_lady
+
+	
+	martial = 10
+	diplomacy = 5
+	prowess = 15
+	stewardship = 6
+	intrigue = 2
+	learning = 5
+	
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_headgear=female_empty
+			custom_clothes=female_clothes_plate_war_01
+			custom_legwear=female_legwear_secular_plate_war_01
+			custom_hair=female_hair_rtt_02
+			}
+	}
+
+	3341.1.1 = { birth = yes }
+	3345.1.1 = { give_nickname = nick_the_maid }
+	3350.5.5 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	3359.1.1 = { move_to_pool = yes }
+	3401.1.8 = { death = yes }
+}
+
+karl_marx = { #Karolus Mordechai
+	name = "Karolus"
+	dynasty = karl_marx
+	dna = karl_marx_dna_entry
+	culture = colovian
+	religion = mehrunes_cult
+	
+	trait=education_learning_4
+	trait=scholar
+	trait=heresiarch
+	trait=intellect_good_2
+	trait=shrewd
+	trait=depressed_genetic
+	
+	#trait=cynical
+	trait=zealous
+	trait=compassionate
+	trait=stubborn
+	
+	stewardship = 10
+	learning = 10
+	
+	3318.5.5 = { birth = yes }
+	3359.1.1 = { move_to_pool = yes }	
+	3383.4.3 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_beards=male_beard_northern_01
+			custom_hair=male_hair_western_08
+		}
+	}
+}
+
+symon_septinius = { #Dionysia
+	name = "Symon"
+	dynasty = septinius
+	dna = symon_dna_entry
+	culture = heartlander
+	religion = imperial_cult
+	sexuality = heterosexual
+	
+	trait=education_martial_2
+	trait=adventurer
+	trait=blademaster_1
+	trait=one_eyed
+	trait=scarred
+	trait=organizer
+	
+	trait=brave
+	trait=content
+	trait=stubborn
+	
+	martial = 7
+	diplomacy = 8
+	prowess = 9
+	stewardship = 4
+	intrigue = 2
+	learning = 2
+
+	3335.1.1 = { 
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+	}
+	3349.1.1 = { move_to_pool = yes }
+	3359.1.1 = { employer = rielle_1000 }
+	3360.5.5 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	3400.4.3 = { death = { death_reason =death_ill } }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_byzantine_02
+			custom_beards=male_empty
+			custom_headgear=male_empty
+		}
+	}
+}
+
+cerys_eilhart = { #Dionysia
+	name = "Cerys"
+	dynasty = eilhart
+	female = yes
+	dna = cerys_dna_entry
+	culture = glenumbran
+	religion = breton_cult
+	
+	trait=education_learning_2
+	trait=lifestyle_gardener
+	trait=lifestyle_herbalist
+	
+	trait=just
+	trait=calm
+	trait=patient
+
+	martial = 2
+	diplomacy = 8
+	prowess = 6
+	stewardship = 4
+	intrigue = 3
+	learning = 4 
+
+	3338.1.1 = { 
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+	}
+	3349.1.1 = { move_to_pool = yes }
+	3359.1.1 = { set_relation_soulmate = character:symon_septinius }
+	3360.1.1 = { remove_relation_lover = character:symon_septinius }
+	3420.4.3 = { death = { death_reason = death_ill } }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=female_hair_fp1_02
+			custom_beards=female_empty
+			custom_headgear=female_headgear_secular_mena_common_01
+			custom_clothes=female_clothes_secular_northern_nobility_02_common
+		}
+	}
+}
+
+
+isolde = { #Dionysia
+	name = "Isolde"
+	dna = isolde_dna_entry
+	culture = glenumbran
+	religion = breton_cult
+	female = yes
+	sexuality = bisexual
+	
+	trait=education_diplomacy_3
+	trait=vengeful
+	trait=diligent
+	trait=patient
+	
+	martial = 3
+	diplomacy = 6
+	prowess = 2
+	stewardship = 6
+	intrigue = 7
+	learning = 4
+
+	3330.1.1 = { 
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+	}
+	3349.1.1 = { move_to_pool = yes }
+	3357.1.1 = { add_spouse = symon_septinius }
+	3358.6.7 = { 
+		remove_spouse = symon_septinius
+		effect = {
+			reverse_add_opinion = {
+				modifier = divorced_me_opinion
+				target = character:symon_septinius
+			}
+		}
+	}
+	3398.4.3 = { death = { death_reason =death_ill } }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_beards=female_empty
+			custom_hair=female_hair_indian_03
+			custom_headgear=female_empty
+		}
+	}
+}
+
+julia_septinius = { #Dionysia
+	name = "Julia"
+	female = yes
+	dynasty = septinius
+	culture = heartlander
+	religion = imperial_cult
+	father = symon_septinius
+	mother = isolde
+
+	3357.1.1 = { 
+		birth = yes
+	}
+	3359.1.1 = { move_to_pool = yes }
+	3430.4.3 = { death = { death_reason =death_ill } }
+}
+
+hedge_milk4 = { #Hedge landed character
+	name = "Hrolda"
+	female = yes
+	religion = nord_cult
+	culture = eastmarcher
+
+	3317.1.1 = { 
+		birth = yes
+	}
+	3357.1.1 = {
+		death = {
+			death_reason = death_murder
+			killer = hedge_milk
+		}
+	}
+}
+
+hedge_milk3 = { #Hedge landed character
+	name = "Gunmar"
+	dynasty = half_drink
+	dna = milk_dna_entry
+	religion = nord_cult
+	culture = eastmarcher
+
+	3305.1.1 = { 
+		birth = yes
+	}
+	3337.1.1 = { add_spouse = hedge_milk4 }
+	3357.1.1 = {
+		death = {
+			death_reason = death_murder
+			killer = hedge_milk2
+		}
+	}
+}
+
+hedge_milk2 = { #Hedge landed character
+	name = "Freyda"
+	female = yes
+	dynasty = half_drink
+	dna = milk_dna_entry
+	father = hedge_milk3
+	mother = hedge_milk4
+	religion = nord_cult
+	culture = eastmarcher
+	disallow_random_traits = yes
+	
+	trait = education_martial_2
+	trait = viking
+	trait = murderer
+	trait = twin
+	trait = sadistic
+	trait = diligent
+	trait = arbitrary
+	trait = sign_shadow
+
+	martial = 4
+	diplomacy = 4
+	prowess = 2
+	stewardship = 4
+	intrigue = 2
+	learning = 4 
+
+	3337.12.6 = { 
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+	}
+	3330.1.1 = {
+		effect = {
+			add_arcana_skill = { VALUE = 2 }	}
+	}
+	3349.10.10 = {
+		effect = { set_relation_friend = { reason = friend_generic_history target = character:hedge_milk } }
+	}
+	3357.1.1 = { #Kills parents and steals all their money
+		effect = {
+			add_gold = 190
+			add_prestige_level = -1
+		}
+	}
+	3396.1.1 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=female_hair_fp2_iberian_christian_03
+			custom_beards=female_empty
+			custom_headgear=female_empty
+			custom_cloaks=female_empty
+		}
+	}
+}
+
+hedge_milk = { #Hedge
+	name = "Raelor"
+	dynasty = half_drink
+	dna = milk_dna_entry
+	father = hedge_milk3
+	mother = hedge_milk4
+	religion = nord_cult
+	culture = eastmarcher
+	disallow_random_traits = yes
+	
+	trait=education_martial_1
+	trait=viking
+	trait=twin
+	trait=murderer
+	
+	trait=greedy
+	trait=craven
+	trait=callous
+	trait=physique_bad_1
+	trait = sign_shadow
+
+	martial = 4
+	diplomacy = 2
+	prowess = 3
+	stewardship = 2
+	intrigue = 5
+	learning = 2 
+
+	3337.12.6 = { 
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+	}
+	3330.1.1 = {
+		effect = {
+			add_arcana_skill = { VALUE = -4 }	}
+	}
+	3340.1.1 = { give_nickname = nick_milk_drinker }
+	3359.1.1 = { employer = frostvoice_hemming }
+	3359.10.10 = {
+		effect = { set_relation_rival = { reason = rival_historical target = character:frostvoice_hemming } }
+	}
+	3365.1.1 = { employer = zenammu_1 }
+	3372.1.1 = {
+		death = {
+			death_reason = death_duel
+			killer = frostvoice_hemming
+		}
+	}
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_fp2_iberian_muslim_01
+			custom_beards=male_empty
+			custom_headgear=male_empty
+			custom_cloaks=male_empty
+		}
+	}
+}
+
+hedge_knight = { #Hedge
+	name = "Farees"
+	#dynasty = eilhart
+	dna = hedge_dna_entry
+	culture = forebear
+	religion = redguard_cult
+	disallow_random_traits = yes
+	
+	trait=education_martial_2
+	trait=blademaster_2
+	trait=gallant
+	trait=adventurer
+	
+	trait=humble
+	trait=calm
+	trait=brave
+	trait = sign_steed
+
+	martial = 4
+	diplomacy = 4
+	prowess = 8
+	stewardship = 1
+	intrigue = 1
+	learning = 6 
+
+	3320.12.6 = { 
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+	}
+	3330.1.1 = {
+		effect = {
+			add_arcana_skill = { VALUE = 0 }	}
+	}
+	3340.1.1 = { give_nickname = nick_hedge }
+	3359.1.1 = { move_to_pool = yes }
+	3374.1.1 = {
+		death = {
+			death_reason = death_duel
+			killer = tharn_abnur
+		}
+	}
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=no_hair
+			custom_beards=male_beard_fp2_iberian_christian_02
+			custom_headgear=male_empty
+			custom_clothes=male_clothes_secular_fp2_iberian_christian_war_nobility_01
+			custom_cloaks=male_furs_secular_fp1_nobility_03
+		}
+	}
+}
+
+the_elvis_himselvis = {
+	name = "Relvis"
+	dynasty = dresley_100
+	culture = armun_an
+	religion = imperial_cult
+	
+	trait = arrogant
+	trait = vengeful
+	trait = paranoid
+	
+	diplomacy = 6
+	martial = 1
+	stewardship = 4
+	intrigue = 1
+	learning = 1
+	prowess = 6
+	
+	trait = poet
+	trait = skooma_drinker
+	trait = beauty_good_1
+	
+	3335.1.1 = { 
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+	}
+	3349.1.1 = { move_to_pool = yes }
+	3377.1.1 = { death = { death_reason = death_heart_attack } }
+}
+
+#Wesh
+
+wesh_100 = { #Wesh
+	name = "Saqar"
+	dynasty = 210034
+	religion = redguard_cult
+	culture = forebear
+
+	trait = calm
+	trait = impatient
+	trait = stubborn
+	trait = weak
+	trait = irritable
+
+	trait = education_learning_3
+	trait = scholar
+	trait = adventurer
+	disallow_random_traits = yes
+	
+	3339.1.1 = { birth = yes }
+	3359.1.1 = { give_nickname = nick_the_chronicler }
+	3359.1.1 = { 
+		effect = {
+			learn_language = language_bretic
+			learn_language = language_cyrodiilic
+			add_perk = pedagogy_perk
+			add_perk = open_minded_perk
+		} 
+	}
+	3356.1.1 = {
+		effect = { #a man of modest renown
+			add_prestige_level = 1
+		}
+	}
+
+	3360.1.1 = { employer = bergama_1000 }
+	3360.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	# 3369.1.1 = { move_to_pool = yes } #retainers don't leave :p
+	3371.1.1 = { death = yes }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_mena_01
+			custom_headgear=male_headgear_secular_fp2_iberian_muslim_common_01_high
+			custom_beards=male_beard_fp2_iberian_christian_02
+			custom_clothes=male_clothes_secular_fp2_iberian_muslim_nobility_01_low
+		}
+	}
+}
+
+wesh_101 = { #Wesh pfp
+	name = "Ashurbanipal"
+	dynasty = dyn_zaintashara
+	religion = old_velothi
+	culture = ashlander
+
+	trait = arrogant
+	trait = diligent
+	trait = ambitious
+	trait = lifespan_3
+
+	trait = education_martial_3
+	trait = strategist
+	trait = blademaster_1
+	trait = adventurer
+	disallow_random_traits = yes
+	
+	3307.1.1 = { birth = yes }
+	# 3359.1.1 = { give_nickname = nick_the_chronicler }
+	# 3356.1.1 = {
+	# 	effect = { #a man of modest renown
+	# 		add_prestige_level = 1
+	# 	}
+	# }
+
+	3360.1.1 = { employer = zainab_101 }
+	3360.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = weapon_inspiration } } }
+	# 3369.1.1 = { move_to_pool = yes } #retainers don't leave :p
+	3371.1.1 = { death = yes }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_mena_01
+			custom_headgear=male_headgear_secular_fp2_iberian_muslim_common_01_high
+			custom_beards=male_beard_western_06
+		}
+	}
+}
+
+yriel_100 = {
+	name = "Juben"
+	dynasty = malleran
+	religion = tribunal_temple
+	culture = chi_addun
+
+	trait = just
+	trait = trusting
+	trait = fickle
+	trait = lifespan_3
+	trait = education_learning_4
+	trait = education_magical_ability_3
+	trait = adventurer
+	trait = skooma_drinker
+	disallow_random_traits = yes
+	
+	3340.1.1 = { birth = yes }
+	3596.1.1 = { death = yes }
+}
+
+
+

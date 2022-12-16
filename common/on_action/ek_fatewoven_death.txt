@@ -1,0 +1,20 @@
+﻿ek_on_fatewoven_death = { 
+	trigger = {
+	
+		if = {
+			limit = {
+				has = trait:fatewoven 
+				}
+		}
+	}
+	effect = {
+	
+	}
+	events = {
+		fatewoven_death_event.1001 = {
+ 			left_portrait = {
+ 				character = ROOT 
+ 				animation = brave
+ 			}
+	}
+}

@@ -1,0 +1,139 @@
+﻿# Note: This will throw "[20:16:57][jomini_custom_text.h:74]: Object of type 'character' is not valid for 'GetCrownAuthority0'" errors, but it's lying
+
+GetCrownAuthority0 = {
+	type = character
+	text = {
+		trigger = { has_government = feudal_government }
+		localization_key = crown_authority_0_feudal
+	}
+	text = {
+		trigger = { has_government = autocracy_government }
+		localization_key = crown_authority_0_autocracy
+	}
+	text = {
+		trigger = { has_government = hierocracy_government }
+		localization_key = crown_authority_0_hierocracy
+	}
+
+	#Default
+	text = {
+		fallback = yes
+		localization_key = crown_authority_0_default
+	}
+}
+GetEffectsCrownAuthority0 = {
+	type = character
+	text = {
+		trigger = { has_government = feudal_government }
+		localization_key = crown_authority_0_effects_feudalism
+	}
+	text = {
+		trigger = { has_government = autocracy_government }
+		localization_key = crown_authority_0_effects_autocracy
+	}
+}
+
+GetCrownAuthority1 = {
+	type = character
+	text = {
+		trigger = { has_government = feudal_government }
+		localization_key = crown_authority_1_feudal
+	}
+	text = {
+		trigger = { has_government = autocracy_government }
+		localization_key = crown_authority_1_autocracy
+	}
+	text = {
+		trigger = { has_government = hierocracy_government }
+		localization_key = crown_authority_1_hierocracy
+	}
+
+	#Default
+	text = {
+		fallback = yes
+		localization_key = crown_authority_1_default
+	}
+}
+GetEffectsCrownAuthority1 = {
+	type = character
+	text = {
+		trigger = { has_government = feudal_government }
+		localization_key = crown_authority_1_effects_feudalism
+	}
+	text = {
+		trigger = { has_government = autocracy_government }
+		localization_key = crown_authority_1_effects_autocracy
+	}
+	text = {
+		trigger = { has_government = hierocracy_government }
+		localization_key = crown_authority_1_effects_hierocracy
+	}
+}
+
+
+GetCrownAuthority2 = {
+	type = character
+	text = {
+		trigger = { has_government = feudal_government }
+		localization_key = crown_authority_2_feudal
+	}
+	text = {
+		trigger = { has_government = autocracy_government }
+		localization_key = crown_authority_2_autocracy
+	}
+	text = {
+		trigger = { has_government = hierocracy_government }
+		localization_key = crown_authority_2_hierocracy
+	}
+
+	#Default
+	text = {
+		fallback = yes
+		localization_key = crown_authority_2_default
+	}
+}
+GetEffectsCrownAuthority2 = {
+	type = character
+	text = {
+		trigger = { has_government = feudal_government }
+		localization_key = crown_authority_2_effects_feudalism
+	}
+	text = {
+		trigger = { has_government = hierocracy_government }
+		localization_key = crown_authority_2_effects_hierocracy
+	}
+}
+
+
+GetCrownAuthority3 = {
+	type = character
+	text = {
+		trigger = { has_government = feudal_government }
+		localization_key = crown_authority_3_feudal
+	}
+	text = {
+		trigger = { has_government = autocracy_government }
+		localization_key = crown_authority_3_autocracy
+	}
+	text = {
+		trigger = { has_government = hierocracy_government }
+		localization_key = crown_authority_3_hierocracy
+	}
+
+	#Default
+	text = {
+		fallback = yes
+		localization_key = crown_authority_3_default
+	}
+}
+GetEffectsCrownAuthority3 = {
+	type = character
+	text = {
+		trigger = { has_government = feudal_government }
+		localization_key = crown_authority_3_effects_feudalism
+	}
+	text = {
+		trigger = { has_government = hierocracy_government }
+		localization_key = crown_authority_3_effects_hierocracy
+	}
+}
