@@ -1,0 +1,11 @@
+﻿bm_group_440 = {
+	default_start_date = 3360.1.1
+}
+
+bm_group_450 = {
+	default_start_date = 3370.1.1
+}
+
+bm_group_582 = {
+	default_start_date = 3502.1.30
+}
