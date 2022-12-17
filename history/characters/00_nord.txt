@@ -1115,7 +1115,6 @@ flamehair_1014 = {
 	trait = reveler_2
 	trait = blademaster_2
 	trait = education_martial_prowess_2
-	trait = giant
 #CK2 DNA	dna = "cdbchzhceak"
 #CK2 DNA	properties = "ag00hc00000"
 	mother = flamehair_1011

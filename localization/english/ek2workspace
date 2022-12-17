@@ -1,0 +1,59 @@
+<NotepadPlus>
+    <Project name="eso">
+        <Folder name="Common" />
+        <Folder name="events" />
+        <Folder name="history">
+            <Folder name="characters">
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_altmer.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_argonian.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_ashlander.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_ayleid.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_bosmer.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_breton.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_cantemirics.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_colovian.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_dunmer.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_eastereggs.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_goblinken.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_heartlander.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_khajiit.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_lilmothiit.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_misc.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_nedes.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_newer_empires.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_nibenese.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_nord.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_older_empires.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_orsimer.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_reachfolk.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_redguard.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_skaal.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_tsaesci.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\characters\00_yokudan.txt" />
+            </Folder>
+            <Folder name="titles">
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\titles\00_other_titles.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\titles\e_black_marsh.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\titles\e_cyrodiil.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\titles\e_elsweyr.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\titles\e_hammerfell.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\titles\e_high_rock.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\titles\e_morrowind.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\titles\e_skyrim.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\titles\e_summerset.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\titles\e_tamriel.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\titles\e_valenwood.txt" />
+                <File name="C:\Users\nathan\Documents\Paradox Interactive\Crusader Kings III\mod\ek2_eso_nafnaf\history\titles\e_yokuda.txt" />
+            </Folder>
+            <Folder name="wars" />
+        </Folder>
+        <Folder name="localization">
+            <Folder name="English">
+                <File name="ek_traits_l_english.yml" />
+                <Folder name="Bookmark">
+                    <File name="bookmark\EK_bookmark_l_english.yml" />
+                </Folder>
+            </Folder>
+        </Folder>
+    </Project>
+</NotepadPlus>

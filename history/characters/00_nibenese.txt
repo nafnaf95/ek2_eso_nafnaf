@@ -498,7 +498,7 @@ tharn_201 = {
 	3425.1.1 = { birth = yes }
 	3489.1.1 = { death = yes }
 }
-#Abnur's Half-Sister, Euraxia
+#Abnur's Half-Sister, Euraxia NAFESO
 tharn_202 = {
 	name = "Euraxia" #Queen of Rimmen
 	female = yes
