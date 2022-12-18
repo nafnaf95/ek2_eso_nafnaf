@@ -1,0 +1,14 @@
+﻿#k_Stormhold
+
+d_stormhold = {
+	3130.1.1 = { holder = silyanorn_99 }	
+	3351.1.1 = { holder = drethan_104 }
+#	3492.7.7 = { drethan_104 = flamehair_1014 }
+	3492.7.7 = { holder = drethan_104 liege = e_ebonheart_pact }
+}
+
+c_stormhold = {
+	300.1.1 = { change_development_level = 8 }	
+	3130.1.1 = { holder = silyanorn_99 }	
+	3351.1.1 = { holder = drethan_104 }
+}

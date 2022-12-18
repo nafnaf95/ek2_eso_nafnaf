@@ -1,0 +1,75 @@
+### Formables
+e_aldmeri_dominion = {
+	3500.10.1 = { holder = arana_1001 }
+}
+e_daggerfall_covenant = {
+	3462.1.30 = { holder = deleyn_1003 }
+
+	3486.1.30 = { holder = cumberland_1004 }
+}
+e_ebonheart_pact = {
+	3492.7.7 = { holder = flamehair_1014 }
+}
+	
+### Dunmer Great Houses
+k_telvanni = {
+	2850.10.1 = { holder = telvanni_97 }
+	3200.10.1 = { holder = telvanni_99 }
+	3250.10.1 = { holder = telvanni_100 }
+	3400.10.1 = { holder = telvanni_103 }
+	3471.10.1 = { holder = otheri_2 }
+	3670.10.1 = { holder = telvanni_114 }
+	}
+
+k_redoran = {
+	2620.1.1 = { holder = redoran_995 }
+	2830.1.1 = { holder = redoran_996 }
+	2910.1.1 = { holder = redoran_997 }
+	3200.1.1 = { holder = redoran_998 }
+	3369.1.1 = { holder = redoran_999 }
+	3437.1.1 = { holder = redoran_1000 }
+	3492.7.7 = { holder = redoran_1000 liege = e_ebonheart_pact }
+}
+
+k_hlaalu = {
+	3350.10.1 = { holder = hlaalu_48103 }
+	3492.7.7 = { holder = hlaalu_48103 liege = e_ebonheart_pact }
+}
+
+k_dres = {
+	2920.1.1 = { holder = dres_109 }
+	3050.1.1 = { holder = dres_100 }
+	3150.1.1 = { holder = dres_101 }
+	3230.1.1 = { holder = dres_102 }
+	3349.1.1 = { holder = dres_103 }
+	3490.1.1 = { holder = dres_106 }
+	3492.7.7 = { holder = dres_106 liege = e_ebonheart_pact }
+}
+	
+k_indoril = {
+	3010.1.1 = { holder = indoril_1000 }
+	3160.1.1 = { holder = indoril_1001 }
+	3290.1.1 = { holder = indoril_1002 }
+	3363.1.1 = { holder = indoril_1003 }
+	3363.1.1 = { holder = indoril_1003 }
+	3410.1.1 = { holder = indoril_1004 }
+	3434.1.1 = { holder = indoril_1010 }
+	3470.1.1 = { holder = indoril_1012 }
+	3492.7.7 = { holder = indoril_1012 liege = e_ebonheart_pact }
+	3502.8.15 = { holder = indoril_1015 }
+	3590.1.1 = { holder = indoril_1016 }
+}
+
+#Khajiiti
+k_mane = {
+	3225.1.1 = {
+		holder = mane_001
+		government = hierocracy_government 
+	}
+	3229.1.1 = { liege = e_elsweyr }
+    3329.1.1 = { holder = mane_002 }
+    3500.10.1 = { 
+		holder = mane_003 
+		liege = e_aldmeri_dominion
+		}
+}

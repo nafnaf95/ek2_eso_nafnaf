@@ -1,0 +1,26 @@
+﻿
+flamehair_1014 = {
+	name = "Jorunn" #King of Skyrim/Eastern Skyrim (Kamal)
+	dynasty = flamehair
+	culture = eastmarcher
+	religion = nord_cult
+	trait = twin
+	dna = flamehair_1014_dna_entry
+#CK2 DNA	dna = "cdbchzhceak"
+#CK2 DNA	properties = "ag00hc00000"
+	mother = flamehair_1011
+	father = ambershield_102
+	
+	3466.1.1 = { birth = yes }
+	3530.1.1 = { death = yes }
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+			custom_clothes=male_clothes_secular_byzantine_war_nobility_01_low
+			custom_headgear=male_headgear_secular_ep1_crown_of_lombardy
+			custom_hair=male_hair_fp1_08
+			custom_beards=male_beard_northern_02
+			custom_cloaks=male_cloaks_secular_fp1_nobility_01
+		}
+	}
+}

@@ -1,0 +1,245 @@
+﻿
+
+## Dominion
+
+alliancewar_ad01 = {
+	name = "Sorcalin"
+	female = yes
+	religion = auriel
+	culture = auridon
+	trait = lifespan_3
+	trait = education_martial_5
+	martial = 30
+
+	
+	3371.1.1 = { birth = yes }	
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = Dominion
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 6
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 6
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 6
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 24
+				}
+				location = province:3802
+				origin = province:2929
+				inheritable = yes
+			}
+			spawn_army = {
+				name = Dominion
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 6
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 6
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 6
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 24
+				}
+				location = province:3721
+				origin = province:2929
+				inheritable = yes
+			}
+		}
+	}
+}
+
+alliancewar_ad02 = {
+	name = "Tilorinwe" 
+	female = yes
+	religion = auriel
+	culture = auridon
+	trait = lifespan_3
+	
+	3371.1.1 = { birth = yes }
+}
+
+alliancewar_ad03 = {
+	name = "Arfire" 
+	female = yes
+	religion = auriel
+	culture = auridon
+	trait = lifespan_3
+	
+	3371.1.1 = { birth = yes }
+}
+
+## Covenant
+
+alliancewar_dc01 = {
+	name = "Dortene"
+	female = yes
+	religion = breton_cult
+	culture = glenumbran
+	trait = education_martial_5
+	martial = 30
+
+	3475.1.1 = { birth = yes }
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = Covenant
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 6
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 6
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 6
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 24
+				}
+				location = province:1852
+				origin = province:184
+				inheritable = yes
+			}
+			spawn_army = {
+				name = Covenant
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 6
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 6
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 6
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 24
+				}
+				location = province:1933
+				origin = province:184
+				inheritable = yes
+			}
+		}
+	}
+}
+
+alliancewar_dc02 = {
+	name = "Gwenifyr" 
+	female = yes
+	religion = breton_cult
+	culture = glenumbran
+	
+	3475.1.1 = { birth = yes }
+}
+
+alliancewar_dc03 = {
+	name = "Yseline" 
+	female = yes
+	religion = breton_cult
+	culture = glenumbran
+	
+	3475.1.1 = { birth = yes }
+}
+
+## Pact
+
+alliancewar_ep01 = {
+	name = "Zimmeron"
+	culture = gah_julan
+	religion = tribunal_temple
+	trait = lifespan_3
+	trait = education_martial_5
+	martial = 30
+
+	3371.1.1 = { birth = yes }	
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = Pact
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 6
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 6
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 6
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 24
+				}
+				location = province:2335
+				origin = province:1115
+				inheritable = yes
+			}
+			spawn_army = {
+				name = Pact
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 6
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 6
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 6
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 24
+				}
+				location = province:2348
+				origin = province:1115
+				inheritable = yes
+			}
+		}
+	}
+}
+
+alliancewar_ep02 = {
+	name = "Gwenifyr" 
+	female = yes
+	culture = gah_julan
+	religion = tribunal_temple
+	trait = lifespan_3
+	
+	3371.1.1 = { birth = yes }	
+}
+
+alliancewar_ep03 = {
+	name = "Yseline" 
+	female = yes
+	culture = gah_julan
+	religion = tribunal_temple
+	trait = lifespan_3
+	
+	3371.1.1 = { birth = yes }	
+}
+

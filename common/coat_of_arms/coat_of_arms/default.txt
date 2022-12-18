@@ -1,5 +1,0 @@
-default = {
-	textured_emblem = {
-		texture = "_default.dds"
-	}
-}

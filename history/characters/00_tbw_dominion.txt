@@ -1,0 +1,215 @@
+﻿#############################
+#  Summerset                #
+#############################
+
+arana_1001 = {
+	name = "Ayrenn"
+	dynasty = 700000
+	religion = auriel
+	culture = alinor
+	female = yes
+	dna = arana_1001_dna_entry
+
+	mother = aunsamiran_36406
+	father = arana_1000
+	trait = lifespan_3
+	
+	trait = education_martial_4
+	trait = arcana_good_1
+	trait = ambitious
+	trait = brave
+	trait = cynical
+	trait = adventurer
+	
+	3475.5.5 = { birth = yes }
+	3500.1.1 = { give_nickname = nick_the_unforeseen
+		effect = {
+			add_perk = alteration_novice_perk
+			add_perk = alteration_apprentice_perk
+			add_perk = destruction_novice_perk
+			add_perk = destruction_apprentice_perk
+			add_perk = restoration_novice_perk
+			add_perk = restoration_apprentice_perk
+			add_perk = restoration_journeyman_perk
+		}
+	}
+	3724.2.8 = { death = yes }
+	
+	portrait_override = {	# Will override the character's appearance
+	portrait_modifier_overrides={
+		custom_clothes=clothes_altmer_female_noble_war_01
+		custom_hair=female_hair_northern_03
+		custom_headgear=female_headgear_secular_ayleid_crown_02
+		}
+	}
+}
+
+arana_1002 = {
+	name = "Naemon"
+	dynasty = 700000
+	religion = auriel
+	culture = alinor
+	mother = aunsamiran_36406
+	father = arana_1000
+	trait = lifespan_3
+	
+	trait = education_stewardship_3
+	trait = ambitious
+	trait = arcana_good_1
+	
+	3478.5.5 = { birth = yes }
+	3494.5.5 = { add_spouse = errinorne_1000 
+		effect = {
+			add_perk = alteration_novice_perk
+			add_perk = alteration_apprentice_perk
+			add_perk = illusion_novice_perk
+			add_perk = illusion_apprentice_perk
+			add_perk = restoration_novice_perk
+			add_perk = restoration_apprentice_perk
+		}	
+	}
+	3502.12.3 = { death = yes }
+}
+
+###############################
+#       Elswyer               #
+###############################
+
+
+#Manes
+mane_001 = {
+    name = "Rid_Thar_riDatta" #Riddle'Thar Prophet
+	culture = anequinan
+	religion = twomoonsdance
+	dynasty = 1100008
+
+	3210.1.1 = { birth = yes }
+	3226.1.1 = {
+		trait = education_learning_4
+		trait = theologian
+		trait = mystic_3
+		trait = crusader_king
+	}
+	3310.1.1 = { death = yes }
+}
+
+mane_002 = {
+	name = "Marandru_jo"
+	culture = pellitinian
+	religion = twomoonsdance
+	dynasty = 1100008
+
+	father = maran_001
+	mother = maran_002
+
+	#furstock
+	trait = furstock_cathay
+	trait = craven
+	trait = trusting
+	trait = arrogant
+	trait = education_diplomacy_1
+	trait = mystic_3
+	trait = arcana_good_2
+
+	3310.1.1 = { birth = yes }
+	3400.1.1 = { death = yes }
+}
+
+mane_003 = {
+	name = "Akkhuz-ri"
+	culture = pellitinian
+	religion = twomoonsdance
+	dynasty = 1100008
+	dna = mane_003_dna_entry
+
+	#furstock
+	trait = furstock_cathay
+
+	3427.1.1 = { birth = yes }
+	3504.4.11 = { death = yes }
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+			custom_headgear=male_headgear_secular_steppe_war_nobility_01
+			custom_clothes=male_clothes_religious_steppe_high_01_common
+			custom_hair=male_hair_fp1_08
+			custom_beards=male_empty
+		}
+	}
+}
+
+mane_004 = {
+	name = "Khali"
+	female = yes
+	culture = pellitinian
+	religion = twomoonsdance
+	dynasty = 1100008
+
+	#furstock
+	trait = furstock_cathay
+
+	3484.1.1 = { birth = yes }
+}
+
+mane_005 = {
+	name = "Shazah"
+	female = yes
+	culture = pellitinian
+	religion = twomoonsdance
+	dynasty = 1100008
+
+	#furstock
+	trait = furstock_cathay
+
+	3484.1.1 = { birth = yes }
+}
+
+# mane_006 = {
+#	name = "Nhad-hatta"
+#	culture = pellitinian
+#	religion = twomoonsdance
+#	dynasty = 1100008
+#
+#	#furstock
+#	trait = furstock_cathay
+#
+#	3802.1.1 = { birth = yes }
+# }
+
+
+
+######################################
+#           Valenwood                #
+######################################
+
+
+camoran_9 = { # Aeradan
+	name = "Aeradan"
+	dynasty_house = camoran_graht
+	religion = greenpact
+	culture = grahtwood
+	mother = camoran_8
+	father = altansar_1
+	dna = camoran_9_dna_entry
+	
+	trait = lifespan_3
+	trait = curious
+
+	3357.1.1 = { birth = yes }
+	3370.1.1 = {
+		trait = callous
+		trait = brave
+	}
+	#3500.4.7 = { effect = { imprison_character_effect = character:camoran_11 } } #effect 'imprison_character_effect' returned false
+	3650.9.4 = { death = yes }
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+			custom_legwear=male_legwear_secular_western_war_01
+			custom_clothes=male_clothes_secular_byzantine_war_nobility_01_low
+			custom_hair=male_hair_western_09
+			custom_cloaks=male_furs_secular_fp1_nobility_02
+			custom_beards=male_beard_western_01
+		}
+	}
+}

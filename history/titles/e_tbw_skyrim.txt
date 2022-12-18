@@ -1,0 +1,3010 @@
+e_skyrim = {
+	# Ysgramoor
+	143.1.1 = { holder = ysgramoor_100 }
+	221.1.1 = { holder = ysgramoor_101 }
+	222.1.1 = { holder = ysgramoor_102 }
+	355.1.1 = { holder = ysgramoor_110 }
+	369.1.1 = { holder = 0 } # War of Succession
+	392.1.1 = { 
+		holder = numinex_100
+		succession_laws = {
+			moot_elective_succession_law #Pact of Chieftains.
+		}
+	}
+	452.1.1 = { holder = kjoric_100 }
+	478.1.1 = { holder = kjoric_101 }
+	482.1.1 = { holder = wulfharth_100 }
+	1999.1.1 = { change_development_level = 6 }
+	#Solitude High Kings
+	2000.1.1 = { holder = high_wall_100 }
+	2520.1.1 = { holder = head_rolling_100 }
+	2545.1.1 = { holder = kyne_favored_100 }
+	2570.1.1 = { holder = fine_sword_100 }
+	2600.1.1 = { holder = freiretta_100 }
+	
+	3200.1.1 = { holder = flamehair_997 }
+	3255.1.1 = { holder = flamehair_998 }
+	#3000.1.1 = { change_development_level = 6 }
+	3314.1.1 = { holder = flamehair_999 }
+	3351.1.1 = { holder = 0 }
+}
+e_eastern_skyrim = {
+	3351.1.1 = { 
+		holder = flamehair_1000
+		succession_laws = {
+			moot_elective_succession_law #Partial Moot of Eastern Skyrim
+		}
+	}
+	3384.1.1 = { holder = flamehair_1008 }
+	3397.1.1 = { holder = flamehair_1009 }
+	3432.1.1 = { holder = flamehair_1010 }
+	3457.1.1 = { holder = flamehair_1011 }
+	3492.3.10 = { holder = flamehair_1013 }
+	3492.3.11 = { holder = flamehair_1014 }
+}
+e_western_skyrim = {
+	3351.1.1 = { 
+		holder = cursebraid_1000
+		succession_laws = {
+			moot_elective_succession_law #Partial Moot of Western Skyrim
+		}
+	}
+	3394.1.1 = { holder = cursebraid_1004 }
+	3398.1.1 = { holder = cursebraid_1006 }
+	3418.1.1 = { holder = cursebraid_1007 }
+	3442.1.1 = { holder = cursebraid_1008 }
+	3481.1.1 = { holder = cursebraid_1009 } #Svargrim, 1st Wolf of Solitude
+}
+#Kingdom of Eastmarch
+
+k_windhelm = { 
+	143.1.1 = { holder = ysgramoor_100 }
+	221.1.1 = { holder = ysgramoor_101 }
+	222.1.1 = { holder = ysgramoor_102 }
+	355.1.1 = { holder = ysgramoor_110 }
+	392.1.1 = { holder = numinex_100 }
+	452.1.1 = { holder = kjoric_100 }
+	478.1.1 = { holder = kjoric_101 }
+	482.1.1 = { holder = wulfharth_100 }
+	3000.1.1 = { change_development_level = 6 }
+	3200.1.1 = { holder = flamehair_997 }
+	3255.1.1 = { holder = flamehair_998 }
+	3314.1.1 = { holder = flamehair_999 }
+	
+	3351.1.1 = { holder = flamehair_1000 }
+	3384.1.1 = { holder = flamehair_1008 }
+	3397.1.1 = { holder = flamehair_1009 }
+	3432.1.1 = { holder = flamehair_1010 }
+	3457.1.1 = { holder = flamehair_1011 }
+	3492.3.10 = { holder = flamehair_1013 }
+	3492.3.11 = { holder = flamehair_1014 }
+}
+d_windhelm = {
+	143.1.1 = { holder = ysgramoor_100 }
+	221.1.1 = { holder = ysgramoor_101 }
+	222.1.1 = { holder = ysgramoor_102 }
+	355.1.1 = { holder = ysgramoor_110 }
+	392.1.1 = { holder = numinex_100 }
+	452.1.1 = { holder = kjoric_100 }
+	478.1.1 = { holder = kjoric_101 }
+	482.1.1 = { holder = wulfharth_100 }
+	3200.1.1 = { holder = flamehair_997 }
+	3255.1.1 = { holder = flamehair_998 }
+	3314.1.1 = { holder = flamehair_999 }
+	
+	3351.1.1 = { holder = flamehair_1000 }
+	3384.1.1 = { holder = flamehair_1008 }
+	3397.1.1 = { holder = flamehair_1009 }
+	3432.1.1 = { holder = flamehair_1010 }
+	3457.1.1 = { holder = flamehair_1011 }
+	3492.3.10 = { holder = flamehair_1013 }
+	3492.3.11 = { holder = flamehair_1014 }
+
+}
+c_windhelm = {
+	143.1.1 = { holder = ysgramoor_100 }
+	221.1.1 = { holder = ysgramoor_101 }
+	222.1.1 = { holder = ysgramoor_102 }
+	355.1.1 = { holder = ysgramoor_110 }
+	392.1.1 = { holder = numinex_100 }
+	452.1.1 = { holder = kjoric_100 }
+	478.1.1 = { holder = kjoric_101 }
+	482.1.1 = { holder = wulfharth_100 }
+	3000.1.1 = { change_development_level = 15 }
+	3200.1.1 = { holder = flamehair_997 }
+	3255.1.1 = { holder = flamehair_998 }
+	3314.1.1 = { holder = flamehair_999 }
+	
+	3351.1.1 = { holder = flamehair_1000 }
+	3384.1.1 = { holder = flamehair_1008 }
+	3397.1.1 = { holder = flamehair_1009 }	
+	3432.1.1 = { holder = flamehair_1010 }
+	3457.1.1 = { holder = flamehair_1011 }
+	3492.3.10 = { holder = flamehair_1013 }
+	3492.3.11 = { holder = flamehair_1014 }
+	
+	4000.1.1 = { liege = e_tamriel }
+	4393.1.1 = { holder = septim_054 } #Titus Mede II
+}
+c_shorflow = {
+	3000.1.1 = { change_development_level = 5 }
+	3200.1.1 = { holder = flamehair_997 }
+	3255.1.1 = { holder = flamehair_998 }
+	3314.1.1 = { holder = flamehair_999 }
+	
+	3351.1.1 = { holder = flamehair_1000 }
+	3384.1.1 = { holder = flamehair_1008 }
+	3397.1.1 = { holder = flamehair_1009 }	
+	3432.1.1 = { holder = flamehair_1010 }
+	3457.1.1 = { holder = flamehair_1011 }
+	3492.3.10 = { holder = flamehair_1013 }
+	3492.3.11 = { holder = flamehair_1014 }
+	3499.1.1 = { holder = highshoal_105 }
+	3500.1.1 = { liege = d_bleakcoast }
+	3532.1.1 = { holder = highshoal_107 }
+}
+c_hollyfrost = {
+	3351.1.1 = {
+		liege = k_windhelm
+		holder = jurgald_1000
+	}
+	3357.8.26 = { holder = jurgald_1001 }
+	3418.3.19 = { holder = jurgald_1002 }
+}
+c_kynesgrove = {
+	3359.1.1 = {
+		liege = k_windhelm
+		holder = kynesgrove_1000
+	}
+}
+
+#d_aalto
+d_aalto = {
+	3000.1.1 = { change_development_level = 4 }
+}
+c_aalto = {
+	3000.1.1 = { change_development_level = 7 }
+	3358.1.1 = {
+		liege = k_windhelm
+		holder = frostvoice_hemming
+	}
+	3400.1.1 = { holder = frostvoice_hadring }
+}
+c_darkwater = {
+	3358.1.1 = {
+		liege = k_windhelm
+		holder = frostvoice_hemming
+	}
+	3400.1.1 = { holder = frostvoice_hadring }
+}
+c_wittestadr = {
+	3344.1.1 = {
+		liege = k_windhelm
+		holder = gaptooth_10089
+	}
+	3368.1.1 = {
+		liege = 0
+		holder = vittr_majorn
+	}
+	3503.1.1 = { holder = vittr_valeric }
+}
+c_cronvangr = {
+	3344.1.1 = {
+		liege = k_windhelm
+		holder = gaptooth_10089
+	}
+	3368.1.1 = {
+		holder = gaptooth_10090
+	}
+	3432.1.1 = { holder = gaptooth_10091 }
+	3480.1.1 = { liege = e_eastern_skyrim }
+	3487.1.1 = { holder = gaptooth_10092 }
+	3513.1.1 = { holder = gaptooth_10093 }
+	3551.1.1 = { holder = gaptooth_10094 }
+	3576.1.1 = { holder = gaptooth_10095 }
+	3600.1.1 = { holder = gaptooth_10096 }
+	3634.1.1 = { holder = gaptooth_10097 }
+	3648.1.1 = { holder = gaptooth_10098 }
+	3685.1.1 = { holder = gaptooth_10099 }
+}
+
+d_amol = {
+	3304.1.1 = {
+		liege = k_windhelm
+		holder = hoagbellow_99999
+	}
+	3351.1.2 = { holder = hoagbellow_10000 }
+	3372.1.1 = { holder = hoagbellow_10004 }
+	3451.1.1 = { holder = hoagbellow_10005 }
+	3492.1.1 = { 
+		liege = k_windhelm
+		holder = hoagbellow_10006 
+	}
+	3507.1.1 = { holder = hoagbellow_10007 }
+	3520.1.1 = { liege = e_eastern_skyrim }
+	3522.1.1 = { holder = hoagbellow_10008 }
+	3560.1.1 = { holder = hoagbellow_10009 }
+	3591.1.1 = { holder = hoagbellow_10010 }
+	3617.1.1 = { holder = hoagbellow_10011 }
+	3657.1.1 = { holder = hoagbellow_10012 }
+	3675.1.1 = { holder = hoagbellow_10013 }
+	3691.1.1 = { holder = hoagbellow_10014 }
+}
+c_amol = {
+	3000.1.1 = { change_development_level = 8 }
+	3304.1.1 = {
+		liege = k_windhelm
+		holder = hoagbellow_99999
+	}
+	3351.1.2 = { holder = hoagbellow_10000 }
+	3372.1.1 = { holder = hoagbellow_10004 }
+	3451.1.1 = { holder = hoagbellow_10005 }
+	3492.1.1 = { 
+		liege = d_amol
+		holder = hoagbellow_10006 
+	}
+	3507.1.1 = { holder = hoagbellow_10007 }
+	3520.1.1 = { liege = e_eastern_skyrim }
+	3522.1.1 = { holder = hoagbellow_10008 }
+	3560.1.1 = { holder = hoagbellow_10009 }
+	3591.1.1 = { holder = hoagbellow_10010 }
+	3617.1.1 = { holder = hoagbellow_10011 }
+	3657.1.1 = { holder = hoagbellow_10012 }
+	3675.1.1 = { holder = hoagbellow_10013 }
+	3691.1.1 = { holder = hoagbellow_10014 }
+}
+c_darkshade = {
+	3000.1.1 = { change_development_level = 5 }
+	3352.1.1 = {
+		holder = orun_10999
+	}
+	3359.1.2 = { liege = d_amol }
+	3367.1.1 = {
+		liege = d_amol 
+		holder = orun_11000
+	}
+	3413.1.1 = { holder = orun_11001 }
+	3449.1.1 = { holder = orun_11002 }
+	3480.1.1 = { liege = e_eastern_skyrim }
+	3483.1.1 = { holder = orun_11003 }
+	3490.1.1 = { liege = d_amol }
+	3516.1.1 = { holder = orun_11004 }
+	3520.1.1 = { liege = e_eastern_skyrim }
+	3541.1.1 = { holder = orun_11005 }
+	3570.1.1 = { holder = orun_11006 }
+	3589.1.1 = { holder = orun_11007 }
+	3618.1.1 = { holder = orun_11008 }
+	3646.1.1 = { holder = orun_11009 }
+	3674.1.1 = { holder = orun_11010 }
+	3722.1.1 = { holder = orun_11011 }
+	3747.1.1 = { holder = orun_11012 }
+	3786.1.1 = { holder = orun_11013 }
+	3794.1.1 = { holder = orun_11014 }
+	3825.1.1 = { holder = orun_11015 }
+	3837.1.1 = { holder = orun_11016 }
+	3865.1.1 = { holder = orun_11017 }
+	3892.1.1 = { holder = orun_11018 }
+	3929.1.1 = { holder = orun_11019 }
+	3945.1.1 = { holder = orun_11020 }
+
+	3360.1.1 = { liege = d_amol }
+	3405.1.1 = { holder = oakensword_200 }
+	3435.1.1 = { holder = oakensword_201 }
+	3503.1.1 = { holder = oakensword_202 }
+}
+c_snowgrad = {
+	3359.1.1 = { holder = oakensword_99 }
+	3360.1.1 = { liege = d_amol }
+	3405.1.1 = { holder = oakensword_100 }
+	3428.1.1 = { holder = oakensword_101 }
+	3475.1.1 = { holder = oakensword_102 }
+	3519.1.1 = { holder = oakensword_103 }
+}
+c_pargran = {
+	3350.1.1 = { holder = pargran_1000 }
+	3360.1.1 = { liege = d_amol }
+	3500.1.1 = { holder = pargran_1001 }
+}
+
+#d_morvunskar
+c_morvunskar = {
+	3200.1.1 = { holder = flamehair_997 }
+	3255.1.1 = { holder = flamehair_998 }
+	3314.1.1 = { holder = flamehair_999 }
+	
+	3351.1.1 = { holder = flamehair_1000 }
+	3384.1.1 = { holder = flamehair_1008 }
+	3397.1.1 = { holder = flamehair_1009 }	
+	3432.1.1 = { holder = flamehair_1010 }
+	3457.1.1 = { holder = flamehair_1011 }
+	3492.3.10 = { holder = flamehair_1013 }
+	3492.3.11 = { holder = flamehair_1014 }
+}
+c_gallows_rock = {
+	3304.1.1 = { holder = alescribe_99 }
+	3360.1.1 = { liege = k_windhelm }
+	3371.1.1 = { holder = alescribe_100 }
+	3413.1.1 = { holder = alescribe_101 }
+	3429.1.1 = { holder = alescribe_102 }
+	3491.1.1 = { holder = stormstruck_100 }
+	3541.1.1 = { holder = stormstruck_101 }
+}
+c_mixwater = {
+	3304.1.1 = { holder = alescribe_99 }
+	3360.1.1 = { liege = k_windhelm }
+	3371.1.1 = { holder = alescribe_100 }
+	3413.1.1 = { holder = alescribe_101 }
+	3429.1.1 = { holder = alescribe_102 }
+	3491.1.1 = { holder = stormstruck_100 }
+	3541.1.1 = { holder = stormstruck_101 }
+}
+
+d_ansilvund = {
+	3238.1.1 = { holder = stuhn_0 }
+	3256.1.1 = { holder = stuhn_1 }
+	3300.1.1 = { holder = stuhn_2 }
+	3330.1.1 = { holder = stuhn_3 }
+	3350.1.1 = { holder = stuhn_4 }
+	3360.1.1 = { liege = k_windhelm }
+	3365.1.1 = { liege = 0 }
+	3384.1.1 = { holder = stuhn_5 }
+	3410.1.1 = { holder = stuhn_7 }
+	3451.1.1 = { holder = stuhn_9 }
+	3501.1.1 = { holder = stuhn_10 }
+	3532.1.1 = { holder = stuhn_11 }
+}
+c_ansilvund = {
+	3300.1.1 = { change_development_level = 7 }
+	3238.1.1 = { holder = stuhn_0 }
+	3256.1.1 = { holder = stuhn_1 }
+	3300.1.1 = { holder = stuhn_2 }
+	3330.1.1 = { holder = stuhn_3 }
+	3350.1.1 = { holder = stuhn_4 }
+	3384.1.1 = { holder = stuhn_5 }
+	3410.1.1 = { holder = stuhn_7 }
+	3451.1.1 = { holder = stuhn_9 }
+	3501.1.1 = { holder = stuhn_10 } #loses part of Ansilvund to Riften
+}
+c_cragwallow = {
+	3238.1.1 = { holder = stuhn_0 }
+	3256.1.1 = { holder = stuhn_1 }
+	3300.1.1 = { holder = stuhn_2 }
+	3330.1.1 = { holder = stuhn_3 }
+	3350.1.1 = { holder = stuhn_4 }
+	3384.1.1 = { holder = stuhn_5 }
+	3410.1.1 = { holder = stuhn_7 }
+	3451.1.1 = { holder = stuhn_9 }
+	3501.1.1 = { holder = stuhn_10 } #loses part of Ansilvund to Riften
+}
+c_bitterblade = {
+	3238.1.1 = { holder = stuhn_0 }
+	3256.1.1 = { holder = stuhn_1 }
+	3300.1.1 = { holder = stuhn_2 }
+	3330.1.1 = { holder = stuhn_3 }
+	3350.1.1 = { holder = stuhn_4 }
+	3384.1.1 = { holder = stuhn_5 }
+	3410.1.1 = { holder = stuhn_7 }
+	3451.1.1 = { holder = stuhn_9 }
+	3501.1.1 = { holder = stuhn_10 }
+	3532.1.1 = { holder = stuhn_11 }
+	#Goes to riften afterwards?
+}
+c_gloombound = {
+	3000.1.1 = { change_development_level = 5 }
+	3351.1.1 = {
+		liege = d_ansilvund
+		holder = burzag_burzgrag
+	}
+	3369.1.1 = { liege = 0 }
+}
+
+d_mistwatch = {
+	3310.1.1 = { 
+		liege = k_windhelm
+		holder = shattershield_98
+	}
+	3330.1.1 = { holder = shattershield_99 }
+	3359.1.1 = { holder = shattershield_100 }
+	3405.1.1 = { holder = shattershield_101 }
+}
+c_icewind = {
+	3300.1.1 = { change_development_level = 6 }
+	3260.1.1 = { holder = shattershield_97 }
+	3290.1.1 = { holder = shattershield_98 }
+	3330.1.1 = { holder = shattershield_99 }
+	3359.1.1 = { holder = shattershield_100 }
+	3405.1.1 = { holder = shattershield_101 }
+}
+c_mistwatch = {
+	3000.1.1 = { change_development_level = 5 }
+	3359.1.1 = { 
+		liege = d_mistwatch
+		holder = mistwatch_1000
+	}
+	3500.1.1 = { holder = mistwatch_1001 }
+}
+
+#Kingdom of Solitude/Haafingar
+
+k_solitude = {
+	482.1.1 = { holder = wulfharth_100 }
+	3000.1.1 = { change_development_level = 5 }
+	3280.1.1 = { 
+		liege = e_skyrim
+		holder = cursebraid_998
+	}
+	3328.1.1 = { holder = cursebraid_1000 }
+	3351.1.1 = { liege = e_western_skyrim }
+	3394.1.1 = { holder = cursebraid_1004 }
+	3398.1.1 = { holder = cursebraid_1006 }
+	3418.1.1 = { holder = cursebraid_1007 }
+	3442.1.1 = { holder = cursebraid_1008 }
+	3481.1.1 = { holder = cursebraid_1009 } #Svargrim, 1st Wolf of Solitude
+}
+d_solitude = {
+	482.1.1 = { holder = wulfharth_100 }
+	2000.1.1 = { holder = high_wall_100 }
+	2520.1.1 = { holder = head_rolling_100 }
+	2545.1.1 = { holder = kyne_favored_100 }
+	2570.1.1 = { holder = fine_sword_100 }
+	2600.1.1 = { holder = freiretta_100 }
+	3280.1.1 = { holder = cursebraid_998 }
+	3351.1.1 = { holder = cursebraid_1000 }
+	3394.1.1 = { holder = cursebraid_1004 }
+	3398.1.1 = { holder = cursebraid_1006 }
+	3418.1.1 = { holder = cursebraid_1007 }
+	3442.1.1 = { holder = cursebraid_1008 }
+	3481.1.1 = { holder = cursebraid_1009 } #Svargrim, 1st Wolf of Solitude
+}
+c_solitude = {
+	482.1.1 = { holder = wulfharth_100 }
+	2000.1.1 = { holder = high_wall_100 }
+	2520.1.1 = { holder = head_rolling_100 }
+	2545.1.1 = { holder = kyne_favored_100 }
+	2570.1.1 = { holder = fine_sword_100 }
+	2600.1.1 = { holder = freiretta_100 }
+	3000.1.1 = { change_development_level = 15 }
+	3280.1.1 = { holder = cursebraid_998 }
+	3351.1.1 = { holder = cursebraid_1000 }
+	3394.1.1 = { holder = cursebraid_1004 }
+	3398.1.1 = { holder = cursebraid_1006 }
+	3418.1.1 = { holder = cursebraid_1007 }
+	3442.1.1 = { holder = cursebraid_1008 }
+	3481.1.1 = { holder = cursebraid_1009 } #Svargrim, 1st Wolf of Solitude
+}
+c_lonewatch = {
+	3000.1.1 = { change_development_level = 5 }
+	3351.1.1 = { 
+	liege = d_solitude
+	holder = cursebraid_1001 }
+	3374.1.1 = { holder = cursebraid_1002 }
+	3388.1.1 = { holder = cursebraid_1003 }
+	3404.1.1 = { holder = nightwielder_99 }
+	3436.1.1 = { holder = nightwielder_100 }
+	3471.1.1 = { holder = nightwielder_101 }
+	3492.1.1 = { holder = nightwielder_102 }
+	3502.9.15 = { liege = e_eastern_skyrim } # or Eastmarch
+	3535.1.1 = { holder = nightwielder_103 }
+}
+c_ironback = {
+	3000.1.1 = { change_development_level = 6 }
+	3351.1.1 = { holder = cursebraid_1000 }
+	3394.1.1 = { holder = cursebraid_1004 }
+	3398.1.1 = { holder = cursebraid_1006 }
+	3418.1.1 = { holder = cursebraid_1007 }
+	3442.1.1 = { holder = cursebraid_1008 }
+}
+c_falconstar = {
+	3000.1.1 = { change_development_level = 6 }
+	3351.1.1 = { holder = cursebraid_1000 }
+	3394.1.1 = { holder = cursebraid_1004 }
+	3398.1.1 = { holder = cursebraid_1006 }
+	3418.1.1 = { holder = cursebraid_1007 }
+	3442.1.1 = { holder = cursebraid_1008 }
+}
+c_silent_isles = {
+	3360.1.1 = { 
+		liege = d_solitude
+		holder = swordpoet_99 
+		change_development_level = 3
+	}
+	3412.1.1 = { holder = swordpoet_100 }
+	3443.1.1 = { holder = swordpoet_101 }
+	3494.1.1 = { holder = swordpoet_102 }
+	3500.1.1 = { liege = e_eastern_skyrim }
+}
+d_ravenscar = {
+	3322.1.1 = { 
+		liege = k_solitude
+		holder = thricepierced_98
+	}
+	3393.1.1 = { holder = thricepierced_99 }
+	3418.1.1 = { holder = thricepierced_100 }
+	3481.1.1 = { holder = thricepierced_101 }
+	3505.1.1 = { holder = thricepierced_102 }
+}
+c_ravenscar = {
+	3000.1.1 = { change_development_level = 3 }
+	3322.1.1 = { 
+		liege = d_ravenscar
+		holder = thricepierced_98
+	}
+	3393.1.1 = { holder = thricepierced_99 }
+	3418.1.1 = { holder = thricepierced_100 }
+	3481.1.1 = { holder = thricepierced_101 }
+	3505.1.1 = { holder = thricepierced_102 }
+}
+c_whiteflow = {
+	3000.1.1 = { change_development_level = 4 }
+	3347.1.1 = {
+		liege = d_ravenscar
+		holder = eel_eared_9449
+	}
+	3363.1.1 = {
+		holder = eel_eared_9450
+	}
+	3406.1.1 = { holder = eel_eared_9451 }
+	3451.1.1 = { holder = eel_eared_9452 }
+	3478.1.1 = { holder = eel_eared_9453 }
+	3526.1.1 = { holder = eel_eared_9454 }
+	3538.1.1 = { holder = eel_eared_9455 }
+	3559.1.1 = { holder = eel_eared_9456 }
+	3591.1.1 = { holder = eel_eared_9457 }
+	3630.1.1 = { holder = eel_eared_9458 }
+	3660.1.1 = { holder = eel_eared_9459 }
+	3694.1.1 = { holder = eel_eared_9460 }
+	3724.1.1 = { holder = eel_eared_9461 }
+	3750.1.1 = { holder = eel_eared_9462 }
+	3783.1.1 = { holder = eel_eared_9463 }
+	3805.1.1 = { holder = eel_eared_9464 }
+	3848.1.1 = { holder = eel_eared_9465 }
+	3876.1.1 = { holder = eel_eared_9466 }
+	3906.1.1 = { holder = eel_eared_9467 }
+	3939.1.1 = { holder = eel_eared_9468 }
+}
+c_span_isles = {
+	3000.1.1 = { change_development_level = 4 }
+	3349.1.1 = {
+		liege = d_ravenscar
+		holder = embervein_9474
+	}
+	3367.1.1 = {	holder = embervein_9475 }
+	3403.1.1 = { holder = embervein_9476 }
+	3446.1.1 = { holder = embervein_9477 }
+	3478.1.1 = { holder = embervein_9478 }
+	3502.1.1 = { holder = embervein_9479 }
+	3519.1.1 = { holder = embervein_9480 }
+	3572.1.1 = { holder = embervein_9481 }
+	3600.1.1 = { holder = embervein_9482 }
+	3632.1.1 = { holder = embervein_9483 }
+	3666.1.1 = { holder = embervein_9484 }
+	3681.1.1 = { holder = embervein_9485 }
+	3709.1.1 = { holder = embervein_9486 }
+	3747.1.1 = { holder = embervein_9487 }
+	3783.1.1 = { holder = embervein_9488 }
+	3802.1.1 = { holder = embervein_9489 }
+	3829.1.1 = { holder = embervein_9490 }
+	3858.1.1 = { holder = embervein_9491 }
+	3888.1.1 = { holder = embervein_9492 }
+	3918.1.1 = { holder = embervein_9493 }
+	3957.1.1 = { holder = embervein_9494 }
+}
+c_icereach = {
+	3351.1.1 = {
+		liege = d_ravenscar
+		holder = thricepierced_104
+		change_development_level = 3
+	}
+	3421.1.1 = { holder = thricepierced_105 }
+	3479.1.1 = { holder = thricepierced_106 }
+	3513.1.1 = { holder = thricepierced_107 }
+}
+d_northwatch = {
+	3351.7.18 = {
+		liege = k_solitude
+		holder = bannertorn_100
+		}
+	3401.1.1 = { holder = bannertorn_101 }
+	3424.1.1 = { holder = bannertorn_104 }
+	3497.1.1 = { holder = bannertorn_105 }
+	3507.1.1 = { holder = bannertorn_106 }
+	
+}
+c_northwatch = {
+	3000.1.1 = { change_development_level = 5 }
+	3351.7.18 = {
+		liege = d_northwatch
+		holder = bannertorn_100
+	}
+	3401.1.1 = { holder = bannertorn_101 }
+	3424.1.1 = { holder = bannertorn_104 }
+	3497.1.1 = { holder = bannertorn_105 }
+	3507.1.1 = { holder = bannertorn_106 }
+}
+c_rimerock = {
+	3000.1.1 = { change_development_level = 3 }
+	3330.1.1 = { holder = rimerock_100 }
+	3351.7.18 = { liege = d_northwatch }
+	3363.1.1 = { liege = 0 }
+	3385.1.1 = { holder = rimerock_101 }
+	
+}
+c_dunbarrow = {
+	3000.1.1 = { change_development_level = 4 }
+	3352.1.1 = {
+		liege = d_northwatch
+		holder = broadwall_9402
+	}
+	3369.1.1 = {
+		holder = broadwall_9407
+	}
+	3377.1.1 = { holder = broadwall_9403 }
+	3393.1.1 = { 
+		holder = broadwall_9409
+		liege = d_northwatch
+	}
+	3426.1.1 = { holder = broadwall_9410 }
+	3453.1.1 = { holder = broadwall_9411 }
+	3492.1.1 = { holder = broadwall_9412 }
+	#HistoryToDo import from ek1
+	#3509.1.1 = { #Reachmen conquest
+	#	holder = 18500 
+	#	liege = d_ingmarok
+	#} 
+	#3558.1.1 = { holder = 18501 }
+	#3579.1.1 = { holder = 18502 }
+	#3604.1.1 = { holder = 18503 }
+	#3631.1.1 = { holder = 18504 }
+	#3656.1.1 = { holder = 18505 }
+	#3688.1.1 = { holder = 18506 }
+	#3716.1.1 = { holder = 18507 }
+	#3720.1.1 = { liege = k_skyrim holder = 9123 }
+
+	3722.1.1 = {
+		liege = d_northwatch
+		holder = broadwall_9419
+	}
+	3729.1.1 = { holder = broadwall_9420 }
+	3753.1.1 = { holder = broadwall_9421 }
+	3791.1.1 = { holder = broadwall_9422 }
+	3822.1.1 = { holder = broadwall_9423 }
+	3841.1.1 = { holder = broadwall_9424 }
+}
+d_volkihar = {
+	1.1.1 = { holder = volkihar_1000 }
+}
+c_volkihar = {
+	1.1.1 = { holder = volkihar_1000 }
+	3001.1.1 = { change_development_level = 1 }
+}
+#Dragonbridge
+c_dragon_bridge = {
+	3000.1.1 = { change_development_level = 6 }
+	3357.1.1 = {
+		liege = k_solitude
+		holder = dragonbridge_11300
+	}
+	3415.1.1 = { holder = dragonbridge_11301 }
+	3457.1.1 = { holder = dragonbridge_11302 }
+	3505.1.1 = { holder = dragonbridge_11303 }
+	3533.1.1 = { holder = dragonbridge_11304 }
+	3582.1.1 = { holder = dragonbridge_11305 }
+	3607.1.1 = { holder = dragonbridge_11306 }
+	3638.1.1 = { holder = dragonbridge_11307 }
+	3659.1.1 = { holder = dragonbridge_11308 }
+	3692.1.1 = { holder = dragonbridge_11309 }
+	3709.1.1 = { holder = dragonbridge_11310 }
+	3722.1.1 = { liege = d_solitude }
+	3752.1.1 = { holder = dragonbridge_11311 }
+	3779.1.1 = { holder = dragonbridge_11312 }
+	3806.1.1 = { holder = dragonbridge_11313 }
+	3833.1.1 = { holder = dragonbridge_11314 }
+	3852.1.1 = { holder = dragonbridge_11315 }
+	3871.1.1 = { holder = dragonbridge_11316 }
+	3900.1.1 = { holder = dragonbridge_11317 }
+	3921.1.1 = { holder = dragonbridge_11318 }
+	3943.1.1 = { holder = dragonbridge_11319 }
+}
+c_cascabel = {
+	3360.1.1 = { 
+		liege = e_western_skyrim
+		holder = wolfblood_100
+	}
+	3404.1.1 = { holder = wolfblood_101 }
+}
+c_deepwood = {
+	3280.1.1 = { holder = wildspear_99 }
+	3350.1.1 = { holder = wildspear_100 }
+	3357.1.1 = { liege = e_western_skyrim }
+	3363.1.1 = { liege = 0 }
+	3369.1.1 = { holder = wildspear_101 }
+}
+c_hraggstad = {
+	3300.1.1 = { liege = d_solitude }
+	3300.1.1 = { holder = broadwall_9400 }
+	3336.1.1 = { holder = broadwall_9403 }
+	3393.1.1 = { 
+		holder = broadwall_9409
+		liege = d_northwatch
+	}
+	3426.1.1 = { holder = broadwall_9410 }
+	3453.1.1 = { holder = broadwall_9411 }
+	3492.1.1 = { holder = broadwall_9412 }
+	#HistoryToDo import from ek1
+	#3509.1.1 = { #Reachmen conquest
+	#	holder = 18500 
+	#	liege = d_ingmarok
+	#} 
+	#3558.1.1 = { holder = 18501 }
+	#3579.1.1 = { holder = 18502 }
+	#3604.1.1 = { holder = 18503 }
+	#3631.1.1 = { holder = 18504 }
+	#3656.1.1 = { holder = 18505 }
+	#3688.1.1 = { holder = 18506 }
+	#3716.1.1 = { holder = 18507 }
+	3720.1.1 = { 
+		liege = e_skyrim 
+		holder = 9123 
+	}
+	3722.1.1 = { holder = 9419 }
+	3729.1.1 = { holder = broadwall_9420 }
+	3753.1.1 = { holder = broadwall_9421 }
+	3791.1.1 = { holder = broadwall_9422 }
+	3822.1.1 = { holder = broadwall_9423 }
+	3841.1.1 = { holder = broadwall_9424 }
+}
+c_kilkreath = {
+	3000.1.1 = { change_development_level = 6 }
+	3358.1.1 = {
+		holder = kilkreath_1000
+		liege = k_solitude
+	}
+}
+
+d_darkfall = {
+	3316.1.1 = { holder = khazor_998 }
+	3317.1.1 = { liege = 0 }
+	3350.1.1 = { holder = khazor_1000 }
+	3380.1.1 = { holder = khazor_1001 }
+	3405.1.1 = { holder = khazor_1002 }
+	3437.1.1 = { holder = khazor_1003 }
+	3483.1.1 = { holder = khazor_1004 }
+	3502.1.1 = { holder = khazor_1005 }
+}
+c_darkfall = {
+	3000.1.1 = { change_development_level = 3 }
+	3316.1.1 = { holder = khazor_998 }
+	3350.1.1 = { holder = khazor_1000 }
+	3380.1.1 = { holder = khazor_1001 }
+	3405.1.1 = { holder = khazor_1002 }
+	3437.1.1 = { holder = khazor_1003 }
+	3483.1.1 = { holder = khazor_1004 }
+	3502.1.1 = { holder = khazor_1005 }
+}
+c_bruca_leap = {
+	3000.1.1 = { change_development_level = 1 }
+	3316.1.1 = { 
+		liege = d_darkfall
+		holder = khazor_998	}
+	3340.1.1 = { holder = buzga_999 }
+	3383.1.1 = { holder = buzga_1000 }
+	3404.1.1 = { holder = buzga_1001 }
+	3441.1.1 = { holder = buzga_1002 }
+	3460.1.1 = { liege = 0 }
+	3486.1.1 = { holder = buzga_1003 }
+	3512.1.1 = { holder = buzga_1004 }
+}	
+#Kingdom of Hjaalmarch
+k_morthal = {
+	3000.1.1 = { change_development_level = 5 }
+	3300.1.1 = { 
+		liege = 0
+		holder = snowwhale_98
+	}
+	3351.1.1 = {
+		liege = e_western_skyrim
+		holder = snowwhale_99
+	}
+	3361.1.1 = { liege = 0 }
+	3400.1.1 = { holder = snowwhale_102 }
+	3433.1.1 = { holder = snowwhale_103 }
+	3462.1.1 = { holder = snowwhale_104 }
+	3491.1.1 = { holder = snowwhale_105 }
+	3500.1.1 = { liege = e_western_skyrim }
+}
+d_morthal = {
+	3351.1.1 = { holder = snowwhale_99 }
+	3400.1.1 = { holder = snowwhale_102 }
+	3433.1.1 = { holder = snowwhale_103 }
+	3462.1.1 = { holder = snowwhale_104 }
+	3491.1.1 = { holder = snowwhale_105 }
+}
+c_morthal = {
+	3000.1.1 = { change_development_level = 10 }
+	3351.1.1 = { holder = snowwhale_99 }
+	3359.1.1 = { liege = d_morthal }
+	3400.1.1 = { holder = snowwhale_102 }
+	3433.1.1 = { holder = snowwhale_103 }
+	3462.1.1 = { holder = snowwhale_104 }
+	3491.1.1 = { holder = snowwhale_105 }
+}
+c_hailstone = {
+	3351.1.1 = { holder = snowwhale_99 }
+	3400.1.1 = { holder = snowwhale_102 }
+	3433.1.1 = { holder = snowwhale_103 }
+	3462.1.1 = { holder = snowwhale_104 }
+	3491.1.1 = { holder = snowwhale_105 }
+}
+c_myrwatch = {
+	3351.1.1 = { holder = snowwhale_99 }
+	3400.1.1 = { holder = snowwhale_102 }
+	3433.1.1 = { holder = snowwhale_103 }
+	3462.1.1 = { holder = snowwhale_104 }
+	3491.1.1 = { holder = snowwhale_105 }
+}
+c_wildsung = {
+	3333.1.1 = {
+		holder = wildsung_1000
+		liege = k_morthal
+	}
+	3352.1.1 = { liege = d_morthal }
+}
+c_valkygg = {
+	3000.1.1 = { change_development_level = 3 }
+	3360.1.1 = {
+		holder = valkygg_1000
+		liege = d_morthal
+	}
+}
+d_drajkmyr = {
+	3351.1.1 = { holder = snowbraid_99 }
+	3359.1.1 = { liege = k_morthal }
+	3365.1.1 = { liege = 0 }
+	3412.1.1 = { holder = snowbraid_100 }
+	3456.1.1 = { holder = snowbraid_102 }
+	3493.1.1 = { holder = snowbraid_103 }
+	3551.1.1 = { holder = snowbraid_104 }
+}
+c_stormhawk = {
+	3000.1.1 = { change_development_level = 4 }
+	3351.1.1 = { 
+		liege = k_morthal
+		holder = stormhawk_1000 
+	}
+	3361.1.1 = { liege = d_drajkmyr }
+	3500.1.1 = { holder = stormhawk_1001 }
+}
+c_morvunrund = {
+	3000.1.1 = { change_development_level = 3 }
+	3351.1.1 = { holder = snowbraid_99 }
+	3359.1.1 = { liege = k_morthal }
+	3412.1.1 = { holder = snowbraid_100 }
+	3456.1.1 = { holder = snowbraid_102 }
+	3493.1.1 = { holder = snowbraid_103 }
+	3551.1.1 = { holder = snowbraid_104 }
+}
+c_gruelan = {
+	3000.1.1 = { change_development_level = 4 }
+	3351.1.1 = { holder = snowbraid_99 }
+	3359.1.1 = { liege = k_morthal }
+	3412.1.1 = { holder = snowbraid_100 }
+	3456.1.1 = { holder = snowbraid_102 }
+	3493.1.1 = { holder = snowbraid_103 }
+	3551.1.1 = { holder = snowbraid_104 }
+}
+c_kjenstag = {
+	3356.1.1 = {
+		holder = kjenstag_1000
+		liege = d_drajkmyr
+	}
+}
+d_winstad = {
+	3356.1.1 = {
+		holder = ysmjord_300025
+		liege = k_morthal
+	}
+}
+c_winstad = {
+	3000.1.1 = { change_development_level = 4 }
+	3356.1.1 = {
+		holder = ysmjord_300025
+	}
+}
+c_hunstand = {
+	3356.1.1 = {
+		holder = ysmjord_300025
+	}
+}
+c_hammerhall = {
+	3301.1.1 = {
+		holder = sour_stone_1000
+	}
+	3341.1.1 = { liege = k_morthal }
+	3364.10.5 = { holder = sour_stone_1001 }
+}
+d_chillvale = { #Hjaalvale
+	3290.1.1 = { holder = doomsayer_97 }
+	3328.1.1 = { holder = doomsayer_98 }
+	3352.1.1 = { holder = doomsayer_99 }
+	3353.1.1 = { liege = k_morthal }
+	3365.1.1 = { liege = 0 }
+	3388.1.1 = { holder = doomsayer_100 }
+	3404.1.1 = { holder = doomsayer_102 }
+	3456.1.1 = { holder = doomsayer_103 }
+	3501.1.1 = { holder = doomsayer_104 }
+	3544.1.1 = { holder = doomsayer_106 }
+}
+c_amberguard = {
+	3290.1.1 = { holder = doomsayer_97 }
+	3328.1.1 = { holder = doomsayer_98 }
+	3352.1.1 = { holder = doomsayer_99 }
+	3388.1.1 = { holder = doomsayer_100 }
+	3404.1.1 = { holder = doomsayer_102 }
+	3456.1.1 = { holder = doomsayer_103 }
+	3501.1.1 = { holder = doomsayer_104 }
+	3544.1.1 = { holder = doomsayer_106 }
+}
+c_coldrock = {
+	3290.1.1 = { holder = doomsayer_97 }
+	3328.1.1 = { holder = doomsayer_98 }
+	3352.1.1 = { holder = doomsayer_99 }
+	3388.1.1 = { holder = doomsayer_100 }
+	3404.1.1 = { holder = doomsayer_102 }
+	3456.1.1 = { holder = doomsayer_103 }
+	3501.1.1 = { holder = doomsayer_104 }
+	3544.1.1 = { holder = doomsayer_106 }
+}
+c_chillwind = {
+	3352.1.1 = {
+		liege = d_karthald
+		holder = twicestabbed_98
+	}
+	3383.1.1 = { holder = twicestabbed_99 }
+	3419.1.1 = { holder = twicestabbed_101 }
+	3423.1.1 = { liege = e_western_skyrim }
+	3462.1.1 = { holder = twicestabbed_102 }	
+	3494.1.1 = { holder = twicestabbed_103 } #Jarl Olfwenn
+}
+c_old_karth = {
+	3354.1.1 = {
+		holder = whitebird_1000
+		liege = d_chillvale
+	}
+}
+
+d_snowhawk = {
+	3350.1.1 = { holder = ghilred_1000 }
+	3351.1.1 = { liege = k_solitude }
+	3400.1.1 = { holder = ghilred_1001 }
+	3413.1.1 = { holder = ghilred_1003 } #Likely loses land to Solitude afterwards around 450
+}
+c_snowhawk = {
+	3350.1.1 = { holder = ghilred_1000 }
+	3400.1.1 = { holder = ghilred_1001 }
+	3413.1.1 = { holder = ghilred_1003 } #Cursebraid likely inherits around 453
+}
+c_valmund = {
+	3350.1.1 = { holder = ghilred_1000 }
+	3400.1.1 = { holder = ghilred_1001 }
+	3413.1.1 = { holder = ghilred_1003 } #Cursebraid likely inherits around 453
+}
+c_korleva = {
+	3351.1.1 = {
+		holder = ale_ice_999
+		liege = d_snowhawk
+	}
+	3367.1.1 = {
+		holder = ale_ice_1000
+	}
+}
+
+#Kingdom of The Pale
+k_dawnstar = {
+	3000.1.1 = {
+		change_development_level = 5
+	}
+	3359.1.1 = { 
+		liege = e_eastern_skyrim
+		holder = ambershield_99
+	}
+	3365.1.1 = { holder = 0 }
+	3399.1.1 = { holder = ambershield_100 }
+	3438.1.1 = { holder = ambershield_102 }
+	3480.1.1 = { holder = ambershield_103 }
+	3500.1.1 = { holder = ambershield_104 }
+	3544.1.1 = { holder = ambershield_105 }
+}
+d_dawnstar = {
+	3300.1.1 = { holder = ambershield_96 }
+	3341.1.1 = { holder = ambershield_97 }
+	3359.1.1 = { 
+		liege = k_dawnstar
+		holder = ambershield_99
+	}
+	3365.1.1 = { liege = k_winterhold }
+	3399.1.1 = { holder = ambershield_100 }
+	3438.1.1 = { holder = ambershield_102 }
+	3480.1.1 = { holder = ambershield_103 }
+	3500.1.1 = { holder = ambershield_104 }
+	3544.1.1 = { holder = ambershield_105 }
+}
+c_dawnstar = {
+	3000.1.1 = { change_development_level = 11 }
+	3300.1.1 = { holder = ambershield_96 }
+	3341.1.1 = { holder = ambershield_97 }
+	3359.1.1 = { holder = ambershield_99 }
+	3399.1.1 = { holder = ambershield_100 }
+	3438.1.1 = { holder = ambershield_102 }
+	3480.1.1 = { holder = ambershield_103 }
+	3500.1.1 = { holder = ambershield_104 }
+	3544.1.1 = { holder = ambershield_105 }
+}
+c_frozen_coast = {
+	3300.1.1 = {
+		holder = ambershield_96
+		change_development_level = 3
+	}
+	3341.1.1 = { holder = ambershield_97 }
+	3359.1.1 = { holder = ambershield_99 }
+	3399.1.1 = { holder = ambershield_100 }
+	3438.1.1 = { holder = ambershield_102 }
+	3480.1.1 = { holder = ambershield_103 }
+	3500.1.1 = { holder = ambershield_104 }
+	3544.1.1 = { holder = ambershield_105 }
+}
+c_windward = {
+	3000.1.1 = { change_development_level = 6 }
+	3300.1.1 = { holder = ambershield_96 }
+	3341.1.1 = { holder = ambershield_97 }
+	3359.1.1 = { holder = ambershield_99 }
+	3399.1.1 = { holder = ambershield_100 }
+	3438.1.1 = { holder = ambershield_102 }
+	3480.1.1 = { holder = ambershield_103 }
+	3500.1.1 = { holder = ambershield_104 }
+	3544.1.1 = { holder = ambershield_105 }
+}
+c_dawn_isles = {
+	3356.1.1 = {
+		liege = d_dawnstar
+		change_development_level = 3
+	}
+	3356.1.1 = { holder = sail_mender_1000 }
+	3367.1.1 = { liege = 0 }
+	3391.8.21 = { holder = sail_mender_1000 }
+}
+c_frostmere = {
+	3356.1.1 = { liege = d_dawnstar }
+	3356.1.1 = { holder = frostmere_1000 }
+	3391.1.1 = { holder = frostmere_1001 }
+}
+c_high_gate = {
+	3332.1.1 = {
+		liege = d_dawnstar
+		change_development_level = 3
+	}
+	3332.1.1 = { holder = shatter_ice_1000 }
+	3357.12.18 = { holder = shatter_ice_1001 }
+}
+
+d_dunstad = {
+	3351.1.1 = { liege = k_dawnstar }
+	3365.1.1 = { liege = 0 }
+	3369.1.1 = { holder = snowcrest_97 }
+	3399.1.1 = { holder = snowcrest_99 }
+	3447.1.1 = { holder = snowcrest_101 }
+	3484.1.1 = { holder = snowcrest_102 }
+	3500.1.1 = { liege = k_dawnstar }
+	3517.1.1 = { holder = snowcrest_105 }
+}
+c_dunstad = {
+	3350.1.1 = {
+		liege = k_dawnstar
+		holder = snowcrest_96 }
+	3360.1.1 = { holder = snowcrest_97 }
+	3369.1.1 = { liege = d_dunstad }
+	3399.1.1 = { holder = snowcrest_99 }
+	3447.1.1 = { holder = snowcrest_101 }
+	3484.1.1 = { holder = snowcrest_102 }
+	3517.1.1 = { holder = snowcrest_105 }
+}
+c_dimhollow = {
+	3350.1.1 = {
+		liege = k_dawnstar
+		holder = snowcrest_96 }
+	3360.1.1 = { holder = snowcrest_97 }
+	3369.1.1 = { liege = d_dunstad }
+	3399.1.1 = { holder = snowcrest_99 }
+	3447.1.1 = { holder = snowcrest_101 }
+	3484.1.1 = { holder = snowcrest_102 }
+	3517.1.1 = { holder = snowcrest_105 }
+}
+c_duskglow = {
+	3359.1.1 = {
+		liege = k_dawnstar
+		holder = winterbeard_99
+		}
+	3365.1.1 = { liege = d_dunstad }
+	3370.1.1 = { holder = winterbeard_100 }
+	3400.1.1 = { holder = winterbeard_101 } #Gives to Brother
+	3422.1.1 = { holder = winterbeard_102 }
+	3464.1.1 = { holder = winterbeard_103 }
+	3502.6.19 = { holder = 0 } #Reachmen Attack
+}
+c_weystone = {
+	3360.1.1 = { 
+		liege = k_dawnstar
+		holder = weystone_1000
+		}
+	3365.1.1 = { liege = d_dunstad }
+	3500.1.1 = { holder = weystone_1001 }
+}
+d_heljarchen = {
+	3357.1.1 = {
+		liege = k_windhelm
+		holder = flamehair_1001 
+	}
+	3397.1.1 = { holder = flamehair_1007 }
+	3436.1.1 = { holder = flamehair_1012 }
+	3470.1.1 = { holder = fjalr_10 }
+	3527.1.5 = { holder = fjalr_11 }
+	
+}
+c_heljarchen = {
+	3357.1.1 = {
+		holder = flamehair_1001
+		change_development_level = 7
+	}
+	3397.1.1 = { holder = flamehair_1007 }
+	3436.1.1 = { holder = flamehair_1012 }
+	3470.1.1 = { holder = fjalr_10 }
+	3527.1.5 = { holder = fjalr_11 }
+}
+c_stonechill = {
+	3357.1.1 = {
+		holder = flamehair_1001
+		change_development_level = 6
+	}
+	3397.1.1 = { holder = flamehair_1007 }
+	3436.1.1 = { holder = flamehair_1012 }
+	3470.1.1 = { holder = fjalr_10 }
+	3527.1.5 = { holder = fjalr_11 }
+}
+c_trumble_arch = {
+	3357.1.1 = { holder = flamehair_1001 }
+	3397.1.1 = { holder = flamehair_1007 }
+	3436.1.1 = { holder = flamehair_1012 }
+	3470.1.1 = { holder = fjalr_10 }
+	3520.1.1 = { holder = fjalr_13 }
+}
+c_shearpoint = {
+	3359.1.1 = {
+		liege = d_heljarchen
+		holder = shearpoint_1000
+		change_development_level = 6
+	}
+}
+
+c_skyborn = {
+	3000.1.1 = { change_development_level = 4 }
+	3335.1.1 = { holder = skyborn_1000 }
+	3352.1.1 = { liege = e_western_skyrim }
+	3361.1.1 = { liege = 0 }
+	3371.1.1 = { liege = e_eastern_skyrim }
+	3460.1.1 = { holder = skyborn_1001 }
+}
+d_yorgrim = {
+	3500.1.1 = {
+		liege = k_windhelm
+		holder = stuhn_8 }
+	3501.1.1 = {
+		holder = stuhn_12 }
+}
+c_ironbind = { 
+	3360.1.1 = {	
+		liege = k_windhelm
+		holder = stuhn_5 }
+	3410.1.1 = { holder = stuhn_7 }
+	3450.1.1 = { holder = stuhn_8 }
+	3500.1.1 = { liege = d_yorgrim }
+	3501.1.1 = { holder = stuhn_12 }
+}
+c_yorgrim_gate = {
+	3360.1.1 = { holder = stuhn_5 }
+	3410.1.1 = { holder = stuhn_7 }
+	3450.1.1 = { holder = stuhn_8 }
+	3501.1.1 = { holder = stuhn_12 }
+
+}
+c_shrouded_grove = {
+	3322.1.1 = { 
+	liege = k_windhelm
+	holder = snowshod_98
+	}
+	3359.1.1 = { holder = snowshod_99 }
+	3418.1.1 = { holder = snowshod_100 }
+	3437.1.1 = { holder = snowshod_102 }
+	3499.1.1 = { holder = snowshod_103 }
+	3501.1.1 = { liege = d_yorgrim }
+	3519.1.1 = { holder = snowshod_104 }
+	3547.1.1 = { holder = snowshod_107 }
+}
+c_sigilkeep = {
+	3322.1.1 = { 
+	liege = k_windhelm
+	holder = snowshod_98
+	}
+	3359.1.1 = { holder = snowshod_99 }
+	3418.1.1 = { holder = snowshod_100 }
+	3437.1.1 = { holder = snowshod_102 }
+	3499.1.1 = { holder = snowshod_103 }
+	3501.1.1 = { liege = d_yorgrim }
+	3519.1.1 = { holder = snowshod_104 }
+	3547.1.1 = { holder = snowshod_107 }
+}
+
+#Kingdom of Riften
+k_riften = {
+	3190.1.1 = {
+		liege = e_skyrim
+		holder = blackthorn_95
+	}
+	3252.1.1 = { holder = blackthorn_96 }
+	3300.1.1 = { holder = bjorga_9443 }
+	3323.1.1 = { holder = bjorga_9442 }
+	3344.1.1 = { holder = bjorga_10600 }
+	3358.1.1 = {
+		liege = 0
+	}
+	3376.1.1 = { holder = bjorga_10601 }
+	3416.1.1 = { holder = bjorga_10603 }
+	3428.1.1 = { holder = bjorga_10604 }
+	3458.1.1 = { holder = bjorga_10605 }
+	3485.1.1 = { liege = e_eastern_skyrim }	
+}
+d_riften = {
+	3190.1.1 = {
+		liege = k_riften
+		holder = blackthorn_95
+	}
+	3252.1.1 = { holder = blackthorn_96 }
+	3308.1.1 = { holder = blackthorn_97 }
+	3300.1.1 = { holder = bjorga_9443 }
+	3320.1.1 = { holder = bjorga_9442 }
+	3344.1.1 = { liege = k_riften }
+	3344.1.1 = { holder = bjorga_10600 }
+	3376.1.1 = { holder = bjorga_10601 }
+	3416.1.1 = { holder = bjorga_10603 }
+	3428.1.1 = { holder = bjorga_10604 }
+	3458.1.1 = { holder = bjorga_10605 }
+	3485.1.1 = { liege = e_eastern_skyrim }
+	3496.1.1 = { holder = blackthorn_107 }
+	
+}
+c_riften = {
+	3000.1.1 = { change_development_level = 13 }
+	3190.1.1 = {
+		liege = k_riften
+		holder = blackthorn_95
+	}
+	3252.1.1 = { holder = blackthorn_96 }
+	3308.1.1 = { holder = blackthorn_97 }
+	3300.1.1 = { holder = bjorga_9443 }
+	3320.1.1 = { holder = bjorga_9442 }
+	3344.1.1 = { holder = bjorga_10600 }
+	3376.1.1 = { holder = bjorga_10601 }
+	3416.1.1 = { holder = bjorga_10603 }
+	3428.1.1 = { holder = bjorga_10604 }
+	3458.1.1 = { holder = bjorga_10605 }
+	3496.1.1 = { holder = blackthorn_107 }
+}
+c_snowshod = {
+	3301.1.1 = { holder = snowshod_98 }
+	3359.1.1 = { 
+	liege = d_riften
+	holder = snowshod_199
+	}
+	3426.1.1 = { holder = snowshod_200 }
+	3449.1.1 = { holder = snowshod_201 }
+	3491.1.1 = { holder = snowshod_202 }
+	3521.1.1 = { holder = snowshod_203 }
+
+}
+
+c_goldenglow = {
+	3350.1.1 = { holder = goldenglow_1000 }
+	3355.1.1 = { liege = 0 }
+	3500.1.1 = { holder = goldenglow_1001 }
+}
+c_blackbriar = {
+	3319.1.1 = { holder = blackbriar_98 }
+	3320.1.1 = { liege = d_smokefrost }
+	3365.1.1 = { holder = blackbriar_99 }
+	3413.1.1 = { holder = blackbriar_101 }
+	3467.1.1 = { holder = blackbriar_102 }
+	3503.1.1 = { holder = blackbriar_103 }
+}
+c_fullhelm = {
+	3319.1.1 = { holder = blackbriar_98 }
+	3320.1.1 = { liege = d_smokefrost }
+	3365.1.1 = { holder = blackbriar_99 }
+	3413.1.1 = { holder = blackbriar_101 }
+	3467.1.1 = { holder = blackbriar_102 }
+	3503.1.1 = { holder = blackbriar_103 }
+}
+c_greenwall = {
+	3360.1.1 = {
+		liege = k_riften
+		holder = meadblood_99
+	}
+	3369.1.1 = {
+		liege = 0
+	}
+	3420.1.1 = { holder = meadblood_100 }
+	3448.1.1 = { holder = meadblood_101 }
+}
+#d_stony_basin
+c_autumnshade = {
+	3296.1.1 = { holder = staghorn_98 }
+	3346.1.1 = { holder = staghorn_99 }
+	3356.1.1 = { liege = k_riften }
+	3367.1.1 = { holder = staghorn_100 }
+	3422.1.1 = { holder = staghorn_101 }
+}
+c_shor_stone = {
+	3000.1.1 = { change_development_level = 7 }
+	3296.1.1 = { holder = staghorn_98 }
+	3346.1.1 = { holder = staghorn_99 }
+	3367.1.1 = {
+		liege = k_riften
+		holder = meadblood_99
+	}
+	3420.1.1 = { holder = meadblood_100 }
+	3448.1.1 = { holder = meadblood_101 }
+}
+c_vernim_woods = {
+	3000.1.1 = { change_development_level = 5 }
+	3360.1.1 = {
+		liege = k_riften
+		holder = bjorga_10601
+	}
+	3416.1.1 = { holder = bjorga_10606 }
+	3418.1.1 = { holder = bjorga_10607 }
+}
+c_clearspring = {
+	3000.1.1 = { change_development_level = 5 }
+	3360.1.1 = {
+		liege = k_riften
+		holder = bjorga_10601
+	}
+	3416.1.1 = { holder = bjorga_10606 }
+	3418.1.1 = { holder = bjorga_10607 }	
+}
+
+d_heartwood = {
+	3290.1.1 = { holder = bjorga_97 }
+	3356.1.1 = {
+		liege = k_riften
+		holder = bjorga_98
+	}
+	3359.1.1 = { holder = bjorga_99 }
+	#Interregnum, Orc rulers? Eventually bjorga later again
+	3367.1.1 = {
+		liege = 0
+		holder = ghorak_100
+	}
+	3402.1.1 = { holder = ghorak_101 }
+	3411.1.1 = { holder = ghorak_102 }
+	3421.1.1 = { holder = ghorak_103 }
+	3466.1.1 = { holder = ghorak_104 }
+	
+	3490.1.1 = { 
+		liege = k_riften
+		holder = bjorga_102 
+	}
+}
+c_honrich = {
+	3290.1.1 = { holder = bjorga_97 }
+	3356.1.1 = {
+		liege = d_heartwood
+		holder = bjorga_98
+	}
+	3359.1.1 = { holder = bjorga_99 }
+	#Interregnum, Orc rulers? Eventually bjorga later again
+	3367.1.1 = { holder = ghorak_100 }	
+	3402.1.1 = { holder = ghorak_101 }
+	3411.1.1 = { holder = ghorak_102 }
+	3421.1.1 = { holder = ghorak_103 }
+	3466.1.1 = { holder = ghorak_104 }
+	
+	3490.1.1 = { 
+		liege = k_riften
+		holder = bjorga_102 
+	}
+}
+c_largashbur = {
+	3290.1.1 = { holder = bjorga_97 }
+	3356.1.1 = {
+		liege = d_heartwood
+		holder = bjorga_98
+	}
+	3359.1.1 = { holder = bjorga_99 }
+	#Interregnum, Orc rulers
+	3360.1.1 = {
+		liege = d_heartwood
+		holder = ghorak_99
+	}
+	3367.1.1 = { holder = ghorak_100 }	
+	3402.1.1 = { holder = ghorak_101 }
+	3411.1.1 = { holder = ghorak_102 }
+	3421.1.1 = { holder = ghorak_103 }
+	3466.1.1 = { holder = ghorak_104 }
+	
+	3490.1.1 = { holder = ghorak_105 }
+	3501.1.1 = { holder = ghorak_106 }
+}
+
+d_smokefrost = {
+	3303.1.1 = { holder = blackbriar_97 }
+	3320.1.1 = {
+		holder = blackbriar_98
+		liege = k_riften
+	}
+	3365.1.1 = { liege = 0 }
+	3366.1.1 = { holder = blackbriar_99 }
+	3413.1.1 = { holder = blackbriar_101 }
+	3467.1.1 = { holder = blackbriar_102 }
+	3500.1.1 = { liege = k_riften }
+	#3502 and beyond, new ruler
+}
+c_smokefrost = {
+	3000.1.1 = { change_development_level = 5 }
+	3303.1.1 = { holder = blackbriar_97 }
+	3320.1.1 = { holder = blackbriar_98 }
+	3357.1.1 = {
+		holder = smokefrost_1000
+		liege = d_smokefrost
+	}
+	3384.1.1 = { holder = smokefrost_1001 }
+	3428.1.1 = { holder = blackbriar_101 }
+	3467.1.1 = { holder = blackbriar_102 }
+	3500.1.1 = { liege = k_riften }
+}
+c_crystaldrift = {
+	3000.1.1 = { change_development_level = 5 }
+	3190.1.1 = {
+		liege = d_riften
+		holder = blackthorn_95
+	}
+	3252.1.1 = { holder = blackthorn_96 }
+	3308.1.1 = { holder = blackthorn_97 }
+	3324.1.1 = { holder = blackthorn_98 }
+	3358.1.1 = { holder = blackthorn_101 }
+	3365.1.1 = { holder = blackthorn_1000 }
+	3372.1.1 = { holder = blackthorn_103 }
+	3431.1.1 = { holder = blackthorn_104 }
+	3472.1.1 = { holder = blackthorn_105 }
+	3496.1.1 = { holder = blackthorn_107 }
+}
+c_ivarstead = {
+	3000.1.1 = { change_development_level = 8 }
+	3360.1.1 = {
+		liege = k_windhelm
+		holder = ivarstead_1000
+	}
+	3367.1.1 = { liege = k_riften }
+	3502.1.1 = { holder = ivarstead_1001 }
+}
+c_treva = {
+	3290.1.1 = { holder = bjorga_97 }
+	3356.1.1 = {
+		liege = d_heartwood
+		holder = bjorga_98
+	}
+	3359.1.1 = { holder = bjorga_99 }
+	3367.1.1 = {
+		liege = k_riften 
+		holder = bjorga_100
+	}
+	3417.1.1 = { holder = bjorga_101 }
+}
+
+d_nimalten = {
+	3355.1.1 = {
+		liege = k_riften
+		holder = ironhand_999
+	}
+	3361.1.1 = { holder = ironhand_1000 }
+	3367.1.1 = { liege = 0 }
+	3396.1.1 = { holder = ironhand_1001 }
+	3430.1.1 = { holder = ironhand_1003 }
+	3501.1.1 = { holder = ironhand_1004 }
+	3504.1.1 = { holder = ironhand_1005 }
+	
+}
+c_nimalten = {
+	3000.1.1 = { change_development_level = 7 }
+	3355.1.1 = {
+		liege = d_nimalten
+		holder = ironhand_999
+	}
+	3361.1.1 = { holder = ironhand_1000 }
+	3396.1.1 = { holder = ironhand_1001 }
+	3430.1.1 = { holder = ironhand_1003 }
+	3501.1.1 = { holder = ironhand_1004 }
+	3504.1.1 = { holder = ironhand_1005 }
+}
+c_arcwind = {
+	3352.1.1 = { holder = silveranvil_99 }
+	3355.1.2 = { liege = d_nimalten }
+}
+c_steelhead_cleft = {
+	3355.1.1 = {
+		holder = ironhand_999
+	}
+	3361.1.1 = { holder = ironhand_1000 }
+	3396.1.1 = { holder = ironhand_1001 }
+	3430.1.1 = { holder = ironhand_1003 }
+	3501.1.1 = { holder = ironhand_1004 }
+	3504.1.1 = { holder = ironhand_1005 }	
+}
+
+#Kingdom of Winterhold
+k_winterhold = {
+	3351.1.1 = { holder = cruelsea_98 }
+	3361.1.1 = { holder = cruelsea_99 }
+	3404.1.1 = { holder = cruelsea_100 }
+	3412.1.1 = { holder = 0 }
+}
+d_winterhold = {
+	348.1.1 = { holder = ardvar_100 }
+	3300.1.1 = { holder = cruelsea_97 }
+	3341.1.1 = { holder = cruelsea_98 }
+	3352.1.1 = { liege = k_winterhold}
+	3361.1.1 = { holder = cruelsea_99 }
+	3404.1.1 = { holder = cruelsea_100 }
+	3414.1.1 = { holder = cruelsea_102 }
+	3460.1.1 = { holder = cruelsea_103 }
+	3489.1.1 = { holder = cruelsea_104 }
+	3500.1.1 = { liege = e_eastern_skyrim }
+	3526.1.1 = { holder = cruelsea_105 }
+}
+c_winterhold = {
+	348.1.1 = { holder = ardvar_100 }
+	3300.1.1 = {
+		holder = cruelsea_97
+		change_development_level = 14
+	}
+	3341.1.1 = { holder = cruelsea_98 }
+	3352.1.1 = { liege = k_winterhold }
+	3361.1.1 = { holder = cruelsea_99 }
+	3404.1.1 = { holder = cruelsea_100 }
+	3414.1.1 = { holder = cruelsea_102 }
+	3460.1.1 = { holder = cruelsea_103 }
+	3489.1.1 = { holder = cruelsea_104 }
+	3500.1.1 = { liege = k_windhelm }
+	3526.1.1 = { holder = cruelsea_105 }
+}
+
+#b_winterhold_college = { #find another way to do this :(
+#
+#	3360.1.1 = { holder = winterhold_archmage_100 }
+#}
+
+
+c_hsaarik = {
+	348.1.1 = {
+		holder = ardvar_100
+		change_development_level = 4
+	}
+	3300.1.1 = { holder = cruelsea_97 }
+	3341.1.1 = { holder = cruelsea_98 }
+	3361.1.1 = { holder = cruelsea_99 }
+	3404.1.1 = { holder = cruelsea_100 }
+	3414.1.1 = { holder = cruelsea_102 }
+	3460.1.1 = { holder = cruelsea_103 }
+	3489.1.1 = { holder = cruelsea_104 }
+	3526.1.1 = { holder = cruelsea_105 }
+}
+c_stromhelm = {
+	3339.1.1 = {
+		liege = d_winterhold
+		holder = stromhelm_1000
+	}
+	3378.1.1 = {
+		holder = stromhelm_1001
+	}
+}
+c_broken_cape = {
+	3352.1.1 = { liege = k_winterhold }
+	3352.1.1 = {
+		holder = stone_fist_10174
+		change_development_level = 1
+	}
+	3368.1.1 = { holder = stone_fist_10175 }
+	3410.1.1 = { holder = stone_fist_10176 }
+	3457.1.1 = { liege = k_windhelm }
+	3467.1.1 = { holder = stone_fist_10177 }
+	3485.1.1 = { liege = d_dawnstar }
+	3492.1.1 = { holder = stone_fist_10178 }
+	#3503.1.1 = { liege = e_skyrim }
+	3551.1.1 = { holder = stone_fist_10179 }
+	3570.1.1 = { holder = stone_fist_10180 }
+	3591.1.1 = { holder = stone_fist_10181 }
+	3611.1.1 = { liege = k_solitude }
+	3624.1.1 = { holder = stone_fist_10182 }
+	#3633.1.1 = { liege = e_skyrim }
+	3652.1.1 = { holder = stone_fist_10183 }
+	3687.1.1 = { holder = stone_fist_10184 }
+	3690.1.1 = { liege = d_dawnstar }
+	3701.1.1 = { holder = stone_fist_10185 }
+	3738.1.1 = { holder = stone_fist_10186 }
+	3776.1.1 = { holder = stone_fist_10187 }
+	3796.1.1 = { holder = stone_fist_10188 }
+	3820.1.1 = { holder = stone_fist_10189 }
+	3854.1.1 = { holder = stone_fist_10190 }
+	3887.1.1 = { holder = stone_fist_10191 }
+	3922.1.1 = { holder = stone_fist_10192 }
+	3956.1.1 = { holder = stone_fist_10193 }
+}
+c_yngvild = {
+	3352.1.1 = { liege = k_winterhold }
+	3352.1.1 = {
+		holder = stone_fist_10174
+		change_development_level = 1
+	}
+	3368.1.1 = { holder = stone_fist_10175 }
+	3410.1.1 = { holder = stone_fist_10176 }
+	3457.1.1 = { liege = k_windhelm }
+	3467.1.1 = { holder = stone_fist_10177 }
+	3485.1.1 = { liege = d_dawnstar }
+	3492.1.1 = { holder = stone_fist_10178 }
+	#3503.1.1 = { liege = e_skyrim }
+	3551.1.1 = { holder = stone_fist_10179 }
+	3570.1.1 = { holder = stone_fist_10180 }
+	3591.1.1 = { holder = stone_fist_10181 }
+	3611.1.1 = { liege = k_solitude }
+	3624.1.1 = { holder = stone_fist_10182 }
+	#3633.1.1 = { liege = e_skyrim }
+	3652.1.1 = { holder = stone_fist_10183 }
+	3687.1.1 = { holder = stone_fist_10184 }
+	3690.1.1 = { liege = d_dawnstar }
+	3701.1.1 = { holder = stone_fist_10185 }
+	3738.1.1 = { holder = stone_fist_10186 }
+	3776.1.1 = { holder = stone_fist_10187 }
+	3796.1.1 = { holder = stone_fist_10188 }
+	3820.1.1 = { holder = stone_fist_10189 }
+	3854.1.1 = { holder = stone_fist_10190 }
+	3887.1.1 = { holder = stone_fist_10191 }
+	3922.1.1 = { holder = stone_fist_10192 }
+	3956.1.1 = { holder = stone_fist_10193 }
+}
+
+
+d_fellhammer = {
+	3300.1.1 = { liege = k_winterhold }
+	3357.1.1 = {
+		holder = hatebasket_100
+		change_development_level = 1
+	}
+	3365.1.1 = { liege = 0 }
+	3429.1.1 = { holder = hatebasket_101 }
+	3441.1.1 = { holder = hatebasket_103 }
+	3475.1.1 = { holder = hatebasket_104 }
+	3501.1.1 = { holder = hatebasket_105 }
+	3549.1.1 = { holder = hatebasket_106 }
+}
+c_fellhammer = {
+	3300.1.1 = { liege = d_fellhammer }
+	3357.1.1 = {
+		holder = hatebasket_100
+		change_development_level = 6
+	}
+	3429.1.1 = { holder = hatebasket_101 }
+	3441.1.1 = { holder = hatebasket_103 }
+	3475.1.1 = { holder = hatebasket_104 }
+	3501.1.1 = { holder = hatebasket_105 }
+	3549.1.1 = { holder = hatebasket_106 }
+}
+c_driftshade = {
+	3300.1.1 = { liege = d_fellhammer }
+	3357.1.1 = { holder = hatebasket_100 }
+	3429.1.1 = { holder = hatebasket_101 }
+	3441.1.1 = { holder = hatebasket_103 }
+	3475.1.1 = { holder = hatebasket_104 }
+	3501.1.1 = { holder = hatebasket_105 }
+	3549.1.1 = { holder = hatebasket_106 }
+}
+c_wayward = {
+	3360.1.1 = {
+		liege = d_fellhammer
+		holder = wayward_1000
+	}
+	3379.1.1 = { holder = wayward_1001 }
+}
+c_frostflow = {
+	3340.1.1 = { holder = sweetrollstealer_100 }
+	3360.1.1 = { liege = d_fellhammer }
+	3365.1.1 = { liege = k_winterhold }
+	3375.1.1 = { liege = d_fellhammer }
+	3420.1.1 = { holder = sweetrollstealer_101 }
+	3440.1.1 = { holder = sweetrollstealer_102 }
+	3498.1.1 = { holder = sweetrollstealer_103 }
+	3519.1.1 = { holder = sweetrollstealer_104 }
+}
+d_anthor = {
+	3330.1.1 = { holder = hoarblood_10 }
+	3351.1.1 = { liege = k_winterhold }
+	3358.1.1 = { holder = hoarblood_11 }
+	3399.1.1 = { holder = hoarblood_12 }
+	3420.1.1 = { holder = hoarblood_13 }
+	3439.1.1 = { holder = hoarblood_14 }
+	
+	3475.1.1 = { holder = finehair_102 }
+	3501.1.1 = { holder = finehair_103 }
+	3545.1.1 = { holder = finehair_104 }
+}
+c_anthor = {
+	3330.1.1 = { holder = hoarblood_10 }
+	3358.1.1 = {
+		holder = hoarblood_11
+		change_development_level = 1
+	}
+	3399.1.1 = { holder = hoarblood_12 }
+	3420.1.1 = { holder = hoarblood_13 }
+	3439.1.1 = { holder = hoarblood_14 }
+	
+	3475.1.1 = { holder = finehair_102 }
+	3501.1.1 = { holder = finehair_103 }
+	3545.1.1 = { holder = finehair_104 }
+}
+c_halfrun = {
+	3330.1.1 = { holder = hoarblood_10 }
+	3358.1.1 = { holder = hoarblood_101 }
+	3359.1.1 = { liege = k_windhelm }
+	3412.1.1 = { holder = hoarblood_15 }
+	3479.1.1 = { holder = hoarblood_16 }
+	3508.1.1 = { holder = hoarblood_17 }
+
+}
+c_kastav = {
+	3330.1.1 = { holder = hoarblood_10 }
+	3358.1.1 = { holder = hoarblood_101 }
+	3359.1.1 = { liege = k_windhelm }
+	3412.1.1 = { holder = hoarblood_15 }
+	3479.1.1 = { holder = hoarblood_16 }
+	3508.1.1 = { holder = hoarblood_17 }
+}
+c_saarthal = {
+	3330.1.1 = { holder = hoarblood_10 }
+	3358.1.1 = { holder = hoarblood_11 }
+	3358.10.10 = {
+		holder = hedge_milk2
+	    liege = d_anthor
+		change_development_level = 2
+	}
+	3399.1.1 = { holder = hoarblood_12 }
+	3420.1.1 = { holder = hoarblood_13 }
+	3439.1.1 = { holder = hoarblood_14 }
+	
+	3475.1.1 = { holder = finehair_102 }
+	3501.1.1 = { holder = finehair_103 }
+	3545.1.1 = { holder = finehair_104 }
+}
+d_bleakcoast = {
+	3341.1.1 = { holder = 0 }
+	3352.1.1 = { liege = k_winterhold }
+	
+	3500.1.1 = { liege = e_eastern_skyrim } #Captain Rana?
+	3503.1.1 = { holder = cruelsea_203 }
+}
+c_bleakcoast = {
+	3341.1.1 = { holder = cruelsea_98 }
+	3352.1.1 = { liege = k_winterhold }
+	3353.1.1 = { holder = cruelsea_200 }
+	3390.1.1 = { holder = cruelsea_201 }
+	3442.1.1 = { holder = cruelsea_202 }
+	3500.1.1 = { liege = d_bleakcoast }
+	3503.1.1 = { holder = cruelsea_203 }
+}
+c_bannerwatch = {
+	3340.1.1 = {
+		holder = bellstriker_99
+		change_development_level = 5
+	}
+	3351.1.1 = { liege = k_winterhold }
+	3388.1.1 = { holder = bellstriker_100 }
+	3420.1.1 = { holder = bellstriker_102 }
+	3451.1.1 = { holder = bellstriker_103 }
+	3482.1.1 = { holder = bellstriker_104 }
+	3521.1.1 = { holder = bellstriker_105 }
+}
+c_bleakrock = {
+	3319.1.1 = {
+		holder = snowbourne_97
+		change_development_level = 5
+	}
+	3353.1.1 = {
+		liege = 0
+		holder = snowbourne_99
+	}
+	3390.1.1 = { holder = snowbourne_100 }
+	3426.1.1 = { holder = snowbourne_101 }
+	3460.1.1 = { holder = snowbourne_102 }
+	#3500 and onwards, Captain Rana
+	3500.1.1 = { liege = d_bleakcoast }
+}
+c_snow_veil = {
+	3360.1.1 = { 
+		liege = e_eastern_skyrim
+		holder = highshoal_99 
+		change_development_level = 5
+	}
+	3369.1.1 = { holder = highshoal_100 }
+	3421.1.1 = { holder = highshoal_103 }
+	3470.1.1 = { holder = highshoal_104 }
+	3499.1.1 = { holder = highshoal_105 }
+	3500.1.1 = { liege = d_bleakcoast }
+	3532.1.1 = { holder = highshoal_107 }
+}
+#Kingdom of Whiterun
+k_whiterun = {
+	392.1.1 = { holder = numinex_100 } # Olaf One-Eye
+	3210.1.1 = { holder = yngvlar_992 }
+	3278.1.1 = { holder = yngvlar_993 }
+	3298.1.1 = { 
+		liege = e_skyrim
+		holder = yngvlar_994
+	}
+	3340.1.1 = { holder = yngvlar_995 }
+	3351.1.1 = { liege = 0 }
+	3364.1.1 = { holder = yngvlar_996 }
+	3410.1.1 = { holder = yngvlar_997 }
+	3426.1.1 = { holder = yngvlar_998 }
+	3468.1.1 = { holder = yngvlar_999 }
+	3499.1.1 = { holder = yngvlar_1000 }
+	3505.1.1 = { holder = yngvlar_1001 }
+}
+d_whiterun = {
+	392.1.1 = { holder = numinex_100 }
+	3210.1.1 = { holder = yngvlar_992 }
+	3278.1.1 = { holder = yngvlar_993 }
+	3298.1.1 = { 
+		liege = k_whiterun
+		holder = yngvlar_994
+	}
+	3340.1.1 = { holder = yngvlar_995 }
+	3364.1.1 = { holder = yngvlar_996 }
+	3410.1.1 = { holder = yngvlar_997 }
+	3426.1.1 = { holder = yngvlar_998 }
+	3468.1.1 = { holder = yngvlar_999 }
+	3499.1.1 = { holder = yngvlar_1000 }
+	3505.1.1 = { holder = yngvlar_1001 }
+}
+c_whiterun = {
+	392.1.1 = { holder = numinex_100 }
+	3000.1.1 = { change_development_level = 13 }
+	3210.1.1 = { holder = yngvlar_992 }
+	3278.1.1 = { holder = yngvlar_993 }
+	3298.1.1 = { 
+		liege = k_whiterun
+		holder = yngvlar_994
+	}
+	3340.1.1 = { holder = yngvlar_995 }
+	3364.1.1 = { holder = yngvlar_996 }
+	3410.1.1 = { holder = yngvlar_997 }
+	3426.1.1 = { holder = yngvlar_998 }
+	3468.1.1 = { holder = yngvlar_999 }
+	3499.1.1 = { holder = yngvlar_1000 }
+	3505.1.1 = { holder = yngvlar_1001 }
+}
+c_skulvar = {
+	392.1.1 = { holder = numinex_100 }
+	3000.1.1 = { change_development_level = 5 }
+	3210.1.1 = { holder = yngvlar_992 }
+	3278.1.1 = { holder = yngvlar_993 }
+	3298.1.1 = { 
+		holder = yngvlar_994
+	}
+	3340.1.1 = { holder = yngvlar_995 }
+	3364.1.1 = { holder = yngvlar_996 }
+	3410.1.1 = { holder = yngvlar_997 }
+	3426.1.1 = { holder = yngvlar_998 }
+	3468.1.1 = { holder = yngvlar_999 }
+	3499.1.1 = { holder = yngvlar_1000 }
+	3505.1.1 = { holder = yngvlar_1001 }
+}
+# Baronies must be held by county owner or vassal
+# b_battleborn = {
+	# 3278.1.1 = { 
+		# # liege = k_whiterun
+		# holder = battleborn_93
+	# }
+	# 3291.1.1 = { holder = battleborn_94 }
+	# 3359.1.1 = { holder = battleborn_95 }
+	# 3409.1.1 = { holder = battleborn_97 }
+	# 3436.1.1 = { holder = battleborn_100 }
+	# 3517.1.1 = { holder = battleborn_101 }
+# }
+c_steppewatch = {
+	3000.1.1 = { change_development_level = 5 }
+	3332.1.1 = {
+		holder = goldblood_9299
+		liege = d_whiterun
+	}
+	3363.12.3 = {
+		holder = goldblood_9300
+	}
+}
+c_honningbrew = {
+	3347.1.1 = {
+		holder = honeymaw_999
+		liege = d_whiterun
+	}
+	3368.3.29 = { holder = honeymaw_1000 }
+}
+c_halted_stream = {
+	3298.1.1 = { 
+		liege = d_whiterun
+		holder = yngvlar_994
+	}
+	3340.1.1 = { holder = yngvlar_995 }
+	3359.1.1 = { holder = hodgrym_99 }
+	3410.1.1 = { holder = hodgrym_100 }
+	3454.1.1 = { holder = hodgrym_101 }
+	3492.1.1 = { holder = hodgrym_102 }
+	3530.1.1 = { holder = hodgrym_104 }
+}
+c_riverwood = {
+	3000.1.1 = { change_development_level = 7 }
+	3350.1.1 = {
+		liege = 0
+		holder = riverwood_1000
+	}
+	3362.1.1 = { liege = d_helgen }
+	3396.1.1 = { holder = riverwood_1001 }
+	3468.1.1 = { holder = riverwood_1002 }
+	3500.1.1 = { liege = k_whiterun }
+	3530.1.1 = { holder = riverwood_1003 }
+}
+
+
+d_greymarch = {
+	3317.1.1 = {
+		holder = stormfist_11749
+		liege = k_whiterun
+	}
+	3364.1.1 = { holder = stormfist_11750 }
+	3490.1.1 = { 
+		holder = stormfist_11753
+	}
+	3520.1.1 = { liege = e_eastern_skyrim }
+	3522.1.1 = { holder = stormfist_11754 }
+	3533.1.1 = { holder = stormfist_11755 }
+	3561.1.1 = {
+		liege = k_whiterun
+		holder = stormfist_11756
+	}
+	3581.1.1 = { holder = stormfist_11758 }
+	3612.1.1 = { holder = stormfist_11759 }
+	3632.1.1 = { holder = stormfist_11760 }
+	3644.1.1 = { holder = stormfist_11761 }
+	3675.1.1 = { holder = stormfist_11762 }
+	3696.1.1 = { holder = stormfist_11763 }
+	3722.1.1 = { holder = stormfist_11764 }
+	3742.1.1 = { holder = stormfist_11765 }
+	3767.1.1 = { holder = stormfist_11766 }
+	3788.1.1 = { holder = stormfist_11767 }
+	3819.1.1 = { holder = stormfist_11768 }
+	3849.1.1 = { holder = stormfist_11769 }
+	3874.1.1 = { holder = stormfist_11770 }
+	3897.1.1 = { holder = stormfist_11771 }
+	3930.1.1 = { holder = stormfist_11772 }
+}
+c_greymarch = {
+	3000.1.1 = { change_development_level = 6 }
+	3317.1.1 = { holder = stormfist_11749 }
+	3364.1.1 = { holder = stormfist_11750 }
+	3490.1.1 = { 
+		holder = stormfist_11753
+	}
+	3522.1.1 = { holder = stormfist_11754 }
+	3533.1.1 = { holder = stormfist_11755 }
+	3561.1.1 = {
+		holder = stormfist_11756
+	}
+	3581.1.1 = { holder = stormfist_11758 }
+	3612.1.1 = { holder = stormfist_11759 }
+	3632.1.1 = { holder = stormfist_11760 }
+	3644.1.1 = { holder = stormfist_11761 }
+	3675.1.1 = { holder = stormfist_11762 }
+	3696.1.1 = { holder = stormfist_11763 }
+	3722.1.1 = { holder = stormfist_11764 }
+	3742.1.1 = { holder = stormfist_11765 }
+	3767.1.1 = { holder = stormfist_11766 }
+	3788.1.1 = { holder = stormfist_11767 }
+	3819.1.1 = { holder = stormfist_11768 }
+	3849.1.1 = { holder = stormfist_11769 }
+	3874.1.1 = { holder = stormfist_11770 }
+	3897.1.1 = { holder = stormfist_11771 }
+	3930.1.1 = { holder = stormfist_11772 }
+}
+c_hamvir = {
+	3000.1.1 = { change_development_level = 5 }
+	3317.1.1 = { holder = stormfist_11749 }
+	3364.1.1 = { holder = stormfist_11750 }
+	3490.1.1 = { 
+		holder = stormfist_11753
+	}	
+	3522.1.1 = { holder = stormfist_11754 }
+	3533.1.1 = { holder = stormfist_11755 }
+	3561.1.1 = {
+		holder = stormfist_11756
+	}
+	3581.1.1 = { holder = stormfist_11758 }
+	3612.1.1 = { holder = stormfist_11759 }
+	3632.1.1 = { holder = stormfist_11760 }
+	3644.1.1 = { holder = stormfist_11761 }
+	3675.1.1 = { holder = stormfist_11762 }
+	3696.1.1 = { holder = stormfist_11763 }
+	3722.1.1 = { holder = stormfist_11764 }
+	3742.1.1 = { holder = stormfist_11765 }
+	3767.1.1 = { holder = stormfist_11766 }
+	3788.1.1 = { holder = stormfist_11767 }
+	3819.1.1 = { holder = stormfist_11768 }
+	3849.1.1 = { holder = stormfist_11769 }
+	3874.1.1 = { holder = stormfist_11770 }
+	3897.1.1 = { holder = stormfist_11771 }
+	3930.1.1 = { holder = stormfist_11772 }
+}
+c_eldersblood = {
+	3000.1.1 = { change_development_level = 3 }
+	3327.1.1 = { holder = dragonwrath_1000 }
+	3364.1.1 = { holder = stormfist_11750 }
+	3365.1.1 = {
+		holder = eldersblood_1000
+		liege = d_greymarch
+	}
+}
+c_silent_moon = {
+	3000.1.1 = { change_development_level = 5 }
+	3357.1.1 = {
+		holder = silent_moon_1000
+		liege = d_greymarch
+	}
+}
+
+c_darkmoor = {
+	3000.1.1 = { change_development_level = 7 }
+	3210.1.1 = { holder = yngvlar_992 }
+	3278.1.1 = { 
+		liege = k_whiterun
+		holder = graymane_93
+	}
+	3291.1.1 = { holder = graymane_94 }
+	3361.1.1 = { holder = graymane_95 }
+	3417.1.1 = { holder = graymane_97 }
+	3433.1.1 = { holder = graymane_98 }
+	3501.1.1 = { holder = graymane_99 }
+	3549.1.1 = { holder = graymane_100 }
+}
+c_north_brittleshin = {
+	3000.1.1 = { change_development_level = 5 }
+	3210.1.1 = { holder = yngvlar_992 }
+	3278.1.1 = { 
+		liege = k_whiterun
+		holder = graymane_93
+	}
+	3291.1.1 = { holder = graymane_94 }
+	3361.1.1 = { holder = graymane_95 }
+	3417.1.1 = { holder = graymane_97 }
+	3433.1.1 = { holder = graymane_98 }
+	3501.1.1 = { holder = graymane_99 }
+	3549.1.1 = { holder = graymane_100 }
+}
+c_granite_hall = {
+	3000.1.1 = { change_development_level = 7 }
+	3210.1.1 = { holder = yngvlar_992 }
+	3278.1.1 = { 
+		liege = k_whiterun
+		holder = battleborn_93
+	}
+	3291.1.1 = { holder = battleborn_94 }
+	3359.1.1 = { holder = battleborn_95 }
+	3409.1.1 = { holder = battleborn_97 }
+	3436.1.1 = { holder = battleborn_100 }
+	3517.1.1 = { holder = battleborn_101 }
+}
+c_krumm_horn = {
+	3000.1.1 = { change_development_level = 5 }
+	3210.1.1 = { holder = yngvlar_992 }
+	3278.1.1 = { 
+		liege = k_whiterun
+		holder = battleborn_93
+	}
+	3291.1.1 = { holder = battleborn_94 }
+	3359.1.1 = { holder = battleborn_95 }
+	3409.1.1 = { holder = battleborn_97 }
+	3436.1.1 = { holder = battleborn_100 }
+	3517.1.1 = { holder = battleborn_101 }
+}
+#Independent from Whiterun
+d_valtheim = {
+	3331.1.1 = { holder = bloodsung_9349}
+	3351.1.1 = {
+		liege = 0
+		holder = bluewall_98
+	}
+	#3367.1.1 = { liege = k_windhelm }
+	3369.1.1 = { holder = bloodsung_9350 }
+	3371.1.1 = { liege = k_whiterun }
+	3380.1.1 = { holder = bluewall_99 }
+	3421.1.1 = { holder = bluewall_101 }
+	3458.1.1 = { holder = bluewall_102 }
+	3500.1.1 = { liege = e_eastern_skyrim }
+	3517.1.1 = { holder = bluewall_103 }
+	3557.1.1 = { holder = bloodsung_9356 }
+}
+c_valtheim = {
+	3000.1.1 = { change_development_level = 5 }
+	3331.1.1 = { holder = bloodsung_9349}
+	3351.1.1 = {
+		liege = d_valtheim
+		holder = bluewall_98
+	}
+	3369.1.1 = { holder = bloodsung_9350 }
+	3380.1.1 = { holder = bluewall_99 }
+	3421.1.1 = { holder = bluewall_101 }
+	3458.1.1 = { holder = bluewall_102 }
+	3517.1.1 = { holder = bluewall_103 }
+	3557.1.1 = { holder = bloodsung_9356 }
+}
+c_graywinter = {
+	3351.1.1 = {
+		liege = d_valtheim
+		holder = bluewall_98
+	}
+	3380.1.1 = { holder = bluewall_99 }
+	3421.1.1 = { holder = bluewall_101 }
+	3458.1.1 = { holder = bluewall_102 }
+	3517.1.1 = { holder = bluewall_103 }
+}
+c_fellglow = { 
+	3331.1.1 = { holder = bloodsung_9349}
+	3351.1.1 = { liege = d_valtheim }
+	3368.1.1 = { holder = bloodsung_9350 }
+	3410.1.1 = { holder = bloodsung_9351 }
+	3468.1.1 = { holder = bloodsung_9352 }
+	3489.1.1 = { holder = bloodsung_9353 }
+	3501.1.1 = { holder = bloodsung_9354 }
+	3535.1.1 = { holder = bloodsung_9355 }
+	3542.1.1 = { holder = bloodsung_9356 }
+	3584.1.1 = { holder = bloodsung_9358 }
+	#3588.1.1 = { liege = d_whiterun holder = 9287 } #HistoryToDo EK1 import, see if that still fits
+	#3611.1.1 = { holder = 9289 }
+	#3663.1.1 = { holder = 9290 }
+	#3694.1.1 = { holder = 9291 }
+	#3709.1.1 = { holder = 9292 }
+	#3726.1.1 = { holder = 9298 }
+	#3735.1.1 = { holder = 9299 }
+	#3752.1.1 = { holder = 9301 }
+	#3783.1.1 = { holder = 9302 }
+	#3823.1.1 = { holder = 9303 }
+	#3856.1.1 = { holder = 9304 }
+	#3871.1.1 = { holder = 9305 }
+}
+c_whitewatch = { 
+	3331.1.1 = { holder = bloodsung_9349}
+	3351.1.1 = { liege = d_valtheim }
+	3370.1.1 = { holder = bloodsung_9350 }
+	3410.1.1 = { holder = bloodsung_9351 }
+	3468.1.1 = { holder = bloodsung_9352 }
+	3489.1.1 = { holder = bloodsung_9353 }
+	3501.1.1 = { holder = bloodsung_9354 }
+	3535.1.1 = { holder = bloodsung_9355 }
+	3542.1.1 = { holder = bloodsung_9356 }
+	3584.1.1 = { holder = bloodsung_9358 }
+	#3588.1.1 = { liege = d_whiterun holder = 9287 } #HistoryToDo EK1 import, see if that still fits
+	#3611.1.1 = { holder = 9289 }
+	#3663.1.1 = { holder = 9290 }
+	#3694.1.1 = { holder = 9291 }
+	#3709.1.1 = { holder = 9292 }
+	#3726.1.1 = { holder = 9298 }
+	#3735.1.1 = { holder = 9299 }
+	#3752.1.1 = { holder = 9301 }
+	#3783.1.1 = { holder = 9302 }
+	#3823.1.1 = { holder = 9303 }
+	#3856.1.1 = { holder = 9304 }
+	#3871.1.1 = { holder = 9305 }
+}
+
+d_rorikstead = {
+	3300.1.1 = {
+		liege = k_whiterun
+		holder = woodhewn_98
+	}
+	3359.1.1 = {
+		liege = e_western_skyrim
+		holder = woodhewn_99
+	}
+	3368.1.1 = { liege = 0 }
+	3399.1.1 = { holder = woodhewn_101 }
+	3421.1.1 = { holder = woodhewn_103 }
+	3488.1.1 = { holder = woodhewn_104 }
+	3530.1.1 = { holder = woodhewn_105 }
+}
+c_rorikstead = {
+	3300.1.1 = {
+		liege = d_rorikstead
+		holder = woodhewn_98
+		change_development_level = 7
+	}
+	3359.1.1 = { holder = woodhewn_99 }
+	3399.1.1 = { holder = woodhewn_101 }
+	3421.1.1 = { holder = woodhewn_103 }
+	3488.1.1 = { holder = woodhewn_104 }
+	3530.1.1 = { holder = woodhewn_105 }
+}
+c_moldering = {
+	3359.1.1 = { holder = woodhewn_99 }
+	#conquered following unrests between 440 and 450
+	3363.1.1 = { holder = sanuarach_18129 }
+	3377.1.1 = { holder = sanuarach_18131 }
+	3409.1.1 = { holder = sanuarach_18138 }
+	3445.1.1 = { holder = sanuarach_18139 }
+	3478.1.1 = { holder = sanuarach_18140 }
+	3510.1.1 = { holder = sanuarach_18143 }
+	3536.1.1 = { holder = sanuarach_18159 }
+	3540.1.1 = { holder = sanuarach_18160 }
+	3565.1.1 = { holder = sanuarach_18162 }
+	3600.1.1 = { holder = sanuarach_18163 }
+	3638.1.1 = { holder = sanuarach_18164 }
+	3672.1.1 = { holder = sanuarach_18165 }
+	3694.1.1 = { holder = sanuarach_18166 }
+	3724.1.1 = { holder = sanuarach_18167 }
+	3737.1.1 = { holder = sanuarach_18168 }
+	3762.1.1 = { holder = sanuarach_18169 }
+	3782.1.1 = { holder = sanuarach_18170 }
+	3807.1.1 = { holder = sanuarach_18171 }
+	3832.1.1 = { holder = sanuarach_18172 }
+	3856.1.1 = { holder = sanuarach_18173 }
+	3875.1.1 = { holder = sanuarach_18174 }
+}
+c_eversnow = {
+	3300.1.1 = {
+		holder = woodhewn_98
+	}
+	3359.1.1 = { holder = woodhewn_99 }
+	3399.1.1 = { holder = woodhewn_101 }
+	3421.1.1 = { holder = woodhewn_103 }
+	3488.1.1 = { holder = woodhewn_104 }
+	3530.1.1 = { holder = woodhewn_105 }	
+}
+c_talking_stone = {
+	3356.1.1 = {
+		liege = d_rorikstead
+		holder = talking_stone_1000
+	}
+}
+d_fairmoor = {
+	3300.1.1 = {
+		liege = k_whiterun
+		holder = woodhewn_98
+	}
+	3352.1.1 = { 
+		liege = e_western_skyrim
+		holder = woodhewn_100 
+	}
+	3368.1.1 = { 
+		liege = 0
+		holder = woodhewn_102
+	}
+	3429.1.1 = { holder = woodhewn_200 }
+	3446.1.1 = { holder = woodhewn_201 }
+	3483.1.1 = { holder = woodhewn_202 }
+	3500.1.1 = { liege = e_western_skyrim }
+	3516.1.1 = { holder = woodhewn_203 }
+}
+c_fairmoor = {
+	3300.1.1 = {
+		liege = d_fairmoor
+		holder = woodhewn_98
+	}
+	3352.1.1 = { holder = woodhewn_100 }
+	3368.1.1 = { holder = woodhewn_102 }
+	3429.1.1 = { holder = woodhewn_200 }
+	3446.1.1 = { holder = woodhewn_201 }
+	3483.1.1 = { holder = woodhewn_202 }
+	3516.1.1 = { holder = woodhewn_203 }
+}
+c_hagarmarch = {
+	3000.1.1 = { change_development_level = 5 }
+	3300.1.1 = {
+		liege = d_fairmoor
+		holder = woodhewn_98
+	}
+	3352.1.1 = { holder = woodhewn_100 }
+	3368.1.1 = { holder = woodhewn_102 }
+	3429.1.1 = { holder = woodhewn_200 }
+	3446.1.1 = { holder = woodhewn_201 }
+	3483.1.1 = { holder = woodhewn_202 }
+	3516.1.1 = { holder = woodhewn_203 }
+}
+c_gjukar = {
+	3000.1.1 = { change_development_level = 5 }
+	3300.1.1 = {
+		liege = d_fairmoor
+		holder = gjukar_1000
+	}
+	3396.1.1 = { holder = gjukar_1001 }
+}
+
+#Kingdom of Falkreath
+k_falkreath = {
+	3300.1.1 = { holder = skjoralmor_98 }
+	3345.1.1 = { holder = skjoralmor_99 }
+
+	3354.1.1 = { holder = skjoralmor_100 }
+	3354.1.2 = { holder = yashnag_100 }
+
+	3387.1.1 = { holder = skjoralmor_100 }
+	3390.1.1 = { holder = skjoralmor_101 }
+	3415.1.1 = { holder = skjoralmor_102 }
+	3465.1.1 = { holder = skjoralmor_103 }
+	3492.1.1 = { holder = skjoralmor_104 }
+	3500.1.1 = { holder = skjoralmor_105 }
+	3503.1.1 = { holder = skjoralmor_106 }
+}
+d_falkreath = {
+	3300.1.1 = { 
+		liege = k_falkreath
+		holder = skjoralmor_98
+	}
+	3345.1.1 = { holder = skjoralmor_99 }
+
+	3354.1.1 = { 
+		holder = skjoralmor_100
+	}
+	3354.1.2 = { holder = 0 }
+	3369.1.1 = {
+		liege = 0
+		holder = skjoralmor_100
+	}
+
+	3387.1.1 = { holder = skjoralmor_100 }
+	3390.1.1 = { holder = skjoralmor_101 }
+	3415.1.1 = { holder = skjoralmor_102 }
+	3465.1.1 = { holder = skjoralmor_103 }
+	3492.1.1 = { holder = skjoralmor_104 }
+	3500.1.1 = { holder = skjoralmor_105 }
+	3503.1.1 = { holder = skjoralmor_106 }
+}
+c_falkreath = {
+	3300.1.1 = { 
+		liege = d_falkreath
+		holder = skjoralmor_98
+		change_development_level = 10
+	}
+	3345.1.1 = { holder = skjoralmor_99 }
+
+	3354.1.1 = { holder = skjoralmor_100 }
+	3354.1.2 = { holder = yashnag_100 }
+
+	3387.1.1 = { holder = skjoralmor_100 }
+	3390.1.1 = { holder = skjoralmor_101 }
+	3415.1.1 = { holder = skjoralmor_102 }
+	3465.1.1 = { holder = skjoralmor_103 }
+	3492.1.1 = { holder = skjoralmor_104 }
+	3500.1.1 = { holder = skjoralmor_105 }
+	3503.1.1 = { holder = skjoralmor_106 }
+}
+c_morgate = {
+	3300.1.1 = { holder = skjoralmor_98 }
+	3345.1.1 = { holder = skjoralmor_99 }
+
+	3354.1.1 = { holder = skjoralmor_100 }
+	3354.1.2 = { holder = yashnag_100 }
+
+	3387.1.1 = { holder = skjoralmor_100 }
+	3390.1.1 = { holder = skjoralmor_101 }
+	3415.1.1 = { holder = skjoralmor_102 }
+	3465.1.1 = { holder = skjoralmor_103 }
+	3492.1.1 = { holder = skjoralmor_104 }
+	3500.1.1 = { holder = skjoralmor_105 }
+	3503.1.1 = { holder = skjoralmor_106 }
+}
+c_peak_shade = {
+	3300.1.1 = { holder = skjoralmor_98 }
+	3345.1.1 = { holder = skjoralmor_99 }
+
+	3354.1.1 = { holder = skjoralmor_100 }
+	3354.1.2 = { holder = yashnag_100 }
+
+	3387.1.1 = { holder = skjoralmor_100 }
+	3390.1.1 = { holder = skjoralmor_101 }
+	3415.1.1 = { holder = skjoralmor_102 }
+	3465.1.1 = { holder = skjoralmor_103 }
+	3492.1.1 = { holder = skjoralmor_104 }
+	3500.1.1 = { holder = skjoralmor_105 }
+	3503.1.1 = { holder = skjoralmor_106 }
+}
+c_shriekwind = {
+	3300.1.1 = { holder = skjoralmor_98 }
+	3345.1.1 = { holder = skjoralmor_99 }
+
+	3354.1.1 = { holder = skjoralmor_100 }
+	3354.1.2 = { holder = yashnag_100 }
+
+	3387.1.1 = { holder = skjoralmor_100 }
+	3390.1.1 = { holder = skjoralmor_101 }
+	3415.1.1 = { holder = skjoralmor_102 }
+	3465.1.1 = { holder = skjoralmor_103 }
+	3492.1.1 = { holder = skjoralmor_104 }
+	3500.1.1 = { holder = skjoralmor_105 }
+	3503.1.1 = { holder = skjoralmor_106 }
+}
+c_south_brittleshin = {
+	3000.1.1 = { change_development_level = 5 }
+	3100.1.1 = { holder = toddus_howardus }
+	3350.1.1 = { holder = riverwood_1000 }
+	3396.1.1 = { holder = riverwood_1001 }
+}
+
+d_sunderstone = {
+	3354.1.1 = {
+		liege = k_falkreath
+		holder = shardbrok_1000
+	}
+	3365.3.3 = { holder = shardbrok_1001 }
+	3457.1.1 = { 
+		liege = 0
+		holder = bullblood_1006
+	}
+	3503.1.1 = { liege = k_falkreath } #HistoryToDo, add ruler
+}
+c_sunderstone = {
+	3000.1.1 = { change_development_level = 4 }
+	3354.1.1 = { holder = shardbrok_1000 }
+	3365.3.3 = { holder = shardbrok_1001 }
+	3457.1.1 = { 
+		liege = 0
+		holder = bullblood_1006
+	}
+	3503.1.1 = { liege = k_falkreath } #HistoryToDo, add ruler
+}	
+c_bannermist = {
+	3000.1.1 = { change_development_level = 4 }
+	3354.1.1 = { holder = shardbrok_1000 }
+	3365.3.3 = { holder = shardbrok_1001 }
+	3457.1.1 = { 
+		liege = 0
+		holder = bullblood_1006
+	}
+	3503.1.1 = { liege = k_falkreath } #HistoryToDo, add ruler
+}	
+c_half_moon = {
+	3000.1.1 = { change_development_level = 6 }
+	3354.1.1 = {
+		liege = d_sunderstone
+		holder = ivory_tooth_1000
+	}
+}
+c_evergreen = {
+	3354.1.1 = { 
+		liege = k_falkreath
+		holder = yashnag_101
+	}
+}
+c_lakeview = {
+	3339.1.1 = {
+		holder = tundra_eye_1000
+		liege = k_falkreath
+	}
+	3368.1.1 = {
+		holder = tundra_eye_1001
+		liege = 0 
+	}
+}
+d_helgen = {
+	3300.1.1 = { liege = k_falkreath }
+	3345.1.1 = { holder = skjoralmor_200 }
+	3354.1.1 = { liege = 0 }
+	3366.1.1 = { holder = skjoralmor_201 }
+	3369.1.1 = { holder = skjoralmor_100 }
+	3387.1.1 = { 
+		liege = k_falkreath
+		holder = skjoralmor_1001
+	
+	}
+	3424.1.1 = { holder = raveneye_100 }
+	3446.1.1 = { holder = raveneye_102 }
+	3493.1.1 = { holder = raveneye_103 }
+	3519.1.1 = { holder = raveneye_104 }
+}
+c_helgen = {
+	3000.1.1 = { change_development_level = 8 }
+	3300.1.1 = { liege = d_helgen }
+	3345.1.1 = { holder = skjoralmor_200 }
+	3362.1.1 = { holder = skjoralmor_201 }
+	3369.1.1 = { holder = skjoralmor_100 }
+	3387.1.1 = { holder = skjoralmor_1001 }
+	
+	3424.1.1 = { holder = raveneye_100 }
+	3446.1.1 = { holder = raveneye_102 }
+	3493.1.1 = { holder = raveneye_103 }
+	3519.1.1 = { holder = raveneye_104 }
+}
+c_orphan_rock = {
+	3000.1.1 = { change_development_level = 4 }
+	3300.1.1 = { liege = d_helgen }
+	3345.1.1 = { holder = skjoralmor_200 }
+	3362.1.1 = { holder = skjoralmor_201 }
+	3369.1.1 = { holder = skjoralmor_100 }
+	3387.1.1 = { holder = skjoralmor_1001 }
+	
+	3424.1.1 = { holder = raveneye_100 }
+	3446.1.1 = { holder = raveneye_102 }
+	3493.1.1 = { holder = raveneye_103 }
+	3519.1.1 = { holder = raveneye_104 }
+	#move Tundra-Eyes here pre-582
+}
+c_embershard = {
+	3323.1.1 = { holder = blackbriar_9250 }
+	3345.1.1 = { liege = d_helgen }
+	3359.1.1 = { holder = blackbriar_9251 }
+}
+
+d_neugrad = {
+	3440.1.1 = {
+		liege = 0
+		holder = silveranvil_102
+	}
+	3471.1.1 = { holder = silveranvil_103 }
+	3503.1.1 = { holder = silveranvil_104 }
+}
+c_neugrad = {
+	3357.1.1 = {
+		liege = 0
+		holder = palestone_1000
+	}
+	3368.1.1 = {
+		liege = 0 
+	}
+	3369.1.1 = {
+		holder = palestone_1001
+	}
+	3399.1.1 = {
+		liege = d_helgen
+		holder = silveranvil_100
+	}
+	3415.1.1 = { holder = silveranvil_102 }
+	3440.1.1 = { liege = d_neugrad }
+	3471.1.1 = { holder = silveranvil_103 }
+	3503.1.1 = { holder = silveranvil_104 }
+}
+c_ancestor_glade = {
+	3000.1.1 = { change_development_level = 4 }
+	3357.1.1 = {
+		liege = k_falkreath
+		holder = grognak_the_destroyer
+	}
+}
+c_bonechill = {
+	3000.1.1 = { change_development_level = 5 }
+	3358.1.1 = {
+		liege = k_falkreath
+		holder = frostwall_1000
+	}
+}
+
+#The Reach
+d_druadach = {
+	3300.1.1 = { holder = sarkarain_100 }
+	3360.1.1 = { liege = 0 }
+	3361.1.1 = { holder = sarkarain_101 }
+	3415.1.1 = { holder = sarkarain_102 }
+	3432.1.1 = { holder = sarkarain_104 }
+	3476.1.1 = { holder = sarkarain_105 }
+}
+c_druadach = {
+	3300.1.1 = { holder = sarkarain_100 }
+	3360.1.1 = { liege = d_druadach }
+	3361.1.1 = { holder = sarkarain_101 }
+	3415.1.1 = { holder = sarkarain_102 }
+	3432.1.1 = { holder = sarkarain_104 }
+	3476.1.1 = { holder = sarkarain_105 }
+}
+c_luspardain = {
+	3000.1.1 = { change_development_level = 3 }
+	3300.1.1 = { holder = sarkarain_100 }
+	3360.1.1 = { liege = d_druadach }
+	3361.1.1 = { holder = sarkarain_101 }
+	3415.1.1 = { holder = sarkarain_102 }
+	3432.1.1 = { holder = sarkarain_104 }
+	3476.1.1 = { holder = sarkarain_105 }
+}
+c_blackmoon = {
+	3000.1.1 = { change_development_level = 3 }
+	3299.1.1 = { holder = blackmoon_999 }
+	3360.1.1 = { liege = d_druadach }
+	3367.1.1 = { holder = blackmoon_1000 }
+	3421.1.1 = { holder = blackmoon_1001 }
+	3490.1.1 = { holder = blackmoon_1002 }
+	3529.1.1 = { holder = blackmoon_1003 }
+}
+d_karthald = {
+	3352.1.1 = {
+		liege = e_western_skyrim
+		holder = twicestabbed_98
+	}
+	3383.1.1 = { holder = twicestabbed_99 }
+	3419.1.1 = { holder = twicestabbed_100 }
+	
+	3423.1.1 = { 
+		liege = 0
+		holder = sarkarain_201 
+		}
+	3430.1.1 = { holder = sarkarain_202 }
+	3433.1.1 = { liege = k_markarth }
+	
+	3486.1.1 = { 
+		liege = e_western_skyrim
+		holder = twicestabbed_102
+	}
+	3494.1.1 = { holder = twicestabbed_103 } #Jarl Olfwenn
+}
+c_karthwatch = {
+	3000.1.1 = { change_development_level = 7 }
+	3328.1.1 = {
+		liege = d_snowhawk
+		holder = twicestabbed_97
+	}
+	3350.1.1 = {
+		holder = twicestabbed_98
+	}
+	3383.1.1 = { holder = twicestabbed_99 }
+	3419.1.1 = { holder = twicestabbed_101 }
+	
+	3423.1.1 = { holder = sarkarain_201 }
+	3430.1.1 = { holder = sarkarain_202 }
+	
+	3486.1.1 = { holder = twicestabbed_102 }
+	3494.1.1 = { holder = twicestabbed_103 } #Jarl Olfwenn
+}
+c_chillbain = {
+	3350.1.1 = {
+		holder = froststone_1000
+	}
+	3352.1.1 = {
+		liege = d_karthald
+	}
+	3399.9.3 = { holder = twicestabbed_99 }
+	3419.1.1 = { holder = twicestabbed_101 }
+	3423.1.1 = { liege = e_western_skyrim }
+	3462.1.1 = { holder = twicestabbed_102 }	
+	3494.1.1 = { holder = twicestabbed_103 } #Jarl Olfwenn
+}
+c_bleakwind = {
+	3360.1.1 = {
+		liege = 0
+		holder = sarkarain_200
+	}
+	3422.1.1 = { holder = sarkarain_201 }
+	3423.1.1 = { liege = d_karthald }
+	3430.1.1 = { holder = sarkarain_202 }
+	3486.1.1 = { 
+		liege = 0
+		holder = sarkarain_203
+	}
+	3516.1.1 = { holder = sarkarain_204 }
+
+}
+d_karthwasten = {
+	3339.1.1 = { holder = croweye_99 }
+	3360.1.1 = { liege = k_markarth }
+	3370.1.1 = { 
+		liege = 0
+		holder = 0
+	}
+}
+c_karthwasten = {
+	3000.1.1 = { change_development_level = 5 }
+	3339.1.1 = { holder = croweye_99 }
+	3360.1.1 = { liege = d_karthwasten }
+	3407.1.1 = { holder = croweye_100 }
+	3430.1.1 = { holder = croweye_102 }
+	3467.1.1 = { holder = croweye_103 }
+}
+c_dragontooth = { # EK TODO ( assign duchy )
+	3300.1.1 = { holder = hillhunter_100 }
+	3360.1.1 = { liege = 0 }
+	3371.1.1 = { holder = hillhunter_101 }
+	#3411 and onwards, Hillhunter wanders south, new reachfolk clan ruler
+}
+c_blindcliff = {
+	3339.1.1 = { holder = croweye_99 }
+	3360.1.1 = { liege = d_karthwasten }
+	3368.1.1 = { holder = blackdrake_99 }
+	3398.1.1 = { holder = blackdrake_100 }
+}
+
+d_skyhammer = { # EK WIP Thornroot Matron in reality
+	3350.1.1 = { 
+		liege = 0
+		holder = thornroot_999
+	}
+	3369.1.1 = { holder = thornroot_1000 }
+	3411.1.1 = { holder = thornroot_1001 }
+	3436.1.1 = { holder = thornroot_1003 }
+	3489.1.1 = { holder = thornroot_1004 }
+	3502.3.5 = { holder = hillhunter_106 }
+}
+c_reachwind = { # EK WIP Thornroot Matron
+	3270.1.1 = { 
+		liege = 0
+		holder = thornroot_998
+	}
+	3357.1.1 = { holder = lothid_100 }
+	3369.1.1 = { liege = d_skyhammer }
+	3411.1.1 = { holder = thornroot_1001 }
+	3436.1.1 = { holder = thornroot_1003 }
+	3489.1.1 = { holder = thornroot_1004 }
+	3502.3.5 = { holder = hillhunter_106 }
+	
+}
+c_dushnikh = { # EK WIP Thornroot Matron
+	3280.1.1 = { holder = thornroot_998 }
+	3322.1.1 = { holder = thornroot_999 }
+	3367.1.1 = { holder = thornroot_1000 }
+	3370.1.1 = { liege = d_skyhammer }
+	3411.1.1 = { holder = thornroot_1001 }
+	3436.1.1 = { holder = thornroot_1003 }
+	3489.1.1 = { holder = thornroot_1004 }
+	3502.3.5 = { holder = hillhunter_107 } #Held by Medone's Sister
+}
+c_skyhammer = {
+	3340.1.1 = { holder = spiritblood_100 }
+	3360.1.1 = { liege = d_skyhammer }
+	3421.1.1 = { holder = spiritblood_101 }
+	3451.1.1 = { holder = spiritblood_102 }
+	3503.1.1 = { holder = spiritblood_103 }
+}
+c_rockwatch = {
+	3340.1.1 = { holder = spiritblood_100 }
+	3360.1.1 = { liege = d_skyhammer }
+	3421.1.1 = { holder = spiritblood_101 }
+	3451.1.1 = { holder = spiritblood_102 }
+	3503.1.1 = { holder = spiritblood_103 }
+}
+
+d_hroldan = {
+	3320.1.1 = { holder = cinderheart_100 }
+	3350.1.1 = { liege = 0 }
+	3369.1.1 = { holder = 0 }
+}
+c_hroldan = {
+	3000.1.1 = { change_development_level = 5 }
+	3320.1.1 = { holder = cinderheart_100 }
+	3350.1.1 = { liege = d_hroldan }
+	3369.1.1 = { holder = cinderheart_101 }
+	3396.1.1 = { holder = cinderheart_102 }
+	3439.1.1 = { holder = cinderheart_105 }
+	3478.1.1 = { holder = cinderheart_106 }
+}
+c_soljund = {
+	3298.1.1 = { holder = sanuarach_18125 }
+	3336.1.1 = { holder = sanuarach_18126 }
+	3343.1.1 = { holder = sanuarach_18129 }
+	3350.1.1 = { liege = d_hroldan }
+	3369.1.1 = { holder = cinderheart_101 }
+
+	3489.1.1 = { holder = cinderheart_109 }
+	3539.1.1 = { holder = cinderheart_110 }
+}
+c_karthspire = {
+		3000.1.1 = { change_development_level = 3 }
+		3300.1.1 = { holder = vethrakk_100 }
+		3360.1.1 = { liege = 0 }
+}
+c_hraggen = {
+	3300.1.1 = {
+		holder = pecua 
+	}
+	3321.1.1 = {
+		liege = d_hroldan
+	}
+	3672.1.1 = { holder = morrigan }
+	3893.1.1 = { holder = made }
+	4009.1.1 = { holder = moika }
+	4338.1.1 = { holder = melka }
+	4458.1.1 = { holder = petra }
+	4461.1.1 = { holder = melka }
+}
+
+d_sungard = {
+	3350.1.1 = { 
+	liege = 0
+	holder = 0 
+	}
+	3457.1.1 = { holder = bullblood_1006 }
+	3503.1.1 = { holder = 0 }
+}
+c_sungard = { #EK TODO, might replace gap between 430 - 442 with a different ruler
+	3350.1.1 = {
+		liege = 0
+		holder = bullblood_1000
+	}
+	3379.1.1 = { holder = bullblood_1003 }
+	3430.1.1 = { holder = bullblood_1004 }
+	3442.1.1 = { holder = bullblood_1005 }
+	3457.1.1 = { 
+		liege = d_sungard
+		holder = bullblood_1006
+	}
+	#3503 and onwards, new reachfolk clan
+}
+c_breakwind = {
+	3350.1.1 = {
+		liege = 0
+		holder = bullblood_1000
+	}
+	3379.1.1 = { holder = bullblood_1003 }
+	3430.1.1 = { 
+		liege = 0
+		holder = bullblood_1004
+	}
+	#3442 and onwards, different reachfolk clan
+}
+c_ravenhall = {
+	3350.1.1 = { 
+		liege = 0
+		holder = ghostsong_100
+	}
+	3379.1.1 = { holder = ghostsong_101 }
+	3442.1.1 = { holder = ghostsong_102 }
+}
+c_valthume = {
+	3320.1.1 = { holder = shadefeather_100 }
+	3340.1.1 = { liege = 0 }
+	3379.1.1 = { holder = shadefeather_101 }
+	3401.1.1 = { holder = shadefeather_103 }
+	3462.1.1 = { holder = shadefeather_104 }
+	3500.1.1 = { liege = d_sungard }
+	3523.1.1 = { holder = shadefeather_105 }
+}
+
+##Markarth
+k_markarth = {
+	1031.1.1 = { holder = faolan }
+	1034.1.1 = { holder = 0 }
+	2900.1.1 = { change_development_level = 4 }
+	3350.1.1 = { holder = reachbreaker_101 }
+	3362.5.12 = { holder = 0 }
+	3432.1.1 = { holder = blackdrake_100 }
+	3433.1.1 = { holder = blackdrake_101 } # The Black Drake, Longhouse Emperor 1
+}
+d_markarth = {
+	3350.1.1 = { holder = reachbreaker_101 }
+	3362.5.12 = { holder = reachbreaker_105 } #Founder of Red-Crow Clan
+	3390.1.1 = { holder = blackdrake_99 }
+	3398.1.1 = { holder = blackdrake_100 }
+	3433.1.1 = { holder = blackdrake_101 } # The Black Drake, Longhouse Emperor 1
+}
+c_markarth = {
+	3000.1.1 = { change_development_level = 11 }
+	3350.1.1 = { holder = reachbreaker_101 }
+	3362.5.12 = { holder = reachbreaker_105 } #Founder of Red-Crow Clan
+	3390.1.1 = { holder = blackdrake_99 }
+	3398.1.1 = { holder = blackdrake_100 }
+	3433.1.1 = { holder = blackdrake_101 } # The Black Drake, Longhouse Emperor 1
+}
+c_ragnvald = {
+	3360.1.1 = {
+		liege = k_markarth
+		holder = reachbreaker_105
+	}
+	3390.1.1 = { holder = redcrow_100 }
+	3474.1.1 = { holder = redcrow_101 }
+}
+c_leylan = {
+	3360.1.1 = {
+		liege = k_markarth
+		holder = reachbreaker_105
+	}
+	3390.1.1 = { holder = redcrow_100 }
+	3474.1.1 = { holder = redcrow_101 }
+}
+c_kolskeggr = {
+	3000.1.1 = { change_development_level = 4 }
+	3350.1.1 = { holder = reachbreaker_101 }
+	3362.5.12 = { holder = reachbreaker_105 } #Founder of Red-Crow Clan
+	3367.1.1 = {
+		liege = d_markarth
+		holder = blackdrake_99
+	}
+	3398.1.1 = { holder = blackdrake_100 }
+}
+c_brasswater = {
+	3360.1.1 = { 
+		liege = 0
+		holder = duimnach_1000 
+	}
+}
+
+c_purewater = {
+	3360.1.1 = { holder = duimnach_1000 }
+}
+
+##Solstheim
+k_solstheim = {
+	3005.1.1 = { change_development_level = 3 }
+}
+
+d_snowfallow = {
+	3329.1.1 = { holder = heartfang_1000}
+	3364.1.1 = { holder = heartfang_1001}
+	}
+	
+c_japhet_folly = {
+	3297.1.1 = { holder = deathbrand_1000}
+	}
+	
+c_bloodskal = {
+	3305.1.1 = { holder = bloodskal_1000}
+	3362.1.1 = { holder = bloodskal_1001}
+}
+	
+c_raven_rock = {
+	3305.1.1 = { holder = bloodskal_1000}
+	3362.1.1 = { holder = bloodskal_1001}
+}
+	
+c_frostmoth = {
+	3305.1.1 = { holder = bloodskal_1000}
+	3362.1.1 = { holder = wildblood_1000}
+}
+	
+c_solvjord = {
+	3355.1.1 = { holder = snowsong_1000}
+}
+	
+c_felsaad = {
+	3329.1.1 = { holder = heartfang_1000}
+	3364.1.1 = { holder = heartfang_1001}
+}
+c_fjalding = {
+	3329.1.1 = { holder = heartfang_1000}
+	3364.1.1 = { holder = heartfang_1001}
+}
+	
+c_harstrad = {
+	3329.1.1 = { holder = heartfang_1000}
+	3364.1.1 = { holder = heartfang_1001}
+}
+	
+c_snowfallow = {
+	3352.1.1 = {
+		liege = d_snowfallow
+		holder = icemane_1000
+	}
+}
+	
+c_himmelhost = {
+	3355.1.1 = { holder = redspear_1000}
+}
+	
+c_moesring = {
+	3350.1.1 = { holder = iceclaw_1000}
+}
+	
+c_thormoor = {
+	3350.1.1 = { holder = iceclaw_1000}
+}
+	
+c_northshore = {
+	3359.1.1 = { holder = wolftongue_1000}
+}
+	
+c_highpoint = {
+	3355.1.1 = { holder = woodbiter_1000}
+}
+	

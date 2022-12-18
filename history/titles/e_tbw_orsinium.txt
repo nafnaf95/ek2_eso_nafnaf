@@ -1,0 +1,223 @@
+
+#k_fharun
+k_fharun = {
+	3005.1.1 = { change_development_level = 5 }
+}
+
+d_fharun = {
+	3355.1.1 = { holder = fharun_1000 }
+	3369.1.1 = { holder = fharun_1001 }
+	3486.1.30 = { holder = 0 }
+}
+
+c_fharun = {
+	3350.1.1 = { holder = fharun_1000 }
+	3369.1.1 = { holder = fharun_1001 }
+	3486.1.30 = { holder = fharun_1102 liege = k_orsinium }
+}
+
+c_fylmain = {
+	3320.1.1 = { holder = bagrakh_998 }
+	3344.1.1 = { holder = bagrakh_999 }
+	3350.1.1 = { holder = bagrakh_1000 }
+	3355.1.1 = { liege = d_fharun }
+	3362.1.1 = { holder = bagrakh_1001 }
+	3486.1.30 = { holder = fharun_1102 }
+}
+
+d_jehanna = {
+	1520.1.1 = { holder = orgak_100 }
+	3320.1.1 = { holder = orgak_999 }
+	3350.1.1 = { holder = sorrowmaker_1000 }
+	3395.1.1 = { holder = sorrowmaker_1001 }
+}
+
+c_jehanna = {
+	1520.1.1 = { holder = orgak_100 }
+	3320.1.1 = { holder = orgak_999 }
+	3350.1.1 = { holder = sorrowmaker_1000 }
+	3395.1.1 = { holder = sorrowmaker_1001 }
+	3486.1.30 = { holder = fharun_1102 }
+}
+
+c_sorrow = {
+	3350.1.1 = { 
+		holder = sorrow_1000
+		liege = d_jehanna
+	}
+	3366.1.1 = { holder = sorrow_1001 }
+	3486.1.30 = { holder = fharun_1102 }
+}
+
+c_coldperch = {
+	3350.1.1 = { holder = coldperch_1000 }
+	3486.1.30 = { holder = winterborn_1100 }
+}
+
+c_dunlain = {
+	3350.1.1 = { holder = ironbeak_1000 }
+	3401.1.1 = { holder = ironbeak_1001 }
+	3486.1.30 = { holder = winterborn_1100 }
+}
+
+c_cloud_spring = {
+	3350.1.1 = { holder = ironbeak_1000 }
+	3365.1.1 = { holder = knotbeard_1000 }
+	3486.1.30 = { holder = winterborn_1100 }
+}
+
+#k_wrothgar
+k_wrothgar = {
+	3005.1.1 = { change_development_level = 5 }
+}
+
+k_orsinium = {
+	920.1.1 = { holder = igrun_100 }
+	950.1.1 = { holder = igrun_101 }
+	980.1.1 = { holder = 0 } #1st Fall of Orsinium
+	2980.1.1 = { holder = golzarga_99 }
+	3345.1.1 = { holder = golzarga_101 }
+	3351.1.1 = { holder = 0 } #2nd Fall of Orsinium
+	3486.1.30 = { holder = bagrakh_1103 liege = e_daggerfall_covenant }
+	3503.4.11 = { holder = fharun_1102 }
+}
+
+c_wrothgar = {
+	3300.1.1 = { holder = agluk_999 }
+	3345.1.1 = { holder = agluk_1000 }
+	3368.1.1 = { holder = agluk_1001 }
+	3486.1.30 = { holder = bagrakh_1103 }
+}
+
+d_pale_watch = {
+	3354.1.1 = {
+		holder = hearthon_1000
+		liege = k_daggerfall 
+		government = landed_order_government
+	}
+	3362.1.1 = { liege = 0 }
+	3391.1.1 = { holder = baelborne_998c }
+	3490.1.1 = { holder = tailas_1000 }
+	3502.1.30 = { holder = 0 }
+}
+
+c_watcher_hold = {
+	3354.1.1 = {
+		holder = hearthon_1000
+		liege = k_daggerfall 
+		government = landed_order_government
+	}
+	3362.1.1 = { liege = 0 }
+	3391.1.1 = { holder = baelborne_998c }
+	3490.1.1 = { holder = tailas_1000 }
+	3502.1.30 = { holder = bagrakh_1104 liege = k_orsinium  }
+}
+
+d_shipwreck_coast = {
+	900.1.1 = { holder = igrun_99 }
+	920.1.1 = { holder = igrun_100 }
+	950.1.1 = { holder = igrun_101 }
+	980.1.1 = { holder = 0 }
+	3351.1.1 = { holder = 0 }
+}
+
+c_shipwreck_coast = {
+	900.1.1 = { holder = igrun_99 }
+	920.1.1 = { holder = igrun_100 }
+	950.1.1 = { holder = igrun_101 }
+	2980.1.1 = { holder = golzarga_99 }
+	3345.1.1 = { holder = golzarga_101 }
+	3351.1.1 = { holder = percy_1001 }
+	3366.1.1 = { holder = percy_1002 }
+	3486.1.30 = { holder = winterborn_1103 liege = d_frostbreak }
+}
+
+d_frostbreak = {
+	921.1.1 = { holder = winterborn_99 }
+	946.1.1 = { holder = winterborn_100 }
+	3290.1.1 = { holder = winterborn_998 }
+	3333.1.1 = { holder = winterborn_999 }
+	3349.1.1 = { 
+		holder = winterborn_1000
+		government = tribal_government
+	}
+	3367.1.1 = { holder = winterborn_1001 }
+	3486.1.30 = { holder = winterborn_1100 }
+}
+
+c_frostbreak = {
+	921.1.1 = { holder = winterborn_99 }
+	946.1.1 = { holder = winterborn_100 }
+	3290.1.1 = { holder = winterborn_998 }
+	3333.1.1 = { holder = winterborn_999 }
+	3349.1.1 = { holder = winterborn_1000 }
+	3367.1.1 = { holder = winterborn_1001 }
+	3486.1.30 = { holder = winterborn_1100 }
+}
+
+c_dorven = {
+	3354.1.1 = {
+		holder = hearthon_1000
+		liege = k_daggerfall 
+	}
+	3362.1.1 = { liege = 0 }
+	3365.1.1 = { holder = winterborn_1000 }
+	3367.1.1 = { holder = winterborn_1001 }
+	3391.1.1 = { holder = baelborne_998c }
+	3486.1.30 = { holder = winterborn_1101 }
+#	3490.1.1 = { holder = tailas_1000 }
+}
+
+c_graystone = {
+	3350.1.1 = { holder = winterborn_1000 }
+	3367.1.1 = { holder = winterborn_1001 }
+	3370.1.1 = { holder = gate_basher_1000 }
+	3486.1.30 = { holder = tumnosh_1100 liege = k_orsinium }
+}
+
+c_raven_spring = {
+	3350.1.1 = { holder = morkul_1000 }
+	3371.1.1 = { holder = morkul_1001 }
+	3486.1.30 = { holder = morkul_1100 }
+}
+
+c_stonefield = {
+	3340.1.1 = { holder = yashnag_99 }
+	3351.1.1 = { holder = morkul_1000 }
+	3371.1.1 = { holder = morkul_1001 }
+	3446.1.30 = { holder = lurg_100 }
+	3486.1.30 = { holder = gloorot_100 liege = k_orsinium }
+}
+
+c_argent = {
+	3350.1.1 = { holder = tumnosh_1000 }
+	3486.1.30 = { holder  = magnar_100 liege = d_frostbreak }
+}
+
+c_karthgran = {
+	3350.1.1 = { holder = shatul_1000 }
+	3486.1.30 = { holder = fharun_1102 }
+}
+
+c_royan = {
+	3350.1.1 = { holder = crowfeather_1000 }
+	3362.1.1 = { holder = crowfeather_1001 }
+	3486.1.30 = { holder = shatul_1100 liege = k_orsinium }
+}
+
+c_cambrian = {
+	3321.1.1 = { holder = brohbrokh_dumag }
+	3356.1.1 = { holder = knotbeard_1000 }
+	3365.1.1 = { holder = crowfeather_1001 }
+	3486.1.30 = { holder = bagrakh_1103 }
+}
+
+c_bonerock = {
+	3350.1.1 = { holder = bonecrack_1000 }
+}
+
+c_scarp = {
+	3350.1.1 = { holder = bloodstone_1000 }
+	3441.1.1 = { holder = bagrakh_1101 }
+	3484.1.30 = { holder = bagrakh_1103 change_development_level = 8 }
+}

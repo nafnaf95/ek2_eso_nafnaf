@@ -6,7 +6,7 @@
 #  NafNaf, Mettyu, TJG Three Banner War   #
 ###########################################
 
-# Not planned for original release, may be added in a later update
+
 
 bm_alliancewar = {
  	start_date = 3502.1.30
@@ -34,7 +34,7 @@ bm_alliancewar = {
 		religion = nord_cult
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = flamehair_1014
-		position = { 1400 265 }
+		position = { 1100 225 }
 
 		animation = personality_honorable
 	}
@@ -51,45 +51,11 @@ bm_alliancewar = {
 		religion = breton_cult
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = cumberland_1004
-		position = { 360 335 }
+		position = { 460 345 }
 
 		animation = personality_content
 	}
-	
-	character = {
-		name = "bm_alliancewar_covenant_kurog"
-		dynasty = 800020
-		dynasty_splendor_level = 5
-		type = male
-		birth = 3461.1.1
-		title = k_orsinium
-		government = tribal_government
-		culture = mountain_orc
-		religion = vosh_rakh
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		history_id = bagrakh_1003
-		position = { 850 200 }
 
-		animation = rage
-	}
-	
-	character = {
-		name = "bm_alliancewar_covenant_faharajad"
-		dynasty_house = phyllocid_bergama
-		dynasty_splendor_level = 5
-		type = male
-		birth = 3438.1.1
-		title = k_sentinel
-		government = autocracy_government
-		culture = forebear
-		religion = redguard_cult
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		history_id = bergama_1005
-		position = { 760 435 }
-
-		animation = personality_zealous
-	}
-	
 	character = {
 		name = "bm_alliancewar_dominion_ayrenn"
 		dynasty = 700000
@@ -102,45 +68,11 @@ bm_alliancewar = {
 		religion = auriel
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = arana_1001
-		position = { 500 700 }
+		position = { 500 750 }
 
 		animation = personality_bold
 	}
-	
-	character = {
-		name = "bm_alliancewar_dominion_aeradan"
-		dynasty_house = camoran_graht
-		dynasty_splendor_level = 5
-		type = male
-		birth = 3357.1.1
-		title = k_grahtwood
-		government = autocracy_government
-		culture = bosmer
-		religion = greenpact
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		history_id = camoran_9
-		position = { 800 800 }
 
-		animation = personality_callous
-	}
-	
-	character = {
-		name = "bm_alliancewar_dominion_akkhuzri"
-		dynasty = 1100008
-		dynasty_splendor_level = 5
-		type = male
-		birth = 3427.1.1
-		title = k_mane
-		government = hierocracy_government
-		culture = pellitinian
-		religion = twomoonsdance
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		history_id = mane_003
-		position = { 1195 750 }
-
-		animation = personality_compassionate
-	}
-	
 	character = {
 		name = "bm_alliancewar_kena"
 		dynasty_house = 170055
@@ -153,7 +85,7 @@ bm_alliancewar = {
 		religion = molag_cult
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = dremora_molag_kena
-		position = { 1300 500 }
+		position = { 1100 500 }
 
 		animation = rage
 	}
@@ -201,7 +133,7 @@ bm_alliancewar_dominion = {
 		religion = greenpact
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = camoran_9
-		position = { 850 690 }
+		position = { 750 590 }
 
 		animation = personality_callous
 	}
@@ -218,7 +150,7 @@ bm_alliancewar_dominion = {
 		religion = twomoonsdance
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = mane_003
-		position = { 1300 300 }
+		position = { 1100 300 }
 
 		animation = personality_compassionate
 	}
@@ -235,7 +167,7 @@ bm_alliancewar_dominion = {
 		religion = auriel
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = errinorne_1000
-		position = { 300 500 }
+		position = { 400 300 }
 
 		animation = personality_vengeful
 	}
@@ -252,27 +184,11 @@ bm_alliancewar_dominion = {
 		religion = imperial_cult
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = tharn_202
-		position = { 1500 600 }
+		position = { 1400 500 }
 
 		animation = personality_dishonorable
 	}
-	
-	character = {
-		name = "bm_alliancewar_dominion_fortunata"
-		dynasty = 100042
-		dynasty_splendor_level = 3
-		type = female
-		birth = 3452.1.1
-		title = k_anvil
-		government = autocracy_government
-		culture = nibenese
-		religion = imperial_cult
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		history_id = dugal_1000
-		position = { 700 255 }
 
-		animation = personality_dishonorable
-	}
 }
 
 bm_alliancewar_covenant = {
@@ -300,7 +216,7 @@ bm_alliancewar_covenant = {
 		religion = breton_cult
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = cumberland_1004
-		position = { 1000 500 }
+		position = { 950 400 }
 
 		animation = personality_content
 	}
@@ -317,7 +233,7 @@ bm_alliancewar_covenant = {
 		religion = vosh_rakh
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = bagrakh_1003
-		position = { 1300 200 }
+		position = { 1200 200 }
 
 		animation = rage
 	}
@@ -334,7 +250,7 @@ bm_alliancewar_covenant = {
 		religion = redguard_cult
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = bergama_1005
-		position = { 1000 750 }
+		position = { 850 750 }
 
 		animation = personality_zealous
 	}
@@ -352,7 +268,7 @@ bm_alliancewar_covenant = {
 		religion = old_gods	
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = bloodthorn_1000
-		position = { 400 400 }
+		position = { 500 350 }
 
 		animation = personality_rational
 	}	
@@ -369,7 +285,7 @@ bm_alliancewar_covenant = {
 		religion = breton_cult
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = deleyn_1005
-		position = { 300 800 }
+		position = { 350 700 }
 
 		animation = personality_rational
 	}
@@ -423,24 +339,7 @@ bm_alliancewar_pact = {
 
 		animation = personality_honorable
 	}
-	
-	character = {
-		name = "bm_alliancewar_pact_svargrim"
-		dynasty = 310001
-		dynasty_splendor_level = 3
-		type = male
-		birth = 3440.1.1
-		title = e_western_skyrim
-		government = autocracy_government
-		culture = westmarcher
-		religion = nord_cult
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		history_id = cursebraid_1009
-		position = { 400 255 }
 
-		animation = personality_cynical
-	}
-	
 	character = {
 		name = "bm_alliancewar_pact_tanval"
 		dynasty = 1300000
