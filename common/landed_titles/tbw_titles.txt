@@ -88,7 +88,7 @@ k_scaled_court = {
 	}	
 }
 
-k_craglorn_n = {
+k_star-gazer = {
 	color={ 255 153 51 }
 	definite_form = yes
 	capital = c_belkarth
@@ -105,6 +105,19 @@ d_red_rook = {
 	color={ 199 26 26 }
 	definite_form = yes
 	capital = c_crosswych
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+
+k_camlorn_faolchu = {
+	color={ 102 102 51 }
+	definite_form = yes
+	capital = c_camlorn
 	de_jure_drift_disabled = yes
 	no_automatic_claims = yes
     ignore_titularity_for_title_weighting = yes

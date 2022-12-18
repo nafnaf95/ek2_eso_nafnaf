@@ -1,6 +1,52 @@
 ﻿#######################################
 #   Daggerfall Cov High Rock          #
 #######################################
+##altmer
+
+ravenn_1000 = { 
+	name = "Verandis"
+	dynasty = 730001
+	religion = breton_cult
+	culture = balfiera
+	# father =
+	mother = ravenn_998
+	
+	dna = ravenn_1000_dna_entry
+	
+	trait = lifespan_5
+	trait = content
+	trait = temperate #mastered his bloodhunger
+	trait = gregarious #created a House of Vampires
+	trait = just #only act when asked, refused to turn Baroness Montclair to cure her against her will
+	trait = education_diplomacy_4 #is a vampire but doesn't get killed on sight
+	
+	3217.1.1 = { birth = yes }
+	3300.1.1 = { 
+		trait = vampire_character
+		effect = {
+			set_immortal_age = 24
+			substitute_lifespan_by_immortality_effect = yes
+		}
+	}
+	3300.1.1 = {
+		effect = {
+			add_prestige_level = 1
+		}
+	}
+	3504.1.1 = { death = yes }
+	portrait_override={
+		portrait_modifier_overrides={
+				custom_hair=male_hair_western_07
+				custom_beards=male_beard_mena_04
+				custom_clothes=male_clothes_secular_indian_nobility_02_high
+				custom_headgear=male_empty
+				custom_cloaks=male_cloaks_secular_fp1_nobility_03
+		}
+	}
+	
+	
+}
+
 
 ## Reachmen
 
@@ -14,8 +60,8 @@ faolchu_1000 = {
 fausta_1100 = {
 	name = "Faolchu"
 	dynasty = 121000
-	culture = blackwood
-	religion = alessian
+	culture = reachfolk
+	religion = hircine_cult
 	martial = 30
 	prowess = 50
 	
@@ -96,11 +142,166 @@ murk_1000 = {
 
 }
 
+winterborn_1100 = {
+	name = "Urfon" 
+	dynasty = 500022
+	culture = reachfolk
+	religion = malacath_cult
+	give_nickname = "Ice-Heart"
+	trait = briarheart
+	
+	3452.1.1 = { birth = yes }
+	3503.11.2 = { death = yes }
+}
+
+winterborn_1101 = {
+	name = "Kyrtos" 
+	dynasty = 500022
+	culture = reachfolk
+	religion = malacath_cult
+	trait = briarheart
+	
+	3452.1.1 = { birth = yes }
+}
+
+winterborn_1102 = {
+	name = "Corintthac" 
+	dynasty = 500022
+	culture = reachfolk
+	religion = malacath_cult
+	give_nickname = "the Abomination"
+	trait = briarheart
+	
+	3452.1.1 = { birth = yes }
+	3481.1.1 = { employer = magnar_100 }
+	3503.11.2 = { death = yes }
+}
+
+winterborn_1103 = {
+	name = "Wuhkusto" 
+	dynasty = 500022
+	culture = reachfolk
+	religion = malacath_cult
+	
+	3452.1.1 = { birth = yes }
+	3503.11.2 = { death = yes }
+}
+
+winterborn_1104 = {
+	name = "Janavynn" 
+	dynasty = 500022
+	culture = reachfolk
+	religion = malacath_cult
+	female = yes
+	trait = arcana_good_3
+
+	3452.1.1 = { birth = yes }
+	3481.1.1 = { employer = winterborn_1103 }
+	3486.1.30 = {
+		effect = {	
+			liege = {
+				appoint_court_position = {
+					recipient = root
+					court_position = court_mage_position
+				}
+			}
+		}
+	}
+	3503.11.2 = { death = yes }
+}
+
+winterborn_1105 = {
+	name = "Millengor" 
+	dynasty = 500022
+	culture = reachfolk
+	religion = malacath_cult
+	
+	3452.1.1 = { birth = yes }
+	3481.1.1 = { employer = winterborn_1103 }
+	3503.11.2 = { death = yes }
+}
+
+winterborn_1106 = {
+	name = "Olarz" 
+	dynasty = 500022
+	culture = reachfolk
+	religion = malacath_cult
+	trait = briarheart
+	give_nickname = "the Cunning"
+	
+	3452.1.1 = { birth = yes }
+	3503.11.2 = { death = yes }
+}
+
+winterborn_1107 = {
+	name = "Vilum" 
+	dynasty = 500022
+	culture = reachfolk
+	religion = malacath_cult
+	
+	3452.1.1 = { birth = yes }
+	3503.11.2 = { death = yes }
+}
+
+winterborn_1108 = {
+	name = "Ordun" 
+	dynasty = 500022
+	culture = reachfolk
+	religion = malacath_cult
+	trait = briarheart
+	give_nickname = "Clan-Slayer"
+	
+	3452.1.1 = { birth = yes }
+	3503.11.2 = { death = yes }
+}
+
+magnar_100 = {
+	name = "Magnar"
+	dynasty = lowborn
+	culture = reachfolk
+	religion = malacath_cult
+	give_nickname = "Child-Eater"
+	trait = lycan_character
+	
+	3461.1.1 = { birth = yes }
+}
+
+magnar_101 = {
+	name = "Dreadclaw"
+	dynasty = lowborn
+	culture = reachfolk
+	religion = malacath_cult
+	trait = lycan_character
+	
+	father = magnar_100
+	
+	3481.1.1 = { birth = yes }
+	3584.1.1 = { set_employer = magnar_100 }
+}
+
+uela_01 = {
+	name = "Uela"
+	female = yes
+	religion = hagraven_cult
+	culture = reachfolk
+	dynasty = dark_witness
+
+	trait = education_magical_ability_4
+	trait = necromancer
+	trait = callous
+	#trait = hagraven
+
+	learning = 12
+
+	3000.1.1 = { birth = yes }
+	3064.1.1 = {
+		add_trait = lifespan_7
+		#effect = { add_trait = hagraven_1 } #ek1 port
+	}
+	3672.1.1 = { death = yes }
+}
+
 ## Bretons
-
-# Daggerfall
-
-
 
 
 cumberland_1004 = {
@@ -155,6 +356,20 @@ cumberland_1004 = {
 			custom_hair=male_hair_indian_02
 		}
 	}
+}
+
+cumberland_1006 = {
+	name = "Nathaniel" #ESO
+	dynasty = 420002
+	religion = breton_cult
+	culture = iliac
+
+	father = cumberland_1003
+	mother = gardner_1004c
+
+	3451.1.1 = { birth = yes }
+	3486.1.1 = { add_spouse = bergama_1007 }
+	3520.1.1 = { death = yes }
 }
 
 deleyn_1005 = {
@@ -286,221 +501,6 @@ gautier_1102 = {
 
 	3475.1.1 = { birth = yes }
 	3502.1.1 = { employer = rielle_1005 }
-}
-
-
-# Lion Guard
-
-# General
-
-lionguard_1001 = {
-	name = "Mandin"
-	female = yes
-	religion = breton_cult
-	culture = crown
-	trait = education_martial_4
-
-	3475.1.1 = { birth = yes }
-	3502.1.1 = { employer = rielle_1005 }
-}
-
-# Captain
-
-lionguard_1101 = {
-	name = "Pennet"
-	religion = breton_cult
-	culture = crown
-	trait = education_martial_3
-
-	3475.1.1 = { birth = yes }
-	3502.1.1 = { employer = rielle_1005 }
-}
-
-lionguard_1102 = {
-	name = "Vistra"
-	female = yes
-	religion = breton_cult
-	culture = glenumbran
-	trait = education_martial_3
-
-	3475.1.1 = { birth = yes }
-	3502.1.1 = { employer = rielle_1005 }
-}
-
-lionguard_1103 = {
-	name = "Binlay"
-	female = yes
-	religion = breton_cult
-	culture = glenumbran
-	trait = education_martial_3
-
-	3475.1.1 = { birth = yes }
-	3502.1.1 = { employer = rielle_1005 }
-}
-
-lionguard_1104 = {
-	name = "Marone"
-	dynasty = 400106
-	religion = breton_cult
-	culture = glenumbran
-	trait = education_martial_3
-
-	3475.1.1 = { birth = yes }
-	3502.1.30 = {
-		effect = { 	
-			spawn_army = {
-				name =  mercenary_knights_lion_guard
-				men_at_arms = {
-					type = light_horsemen
-					stacks = 3
-				}
-				men_at_arms = {
-					type = war_mages
-					stacks = 3
-				}
-				men_at_arms = {
-					type = pikemen_unit
-					stacks = 3
-				}
-				men_at_arms = {
-					type = light_footmen
-					stacks = 12
-				}
-				location = province:72
-				origin = province:184
-				war = war_4311_bloodthorn_cult
-				war_keep_on_attacker_victory = yes
-				inheritable = no
-			}
-		}
-	}
-}
-
-# Sergeant
-
-lionguard_1201 = {
-	name = "Berouche"
-	female = yes
-	religion = breton_cult
-	culture = glenumbran
-	trait = education_martial_2
-	trait = drunkard
-
-	3475.1.1 = { birth = yes }
-	3502.1.1 = { employer = rielle_1005 }
-}
-
-lionguard_1202 = {
-	name = "Armoil"
-	dynasty = 400104
-	religion = breton_cult
-	culture = glenumbran
-	trait = education_martial_2
-
-	3475.1.1 = { birth = yes }
-	3502.1.1 = { employer = rielle_1005 }
-}
-
-lionguard_1203 = {
-	name = "Shaza"
-	dynasty = 400105
-	female = yes
-	religion = breton_cult
-	culture = mountain_orc
-	trait = education_martial_2
-	trait = blademaster_2
-
-	3475.1.1 = { birth = yes }
-	3502.1.1 = { employer = rielle_1005 }
-}
-
-# Private
-
-lionguard_1301 = {
-	name = "LeBlanc"
-	female = yes
-	religion = breton_cult
-	culture = glenumbran
-	trait = education_martial_1
-	trait = hunter_2
-
-	3475.1.1 = { birth = yes }
-	3502.1.1 = { employer = rielle_1005 }
-}
-
-lionguard_1302 = {
-	name = "Oiarah"
-	religion = breton_cult
-	culture = crown
-	trait = education_martial_1
-
-	3475.1.1 = { birth = yes }
-	3502.1.1 = { employer = rielle_1005 }
-}
-
-lionguard_1303 = {
-	name = "Lexi"
-	female = yes
-	religion = breton_cult
-	culture = glenumbran
-	trait = education_magical_ability_2
-
-	3475.1.1 = { birth = yes }
-	3502.1.1 = { employer = rielle_1005 }
-}
-
-lionguard_1304 = {
-	name = "Jasper"
-	dynasty = 400103
-	religion = breton_cult
-	culture = glenumbran
-	trait = education_martial_1
-
-	3475.1.1 = { birth = yes }
-	3502.1.1 = { employer = rielle_1005 }
-}
-
-lionguard_1305 = {
-	name = "Emilien"
-	dynasty = 400107
-	religion = breton_cult
-	culture = glenumbran
-	trait = education_martial_1
-
-	3475.1.1 = { birth = yes }
-	3502.1.1 = { employer = lionguard_1104 }
-}
-
-lionguard_1306 = {
-	name = "Alezan"
-	religion = breton_cult
-	culture = glenumbran
-	trait = arcana_good_2
-	trait = physician_2
-
-	3475.1.1 = { birth = yes }
-	3502.1.1 = { employer = lionguard_1104 }
-}
-
-lionguard_1307 = {
-	name = "Amelie"
-	dynasty = 400108
-	female = yes
-	religion = breton_cult
-	culture = glenumbran
-
-	3475.1.1 = { birth = yes }
-	3502.1.1 = { employer = lionguard_1104 }
-}
-
-lionguard_1308 = {
-	name = "Irbran"
-	dynasty = 400109
-	religion = breton_cult
-	culture = glenumbran
-
-	3475.1.1 = { birth = yes }
-	3502.1.1 = { employer = lionguard_1104 }
 }
 
 
@@ -664,16 +664,6 @@ redrook_1000 = {
 	3502.3.30 = { death = yes }
 }
 
-redrook_1001 = {
-	name = "Blaise" 
-	religion = breton_cult
-	culture = glenumbran
-
-	3470.1.1 = { birth = yes }
-	3502.1.30 = { employer = redrook_1000 }
-	3502.3.30 = { death = yes }
-}
-
 redrook_1002 = {
 	name = "Gaetane" 
 	female = yes
@@ -683,18 +673,6 @@ redrook_1002 = {
 	trait = arcana_good_3
 
 	3470.1.1 = { birth = yes }
-	3502.3.30 = { death = yes }
-}
-
-redrook_1003 = {
-	name = "Marisette" 
-	dynasty = 400111
-	female = yes
-	religion = breton_cult
-	culture = glenumbran
-
-	3470.1.1 = { birth = yes }
-	3502.1.30 = { employer = redrook_1000 }
 	3502.3.30 = { death = yes }
 }
 
@@ -718,8 +696,6 @@ redrook_1005 = {
 	3502.3.30 = { death = yes }
 }
 
-# Crosswich
-
 redrook_1006 = {
 	name = "Tamien"
 	dynasty = 400112
@@ -728,44 +704,6 @@ redrook_1006 = {
 
 	3470.1.1 = { birth = yes }
 	3502.3.30 = { employer = redrook_1001 }
-}
-
-redrook_1007 = {
-	name = "Donella"
-	female = yes
-	religion = breton_cult
-	culture = glenumbran
-
-	3470.1.1 = { birth = yes }
-	3502.3.30 = { employer = redrook_1006 }
-}
-
-redrook_1008 = {
-	name = "Lia"
-	female = yes
-	religion = breton_cult
-	culture = glenumbran
-
-	3470.1.1 = { birth = yes }
-	3502.3.30 = { employer = redrook_1006 }
-}
-
-redrook_1009 = {
-	name = "Theodore"
-	religion = breton_cult
-	culture = glenumbran
-
-	3470.1.1 = { birth = yes }
-	3502.3.30 = { employer = redrook_1006 }
-}
-
-redrook_1010 = {
-	name = "Virgile"
-	religion = breton_cult
-	culture = glenumbran
-
-	3470.1.1 = { birth = yes }
-	3502.3.30 = { employer = redrook_1006 }
 }
 
 
@@ -838,7 +776,6 @@ bagrakh_1103 = {
 	portrait_override = {	# Will override the character's appearance
 		portrait_modifier_overrides={
 			custom_clothes=male_clothes_secular_orc_war
-			custom_headgear=male_headgear_secular_byzantine_war_nobility_01
 			custom_beards=male_empty
 			custom_cloaks=male_furs_secular_fp1_nobility_03
 			custom_legwear=male_legwear_secular_fp1_common_01
@@ -975,114 +912,6 @@ fharun_1102 = {
 	trait = brave
 	give_nickname = "the Butcher"
 	
-	3461.1.1 = { birth = yes }
-}
-
-#Stonefield
-
-gloorot_100 = {
-	name = "Gloorot"
-	culture = mountain_orc
-	religion = code_of_malacath
-	3486.1.30 = { add_spouse = gloorot_100_wife }
-	
-	3461.1.1 = { birth = yes }
-}
-
-gloorot_100_wife = {
-	name = "Atorag"
-	culture = mountain_orc
-	religion = code_of_malacath
-	female = yes
-	
-	3461.1.1 = { birth = yes }
-	3486.1.1 = {
-		liege = {
-			appoint_court_position = {
-				recipient = root
-				court_position = huntwife_court_position
-			}
-		}
-	}
-}
-
-lurg_100 = {
-	name = "Lurg"
-	culture = mountain_orc
-	religion = code_of_malacath
-	
-	3486.1.30 = { employer = gloorot_100 }
-	3421.1.1 = { birth = yes }
-	3486.1.30 = { trait = lunatic_1 }
-	3486.1.30 = { trait = blind }
-}
-
-lurg_101 = {
-	name = "Orluguk"
-	culture = mountain_orc
-	religion = code_of_malacath
-	female = yes
-	
-	father = lurg_100
-	
-	3486.1.30 = { employer = gloorot_100 }
-	3461.1.1 = { birth = yes }
-}
-
-gloorot_100_bard = {
-	name = "Agrulla"
-	culture = mountain_orc
-	religion = code_of_malacath
-	female = yes
-	
-	3486.1.30 = { employer = gloorot_100 }
-	3461.1.1 = { birth = yes }
-}
-
-gloorot_100_orc = {
-	name = "Grenbet"
-	culture = mountain_orc
-	religion = code_of_malacath
-	female = yes
-	
-	3486.1.30 = { employer = gloorot_100 }
-	3461.1.1 = { birth = yes }
-}
-
-gloorot_100_orc2 = {
-	name = "Grugleg"
-	culture = mountain_orc
-	religion = code_of_malacath
-	female = yes
-	
-	3486.1.30 = { employer = gloorot_100 }
-	3461.1.1 = { birth = yes }
-}
-
-gloorot_100_drunk = {
-	name = "Kirgut"
-	culture = mountain_orc
-	religion = code_of_malacath
-	
-	3486.1.30 = { employer = gloorot_100 }
-	3461.1.1 = { birth = yes }
-}
-
-gloorot_100_orc3 = {
-	name = "Shab"
-	culture = mountain_orc
-	religion = code_of_malacath
-	
-	3486.1.30 = { employer = gloorot_100 }
-	3461.1.1 = { birth = yes }
-}
-
-gloorot_100_orc4 = {
-	name = "Yagorkh"
-	culture = mountain_orc
-	religion = code_of_malacath
-	
-	3486.1.30 = { employer = gloorot_100 }
 	3461.1.1 = { birth = yes }
 }
 
@@ -1603,287 +1432,6 @@ morkul_1117 = {
 	3481.1.1 = { birth = yes }
 }
 
-morkul_1118 = {
-	name = "Pruzag"
-	dynasty = 800012
-	culture = mountain_orc
-	religion = code_of_malacath
-	female = yes
-	
-	3481.1.1 = { birth = yes }
-}
-
-morkul_1119 = {
-	name = "Skalguth"
-	dynasty = 800012
-	culture = mountain_orc
-	religion = code_of_malacath
-	
-	3481.1.1 = { birth = yes }
-}
-
-morkul_1120 = {
-	name = "Ugdush"
-	dynasty = 800012
-	culture = mountain_orc
-	religion = code_of_malacath
-	
-	3481.1.1 = { birth = yes }
-}
-
-morkul_1121 = {
-	name = "Yakegg"
-	dynasty = 800012
-	culture = mountain_orc
-	religion = code_of_malacath
-	
-	3481.1.1 = { birth = yes }
-}
-
-morkul_1122 = {
-	name = "Gogul"
-	dynasty = 800012
-	culture = mountain_orc
-	religion = code_of_malacath
-	female = yes
-	
-	3481.1.1 = { birth = yes }
-}
-
-morkul_1123 = {
-	name = "Rogba"
-	dynasty = 800012
-	culture = mountain_orc
-	religion = code_of_malacath
-	female = yes
-	
-	3481.1.1 = { birth = yes }
-}
-
-morkul_1124 = {
-	name = "Othrika"
-	dynasty = 800012
-	culture = mountain_orc
-	religion = code_of_malacath
-	female = yes
-	
-	3481.1.1 = { birth = yes }
-}
-
-morkul_1125 = {
-	name = "Rogrug"
-	dynasty = 800012
-	culture = mountain_orc
-	religion = code_of_malacath
-	
-	3481.1.1 = { birth = yes }
-}
-
-morkul_1126 = {
-	name = "Kruaga"
-	dynasty = 800012
-	culture = mountain_orc
-	religion = code_of_malacath
-	female = yes
-	
-	3481.1.1 = { birth = yes }
-}
-
-morkul_1127 = {
-	name = "Aghurz"
-	dynasty = 800012
-	culture = mountain_orc
-	religion = code_of_malacath
-	
-	3481.1.1 = { birth = yes }
-}
-
-morkul_1128 = {
-	name = "Borgrara"
-	dynasty = 800012
-	culture = mountain_orc
-	religion = code_of_malacath
-	female = yes
-	
-	3481.1.1 = { birth = yes }
-}
-
-morkul_1129 = {
-	name = "Oorgurn"
-	dynasty = 800012
-	culture = mountain_orc
-	religion = code_of_malacath
-	
-	3481.1.1 = { birth = yes }
-}
-
-morkul_1130 = {
-	name = "Brulak"
-	dynasty = 800012
-	culture = mountain_orc
-	religion = code_of_malacath
-	
-	3481.1.1 = { birth = yes }
-}
-
-morkul_1131 = {
-	name = "Borzugh"
-	dynasty = 800012
-	culture = mountain_orc
-	religion = code_of_malacath
-	
-	3481.1.1 = { birth = yes }
-}
-
-morkul_1132 = {
-	name = "Ghakorz"
-	dynasty = 800012
-	culture = mountain_orc
-	religion = code_of_malacath
-	3502.1.30 = { set_employer = c_evermore }
-	
-	3481.1.1 = { birth = yes }
-}
-
-## Reachmen
-
-winterborn_1100 = {
-	name = "Urfon" 
-	dynasty = 500022
-	culture = reachfolk
-	religion = malacath_cult
-	give_nickname = "Ice-Heart"
-	trait = briarheart
-	
-	3452.1.1 = { birth = yes }
-	3503.11.2 = { death = yes }
-}
-
-winterborn_1101 = {
-	name = "Kyrtos" 
-	dynasty = 500022
-	culture = reachfolk
-	religion = malacath_cult
-	trait = briarheart
-	
-	3452.1.1 = { birth = yes }
-}
-
-winterborn_1102 = {
-	name = "Corintthac" 
-	dynasty = 500022
-	culture = reachfolk
-	religion = malacath_cult
-	give_nickname = "the Abomination"
-	trait = briarheart
-	
-	3452.1.1 = { birth = yes }
-	3481.1.1 = { employer = magnar_100 }
-	3503.11.2 = { death = yes }
-}
-
-winterborn_1103 = {
-	name = "Wuhkusto" 
-	dynasty = 500022
-	culture = reachfolk
-	religion = malacath_cult
-	
-	3452.1.1 = { birth = yes }
-	3503.11.2 = { death = yes }
-}
-
-winterborn_1104 = {
-	name = "Janavynn" 
-	dynasty = 500022
-	culture = reachfolk
-	religion = malacath_cult
-	female = yes
-	trait = arcana_good_3
-
-	3452.1.1 = { birth = yes }
-	3481.1.1 = { employer = winterborn_1103 }
-	3486.1.30 = {
-		effect = {	
-			liege = {
-				appoint_court_position = {
-					recipient = root
-					court_position = court_mage_position
-				}
-			}
-		}
-	}
-	3503.11.2 = { death = yes }
-}
-
-winterborn_1105 = {
-	name = "Millengor" 
-	dynasty = 500022
-	culture = reachfolk
-	religion = malacath_cult
-	
-	3452.1.1 = { birth = yes }
-	3481.1.1 = { employer = winterborn_1103 }
-	3503.11.2 = { death = yes }
-}
-
-winterborn_1106 = {
-	name = "Olarz" 
-	dynasty = 500022
-	culture = reachfolk
-	religion = malacath_cult
-	trait = briarheart
-	give_nickname = "the Cunning"
-	
-	3452.1.1 = { birth = yes }
-	3503.11.2 = { death = yes }
-}
-
-winterborn_1107 = {
-	name = "Vilum" 
-	dynasty = 500022
-	culture = reachfolk
-	religion = malacath_cult
-	
-	3452.1.1 = { birth = yes }
-	3503.11.2 = { death = yes }
-}
-
-winterborn_1108 = {
-	name = "Ordun" 
-	dynasty = 500022
-	culture = reachfolk
-	religion = malacath_cult
-	trait = briarheart
-	give_nickname = "Clan-Slayer"
-	
-	3452.1.1 = { birth = yes }
-	3503.11.2 = { death = yes }
-}
-
-magnar_100 = {
-	name = "Magnar"
-	dynasty = lowborn
-	culture = reachfolk
-	religion = malacath_cult
-	give_nickname = "Child-Eater"
-	trait = lycan_character
-	
-	3461.1.1 = { birth = yes }
-}
-
-magnar_101 = {
-	name = "Dreadclaw"
-	dynasty = lowborn
-	culture = reachfolk
-	religion = malacath_cult
-	trait = lycan_character
-	
-	father = magnar_100
-	
-	3481.1.1 = { birth = yes }
-	3584.1.1 = { set_employer = magnar_100 }
-}
-
 
 ##########################################
 #          DC Hammerfell                 #
@@ -1969,12 +1517,39 @@ skaven_1002 = {
 	
 	mother = skaven_1001b
 
-	3446.1.1 = { birth = yes }
-	3513.1.1 = { death = yes }	
+	3476.1.1 = { birth = yes }
+	3543.1.1 = { death = yes }	
 }
 
+star-gazer_1000 = {
+	name = "High Astrologer Caecilus"
+	dynasty = star-gazer
+	religion = celestial_cult
+	culture = crown
+	
+	3466.1.1 = { birth = yes }
+	3543.1.1 = { death = yes }	
+}
 
+braadoth_1000 = {
+	name = "Exarch Braadoth"
+	dynasty = braadoth
+	religion = celestial_cult
+	culture = iron_orc
+	
+	3466.1.1 = { birth = yes }
+	3543.1.1 = { death = yes }
 
+}
 
+cassipia_1000 = {
+	name = "Regent Cassipia"
+	dynasty = cassipia
+	religion = imperial_cult
+	culture = heartlander
+	female = yes
+	
+	3466.1.1 = { birth = yes }
+	3543.1.1 = { death = yes }
 
-
+}

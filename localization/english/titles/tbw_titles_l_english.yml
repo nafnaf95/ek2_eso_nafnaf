@@ -20,8 +20,13 @@
  k_dark_witness_adj:0 "The Dark Witness Cult"
  k_scaled_court:0 "The Scaled Court"
  k_scaled_court_adj:0 "The Scaled Court"
- k_craglorn_n:0 "The Star-Gazers "
- k_craglorn_n_adj:0 "The Star-Gazers"
- 
+ k_star-gazer:0 "The Star-Gazers "
+ k_star-gazer_adj:0 "The Star-Gazers"
+ k_camlorn_faolchu:0 "Faolchu's Kin"
+ k_camlorn_faolchu_adj:0 "Faolchu's Kin"
+ d_red_rook:0 "Red Rook Bandits"
+ d_red_rook_adj:0 "Red Rook Bandits"
+ d_reachmen_bloodthorn:0 "The Bloodthorn Cult"
+ d_reachmen_bloodthorn_adj:0 "The Bloodthorn Cult"
  
  

@@ -3,7 +3,22 @@
 	culture = alikr
 }
 
-craglorn_n = { ## NAFESO
+star-gazer = { ## NAFESO
 	name = "Star-Gazers"
 	culture = celestial
+}
+
+dark_witness = {
+	name = "The Dark Witness Cult"
+	culture = reachfolk
+}
+
+braadoth = {
+	name = "Scaled Court"
+	culture = iron_orc
+}
+
+cassipia = {
+	name = "Cassipia"
+	culture = heartlander
 }

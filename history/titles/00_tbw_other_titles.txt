@@ -74,19 +74,20 @@ k_mane = {
 		}
 }
 
-k_craglorn_n = { 
-	3480.1.1 = { holder = stargazer_1 }
-	3510.1.1 = { 
-		liege = cumberland_1004
-		holder = stargazer_1 }
+k_star-gazer = { 
+	3480.1.1 = { holder = star-gazer_1000 }
 	}
 
 k_scaled_court = { 
-	3480.1.1 = { holder = braadoth_1 }
+	3480.1.1 = { holder = braadoth_1000 }
 	}
 
 k_dark_witness = { 
 	3480.1.1 = { holder = dark_witness }
+	}
+	
+k_camlorn_faolchu = { 
+	3480.1.1 = { holder = fausta_1100 }
 	}
 
 k_nomads_alikr = { 

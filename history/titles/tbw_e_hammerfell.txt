@@ -560,6 +560,7 @@ d_ojwambu = {
 	3333.1.1 = { holder = ojwa_1000 }
 	3352.1.1 = { holder = ojwa_1001 }
 	3367.1.1 = { holder = ojwa_1002 }
+	3501.12.12 = { holder = tharn_226 }#edited
 }
 c_ojwambu = {
 	800.1.1 = { holder = ojwa_100 }
@@ -605,11 +606,11 @@ d_thorstad = {
 	3350.1.1 = { holder = ragad_1000 }
 	3355.1.1 = { liege = k_ojwambu }
 	3381.1.1 = { holder = ragad_1001 }
-	3481.1.1 = { holder = bergama_1005 }
 }
 c_thorstad = {
 	3350.1.1 = { holder = ragad_1000 }
 	3381.1.1 = { holder = ragad_1001 }
+	3481.1.1 = { holder = bergama_1005 }
 }
 c_ragad = {
 	3350.1.1 = { holder = ragad_1000 }
@@ -910,9 +911,11 @@ c_chiselshriek = {
 }
 c_belkarth = {
 	3350.1.1 = { holder = bahah_1000 }
+	3480.1.1 = { holder = star-gazer_1000 }
 }
 c_reinhold = {
 	3350.1.1 = { holder = bahah_1000 }
+	3480.1.1 = { holder = star-gazer_1000 }
 }
 c_rimwatch = {
 	3350.1.1 = { holder = bendcrag_1000 }
@@ -927,10 +930,12 @@ c_dragonstar = {
 	3005.1.1 = { change_development_level = 12 }
 	3320.1.1 = { holder = dovahater_1000 }
 	3361.1.1 = { holder = dovahater_1001 }
+	3481.1.1 = { holder = cassipia_1000 }#
 }
 c_dragonwall = {
 	3320.1.1 = { holder = dovahater_1000 }
 	3361.1.1 = { holder = dovahater_1001 }
+	3481.1.1 = { holder = cassipia_1000 }#
 }
 c_fearfang = {
 	3320.1.1 = { holder = dovahater_1000 }
@@ -944,6 +949,7 @@ c_lothna = {
 c_skyreach = {
 	3350.1.1 = { holder = galatite_1000 }
 	3372.1.1 = { holder = galatite_1002 }
+	3480.1.1 = { holder = braadoth_1000 }
 }
 c_skypinnacle = {
 	3350.1.1 = { holder = galatite_1000 }
@@ -951,15 +957,18 @@ c_skypinnacle = {
 }
 c_illthag = {
 	3350.1.1 = { holder = malachite_1000 }
+	3480.1.1 = { holder = braadoth_1000 }
 }
 c_abdir = {
 	3350.1.1 = { holder = zircon_1000 }
+	3480.1.1 = { holder = braadoth_1000 }
 }
 c_sirhan = {
 	3350.1.1 = { holder = sirhan_1000 }
 }
 c_rahniza = {
 	3350.1.1 = { holder = rahniza_1000 }
+	3480.1.1 = { holder = star-gazer_1000 }
 }
 c_thunder_falls = {
 	3350.1.1 = { 
@@ -969,9 +978,11 @@ c_thunder_falls = {
 }
 c_hel_ra = {
 	3350.1.1 = { holder = chad_1000 }
+	3480.1.1 = { holder = star-gazer_1000 }
 }
 c_kardala = {
 	3350.1.1 = { holder = kardala_1000 }
+	3480.1.1 = { holder = star-gazer_1000 }
 }
 c_lankara = {
 	3350.1.1 = { holder = kardala_1000 }
@@ -1012,7 +1023,7 @@ c_anbar_pass = {
 	3329.1.1 = { holder = brenewon_999 }
 	3356.1.1 = { holder = brenewon_1000 }
 	3480.1.1 = { 
-		holder = acatis_1002
+		holder = nizwa_1003
 	} #edited
 }
 d_riverpoint = {
@@ -1113,6 +1124,7 @@ d_stonedale = {
 }
 c_stonedale = {
 	3350.1.1 = { holder = ahvaz_1000 }
+	3480.1.1 = { holder = star-gazer_1000 }
 }
 c_ahvaz = {
 	3350.1.1 = { holder = ahvaz_1000 }
@@ -1131,6 +1143,7 @@ c_agadem = {
 		liege = d_vulkneu
 	}
 	3388.1.1 = { holder = agadem_1001 }
+	3480.1.1 = { holder = star-gazer_1000 }
 }
 c_meroe = {
 	3350.1.1 = {
@@ -1138,12 +1151,14 @@ c_meroe = {
 		liege = d_vulkneu
 	}
 	3388.1.1 = { holder = agadem_1001 }
+	3480.1.1 = { holder = star-gazer_1000 }
 }
 c_lacryma = {
 	3350.1.1 = {
 		holder = lacryma_1000
 		liege = d_vulkneu
 	}
+	3480.1.1 = { holder = star-gazer_1000 }
 }
 c_djenne = {
 	3350.1.1 = { 
@@ -1168,6 +1183,7 @@ c_vulkneu = {
 	
 	3350.1.1 = { holder = haran_1000 }
 	3402.1.1 = { holder = haran_1001 }
+	3482.1.1 = { holder = danobia_1002 }
 }
 
 #k_systres
