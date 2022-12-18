@@ -15,8 +15,6 @@
  # Pact
  bm_alliancewar_pact_jorunn:0 "Jorunn the Skald-King"
  bm_alliancewar_pact_jorunn_desc:0 "Jorunn the Skald-King is a Nord and the High King of Eastern Skyrim and leader of the Ebonheart Pact. He presides over the Great Moot in the Pact's capital of Mournhold. He may be found in Windhelm, in the Skald-King's Temporary Court (located southwest of The Adept's Retreat). King Jorunn is the twin brother of Fildgor Orcthane and younger sibling to the late Queen Nurnhilde. He is also Prince Irnskar's father."
- bm_alliancewar_pact_svargrim:0 "High King Svargrim"
- bm_alliancewar_pact_svargrim_desc:0 "High King Svargrim is the Nordic Jarl of Solitude and ruler of Western Skyrim. His wife is Queen Gerhyld and they have a daughter called Svana. He is a dour man and has little love for outsiders; in particular, there is bad blood between him and Jorunn the Skald-King to the east. This is partly because of the generations-long conflict after Skyrim was split into two kingdoms, and partly because he sees Jorunn's involvement with the Ebonheart Pact as a sign of aggression towards his kingdom. As such, he has a deep suspicion of anyone linked to the Skald-King, which makes convincing him of a threat to his kingdom a difficult task."
  bm_alliancewar_pact_tanval:0 "Grand Ascendant Tanval Indoril"
  bm_alliancewar_pact_tanval_desc:0 "Tanval Indoril is the Grandmaster of House Indoril and leader of the Vanguard. He served alongside Holgunn in the Akaviri War. He has a son, Garyn."
  bm_alliancewar_pact_gavryn:0 "General Gavryn Redoran"
@@ -55,5 +53,3 @@
  bm_alliancewar_dominion_estre_desc:0 "High Kinlady Estre is the Altmer High Kinlady of Skywatch, wife of Prince Naemon of Summerset Isle, sister-in-law of Queen Ayrenn, and the leader of the Veiled Heritance under the guise of the Veiled Queen."
  bm_alliancewar_dominion_euraxia:0 "Usurper Queen Euraxia Tharn"
  bm_alliancewar_dominion_euraxia_desc:0 "Queen Euraxia Tharn is the Imperial ruler of the city of Rimmen, found in Northern Elsweyr. She is considered by many to be a usurper queen, having conquered the city in the Frostfall Coup around seven years ago. She is a member of the Tharn Family, being the younger half-sister of Abnur Tharn and the mother of Javad Tharn."
- bm_alliancewar_dominion_fortunata:0 "Pirate-Queen Fortunata"
- bm_alliancewar_dominion_fortunata_desc:0 "Queen Euraxia Tharn is the Imperial ruler of the city of Rimmen, found in Northern Elsweyr. She is considered by many to be a usurper queen, having conquered the city in the Frostfall Coup around seven years ago. She is a member of the Tharn Family, being the younger half-sister of Abnur Tharn and the mother of Javad Tharn."

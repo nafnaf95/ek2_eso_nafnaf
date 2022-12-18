@@ -1,0 +1,28 @@
+﻿# Cyrodiilic Range: 100.000 - 199.999
+
+	#Colovian: 100.000 - 109.999
+	#Nibenese: 110.000 - 119.999
+	#Blackwood: 120.000 - 129.999
+	#Heartlander: 130.000 - 139.999
+	#non-numerical dynasties
+
+#Colovian: 100.000 - 109.999
+#100071
+
+#Nibenese: 110.000 - 119.999
+#110101
+#11.11.11
+
+#Blackwood: 120.000 - 129.999
+#120026
+
+121000 ={
+	name = "Fausta"
+	culture = blackwood
+}
+
+#Heartlander: 130.000 - 139.999
+#130101
+
+#Rimmenese 
+#140001

@@ -1,0 +1,415 @@
+
+e_aldmeri_dominion = {
+	 pattern = "pattern_vertical_stripes_03.dds" #dominion
+	 color1 = "skyrim_silver"
+	 color2 = "yellow"
+	 colored_emblem = {
+	 	texture = "ce_alinor_bird2.dds"
+	 	color1 = "white"
+	 	instance = { position = { 0.5 0.47 } scale = { 0.85 0.85 }  }
+	}
+}
+e_daggerfall_covenant = {
+	pattern = "pattern_solid.dds"
+	color1 = blue
+	color2 = blue
+	colored_emblem = {
+		texture = "ce_lion_rampant_regardant.dds"
+		color1 = "skyrim_silver"
+		color2 = "skyrim_silver"
+		instance = {	position = { 0.5 0.5 }	scale = { 0.9 0.9 }	}
+	}
+}
+e_ebonheart_pact = {
+		pattern="pattern__solid_designer.dds"
+		color1=red
+		color2=black
+		color3=skyrim_mmauve
+		colored_emblem={
+			color1=black
+			texture="ce_dragonhead_01.dds"
+		}
+}
+
+e_legion_zero = {
+				pattern="pattern_vertical_stripes_07.dds"
+		color1=black
+		color2=blue_light
+		color3=red
+		colored_emblem={
+			color1=black
+			color2=blue_light
+			color3=blue
+			texture="ce_daedra_molag.dds"
+			instance={
+				position={ 0.500000 0.410000 }
+				scale={ 0.760000 0.760000 }
+			}
+
+		}
+
+		colored_emblem={
+			color1=black
+			color2=blue_light
+			color3=blue
+			texture="ce_imperial_reman.dds"
+			instance={
+				position={ 0.500000 0.690000 }
+				scale={ 0.660000 0.660000 }
+				depth=1.010000
+			}
+
+		}
+
+		colored_emblem={
+			color1=blue_light
+			color2=black
+			color3=blue_light
+			texture="ce_cyrodiil_frame_akatosh.dds"
+			instance={
+				depth=2.010000
+			}
+
+		}
+}
+
+k_nomads_alikr = {
+				pattern="pattern_vertical_stripes_07.dds"
+		color1=black
+		color2=blue_light
+		color3=red
+		colored_emblem={
+			color1=black
+			color2=blue_light
+			color3=blue
+			texture="ce_daedra_molag.dds"
+			instance={
+				position={ 0.500000 0.410000 }
+				scale={ 0.760000 0.760000 }
+			}
+
+		}
+
+		colored_emblem={
+			color1=black
+			color2=blue_light
+			color3=blue
+			texture="ce_imperial_reman.dds"
+			instance={
+				position={ 0.500000 0.690000 }
+				scale={ 0.660000 0.660000 }
+				depth=1.010000
+			}
+
+		}
+
+		colored_emblem={
+			color1=blue_light
+			color2=black
+			color3=blue_light
+			texture="ce_cyrodiil_frame_akatosh.dds"
+			instance={
+				depth=2.010000
+			}
+
+		}
+}
+
+
+sanuarach_bloodthorn = { # bloodthorn
+	pattern = "pattern_solid.dds"
+	color1 = grey_light
+	color2 = white
+	color3 = green
+	colored_emblem = {
+		color1 = green
+		color2 = green_light
+		texture = "ce_polish_glinskyi.dds"
+	}
+
+}
+
+
+	pattern="pattern_solid.dds"
+	color1=yellow
+	colored_emblem={
+		color1=red
+		texture="ce__empty_designer.dds"
+		instance={
+			scale={ 1.250000 1.250000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 0.740000 0.740000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=skyrim_lgold
+		texture="ce_altmer_direnni.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.650000 0.650000 }
+		}
+
+	}
+
+}
+
+    pattern = "pattern_vertical_split_01.dds"
+	color1 = "skyrim_lgreen"
+	color2 = "skyrim_lgreen"
+	colored_emblem = {
+		texture = "ce_mena_pale.dds"
+		color1 = "skyrim_dgreen"
+		instance = { position = { 0.5 0.5 } scale = { 2 1 }  }
+	}
+	colored_emblem = {
+		texture = "ce_mena_pale.dds"
+		color1 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 1.5 1 }  }
+	}
+	colored_emblem = {
+		texture = "ce_mena_pale.dds"
+		color1 = "skyrim_lgreen"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 }  }
+	}
+	colored_emblem = {
+		texture = "ce_reach_frame.dds"
+		color1 = "skyrim_lgreen"
+		instance = { position = { 0.5 0.47 } scale = { 0.75 1 }  }
+	}
+	colored_emblem = {
+		texture = "ce_skyrim_falkreath.dds"
+		color1 = "skyrim_lgreen"
+		color2 = "skyrim_dgreen"
+		instance = { position = { 0.5 0.4 } scale = { 0.6 0.6 }  }
+	}
+	colored_emblem = {
+		texture = "ce_swords.dds"
+		color1 = "skyrim_dgreen"
+		instance = { position = { 0.5 0.6 } scale = { 0.5 0.5 }  }
+	}
+}
+
+### Breton group
+	pattern="pattern_solid.dds"
+	color1=blue_light
+	color2=yellow
+	color3=black
+	colored_emblem={
+		color1=yellow
+		color2=green
+		color3=yellow_light
+		texture="ce_flower.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+
+420002 = { #Cumberland ##Jewishgaymer
+	custom=yes
+	pattern="pattern_vertical_stripes_03.dds"
+	color1=rgb { 115 40 40 }
+	color2=rgb { 34 61 87 }
+	color3=red
+	colored_emblem={
+		color1=white
+		texture="ce_ornoment_1.dds"
+		instance={
+			position={ 0.490000 0.610000 }
+			scale={ -0.470000 0.530000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_ornoment_2.dds"
+		instance={
+			position={ 0.500000 0.380000 }
+			scale={ 0.490000 0.570000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 219 161 75 }
+		texture="ce_norse_triquetra.dds"
+		instance={
+			scale={ -0.650000 0.670000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_frame_side.dds"
+		instance={
+			scale={ 0.690000 1.000000 }
+			depth=3.010000
+		}
+
+	}
+
+}
+
+
+410005 = { #Tamrith ##Jewishgaymer
+	custom=yes
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 20 39 22 }
+	color2=yellow
+	color3=black
+	colored_emblem={
+		color1=yellow
+		texture="ce_double_tressure.dds"
+		instance={
+			scale={ 0.960000 0.960000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=green
+		texture="ce_shield_borderless.dds"
+		instance={
+			scale={ 0.980000 0.980000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 178 123 41 }
+		texture="ce_double_tressure.dds"
+		instance={
+			position={ 0.500000 0.510000 }
+			scale={ 0.940000 0.940000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_boathooks.dds"
+		instance={
+			position={ 0.500000 0.440000 }
+			scale={ 0.630000 0.630000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+	
+430000 = { #guimard thejewishgaymer
+	pattern="pattern_tricolor_bend_01.dds"
+	color1=orange
+	color2=white
+	color3=rgb { 119 48 29 }
+	colored_emblem={
+		color1=black
+		color2=yellow
+		texture="ce_eagle_crown_boned.dds"
+		instance={
+			scale={ 0.790000 0.790000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 138 73 33 }
+		color2=black
+		color3=white
+		texture="ce_border_shield_rim.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+}	
+
+
+
+	pattern="pattern_solid.dds"
+	color1=grey
+	color2=yellow
+	color3=black
+	colored_emblem={
+		color1=yellow
+		color2=green
+		color3=yellow_light
+		texture="ce_flower.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+
+## NAF ESO
+
+800013 = { #seamount thejewishgaymer
+	custom = yes
+	pattern="pattern_waves_01.dds"
+	color1=blue_light
+	color2=blue
+	color3=red
+	colored_emblem={
+		color1=rgb { 11 34 56 }
+		color2=grey
+		texture="ce_ship_longship.dds"
+		instance={
+			scale={ 0.850000 0.900000 }
+		}
+
+	}
+
+	colored_emblem= {
+		color1=grey
+		color2=blue
+		texture="ce_scales_argonian_3.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+
+branquette_montclair = { #Bramquette-Montclair thejewishgaymer
+	custom=yes
+	pattern="pattern_vertical_stripes_06.dds"
+	color1=rgb { 74 10 21 }
+	color2=rgb { 186 186 186 }
+	color3=black
+	colored_emblem={
+		color1=yellow
+		texture="ce_crosslet_fitchy.dds"
+		instance={
+			scale={ 1.000000 0.940000 }
+		}
+
+	}
+
+}

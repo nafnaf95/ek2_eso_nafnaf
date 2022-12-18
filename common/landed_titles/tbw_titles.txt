@@ -1,0 +1,114 @@
+﻿@always_primary_score = 1000
+
+e_legion_zero = {
+	color = { 0 0 0 }
+	capital = c_imperial_city
+	definite_form = yes
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}		
+}
+
+#Formables
+
+e_aldmeri_dominion = {
+	color={ 247 190 0 }
+	definite_form = yes
+	capital = c_alinor
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+e_daggerfall_covenant = {
+	color={ 77 148 255 }
+	definite_form = yes
+	capital = c_wayrest
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+e_ebonheart_pact = {
+	color={ 102 0 0 }
+	definite_form = yes
+	capital = c_windhelm
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+#ESO Kingdoms
+
+k_nomads_alikr = {
+	color={ 255 238 204 }
+	definite_form = yes
+	capital = c_dakfron
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+k_dark_witness = {
+	color={ 102 51 0 }
+	definite_form = yes
+	capital = c_mournoth
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+k_scaled_court = {
+	color={ 242 242 242 }
+	definite_form = yes
+	capital = c_abdir
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+k_craglorn_n = {
+	color={ 255 153 51 }
+	definite_form = yes
+	capital = c_belkarth
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+
+d_red_rook = {
+	color={ 199 26 26 }
+	definite_form = yes
+	capital = c_crosswych
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
