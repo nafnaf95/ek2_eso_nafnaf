@@ -1915,3 +1915,66 @@ bergama_1005 = {
 		}
 	}
 }
+
+acatis_1002 = {
+	name = "Sharela"
+	dynasty = nomads_alikr
+	religion = satakal
+	culture = alikr
+	female = yes
+
+	father = 
+
+	trait = education_stewardship_2
+	trait = paranoid
+	trait = brave
+	trait = fickle
+
+	3436.1.1 = { birth = yes }
+	3576.1.1 = { death = yes }	
+}
+
+nizwa_1003 = {
+	name = "patia"
+	dynasty = 220004
+	religion = tall_papa
+	culture = crown
+	female = yes
+	
+	mother = nizwa_1002
+
+	3451.1.1 = { birth = yes }
+	3509.1.1 = { death = yes }	
+}
+
+curetar_1004 = {
+	name = "Maeen"
+	dynasty = 220001
+	religion = tall_papa
+	culture = crown
+	female = yes
+	
+	mother = curetar_1003b
+
+	3432.1.1 = { birth = yes }
+	3507.1.1 = { death = yes }	
+}
+
+skaven_1002 = {
+	name = "Kewina"
+	dynasty = 220006
+	religion = tall_papa
+	culture = crown
+	female = yes
+	
+	mother = skaven_1001b
+
+	3446.1.1 = { birth = yes }
+	3513.1.1 = { death = yes }	
+}
+
+
+
+
+
+

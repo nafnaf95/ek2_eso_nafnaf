@@ -1,7 +1,4 @@
-﻿
-
-
-nomads_alikr = { ## NAFESO
+﻿nomads_alikr = { ## NAFESO
 	name = "Nomads of the Alik'R"
 	culture = alikr
 }
