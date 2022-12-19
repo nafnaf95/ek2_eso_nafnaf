@@ -126,7 +126,7 @@
 
 }	
 
-bergama = { #bergama thejewishgaymer
+phyllocid_bergama = { #bergama thejewishgaymer
 	pattern="pattern_solid.dds"
 	color1=yellow
 	colored_emblem={

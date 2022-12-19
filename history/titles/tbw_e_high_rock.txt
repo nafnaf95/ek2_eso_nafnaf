@@ -343,7 +343,7 @@ d_westmark = {
 c_westmark_moor = {
 	3350.1.1 = { holder = succoth_1000 }
 	3400.1.1 = { holder = succoth_1001 }
-	3492.1.1 = { holder = branquette_montclair_1001 }
+	3492.1.1 = { holder = dremora_molag_kena }
 }
 
 b_crypt_of_hearts = {
@@ -422,10 +422,16 @@ c_lorkrata = {
 c_fell_run = {
 	3355.1.1 = { holder = edrald_1000 }
 	3365.1.1 = { liege = d_northpoint }
+	3485.1.1 = { holder = bitterhand_1000 liege = bitterhand_1000 }
+}
+
+b_orc_finger = {
+	3485.1.1 = { holder = bitterhand_1003 liege = bitterhand_1000}
 }
 
 c_irmgard = {
 	3355.1.1 = { holder = aurmine_1000 }
+	3492.1.1 = { holder = branquette_montclair_1001 }
 }
 
 c_boralis = {
@@ -440,6 +446,7 @@ c_boralis = {
 
 c_doomcrag = {
 	3335.1.1 = { holder = farr_1000 }
+	3492.1.1 = { holder = branquette_montclair_1001 }
 }
 
 c_silverhoof = {
@@ -630,7 +637,7 @@ c_penmarch = {
 		liege = d_camlorn
 	}
 	3365.1.1 = { liege = 0 }
-	3502.1.1 = { holder = lionguard_1104 liege = e_daggerfall_covenant }
+	3502.1.1 = { holder =  liege = e_daggerfall_covenant }
 }
 
 c_urvaius = {
@@ -1193,7 +1200,9 @@ d_red_rook = {
 	3502.3.30 = { holder = 0 }
 }
 
-
+d_bitterhand = {
+	3500.1.1 = { holder = bitterhand_1000 }
+}
 
 
 

@@ -1,6 +1,68 @@
 ﻿#######################################
 #   Daggerfall Cov High Rock          #
 #######################################
+
+#Daggerfall Aliance War
+
+dortene_1000 = {
+	name = "Grand Warlord Dortene"
+	dynasty = 400201
+	female = yes
+	religion = breton_cult
+	culture = glenumbran
+
+	3468.1.1 = { birth = yes }
+	3535.1.1 = { death = yes }
+	portrait_override={
+		portrait_modifier_overrides={
+				custom_clothes=female_clothes_plate_war_01
+				facepaint=facepaint_nord_01
+				custom_headgear=female_empty
+				custom_hair=female_hair_indian_03
+				custom_cloaks=female_cloaks_secular_fp1_nobility_03
+				custom_legwear=female_legwear_secular_western_war_01
+		}
+	}
+}
+
+khamagash_1000 = {
+	name = "General Khamagash"
+	dynasty = 819998
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3461.1.1 = { birth = yes }
+	portrait_override={
+		portrait_modifier_overrides={
+				custom_clothes=male_clothes_secular_orc_war
+				custom_headgear=male_empty
+				facepaint_colour=facepaint_colour_4
+				facepaint=facepaint_nord_06
+				custom_hair=male_hair_western_04
+		}
+	}
+}
+
+Am-Shadal_1000 = {
+	name = "General Am-Shadal"
+	dynasty = Am-Shadal
+	culture = forebear
+	religion = redguard_cult
+	
+	3461.1.1 = { birth = yes }
+	portrait_override={
+		portrait_modifier_overrides={
+				custom_clothes=male_clothes_secular_byzantine_war_nobility_01_low
+				custom_cloaks=male_cloaks_secular_fp1_nobility_02
+				custom_beards=male_beard_sub_saharan_02
+				custom_headgear=male_empty
+				custom_hair=male_hair_indian_01
+				custom_legwear=male_legwear_secular_western_war_01
+		}
+	}
+}
+
+
 ##altmer
 
 ravenn_1000 = { 
@@ -65,17 +127,28 @@ fausta_1100 = {
 	martial = 30
 	prowess = 50
 	
+	trait = undead_character
+	
 	450.1.1 = { birth = yes }
 	480.1.1 = {	
 	trait = lycan_character
 	give_nickname = nick_the_changeling
 	}
 #	482.1.1 = { death = yes } #first death
-	3502.1.1 = { 
+	3501.1.1 = { 
 	trait = undead_character
 	give_nickname = nick_the_reborn
 	}
 	3503.1.1 = { death = yes }
+
+	portrait_override={
+		portrait_modifier_overrides={
+				custom_headgear=male_headgear_secular_western_high_nobility_01
+				custom_cloaks=male_furs_secular_fp1_nobility_03
+				custom_clothes=male_clothes_secular_fp1_war_nobility_01
+		}
+	}
+
 }
 
 bloodthorn_1000 = {
@@ -351,9 +424,11 @@ cumberland_1004 = {
 	
 	portrait_override={
 		portrait_modifier_overrides={
-			custom_headgear=male_headgear_secular_ep1_western_royalty_01
-			custom_beards=male_beard_western_09
-			custom_hair=male_hair_indian_02
+				custom_headgear=male_headgear_secular_ep1_western_royalty_01
+				custom_beards=male_beard_western_09
+				custom_hair=male_hair_indian_02
+				custom_clothes=male_clothes_secular_steppe_nobility_01_high
+				custom_cloaks=male_cloaks_secular_fp1_nobility_02
 		}
 	}
 }
@@ -703,9 +778,91 @@ redrook_1006 = {
 	culture = glenumbran
 
 	3470.1.1 = { birth = yes }
-	3502.3.30 = { employer = redrook_1001 }
+	3502.3.30 = { employer = redrook_1000 }
 }
 
+#Bitterhand Bandits
+
+bitterhand_1000 = {
+	name = "Leonce" 
+	dynasty = 400200
+	religion = breton_cult
+	culture = glenumbran
+
+
+	3480.1.1 = { birth = yes }
+	3522.3.30 = { death = yes }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+				custom_clothes=male_clothes_secular_fp2_iberian_muslim_war_nobility_01
+				custom_headgear=male_empty
+				custom_hair=male_hair_fp1_06
+				custom_beards=male_beard_fp2_iberian_muslim_03
+				custom_jewellery=male_jewellery_horwalli_necklace_03_high
+				custom_cloaks=male_furs_secular_fp1_nobility_02
+		}
+	}
+}
+bitterhand_1001 = {
+	name = "Bulzog" 
+	religion = malacath_cult
+	culture = mountain_orc
+
+
+	3480.1.1 = { birth = yes }
+	3500.1.1 = { employer = bitterhand_1000 }
+	3522.3.30 = { death = yes }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+				custom_clothes=male_clothes_secular_orc_war
+				custom_hair=male_hair_fp1_04
+				custom_headgear=male_empty
+				custom_legwear=male_legwear_secular_western_war_01
+		}
+	}
+}
+bitterhand_1002 = {
+	name = "Bailiff Sagabar" 
+	religion = redguard_cult
+	culture = forebear
+
+
+	3480.1.1 = { birth = yes }
+	3500.1.1 = { employer = bitterhand_1000 }
+	3522.3.30 = { death = yes }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+				custom_clothes=male_clothes_secular_fp2_iberian_muslim_war_nobility_01
+				custom_hair=no_hair
+				custom_beards=male_beard_fp2_iberian_christian_01
+				custom_headgear=male_empty
+		}
+	}
+}	
+bitterhand_1003 = {
+	name = "Fingaenion Forestsmasher" 
+	religion = green_pact
+	culture = bosmer
+
+
+	3480.1.1 = { birth = yes }
+	3522.3.30 = { death = yes }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+				custom_legwear=male_legwear_secular_western_war_01
+				custom_clothes=male_clothes_religious_northern_high_01
+				custom_beards=male_beard_fp2_iberian_christian_02
+				custom_cloaks=male_empty
+				custom_jewellery=male_jewellery_horwalli_necklace_01_high
+				custom_hair=male_hair_fp1_02
+				custom_headgear=male_empty
+		}
+	}
+}
 
 #####################################
 #    Orsinium DC                    #
@@ -1455,11 +1612,11 @@ bergama_1005 = {
 	
 	portrait_override = {	# Will override the character's appearance
 		portrait_modifier_overrides={
-			custom_headgear=male_empty
-			custom_hair=male_hair_sub_saharan_01
-			custom_clothes=male_clothes_secular_dde_abbasid_war_nobility_01_low
-			custom_beards=male_empty
-			custom_cloaks=male_cloaks_secular_western_royalty_01
+				custom_hair=male_hair_sub_saharan_01
+				custom_beards=male_empty
+				custom_headgear=male_headgear_secular_ep1_mena_royalty_01
+				custom_clothes=male_clothes_secular_indian_war_nobility_01_low
+				custom_cloaks=male_cloaks_secular_western_royalty_01
 		}
 	}
 }

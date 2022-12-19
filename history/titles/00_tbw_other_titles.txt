@@ -7,6 +7,11 @@ e_daggerfall_covenant = {
 
 	3486.1.30 = { holder = cumberland_1004 }
 }
+
+k_daggerfall_occupation = {
+	3500.1.1 = { holder = dortene_1000 liege = e_daggerfall_covenant }
+}
+
 e_ebonheart_pact = {
 	3492.7.7 = { holder = flamehair_1014 }
 }
@@ -74,6 +79,9 @@ k_mane = {
 		}
 }
 
+#Naf ESO
+
+
 k_star-gazer = { 
 	3480.1.1 = { holder = star-gazer_1000 }
 	}
@@ -93,6 +101,7 @@ k_camlorn_faolchu = {
 k_nomads_alikr = { 
 	3480.1.1 = { holder = acatis_1002 }
 	}
+
 e_legion_zero = {
 	3480.1.1 = { holder = dremora_molag_kena }	## ESO Molag Kenas Legion forces
 }

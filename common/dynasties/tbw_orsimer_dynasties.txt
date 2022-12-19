@@ -1,0 +1,12 @@
+# Orsimeris Range: 800.000 - 899.999
+
+	#Mountain Orc: 800.000 - 819.999
+	#Iron Orc: 820.000 - 829.999
+	#Wood Orc: 830.000 - 839.999
+
+#Mountain Orc: 800.000 - 819.999
+
+819.998 = {
+	name = "khamagash"
+	culture = mountain_orc
+}

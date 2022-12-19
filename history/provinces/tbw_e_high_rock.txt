@@ -1,0 +1,19 @@
+####c_fell_run
+
+130 = { #b_edrald
+	culture = northmen
+	religion = breton_cult
+	
+	#holding = castle_holding
+	holding = city_holding
+}
+131 = { #b_fell_run
+	holding = city_holding
+	#holding = city_holding
+}
+129 = { #b_ravenhurst
+	holding = none
+}
+132 = { #b_orc_finger
+	holding = city_holding
+}

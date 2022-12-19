@@ -24,9 +24,12 @@
  k_star-gazer_adj:0 "The Star-Gazers"
  k_camlorn_faolchu:0 "Faolchu's Kin"
  k_camlorn_faolchu_adj:0 "Faolchu's Kin"
+ k_daggerfall_occupation:0 "The Daggerfall Occupation Zone"
+ k_daggerfall_occupation_adj:0 "The Daggerfall Occupation Zone"
  d_red_rook:0 "Red Rook Bandits"
  d_red_rook_adj:0 "Red Rook Bandits"
  d_reachmen_bloodthorn:0 "The Bloodthorn Cult"
  d_reachmen_bloodthorn_adj:0 "The Bloodthorn Cult"
- 
+ d_bitterhand:0 "Bitterhand Bandits"
+ d_bitterhand_adj:0 "Bitterhand Bandits"
  

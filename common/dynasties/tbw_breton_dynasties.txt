@@ -1,0 +1,53 @@
+﻿# Bretonic Range: 400.000 - 499.999
+
+	#Glenumbran: 400.000 - 409.999
+	#Northmen: 410.000 - 419.999
+	#Iliac: 420.000 - 429.999
+	#Bjoule: 430.000 - 439.999
+	#Wrothgarian: 440.000 - 449.999
+	#Galen: 450.000 - 459.999
+
+#Glenumbran: 400.000 - 409.999
+#400024
+
+400050 ={
+	name = "Gautier"
+	culture = glenumbran
+}
+
+400100 ={
+	name = "Redain"
+	culture = glenumbran
+}
+
+400102 ={
+	name = "Chaudry"
+	culture = glenumbran
+}
+
+400200 = {
+	name = "Gavendien"
+	culture = glenumbran
+}
+
+400201 = {
+	name = "Dortene"
+	culture = glenumbran
+}
+
+
+#Northmen: 410.000 - 419.999
+#410013 
+
+
+#Iliac: 420.000 - 429.999
+#420020
+
+
+#Bjoule: 430.000 - 439.999
+# 430002
+
+#Wrothgarian: 440.000 - 449.999
+
+#Galen: 450.000 - 459.999
+#450000

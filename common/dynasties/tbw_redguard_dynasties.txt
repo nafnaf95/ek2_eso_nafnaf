@@ -1,0 +1,14 @@
+# Yokudan Range: 200.000 - 299.999
+
+	#Yokudan: 200.000 - 209.999
+	#Forebear: 210.000 - 219.999
+	#Crown: 220.000 - 229.999
+	#Lhotunic: 230.000 - 239.999
+	#Alik'r: 240.000 - 249.999
+	#Abecean: 250.000 - 259.999
+	#Horsemen: 260.000 - 269.999
+
+Am-Shadal = {
+	name = "Am-Shadal"
+	culture = forebear
+}

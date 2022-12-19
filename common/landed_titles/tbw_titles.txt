@@ -38,6 +38,18 @@ e_daggerfall_covenant = {
 	}	
 }
 
+k_daggerfall_occupation = {
+	color={ 77 148 255 }
+	definite_form = yes
+	capital = c_alma_ruma
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
 e_ebonheart_pact = {
 	color={ 102 0 0 }
 	definite_form = yes
@@ -113,6 +125,17 @@ d_red_rook = {
 	}	
 }
 
+d_bitterhand = {
+	color={ 153 0 0 }
+	definite_form = yes
+	capital = c_fell_run
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
 
 k_camlorn_faolchu = {
 	color={ 102 102 51 }
