@@ -337,6 +337,10 @@ c_myrkwasa = {
 		holder = myrkwasa_1000
 		liege = d_bergama
 	}
+	3498.1.1 = { 
+		holder = witheredhand_1002
+		liege = d_witheredhand
+		}
 }
 c_ayasofya = {
 	3340.1.1 = { 
@@ -393,6 +397,10 @@ d_lainlyn = {
 c_lainlyn = {
 	3350.1.1 = { holder = lainlyn_1000 }
 	3381.1.1 = { holder = lainlyn_1001 }
+	3498.1.1 = { 
+		holder = witheredhand_1001
+		liege = d_witheredhand
+		}
 }
 c_totambu = {
 	3350.1.1 = {
@@ -406,6 +414,7 @@ c_satakalaam = {
 		liege = e_hammerfell
 	}
 	3362.1.1 = { liege = d_lainlyn }
+	3497.1.1 = { holder = witheredhand_1000 }
 }
 c_tigonus = {
 	3350.1.1 = { 
@@ -1233,3 +1242,11 @@ c_pankor = {
 c_syskor = {
 	3350.1.1 = { holder = yokudanlowborn_1003 }
 }
+
+
+#####################
+# NAF ADDITIONS     #
+#####################
+d_witheredhand = { 
+	3497.1.1 = { holder = witheredhand_1000 }
+	}

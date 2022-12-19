@@ -81,7 +81,6 @@ k_mane = {
 
 #Naf ESO
 
-
 k_star-gazer = { 
 	3480.1.1 = { holder = star-gazer_1000 }
 	}

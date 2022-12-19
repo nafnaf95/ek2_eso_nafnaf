@@ -496,6 +496,8 @@ brousseau_1007 = {
 
 # Camlorn
 
+lionguard_1000
+
 rielle_1005 = {
 	name = "Sebastien"
 	dynasty = 400003
@@ -1594,6 +1596,78 @@ morkul_1117 = {
 #          DC Hammerfell                 #
 ##########################################
 
+
+witheredhand_1000 = {
+	name = "Suturah"
+	religion = worm_cult
+	culture = forebear
+	
+	trait = undead_character
+	
+	3038.1.1 = { birth = yes }
+	
+		portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+				custom_clothes=male_clothes_secular_dunmer_02_high
+				custom_headgear=male_headgear_secular_indian_royalty_01
+				custom_cloaks=male_cloaks_secular_western_royalty_01
+		}
+				hair={ 0.949 0.9 0.867 }
+	}
+}
+
+witheredhand_1001 = {
+	name = "Alasan"
+	religion = worm_cult
+	culture = forebear
+	
+	father = witheredhand_1000
+	
+	3440.1.1 = { birth = yes }
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+				custom_clothes=male_clothes_secular_indian_war_nobility_01_low
+				custom_headgear=male_empty
+				custom_hair=male_hair_fp1_08
+				custom_beards=male_beard_fp2_iberian_muslim_02
+		}
+				hair={ 0.949 0.9 0.867 }
+	}
+}
+
+witheredhand_1002 = {
+	name = "Uwafa"
+	religion = worm_cult
+	culture = forebear
+	
+	father = witheredhand_1000
+	
+	3450.1.1 = { birth = yes }
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+				custom_headgear=male_headgear_religious_monk_02
+				custom_clothes=male_clothes_secular_byzantine_war_nobility_01_low
+				custom_beards=male_beard_western_04
+		}
+	}
+}
+
+witheredhand_1003 = {
+	name = "Shiri"
+	religion = redguard_cult
+	culture = forebear
+	
+	trait = undead_character
+	
+	female = yes
+	
+	father = witheredhand_1000
+	
+	3470.1.1 = { birth = yes }
+	3470.1.1 = { employer = witheredhand_1000 }
+}
 
 bergama_1005 = {
 	name = "Faharajad"

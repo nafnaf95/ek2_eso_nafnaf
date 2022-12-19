@@ -41,7 +41,7 @@ e_daggerfall_covenant = {
 k_daggerfall_occupation = {
 	color={ 77 148 255 }
 	definite_form = yes
-	capital = c_alma_ruma
+	capital = c_northrock
 	de_jure_drift_disabled = yes
 	no_automatic_claims = yes
     ignore_titularity_for_title_weighting = yes
@@ -129,6 +129,18 @@ d_bitterhand = {
 	color={ 153 0 0 }
 	definite_form = yes
 	capital = c_fell_run
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+d_witheredhand = {
+	color={ 102 0 102 }
+	definite_form = yes
+	capital = c_satakalaam
 	de_jure_drift_disabled = yes
 	no_automatic_claims = yes
     ignore_titularity_for_title_weighting = yes
