@@ -2,7 +2,7 @@
 # History database id:deleyn_1005
 bm_alliancewar_covenant_casimir={
 	type=male
-	id=4478
+	id=4499
 	age=0.320000
 	genes={ 		hair_color={ 228 189 165 209 }
  		skin_color={ 122 51 109 57 }
@@ -91,13 +91,13 @@ bm_alliancewar_covenant_casimir={
  		face_detail_nose_tip_def={ "nose_tip_def" 118 "nose_tip_def" 120 }
  		face_detail_temple_def={ "temple_def" 90 "temple_def" 63 }
  		expression_brow_wrinkles={ "brow_wrinkles_02" 113 "brow_wrinkles_02" 113 }
- 		expression_eye_wrinkles={ "eye_wrinkles_01" 228 "eye_wrinkles_03" 198 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_01" 242 "eye_wrinkles_03" 198 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_03" 255 "forehead_wrinkles_03" 90 }
- 		expression_other={ "cheek_wrinkles_both_01" 144 "cheek_wrinkles_both_01" 111 }
+ 		expression_other={ "cheek_wrinkles_both_01" 136 "cheek_wrinkles_both_01" 111 }
  		complexion={ "complexion_1" 95 "complexion_34" 251 }
  		gene_height={ "normal_height" 125 "normal_height" 118 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 147 "body_fat_head_fat_full" 140 }
- 		gene_bs_body_shape={ "body_shape_average" 142 "body_shape_hourglass_half" 0 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 134 "body_fat_head_fat_full" 140 }
+ 		gene_bs_body_shape={ "body_shape_average" 132 "body_shape_hourglass_half" 0 }
  		gene_bs_bust={ "bust_clothes" 62 "bust_shape_3_full" 98 }
  		gene_age={ "old_3" 221 "old_1" 221 }
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 143 "avg_spacing_lower_thickness" 143 }
@@ -182,14 +182,14 @@ bm_alliancewar_covenant_casimir={
  		face_detail_eye_upper_lid_def={ "vanilla_upper_lid_def" 127 "vanilla_upper_lid_def" 127 }
  		pose={ "" 255 "" 0 }
  		beards={ "fp2_beards_straight" 42 "no_beard" 0 }
- 		cloaks={ "western_royalty" 137 "no_cloak" 0 }
- 		clothes={ "western_commoner_clothes" 116 "most_clothes" 0 }
- 		legwear={ "western_common_legwear" 233 "all_legwear" 0 }
+ 		cloaks={ "western_royalty" 191 "no_cloak" 0 }
+ 		clothes={ "western_high_nobility_clothes" 85 "most_clothes" 0 }
+ 		legwear={ "western_common_legwear" 6 "all_legwear" 0 }
  		facepaint={ "no_facepaint" 255 "no_facepaint" 0 }
  		tattoos={ "no_tattoos" 255 "no_tattoos" 0 }
  		scarification={ "no_scarification" 255 "no_scarification" 0 }
  		hairstyles={ "western_hairstyles_wavy" 33 "all_hairstyles" 0 }
- 		headgear={ "western_royalty" 118 "no_headgear" 0 }
+ 		headgear={ "western_royalty" 85 "no_headgear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  }
 	override={

@@ -12,6 +12,19 @@ e_legion_zero = {
 	}		
 }
 
+e_seventh_legion = {
+	color = { 128 32 0 }
+	capital = c_ojwambu
+	definite_form = yes
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}		
+}
+
+
 #Formables
 
 e_aldmeri_dominion = {
@@ -149,6 +162,20 @@ d_witheredhand = {
 	}	
 }
 
+k_sutch = {
+	color={ 230 230 0 }
+	definite_form = yes
+	capital = c_sutch
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+
+
 k_camlorn_faolchu = {
 	color={ 102 102 51 }
 	definite_form = yes
@@ -160,3 +187,90 @@ k_camlorn_faolchu = {
 		add = @always_primary_score
 	}	
 }
+
+###############################
+#     Hews bane               #
+###############################
+
+
+d_ironwheel = {
+	color={ 128 128 128 }
+	definite_form = yes
+	capital = c_no_shira
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+d_keelcutter = {
+	color={ 0 255 255 }
+	definite_form = yes
+	capital = c_thrall_cove
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+d_sharksteeth = {
+	color={ 102 102 255 }
+	definite_form = yes
+	capital = c_shark_teeth
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+#################################
+#     Stros              		#
+#################################
+
+d_seadrake = {
+	color={ 179 0 0 }
+	definite_form = yes
+	capital = c_saintsport
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+d_bloodyfist = {
+	color={ 255 153 102 }
+	definite_form = yes
+	capital = c_stros_mkai
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+
+###############################
+#      High Isle and Srround  #
+###############################
+
+d_dreadsails = {
+	color={ 179 0 0 }
+	definite_form = yes
+	capital = c_syskor
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+}
+

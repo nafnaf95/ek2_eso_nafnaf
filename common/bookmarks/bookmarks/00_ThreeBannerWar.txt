@@ -232,7 +232,7 @@ bm_alliancewar_covenant = {
 		culture = mountain_orc
 		religion = vosh_rakh
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		history_id = bagrakh_1003
+		history_id = bagrakh_1103
 		position = { 1200 200 }
 
 		animation = rage
@@ -297,18 +297,156 @@ bm_alliancewar_covenant = {
 		dynasty_splendor_level = 10
 		type = female
 		birth = 3468.1.1
-		title = d_ojwambu
+		title = e_seventh_legion
 		government = autocracy_government
 		culture = heartlander
 		religion = imperial_cult
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = tharn_226
-		position = { 1400 600 }
+		position = { 1100 600 }
 
 		animation = personality_dishonorable
 	}
 
 }
+
+bm_alliancewar_hammerfell = {
+ 	start_date = 3502.1.30
+ 	is_playable = yes
+	group = bm_group_582
+
+	weight = {
+		value = 80
+	}
+	
+ 	#copied from ek-ck2
+ 	#era = yes
+ 	#picture = GFX_pick_era_image_4
+	
+	character = {
+		name = "bm_alliancewar_hammerfell_taneth"
+		dynasty = 210002
+		dynasty_splendor_level = 5
+		type = female
+		birth = 3441.1.1
+		title = k_taneth
+		government = feudal_government
+		culture = crown
+		religion = tall_papa
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = danobia_1002
+		position = { 1150 150 }
+
+		animation = personality_content
+	}
+	
+	
+	character = {
+		name = "bm_alliancewar_hammerfell_abah"
+		dynasty_house = 
+		dynasty_splendor_level = 5
+		type = male
+		birth = 3438.1.1
+		title = d_abah
+		government = autocracy_government
+		culture = strident
+		religion = imperial_cult
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = cosh_1000
+		position = { 1350 370 }
+
+		animation = personality_zealous
+	}
+	
+	
+	character = {
+		name = "bm_alliancewar_hammerfell_bhosek"
+		dynasty_house = lowborn
+		dynasty_splendor_level = 2
+		type = male
+		birth = 3462.1.1 
+		title = d_bloodyfist
+		government = pirate_government
+		culture = crown
+		religion = tall_papa
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = bhosek_1000
+		position = { 700 500 }
+
+		animation = personality_rational
+	}	
+	
+	character = {
+		name = "bm_alliancewar_hammerfell_seamount"
+		dynasty = 800013
+		dynasty_splendor_level = 5
+		type = male
+		birth = 3470.1.1
+		title = d_betony
+		government = tribal_government
+		culture = mountain_orc
+		religion = code_malacath
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = seamount_1004
+		position = { 450 200 }
+
+		animation = personality_rational
+	}
+	
+	character = {
+		name = "bm_alliancewar_hammerfell_highisle"
+		dynasty = 800013
+		dynasty_splendor_level = 5
+		type = male
+		birth = 3470.1.1
+		title = d_systres
+		government = autocracy_government
+		culture = systrean
+		religion = breton_cult
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = seamount_1004
+		position = { 350 800 }
+
+		animation = personality_rational
+	}
+	
+	character = {
+		name = "bm_alliancewar_hammerfell_dreadsails"
+		dynasty = 800013
+		dynasty_splendor_level = 5
+		type = male
+		birth = 3470.1.1
+		title = d_dreadsails
+		government = tribal_government
+		culture = maormer
+		religion = mehrunes_cult
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = seamount_1004
+		position = { 150 600 }
+
+		animation = personality_rational
+	}
+	
+	
+	character = {
+		name = "bm_alliancewar_hammerfell_keelcutter"
+		dynasty = 110000
+		dynasty_splendor_level = 10
+		type = female
+		birth = 3468.1.1
+		title = d_keelcutter
+		government = pirate_government
+		culture = maormer
+		religion = mehrunes_cult
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = keelcutter_1000
+		position = { 900 300 }
+
+		animation = personality_dishonorable
+	}
+
+}
+
 
 bm_alliancewar_pact = {
  	start_date = 3502.1.30

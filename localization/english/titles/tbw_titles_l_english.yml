@@ -14,6 +14,8 @@
  e_ebonheart_pact_adj:0 "The Ebonheart Pact"
  e_legion_zero:0 "Legion Zero"
  e_legion_zero_adj:0 "Legion Zero"
+ e_seventh_legion:0 "Seventh Legion"
+ e_seventh_legion_adj:0 "Seventh Legion"
  k_nomads_alikr:0 "Nomads of the Alik'R"
  k_nomads_alikr_adj:0 "Nomads of the Alik'R"
  k_dark_witness:0 "The Dark Witness Cult"
@@ -26,13 +28,23 @@
  k_camlorn_faolchu_adj:0 "Faolchu's Kin"
  k_daggerfall_occupation:0 "The Daggerfall Occupation Zone"
  k_daggerfall_occupation_adj:0 "The Daggerfall Occupation Zone"
- d_red_rook:0 "Red Rook Bandits"
- d_red_rook_adj:0 "Red Rook Bandits"
- d_reachmen_bloodthorn:0 "The Bloodthorn Cult"
- d_reachmen_bloodthorn_adj:0 "The Bloodthorn Cult"
- d_bitterhand:0 "Bitterhand Bandits"
- d_bitterhand_adj:0 "Bitterhand Bandits"
- d_witheredhand:0 "Withered Hand Cult"
- d_witheredhand_adj:0 "Withered Hand Cult"
- 
- 
+ k_sutch:0 "Sutch"
+ k_sutch_adj:0 "Sutch"
+ d_red_rook:0 "Red Rook Bandits"								#BANDITS
+ d_red_rook_adj:0 "Red Rook Bandits"							#BANDITS
+ d_reachmen_bloodthorn:0 "The Bloodthorn Cult"					#CULT
+ d_reachmen_bloodthorn_adj:0 "The Bloodthorn Cult"				#CULT
+ d_bitterhand:0 "Bitterhand Bandits"							#BANDIT
+ d_bitterhand_adj:0 "Bitterhand Bandits"						#BANDIT
+ d_witheredhand:0 "Withered Hand Cult"							#CULT
+ d_witheredhand_adj:0 "Withered Hand Cult"						#CULT
+ d_ironwheel:0 "Iron Wheel Mercs" 								#MERCS
+ d_ironwheel_adj:0 "Iron Wheel Mercs" 							#MERCS
+ d_keelcutter:0 "Keel Cutter Pirates" 							#PIRATES
+ d_keelcutter_adj:0 "Keel Cutter Pirates" 						#PIRATES
+ d_sharksteeth:0 "Shark's Teeth Pirates" 						#PIRATES
+ d_sharksteeth_adj:0 "Shark's Teeth Pirates" 					#PIRATES
+ d_seadrake:0 "Sea Drake Pirates" 							#PIRATES
+ d_seadrake_adj:0 "Sea Drake Pirates" 						#PIRATES
+ d_bloodyfist:0 "Bloody Fist Pirates" 						#PIRATES
+ d_bloodyfist_adj:0 "Bloody Fist Pirates" 					#PIRATES

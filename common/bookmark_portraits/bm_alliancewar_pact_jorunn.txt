@@ -2,7 +2,7 @@
 # History database id:flamehair_1014
 bm_alliancewar_pact_jorunn={
 	type=male
-	id=4428
+	id=4445
 	age=0.360000
 	genes={ 		hair_color={ 233 80 198 67 }
  		skin_color={ 11 19 11 19 }
@@ -96,7 +96,7 @@ bm_alliancewar_pact_jorunn={
  		expression_other={ "cheek_wrinkles_both_01" 153 "cheek_wrinkles_both_01" 45 }
  		complexion={ "complexion_6in" 100 "complexion_21" 188 }
  		gene_height={ "normal_height" 223 "normal_height" 146 }
- 		gene_bs_body_type={ "body_fat_head_fat_low" 120 "body_fat_head_fat_medium" 124 }
+ 		gene_bs_body_type={ "body_fat_head_fat_low" 138 "body_fat_head_fat_medium" 124 }
  		gene_bs_body_shape={ "body_shape_hourglass_half" 255 "body_shape_average" 5 }
  		gene_bs_bust={ "bust_clothes" 62 "bust_shape_3_half" 108 }
  		gene_age={ "old_3" 3 "old_1" 175 }
@@ -184,8 +184,8 @@ bm_alliancewar_pact_jorunn={
  		beards={ "northern_beards_straight" 160 "no_beard" 0 }
  		cloaks={ "fp1_cloak" 42 "no_cloak" 0 }
  		clothes={ "byzantine_war_nobility_clothes" 255 "most_clothes" 0 }
- 		legwear={ "fp1_common_legwear" 222 "all_legwear" 0 }
- 		facepaint={ "nordic" 100 "no_facepaint" 0 }
+ 		legwear={ "fp1_common_legwear" 96 "all_legwear" 0 }
+ 		facepaint={ "no_facepaint" 255 "no_facepaint" 0 }
  		tattoos={ "no_tattoos" 255 "no_tattoos" 0 }
  		scarification={ "no_scarification" 255 "no_scarification" 0 }
  		hairstyles={ "fp1_hairstyles_straight" 229 "all_hairstyles" 0 }

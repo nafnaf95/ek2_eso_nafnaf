@@ -1,0 +1,49 @@
+####c_systres
+3160 = { #b_navire
+	culture = systrean
+	religion = breton_cult
+
+	holding = castle_holding
+}
+3161 = { #b_garick_rest
+	holding = castle_holding
+}
+3162 = { #b_gonfalon
+	holding = city_holding
+}
+5392 = { #b_tor_draioch
+	holding = academy_holding
+}
+####c_amenos
+5393 = { #b_amenos_station
+	culture = systrean
+	religion = breton_cult
+
+	holding = castle_holding
+}
+5394 = { #b_brokerock
+	holding = city_holding
+}
+5395 = { #b_old_coin_fort
+	holding = castle_holding
+}
+####c_yffelon
+5396 = { #b_yffelon
+	culture = galen
+	religion = druid_circles
+
+	holding = tribal_holding
+}
+####c_galen
+5397 = { #b_vastyr
+	culture = galen
+	religion = druid_circles
+
+	holding = castle_holding
+}
+5457 = { #b_windwrack_fort
+	holding = none
+}
+5458 = { #b_yffre_path
+	holding = none
+}

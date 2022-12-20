@@ -12,7 +12,7 @@
  bm_alliancewar_kena:0 "Molag Kena"
  bm_alliancewar_kena_desc:0 "Molag Kena, disguised as the Empress Regent Clivia Tharn, ruled over the Imperial City for an indeterminate amount of time.[4] She consistently requested troops from the Imperial Legion to report to her personally, off the books. She moved the troops this way and that, having them defend positions with no strategic value and sending them off to die at the hands of the invading Daedra for nothing. Molag Kena manipulated legion officials with blackmail and other underhanded tactics to do what she wanted, and called one General Valerius to the White-Gold Tower before the Imperial City was overrun by Molag Bal's forces."
  
- # Pact
+ # ep
  bm_alliancewar_pact_jorunn:0 "Jorunn the Skald-King"
  bm_alliancewar_pact_jorunn_desc:0 "Jorunn the Skald-King is a Nord and the High King of Eastern Skyrim and leader of the Ebonheart Pact. He presides over the Great Moot in the Pact's capital of Mournhold. He may be found in Windhelm, in the Skald-King's Temporary Court (located southwest of The Adept's Retreat). King Jorunn is the twin brother of Fildgor Orcthane and younger sibling to the late Queen Nurnhilde. He is also Prince Irnskar's father."
  bm_alliancewar_pact_tanval:0 "Grand Ascendant Tanval Indoril"
@@ -24,7 +24,7 @@
  bm_alliancewar_pact_omin:0 "Grandmaster Omin"
  bm_alliancewar_pact_omin_desc:0 "Dres"
  
- # Covenant
+ # dc
  bm_alliancewar_covenant_emeric:0 "High King Emeric"
  bm_alliancewar_covenant_emeric_desc:0 "High King Emeric is the King of Wayrest and the leader of the Daggerfall Covenant. He first forged an alliance with the kingdom of Sentinel, in part by marrying Maraya, the daughter of King Fahara'jad. He later convinced many Orc tribes to join the Covenant by promising to aid in the restoration of Orsinium. He leads the Covenant from its capital city of Wayrest, and is protected by the Breton Lion Guard."
  bm_alliancewar_covenant_faharajad:0 "King Fahara'jad"
@@ -40,7 +40,23 @@
  bm_alliancewar_covenant_septima:0 "Magnus Baroness Septima Tharn"
  bm_alliancewar_covenant_septima_desc:0 "Imperial"
  
- # Dominion
+ #hammerfell
+ bm_alliancewar_hammerfell_taneth:0 "Queen Falorah the Jewel of Taneth"
+ bm_alliancewar_hammerfell_taneth_adj:0 ""
+ bm_alliancewar_hammerfell_seamount:0 "Seamount Clans"
+ bm_alliancewar_hammerfell_seamount_adj:0 ""
+ bm_alliancewar_hammerfell_abah:0 "Lord Cosh of Hew"
+ bm_alliancewar_hammerfell_abah
+ bm_alliancewar_hammerfell_seadrake:0 "Sea Drake Pirates"
+ bm_alliancewar_hammerfell_seadrake
+ bm_alliancewar_hammerfell_keelcutter:0 "Keel Cutter Pirates"
+ bm_alliancewar_hammerfell_keelcutter
+ bm_alliancewar_hammerfell_scaledcourt
+ bm_alliancewar_hammerfell_scaledcourt
+ #gold coast
+ 
+ 
+ # ad
  bm_alliancewar_dominion_ayrenn:0 "Queen Ayrenn"
  bm_alliancewar_dominion_ayrenn_desc:0 "Queen Ayrenn Arana Aldmeri, the Unforeseen Queen, is the Queen of Alinor and the leader of the Aldmeri Dominion. She leads the Dominion from its capital city of Elden Root."
  bm_alliancewar_dominion_aeradan:0 "King Camoran Aeradan"

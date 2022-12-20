@@ -83,84 +83,6 @@ alliancewar_ad03 = {
 	3371.1.1 = { birth = yes }
 }
 
-## Covenant
-
-alliancewar_dc01 = {
-	name = "Dortene"
-	female = yes
-	religion = breton_cult
-	culture = glenumbran
-	trait = education_martial_5
-	martial = 30
-
-	3475.1.1 = { birth = yes }
-	3502.1.30 = {
-		effect = { 	
-			spawn_army = {
-				name = Covenant
-				men_at_arms = {
-					type = light_horsemen
-					stacks = 6
-				}
-				men_at_arms = {
-					type = war_mages
-					stacks = 6
-				}
-				men_at_arms = {
-					type = pikemen_unit
-					stacks = 6
-				}
-				men_at_arms = {
-					type = light_footmen
-					stacks = 24
-				}
-				location = province:1852
-				origin = province:184
-				inheritable = yes
-			}
-			spawn_army = {
-				name = Covenant
-				men_at_arms = {
-					type = light_horsemen
-					stacks = 6
-				}
-				men_at_arms = {
-					type = war_mages
-					stacks = 6
-				}
-				men_at_arms = {
-					type = pikemen_unit
-					stacks = 6
-				}
-				men_at_arms = {
-					type = light_footmen
-					stacks = 24
-				}
-				location = province:1933
-				origin = province:184
-				inheritable = yes
-			}
-		}
-	}
-}
-
-alliancewar_dc02 = {
-	name = "Gwenifyr" 
-	female = yes
-	religion = breton_cult
-	culture = glenumbran
-	
-	3475.1.1 = { birth = yes }
-}
-
-alliancewar_dc03 = {
-	name = "Yseline" 
-	female = yes
-	religion = breton_cult
-	culture = glenumbran
-	
-	3475.1.1 = { birth = yes }
-}
 
 ## Pact
 
@@ -243,3 +165,143 @@ alliancewar_ep03 = {
 	3371.1.1 = { birth = yes }	
 }
 
+######################################
+#         CYRODIIL                   #
+######################################
+
+## Ap-Dugal Dynasty (100042)
+
+#House Ap-Dugal
+dugal_1000 = {
+	name = "Fortunata" #Governor of Anvil
+	dynasty = 100042
+	female = yes
+	dna = fortunata_dna_entry
+	religion = imperial_cult
+	culture = strident
+
+	trait = education_martial_3
+	trait = ambitious
+	trait = arrogant
+	trait = callous
+	trait = cynical
+	trait = forder
+	trait = pirate
+	trait = physique_good_1
+
+	3462.2.10 = { birth = yes }
+    3503.12.12 = { death = yes }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#####################################
+#       THARNS                      #
+#####################################
+
+
+#Abnur's Half-Sister, Euraxia
+tharn_202 = {
+	name = "Euraxia" #Queen of Rimmen
+	female = yes
+	dynasty = 110000
+	religion = imperial_cult
+	culture = nibenese
+	trait = education_magical_ability_2
+	trait = ambitious
+	trait = vengeful
+	trait = arrogant
+	trait = occultist
+	trait = denounced
+	trait = adventurer
+	trait = arcana_good_2
+	father = tharn_99
+	mother = tharn_83
+
+	3452.1.1 = { birth = yes }
+	3483.1.1 = {
+		employer = tharn_abnur #Abnur Tharn
+	}
+	3496.6.9 = { give_nickname = nick_the_usurper }
+	3499.1.1 = {
+		religion = molag_cult
+		#trait = necromancer
+	}
+	3503.1.1 = {
+		death = {
+			death_reason = death_battle
+		#	killer = 69568
+		}
+	}
+}
+
+tharn_226 = {
+	name = "Septima" #Abnur's Mage-Daughter, not to be confused with her cousin
+	
+	dna = tharn_226_dna_entry
+	
+	female = yes
+	dynasty = 110000
+	religion = imperial_cult
+	culture = nibenese
+	trait = education_magical_ability_3
+	trait = sadistic
+	trait = arrogant
+	trait = ambitious
+	trait = intellect_good_1
+	father = tharn_abnur
+	mother = abnurwife_7
+
+	3450.1.5 = { birth = yes }
+	3473.1.1 = {
+		trait = education_magical_ability_3
+		trait = battlemage_3
+		trait = erudite
+		}
+	3499.1.1 = {
+		religion = molag_cult
+		give_nickname = nick_magus
+	}
+	3503.1.1 = {
+		death = {
+			death_reason = death_battle
+		 }
+	}
+	portrait_override={
+		portrait_modifier_overrides={
+				custom_clothes=female_clothes_secular_indian_war_nobility_01_low
+				custom_headgear=female_headgear_secular_western_high_nobility_01
+				custom_hair=female_hair_byzantine_02
+		}
+	}
+}
+
+tharn_227 = {
+	name = "Clivia" #Empress-Regent of Cyrodiil
+	#dna="cffbi0idbc0" Failed to read key reference
+	#properties="ai0e0kcfbbfb"
+	female = yes
+	dynasty = 110000
+	religion = imperial_cult
+	culture = nibenese
+	trait = education_magical_ability_2
+	trait = arrogant
+	trait = arbitrary
+	trait = callous
+	father = tharn_abnur
+	mother = abnurwife_7
+
+	3452.1.1 = { birth = yes }
+	3490.1.1 = { add_spouse = blackdrake_105 } #Leovic
+	3501.12.12 = { death = { death_reason = death_disappearance } }
+}

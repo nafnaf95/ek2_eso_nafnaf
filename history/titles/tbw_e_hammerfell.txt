@@ -607,7 +607,7 @@ c_onsi = {
 	3321.1.1 = { holder = ashabah_999 }
 	3341.1.1 = { holder = shaelan_1000 }
 	3396.1.1 = { holder = shaelan_1001 }
-	3501.12.12 = { holder = tharn_226 }
+	3501.12.12 = { liege = d_ojwambu holder = seventhlegion_1001 }
 }
 #Edited
 d_thorstad = {
@@ -638,7 +638,7 @@ c_damar = {
 		holder = damar_1000
 		liege = d_ojwambu
 	}
-	3501.12.12 = { holder = tharn_226 }
+	3501.12.12 = { liege = d_ojwambu holder = seventhlegion_1003 }
 }
 d_fallen_wastes = {
 	3320.1.1 = { holder = hallin_998 }
@@ -676,6 +676,7 @@ c_abah_landing = {
 	3310.1.1 = { holder = tavan_101c }
 	3359.1.1 = { holder = addin_1000 }
 	3407.1.1 = { holder = addin_1001 }
+	3487.1.1 = { holder = cosh_1000 }
 }
 c_prince_gate = {
 	810.1.1 = { holder = tavan_99 }
@@ -685,6 +686,7 @@ c_prince_gate = {
 		liege = d_abah
 	}
 	3369.1.1 = { holder = montaine_1001 }
+	3487.1.1 = { holder = cosh_1000 }
 }
 c_no_shira = {
 	3355.1.1 = { holder = goldfang_1000 }
@@ -694,6 +696,7 @@ c_no_shira = {
 	3441.1.1 = { holder = goldfang_1003 }
 	3485.1.1 = { holder = goldfang_1004 }
 	3495.1.1 = { holder = goldfang_1005 }
+	3495.2.1 = { holder = ironwheel_1000 }
 	3537.1.1 = { holder = goldfang_1006 }
 }
 d_knifepoint = {
@@ -707,10 +710,12 @@ c_thrall_cove = {
 	3320.1.1 = { holder = berbera_999 }
 	3350.1.1 = { liege = d_regal_pirate }
 	3355.1.1 = { holder = berbera_1000 }
+	3496.1.1 = { holder = keelcutter_1000 }
 }
 c_shark_teeth = {
 	3350.1.1 = { holder = gurges_1000 }
 	3396.1.1 = { holder = gurges_1001 }
+	3496.1.1 = { holder = sharksteeth_1000 }
 }
 c_hnas = {
 	3350.1.1 = { 
@@ -1091,6 +1096,7 @@ c_stros_mkai = {
 	2950.1.1 = { holder = toddus_howardus }
 	3005.1.1 = { change_development_level = 6 }
 	3350.1.1 = { holder = pharos_1000 }
+	3480.1.1 = { holder = bhosek_1000 }
 }
 c_saintsport = {
 	3005.1.1 = { change_development_level = 4 }
@@ -1098,6 +1104,7 @@ c_saintsport = {
 		holder = saintsport_1000
 		liege = d_stros_mkai
 	}
+	3480.1.1 = { holder = seadrake_1000 }
 }
 d_abecean = {
 	3300.1.1 = { holder = curetar_999 }
@@ -1229,6 +1236,8 @@ c_amenos = {
 	3346.1.1 = { holder = dufort_1003 }
 	3350.1.1 = { liege = d_systres }
 	3372.1.1 = { holder = dufort_1005 }
+	
+	3497.1.1 = { holder = dreadsails_1000 }
 }
 
 c_yffelon = {
@@ -1241,12 +1250,51 @@ c_pankor = {
 
 c_syskor = {
 	3350.1.1 = { holder = yokudanlowborn_1003 }
+	
+	3497.1.1 = { holder = dreadsails_1000 }
 }
 
 
 #####################
 # NAF ADDITIONS     #
 #####################
+
+#   SYSTRES     #
+
+d_dreadsails = {
+	3497.1.1 = { holder = dreadsails_1000 }
+}
+
+#   SENTINEL     #
+
+
 d_witheredhand = { 
 	3497.1.1 = { holder = witheredhand_1000 }
 	}
+
+#      HEWS BANE     #
+	
+d_ironwheel = { 
+	3497.1.1 = { holder = ironwheel_1000 }
+	}
+	
+d_keelcutter = { 
+	3497.1.1 = { government = pirate_government holder = keelcutter_1000 }
+	}
+	
+d_sharksteeth = { 
+	3497.1.1 = { government = pirate_government holder = sharksteeth_1000 }
+	}
+	
+	
+#        STROS MKAI     #
+
+d_seadrake = { 
+	3497.1.1 = { government = pirate_government holder = seadrake_1000 }
+	}
+	
+d_bloodyfist = { 
+	3497.1.1 = { government = pirate_government holder = bhosek_1000 }
+	}
+
+

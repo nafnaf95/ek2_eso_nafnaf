@@ -886,7 +886,7 @@ c_ilessan = {
 	3409.1.1 = { holder = lariat_1002 }
 	3420.1.1 = { holder = lariat_1003 }
 	3450.1.1 = { holder = lariat_1004 }
-	3502.1.30 = { holder = redrook_1002 liege = d_red_rook }
+	3500.1.1 = { holder = redrook_1001 liege = d_red_rook }
 	3505.1.1 = { holder = lariat_1005 }
 	3537.1.1 = { holder = lariat_1006 }
 }
@@ -1000,7 +1000,7 @@ c_rhalta = {
 	3435.1.1 = { holder = rhalta_1002 }
 	3470.1.1 = { holder = noellaume_1002 }
 	3472.1.1 = { holder = noellaume_1003 liege = d_daggerfall }
-	3502.1.30 = { holder = redrook_1004 liege = d_red_rook }
+	3500.1.1 = { holder = redrook_1002 liege = d_red_rook }
 	3518.1.1 = { holder = noellaume_1004 }
 }
 
@@ -1174,7 +1174,7 @@ d_bangkorai = {
 c_bangkorai = {
 	3304.1.1 = { holder = guimard_1000 }
 	3342.1.1 = { holder = guimard_1002 }
-	3501.12.12 = { holder = tharn_226 }
+	3501.12.12 = { liege = d_ojwambu holder = seventhlegion_1002 }
 }
 
 c_ephesus = {
@@ -1191,8 +1191,8 @@ c_sunken_road = {
 #Reachmen Tribes/Cults/Warbands
 
 d_reachmen_bloodthorn = {
-	3501.1.1 = { holder = bloodthorn_1000 }
-	3503.1.1 = { holder = 0 }
+	3501.1.1 = { government = tribal_government holder = bloodthorn_1000 }
+	3501.1.1 = { government = tribal_government holder = bloodthorn_1000 }
 }
 
 d_red_rook = {
@@ -1204,6 +1204,9 @@ d_bitterhand = {
 	3500.1.1 = { holder = bitterhand_1000 }
 }
 
+k_camlorn_faolchu = { 
+	3490.1.1 = { government = tribal_government holder = fausta_1100 }
+	}
 
 
 #k_fharun

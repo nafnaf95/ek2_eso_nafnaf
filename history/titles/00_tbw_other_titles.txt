@@ -104,3 +104,7 @@ k_nomads_alikr = {
 e_legion_zero = {
 	3480.1.1 = { holder = dremora_molag_kena }	## ESO Molag Kenas Legion forces
 }
+
+e_seventh_legion = {
+	3480.1.1 = { holder = tharn_226 }
+}

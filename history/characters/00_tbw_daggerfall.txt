@@ -5,14 +5,63 @@
 #Daggerfall Aliance War
 
 dortene_1000 = {
-	name = "Grand Warlord Dortene"
-	dynasty = 400201
+name = " Grand Warlord Dortene"
 	female = yes
 	religion = breton_cult
 	culture = glenumbran
+	trait = education_martial_5
+	martial = 30
 
-	3468.1.1 = { birth = yes }
-	3535.1.1 = { death = yes }
+	3475.1.1 = { birth = yes }
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = Covenant
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 6
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 6
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 6
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 24
+				}
+				location = province:1852
+				origin = province:184
+				inheritable = yes
+			}
+			spawn_army = {
+				name = Covenant
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 6
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 6
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 6
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 24
+				}
+				location = province:1933
+				origin = province:184
+				inheritable = yes
+			}
+		}
+	}
+	
 	portrait_override={
 		portrait_modifier_overrides={
 				custom_clothes=female_clothes_plate_war_01
@@ -62,6 +111,51 @@ Am-Shadal_1000 = {
 	}
 }
 
+
+##Imperial
+
+seventhlegion_1000 = {## septimas mage commander
+	name = "Sadas Secundus"
+	culture = heartlander
+	religion = molag_cult
+	3461.1.1 = { birth = yes }
+}
+
+seventhlegion_1001 = {###onsis breath
+	name = "Panthius Varro"
+	culture = heartlander
+	religion = molag_cult
+	3461.1.1 = { birth = yes }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+				custom_clothes=male_clothes_secular_byzantine_war_nobility_01_low
+				custom_headgear=male_empty
+		}
+	}
+}
+
+seventhlegion_1002 = {## bankorai pass
+	name = "Commander Attius"
+	culture = colovian
+	religion = molag_cult
+	3461.1.1 = { birth = yes }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+				custom_clothes=male_clothes_secular_byzantine_war_nobility_01_low
+				custom_headgear=male_headgear_secular_northern_war_nobility_01
+				custom_legwear=male_legwear_secular_western_war_01
+		}
+	}
+}
+
+seventhlegion_1003 = {#Damar
+	name = "Visetus"
+	culture = heartlander
+	religion = molag_cult
+	3461.1.1 = { birth = yes }
+}
 
 ##altmer
 
@@ -496,8 +590,6 @@ brousseau_1007 = {
 
 # Camlorn
 
-lionguard_1000
-
 rielle_1005 = {
 	name = "Sebastien"
 	dynasty = 400003
@@ -507,35 +599,35 @@ rielle_1005 = {
 	father = rielle_1004
 	mother = garclay_1003
 	
-	3502.1.30 = {
-		effect = { 	
-			spawn_army = {
-				name =  mercenary_knights_lion_guard
-				men_at_arms = {
-					type = light_horsemen
-					stacks = 3
-				}
-				men_at_arms = {
-					type = war_mages
-					stacks = 3
-				}
-				men_at_arms = {
-					type = pikemen_unit
-					stacks = 3
-				}
-				men_at_arms = {
-					type = light_footmen
-					stacks = 12
-				}
-				location = province:42
-				origin = province:184
-				war = war_4311_bloodthorn_cult
-				war_keep_on_attacker_victory = yes
-				inheritable = no
-			}
-		}
+	#3502.1.30 = {
+		#effect = { 	
+			#spawn_army = {
+				#name =  mercenary_knights_lion_guard
+				#men_at_arms = {
+					#type = light_horsemen
+					#stacks = 3
+				#}
+				#men_at_arms = {
+					#type = war_mages
+					#stacks = 3
+				#}
+				#men_at_arms = {
+					#type = pikemen_unit
+					#stacks = 3
+				#}
+				#men_at_arms = {
+					#type = light_footmen
+					#stacks = 12
+				#}
+				#location = province:42
+				#origin = province:184
+				#war = war_4311_bloodthorn_cult
+				#war_keep_on_attacker_victory = yes
+				#inheritable = no
+			#}
+		#}
 	}
-}
+
 
 fausta_1101 = {
 	name = "Gloria"
@@ -741,7 +833,7 @@ redrook_1000 = {
 	3502.3.30 = { death = yes }
 }
 
-redrook_1002 = {
+redrook_1001 = {
 	name = "Gaetane" 
 	female = yes
 	religion = breton_cult
@@ -753,34 +845,14 @@ redrook_1002 = {
 	3502.3.30 = { death = yes }
 }
 
-redrook_1004 = {
+redrook_1002 = {
 	name = "Tharkul" 
 	religion = breton_cult
 	culture = mountain_orc
+	dna = redrook_1002_dna_entry
 
 	3470.1.1 = { birth = yes }
 	3502.3.30 = { death = yes }
-}
-
-redrook_1005 = {
-	name = "Valenwe" 
-	female = yes
-	religion = breton_cult
-	culture = alinori
-
-	3470.1.1 = { birth = yes }
-	3502.1.30 = { employer = redrook_1000 }
-	3502.3.30 = { death = yes }
-}
-
-redrook_1006 = {
-	name = "Tamien"
-	dynasty = 400112
-	religion = breton_cult
-	culture = glenumbran
-
-	3470.1.1 = { birth = yes }
-	3502.3.30 = { employer = redrook_1000 }
 }
 
 #Bitterhand Bandits
@@ -873,6 +945,27 @@ bitterhand_1003 = {
 
 ## Orsimer
 
+seamount_1004 = {
+	name = "Tazgol" #ESO
+	dynasty = 800013
+	religion = code_of_malacath
+	culture = mountain_orc
+	
+	father = seamount_1003
+	mother = seamount_1003b
+	
+	3460.1.1 = { birth = yes }
+	3480.1.1 = { add_spouse = seamount_1004b }
+	3482.1.1 = { effect = { make_concubine = character:seamount_1004c } }
+	3484.1.1 = { effect = { make_concubine = character:seamount_1004d } }
+	3512.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = seamount_1006
+		}
+	}
+}
+
 #Bagrakh
 
 bagrakh_1101 = {
@@ -904,7 +997,7 @@ bagrakh_1103 = {
 	dynasty = 800020
 	culture = mountain_orc
 	religion = vosh_rakh
-	dna =  bagrakh_1003_dna_entry
+	dna =  bagrakh_1103_dna_entry
 	
 	mother = bagrakh_1102
 	father = bagrakh_1101
@@ -934,10 +1027,11 @@ bagrakh_1103 = {
 	
 	portrait_override = {	# Will override the character's appearance
 		portrait_modifier_overrides={
-			custom_clothes=male_clothes_secular_orc_war
-			custom_beards=male_empty
-			custom_cloaks=male_furs_secular_fp1_nobility_03
-			custom_legwear=male_legwear_secular_fp1_common_01
+				custom_clothes=male_clothes_secular_orc_war
+				custom_beards=male_empty
+				custom_legwear=male_legwear_secular_fp1_common_01
+				custom_cloaks=male_furs_secular_fp1_nobility_02
+				custom_headgear=male_headgear_secular_fp1_royalty_01
 		}
 	}
 }
@@ -1784,3 +1878,263 @@ cassipia_1000 = {
 	3543.1.1 = { death = yes }
 
 }
+
+#############################
+#       Stros Mkai          #
+#############################
+
+seadrake_1000 = {
+	name = "Captain Helane"
+	dynasty = lowborn
+	religion = breton_cult
+	culture = glenumbran
+	female = yes
+	
+	
+	3475.1.1 = { birth = yes }
+
+}
+
+bhosek_1000 = {
+	name = "Headsman Bhosek"
+	dynasty = lowborn
+	religion = tall_papa
+	culture = crown
+	
+	dna = bhosek_1000_dna_entry
+	
+	3469.1.1 = { birth = yes }
+	
+		portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+				custom_clothes=clothes_altmer_male_common_war_01
+				custom_jewellery=male_jewellery_horwalli_necklace_02_high
+				custom_headgear=male_empty
+				custom_hair=male_hair_northern_02
+				custom_legwear=male_legwear_secular_western_war_01
+				custom_beards=male_empty
+		}
+	}
+}
+
+bhosek_1001 = {
+	name = "Helthar"
+	dynasty = lowborn
+	religion = nord_cult
+	culture = eastmarcher
+	
+	#dna = bhosek_1000_dna_entry
+	
+	3469.1.1 = { birth = yes }
+	3480.1.1 = { employer = bhosek_1000 }
+	
+		portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+
+		}
+	}
+}
+
+bhosek_1002 = {
+	name = "Khemd"
+	dynasty = lowborn
+	religion = tall_papa
+	culture = crown
+	
+	#dna = bhosek_1000_dna_entry
+	
+	3469.1.1 = { birth = yes }
+	3480.1.1 = { employer = bhosek_1000 }
+	
+		portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+
+		}
+	}
+}
+
+bhosek_1003 = {
+	name = "Nicolard"
+	dynasty = lowborn
+	religion = breton_cult
+	culture = iliac
+	
+	#dna = bhosek_1000_dna_entry
+	
+	3469.1.1 = { birth = yes }
+	3480.1.1 = { employer = bhosek_1000 }
+	
+		portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+
+		}
+	}
+}
+
+
+
+#############################
+#     Hews Bane             #
+#############################
+
+danobia_1002 = {
+	name = "Falorah"
+	dynasty = 210002
+	religion = tall_papa
+	culture = crown
+	female = yes
+	
+	trait = callous
+	trait = ambitious
+	trait = stubborn
+	trait = beauty_good_3
+	
+	father = danobia_1000
+
+	3455.1.1 = { birth = yes }
+	3465.1.1 = { give_nickname = nick_the_jewel }
+	3525.1.1 = { death = yes }	
+}
+
+
+ironwheel_1000 = {
+	name = "Chief Inspector Rhanbiq"
+	dynasty = lowborn
+	religion = tall_papa
+	culture = crown
+	
+	3455.1.1 = { birth = yes }
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+				custom_clothes=male_clothes_secular_byzantine_war_nobility_01_low
+				custom_cloaks=male_cloaks_secular_ep1_adventurer_01
+				custom_headgear=male_empty
+				custom_hair=male_hair_fp1_03
+				custom_beards=male_beard_fp2_iberian_christian_01
+				custom_legwear=male_legwear_secular_western_war_01
+		}
+	}
+}
+
+ironwheel_1001 = {
+	name = "Captain Brand"
+	religion = redguard_cult
+	culture = abecean
+	
+	3455.1.1 = { birth = yes }
+	3480.1.1 = { employer = ironwheel_1000 }
+}
+
+ironwheel_1002 = {
+	name = "Midrarj" 
+	religion = redguard_cult
+	culture = abecean
+	
+	3455.1.1 = { birth = yes }
+	3480.1.1 = { employer = ironwheel_1000 }
+}
+
+ironwheel_1003 = {
+	name = "Varel Falavel" 
+	religion = tall_papa
+	culture = dunmer
+	
+	3455.1.1 = { birth = yes }
+	3480.1.1 = { employer = ironwheel_1000 }
+}
+
+cosh_1000 = {
+	name = "Merchant Lord Cosh"
+	dynasty = ""
+	religion = imperial_cult
+	culture = strident
+	
+	3455.1.1 = { birth = yes }
+
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+				custom_headgear=male_headgear_secular_fp2_iberian_muslim_high_nobility_01
+				custom_beards=male_empty
+				custom_clothes=male_clothes_secular_dde_abbasid_nobility_01_low
+				custom_hair=no_hair
+		}
+	}
+}
+
+keelcutter_1000 = {
+	name = "Virindi Slave-Taker"
+	culture = maormer
+	religion = mehrunes_cult
+	female = yes
+	
+	flag = pirate_government
+	
+	3415.1.1 = { birth = yes }
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+				custom_clothes=clothes_altmer_female_common_war_01
+				custom_hair=female_hair_western_03
+				custom_cloaks=female_cloaks_secular_fp1_nobility_03
+				custom_legwear=female_legwear_secular_western_common_01
+				custom_headgear=female_empty
+		}
+	}
+}
+
+
+sharksteeth_1000 = {
+	name = "Shalug The Shark"
+	religion = malacath_cult
+	culture = mountain_orc
+	female = yes
+	3455.1.1 = { birth = yes }
+	
+	flag = pirate_government
+	
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+				custom_hair=female_hair_rtt_02_milla
+				custom_clothes=female_clothes_secular_northern_war_nobility_01
+				custom_legwear=female_legwear_secular_western_war_01
+				custom_headgear=female_empty
+		}
+	}
+	
+}
+
+
+###########################################
+##########   HIGH ISLE & SURROUNDINGS #####
+###########################################
+
+#navire
+
+#garicks rest
+
+#gonfalon bay
+
+#tor draioch
+
+#amenos station
+dreadsails_1000 = {
+	name = "Fleet Queen Taleria"
+	culture = maormer
+	religion = mehrunes_cult
+	female = yes
+	
+	flag = pirate_government
+	
+	3415.1.1 = { birth = yes }
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+
+		}
+	}
+}
+#old coin
+
+#brokerrockmine
