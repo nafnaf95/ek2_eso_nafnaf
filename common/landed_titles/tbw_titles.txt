@@ -261,9 +261,12 @@ d_bloodyfist = {
 ###############################
 #      High Isle and Srround  #
 ###############################
+d_systres = {
+	color={ 109 246 246 }
+}
 
 d_dreadsails = {
-	color={ 179 0 0 }
+	color={ 109 0 246 }
 	definite_form = yes
 	capital = c_syskor
 	de_jure_drift_disabled = yes
@@ -274,3 +277,14 @@ d_dreadsails = {
 	}
 }
 
+d_ascendantorder = {
+	color={ 109 102 246 }
+	definite_form = yes
+	capital = c_syskor
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+}

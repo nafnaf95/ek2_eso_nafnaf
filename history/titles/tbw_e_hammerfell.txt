@@ -1211,6 +1211,8 @@ d_systres = {
 	3354.1.1 = { holder = mornard_1000 }
 	3402.1.1 = { holder = mornard_1001 }
 	3420.1.1 = { holder = mornard_1002 }
+	
+	3497.1.1 = { holder = dufort_1006 }
 }
 
 c_systres = {
@@ -1220,6 +1222,10 @@ c_systres = {
 	3354.1.1 = { holder = mornard_1000 }
 	3402.1.1 = { holder = mornard_1001 }
 	3420.1.1 = { holder = mornard_1002 }
+	
+	3497.1.1 = { holder = dufort_1006 }
+	3498.1.1 = { change_development_level = 6 }
+	3498.1.1 = { change_castle_level = 2 }
 }
 
 c_galen = {
@@ -1227,6 +1233,8 @@ c_galen = {
 	3354.1.1 = { holder = mornard_1000 }
 	3402.1.1 = { holder = mornard_1001 }
 	3420.1.1 = { holder = mornard_1002 }
+	
+	3497.1.1 = { holder = mornard_1003 }
 }
 
 c_amenos = {
@@ -1237,21 +1245,27 @@ c_amenos = {
 	3350.1.1 = { liege = d_systres }
 	3372.1.1 = { holder = dufort_1005 }
 	
-	3497.1.1 = { holder = dreadsails_1000 }
+	3497.1.1 = { holder = ascendantorder_1000 }
+	
+
 }
 
 c_yffelon = {
 	3350.1.1 = { holder = solais_1000 }
+	
+	3497.1.1 = { holder = firesong_1000 }
 }
 
 c_pankor = {
 	3250.1.1 = { holder = dremora_1000 }
+	
+	3497.1.1 = { government = pirate_government holder = dreadsails_1000 }
 }
 
 c_syskor = {
 	3350.1.1 = { holder = yokudanlowborn_1003 }
 	
-	3497.1.1 = { holder = dreadsails_1000 }
+	3497.1.1 = { government = pirate_government holder = dreadsails_1000 }
 }
 
 
@@ -1262,8 +1276,18 @@ c_syskor = {
 #   SYSTRES     #
 
 d_dreadsails = {
-	3497.1.1 = { holder = dreadsails_1000 }
+	3497.1.1 = { government = pirate_government holder = dreadsails_1000 }
 }
+
+b_tor_draioch = {
+	3497.1.1 = { holder = tordraioch_1000 }
+}
+
+d_ascendantorder = {
+	3497.1.1 = { holder = ascendantorder_1000 }
+}
+
+
 
 #   SENTINEL     #
 

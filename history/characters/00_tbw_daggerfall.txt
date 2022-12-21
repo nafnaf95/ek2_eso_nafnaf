@@ -673,6 +673,38 @@ gautier_1102 = {
 }
 
 
+#Tamrith
+tamrith_1005 = {
+	name = "Eselde" #ESO
+	dynasty = 410005
+	religion = breton_cult
+	culture = northmen
+	female = yes
+
+	dna = tamrith_1005_dna_entry
+	
+	father = tamrith_1004
+	mother = elde_1003
+
+	3475.1.1 = { birth = yes }
+	3490.1.1 = {
+		effect = {
+			add_pressed_claim = title:c_shornhelm
+			add_pressed_claim = title:d_shornhelm
+			add_pressed_claim = title:k_shornhelm
+		}
+	}
+	3535.1.1 = { death = yes }
+
+		portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=female_hair_western_09
+			custom_beards=female_empty
+		}
+	}
+}
+
+
 # Deleyn
 
 redain_1101 = {
@@ -2086,9 +2118,18 @@ keelcutter_1000 = {
 
 sharksteeth_1000 = {
 	name = "Shalug The Shark"
-	religion = malacath_cult
+	religion = code_of_malacath
 	culture = mountain_orc
 	female = yes
+	
+	martial = 15
+	prowess = 21
+	
+	
+	trait = gregarious
+	trait = greedy
+	trait = zealous
+	
 	3455.1.1 = { birth = yes }
 	
 	flag = pirate_government
@@ -2111,14 +2152,83 @@ sharksteeth_1000 = {
 ###########################################
 
 #navire
+#dufort
+dufort_1006 = {
+	name = "Elea"
+	dynasty = 400023
+	culture = systrean
+	religion = breton_cult
+	female = yes
+	
+	father = dufort_1003
 
+	3458.1.1 = { birth = yes }
+	3522.1.1 = { death = yes }
+}
 #garicks rest
 
 #gonfalon bay
 
 #tor draioch
+#Magister Irin
+tordraioch_1000 = {
+	name = "Magister Irin" #Lore
+	culture = systrean
+	religion = breton_cult
+	
+	3422.1.1 = { birth = yes }
 
+}
 #amenos station
+ascendantorder_1000 = {
+	name = "The Ascendant Lord" #Lore
+	culture = systrean
+	religion = breton_cult
+	
+	3462.1.1 = { birth = yes }
+}
+
+#Mornard
+mornard_1003 = {
+	name = "Leonard" #Lore
+	dynasty = 420017
+	culture = systrean
+	religion = breton_cult
+	
+	father = mornard_1002
+
+	3462.1.1 = { birth = yes }
+	3570.1.1 = { death = yes }
+}
+#old coin
+
+#brokerrockmine
+
+
+# yffelon
+
+firesong_1000 = {
+	name = "Verline"
+	culture = systrean
+	religion = breton_cult
+	female = yes
+	
+
+	3458.1.1 = { birth = yes }
+	3522.1.1 = { death = yes }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 dreadsails_1000 = {
 	name = "Fleet Queen Taleria"
 	culture = maormer
@@ -2135,6 +2245,3 @@ dreadsails_1000 = {
 		}
 	}
 }
-#old coin
-
-#brokerrockmine
