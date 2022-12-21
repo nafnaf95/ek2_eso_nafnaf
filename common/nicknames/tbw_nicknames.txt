@@ -4,3 +4,4 @@
 
 #ESO
 nick_trade_king = { }
+nick_night_terror = { }

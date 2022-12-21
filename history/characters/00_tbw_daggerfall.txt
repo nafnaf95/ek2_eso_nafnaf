@@ -508,6 +508,8 @@ cumberland_1004 = {
 		trait = education_stewardship_4
 	}
 
+	3457.9.12 = { give_nickname = nick_trade_king }
+	
 	3461.6.1 = { 
 		trait = brave
 		trait = gallant
@@ -672,6 +674,41 @@ gautier_1102 = {
 	3502.1.1 = { employer = rielle_1005 }
 }
 
+# Edrald
+edrald_1002 = {
+	name = "Allan"
+	dynasty = 410002
+	religion = breton_cult
+	culture = northmen
+
+	father = edrald_1001
+
+	3435.1.1 = { birth = yes }
+	3486.7.1 = { add_spouse = edrald_1002 }
+	3583.1.1 = { death = yes }
+}
+
+edrald_1003 = {
+	name = "Krisandra"
+	dynasty = 410002
+	religion = breton_cult
+	culture = northmen
+
+
+	3445.1.1 = { birth = yes }
+	3583.1.1 = { death = yes }
+}
+
+edrald_1004 = {
+	name = "Arlie"
+	dynasty = 410002
+	religion = breton_cult
+	culture = northmen
+
+
+	3485.1.1 = { birth = yes }
+	3583.1.1 = { death = yes }
+}
 
 #Tamrith
 tamrith_1005 = {
@@ -966,6 +1003,28 @@ bitterhand_1003 = {
 				custom_jewellery=male_jewellery_horwalli_necklace_01_high
 				custom_hair=male_hair_fp1_02
 				custom_headgear=male_empty
+		}
+	}
+}
+
+#Stormhaven Wayrest
+
+supernaldreamers_1000 = {
+	name = "Galthis" 
+	religion = vaermina_cult
+	culture = iliac
+	
+	trait = undead_character
+	trait = education_magical_ability_4
+	trait = necromancer
+	
+	3080.1.1 = { birth = yes }
+	3480.1.1 = { give_nickname = nick_night_terror }
+	3509.3.30 = { death = yes }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+
 		}
 	}
 }
@@ -2165,6 +2224,20 @@ dufort_1006 = {
 	3458.1.1 = { birth = yes }
 	3522.1.1 = { death = yes }
 }
+
+dufort_1007 = { #Eleas brother and court mage
+	name = "Damard"
+	dynasty = 400023
+	culture = systrean
+	religion = breton_cult
+	
+	father = dufort_1003
+
+	3458.1.1 = { birth = yes }
+	3522.1.1 = { death = yes }
+}
+
+
 #garicks rest
 
 #gonfalon bay
@@ -2191,6 +2264,30 @@ ascendantorder_1000 = {
 #Mornard
 mornard_1003 = {
 	name = "Leonard" #Lore
+	dynasty = 420017
+	culture = systrean
+	religion = breton_cult
+	
+	father = mornard_1002
+
+	3462.1.1 = { birth = yes }
+	3570.1.1 = { death = yes }
+}
+
+mornard_1004 = {
+	name = "Leonard" #Lore
+	dynasty = 420017
+	culture = systrean
+	religion = breton_cult
+	
+	father = mornard_1003
+
+	3462.1.1 = { birth = yes }
+	3570.1.1 = { death = yes }
+}
+
+mornard_1005 = {
+	name = "Jonne" #Lore Visicount Cousin to Leonard
 	dynasty = 420017
 	culture = systrean
 	religion = breton_cult

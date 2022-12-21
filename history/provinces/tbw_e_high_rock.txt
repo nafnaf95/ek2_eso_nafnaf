@@ -17,3 +17,50 @@
 132 = { #b_orc_finger
 	holding = city_holding
 }
+
+####c_lorkrata
+
+128 = { #b_lorkrata
+	culture = northmen
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+126 = { #b_obsidian_scar
+	holding = none
+}
+127 = { #b_thorkan
+	holding = none
+}
+
+####c_cumberland
+
+176 = { #b_cumberland
+	culture = iliac
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+178 = { #b_norvulk
+	holding = none
+}
+
+
+####c_pariah_abbey
+
+175 = { #b_pariah_abbey
+	culture = iliac
+	religion = azura_cult
+
+	holding = church_holding
+}
+177 = { #b_moonlit_maw
+	holding = none
+}
+
+2654 = { #b_dreamer_hills
+	culture = iliac
+	religion = vaermina_cult
+
+	holding = castle_holding
+}

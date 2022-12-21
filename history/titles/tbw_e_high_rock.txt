@@ -221,9 +221,22 @@ c_pariah_abbey = {
 		holder = pariah_abbey_1000
 		government = theocracy_government
 	}
-	3375.1.1 = { liege = d_wayrest }
-	3490.1.1 = { holder = pariah_abbey_1000 }
+	3490.1.1 = { government = tribal_government holder = supernaldreamers_1000 }
 }
+
+b_pariah_abbey = {
+	3350.1.1 = { 
+		holder = pariah_abbey_1000
+		government = theocracy_government
+	}
+	3490.1.1 = { government = tribal_government holder = supernaldreamers_1000 }
+}
+
+b_dreamer_hills = {
+
+	3490.1.1 = { government = tribal_government holder = supernaldreamers_1000 }
+}
+
 
 #k_shornhelm
 k_shornhelm = { 
@@ -417,6 +430,7 @@ c_lorkrata = {
 		liege = d_northpoint
 	}
 	3365.1.1 = { liege = d_lorkrata }
+	3486.7.1 = { holder = edrald_1002 }
 }
 
 c_fell_run = {
@@ -1188,7 +1202,7 @@ c_sunken_road = {
 	}
 }
 
-#Reachmen Tribes/Cults/Warbands
+####Tribes/Cults/Warbands
 
 d_reachmen_bloodthorn = {
 	3501.1.1 = { government = tribal_government holder = bloodthorn_1000 }
@@ -1208,7 +1222,12 @@ k_camlorn_faolchu = {
 	3490.1.1 = { government = tribal_government holder = fausta_1100 }
 	}
 
-
+d_supernaldreamers = {
+	3500.1.1 = { holder = supernaldreamers_1000 }
+}
+	
+	
+	
 #k_fharun
 k_fharun = {
 	3005.1.1 = { change_development_level = 5 }
