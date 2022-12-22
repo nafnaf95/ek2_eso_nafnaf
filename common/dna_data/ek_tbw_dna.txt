@@ -1313,6 +1313,7 @@ altmer_hero_dna_entry = { #mettyu
 enabled=yes
 }
  
+
 bergama_1005_dna_entry={ #mettyu
 	portrait_info ={
 		genes={

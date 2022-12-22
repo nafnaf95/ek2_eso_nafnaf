@@ -34,6 +34,8 @@
  d_red_rook_adj:0 "Red Rook Bandits"							#BANDITS
  d_reachmen_bloodthorn:0 "The Bloodthorn Cult"					#CULT
  d_reachmen_bloodthorn_adj:0 "The Bloodthorn Cult"				#CULT
+ d_supernaldreamers:0 "The Supernal Dreamers"					#CULT
+ d_supernaldreamers_adj:0 "The Supernal Dreamers"				#CULT
  d_bitterhand:0 "Bitterhand Bandits"							#BANDIT
  d_bitterhand_adj:0 "Bitterhand Bandits"						#BANDIT
  d_witheredhand:0 "Withered Hand Cult"							#CULT
@@ -48,3 +50,18 @@
  d_seadrake_adj:0 "Sea Drake Pirates" 						#PIRATES
  d_bloodyfist:0 "Bloody Fist Pirates" 						#PIRATES
  d_bloodyfist_adj:0 "Bloody Fist Pirates" 					#PIRATES
+ 
+ 
+ ############################
+ # Holding name changes     #
+ ############################
+ 
+ b_lightwatch:0 "Aldcroft Manor"
+ b_vermeir:0 "Dro Dara Plantation"
+ b_noellaume:0 "Red Rook Camp"
+ c_turain:0 "Turain"
+ b_turain:0 "At-Tura Estate"
+ b_penmarch:0 "Lion Guard Redoubt"
+ b_steelheart:0 "Steelheart Moorings"
+ 
+ b_holton:0 "Koeglin Mine"

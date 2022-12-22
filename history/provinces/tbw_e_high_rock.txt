@@ -1,3 +1,40 @@
+
+####c_wayrest
+
+184 = { #b_wayrest_castle
+	culture = iliac
+	religion = breton_cult
+	
+	holding = castle_holding
+	buildings = {
+		castle_03
+		common_tradeport_02
+	}
+}
+179 = { #b_farangel_landing
+	holding = city_holding
+		buildings = {
+		common_tradeport_02
+	}
+}
+180 = { #b_divines_rest
+	holding = church_holding
+}
+181 = { #b_wayrest
+	holding = city_holding
+	buildings = {
+		city_03
+		common_tradeport_01
+		guild_halls_01
+	}
+}
+182 = { #b_penton
+	holding = none
+}
+183 = { #b_dreughside
+	holding = city_holding
+}
+
 ####c_fell_run
 
 130 = { #b_edrald
@@ -62,5 +99,1711 @@
 	culture = iliac
 	religion = vaermina_cult
 
+	holding = tribal_holding
+}
+
+
+####c_turain
+
+167 = { #b_turain
+	culture = crown
+	religion = redguard_cult
+	
+	holding = city_holding
+}
+168 = { #b_farangel_keep
+	holding = none
+}
+169 = { #b_ripcart
+	holding = none
+}
+170 = { #b_birdsong
+	culture = iliac
+	religion = breton_cult
+	
 	holding = castle_holding
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#E_HIGH_ROCK - 111 counties - 338 baronies
+
+####c_balfiera
+
+1 = { #b_adamantine	
+	culture = balfiera
+	religion = mainland_auriel
+
+	holding = castle_holding
+	
+	special_building = adamantine_tower_01
+	
+	buildings = {
+		castle_03
+		pastures_03
+		barracks_02
+	}
+}
+2 = { #b_upvale
+	holding = castle_holding
+	buildings = {
+		barracks_01
+	}
+}
+3 = { #b_blackhead
+	holding = city_holding
+	buildings = {
+		city_02
+		common_tradeport_02
+		guild_halls_01
+	}
+}
+4 = { #b_medora
+	holding = none
+}
+5 = { #b_gallomarket
+	holding = none
+}
+
+####c_betony
+
+7 = { #b_skyspire
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	holding = tribal_holding
+}
+6 = { #b_grimfield
+	holding = city_holding
+}
+8 = { #b_morisel
+	holding = none
+}
+9 = { #b_little_betony
+	holding = none
+}
+
+####c_glenpoint
+
+10 = { #b_glenpoint
+	culture = glenumbran
+	religion = breton_cult
+
+	holding = castle_holding
+}
+11 = { #b_falmouth
+	holding = none
+}
+12 = { #b_camborne
+	holding = none
+}
+
+####c_tulune
+
+14 = { #b_tulune
+	culture = glenumbran
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+13 = { #b_bayeaux
+	holding = none
+}
+15 = { #b_daggerlook
+	holding = none
+}
+
+####c_daggerfall
+
+18 = { #b_daggerfall_castle
+	culture = glenumbran
+	religion = breton_cult
+	
+	holding = castle_holding
+	buildings = {
+		castle_03
+		common_tradeport_02
+	}
+}
+17 = { #b_dagger_priory
+	holding = church_holding
+}
+19 = { #b_daggerfall
+	holding = city_holding
+	buildings = {
+		city_03
+		guild_halls_02
+		common_tradeport_02
+	}
+}
+20 = { #b_margaux
+	holding = none
+}
+3908 = { #b_ripwych_commons
+	holding = none
+}
+
+####c_themond
+16 = { #b_themond
+	culture = glenumbran
+	religion = breton_cult
+
+	holding = city_holding
+}
+3906 = { #b_briec
+	holding = none
+}
+3907 = { #b_daggerbay_keep
+	holding = castle_holding
+}
+
+####c_shalgora
+
+22 = { #b_shalgora
+	culture = glenumbran
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+21 = { #b_dagmouth
+	holding = none
+}
+23 = { #b_maestag
+	holding = none
+}
+
+####c_ilessan
+
+28 = { #b_ilessan
+	culture = glenumbran
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+1592 = { #b_darron
+	holding = none
+}
+
+####c_valewatch
+
+30 = { #b_valewatch
+	culture = glenumbran
+	religion = breton_cult
+	
+	holding = castle_holding
+	
+	3470.1.1 = { religion = beldama_wyrd }
+	3505.1.1 = { religion = breton_cult }
+}
+29 = { #b_guardians_vale
+	holding = none
+}
+31 = { #b_chill_keep
+	holding = none
+}
+
+####c_beldama
+
+35 = { #b_beldama
+	culture = glenumbran
+	religion = beldama_wyrd
+	
+	holding = church_holding
+}
+
+####c_baelborne
+
+310 = { #b_baelborne_rock
+	culture = glenumbran
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+33 = { #b_silumm
+	holding = none
+}
+32 = { #b_miltrin
+	holding = none
+}
+34 = { #b_shrieking_scar
+	holding = none
+}
+
+####c_daenia
+
+37 = { #b_daenia
+	culture = glenumbran
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+36 = { #b_midmoth
+	holding = none
+}
+38 = { #b_wyrdmarket
+	holding = none
+}
+39 = { #b_dresan
+	holding = none
+}
+
+####c_deleyn
+
+24 = { #b_deleyn_mill
+	culture = glenumbran
+	religion = breton_cult
+	
+	holding = city_holding
+}
+25 = { #b_deleyn_keep
+	holding = none
+}
+27 = { #b_dourstone
+	holding = none
+}
+
+####c_rhalta
+26 = { #b_noellaume
+	culture = ilniviri
+	religion = court_dawnbeauty
+
+	holding = castle_holding
+	buildings = { military_camps_01 }
+	
+	3472.1.1 = {
+		culture = glenumbran
+		religion = breton_cult
+	}
+}
+3905 = { #b_rhalta
+	holding = none
+}
+
+####c_northmoor
+
+46 = { #b_farwatch
+	culture = glenumbran
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+47 = { #b_northmoor
+	holding = city_holding
+}
+45 = { #b_midleigh
+	holding = none
+}
+50 = { #b_seaview
+	holding = none
+}
+
+####c_westtry
+
+51 = { #b_westtry
+	culture = glenumbran
+	religion = breton_cult
+	
+	holding = city_holding
+}
+52 = { #b_northshore_point
+	holding = none
+}
+
+
+####c_eagle_brook
+54 = { #b_eagle_brook
+	culture = glenumbran
+	religion = breton_cult
+
+	holding = city_holding
+}
+53 = { #b_enduum
+	holding = none
+}
+3912 = { #b_cathbury
+	holding = church_holding
+}
+
+
+####c_camlorn
+
+63 = { #b_camlorn_castle
+	culture = glenumbran
+	religion = breton_cult
+		
+	holding = castle_holding
+}
+59 = { #b_wilmslow
+	holding = none
+}
+60 = { #b_stendarr_abbey
+	holding = church_holding
+}
+61 = { #b_camlorn
+	holding = city_holding
+}
+62 = { #b_gaudet
+	holding = none
+}
+64 = { #b_balefire
+	holding = none
+}
+
+####c_ykalon
+1765 = { #b_ykalon
+	culture = glenumbran
+	religion = breton_cult
+
+	holding = city_holding
+}
+1766 = { #b_llugwych
+	culture = glenumbran
+	religion = breton_cult
+
+	holding = castle_holding	
+}
+70 = { #b_merovec_folly
+	holding = none
+}
+
+####c_penmarch
+
+72 = { #b_penmarch
+	culture = glenumbran
+	religion = breton_cult
+		
+	holding = castle_holding
+	buildings = { military_camps_01 }
+}
+71 = { #b_emlyn
+	holding = none
+}
+
+####c_glenumbra_moors
+
+96 = { #b_faolchu
+	culture = glenumbran
+	religion = breton_cult
+
+	holding = tribal_holding
+}
+
+55 = { #b_glenumbra_moors
+
+	
+	holding = none
+}
+
+
+####c_cambray
+
+56 = { #b_cambray_hills
+	culture = glenumbran
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+57 = { #b_cambray_pass
+	holding = none
+}
+
+####c_anticlere
+
+42 = { #b_aldcroft
+	culture = glenumbran
+	religion = breton_cult
+	
+	holding = city_holding
+	buildings = { common_tradeport_01 }
+}
+40 = { #b_lightwatch
+	holding = castle_holding
+}
+41 = { #b_mire_falls
+	holding = none
+}
+3904 = { #b_duncreigh
+	holding = none
+}
+
+####c_khuras
+
+43 = { #b_tangle_rock
+	culture = glenumbran
+	religion = beldama_wyrd
+
+	holding = tribal_holding
+}
+44 = { #b_khuras
+	holding = city_holding
+}
+1715 = { #b_yeorth
+	holding = none
+}
+
+####c_urvaius
+
+65 = { #b_urvaius
+	culture = balfiera
+	religion = mainland_auriel
+	
+	holding = church_holding
+}
+68 = { #b_carigalen
+	holding = none
+}
+69 = { #b_mesanthano
+	holding = none
+}
+
+####c_dwynnen
+
+67 = { #b_dwynnen
+	culture = glenumbran
+	religion = breton_cult
+		
+	holding = castle_holding
+}
+66 = { #b_spindelclutch
+	holding = none
+}
+97 = { #b_king_redoubt
+	holding = none
+}
+
+####c_bhoriane
+
+75 = { #b_bhoriane
+	culture = balfiera
+	religion = mainland_auriel
+		
+	holding = castle_holding
+}
+73 = { #b_kingslove
+	holding = none
+}
+74 = { #b_eastings
+	holding = none
+}
+
+####c_kambria
+
+76 = { #b_kambria
+	culture = glenumbran
+	religion = breton_cult
+			
+	holding = castle_holding
+}
+77 = { #b_grimrock
+	holding = none
+}
+3909 = { #b_longwych
+	holding = none
+}
+
+####c_crosswych
+79 = { #b_crosswych
+	culture = glenumbran
+	religion = breton_cult
+
+	holding = city_holding
+}
+78 = { #b_cryptwatch
+	holding = none
+}
+237 = { #b_menoit_pass
+	holding = none
+}
+
+####c_oloine
+
+82 = { #b_oloine
+	culture = glenumbran	
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+80 = { #b_ebon_crypt
+	holding = church_holding
+}
+83 = { #b_parvault
+	holding = none
+}
+3911 = { #b_upleigh
+	holding = none
+}
+
+####c_cath_bedraud
+
+81 = { #b_cath_bedraud
+	culture = glenumbran
+	religion = breton_cult
+	
+	holding = church_holding
+	
+	special_building = cath_bedraud_01
+}
+
+####c_phrygias
+
+85 = { #b_phrygias
+	culture = glenumbran
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+86 = { #b_darguard
+	holding = none
+}
+87 = { #b_thorvale
+	holding = none
+}
+
+####c_skeffington
+84 = { #b_lord_way
+	culture = glenumbran
+	religion = breton_cult
+
+	holding = castle_holding
+}
+3910 = { #b_skeffington
+	holding = city_holding
+}
+
+####c_whitehaven
+
+89 = { #b_white_haven
+	culture = northmen
+	religion = breton_cult
+	
+	holding = city_holding
+}
+88 = { #b_flyleaf
+	holding = church_holding
+}
+90 = { #b_hencoas
+	holding = none
+}
+
+####c_southgard
+147 = { #b_southgard
+	culture = northmen
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+91 = { #b_tamrith
+	holding = none
+}
+145 = { #b_aesar
+	holding = none
+}
+146 = { #b_eyebright
+	holding = none
+}
+
+####c_old_gate
+
+92 = { #b_arteyn
+	holding = none
+}
+93 = { #b_old_gate
+	culture = northmen
+	religion = breton_cult
+
+	holding = castle_holding
+}
+95 = { #b_valeguard_tower
+	holding = castle_holding
+}
+
+####c_silverhoof
+
+94 = { #b_silverhoof
+	culture = horsemen
+	religion = herd_mother
+	
+	holding = tribal_holding
+}
+
+####c_ravenwatch
+
+100 = { #b_ravenwatch
+	culture = northmen
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+98 = { #b_crestshade
+	holding = city_holding
+}
+99 = { #b_bonduaic
+	holding = none
+}
+101 = { #b_crestmine
+	holding = none
+}
+
+####c_irmgard
+
+103 = { #b_irmgard
+	culture = northmen
+	religion = breton_cult
+
+	holding = castle_holding
+}
+102 = { #b_glandart
+	holding = none
+}
+104 = { #b_manister
+	holding = none
+}
+
+####c_shornhelm
+
+109 = { #b_shornhelm_castle
+	culture = northmen
+	religion = breton_cult
+
+	holding = castle_holding
+	buildings = {
+		castle_02
+		barracks_02
+		hill_forts_02
+	}
+}
+105 = { #b_macehead
+	holding = none
+}
+106 = { #b_hinault
+	holding = none
+}
+107 = { #b_shornhelm_cathedral
+	holding = church_holding
+}
+108 = { #b_shornhelm
+	holding = city_holding
+	buildings = {
+		guild_halls_01
+	}
+}
+
+####c_doomcrag
+
+111 = { #b_dooomcrag
+	culture = northmen
+	religion = breton_cult
+	
+	holding = church_holding
+}
+110 = { #b_edesel
+	holding = none
+}
+112 = { #b_varlasel
+	holding = none
+}
+
+####c_boralis
+
+113 = { #b_boralis
+	culture = northmen
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+114 = { #b_erokii
+	holding = none
+}
+115 = { #b_veawend_ede
+	holding = none
+}
+
+####c_moira_hope
+
+117 = { #b_moira_hope
+	culture = northmen
+	religion = breton_cult
+	
+	holding = city_holding
+}
+116 = { #b_trader_rest
+	holding = none
+}
+118 = { #b_oldhelm
+	holding = none
+}
+
+####c_branquette_tor
+
+119 = { #b_branquette_tor
+	culture = northmen
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+120 = { #b_hoarfrost
+	holding = city_holding
+}
+121 = { #b_kalgon
+	holding = none
+}
+
+####c_westmark_moor
+
+122 = { #b_westmark_moor
+	culture = northmen
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+123 = { #b_sanguine_barrows
+	holding = church_holding
+}
+124 = { #b_crypt_of_hearts
+	holding = academy_holding
+	buildings = { academymag_01 }
+	special_building = crypt_of_hearts_01
+}
+
+
+####c_normar_heights
+
+133 = { #b_old_fell
+	culture = northmen
+	religion = breton_cult
+
+	holding = castle_holding
+}
+134 = { #b_normar_heights
+	holding = none
+}
+135 = { #b_breaghafin
+	holding = none
+}
+
+####c_northpoint
+
+139 = { #b_dorell_castle
+	culture = northmen
+	religion = breton_cult
+	
+	holding = castle_holding
+	buildings = {
+		castle_02
+		watchtowers_02
+		common_tradeport_02
+	}
+}
+140 = { #b_northpoint
+	holding = city_holding
+	buildings = {
+		city_02
+	}
+}
+136 = { #b_eastrock_landing
+	holding = none
+}
+137 = { #b_dorell_farms
+	holding = none
+}
+138 = { #b_middlemarch
+	holding = none
+}
+
+####c_northsalt
+
+143 = { #b_northsalt
+	culture = northmen
+	religion = breton_cult
+	
+	holding = city_holding
+}
+141 = { #b_aquilon
+	holding = none
+}
+142 = { #b_westwind
+	holding = none
+}
+144 = { #b_siren_cove
+	holding = none
+}
+
+####c_dellese
+
+150 = { #b_dellese
+	culture = balfiera
+	religion = mainland_auriel
+
+	holding = tribal_holding
+}
+151 = { #b_arkbrugh
+	holding = none
+}
+152 = { #b_charen
+	holding = none
+}
+
+####c_koegria
+
+153 = { #b_koeglin	
+	holding = city_holding
+	buildings = {
+		#pasture_01
+		#castle_02
+		common_tradeport_01
+	}
+}
+
+2655 = { #b_charham
+
+	holding = none
+}
+
+156 = { #b_vanne
+	holding = city_holding
+	buildings = {
+		cereal_fields_01
+		#castle_02
+		#common_tradeport_02
+	}
+}
+157 = { #b_nurin
+	holding = city_holding
+	buildings = {
+		cereal_fields_01
+		#castle_02
+		#common_tradeport_02
+	}
+}
+
+####c_holton
+155 = { #b_holton
+	holding = city_holding
+	buildings = { quarries_01 }
+}
+
+2656 = { #b_cromtower
+	culture = iliac
+	religion = forgotten_gods
+
+	holding = none
+}
+
+2657 = { #b_galloton
+	holding = none
+}
+
+####c_alcaire
+
+158 = { #b_alcaire
+	culture = iliac
+	religion = breton_cult
+	
+	holding = castle_holding
+	buildings = {
+		castle_02
+		#common_tradeport_02
+	}
+}
+154 = { #b_newgate
+	culture = northmen
+
+	holding = castle_holding
+}
+159 = { #b_windridge
+	holding = none
+}
+160 = { #b_gothleigh
+	holding = none
+}
+
+####c_firebrand
+
+163 = { #b_firebrand
+	culture = iliac
+	religion = breton_cult
+	
+	holding = castle_holding
+	buildings = {
+		castle_02
+		#common_tradeport_02
+	}
+}
+162 = { #b_portdun
+	holding = none
+}
+161 = { #b_rotoc
+	holding = none
+}
+
+####c_steelheart
+
+164 = { #b_steelheart
+	culture = iliac
+	religion = breton_cult
+	
+	holding = city_holding
+	buildings = {
+		#castle_02
+		common_tradeport_02
+	}
+}
+165 = { #b_bonesnap_runs
+	holding = none
+}
+166 = { #b_traveler_rest
+	holding = none
+}
+
+
+####c_menevia
+
+174 = { #b_menevia
+	culture = iliac
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+171 = { #b_hammerdeath
+	holding = none
+}
+172 = { #b_charenfort
+	holding = none
+}
+173 = { #b_fallford
+	holding = none
+}
+
+
+####c_gavaudon
+
+185 = { #b_gavaudon
+	culture = iliac
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+186 = { #b_shinji_camp
+	holding = none
+}
+187 = { #b_bearclaw
+	holding = none
+}
+
+####c_bjoulsae
+
+188 = { #b_bjoulsae
+	culture = iliac
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+189 = { #b_weeping_giant
+	holding = none
+}
+190 = { #b_orlais
+	holding = none
+}
+
+####c_wind_keep
+
+192 = { #b_aphren_hold
+	culture = iliac
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+193 = { #b_wind_keep
+	holding = city_holding
+}
+235 = { #b_blackheart
+	holding = none
+}
+2653 = { #b_horcester_hill
+	holding = none
+}
+
+####c_vermeir
+191 = { #b_vermeir
+	culture = anequinan
+	religion = forgotten_gods
+
+	holding = city_holding
+	buildings = { plantations_01 }
+}
+2652 = { #b_arking_hall
+	holding = none
+}
+
+####c_wrothgar
+
+197 = { #b_gortwog
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	holding = tribal_holding
+}
+196 = { #b_shieldwall
+	holding = none
+}
+195 = { #b_derg
+	holding = none
+}
+194 = { #b_cranargh
+	holding = none
+}
+
+####c_mournoth
+
+200 = { #b_mournoth
+	culture = bjoule
+	religion = forgotten_gods
+	
+	holding = castle_holding
+}
+198 = { #b_murcien
+	holding = city_holding
+}
+199 = { #b_halcyon
+	holding = none
+}
+201 = { #b_bisnensel
+	holding = none
+}
+1845 = { #b_elania
+	holding = none
+}
+
+####c_mournoth
+
+198 = { #b_murcien
+	culture = bjoule
+	religion = forgotten_gods
+	
+	holding = city_holding
+}
+1845 = { #b_elania
+	holding = none
+}
+
+####c_dunkarn
+
+204 = { #b_dunkarn
+	culture = bjoule
+	religion = glenmoril_wyrd
+	
+	holding = tribal_holding
+}
+202 = { #b_gjarma_rock
+	holding = none
+}
+203 = { #b_jackdaw_cove
+	holding = none
+}
+
+####c_reachgate
+
+1507 = { #b_reachgate
+	culture = reachfolk
+	religion = druadach_cult
+
+	holding = castle_holding
+}
+1510 = { #b_nodaein
+	holding = none
+}
+
+####c_kerbol
+
+206 = { #b_kerbol
+	culture = bjoule
+	religion = druid_circles
+	
+	holding = tribal_holding
+}
+205 = { #b_troll_toothpick
+	holding = none
+}
+1844 = { #b_boweyn
+	holding = none
+}
+
+###c_silaseli
+1843 = { #b_buoboreg
+	culture = bjoule
+	religion = glenmoril_wyrd
+
+	holding = tribal_holding
+}
+207 = { #b_silaseli
+	holding = none
+}
+
+####c_evermore
+
+213 = { #b_evermore_castle
+	culture = iliac
+	religion = breton_cult
+	
+	holding = castle_holding
+	buildings = {
+		castle_02
+		curtain_walls_02
+	}
+}
+211 = { #b_black_alley
+	holding = city_holding
+}
+212 = { #b_evermore
+	holding = city_holding
+	buildings = {
+		city_02
+		guild_halls_02
+		common_tradeport_01
+	}
+}
+1841 = { #b_anchor_point
+	holding = none
+}
+1842 = { #b_guimard
+	holding = none
+}
+
+####c_glen
+208 = { #b_northglen
+	culture = bjoule
+	religion = forgotten_gods
+
+	holding = tribal_holding
+}
+209 = { #b_southglen
+	holding = none
+}
+210 = { #b_blighted
+	holding = none
+}
+
+####c_pelin
+
+215 = { #b_pelin_yard
+	culture = iliac
+	religion = breton_cult
+	
+	holding = church_holding
+}
+214 = { #b_strastnoc_landing
+	holding = none
+}
+217 = { #b_crypt_of_exiles
+	holding = church_holding
+}
+
+####c_sunken_road
+
+216 = { #b_sunken_road
+	culture = iliac
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+238 = { #b_fallen_grotto
+	holding = none
+}
+
+####c_bangkorai
+
+220 = { #b_bangkorai
+	culture = iliac
+	religion = breton_cult
+	
+	holding = castle_holding
+
+}
+218 = { #b_verlai
+	holding = none
+}
+219 = { #b_craon
+	holding = none
+}
+
+####c_ephesus
+
+223 = { #b_ephesus
+	culture = bjoule
+	religion = breton_cult
+	
+	holding = tribal_holding
+}
+221 = { #b_saray
+	holding = none
+}
+222 = { #b_morillon
+	holding = none
+}
+
+####c_lakewatch
+
+224 = { #b_lakewatch
+	culture = bjoule
+	religion = druid_circles
+	
+	holding = tribal_holding
+}
+225 = { #b_viridian_watch
+	holding = none
+}
+226 = { #b_forsaken_stronghold
+	holding = none
+}
+
+####c_viridian_hillside
+
+227 = { #b_viridian_hideout
+	culture = bjoule
+	religion = druid_circles
+	
+	holding = tribal_holding
+}
+228 = { #b_viridian_hillside
+	holding = none
+}
+
+####c_viridian_woods
+
+229 = { #b_viridian_keep
+	culture = bjoule
+	religion = druid_circles
+	
+	holding = tribal_holding
+}
+230 = { #b_viridian_woods
+	holding = none
+}
+
+####c_azra_crossing
+
+233 = { #b_azra_crossing
+	culture = iliac
+	religion = breton_cult
+	
+	holding = city_holding
+}
+231 = { #b_everplains
+	holding = none
+}
+232 = { #b_brokenwing
+	holding = none
+}
+
+####c_oxshire
+
+512 = { #b_oxham
+	culture = bjoule
+	religion = forgotten_gods
+	
+	holding = castle_holding
+}
+
+234 = { #b_apprentice_rock
+	holding = none
+}
+236 = { #b_torog_spite
+	holding = none
+}
+
+####c_port_duncreek
+
+240 = { #b_port_duncreek
+	culture = northmen
+	religion = breton_cult
+	
+	holding = city_holding
+}
+311 = { #b_garret
+	holding = none
+}
+239 = { #b_berard
+	holding = none
+}
+
+####c_shipwreck_coast
+
+241 = { #b_old_orsinium
+	culture = mountain_orc
+	religion = malacath_brutal_breed
+	
+	holding = castle_holding
+	
+	special_building = city_of_orsinium_01
+	
+	3450.1.1 = { religion = code_of_malacath }
+}
+242 = { #b_shipwreck_cove
+	holding = none
+}
+243 = { #b_thukhozod_sanctum
+	holding = none
+}
+244 = { #b_linsfort
+	holding = none
+}
+
+####c_watcher_hold
+
+247 = { #b_watcher_hold
+	culture = glenumbran
+	religion = breton_cult
+	
+	3365.1.1 = { culture = mountain_orc
+				religion = vosh_rakh }
+	
+	holding = castle_holding
+}
+245 = { #b_paragon_remembrance
+	holding = none
+}
+246 = { #b_friendship_gate
+	holding = none
+}
+248 = { #b_grudgerock_falls
+	holding = none
+}
+
+####c_frostbreak
+
+252 = { #b_frostbreak
+	culture = reachfolk
+	religion = malacath_cult
+	
+	holding = castle_holding
+}
+250 = { #b_boreal_forge
+	holding = none
+}
+251 = { #b_cawdor
+	holding = none
+}
+
+####c_dorven
+249 = { #b_honor_rest
+	culture = reachfolk
+	religion = malacath_cult
+
+	holding = church_holding
+}
+3895 = { #b_dorven
+	holding = none
+}
+3896 = { #b_forres
+	holding = none
+}
+
+####c_graystone
+
+254 = { #b_graystone
+	culture = reachfolk
+	religion = malacath_cult
+	
+	holding = tribal_holding
+}
+253 = { #b_aquerock
+	holding = none
+}
+255 = { #b_deergate
+	holding = none
+}
+256 = { #b_merchant_gate
+	holding = castle_holding
+}
+
+####c_stonefield
+
+257 = { #b_stonefield
+	culture = mountain_orc
+	religion = malacath_brutal_breed
+	
+	holding = tribal_holding
+	
+	3450.1.1 = { religion = code_of_malacath }
+}
+258 = { #b_exile_barrow
+	holding = church_holding
+}
+259 = { #b_fearn
+	holding = none
+}
+
+####c_raven_spring
+
+263 = { #b_raven_spring
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	holding = tribal_holding
+}
+260 = { #b_indeval
+	holding = none
+}
+261 = { #b_caergil
+	holding = none
+}
+
+####c_argent
+262 = { #b_argent_mine
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	holding = tribal_holding
+}
+3897 = { #b_rasar
+	holding = none
+}
+3898 = { #b_corhie
+	holding = none
+}
+3899 = { #b_nikolvara
+	holding = none
+}
+
+####c_scarp
+
+298 = { #b_scarp_keep
+	culture = reachfolk
+	religion = malacath_cult
+	
+	holding = tribal_holding
+}
+264 = { #b_cattleswine
+	holding = none
+}
+265 = { #b_kurog
+	holding = city_holding
+}
+266 = { #b_temple_of_ire
+	holding = church_holding
+}
+3901 = { #b_breaton
+	holding = none
+}
+
+####c_cambrian
+267 = { #b_cambrian
+	culture = reachfolk
+	religion = malacath_cult
+
+	holding = tribal_holding
+}
+3900 = { #b_lodhire
+	holding = none
+}
+
+####c_bonerock
+
+269 = { #b_bonerock
+	culture = riekr
+	religion = goblin_shamanism
+	
+	holding = tribal_holding
+}
+268 = { #b_clegain
+	holding = none
+}
+270 = { #b_rivia
+	holding = none
+}
+
+####c_royan
+
+272 = { #b_royan
+	culture = reachfolk
+	religion = old_gods
+	
+	holding = tribal_holding
+}
+271 = { #b_forlorn_watch
+	holding = none
+}
+273 = { #b_shatul_range
+	holding = none
+}
+
+####c_coldperch
+
+275 = { #b_malacath_peak
+	culture = reachfolk
+	religion = malacath_cult
+	
+	holding = church_holding
+}
+274 = { #b_coldperch
+	holding = none
+}
+276 = { #b_rkindaleft
+	holding = none
+}
+
+####c_karthgran
+
+279 = { #b_karthgran
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	holding = tribal_holding
+}
+277 = { #b_castlejoy
+	holding = none
+}
+
+####c_fylmain
+278 = { #b_fylmain
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	holding = tribal_holding
+}
+3903 = { #b_frozen_banks
+	holding = none
+}
+
+####c_dunlain
+
+283 = { #b_dunlain
+	culture = reachfolk
+	religion = old_gods
+	
+	holding = tribal_holding
+}
+280 = { #b_morgan
+	holding = none
+}
+282 = { #b_zthenganaz
+	holding = none
+}
+
+####c_cloud_spring
+
+3902 = { #b_cloud_spring
+	culture = reachfolk
+	religion = old_gods
+	
+	holding = tribal_holding
+}
+281 = { #b_nyzchaleft
+	holding = none
+}
+
+####c_fharun
+
+286 = { #b_fharun_stronghold
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	holding = tribal_holding
+}
+285 = { #b_fharun	
+	holding = city_holding
+}
+284 = { #b_malacath_sanctuary
+	holding = church_holding
+}
+287 = { #b_hasteinn
+	holding = none
+}
+288 = { #b_dunoc
+	holding = none
+}
+
+####c_sorrow
+
+289 = { #b_sorrow
+	culture = reachfolk
+	religion = hircine_cult
+
+	holding = church_holding
+}
+291 = { #b_lesperon
+	holding = none
+}
+290 = { #b_navare
+	holding = none
+}
+1417 = { #b_blackbone
+	holding = none
+}
+
+####c_jehanna
+
+294 = { #b_jehanna
+	culture = reachfolk
+	religion = hircine_cult
+	
+	holding = tribal_holding
+}
+292 = { #b_vendia	
+	holding = none
+}
+293 = { #b_uttara
+	holding = none
+}
+295 = { #b_pathenia
+	holding = none
+}
+296 = { #b_kosala
+	holding = none
+}
+
+####c_grayhome
+
+297 = { #b_grayhome
+	culture = northmen
+	religion = namira_cult
+	
+	holding = castle_holding
+}
+
+####c_caecelly
+
+574 = { #b_granveilusa
+	culture = glenumbran
+	religion = breton_cult
+	
+	holding = castle_holding
+}
+572 = { #b_trybador
+	holding = none
+}
+573 = { #b_hartcroft
+	holding = city_holding
+}
+
+####c_cryngaine
+
+1716 = { #b_cryngaine
+	culture = glenumbran
+	religion = beldama_wyrd
+	
+	holding = tribal_holding
+}
+58 = { #b_hag_fen
+	holding = none
 }

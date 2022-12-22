@@ -232,10 +232,6 @@ b_pariah_abbey = {
 	3490.1.1 = { government = tribal_government holder = supernaldreamers_1000 }
 }
 
-b_dreamer_hills = {
-
-	3490.1.1 = { government = tribal_government holder = supernaldreamers_1000 }
-}
 
 
 #k_shornhelm
