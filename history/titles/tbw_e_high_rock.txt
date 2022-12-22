@@ -115,6 +115,22 @@ c_steelheart = {
 		liege = d_wayrest
 	}
 	3365.1.1 = { liege = 0 }
+
+}
+# Naf Addition #
+b_steelheart = {
+	3350.1.1 = { 
+		holder = oldland_1000
+		liege = d_wayrest
+	}
+	3365.1.1 = { liege = 0 }
+	3465.1.1 = { effect = { set_title_name = b_steelheart_moorings } 
+	}
+	3480.1.1 = { holder = cumberland_1006 }
+	3485.1.1 = { effect = { set_holding_name = b_steelheart_moorings } 
+	}
+	#3565.1.1 = { effect = { reset_title_name = yes } 
+	}
 }
 
 c_menevia = {
@@ -195,6 +211,12 @@ c_koegria = {
 }
 
 c_holton = {
+	3315.1.1 = { holder = beanique_998 }
+	3351.1.1 = { holder = beanique_1000 }
+	3409.1.1 = { holder = beanique_1001 }
+}
+
+b_holton = {
 	3315.1.1 = { holder = beanique_998 }
 	3351.1.1 = { holder = beanique_1000 }
 	3409.1.1 = { holder = beanique_1001 }
@@ -1156,6 +1178,11 @@ c_viridian_hillside = {
 c_lakewatch = {
 	3360.1.1 = { holder = rane_1000 }
 	#3387.1.1 = {} #Orcs driven from Falkreath, take over lakewatch
+	3470.1.1 = { government = tribal_government liege = e_daggerfall_covenant holder = bonebreaker_1000 }  #Naf ESO character easteregg
+}
+
+b_forsaken_stronghold = {
+	3470.1.1 = { government = tribal_government liege = e_daggerfall_covenant holder = bonebreaker_1000 }  #Naf ESO character easteregg
 }
 
 c_viridian_woods = {

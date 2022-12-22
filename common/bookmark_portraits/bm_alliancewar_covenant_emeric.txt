@@ -2,7 +2,7 @@
 # History database id:cumberland_1004
 bm_alliancewar_covenant_emeric={
 	type=male
-	id=4176
+	id=4182
 	age=0.600000
 	genes={ 		hair_color={ 5 255 92 248 }
  		skin_color={ 58 69 104 54 }
@@ -96,8 +96,8 @@ bm_alliancewar_covenant_emeric={
  		expression_other={ "cheek_wrinkles_both_01" 39 "cheek_wrinkles_both_01" 160 }
  		complexion={ "complexion_1" 196 "complexion_4" 196 }
  		gene_height={ "normal_height" 134 "normal_height" 112 }
- 		gene_bs_body_type={ "body_fat_head_fat_low" 148 "body_fat_head_fat_low" 143 }
- 		gene_bs_body_shape={ "body_shape_average" 255 "body_shape_hourglass_full" 0 }
+ 		gene_bs_body_type={ "body_fat_head_fat_low" 144 "body_fat_head_fat_low" 143 }
+ 		gene_bs_body_shape={ "body_shape_average" 234 "body_shape_hourglass_full" 0 }
  		gene_bs_bust={ "bust_clothes" 66 "bust_default" 83 }
  		gene_age={ "old_4" 98 "old_4" 98 }
  		gene_eyebrows_shape={ "far_spacing_low_thickness" 179 "far_spacing_avg_thickness" 231 }
@@ -184,7 +184,7 @@ bm_alliancewar_covenant_emeric={
  		beards={ "western_beards_straight" 198 "no_beard" 0 }
  		cloaks={ "fp1_cloak" 84 "no_cloak" 0 }
  		clothes={ "steppe_high_nobility_clothes" 127 "most_clothes" 0 }
- 		legwear={ "western_common_legwear" 54 "all_legwear" 0 }
+ 		legwear={ "western_common_legwear" 139 "all_legwear" 0 }
  		facepaint={ "no_facepaint" 255 "no_facepaint" 0 }
  		tattoos={ "no_tattoos" 255 "no_tattoos" 0 }
  		scarification={ "no_scarification" 255 "no_scarification" 0 }

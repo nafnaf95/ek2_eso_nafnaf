@@ -2383,6 +2383,7 @@ c_quakemoth = {
 	3409.1.1 = { holder = sintav_103 }
 	3439.1.1 = { holder = sintav_104 }
 	3476.1.1 = { holder = sintav_105 }
+	3496.1.1 = { liege = e_aldmeri_dominion holder = sorcalin_1000 }
 }
 c_black_boot = {
 	3360.1.1 = {
@@ -2392,6 +2393,7 @@ c_black_boot = {
 	3410.1.1 = { holder = vywich_101 }
 	3433.1.1 = { holder = vywich_102 }
 	3464.1.1 = { holder = vywich_103 }
+	3496.1.1 = { liege = e_aldmeri_dominion holder = sorcalin_1000 }
 }
 
 ##Theocracy of the Abbey of the Eight
@@ -3238,6 +3240,7 @@ c_bloodmayne = {
 	3404.1.1 = { holder = fleccian_3389 }
 	3465.1.1 = { holder = fleccian_3390 }
 	3495.1.1 = { holder = fleccian_3391 }
+	3496.1.1 = { liege = arana_1001 holder = sorcalin_1000 }
 	3508.1.1 = { holder = fleccian_3392 }
 	3560.1.1 = { holder = fleccian_3393 }
 	3598.1.1 = { holder = fleccian_3394 }

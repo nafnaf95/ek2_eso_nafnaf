@@ -4,12 +4,14 @@
 	religion = breton_cult
 
 	holding = castle_holding
+	buildings = { castle_02 }
 }
 3161 = { #b_garick_rest
 	holding = castle_holding
 }
 3162 = { #b_gonfalon
 	holding = city_holding
+	buildings = { common_tradeport_03 city_02 }
 }
 5392 = { #b_tor_draioch
 	holding = academy_holding
@@ -19,7 +21,8 @@
 	culture = systrean
 	religion = breton_cult
 
-	holding = castle_holding
+	holding = city_holding
+	buildings = { common_tradeport_02 }
 }
 5394 = { #b_brokerock
 	holding = city_holding
@@ -36,14 +39,16 @@
 }
 ####c_galen
 5397 = { #b_vastyr
-	culture = galen
-	religion = druid_circles
+	culture = systrean
+	religion = breton_cult
 
-	holding = castle_holding
+	holding = city_holding
+	buildings = { common_tradeport_02 }
 }
 5457 = { #b_windwrack_fort
-	holding = none
+	holding = castle_holding
 }
 5458 = { #b_yffre_path
+
 	holding = none
 }

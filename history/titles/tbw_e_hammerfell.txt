@@ -1303,7 +1303,7 @@ d_ironwheel = {
 	}
 	
 d_keelcutter = { 
-	3497.1.1 = { government = pirate_government holder = keelcutter_1000 }
+	3497.1.1 = { government = pirate_government liege = d_sea_vipers holder = keelcutter_1000 }
 	}
 	
 d_sharksteeth = { 

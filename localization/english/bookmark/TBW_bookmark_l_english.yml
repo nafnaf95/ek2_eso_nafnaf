@@ -42,17 +42,21 @@
  
  #hammerfell
  bm_alliancewar_hammerfell_taneth:0 "Queen Falorah the Jewel of Taneth"
- bm_alliancewar_hammerfell_taneth_adj:0 ""
+ bm_alliancewar_hammerfell_taneth_desc:0 ""
  bm_alliancewar_hammerfell_seamount:0 "Seamount Clans"
- bm_alliancewar_hammerfell_seamount_adj:0 ""
+ bm_alliancewar_hammerfell_seamount_desc:0 ""
  bm_alliancewar_hammerfell_abah:0 "Lord Cosh of Hew"
- bm_alliancewar_hammerfell_abah
- bm_alliancewar_hammerfell_seadrake:0 "Sea Drake Pirates"
- bm_alliancewar_hammerfell_seadrake
+ bm_alliancewar_hammerfell_abah_desc:0 ""
+ bm_alliancewar_hammerfell_bhosek:0 "Headsman Bhosek"
+ bm_alliancewar_hammerfell_bhosek_desc:0 ""
  bm_alliancewar_hammerfell_keelcutter:0 "Keel Cutter Pirates"
- bm_alliancewar_hammerfell_keelcutter
- bm_alliancewar_hammerfell_scaledcourt
- bm_alliancewar_hammerfell_scaledcourt
+ bm_alliancewar_hammerfell_keelcutter_desc:0 ""
+ bm_alliancewar_hammerfell_dugal:0 "Pirate Queen Fortuna of Anvil"
+ bm_alliancewar_hammerfell_dugal_desc:0 ""
+ bm_alliancewar_hammerfell_dreadsails:0 "Dreadsail Pirates"
+ bm_alliancewar_hammerfell_dreadsails_desc:0 ""
+ bm_alliancewar_hammerfell_highisle:0 "Lady Elea of House Dufort"
+ bm_alliancewar_hammerfell_highisle_desc:0 ""
  #gold coast
  
  

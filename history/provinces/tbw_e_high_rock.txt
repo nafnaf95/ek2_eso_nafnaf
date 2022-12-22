@@ -151,7 +151,7 @@
 ####c_balfiera
 
 1 = { #b_adamantine	
-	culture = balfiera
+	culture = auridon
 	religion = mainland_auriel
 
 	holding = castle_holding
@@ -171,6 +171,7 @@
 	}
 }
 3 = { #b_blackhead
+	culture = auridon
 	holding = city_holding
 	buildings = {
 		city_02
@@ -713,7 +714,8 @@
 	holding = castle_holding
 }
 91 = { #b_tamrith
-	holding = none
+	holding = city_holding
+	buildings = { military_camps_01 }
 }
 145 = { #b_aesar
 	holding = none
@@ -937,6 +939,7 @@
 	religion = breton_cult
 	
 	holding = city_holding
+	building = { common_tradeport_01 }
 }
 141 = { #b_aquilon
 	holding = none
@@ -1064,8 +1067,7 @@
 	
 	holding = city_holding
 	buildings = {
-		#castle_02
-		common_tradeport_02
+		common_tradeport_01
 	}
 }
 165 = { #b_bonesnap_runs
@@ -1362,19 +1364,20 @@
 }
 
 ####c_lakewatch
-
+226 = { #b_forsaken_stronghold
+	holding = castle_holding
+	buildings = { castle_02 military_camps_01 ramparts_01 cereal_fields_01 }
+}
 224 = { #b_lakewatch
-	culture = bjoule
-	religion = druid_circles
+	culture = mountain_orc
+	religion = code_of_malacath
 	
-	holding = tribal_holding
+	holding = city_holding
 }
 225 = { #b_viridian_watch
 	holding = none
 }
-226 = { #b_forsaken_stronghold
-	holding = none
-}
+
 
 ####c_viridian_hillside
 

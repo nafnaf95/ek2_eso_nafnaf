@@ -22,3 +22,8 @@ cassipia = {
 	name = "Cassipia"
 	culture = heartlander
 }
+
+bonebreaker = {
+	name = "Bonebreaker"
+	culture = mountain_orc
+}

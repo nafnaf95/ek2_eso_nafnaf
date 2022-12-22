@@ -1,0 +1,28 @@
+﻿l_english:
+ TITLE_NAME:0 "$NAME$"
+ TITLE_TIERED_NAME:0 "$TIER|U$ of $NAME$"
+ TITLE_CLAN_TIERED_NAME:0 "the $NAME$ $TIER|U$"
+ TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME:0 "the $NAME$ $TIER|U$ #F ($TIER|U$ of $BASE_NAME$) #!"
+ TITLE_TIER_AS_NAME:0 "$TIER|U$"
+ 
+ 
+ 
+ e_high_rock:0 "High Rock"
+ ############################
+ # Holding name changes     #
+ ############################
+ # Daggerfall#
+ b_lightwatch:0 "Aldcroft Manor" #Works
+ b_vermeir:0 "Dro Dara Plantation" #Works
+ c_turain:0 "Turain" #Works
+ b_turain:0 "At-Tura Estate" #Works
+ b_penmarch:0 "Lion Guard Redoubt" #Works
+ 
+ 
+ #b_lionguardredoubt:0 "Lion Guard Redoubt"
+# c_steelheart:0 "Steelheart Moorings" #Doesntwork
+ b_steelheart:0 "Steelheart Moorings" #Doesntwork
+ #b_steelheart_moorings:0 "Steelheart Moorings" #doesntwork
+ b_branquette_tor:0 "Traitors Tor" #Doesntwork
+ b_holton:0 "Koeglin Mine" #Doesntwork
+ b_noellaume:0 "Red Rook Camp" #Doesntwork

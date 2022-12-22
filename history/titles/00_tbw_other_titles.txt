@@ -108,3 +108,15 @@ e_legion_zero = {
 e_seventh_legion = {
 	3480.1.1 = { holder = tharn_226 }
 }
+
+d_sea_vipers = {
+	3360.1.1 = { 
+		holder = maormer_1_pirate
+		government = pirate_government 
+	}
+	3460.1.1 = { 
+		holder = maormer_1_pirate
+		government = pirate_government 
+	}
+	
+}

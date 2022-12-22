@@ -1,0 +1,14 @@
+﻿l_english:
+ TITLE_NAME:0 "$NAME$"
+ TITLE_TIERED_NAME:0 "$TIER|U$ of $NAME$"
+ TITLE_CLAN_TIERED_NAME:0 "the $NAME$ $TIER|U$"
+ TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME:0 "the $NAME$ $TIER|U$ #F ($TIER|U$ of $BASE_NAME$) #!"
+ TITLE_TIER_AS_NAME:0 "$TIER|U$"
+ #Dominion#
+ k_theoelsweyr:0 "Theocracy of Elsweyr"
+ k_theoelsweyr_adj:0 "Theocracy of Elsweyr"
+ e_thirteenth_legion:0 "Shields of Senchal"
+ e_thirteenth_legion_adj:0 "Shields of Senchal"
+ #Holdings
+ b_temple_of_the_mourning_springs:0 "The temple of the mourning springs"#
+ b_moonmirth:0 "Windcatcher Plantation"

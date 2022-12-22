@@ -2,7 +2,7 @@
 # History database id:flamehair_1014
 bm_alliancewar_pact_jorunn={
 	type=male
-	id=4445
+	id=4460
 	age=0.360000
 	genes={ 		hair_color={ 233 80 198 67 }
  		skin_color={ 11 19 11 19 }
@@ -90,13 +90,13 @@ bm_alliancewar_pact_jorunn={
  		face_detail_nose_ridge_def={ "nose_ridge_def_pos" 19 "nose_ridge_def_pos" 36 }
  		face_detail_nose_tip_def={ "nose_tip_def" 139 "nose_tip_def" 213 }
  		face_detail_temple_def={ "temple_def" 126 "temple_def" 1 }
- 		expression_brow_wrinkles={ "brow_wrinkles_01" 0 "brow_wrinkles_04" 22 }
- 		expression_eye_wrinkles={ "eye_wrinkles_02" 143 "eye_wrinkles_02" 75 }
+ 		expression_brow_wrinkles={ "brow_wrinkles_01" 73 "brow_wrinkles_04" 22 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_02" 255 "eye_wrinkles_02" 75 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_02" 216 "forehead_wrinkles_02" 74 }
- 		expression_other={ "cheek_wrinkles_both_01" 153 "cheek_wrinkles_both_01" 45 }
+ 		expression_other={ "cheek_wrinkles_both_01" 102 "cheek_wrinkles_both_01" 45 }
  		complexion={ "complexion_6in" 100 "complexion_21" 188 }
  		gene_height={ "normal_height" 223 "normal_height" 146 }
- 		gene_bs_body_type={ "body_fat_head_fat_low" 138 "body_fat_head_fat_medium" 124 }
+ 		gene_bs_body_type={ "body_fat_head_fat_low" 110 "body_fat_head_fat_medium" 124 }
  		gene_bs_body_shape={ "body_shape_hourglass_half" 255 "body_shape_average" 5 }
  		gene_bs_bust={ "bust_clothes" 62 "bust_shape_3_half" 108 }
  		gene_age={ "old_3" 3 "old_1" 175 }
@@ -133,7 +133,7 @@ bm_alliancewar_pact_jorunn={
  		eye_sclera={ "human_sclera" 0 "human_sclera" 0 }
  		eye_pupil={ "human_pupils" 8 "human_pupils" 20 }
  		eye_overlay={ "no_overlay" 127 "no_overlay" 127 }
- 		hairline_type={ "mohawk" 255 "receding" 0 }
+ 		hairline_type={ "receding" 0 "receding" 0 }
  		hair_aging={ "late_hair_aging" 199 "vanilla_hair_aging" 13 }
  		race_gene_mer_forehead={ "mer_forehead" 0 "mer_forehead" 0 }
  		race_gene_mer_nose={ "mer_nose" 0 "mer_nose" 0 }
@@ -184,7 +184,7 @@ bm_alliancewar_pact_jorunn={
  		beards={ "northern_beards_straight" 160 "no_beard" 0 }
  		cloaks={ "fp1_cloak" 42 "no_cloak" 0 }
  		clothes={ "byzantine_war_nobility_clothes" 255 "most_clothes" 0 }
- 		legwear={ "fp1_common_legwear" 96 "all_legwear" 0 }
+ 		legwear={ "fp1_common_legwear" 70 "all_legwear" 0 }
  		facepaint={ "no_facepaint" 255 "no_facepaint" 0 }
  		tattoos={ "no_tattoos" 255 "no_tattoos" 0 }
  		scarification={ "no_scarification" 255 "no_scarification" 0 }
@@ -202,6 +202,6 @@ bm_alliancewar_pact_jorunn={
 		}
 	}
 
-	entity={ 807438772 807438772 }
+	entity={ 979141817 979141817 }
 }
 

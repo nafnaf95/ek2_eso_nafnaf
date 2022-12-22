@@ -24,6 +24,17 @@ e_seventh_legion = {
 	}		
 }
 
+e_thirteenth_legion = {
+	color = { 128 32 0 }
+	capital = c_senchal
+	definite_form = yes
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}		
+}
 
 #Formables
 
@@ -67,6 +78,36 @@ e_ebonheart_pact = {
 	color={ 102 0 0 }
 	definite_form = yes
 	capital = c_windhelm
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+###############################
+#           Dominion          #
+###############################
+
+
+
+k_theoelsweyr = {
+	color={ 255 187 153 }
+	definite_form = yes
+	capital = c_dune
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+d_blackgull = {
+	color={ 51 102 234 }
+	definite_form = yes
+	capital = c_dune
 	de_jure_drift_disabled = yes
 	no_automatic_claims = yes
     ignore_titularity_for_title_weighting = yes
@@ -163,7 +204,7 @@ d_witheredhand = {
 }
 
 k_sutch = {
-	color={ 230 230 0 }
+	color={ 200 200 0 }
 	definite_form = yes
 	capital = c_sutch
 	de_jure_drift_disabled = yes

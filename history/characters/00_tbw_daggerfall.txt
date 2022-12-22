@@ -1038,11 +1038,40 @@ supernaldreamers_1000 = {
 
 ## Orsimer
 
+bonebreaker_1000 = {
+	name = "Grog-Bonebreaker"
+	culture = mountain_orc
+	religion = breton_cult
+	dynasty = bonebreaker
+	
+	dna =  bagrakh_1103_dna_entry
+
+	trait = blademaster_3
+	trait = brave
+	trait = fatewoven
+	
+	3461.1.1 = { birth = yes }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+				custom_clothes=male_clothes_secular_steppe_war_nobility_01_low
+				facepaint=facepaint_nord_01
+				facepaint_colour=facepaint_colour_4
+				custom_hair=male_hair_fp1_09
+				custom_beards=male_beard_northern_01
+				custom_cloaks=male_furs_secular_fp1_nobility_02
+		}
+	}
+}
+
 seamount_1004 = {
 	name = "Tazgol" #ESO
 	dynasty = 800013
 	religion = code_of_malacath
 	culture = mountain_orc
+	
+	trait = brave
+	trait = blademaster_3
 	
 	father = seamount_1003
 	mother = seamount_1003b
@@ -1055,6 +1084,15 @@ seamount_1004 = {
 		death = {
 			death_reason = death_duel
 			killer = seamount_1006
+		}
+	}
+
+	portrait_override={
+		portrait_modifier_overrides={
+				custom_clothes=male_clothes_secular_riekling_01
+				custom_headgear=male_headgear_secular_steppe_war_nobility_01
+				custom_legwear=male_legwear_secular_western_war_01
+				custom_cloaks=male_furs_secular_fp1_nobility_03
 		}
 	}
 }
@@ -2225,6 +2263,15 @@ dufort_1006 = {
 
 	3458.1.1 = { birth = yes }
 	3522.1.1 = { death = yes }
+
+	portrait_override={
+			portrait_modifier_overrides={
+				custom_hair=female_hair_western_03
+				custom_headgear=female_empty
+				custom_clothes=female_clothes_secular_indian_nobility_01_high
+			}
+			hair={ 0.02 0.02 0.039 }
+	}
 }
 
 dufort_1007 = { #Eleas brother and court mage
@@ -2261,6 +2308,15 @@ ascendantorder_1000 = {
 	religion = breton_cult
 	
 	3462.1.1 = { birth = yes }
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+				custom_special=male_headgear_special_face_mask_01
+				custom_headgear=male_empty
+				custom_clothes=male_clothes_plate_war_01
+				custom_cloaks=male_furs_secular_fp1_nobility_03
+		}
+	}
 }
 
 #Mornard
@@ -2274,6 +2330,17 @@ mornard_1003 = {
 
 	3462.1.1 = { birth = yes }
 	3570.1.1 = { death = yes }
+	
+	portrait_override={
+			portrait_modifier_overrides={
+				custom_clothes=male_clothes_plate_war_01
+				custom_headgear=male_headgear_religious_northern_high_01
+				custom_hair=male_hair_fp1_06
+				custom_beards=male_beard_fp2_iberian_christian_02
+				custom_legwear=male_legwear_secular_mena_war_nobility_01
+			}
+			hair={ 0.329 0.263 0.196 }
+	}
 }
 
 mornard_1004 = {
@@ -2315,16 +2382,14 @@ firesong_1000 = {
 
 	3458.1.1 = { birth = yes }
 	3522.1.1 = { death = yes }
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+				custom_clothes=female_clothes_secular_fp2_iberian_muslim_common_01
+				custom_headgear=female_headgear_secular_indian_common_01
+		}
+	}
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2340,7 +2405,9 @@ dreadsails_1000 = {
 	
 	portrait_override = {	# Will override the character's appearance
 		portrait_modifier_overrides={
-
+				custom_hair=female_hair_northern_01
+				custom_clothes=female_clothes_secular_dde_abbasid_war_nobility_01_low
+				custom_legwear=female_legwear_secular_western_war_01
 		}
 	}
 }

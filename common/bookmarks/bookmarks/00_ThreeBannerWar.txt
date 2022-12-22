@@ -395,7 +395,7 @@ bm_alliancewar_hammerfell = {
 	
 	character = {
 		name = "bm_alliancewar_hammerfell_highisle"
-		dynasty = 800013
+		dynasty = 400023
 		dynasty_splendor_level = 5
 		type = male
 		birth = 3470.1.1
@@ -404,7 +404,7 @@ bm_alliancewar_hammerfell = {
 		culture = systrean
 		religion = breton_cult
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		history_id = seamount_1004
+		history_id = dufort_1006
 		position = { 350 800 }
 
 		animation = personality_rational
@@ -412,7 +412,7 @@ bm_alliancewar_hammerfell = {
 	
 	character = {
 		name = "bm_alliancewar_hammerfell_dreadsails"
-		dynasty = 800013
+		#dynasty = 800013
 		dynasty_splendor_level = 5
 		type = male
 		birth = 3470.1.1
@@ -421,7 +421,7 @@ bm_alliancewar_hammerfell = {
 		culture = maormer
 		religion = mehrunes_cult
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		history_id = seamount_1004
+		history_id = dreadsails_1000
 		position = { 150 600 }
 
 		animation = personality_rational
@@ -445,6 +445,23 @@ bm_alliancewar_hammerfell = {
 		animation = personality_dishonorable
 	}
 
+		character = {
+		name = "bm_alliancewar_hammerfell_dugal"
+		dynasty_house = 100042
+		dynasty_splendor_level = 5
+		type = male
+		birth = 3438.1.1
+		title = k_anvil
+		government = pirate_government
+		culture = strident
+		religion = imperial_cult
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = dugal_1000
+		position = { 1450 670 }
+
+		animation = personality_zealous
+	}
+	
 }
 
 

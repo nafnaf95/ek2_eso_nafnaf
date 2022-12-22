@@ -1,4 +1,81 @@
-﻿#############################
+﻿#Cyrodiil
+
+sorcalin_1000 = {
+	name = "Sorcalin"
+	religion = auriel
+	culture = alinor
+	female = yes
+	dna = arana_1001_dna_entry
+
+	trait = lifespan_3
+	
+	trait = education_martial_4
+	trait = arcana_good_3
+
+	
+	3475.5.5 = { birth = yes }
+	3489.1.1 = { give_nickname = nick_grand_warlord }
+}
+
+marenil_1000 = {
+	name = "Marenil"
+	religion = auriel
+	culture = alinor
+	
+
+	trait = lifespan_3
+	
+	trait = education_martial_4
+	trait = arcana_good_1
+
+	
+	3475.5.5 = { birth = yes }
+	3489.1.1 = { give_nickname = nick_general }
+}
+
+##Maormer Pirates
+
+maormer_1_pirate = {
+	name = "Jahlasri"
+	female = yes
+	dynasty = maormer_pirate_1
+	culture = beyonder
+	religion = mehrunes_cult
+	dna = maormer_1_pirate_dna_entry
+
+	trait = education_martial_3
+	trait = blademaster_2
+	trait = lifespan_3
+	trait = vengeful
+	trait = reckless
+	trait = beauty_good_2
+	trait = reaver
+	trait = one_eyed
+	
+	martial = 8
+	prowess = 8
+
+	3319.1.1 = { birth = yes }
+	3339.1.1 = { give_nickname = nick_blue_snake }
+	3340.1.1 = { employer = dremora_1000 }
+	3532.1.1 = { 
+		death = { 
+			death_reason = death_duel
+		}
+	}	
+
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+				custom_hair=female_hair_western_05
+				custom_clothes=clothes_altmer_female_common_war_01
+				custom_headgear=female_headgear_secular_western_war_nobility_01
+				custom_legwear=female_legwear_secular_mena_war_nobility_01
+				custom_special=female_headgear_special_eye_patch_01
+		}	
+	}
+}
+
+############################
 #  Summerset                #
 #############################
 
@@ -14,6 +91,7 @@ arana_1001 = {
 	father = arana_1000
 	trait = lifespan_3
 	
+	trait = fatewoven
 	trait = education_martial_4
 	trait = arcana_good_1
 	trait = ambitious
@@ -75,6 +153,16 @@ arana_1002 = {
 #       Elswyer               #
 ###############################
 
+blackgull_1000 = {
+    name = "Turo"
+	culture = anequinan
+	religion = twomoonsdance
+	
+	#furstock
+	trait = furstock_cathay
+
+	3484.1.1 = { birth = yes }
+}
 
 #Manes
 mane_001 = {
@@ -115,7 +203,7 @@ mane_002 = {
 	3400.1.1 = { death = yes }
 }
 
-mane_003 = {
+mane_1003 = {
 	name = "Akkhuz-ri"
 	culture = pellitinian
 	religion = twomoonsdance
@@ -138,7 +226,7 @@ mane_003 = {
 	}
 }
 
-mane_004 = {
+mane_1004 = {
 	name = "Khali"
 	female = yes
 	culture = pellitinian
@@ -151,7 +239,7 @@ mane_004 = {
 	3484.1.1 = { birth = yes }
 }
 
-mane_005 = {
+mane_1005 = {
 	name = "Shazah"
 	female = yes
 	culture = pellitinian
@@ -164,17 +252,6 @@ mane_005 = {
 	3484.1.1 = { birth = yes }
 }
 
-# mane_006 = {
-#	name = "Nhad-hatta"
-#	culture = pellitinian
-#	religion = twomoonsdance
-#	dynasty = 1100008
-#
-#	#furstock
-#	trait = furstock_cathay
-#
-#	3802.1.1 = { birth = yes }
-# }
 
 
 
@@ -210,6 +287,44 @@ camoran_9 = { # Aeradan
 			custom_hair=male_hair_western_09
 			custom_cloaks=male_furs_secular_fp1_nobility_02
 			custom_beards=male_beard_western_01
+		}
+	}
+}
+
+
+
+
+
+
+######################################
+#           knariths roost           #
+######################################
+
+harrani_1000 = {
+	name = "Harrani"
+	female = yes
+	culture = pellitinian
+	religion = twomoonsdance
+
+	#furstock
+	trait = furstock_cathay
+
+	3474.1.1 = { birth = yes }
+}
+
+seaviper_1000 = {
+	name = "Neidir"
+	culture = maormer
+	religion = mehrunes_cult
+	female = yes
+	
+	trait = arcana_good_1
+	
+	3415.1.1 = { birth = yes }
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+
 		}
 	}
 }

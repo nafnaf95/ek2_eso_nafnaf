@@ -4,7 +4,6 @@
  TITLE_CLAN_TIERED_NAME:0 "the $NAME$ $TIER|U$"
  TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME:0 "the $NAME$ $TIER|U$ #F ($TIER|U$ of $BASE_NAME$) #!"
  TITLE_TIER_AS_NAME:0 "$TIER|U$"
-
  ##Alliance War
  e_aldmeri_dominion:0 "The Aldmeri Dominion"
  e_aldmeri_dominion_adj:0 "The Aldmeri Dominion"
@@ -50,18 +49,9 @@
  d_seadrake_adj:0 "Sea Drake Pirates" 						#PIRATES
  d_bloodyfist:0 "Bloody Fist Pirates" 						#PIRATES
  d_bloodyfist_adj:0 "Bloody Fist Pirates" 					#PIRATES
- 
- 
+ d_blackgull:0 "Black Gull Slavers"
+ d_blackgull_adj:0 "Black Gull Slavers"
+
  ############################
  # Holding name changes     #
  ############################
- 
- b_lightwatch:0 "Aldcroft Manor"
- b_vermeir:0 "Dro Dara Plantation"
- b_noellaume:0 "Red Rook Camp"
- c_turain:0 "Turain"
- b_turain:0 "At-Tura Estate"
- b_penmarch:0 "Lion Guard Redoubt"
- b_steelheart:0 "Steelheart Moorings"
- 
- b_holton:0 "Koeglin Mine"
