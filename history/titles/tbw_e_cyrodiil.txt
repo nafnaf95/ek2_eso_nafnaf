@@ -2115,8 +2115,11 @@ c_strident_springs = {
 		#holder = Republic 3360 - 3480, might switch between elsweyr and skingrad
 	}
 	3387.1.1 = { holder = strident_springs_1001 }
+	3497.1.1 = { government = autocracy_government holder = commodus_1000 }
 }
-
+b_strident_springs = {
+	3497.1.1 = { holder = commodus_1000 }
+}
 # Baronies can't have an owner that is not county owner or his vassal
 # b_strident_springs = {
 	# #Vacation Manor of the Larich Dynasty, yay

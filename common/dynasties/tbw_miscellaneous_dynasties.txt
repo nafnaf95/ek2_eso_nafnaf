@@ -27,3 +27,8 @@ bonebreaker = {
 	name = "Bonebreaker"
 	culture = mountain_orc
 }
+
+commodus = { 
+	name = "Commodus"
+	culture = colovian
+}

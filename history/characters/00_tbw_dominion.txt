@@ -6,7 +6,8 @@ sorcalin_1000 = {
 	culture = alinor
 	female = yes
 	dna = arana_1001_dna_entry
-
+	martial = 30
+	
 	trait = lifespan_3
 	
 	trait = education_martial_4
@@ -15,6 +16,55 @@ sorcalin_1000 = {
 	
 	3475.5.5 = { birth = yes }
 	3489.1.1 = { give_nickname = nick_grand_warlord }
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = Dominion
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 6
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 6
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 6
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 24
+				}
+				location = province:3802
+				origin = province:2929
+				inheritable = yes
+			}
+			spawn_army = {
+				name = Dominion
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 6
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 6
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 6
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 24
+				}
+				location = province:3721
+				origin = province:2929
+				inheritable = yes
+			}
+		}
+	}
+}
 }
 
 marenil_1000 = {
@@ -31,6 +81,26 @@ marenil_1000 = {
 	
 	3475.5.5 = { birth = yes }
 	3489.1.1 = { give_nickname = nick_general }
+}
+
+alliancewar_dominion = {
+	name = "Tilorinwe" 
+	female = yes
+	religion = auriel
+	culture = auridon
+	trait = lifespan_3
+	
+	3371.1.1 = { birth = yes }
+}
+
+alliancewar_dominion = {
+	name = "Arfire" 
+	female = yes
+	religion = auriel
+	culture = auridon
+	trait = lifespan_3
+	
+	3371.1.1 = { birth = yes }
 }
 
 ##Maormer Pirates
