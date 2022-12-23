@@ -6,6 +6,15 @@
 #  NafNaf, Mettyu, TJG Three Banner War   #
 ###########################################
 
+#personality_cynical
+#personality_content
+
+
+
+
+
+
+
 
 
 bm_alliancewar = {
@@ -51,9 +60,33 @@ bm_alliancewar = {
 		religion = breton_cult
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = cumberland_1004
-		position = { 460 345 }
+		position = { 450 400 }
 
-		animation = personality_content
+		animation = personality_honorable
+		
+			character = {
+			name = "bm_alliancewar_covenant_maraya"
+			relation = "BOOKMARK_RELATION_SPOUSE_FEMALE"
+			dynasty = phyllocid_bergama
+			type = female
+			birth = 3474.1.1
+			culture = forebear
+			religion = redguard_cult
+			history_id = bergama_1006
+			animation = personality_compassionate
+		}
+		
+			character = {
+			name = "bm_alliancewar_covenant_dortene"
+			relation = "BOOKMARK_RELATION_SISTER"
+			dynasty = dortene
+			type = female
+			birth = 3474.1.1
+			culture = glenumbran
+			religion = breton_cult
+			history_id = dortene_1000
+			animation = personality_honorable
+		}
 	}
 
 	character = {
@@ -218,7 +251,31 @@ bm_alliancewar_covenant = {
 		history_id = cumberland_1004
 		position = { 950 400 }
 
-		animation = personality_content
+		animation = personality_honorable
+		
+			character = {
+			name = "bm_alliancewar_covenant_maraya"
+			relation = "BOOKMARK_RELATION_SPOUSE_FEMALE"
+			dynasty = phyllocid_bergama
+			type = female
+			birth = 3474.1.1
+			culture = forebear
+			religion = redguard_cult
+			history_id = bergama_1006
+			animation = personality_compassionate
+		}
+		
+			character = {
+			name = "bm_alliancewar_covenant_dortene"
+			relation = "BOOKMARK_RELATION_SPOUSE_FEMALE"
+			dynasty = dortene
+			type = female
+			birth = 3474.1.1
+			culture = glenumbran
+			religion = breton_cult
+			history_id = dortene_1000
+			animation = personality_honorable
+		}
 	}
 	
 	character = {
@@ -235,7 +292,7 @@ bm_alliancewar_covenant = {
 		history_id = bagrakh_1103
 		position = { 1200 200 }
 
-		animation = rage
+		animation = personality_vengeful
 	}
 	
 	character = {
@@ -270,7 +327,7 @@ bm_alliancewar_covenant = {
 		history_id = bloodthorn_1000
 		position = { 500 350 }
 
-		animation = personality_rational
+		animation = personality_dishonorable
 	}	
 	
 	character = {
@@ -305,7 +362,7 @@ bm_alliancewar_covenant = {
 		history_id = tharn_226
 		position = { 1100 600 }
 
-		animation = personality_dishonorable
+		animation = personality_callous
 	}
 
 }

@@ -66,10 +66,11 @@ name = " Grand Warlord Dortene"
 		portrait_modifier_overrides={
 				custom_clothes=female_clothes_plate_war_01
 				facepaint=facepaint_nord_01
-				custom_headgear=female_empty
-				custom_hair=female_hair_indian_03
+				custom_hair=female_hair_fp1_02
+				custom_beards=female_empty
 				custom_cloaks=female_cloaks_secular_fp1_nobility_03
 				custom_legwear=female_legwear_secular_western_war_01
+				custom_headgear=female_empty
 		}
 	}
 }

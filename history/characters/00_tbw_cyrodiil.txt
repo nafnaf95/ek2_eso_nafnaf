@@ -85,7 +85,7 @@ alliancewar_ep03 = {
 #         CYRODIIL                   #
 ######################################
 
-commodus_1000 = {
+commodus_1000 = { #tgj eso easteregg
 	name = "Livia" #thejewishgamer
 	dynasty = commodus
 	female = yes

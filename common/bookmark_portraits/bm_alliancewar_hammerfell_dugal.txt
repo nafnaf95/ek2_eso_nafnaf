@@ -2,7 +2,7 @@
 # History database id:dugal_1000
 bm_alliancewar_hammerfell_dugal={
 	type=female
-	id=4430
+	id=4422
 	age=0.390000
 	genes={ 		hair_color={ 248 147 178 107 }
  		skin_color={ 23 39 100 66 }
@@ -53,7 +53,7 @@ bm_alliancewar_hammerfell_dugal={
  		gene_bs_eye_upper_lid_size={ "eye_upper_lid_size_pos" 197 "eye_upper_lid_size_pos" 197 }
  		gene_bs_forehead_brow_curve={ "forehead_brow_curve_neg" 9 "forehead_brow_curve_neg" 9 }
  		gene_bs_forehead_brow_forward={ "forehead_brow_forward_neg" 115 "forehead_brow_forward_neg" 75 }
- 		gene_bs_forehead_brow_inner_height={ "forehead_brow_inner_height_neg" 81 "forehead_brow_inner_height_pos" 28 }
+ 		gene_bs_forehead_brow_inner_height={ "forehead_brow_inner_height_pos" 102 "forehead_brow_inner_height_pos" 28 }
  		gene_bs_forehead_brow_outer_height={ "forehead_brow_outer_height_pos" 139 "forehead_brow_outer_height_pos" 115 }
  		gene_bs_forehead_brow_width={ "forehead_brow_width_neg" 7 "forehead_brow_width_neg" 11 }
  		gene_bs_jaw_def={ "jaw_def_pos" 145 "jaw_def_pos" 42 }
@@ -90,14 +90,14 @@ bm_alliancewar_hammerfell_dugal={
  		face_detail_nose_ridge_def={ "nose_ridge_def_pos" 76 "nose_ridge_def_neg" 16 }
  		face_detail_nose_tip_def={ "nose_tip_def" 93 "nose_tip_def" 17 }
  		face_detail_temple_def={ "temple_def" 71 "temple_def" 194 }
- 		expression_brow_wrinkles={ "brow_wrinkles_03" 49 "brow_wrinkles_03" 49 }
+ 		expression_brow_wrinkles={ "brow_wrinkles_03" 193 "brow_wrinkles_03" 49 }
  		expression_eye_wrinkles={ "eye_wrinkles_02" 255 "eye_wrinkles_02" 152 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_01" 145 "forehead_wrinkles_01" 145 }
- 		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
+ 		expression_other={ "cheek_wrinkles_both_01" 48 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_5" 213 "complexion_2" 213 }
  		gene_height={ "normal_height" 150 "normal_height" 138 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 99 "body_fat_head_fat_medium" 133 }
- 		gene_bs_body_shape={ "body_shape_average" 255 "body_shape_apple_half" 32 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 142 "body_fat_head_fat_medium" 133 }
+ 		gene_bs_body_shape={ "body_shape_average" 164 "body_shape_apple_half" 32 }
  		gene_bs_bust={ "bust_clothes" 120 "bust_shape_3_full" 179 }
  		gene_age={ "old_3" 213 "old_3" 213 }
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 92 "avg_spacing_lower_thickness" 92 }
@@ -181,17 +181,17 @@ bm_alliancewar_hammerfell_dugal={
  		gene_bs_mouth_glamour_lips={ "vanilla_mouth_glamour_lips" 0 "vanilla_mouth_glamour_lips" 0 }
  		face_detail_eye_upper_lid_def={ "vanilla_upper_lid_def" 0 "vanilla_upper_lid_def" 0 }
  		pose={ "" 255 "" 0 }
- 		beards={ "western_beards_straight" 50 "no_beard" 0 }
- 		cloaks={ "western_royalty" 101 "no_cloak" 0 }
- 		clothes={ "fp2_christian_high_nobility_clothes" 174 "most_clothes" 0 }
- 		legwear={ "western_common_legwear" 251 "all_legwear" 0 }
+ 		beards={ "western_beards_straight" 83 "no_beard" 0 }
+ 		cloaks={ "western_royalty" 219 "no_cloak" 0 }
+ 		clothes={ "fp2_christian_high_nobility_clothes" 85 "most_clothes" 0 }
+ 		legwear={ "western_common_legwear" 179 "all_legwear" 0 }
  		facepaint={ "no_facepaint" 255 "no_facepaint" 0 }
  		tattoos={ "no_tattoos" 255 "no_tattoos" 0 }
  		scarification={ "no_scarification" 255 "no_scarification" 0 }
- 		hairstyles={ "byzantine_hairstyles_straight" 181 "all_hairstyles" 0 }
- 		headgear={ "dde_hre_high_nobility" 133 "no_headgear" 0 }
+ 		hairstyles={ "byzantine_hairstyles_straight" 191 "all_hairstyles" 0 }
+ 		headgear={ "dde_hre_high_nobility" 125 "no_headgear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  }
-	entity={ 979141817 979141817 }
+	entity={ 2268070609 2720375217 }
 }
 

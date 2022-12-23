@@ -39,7 +39,10 @@
  bm_alliancewar_covenant_angof_desc:0 "Angof the Gravesinger is a Reachman necromancer and the leader of the Bloodthorn Cult. He plans to conquer all of Glenumbra and turn its citizens into zombies. To further their goals, they have allied themselves with the Red Rook Bandits and the coven of Hag Fen.\n\n As a lich, he cannot die of old age, however he also cannot produce any hiers. He is currently at war with the Daggerfall Alliance, and failure means certain death."
  bm_alliancewar_covenant_septima:0 "Magnus Baroness Septima Tharn"
  bm_alliancewar_covenant_septima_desc:0 "Imperial"
- 
+ bm_alliancewar_covenant_maraya:0 "Queen Maraya"
+ bm_alliancewar_covenant_maraya_desc:0 "Imperial"
+ bm_alliancewar_covenant_dortene:0 "Grand Warlord Dortene"
+ bm_alliancewar_covenant_dortene_desc:0 "Imperial"
  #hammerfell
  bm_alliancewar_hammerfell_taneth:0 "Queen Falorah the Jewel of Taneth"
  bm_alliancewar_hammerfell_taneth_desc:0 ""

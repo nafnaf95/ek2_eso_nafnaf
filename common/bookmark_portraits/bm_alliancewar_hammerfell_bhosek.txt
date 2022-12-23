@@ -2,7 +2,7 @@
 # History database id:bhosek_1000
 bm_alliancewar_hammerfell_bhosek={
 	type=male
-	id=4507
+	id=4499
 	age=0.330000
 	genes={ 		hair_color={ 67 251 112 246 }
  		skin_color={ 30 169 176 235 }
@@ -91,13 +91,13 @@ bm_alliancewar_hammerfell_bhosek={
  		face_detail_nose_tip_def={ "nose_tip_def" 131 "nose_tip_def" 234 }
  		face_detail_temple_def={ "temple_def" 38 "temple_def" 38 }
  		expression_brow_wrinkles={ "brow_wrinkles_02" 122 "brow_wrinkles_04" 44 }
- 		expression_eye_wrinkles={ "eye_wrinkles_01" 255 "eye_wrinkles_01" 99 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_01" 193 "eye_wrinkles_01" 99 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_01" 202 "forehead_wrinkles_02" 27 }
  		expression_other={ "cheek_wrinkles_both_01" 23 "cheek_wrinkles_both_01" 93 }
  		complexion={ "complexion_1" 65 "complexion_1af" 65 }
  		gene_height={ "normal_height" 163 "normal_height" 133 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 137 "body_fat_head_fat_full" 113 }
- 		gene_bs_body_shape={ "body_shape_average" 76 "body_shape_rectangle_full" 25 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 74 "body_fat_head_fat_full" 113 }
+ 		gene_bs_body_shape={ "body_shape_average" 106 "body_shape_rectangle_full" 25 }
  		gene_bs_bust={ "bust_clothes" 52 "bust_shape_1_full" 82 }
  		gene_age={ "old_1" 148 "old_4" 148 }
  		gene_eyebrows_shape={ "close_spacing_lower_thickness" 121 "close_spacing_low_thickness" 213 }
@@ -203,6 +203,6 @@ bm_alliancewar_hammerfell_bhosek={
 		}
 	}
 
-	entity={ 2697330347 2697330347 }
+	entity={ 616600735 616600735 }
 }
 
