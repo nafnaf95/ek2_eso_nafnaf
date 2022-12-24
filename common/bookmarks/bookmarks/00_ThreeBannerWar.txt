@@ -223,20 +223,20 @@ bm_alliancewar_dominion = {
 	}
 	
 	character = {
-		name = "bm_alliancewar_dominion_euraxia"
-		dynasty = 110000
-		dynasty_splendor_level = 10
-		type = female
-		birth = 3452.1.1
-		title = k_rimmen
+		name = "bm_alliancewar_dominion_renmus"
+		dynasty = 100046
+		dynasty_splendor_level = 3
+		type = male
+		birth = 3462.6.6
+		title = k_senchal
 		government = autocracy_government
-		culture = nibenese
+		culture = colovian
 		religion = imperial_cult
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		history_id = tharn_202
-		position = { 1400 500 }
+		history_id = renmus_1000
+		position = { 1400 700 }
 
-		animation = personality_dishonorable
+		animation = personality_honorable
 	}
 
 }

@@ -517,6 +517,13 @@ cumberland_1004 = {
 	}
 	
 	3486.7.1 = { add_spouse = bergama_1006 }
+
+	3486.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:bergama_1005 } }
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:rielle_1005 } }
+	3488.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:deleyn_1005 } }	
+	3496.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:tamrith_1005 } }
+	3498.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:bagrakh_1103 } }
+
 	3510.1.1 = { death = yes }
 	
 	portrait_override={

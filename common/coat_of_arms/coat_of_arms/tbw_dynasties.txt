@@ -99,26 +99,39 @@
 }
 	
 430000 = { #guimard thejewishgaymer
-	pattern="pattern_tricolor_bend_01.dds"
-	color1=orange
-	color2=white
-	color3=rgb { 119 48 29 }
+	custom=yes
+	pattern="pattern__solid_designer.dds"
+	color1=white
+	color2=grey
+	color3=red
 	colored_emblem={
 		color1=black
-		color2=yellow
-		texture="ce_eagle_crown_boned.dds"
+		color2=yellow_light
+		color3=yellow_light
+		texture="ce_falcon.dds"
 		instance={
-			scale={ 0.790000 0.790000 }
+			scale={ 0.890000 0.890000 }
 		}
 
 	}
 
 	colored_emblem={
-		color1=rgb { 138 73 33 }
-		color2=black
-		color3=white
-		texture="ce_border_shield_rim.dds"
+		color1=rgb { 234 162 56 }
+		color2=rgb { 60 83 31 }
+		color3=yellow_light
+		texture="ce_bendy_04.dds"
 		instance={
+			scale={ 1.000000 -1.000000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_zigzag"
+		instance={
+			scale={ 0.850000 0.850000 }
 			depth=1.010000
 		}
 
@@ -282,3 +295,97 @@ branquette_montclair = { #Bramquette-Montclair thejewishgaymer
 	}
 
 }
+
+sanuarach_bloodthorn = { # bloodthorn
+	pattern = "pattern_solid.dds"
+	color1 = grey_light
+	color2 = white
+	color3 = green
+	colored_emblem = {
+		color1 = green
+		color2 = green_light
+		texture = "ce_polish_glinskyi.dds"
+	}
+
+}
+
+commodus ={
+		pattern="pattern_solid.dds"
+		color1=red
+		color2=white
+		color3=blue
+		colored_emblem={
+			color1=white
+			color2=red
+			texture="ce_cyrodiil_frame_cheydinhal.dds"
+			instance={
+				depth=2.010000
+			}
+
+		}
+
+		colored_emblem={
+			color1=white
+			texture="ce_bull_passant_humped.dds"
+			instance={
+				scale={ 0.790000 0.790000 }
+				depth=1.010000
+			}
+
+		}
+
+		colored_emblem={
+			color1=black
+			texture="ce_tamgha_zoroastrian_10.dds"
+			instance={
+				position={ 0.500000 1.000000 }
+				scale={ 1.000000 0.780000 }
+			}
+
+		}
+
+}
+
+bonebreaker = {
+	pattern="cat_pattern_tricolor_vertical.dds"
+	color1=rgb { 34 59 37 }
+	color2=black
+	color3=rgb { 33 59 36 }
+	colored_emblem={
+		color1=rgb { 85 101 71 }
+		color2=white
+		color3=white
+		texture="ce_moon_hunter.dds"
+		instance={
+			position={ 0.510000 0.500000 }
+			scale={ 0.950000 0.950000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		color2=black
+		color3=black
+		texture="ce_hammer_strong.dds"
+		instance={
+			position={ 0.510000 0.480000 }
+			scale={ 0.750000 0.570000 }
+		}
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -261,6 +261,7 @@ k_shornhelm = {
 	230.1.1 = { holder = spenard_1000 }
 	3338.1.1 = { holder = branquette_999 }
 	3369.1.1 = { holder = 0 }
+	3495.1.1 = { holder = tamrith_1005 liege = e_daggerfall_covenant}
 }
 
 d_shornhelm = {
@@ -269,7 +270,7 @@ d_shornhelm = {
 	3403.1.1 = { holder = branquette_1002 }
 	3442.1.1 = { holder = branquette_1003 }
 	3466.1.1 = { holder = branquette_1005 }
-	3487.1.1 = { holder = cumberland_1004 }
+	3495.1.1 = { holder = tamrith_1005 liege = e_daggerfall_covenant}
 }
 
 c_shornhelm = {
