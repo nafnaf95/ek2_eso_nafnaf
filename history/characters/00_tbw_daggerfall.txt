@@ -1042,16 +1042,21 @@ supernaldreamers_1000 = {
 bonebreaker_1000 = {
 	name = "Grog-Bonebreaker"
 	culture = mountain_orc
-	religion = breton_cult
+	religion = vosh_rakh
 	dynasty = bonebreaker
 	
 	dna =  bagrakh_1103_dna_entry
 
-	trait = blademaster_3
+	trait = blademaster_2
+	trait = education_stewardship_2
+	trait = honest
+	trait = zealous
 	trait = brave
-	trait = fatewoven
 	
-	3461.1.1 = { birth = yes }
+	trait = fatewoven
+	#trait = birthsign_steed
+	
+	3468.1.1 = { birth = yes }
 	
 	portrait_override={
 		portrait_modifier_overrides={
@@ -1061,6 +1066,141 @@ bonebreaker_1000 = {
 				custom_hair=male_hair_fp1_09
 				custom_beards=male_beard_northern_01
 				custom_cloaks=male_furs_secular_fp1_nobility_02
+		}
+	}
+}
+
+bonebreaker_1002 = {
+	name = "Lunia Septim"
+	culture = heartlander
+	religion = imperial_cult
+	
+	dna = bonebreaker_1002_dna_entry
+	
+	female = yes
+	
+	trait = blademaster_1
+	trait = strategist
+	trait = brave
+	trait = forgiving
+	trait = trusting
+	trait = education_martial_2
+	trait = beauty_good_1
+	trait = fatewoven
+	#trait = the_lady
+	
+	3473.1.1 = { birth = yes }
+	3481.1.1 = { employer = bonebreaker_1000 }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+				custom_hair=female_hair_byzantine_02
+				custom_beards=female_empty
+				custom_clothes=female_clothes_secular_fp2_iberian_christian_nobility_01_high
+		}
+	}
+}
+
+bonebreaker_1003 = {
+	name = "Plays-With-Steel"
+	culture = hapsleet
+	religion = hist
+	
+	trait = education_intrigue_3
+	trait = blademaster_1
+	
+	trait = brave
+	trait = vengeful
+	trait = impatient
+	
+	trait = loyal
+	
+	trait = fatewoven
+	
+	3471.1.1 = { birth = yes }
+	3481.1.1 = { employer = bonebreaker_1000 }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+
+		}
+	}
+}
+
+bonebreaker_1004 = {
+	name = "Rosyna Viehart"
+	culture = systrean
+	religion = breton_cult
+	
+	dna = bonebreaker_1004_dna_entry
+
+	trait = education_magical_ability_4
+	trait = arcana_good_3
+	trait = theologian
+	
+	trait = compassionate
+	trait = content
+	trait = shy
+	
+	#trait = the_apprentice
+	trait = beauty_good_3
+	trait = fatewoven
+	
+	female = yes
+	
+	3478.1.1 = { birth = yes }
+	3481.1.1 = { employer = bonebreaker_1000 }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_beards=female_empty
+			custom_hair=female_hair_rtt_02
+		}
+	}
+}
+
+bonebreaker_1005 = {
+	name = "Nautius Caerellius V"
+	culture = colovian
+	religion = imperial_cult
+	
+	trait = holy_warrior
+	trait = education_stewardship_4
+	trait = brave
+	trait = humble
+	trait = diligent
+	
+	trait = fatewoven
+	
+	3461.1.1 = { birth = yes }
+	3481.1.1 = { employer = bonebreaker_1000 }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+
+		}
+	}
+}
+
+bonebreaker_1006 = {
+	name = "Olaf-Iceborn"
+	culture = eastmarcher
+	religion = nord_cult
+	
+
+	trait = education_diplomacy_3
+	trait = stubborn
+	trait = brave
+	trait = gregarious
+	
+	trait = fatewoven
+	
+	3461.1.1 = { birth = yes }
+	3481.1.1 = { employer = bonebreaker_1000 }
+	
+	portrait_override={
+		portrait_modifier_overrides={
+
 		}
 	}
 }

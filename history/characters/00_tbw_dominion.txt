@@ -65,16 +65,13 @@ sorcalin_1000 = {
 		}
 	}
 }
-}
 
 marenil_1000 = {
 	name = "Marenil"
 	religion = auriel
 	culture = alinor
 	
-
 	trait = lifespan_3
-	
 	trait = education_martial_4
 	trait = arcana_good_1
 
@@ -83,25 +80,6 @@ marenil_1000 = {
 	3489.1.1 = { give_nickname = nick_general }
 }
 
-alliancewar_dominion = {
-	name = "Tilorinwe" 
-	female = yes
-	religion = auriel
-	culture = auridon
-	trait = lifespan_3
-	
-	3371.1.1 = { birth = yes }
-}
-
-alliancewar_dominion = {
-	name = "Arfire" 
-	female = yes
-	religion = auriel
-	culture = auridon
-	trait = lifespan_3
-	
-	3371.1.1 = { birth = yes }
-}
 
 ##Maormer Pirates
 

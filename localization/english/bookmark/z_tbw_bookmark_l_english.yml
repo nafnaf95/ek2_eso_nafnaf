@@ -1,9 +1,9 @@
 ﻿l_english:
  bm_group_582:0 "2E 582"
  # Alliance War
- bm_alliancewar:0 "Three Banner War"
+ bm_alliancewar:0 "Three Banners War"
  bm_alliancewar_desc:0 "When Mannimarco, the King of Worms, corrupted the Amulet of Kings just before Emperor Varen's coronation ritual several years ago, he guaranteed that the covenant sealed by Alessia and Akatosh would be broken, and Nirn would no longer be protected from a Daedric invasion. Mannimarco's master, the Daedric Prince Molag Bal, seized the opportunity to initiate the Planemeld, using terrifying Dark Anchors to summon Daedric troops and drag Nirn into the realm of Coldharbour. But three political alliances — the Ebonheart Pact, Daggerfall Covenant, and Aldmeri Dominion — stand against the Daedric Prince and his forces.\n\n#bold The armies of the three alliances converge, ready to fight to the last to preserve their freedom. Never before have the disparate races cooperated so closely, but never before has the threat been so terrible.#!"
- bm_alliancewar_dominion:0 "Alliance War: Dominion"
+ bm_alliancewar_dominion:0 "Aldmeri Dominion"
  bm_alliancewar_dominion_desc:0 "Only the Aldmeri—the High Elves and their noble allies, the Wood Elves and Cat-Men—have the wisdom and restraint to peaceably rule the disparate peoples of Tamriel. Though we are reluctant to take up this burden, events have shown that we must. Recent events prove that the Dragon Break was not a unique event. Men always follow the destructive path of their defender and apologist, the Missing God whom we shall not name. This ends here. Once again, Elves shall rule Tamriel from White-Gold Tower... this time, forever. The world has gone wrong, and we must put it right. March proudly beneath the eagle banner of the Aldmeri Dominion! — Aicantar of Shimmerene"
  bm_alliancewar_covenant:0 "Daggerfall Covenant"
  bm_alliancewar_covenant_desc:0 "It is fortunate for our peoples — indeed, for all the peoples of Tamriel — that the true flame of the Empire of Man still burns in the Daggerfall Covenant. These are terrible times, but our destiny lies before us as straight and true as the Reman roads: we must march on Cyrodiil, overthrow the false empress and all her brood, and restore the Empire of Tamriel. Then once more peace and justice will rule the provinces, rather than blood and fire. — High King Emeric"
