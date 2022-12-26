@@ -50,6 +50,18 @@ e_aldmeri_dominion = {
 	}	
 }
 
+d_aldmeri_occupation = {
+	color={ 247 190 0 }
+	definite_form = yes
+	capital = c_alinor
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
 e_daggerfall_covenant = {
 	color={ 77 148 255 }
 	definite_form = yes
@@ -62,7 +74,7 @@ e_daggerfall_covenant = {
 	}	
 }
 
-k_daggerfall_occupation = {
+d_daggerfall_occupation = {
 	color={ 77 148 255 }
 	definite_form = yes
 	capital = c_northrock
@@ -86,11 +98,58 @@ e_ebonheart_pact = {
 	}	
 }
 
+d_ebonheart_occupation = {
+	color={ 102 0 0 }
+	definite_form = yes
+	capital = c_windhelm
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+
 ###############################
 #           Dominion          #
 ###############################
 
+e_veiledheritance = {
+	color = { 0 0 0 }
+	capital = c_skywatch
+	definite_form = yes
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}		
+}
 
+e_earlnocturn = {
+	color = { 0 0 0 }
+	capital = c_skywatch
+	definite_form = yes
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}		
+}
+
+e_earlclavicus = {
+	color = { 0 0 0 }
+	capital = c_skywatch
+	definite_form = yes
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}		
+}
 
 k_theoelsweyr = {
 	color={ 255 187 153 }

@@ -1,10 +1,115 @@
-﻿
+﻿## Pact
+
+zimmeron_1000 = { #EP Grandwarlord
+	name = "Zimmeron"
+	culture = gah_julan
+	religion = tribunal_temple
+	trait = lifespan_3
+	trait = education_martial_5
+	martial = 30
+
+	3371.1.1 = { birth = yes }	
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Pact Warband"
+				men_at_arms = {
+					type = dunmer_oathmen
+					stacks = 4
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 6
+				}
+				men_at_arms = {
+					type = dunmer_oathmen
+					stacks = 4
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 6
+				}
+				location = province:2335
+				origin = province:1115
+				inheritable = yes
+			}
+
+		}
+	}
+}
+epgeneral_1000 = {
+	name = "Jeggord"
+	culture = eastmarcher
+	religion = nord_cult
+	trait = education_martial_3
+	martial = 20
+
+	3471.1.1 = { birth = yes }	
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Pact Warband"
+				men_at_arms = {
+					type = huscarl
+					stacks = 4
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 4
+				}
+				men_at_arms = {
+					type = skaal_hunter
+					stacks = 10
+				}
+				location = province:2335
+				origin = province:1115
+				inheritable = yes
+			}
+
+		}
+	}
+}
+
+epgeneral_1005 = {
+	name = "Dar-Liurz"
+	culture = hleel
+	religion = hist
+	trait = education_martial_5
+	martial = 27
+
+	3371.1.1 = { birth = yes }	
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Pact Warband"
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 4
+				}
+				men_at_arms = {
+					type = saxhleel_reel_ka
+					stacks = 8
+				}
+				men_at_arms = {
+					type = shellback_phalanx
+					stacks = 4
+				}
+				location = province:2335
+				origin = province:1115
+				inheritable = yes
+			}
+
+		}
+	}
+}
+
 flamehair_1014 = {
 	name = "Jorunn" #King of Skyrim/Eastern Skyrim (Kamal)
 	dynasty = flamehair
 	culture = eastmarcher
 	religion = nord_cult
 	trait = twin
+	trait = fatewoven
 	dna = flamehair_1014_dna_entry
 #CK2 DNA	dna = "cdbchzhceak"
 #CK2 DNA	properties = "ag00hc00000"
@@ -23,4 +128,133 @@ flamehair_1014 = {
 			custom_cloaks=male_cloaks_secular_fp1_nobility_01
 		}
 	}
+}
+
+#Thorn
+heitameen_1000 = {
+    name = "Heita-Meen" #Leader of Thornmarsh tribes
+	female = yes
+    religion = hist
+    culture = hleel
+	
+	trait = education_learning_4
+	trait = compassionate
+	trait = zealous
+	trait = stubborn
+	trait = fatewoven
+
+	
+    3470.1.1 = { birth = yes }
+    3583.1.1 = { death = { death_reason = death_old_age } }
+}
+
+# Dunmer Leaders
+
+
+indoril_1012 = {
+	name = "Tanval"
+	dynasty = 1300000
+	culture = chuzei
+	religion = tribunal_temple
+	
+	father = indoril_1010
+	
+	trait = lifespan_3
+	
+	3420.1.1 = { birth = yes }
+	# 3492.5.2 = {
+    # raise_levies = {
+         # location = 697 #Uveria
+         # force_mult = 1.0
+		# }
+	# }
+	# 3493.1.1 = {
+		# raise_levies = {
+			# dismiss = yes
+			# location = 697 #Uveria
+			# force_mult = 1.0
+		# }
+	# }
+	# 3502.1.1 = {
+    # raise_levies = {
+         # location = 295 #Sundercliff
+         # force_mult = 1.0
+		# }
+	# }
+	3502.8.15 = {
+		# raise_levies = {
+			# dismiss = yes
+			# location = 295 #Sundercliff
+			# force_mult = 1.0
+		# }
+		death = {
+			death_reason = death_battle 
+		}
+	}
+}
+
+dres_106 = {
+	name = "Omin" 
+	dynasty = 1300004 
+	culture = marduhn_oad
+	religion = tribunal_temple
+	father = dres_104
+
+	trait = lifespan_3
+
+	3306.1.1 = { birth = yes }
+	3510.1.1 = { death = yes } 
+}
+
+indoril_vehk = { #Archcanon of Vivec
+	name = "Valen" 
+	dynasty = 1300000
+	culture = chuzei
+	religion = tribunal_temple
+	
+	father = indoril_1001
+	
+	trait = lifespan_3
+
+	3270.1.1 = { birth = yes }
+	3511.1.1 = { death = yes } 
+}
+
+hlaalu_48114 = {
+	name = "Ralden"
+	dynasty = 1300002 #Hlaalu
+	religion = tribunal_temple
+	culture = armun_an
+	trait = lifespan_3
+	
+	father = hlaalu_48104
+	
+	3421.1.1 = { birth = yes }
+	# 3492.5.2 = {
+		# raise_levies = {
+         # location = 96 #Bodrum
+         # force_mult = 1.0
+		# }
+	# }
+	# 3493.1.1 = {
+		# raise_levies = {
+			# dismiss = yes
+			# location = 96 #Bodrum
+			# force_mult = 1.0
+		# }
+	# }
+	# 3502.1.1 = {
+    # raise_levies = {
+         # location = 295 #Sundercliff
+         # force_mult = 1.0
+		# }
+	# }
+	# 3503.1.1 = {
+		# raise_levies = {
+			# dismiss = yes
+			# location = 295 #Sundercliff
+			# force_mult = 1.0
+		# }
+	# }
+	3627.1.1 = { death = yes }
 }

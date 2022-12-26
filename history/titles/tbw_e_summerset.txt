@@ -171,7 +171,10 @@ d_mathiisen = {
 		holder = arelsenil_37149
 	}
 	3364.1.1 = { holder = arelsenil_37150 }
-	3471.1.1 = { holder = arelsenil_malanie }
+	3471.1.1 = { 
+		liege = e_veiledheritance
+		holder = arelsenil_malanie 
+	}
 	3502.6.3 = { holder = arelsenil_37151 }
 	3721.1.1 = { holder = arelsenil_37152 }
 	3823.1.1 = { holder = arelsenil_37156 }
@@ -320,6 +323,10 @@ c_silatar = {
 		liege = d_vulkhel
 		holder = silatar_1000
 	}
+	3500.1.1 = {
+		liege = maormer_1_pirate
+		holder = seaviper_1000
+	}
 }
 
 #d_tanzelwil
@@ -365,6 +372,9 @@ c_south_beacon = {
 	3474.1.1 = {
 		holder = jororil_ciranya
 	}
+	3480.1.1 = {
+		holder = maormer_1_pirate
+	}
 }
 c_antaron = {
 	3230.1.1 = {
@@ -377,6 +387,12 @@ c_antaron = {
 	}
 	3474.1.1 = {
 		holder = jororil_ciranya
+	}
+}
+
+b_southlight = {
+	3474.1.1 = {
+		holder = maormer_1_pirate
 	}
 }
 
@@ -409,7 +425,7 @@ c_shimmerene = {
 }
 c_ironbark = {
 	3218.1.1 = { holder = itecerie_36851 }
-	3340.1.1 = { holder = itecerie_36850 } #Estormo
+	3340.1.1 = { holder = itecerie_36850 liege = e_earlclavicus } #Estormo
 	3540.1.1 = { holder = itecerie_36853 }
 	3624.1.1 = { holder = itecerie_36854 }
 	3762.1.1 = { holder = itecerie_36855 }
@@ -728,6 +744,7 @@ c_torinaan = {
 		holder = torinaan_1000
 	}
 	3451.1.1 = {
+		liege = e_veiledheritance
 		holder = torinaan_1001
 	}
 	3576.1.1 = {
@@ -913,7 +930,7 @@ c_bewan = {
 d_thalmor = {
 	3330.1.1 = {
 		holder = thalmor_1000 #Malangwe, Hardliner, will be replaced under Ayrenn
-		liege = e_summerset
+		liege = e_veiledheritance
 	}
 }
 d_thalhold = {
@@ -943,7 +960,10 @@ c_dawnbreak = {
 		liege = k_firsthold
 		holder = dawnbreak_999
 	}
-	3429.1.1 = { holder = dawnbreak_1000 }
+	3429.1.1 = { 
+		liege = e_veiledheritance
+		holder = dawnbreak_1000 
+	}
 }
 
 #k_dusk
@@ -1402,7 +1422,7 @@ c_heinarwe = {
 		holder = firoruar_99
 		liege = d_rellenthil 
 	}
-	3360.1.1 = { holder = firoruar_100 }
+	3360.1.1 = { holder = firoruar_100 liege = e_earlnocturn }
 }
 c_ceytarn = {
 	3071.1.1 = { holder = arana_999 }
@@ -1874,10 +1894,16 @@ c_karnwasten = {
 	3360.1.1 = {
 		holder = aunoroe_102 #TO DO: give them over along with Marbrook and Graddun to other families allied to Enrion in his claim war
 	}
+	3500.1.1 = {
+		holder = releth_103
+	}
 }
 c_marnandril = {
 	3360.1.1 = {
 		holder = aunoroe_102
+	}
+	3500.1.1 = {
+		holder = releth_103
 	}
 }
 

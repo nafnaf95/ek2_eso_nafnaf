@@ -8,13 +8,22 @@ e_daggerfall_covenant = {
 	3486.1.30 = { holder = cumberland_1004 }
 }
 
-k_daggerfall_occupation = {
-	3500.1.1 = { holder = dortene_1000 liege = e_daggerfall_covenant }
-}
-
 e_ebonheart_pact = {
 	3492.7.7 = { holder = flamehair_1014 }
 }
+
+d_ebonheart_occupation = {
+	3492.7.7 = { holder = zimmeron_1000 liege = e_ebonheart_pact }
+}
+
+d_daggerfall_occupation = {
+	3500.1.1 = { holder = dortene_1000 liege = e_daggerfall_covenant }
+}
+
+d_aldmeri_occupation = {
+	3500.1.1 = { holder = sorcalin_1000 liege = e_aldmeri_dominion }
+}
+
 	
 ### Dunmer Great Houses
 k_telvanni = {
@@ -38,7 +47,7 @@ k_redoran = {
 
 k_hlaalu = {
 	3350.10.1 = { holder = hlaalu_48103 }
-	3492.7.7 = { holder = hlaalu_48103 liege = e_ebonheart_pact }
+	3492.7.7 = { holder = hlaalu_48114 liege = e_ebonheart_pact }
 }
 
 k_dres = {
@@ -100,7 +109,7 @@ k_camlorn_faolchu = {
 k_nomads_alikr = { 
 	3480.1.1 = { holder = acatis_1002 }
 	}
-
+	
 e_legion_zero = {
 	3480.1.1 = { holder = dremora_molag_kena }	## ESO Molag Kenas Legion forces
 }
@@ -119,4 +128,16 @@ d_sea_vipers = {
 		government = pirate_government 
 	}
 	
+}
+
+e_veiledheritance = {
+	3500.1.1 = { holder = errinorne_1000 }
+}
+
+e_earlclavicus = {
+	3500.1.1 = { holder = eldbar_1001 }
+}
+
+e_earlnocturn = {
+	3500.1.1 = { holder = releth_103 }
 }

@@ -7,3 +7,4 @@ nick_trade_king = { }
 nick_night_terror = { }
 nick_grand_warlord = { }
 nick_general = { }
+nick_veiled_queen = { }

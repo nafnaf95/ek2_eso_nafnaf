@@ -1065,7 +1065,7 @@ c_warden = {
 	3331.1.1 = { holder = tor_910 }
 	3359.1.1 = { holder = tor_911 }
 	3369.1.1 = { holder = tor_912 }
-	3499.1.1 = { holder = Am-Shadal_1000 liege = k_daggerfall_occupation }
+	3499.1.1 = { holder = Am-Shadal_1000 liege = d_daggerfall_occupation }
 }
 c_ni_mohk = {
 	3359.1.1 = {
@@ -1154,7 +1154,7 @@ c_black_rock = {
 	3413.1.1 = { holder = rirol_201 }
 	3422.1.1 = { holder = rirol_203 }
 	3444.1.1 = { holder = rirol_204 }
-	3499.1.1 = { holder = khamagash_1000 liege = k_daggerfall_occupation}
+	3499.1.1 = { holder = khamagash_1000 liege = d_daggerfall_occupation}
 	#3493.1.1 = { holder = rirol_206 }
 	#3538.1.1 = { holder = rirol_207 }
 	
@@ -1165,7 +1165,7 @@ c_alma_ruma = {
 		holder = almaruma_1000
 	}
 	3401.3.17 = { holder = almaruma_1001 }
-	3500.1.1 = { holder = dortene_1000 liege = k_daggerfall_occupation}
+	3500.1.1 = { holder = dortene_1000 liege = e_daggerfall_covenant }
 }
 c_cloud_top = {
 	3353.1.1 = {
@@ -2396,7 +2396,7 @@ c_black_boot = {
 	3410.1.1 = { holder = vywich_101 }
 	3433.1.1 = { holder = vywich_102 }
 	3464.1.1 = { holder = vywich_103 }
-	3496.1.1 = { liege = e_aldmeri_dominion holder = sorcalin_1000 }
+	3496.1.1 = { liege = d_aldmeri_occupation holder = thoron_1000 }
 }
 
 ##Theocracy of the Abbey of the Eight
@@ -2752,6 +2752,7 @@ c_eastwatch = {
 	}
 	3438.1.1 = { holder = brittleblade_101 }
 	3455.1.1 = { holder = brittleblade_103 }
+	3500.1.1 = { holder = zimmeron_1000 }
 }
 c_chim = {
 	300.1.1 = { change_development_level = 7 }
@@ -2759,7 +2760,7 @@ c_chim = {
 		liege = 0
 		holder = chim_1000
 	}
-	3500.1.1 = { holder = chim_1001 }
+	3500.1.1 = { holder = chim_1001 liege = d_ebonheart_occupation }
 }
 #c_ancestor_moth = {
 #	3360.1.1 = {
@@ -2800,6 +2801,7 @@ c_kingscrest = {
 	}
 	3375.1.1 = { holder = cidian_102 }
 	3409.1.1 = { holder = cidian_105 }
+	3500.1.1 = { holder = epgeneral_1000 liege = e_ebonheart_pact }
 }
 c_farragut = {
 	3280.1.1 = { 
@@ -2809,6 +2811,7 @@ c_farragut = {
 	3302.1.1 = { holder = tremellian_100 }
 	3362.1.1 = { holder = tremellian_101 }
 	3368.1.1 = { holder = tremellian_102 }
+	3500.1.1 = { holder = epgeneral_1005 liege = d_ebonheart_occupation }
 }
 c_fanacas = {
 	3280.1.1 = { 
@@ -2823,6 +2826,10 @@ d_ghartok = {
 	3320.1.1 = {
 		liege = 0
 		holder = redayn_100
+	}
+	3500.1.1 = {
+		liege = e_ebonheart_pact
+		holder = zimmeron_1000
 	}
 }
 c_mourngate = {
@@ -3243,7 +3250,7 @@ c_bloodmayne = {
 	3404.1.1 = { holder = fleccian_3389 }
 	3465.1.1 = { holder = fleccian_3390 }
 	3495.1.1 = { holder = fleccian_3391 }
-	3496.1.1 = { liege = arana_1001 holder = sorcalin_1000 }
+	3496.1.1 = { liege = d_aldmeri_occupation holder = marenil_1000 }
 	3508.1.1 = { holder = fleccian_3392 }
 	3560.1.1 = { holder = fleccian_3393 }
 	3598.1.1 = { holder = fleccian_3394 }
@@ -3274,6 +3281,7 @@ c_yellowmoth = {
 #d_mircorrup
 d_mir_corrup = {
 	300.1.1 = { change_development_level = 7 }
+	3500.1.1 = { holder = zimmeron_1000 }
 }
 c_valus_highland = {
 	300.1.1 = { change_development_level = 6 }
@@ -3327,6 +3335,7 @@ d_sundercliff = {
 	3369.1.1 = { holder = valentian_101 }
 	3404.1.1 = { holder = valentian_105 }
 	3430.1.1 = { holder = valentian_106 }
+	3500.1.1 = { holder = zimmeron_1000 }
 }
 c_sundercliff = {
 	300.1.1 = { change_development_level = 9 }

@@ -980,6 +980,9 @@ c_sisterstones = {
 		holder = caerllin_1
 		liege = d_southisles
 	}
+	3500.1.1 = {
+		holder = maormer_1_pirate
+	}
 }
 
 c_ouze = {

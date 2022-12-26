@@ -3,14 +3,14 @@
  # Alliance War
  bm_alliancewar:0 "Three Banners War"
  bm_alliancewar_desc:0 "When Mannimarco, the King of Worms, corrupted the Amulet of Kings just before Emperor Varen's coronation ritual several years ago, he guaranteed that the covenant sealed by Alessia and Akatosh would be broken, and Nirn would no longer be protected from a Daedric invasion. Mannimarco's master, the Daedric Prince Molag Bal, seized the opportunity to initiate the Planemeld, using terrifying Dark Anchors to summon Daedric troops and drag Nirn into the realm of Coldharbour. But three political alliances — the Ebonheart Pact, Daggerfall Covenant, and Aldmeri Dominion — stand against the Daedric Prince and his forces.\n\n#bold The armies of the three alliances converge, ready to fight to the last to preserve their freedom. Never before have the disparate races cooperated so closely, but never before has the threat been so terrible.#!"
- bm_alliancewar_dominion:0 "Aldmeri Dominion"
+ bm_alliancewar_dominion:0 "The Aldmeri Dominion"
  bm_alliancewar_dominion_desc:0 "I have no hatred for the races of Man, but they are young. Like all children, they are driven by emotion. They lack the wisdom that comes with age. I would sooner place an Altmer infant on the Ruby Throne than surrender Tamriel to their capricious whims. The Altmer, the Bosmer and the Khajiit share the common traits of intelligence, patience and reason. We do not seek riches or plunder. Domination is not our goal, nor is the acclamation of power for its own sake. Today we make our stand. Today we take back the Ruby Throne, which is ours by ancient right and the blessings of the Divines. Stand with us. ― Ayrenn Arana Aldmeri \n\n#bold Can Queen Ayrenn acomplish her goals and take the ruby throne or will the everpresent darkness take hold? #!"
- bm_alliancewar_covenant:0 "Daggerfall Covenant"
+ bm_alliancewar_covenant:0 "The Daggerfall Covenant"
  bm_alliancewar_covenant_desc:0 "Our supplies dwindle. Our trade routes are shut down. Our people suffer. Why? Because a pretender sits upon the Ruby Throne. Let us take up arms! Let the fields of Cyrodiil run red with the blood of our fallen enemies! But let us spare the lives of a few, so that they may return to their homelands to tell their fellows the fate they met at the hands of the Daggerfall Covenant. One land! One Emperor! Who among you will stand with me? ― High King Emeric" #NAFED
- bm_alliancewar_pact:0 "Ebonheart Pact"
+ bm_alliancewar_pact:0 "The Ebonheart Pact"
  bm_alliancewar_pact_desc:0 "Before Ysgramor led the Nord people south, our ancestors flourished in the frozen continent of Atmora, and to this day our people prefer the bitter climates of northern Tamriel. The Dark Elves abide in Morrowind, a harsh land of ashfall and perpetual earthquakes. The Argonians endure the treacherous and impenetrable depths of Black Marsh. The alliance between our races was born in dark times, when Nord, Dunmer and free Argonians fought as one to repel the invasion of the Akaviri slavemasters. Our greatest strength is the adversity we have overcome. Our resolve is glacial, our might is forged in fire, and our courage, cultivated by the beasts of the jungle. We are Ebonheart. We are as one. And by this, our victory is assured,Blood For The Pact! - Jorunn the Skald-King"
- bm_alliancewar_kena:0 "Molag Kena"
- bm_alliancewar_kena_desc:0 "The Empress Regent is as lost as the White-Gold Tower! Fool's and craven's that call them selves kings and queens stand no chance against the will of Molag Bal! "
+ bm_alliancewar_kena:0 "The Forces of Molag Bal"
+ bm_alliancewar_kena_desc:0 "The Empress Regent is as lost as the White-Gold Tower! Fool's and craven's that call them selves kings and queens stand no chance against the will of Molag Bal! \n\n#bold Take lead of my forces mortal, Bring devistation and ruin to Nirn in my name!#!"
  
  
  "Molag Kena, disguised as the Empress Regent Clivia Tharn, ruled over the Imperial City for an indeterminate amount of time.[4] She consistently requested troops from the Imperial Legion to report to her personally, off the books. She moved the troops this way and that, having them defend positions with no strategic value and sending them off to die at the hands of the invading Daedra for nothing. Molag Kena manipulated legion officials with blackmail and other underhanded tactics to do what she wanted, and called one General Valerius to the White-Gold Tower before the Imperial City was overrun by Molag Bal's forces."
@@ -26,6 +26,12 @@
  bm_alliancewar_pact_valen_desc:0 "Archcanon Valen is the Dunmer heigh priest of the Tribunal Temple, and Lord Vivec's primary servant."
  bm_alliancewar_pact_omin:0 "Grandmaster Omin"
  bm_alliancewar_pact_omin_desc:0 "Dres"
+ bm_alliancewar_pact_thorn:0 "Vicecanon Heita-Meen"
+ bm_alliancewar_pact_thorn_desc:0 ""
+ bm_alliancewar_pact_ralden:0 "Master Ralden"
+ bm_alliancewar_pact_ralden_desc:0 ""
+ bm_alliancewar_pact_zimmeron:0 "Grand Warlord Zimmeron"
+ bm_alliancewar_pact_zimmeron_desc:0 ""
  
  # dc
  bm_alliancewar_covenant_emeric:0 "High King Emeric"
@@ -75,9 +81,19 @@
  bm_alliancewar_dominion_aeradan_desc:0 "King Camoran Aeradan is the current de jure ruler of Valenwood and one of the leaders of the Aldmeri Dominion. He can be found in his throne room within the great graht-oak of Elden Root."
  bm_alliancewar_dominion_akkhuzri:0 "Mane Akkhuz-ri"
  bm_alliancewar_dominion_akkhuzri_desc:0 "Mane"
+ bm_alliancewar_dominion_seaviper:0 "Sea Viper's"
+ bm_alliancewar_dominion_seaviper_desc:0 ""
  bm_alliancewar_dominion_renmus:0 "General Renmus"
  bm_alliancewar_dominion_renmus_desc:0 ""
  bm_alliancewar_dominion_estre:0 "High Kinlady Estre"
  bm_alliancewar_dominion_estre_desc:0 "High Kinlady Estre is the Altmer High Kinlady of Skywatch, wife of Prince Naemon of Summerset Isle, sister-in-law of Queen Ayrenn, and the leader of the Veiled Heritance under the guise of the Veiled Queen."
  bm_alliancewar_dominion_euraxia:0 "Usurper Queen Euraxia Tharn"
  bm_alliancewar_dominion_euraxia_desc:0 "Queen Euraxia Tharn is the Imperial ruler of the city of Rimmen, found in Northern Elsweyr. She is considered by many to be a usurper queen, having conquered the city in the Frostfall Coup around seven years ago. She is a member of the Tharn Family, being the younger half-sister of Abnur Tharn and the mother of Javad Tharn."
+ bm_alliancewar_dominion_sorcalin:0 "Grand Warlord Sorcalin"
+ bm_alliancewar_dominion_sorcalin_desc:0 ""
+ 
+ 
+ 
+ 
+ 
+ 

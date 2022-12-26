@@ -11,7 +11,7 @@ sorcalin_1000 = {
 	trait = lifespan_3
 	
 	trait = education_martial_4
-	trait = arcana_good_3
+	trait = arcana_good_3s
 
 	
 	3475.5.5 = { birth = yes }
@@ -22,21 +22,21 @@ sorcalin_1000 = {
 				name = Dominion
 				men_at_arms = {
 					type = light_horsemen
-					stacks = 6
+					stacks = 2
 				}
 				men_at_arms = {
 					type = war_mages
-					stacks = 6
+					stacks = 3
 				}
 				men_at_arms = {
 					type = pikemen_unit
 					stacks = 6
 				}
 				men_at_arms = {
-					type = light_footmen
-					stacks = 24
+					type = summerset_justiciars
+					stacks = 10
 				}
-				location = province:3802
+				location = province:2052
 				origin = province:2929
 				inheritable = yes
 			}
@@ -44,11 +44,11 @@ sorcalin_1000 = {
 				name = Dominion
 				men_at_arms = {
 					type = light_horsemen
-					stacks = 6
+					stacks = 2
 				}
 				men_at_arms = {
 					type = war_mages
-					stacks = 6
+					stacks = 3
 				}
 				men_at_arms = {
 					type = pikemen_unit
@@ -56,9 +56,9 @@ sorcalin_1000 = {
 				}
 				men_at_arms = {
 					type = light_footmen
-					stacks = 24
+					stacks = 10
 				}
-				location = province:3721
+				location = province:2350
 				origin = province:2929
 				inheritable = yes
 			}
@@ -78,8 +78,78 @@ marenil_1000 = {
 	
 	3475.5.5 = { birth = yes }
 	3489.1.1 = { give_nickname = nick_general }
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = Dominion
+				men_at_arms = {
+					type = bosmer_stalkers
+					stacks = 2
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 3
+				}
+				men_at_arms = {
+					type = summerset_justiciars
+					stacks = 6
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 10
+				}
+				location = province:2052
+				origin = province:2929
+				inheritable = yes
+			}
+
+		}
+	}
 }
 
+atahba_1000 = {
+	name = "Atahba"
+	female = yes
+	culture = pellitinian
+	religion = twomoonsdance
+
+	#furstock
+	trait = furstock_cathay
+
+	3484.1.1 = { birth = yes }
+	3500.1.1 = { give_nickname = nick_general }
+}
+
+thoron_1000 = {
+	name = "Thoron"
+	religion = greenpact
+	culture = grahtwood
+	
+	trait = lifespan_3
+
+	3380.1.1 = { birth = yes }
+	3500.1.1 = { give_nickname = nick_general }
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = Dominion
+				men_at_arms = {
+					type = bosmer_stalkers
+					stacks = 12
+				}
+				men_at_arms = {
+					type = summerset_justiciars
+					stacks = 6
+				}
+				location = province:2052
+				origin = province:2929
+				inheritable = yes
+			}
+
+		}
+	}
+	3540.1.1 = { death = yes }
+}
 
 ##Maormer Pirates
 
@@ -159,6 +229,32 @@ arana_1001 = {
 			add_perk = restoration_journeyman_perk
 		}
 	}
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = Dominion
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 1
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 2
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 4
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 6
+				}
+				location = province:2929
+				origin = province:2929
+				inheritable = yes
+			}
+		}
+	}
 	3724.2.8 = { death = yes }
 	
 	portrait_override = {	# Will override the character's appearance
@@ -196,6 +292,173 @@ arana_1002 = {
 	}
 	3502.12.3 = { death = yes }
 }
+
+## Errinorne Dynasty (errinorne)
+
+errinorne_1000 = {
+	name = "Estre" #Veiled Queen
+	female = yes
+	dynasty = errinorne
+	religion = mehrunes_cult#auriel
+	culture = auridon
+
+	diplomacy = 6
+	martial = 9
+	stewardship = 6
+	intrigue = 10
+	learning = 10
+	father = errinorne_36352
+	mother = arelsenil_37150
+
+	trait = lifespan_3
+	trait = pure_blooded
+	trait = intellect_good_1
+	trait = education_learning_4
+	
+	3469.4.2 = {
+		birth = yes
+		effect = { add_character_flag = estre }
+	}
+	3465.1.1 = { add_trait = deceitful }
+	3471.1.1 = { add_trait = arrogant }
+	3474.1.1 = { 
+		add_trait = sadistic
+		add_trait = ambitious
+		add_secret = {
+			type = secret_mehrunes_worshipper
+		}
+	}
+	3494.5.5 = {
+		add_spouse = arana_1002
+		add_pressed_claim = title:e_summerset
+		add_secret = {
+			type = secret_mehrunes_worshipper
+		}
+	}
+	3500.1.1 = {
+		effect = { add_character_flag = theveiledqueen }
+	}
+	3500.1.1 = {
+		effect = { add_claim = e_aldmeri_dominion }
+	}
+	
+	3500.7.1 = set_relation_rival = { reason = rival_historical target = character:arana_1001 }
+	
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Spawn of Mehrunes Dagon"
+				men_at_arms = {
+					type = daedra
+					stacks = 4
+				}
+				men_at_arms = {
+					type = risen_dead
+					stacks = 10
+				}
+				location = province:2689
+				origin = province:2689
+				inheritable = yes
+			}
+		}
+	}
+	3502.11.12 = { 
+		effect = {
+			set_character_faith_history = faith:mehrunes_cult
+			give_nickname = nick_the_veiled_queen
+		}
+	}
+	3502.12.12 = { death = yes } #Killed by Vestige
+}
+
+eldbar_1001 = {
+	name = "Tilcalar" #ESO Aldarch Tilcalar/Earl of Clavicus Vile
+	religion = clavicus_cult#auriel
+	culture = alinor
+
+	trait = education_learning_3
+	trait = lifespan_3
+	trait = zealous
+	trait = gregarious
+
+	3381.1.1 = { birth = yes }
+	3506.1.1 = {
+		religion = clavicus_cult
+		remove_trait = gregarious
+		trait = wrathful
+		trait = ambitious
+	}
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Cultist's"
+				men_at_arms = {
+					type = daedra
+					stacks = 2
+				}
+				men_at_arms = {
+					type = risen_dead
+					stacks = 4
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 4
+				}
+				location = province:3051
+				origin = province:3051
+				inheritable = yes
+			}
+		}
+	}
+	3506.6.12 = { death = yes }
+}
+
+thalmor_1001 = {
+	name = "Leythen"
+	religion = mephala_cult
+	culture = auridon
+
+	trait = lifespan_3
+
+	3294.1.1 = { birth = yes }
+	3527.1.1 = { death = yes }
+}
+
+releth_103 = {
+	name = "Tundilwen" 
+	dynasty_house = redoran_releth
+	culture = gah_julan
+	religion = nocturnal_cult
+	father = releth_101
+	female = yes
+
+	3474.1.1 = { birth = yes }
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Cultist's"
+				men_at_arms = {
+					type = daedra
+					stacks = 2
+				}
+				men_at_arms = {
+					type = risen_dead
+					stacks = 8
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 8
+				}
+				location = province:3051
+				origin = province:3051
+				inheritable = yes
+			}
+		}
+	}
+	3720.1.1 = { death = yes }
+}
+
+
 
 ###############################
 #       Elswyer               #

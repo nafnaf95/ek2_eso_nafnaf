@@ -2,7 +2,7 @@
 # History database id:bergama_1005
 bm_alliancewar_covenant_faharajad={
 	type=male
-	id=4150
+	id=4162
 	age=0.640000
 	genes={ 		hair_color={ 9 253 56 235 }
  		skin_color={ 87 223 53 192 }
@@ -92,12 +92,12 @@ bm_alliancewar_covenant_faharajad={
  		face_detail_temple_def={ "temple_def" 28 "temple_def" 28 }
  		expression_brow_wrinkles={ "brow_wrinkles_03" 188 "brow_wrinkles_01" 53 }
  		expression_eye_wrinkles={ "eye_wrinkles_01" 215 "eye_wrinkles_03" 113 }
- 		expression_forehead_wrinkles={ "forehead_wrinkles_01" 255 "forehead_wrinkles_01" 130 }
+ 		expression_forehead_wrinkles={ "forehead_wrinkles_01" 162 "forehead_wrinkles_01" 130 }
  		expression_other={ "nose_wrinkles_01" 154 "cheek_wrinkles_both_01" 100 }
  		complexion={ "complexion_1" 81 "complexion_1af" 76 }
  		gene_height={ "normal_height" 153 "normal_height" 133 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 115 "body_fat_head_fat_full" 132 }
- 		gene_bs_body_shape={ "body_shape_hourglass_half" 245 "body_shape_pear_full" 41 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 135 "body_fat_head_fat_full" 132 }
+ 		gene_bs_body_shape={ "body_shape_hourglass_half" 214 "body_shape_pear_full" 41 }
  		gene_bs_bust={ "bust_clothes" 129 "bust_shape_3_half" 254 }
  		gene_age={ "old_3" 194 "old_2" 194 }
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 255 "avg_spacing_high_thickness" 219 }
@@ -130,7 +130,7 @@ bm_alliancewar_covenant_faharajad={
  		skin_color_saturation={ "vanilla_skin_saturation" 127 "vanilla_skin_saturation" 127 }
  		eye_color_saturation={ "eye_color_saturation" 177 "eye_color_saturation" 127 }
  		hair_color_hue={ "vanilla_hair_hue" 127 "vanilla_hair_hue" 127 }
- 		eye_sclera={ "human_sclera" 51 "human_sclera" 0 }
+ 		eye_sclera={ "human_sclera" 0 "human_sclera" 0 }
  		eye_pupil={ "human_pupils" 0 "human_pupils" 0 }
  		eye_overlay={ "no_overlay" 127 "no_overlay" 127 }
  		hairline_type={ "receding" 47 "receding" 17 }
@@ -183,7 +183,7 @@ bm_alliancewar_covenant_faharajad={
  		pose={ "" 255 "" 0 }
  		beards={ "no_beard" 255 "no_beard" 0 }
  		clothes={ "indian_war_nobility_clothes" 255 "most_clothes" 0 }
- 		legwear={ "mena_nobility_legwear" 248 "all_legwear" 0 }
+ 		legwear={ "mena_nobility_legwear" 75 "all_legwear" 0 }
  		facepaint={ "no_facepaint" 255 "no_facepaint" 0 }
  		tattoos={ "no_tattoos" 255 "no_tattoos" 0 }
  		scarification={ "no_scarification" 255 "no_scarification" 0 }
@@ -202,7 +202,7 @@ bm_alliancewar_covenant_faharajad={
 		}
 	}
 
-	entity={ 2616704408 2616704408 }
+	entity={ 616600735 616600735 }
 	tags={ {
 			hash=996199796
 			invert=no

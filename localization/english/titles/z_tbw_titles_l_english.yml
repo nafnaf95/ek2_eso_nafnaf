@@ -11,10 +11,13 @@
  e_daggerfall_covenant_adj:0 "The Daggerfall Covenant"
  e_ebonheart_pact:0 "The Ebonheart Pact"
  e_ebonheart_pact_adj:0 "The Ebonheart Pact"
+ e_coldharbor:0 "Patriarch of Cold Harbour"
  e_legion_zero:0 "Legion Zero"
  e_legion_zero_adj:0 "Legion Zero"
  e_seventh_legion:0 "Seventh Legion"
  e_seventh_legion_adj:0 "Seventh Legion"
+ e_veiledheritance:0 "Veiled Hertiance"
+ e_veiledheritance_adj:0 "Veiled Hertiance"
  k_nomads_alikr:0 "Nomads of the Alik'R"
  k_nomads_alikr_adj:0 "Nomads of the Alik'R"
  k_dark_witness:0 "The Dark Witness Cult"
@@ -52,7 +55,7 @@
  d_blackgull:0 "Black Gull Slavers"
  d_blackgull_adj:0 "Black Gull Slavers"
 
- d_wayrest:0 "City State Of"
+ d_wayrest:0 "Wayrest"
  ############################
  # Holding name changes     #
  ############################

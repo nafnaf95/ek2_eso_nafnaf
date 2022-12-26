@@ -378,7 +378,84 @@ bonebreaker = {
 
 }
 
+170055 = { # Kena
+	custom=yes
+	pattern="pattern_solid.dds"
+	color1=rgb { 89 26 37 }
+	color2=orange
+	color3=rgb { 89 26 37 }
+	colored_emblem={
+		color1=orange
+		color2=rgb { 89 26 37 }
+		texture="ce_daedra_molag.dds"
+		instance={
+			position={ 0.500000 0.390000 }
+			scale={ 0.700000 0.700000 }
+			depth=3.010000
+		}
 
+	}
+
+	colored_emblem={
+		color1=rgb { 89 26 37 }
+		texture="ce_block_01.dds"
+		instance={
+			position={ 0.510000 0.500000 }
+			depth=4.010000
+			rotation=90
+		}
+
+	}
+
+	colored_emblem={
+		color1=orange
+		texture="ce_mena_fess.dds"
+		instance={
+			position={ 0.740000 0.500000 }
+			scale={ 0.100000 1.000000 }
+			rotation=90
+		}
+
+		instance={
+			position={ 0.260000 0.500000 }
+			scale={ 0.100000 1.000000 }
+			depth=1.010000
+			rotation=90
+		}
+
+	}
+
+	colored_emblem={
+		color1=orange
+		texture="ce_argonian_flame_1.dds"
+		instance={
+			position={ 0.500000 0.610000 }
+			scale={ 0.610000 0.610000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 89 26 37 }
+		texture="ce_block_01.dds"
+		instance={
+			position={ 0.490000 0.500000 }
+			depth=5.010000
+			rotation=90
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 89 26 37 }
+		texture="ce_african_pattern_dancetty_08.dds"
+		instance={
+			depth=6.010000
+		}
+
+	}
+} 
 
 
 

@@ -1137,7 +1137,7 @@ d_altadoon = {
     3302.1.1 = { holder = kingswalk_001 }
     3339.1.1 = { holder = kingswalk_003 }
     3347.1.1 = { holder = hopeful_001 }
-	3500.1.1 = { holder = arana_1001 }
+	3500.1.1 = { liege = e_aldmeri_dominion holder = sorcalin_1000 }
 }
 
 c_altadoon = {

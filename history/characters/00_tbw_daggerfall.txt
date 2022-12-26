@@ -5,7 +5,7 @@
 #Daggerfall Aliance War
 
 dortene_1000 = {
-name = " Grand Warlord Dortene"
+	name = " Grand Warlord Dortene"
 	female = yes
 	religion = breton_cult
 	culture = glenumbran
@@ -16,10 +16,10 @@ name = " Grand Warlord Dortene"
 	3502.1.30 = {
 		effect = { 	
 			spawn_army = {
-				name = Covenant
+				name = "Covenant Warband"
 				men_at_arms = {
 					type = light_horsemen
-					stacks = 6
+					stacks = 4
 				}
 				men_at_arms = {
 					type = war_mages
@@ -27,21 +27,21 @@ name = " Grand Warlord Dortene"
 				}
 				men_at_arms = {
 					type = pikemen_unit
-					stacks = 6
+					stacks = 4
 				}
 				men_at_arms = {
 					type = light_footmen
-					stacks = 24
+					stacks = 14
 				}
 				location = province:1852
 				origin = province:184
 				inheritable = yes
 			}
 			spawn_army = {
-				name = Covenant
+				name = "Covenant Warband"
 				men_at_arms = {
 					type = light_horsemen
-					stacks = 6
+					stacks = 4
 				}
 				men_at_arms = {
 					type = war_mages
@@ -49,11 +49,11 @@ name = " Grand Warlord Dortene"
 				}
 				men_at_arms = {
 					type = pikemen_unit
-					stacks = 6
+					stacks = 4
 				}
 				men_at_arms = {
 					type = light_footmen
-					stacks = 24
+					stacks = 14
 				}
 				location = province:1933
 				origin = province:184
@@ -82,6 +82,28 @@ khamagash_1000 = {
 	religion = code_of_malacath
 	
 	3461.1.1 = { birth = yes }
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Covenant Warband"
+				men_at_arms = {
+					type = bear_cavalry
+					stacks = 4
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 6
+				}
+				men_at_arms = {
+					type = orc_marauders
+					stacks = 8
+				}
+				location = province:1852
+				origin = province:184
+				inheritable = yes
+			}
+		}
+	}
 	portrait_override={
 		portrait_modifier_overrides={
 				custom_clothes=male_clothes_secular_orc_war
@@ -100,6 +122,28 @@ Am-Shadal_1000 = {
 	religion = redguard_cult
 	
 	3461.1.1 = { birth = yes }
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Covenant Warband"
+				men_at_arms = {
+					type = camel_rider
+					stacks = 8
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 6
+				}
+				men_at_arms = {
+					type = yokudan_way_of_the_sword
+					stacks = 8
+				}
+				location = province:1852
+				origin = province:184
+				inheritable = yes
+			}
+		}
+	}
 	portrait_override={
 		portrait_modifier_overrides={
 				custom_clothes=male_clothes_secular_byzantine_war_nobility_01_low
@@ -244,6 +288,19 @@ fausta_1100 = {
 		}
 	}
 
+}
+
+fausta_1101 = {
+	name = "Gloria"
+	dynasty = 121000
+	female = yes
+	religion = breton_cult
+	culture = blackwood
+	trait = blademaster_3
+	trait = hunter_3
+
+	3475.1.1 = { birth = yes }
+	3502.1.1 = { employer = rielle_1005 }
 }
 
 bloodthorn_1000 = {
@@ -523,8 +580,38 @@ cumberland_1004 = {
 	3488.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:deleyn_1005 } }	
 	3496.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:tamrith_1005 } }
 	3498.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:bagrakh_1103 } }
-
-	3510.1.1 = { death = yes }
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:arana_1001 } }
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:flamehair_1014 } }
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:bloodthorn_1000 } }
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:fausta_1100 } }
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:branquette_montclair_1001 } }
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:supernaldreamers_1000 } }
+	
+	3500.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Lion Guard"
+				men_at_arms = {
+					type = spellswords
+					stacks = 3
+				}
+				men_at_arms = {
+					type = breton_hedge_knights
+					stacks = 9
+				}
+				men_at_arms = {
+					type = breton_pikemen_companies
+					stacks = 4
+				}
+				location = province:2689
+				origin = province:2689
+				inheritable = yes
+			}
+		}
+	}
+	
+	
+	3510.1.1 = { death = no }
 	
 	portrait_override={
 		portrait_modifier_overrides={
@@ -609,47 +696,51 @@ rielle_1005 = {
 	father = rielle_1004
 	mother = garclay_1003
 	
-	#3502.1.30 = {
-		#effect = { 	
-			#spawn_army = {
-				#name =  mercenary_knights_lion_guard
-				#men_at_arms = {
-					#type = light_horsemen
-					#stacks = 3
-				#}
-				#men_at_arms = {
-					#type = war_mages
-					#stacks = 3
-				#}
-				#men_at_arms = {
-					#type = pikemen_unit
-					#stacks = 3
-				#}
-				#men_at_arms = {
-					#type = light_footmen
-					#stacks = 12
-				#}
-				#location = province:42
-				#origin = province:184
+	
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:fausta_1100 } }
+	3500.1.1 = {
+		effect = { 	
+			spawn_army = {
+				name = "Lion Guard"
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 2
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 1
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 3
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 12
+				}
+				location = province:42
+				origin = province:184
 				#war = war_4311_bloodthorn_cult
 				#war_keep_on_attacker_victory = yes
-				#inheritable = no
-			#}
-		#}
+				inheritable = no
+			}
+		}
 	}
+}
 
-
-fausta_1101 = {
-	name = "Gloria"
-	dynasty = 121000
-	female = yes
+#evermore
+guimard_1011 = {
+	name = "Eamond"
+	dynasty = 430000
+	culture = iliac
 	religion = breton_cult
-	culture = blackwood
-	trait = blademaster_3
-	trait = hunter_3
 
-	3475.1.1 = { birth = yes }
-	3502.1.1 = { employer = rielle_1005 }
+	father = guimard_1008
+
+	3447.1.1 = { birth = yes }
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:uela_01 } }
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:tharn_226 } }
+	#3478.1.1 = { add_spouse = 15127 }
 }
 
 gautier_1101 = {
@@ -693,6 +784,7 @@ edrald_1002 = {
 
 	3435.1.1 = { birth = yes }
 	3486.7.1 = { add_spouse = edrald_1002 }
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:bitterhand_1000 } }
 	3583.1.1 = { death = yes }
 }
 
@@ -701,7 +793,7 @@ edrald_1003 = {
 	dynasty = 410002
 	religion = breton_cult
 	culture = northmen
-
+	female = yes
 
 	3445.1.1 = { birth = yes }
 	3583.1.1 = { death = yes }
@@ -712,9 +804,10 @@ edrald_1004 = {
 	dynasty = 410002
 	religion = breton_cult
 	culture = northmen
-
+	female = yes
 
 	3485.1.1 = { birth = yes }
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:bitterhand_1000 } }
 	3583.1.1 = { death = yes }
 }
 
@@ -739,6 +832,7 @@ tamrith_1005 = {
 			add_pressed_claim = title:k_shornhelm
 		}
 	}
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:branquette_montclair_1001 } }
 	3535.1.1 = { death = yes }
 
 		portrait_override={
@@ -1282,26 +1376,9 @@ bagrakh_1103 = {
 	father = bagrakh_1101
 	
 	3461.1.1 = { birth = yes }
-	3502.1.30 = {
-		effect = { 	
-			spawn_army = {
-				name = event_troop_default_name
-				men_at_arms = {
-					type = light_footmen
-					stacks = 4
-				}
-				men_at_arms = {
-					type = orc_marauders
-					stacks = 2
-				}
-				location = province:298
-				origin = province:298
-				inheritable = no
-			} 
-		}
-	}
 	3500.1.30 = { add_spouse = morkul_1102 }
 	3500.1.30 = { add_spouse = shatul_1110 }
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:winterborn_1100 } }
 	3504.3.11 = { death = {death_reason = death_duel killer = fharun_1102} }
 	
 	portrait_override = {	# Will override the character's appearance
@@ -1978,6 +2055,24 @@ witheredhand_1000 = {
 	trait = undead_character
 	
 	3038.1.1 = { birth = yes }
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Undead Sword Masters"
+				men_at_arms = {
+					type = daedra
+					stacks = 4
+				}
+				men_at_arms = {
+					type = risen_dead
+					stacks = 10
+				}
+				location = province:2689
+				origin = province:2689
+				inheritable = yes
+			}
+		}
+	}
 	
 		portrait_override = {	# Will override the character's appearance
 		portrait_modifier_overrides={
@@ -1997,6 +2092,20 @@ witheredhand_1001 = {
 	father = witheredhand_1000
 	
 	3440.1.1 = { birth = yes }
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Zombies"
+				men_at_arms = {
+					type = risen_dead
+					stacks = 5
+				}
+				location = province:2689
+				origin = province:2689
+				inheritable = yes
+			}
+		}
+	}
 	
 	portrait_override = {	# Will override the character's appearance
 		portrait_modifier_overrides={
@@ -2017,6 +2126,20 @@ witheredhand_1002 = {
 	father = witheredhand_1000
 	
 	3450.1.1 = { birth = yes }
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Zombies"
+				men_at_arms = {
+					type = risen_dead
+					stacks = 5
+				}
+				location = province:2689
+				origin = province:2689
+				inheritable = yes
+			}
+		}
+	}
 	
 	portrait_override = {	# Will override the character's appearance
 		portrait_modifier_overrides={
@@ -2055,6 +2178,10 @@ bergama_1005 = {
 	3438.1.1 = { birth = yes }
 	3465.1.1 = { add_spouse = danobia_1001 }
 	3471.1.1 = { effect = { add_pressed_claim = title:e_hammerfell } }
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:tharn_226 } }
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:witheredhand_1000 } }
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:witheredhand_1001 } }
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:witheredhand_1002 } }
 	3507.1.1 = { death = yes }
 	
 	portrait_override = {	# Will override the character's appearance

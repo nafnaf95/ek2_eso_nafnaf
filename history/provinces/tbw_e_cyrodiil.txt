@@ -1,0 +1,85 @@
+﻿
+####c_alma_ruma
+
+1933 = { #b_alma
+	culture = colovian
+	religion = imperial_cult
+	
+	3502.1.30 = {
+		holding = castle_holding
+	}
+}
+1932 = { #b_ruma
+	holding = church_holding
+}
+1934 = { #b_elhryrst_gate
+	3502.1.30 = {
+		holding = castle_holding
+	}
+}
+
+####c_northrock
+
+1851 = { #b_golden_gate
+	culture = cyro_nord
+	religion = nord_cult
+	
+	holding = castle_holding
+}
+1852 = { #b_northrock
+	holding = none
+	3502.1.30 = {
+		holding = castle_holding
+	}
+}
+1853 = { #b_roshan
+	holding = none
+}
+
+###c_chim
+2331 = { #b_gevril
+	holding = none
+}
+2332 = { #b_chim
+	culture = cyro_nord
+	religion = temple_one
+
+	holding = church_holding
+}
+2349 = { #b_fevius
+	holding = none
+}
+
+###c_eastwatch
+2333 = { #b_sulspath
+	holding = none
+}
+2334 = { #b_hyruwiin
+	holding = none
+}
+2335 = { #b_eastwatch
+	culture = cyro_nord
+	religion = temple_one
+
+	holding = castle_holding
+}
+
+###c_mourngate
+2346 = { #b_mourngate
+	culture = gah_julan
+	religion = tribunal_temple
+
+	holding = castle_holding
+	3400.1.1 = {
+		culture = nibenese
+		religion = imperial_cult
+	}
+}
+2347 = { #b_aldos
+	holding = none
+}
+2348 = { #b_plotherra
+	3502.1.30 = {
+		holding = castle_holding
+	}
+}
