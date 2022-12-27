@@ -20,6 +20,10 @@ d_daggerfall_occupation = {
 	3500.1.1 = { holder = dortene_1000 liege = e_daggerfall_covenant }
 }
 
+d_daggerfall_invasion = {
+	3500.1.1 = { holder = covenantcaptain_999 liege = e_daggerfall_covenant }
+}
+
 d_aldmeri_occupation = {
 	3500.1.1 = { holder = sorcalin_1000 liege = e_aldmeri_dominion }
 }
@@ -32,6 +36,7 @@ k_telvanni = {
 	3250.10.1 = { holder = telvanni_100 }
 	3400.10.1 = { holder = telvanni_103 }
 	3471.10.1 = { holder = otheri_2 }
+	3500.10.1 = { holder = otheri_2 }
 	3670.10.1 = { holder = telvanni_114 }
 	}
 
@@ -74,6 +79,41 @@ k_indoril = {
 	3590.1.1 = { holder = indoril_1016 }
 }
 
+#Velothi
+e_tribunal_temple = { 
+	669.1.1	= { holder = alma_rula_llothis }
+	701.1.1	= { holder = alma_rula_olms }
+	950.1.1 = { holder = 0 } #Other Alma Rula's
+	3300.1.1 = { holder = indoril_alma_rula }
+	
+	3500.1.1 = { holder = indoril_vehk }
+}
+
+k_archcanon_almalexia = {
+	3300.1.1 = { holder = indoril_ayem
+				 liege = e_tribunal_temple }
+}
+
+k_archcanon_vivec = {
+	3340.1.1 = { holder = indoril_vehk 
+				 liege = e_tribunal_temple }
+}
+
+k_archcanon_sotha_sil = {
+	3312.1.1 = { holder = dunmer_lowborn_3
+				 liege = e_tribunal_temple }
+}
+
+
+
+
+
+
+
+
+
+
+}
 #Khajiiti
 k_mane = {
 	3225.1.1 = {

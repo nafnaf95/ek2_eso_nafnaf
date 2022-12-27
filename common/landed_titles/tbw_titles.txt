@@ -86,6 +86,18 @@ d_daggerfall_occupation = {
 	}	
 }
 
+d_daggerfall_invasion = {
+	color={ 77 148 255 }
+	definite_form = yes
+	capital = c_wayrest
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
 e_ebonheart_pact = {
 	color={ 102 0 0 }
 	definite_form = yes

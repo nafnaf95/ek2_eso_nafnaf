@@ -20,7 +20,7 @@
 bm_alliancewar = {
  	start_date = 3502.1.30
 	is_playable = yes
- 	recommended = no
+ 	recommended = yes
 	group = bm_group_582
 
 	weight = {
@@ -43,7 +43,7 @@ bm_alliancewar = {
 		religion = nord_cult
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = flamehair_1014
-		position = { 1100 225 }
+		position = { 850 300 }
 
 		animation = personality_honorable
 	}
@@ -101,7 +101,7 @@ bm_alliancewar = {
 		religion = auriel
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = arana_1001
-		position = { 500 750 }
+		position = { 600 800 }
 
 		animation = personality_bold
 	}
@@ -118,7 +118,7 @@ bm_alliancewar = {
 		religion = molag_cult
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = dremora_molag_kena
-		position = { 1100 500 }
+		position = { 1100 700 }
 
 		animation = rage
 	}
@@ -128,7 +128,7 @@ bm_alliancewar = {
 bm_alliancewar_cyrodiil = {
  	start_date = 3502.1.30
 	is_playable = yes
- 	recommended = no
+ 	recommended = yes
 	group = bm_group_582
 
 	weight = {
@@ -151,7 +151,7 @@ bm_alliancewar_cyrodiil = {
 		religion = nord_cult
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = zimmeron_1000
-		position = { 1100 225 }
+		position = { 1100 425 }
 
 		animation = personality_honorable
 	}
@@ -168,7 +168,7 @@ bm_alliancewar_cyrodiil = {
 		religion = breton_cult
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = dortene_1000
-		position = { 350 400 }
+		position = { 350 500 }
 
 		animation = personality_honorable
 	}
@@ -185,7 +185,7 @@ bm_alliancewar_cyrodiil = {
 		religion = auriel
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = sorcalin_1000
-		position = { 500 750 }
+		position = { 400 750 }
 
 		animation = personality_bold
 	}
@@ -202,7 +202,7 @@ bm_alliancewar_cyrodiil = {
 		religion = molag_cult
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = dremora_molag_kena
-		position = { 1100 600 }
+		position = { 1000 700 }
 
 		animation = rage
 	}
@@ -545,7 +545,7 @@ bm_alliancewar_pact = {
 		religion = tribunal_temple
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = redoran_1000
-		position = { 600 400 }
+		position = { 600 300 }
 
 		animation = personality_zealous
 	}
@@ -562,7 +562,7 @@ bm_alliancewar_pact = {
 		religion = tribunal_temple
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = indoril_vehk
-		position = { 850 170 }
+		position = { 950 170 }
 
 		animation = personality_zealous
 	}
@@ -612,7 +612,7 @@ bm_alliancewar_pact = {
 		religion = tribunal_temple
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = hlaalu_48114
-		position = { 900 600 }
+		position = { 700 600 }
 
 		animation = personality_zealous
 	}

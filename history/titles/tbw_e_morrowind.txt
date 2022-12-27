@@ -37,6 +37,7 @@ d_tear = {
 	3150.1.1 = { holder = dres_101 }
 	3230.1.1 = { holder = dres_102 }
 	3349.1.1 = { holder = dres_103 }
+	3500.1.1 = { holder = dres_106 }
 }
 
 c_tear = {
@@ -97,6 +98,9 @@ c_sairan = {
 
 c_sotha_sil = {
 	3312.1.1 = { holder = dunmer_lowborn_3
+				liege = e_tribunal_temple }
+				
+	3500.1.1 = { holder = indoril_vehk
 				liege = e_tribunal_temple }
 }
 
@@ -219,6 +223,7 @@ d_hairab = {
 	}
 	3280.1.1 = { holder = drethan_101 }
 	3350.1.1 = { holder = drethan_102 }
+	3500.1.1 = { Liege = k_hlaalu holder = hlor_100 }
 }
 c_hairab = {
 	3120.1.1 = { 
@@ -241,6 +246,7 @@ c_sadrathim = {
 		liege = d_hairab 
 	}
 	3350.1.1 = { holder = hlor_100 }
+	3500.1.1 = { Liege = k_hlaalu holder = hlor_100 }
 }
 
 
@@ -415,6 +421,7 @@ d_old_keep = {
 				 liege = k_indoril }
 	3365.1.1 = { holder = dorom_103 
 				 liege = k_indoril }
+	3500.1.1 = { holder = indoril_1012 }
 }
 
 c_old_keep = {
@@ -525,6 +532,7 @@ c_siltreen = {
 				 liege = k_indoril }
 	3360.1.1 = { holder = saryoni_102
 				 liege = k_indoril }
+	3500.1.1 = { holder = indoril_vehk }
 }
 
 c_eidolon = {
@@ -532,6 +540,7 @@ c_eidolon = {
 				 liege = k_indoril }
 	3360.1.1 = { holder = saryoni_102
 				 liege = k_indoril }
+	3500.1.1 = { holder = indoril_vehk }
 }
 
 c_varethi = {
@@ -571,7 +580,7 @@ c_taleon = {
 	3410.1.1 = { holder = indoril_1004 }
 	3434.1.1 = { holder = indoril_1010 }
 	3470.1.1 = { holder = indoril_1012 }
-	3502.8.15 = { holder = indoril_1015 }
+	3502.8.15 = { holder = mabrigash_4 } # ESO ASHLANDER
 	3590.1.1 = { holder = indoril_1016 }
 }
 
@@ -599,8 +608,9 @@ d_taldeic = {
 	}
 	3360.1.1 = { 
 		holder = redoril_104
-		liege = k_indoril 
+		liege = redoran_1000 
 	}
+	3500.1.1 = { holder = indoril_1012 }
 }
 
 c_taldeic = {
@@ -616,6 +626,7 @@ c_taldeic = {
 		holder = redoril_104
 		liege = k_indoril 
 	}
+	3500.1.1 = { holder = redoran_1000 }
 }
 
 c_redor = {
@@ -627,6 +638,7 @@ c_redor = {
 		holder = redoril_104
 		liege = k_redoran 
 	}
+	3500.1.1 = { holder = indoril_1012 }
 }
 
 c_selfora = {
@@ -655,7 +667,10 @@ d_astula = {
 	3360.1.1 = { holder = llethan_104
 				liege = k_indoril }
 	3480.1.1 = { holder = llethan_105
-				liege = k_indoril }
+				liege = e_tribunal_temple }
+	}
+	3500.1.1 = { holder = llethan_105
+				liege = e_tribunal_temple }
 	}
 	
 c_mansurabi = {
@@ -670,7 +685,11 @@ c_mansurabi = {
 	3360.1.1 = { holder = llethan_104
 				liege = k_indoril }
 	3480.1.1 = { holder = llethan_105
-				liege = k_indoril }
+				liege = e_tribunal_temple }
+				
+	3500.1.1 = { holder = llethan_105
+				liege = e_tribunal_temple }
+	}
 	}
 	
 c_ilevan = {
@@ -705,7 +724,7 @@ c_vithel = {
 	
 c_astula = {
 	3250.1.1 = { holder = dunmer_lowborn_14
-				liege = k_indoril }
+				liege = e_tribunal_temple }
 	}
 	
 c_obsidia = {
@@ -778,6 +797,9 @@ c_almalexia = {
 		holder = indoril_ayem 
 		liege = e_tribunal_temple 
 	}
+	3500.1.1 = { holder = indoril_vehk
+				liege = e_tribunal_temple }
+}
 }
 
 c_ghost_snake = {
@@ -812,6 +834,7 @@ c_serkamora = {
 	300.1.1 = { change_development_level = 16 }
 	3350.11.1 = { holder = hlaalu_48103 }
 	3450.1.1 = { holder = hlaalu_48114 }
+	3500.1.1 = { holder = redoran_1000 }
 }
 
 #k_stonefalls
@@ -831,9 +854,10 @@ d_ebonheart = {
 	3360.1.1 = { holder = raathim_106
 				liege = k_hlaalu }
 	3420.1.1 = { holder = raathim_107
-				liege = k_dres }
-	3500.1.1 = { holder = raathim_108
-				liege = k_dres }
+				liege = k_hlaalu }
+	3500.1.1 = { holder = othral_101
+				liege = k_dres }#eso
+	3520.1.1 = { holder = raathim_108 }
 }
 c_ebonheart = {
 	100.1.1 = { holder = mora_100 }
@@ -850,6 +874,8 @@ c_ebonheart = {
 	3345.1.1 = { holder = raathim_106 }
 	3360.1.1 = { holder = raathim_106 }
 	3420.1.1 = { holder = raathim_107 }
+	3500.1.1 = { holder = othral_101
+				liege = k_hlaalu }#eso
 	3520.1.1 = { holder = raathim_108 }
 }
 
@@ -868,6 +894,8 @@ c_emberflint = {
 	3345.1.1 = { holder = raathim_106 }
 	3360.1.1 = { holder = raathim_106 }
 	3420.1.1 = { holder = raathim_107 }
+	3500.1.1 = { holder = othral_101 #eso ASHLANDER
+				liege = k_hlaalu }
 	3520.1.1 = { holder = raathim_108 }
 }
 
@@ -905,6 +933,8 @@ c_steamfont = {
 				 liege = k_indoril }
 	3470.1.1 = { holder = indoril_1012 
 				 liege = k_indoril }
+	3502.1.1 = { holder = covenantcaptain_1000 # ESO Cov Invasion
+				 liege = d_daggerfall_invasion }
 	3502.8.15 = { holder = indoril_1015 
 				  liege = k_indoril }
 	3590.1.1 = { holder = indoril_1016 
@@ -965,6 +995,9 @@ c_bal_foyen = {
 				 liege = k_indoril }
 	3360.1.1 = { holder = llori_100
 				 liege = k_indoril }
+
+	3500.1.1 = { holder = indoril_1012
+				 liege = k_indoril }
 }
 
 c_zeren = {
@@ -972,6 +1005,8 @@ c_zeren = {
 				 liege = k_indoril }
 	3360.1.1 = { holder = llori_100
 				 liege = k_indoril }
+	3502.1.1 = { holder = covenantcaptain_1001 # ESO Cov Invasion
+				 liege = d_daggerfall_invasion }
 }
 
 c_pamonibu = {
@@ -1145,11 +1180,17 @@ c_iliath = {
 				  liege = d_kragenmoor }
 	3360.1.1 = { holder = dunmer_lowborn_15
 				  liege = d_kragenmoor }
+				  
+	3500.1.1 = { holder = indoril_vehk # ESO TEMPLE
+				  liege = indoril_vehk }
 }
 
 c_heimlyn = { 
     3360.1.1 = { holder = demnevanni_108
 				 liege = k_hlaalu }
+				 
+    3500.1.1 = { holder = demnevanni_108 # ESO Telvani Holder
+				 liege = k_telvanni }
 }
 
 c_sathram = { 
@@ -1185,11 +1226,14 @@ c_zabamat = {
 
 c_uxith = {
 	3300.1.1 = { holder = ulath_1 }
+	
+	3500.1.1 = { holder = indoril_vehk } # ESO Argonian Holder
 }
 
 c_sulfur = {
 	3260.1.1 = { holder = kagesh_1 }
 	3360.1.1 = { holder = kagesh_1 }
+	3500.1.1 = { holder = indoril_vehk } # ESO NORD HOLDER
 }
 
 c_vivec_antlers = {
@@ -1206,6 +1250,8 @@ c_vivec_antlers = {
 	3271.1.1 = { holder = raathim_105 } 
 	3345.1.1 = { holder = raathim_106 }
 	3420.1.1 = { holder = raathim_107 }
+	3502.1.1 = { holder = covenantcaptain_1003 # ESO Cov Invasion
+				 liege = d_daggerfall_invasion }
 	3520.1.1 = { holder = raathim_108 }
 }
 
@@ -1298,7 +1344,7 @@ c_ivodrahn = {
 	3420.1.1 = { holder = sadras_102
 				 liege = k_hlaalu }
 	3455.1.1 = { holder = sadras_104
-				 liege = k_dres }
+				 liege = k_hlaalu }
 }
 
 #k_velothis
@@ -1334,6 +1380,7 @@ c_ornhold = {
 c_fullstrom = {
 	3355.1.1 = { holder = ashenvoice_100
 				  liege = k_redoran }
+	3500.1.1 = { holder = flamehair_1014 }
 }
 
 c_salaxia = {
@@ -1356,6 +1403,8 @@ d_kogomar = {
 		liege = k_redoran 
 	}
 	3350.1.1 = { holder = venim_101 }
+    3500.1.1 = { holder = redoran_1000
+				 liege = k_redoran }
 }
 
 c_kogomar = {
@@ -1389,11 +1438,17 @@ c_gargen_huul = {
 c_rhanim = {
 	3220.1.1 = { holder = ahalkalun_1
 				  liege = k_redoran }
+
+	3500.1.1 = { holder = redoran_1000} #
 }
 
 c_darissa = {
 	3220.1.1 = { holder = ahalkalun_1
 				  liege = k_redoran }
+	3500.1.1 = { 
+		holder = dunmer_lowborn_11 #
+		liege = k_redoran 
+	}
 }
 
 c_soluthis = {
@@ -1409,11 +1464,15 @@ c_ganaris = {
 c_ashan = {
 	3300.1.1 = { holder = sarethi_100
 				  liege = d_kogomar }
+				  
+	3500.1.1 = { holder = redoran_1000} #
 }
 
 c_belemis = {
 	3300.1.1 = { holder = sarethi_100
 				  liege = d_kogomar }
+				  
+	3500.1.1 = { holder = redoran_1000} #
 }
 
 c_velayis = {
@@ -1431,6 +1490,8 @@ d_viraak = {
 	}
 	3310.1.1 = { holder = morvayn_101 }
 	3360.1.1 = { holder = morvayn_101 }
+	
+	3500.1.1 = { liege = k_telvanni } # ESO
 }
 
 c_viraak = {
@@ -1441,6 +1502,8 @@ c_viraak = {
 	}
 	3310.1.1 = { holder = morvayn_101 }
 	3360.1.1 = { holder = morvayn_101 }
+	3502.1.1 = { holder = covenantcaptain_999 # ESO Cov Invasion
+				 liege = e_daggerfall_covenant }
 }
 
 c_bodrum = {
@@ -1551,10 +1614,13 @@ k_necrom = {
 }
 d_necrom = {
 	3300.1.1 = { holder = indoril_alma_rula }
+	
+	3500.1.1 = { holder = indoril_vehk }#eso
 }
 c_necrom = {
 	3300.1.1 = { holder = indoril_alma_rula }
 	300.1.1 = { change_development_level = 16 }
+	3500.1.1 = { holder = indoril_vehk }#eso
 }
 c_drakehold = {
 	3300.1.1 = { holder = indoril_alma_rula }
@@ -2004,6 +2070,8 @@ c_hlormaren = {
 		liege = d_bitter_coast
 	}
 	3360.1.1 = { holder = ahemmusa_101 }
+	
+	3500.1.1 = { holder = redoran_1000 }
 }
 
 c_gnaar_mok = {
@@ -2011,7 +2079,9 @@ c_gnaar_mok = {
 		holder = ahemmusa_1
 		liege = d_bitter_coast
 	}
-	3360.1.1 = { holder = ahemmusa_101 }
+	3360.1.1 = { holder = ahemmusa_101 }#eso
+	
+	3500.1.1 = { holder = redoran_1000 }#eso
 }
 
 d_balmora = {
@@ -2047,6 +2117,7 @@ d_ascadia = {
 		holder = dren_104
 		liege = k_hlaalu 
 	}
+	3500.1.1 = { holder = indoril_vehk }#
 }
 
 c_ascadia = {
@@ -2054,6 +2125,7 @@ c_ascadia = {
 		holder = dren_104
 		liege = d_ascadia 
 	}
+	3500.1.1 = { holder = indoril_vehk }#
 }
 
 c_abaesen = {
@@ -2081,6 +2153,10 @@ c_amaya = {
 	3369.1.1 = { holder = dren_101 }
 	3450.1.1 = { holder = dren_102 }
 	3490.1.1 = { holder = dren_103 }
+	3500.1.1 = { 
+		holder = dunmer_lowborn_8 
+		liege = k_hlaalu 
+	}
 }
 
 c_aldsotha = {
@@ -2119,6 +2195,8 @@ c_vivec = {
 c_odirniran = {
 	3360.1.1 = { holder = arys_100 
 				 liege = k_archcanon_vivec }
+
+	3500.1.1 = { holder = otheri_2 } #eso
 }
 
 c_arano = {
@@ -2143,6 +2221,8 @@ c_shashpilamat = {
 d_molag_mar = {
 	3360.1.1 = { holder = dunmer_lowborn_10 
 				 liege = k_archcanon_vivec }
+				 
+	3500.1.1 = { holder = indoril_vehk } #eso
 }
 
 c_molag_mar = {
@@ -2158,6 +2238,8 @@ c_telasero = {
 c_almurbalarammi = {
 	3360.1.1 = { holder = dunmer_lowborn_10 
 				 liege = k_archcanon_vivec }
+				 
+	3500.1.1 = { holder = otheri_2 } #eso
 }
 
 c_hla_oad = {
@@ -2179,6 +2261,8 @@ c_khuul = {
 }
 c_caldera = {
 	3340.1.1 = { holder = sedri_1 }
+	
+	3500.1.1 = { holder = redoran_1000 } #eso
 }
 
 c_seyda_neen = {
@@ -2208,19 +2292,23 @@ c_gnisis = {
 	3000.1.1 = { holder = eribael_100 }
 	3350.1.1 = { holder = eribael_100
 				 liege = d_valenvaryon }
-	3490.1.1 = { holder = redoran_3003 }
+	#3490.1.1 = { holder = redoran_3003 }
+	3500.1.1 = { holder = redoran_1000 }
 }
 
 c_berandas = {
 	3000.1.1 = { holder = eribael_100 }
 	3350.1.1 = { holder = eribael_100
 				 liege = d_valenvaryon }
-	3490.1.1 = { holder = redoran_3003 }
+	#3490.1.1 = { holder = redoran_3003 }
+	3500.1.1 = { holder = redoran_1000 }
 }
 
 c_ald_velothi = {
 	3360.1.1 = { holder = ashlander_lowborn_3
 				 liege = d_valenvaryon }
+				 
+	3500.1.1 = { holder = redoran_1000} #
 }
 
 k_ashlands = {
@@ -2326,6 +2414,7 @@ c_andasreth = {
 	3350.1.1 = { holder = bensiberib_1  
 				 liege = d_bitter_coast
 				  }
+	3500.1.1 = { holder = redoran_1000 }
 }
 c_ashimanu = {
 	3360.1.1 = { holder = zamarasour_1 
@@ -2341,6 +2430,8 @@ c_tusenend = {
 c_assarnatamat = {
 	3350.1.1 = { holder = urlvannu_1  
 				  }
+				  
+	3500.1.1 = { holder = redoran_1000 } #eso
 }
 c_shishara = {
 	3350.1.1 = { holder = serranipu_1  
@@ -2492,6 +2583,7 @@ c_milk = {
 	3360.1.1 = { holder = zenammu_1  
 				  
 				 liege = d_aldruhn }
+	3500.1.1 = { holder = redoran_1000 }
 }
 
 c_bal_isra = {

@@ -1,4 +1,198 @@
-﻿## Pact
+﻿## Daggerfall Invasion Stonefalls ##
+
+# Fort Virak
+covenantcaptain_999 = {# Pointless char meant to die
+	name = "Serien"
+	religion = breton_cult
+	culture = glenumbran
+	trait = education_martial_5
+	martial = 20
+
+	3475.1.1 = { birth = yes }
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Covenant Invasion Force"
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 4
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 4
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 4
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 8
+				}
+				location = province:1852
+				origin = province:184
+				inheritable = no
+			}
+		}
+	}
+	
+	portrait_override={
+		portrait_modifier_overrides={
+
+		}
+	}
+}
+
+# Stonefalls Main Quest Line ##
+covenantcaptain_1000 = {# Pointless char meant to die
+	name = " Daggerfall Captain"
+	female = yes
+	religion = breton_cult
+	culture = glenumbran
+	trait = education_martial_5
+	martial = 15
+
+	3475.1.1 = { birth = yes }
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Covenant Invasion Force"
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 2
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 1
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 1
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 14
+				}
+				location = province:1852
+				origin = province:184
+				inheritable = no
+			}
+		}
+	}
+	
+	portrait_override={
+		portrait_modifier_overrides={
+
+		}
+	}
+}
+
+
+# Balfoyen Invasion
+covenantcaptain_1001 = {# Pointless char meant to die
+	name = " Daggerfall Captain"
+	religion = breton_cult
+	culture = glenumbran
+	trait = education_martial_5
+	martial = 15
+
+	3475.1.1 = { birth = yes }
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Covenant Invasion Force"
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 2
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 1
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 1
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 4
+				}
+				location = province:1852
+				origin = province:184
+				inheritable = no
+			}
+		}
+	}
+	
+	portrait_override={
+		portrait_modifier_overrides={
+
+		}
+	}
+}
+
+# Vivecs Antlers landing
+covenantcaptain_1003 = {# Pointless char meant to die
+	name = " Alexandra Conele"
+	female = yes
+	religion = breton_cult
+	culture = glenumbran
+	trait = education_martial_5
+	martial = 15
+
+	3475.1.1 = { birth = yes }
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Covenant Invasion Force"
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 2
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 1
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 1
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 14
+				}
+				location = province:1852
+				origin = province:184
+				inheritable = no
+			}
+		}
+	}
+	
+	portrait_override={
+		portrait_modifier_overrides={
+
+		}
+	}
+}
+
+
+
+#Ashlanders
+
+Hleran_1000 = {
+	name = "Drelyth Hleran" 
+	religion = old_velothi
+	culture = ashlander
+
+	trait = lifespan_3
+}
+
+
+
+
+
+
+## Pact
 
 zimmeron_1000 = { #EP Grandwarlord
 	name = "Zimmeron"
@@ -150,8 +344,33 @@ heitameen_1000 = {
 
 # Dunmer Leaders
 
+redoran_1000 = { # #General Gavryn Redoran, Ruler of Great House Redoran
+	name = "Gavryn"
+	dynasty = 1300001
+	culture = gah_julan
+	religion = tribunal_temple
+	father = redoran_999
 
-indoril_1012 = {
+	3290.1.1 = { birth = yes }
+	3503.1.1 = { death = yes }
+}
+
+redoran_4000 = { # ESO Leader of House Redoran
+	name = "Meriath"
+	female = yes
+	dynasty = 1300001
+	culture = gah_julan
+	religion = tribunal_temple
+	father = redoran_1000
+	
+	trait = lifespan_3
+
+	3476.1.1 = { birth = yes }
+	3690.1.1 = { death = yes }
+}
+	
+	
+indoril_1012 = { # Dies after his son to seal the second brother of strife away for good
 	name = "Tanval"
 	dynasty = 1300000
 	culture = chuzei
@@ -191,6 +410,43 @@ indoril_1012 = {
 			death_reason = death_battle 
 		}
 	}
+}
+
+indoril_1013 = { # Tanval Son Dies to Daggerfall Invasion of Stonefalls
+	name = "Garyn"
+	dynasty = 1300000
+	culture = chuzei
+	religion = tribunal_temple
+	
+	father = indoril_1012
+	
+	trait = lifespan_3
+	
+	3473.1.1 = { birth = yes }
+	3502.8.10 = { 
+		death = {
+			death_reason = death_battle 
+		}
+	}
+}
+
+othral_101 = { #Governor of Ebonheart in ESO
+	name = "Drathus" 
+	dynasty_house = dres_othral 
+	culture = marduhn_oad
+	religion = tribunal_temple
+	father = othral_100
+
+	trait = lifespan_3
+
+	3354.1.1 = { birth = yes }
+	3370.1.1 = {
+		trait = honest
+		trait = cynical
+		trait = impatient
+		trait = education_stewardship_3
+	}
+	3680.1.1 = { death = yes } 
 }
 
 dres_106 = {
