@@ -15,6 +15,16 @@ sorcalin_1000 = {
 
 	
 	3475.5.5 = { birth = yes }
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:arana_1001 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:arana_1001
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:arana_1001
+            }
+		}
+	}
 	3489.1.1 = { give_nickname = nick_grand_warlord }
 	3502.1.30 = {
 		effect = { 	
@@ -218,6 +228,26 @@ arana_1001 = {
 	trait = adventurer
 	
 	3475.5.5 = { birth = yes }
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:camoran_9 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:camoran_9
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:camoran_9
+            }
+		}
+	}
+	3497.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:mane_1003 } }
+	3497.7.1 = {
+		effect = {
+			create_alliance = character:mane_1003
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:mane_1003
+            }
+		}
+	}
 	3500.1.1 = { give_nickname = nick_the_unforeseen
 		effect = {
 			add_perk = alteration_novice_perk
@@ -229,10 +259,23 @@ arana_1001 = {
 			add_perk = restoration_journeyman_perk
 		}
 	}
+	3500.7.1 = {
+		add_unpressed_claim = title:e_cyrodiil
+	}
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:sorcalin_1000 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:sorcalin_1000
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:sorcalin_1000
+            }
+		}
+	}
 	3502.1.30 = {
 		effect = { 	
 			spawn_army = {
-				name = Dominion
+				name = "Ayrenn's Bodyguards"
 				men_at_arms = {
 					type = light_horsemen
 					stacks = 1
@@ -257,11 +300,11 @@ arana_1001 = {
 	}
 	3724.2.8 = { death = yes }
 	
-	portrait_override = {	# Will override the character's appearance
-	portrait_modifier_overrides={
-		custom_clothes=clothes_altmer_female_noble_war_01
-		custom_hair=female_hair_northern_03
-		custom_headgear=female_headgear_secular_ayleid_crown_02
+		portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+			custom_clothes=clothes_altmer_female_noble_war_01
+			custom_hair=female_hair_northern_03
+			custom_headgear=female_headgear_secular_ayleid_crown_02
 		}
 	}
 }
@@ -310,6 +353,8 @@ errinorne_1000 = {
 	father = errinorne_36352
 	mother = arelsenil_37150
 
+	give_nickname = nick_the_veiled_queen
+	
 	trait = lifespan_3
 	trait = pure_blooded
 	trait = intellect_good_1
@@ -343,6 +388,9 @@ errinorne_1000 = {
 	}
 	
 	3500.7.1 = set_relation_rival = { reason = rival_historical target = character:arana_1001 }
+	3500.7.1 = {
+		add_unpressed_claim = title:e_aldmeri_dominion
+	}
 	
 	3502.1.30 = {
 		effect = { 	
@@ -362,7 +410,7 @@ errinorne_1000 = {
 			}
 		}
 	}
-	3502.11.12 = { 
+	3502.1.30 = { 
 		effect = {
 			set_character_faith_history = faith:mehrunes_cult
 			give_nickname = nick_the_veiled_queen
@@ -525,6 +573,16 @@ mane_1003 = {
 	trait = furstock_cathay
 
 	3427.1.1 = { birth = yes }
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:arana_1001 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:arana_1001
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:arana_1001
+            }
+		}
+	}
 	3504.4.11 = { death = yes }
 	
 	portrait_override = {	# Will override the character's appearance
@@ -587,6 +645,16 @@ camoran_9 = { # Aeradan
 	3370.1.1 = {
 		trait = callous
 		trait = brave
+	}
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:arana_1001 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:arana_1001
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:arana_1001
+            }
+		}
 	}
 	#3500.4.7 = { effect = { imprison_character_effect = character:camoran_11 } } #effect 'imprison_character_effect' returned false
 	3650.9.4 = { death = yes }

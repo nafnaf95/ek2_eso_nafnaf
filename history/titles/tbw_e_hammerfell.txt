@@ -445,6 +445,7 @@ c_volenfell = {
 	3005.1.1 = { change_development_level = 1 }
 	3350.1.1 = { holder = ashabah_1000 }
 	3369.1.1 = { holder = ashabah_1001 }
+	3369.1.1 = { holder = thoda_1000 liege = k_sentinel }
 }
 #edited
 c_rhanano = {
@@ -452,7 +453,7 @@ c_rhanano = {
 	3321.1.1 = { holder = ashabah_999 }
 	3341.1.1 = { holder = ashabah_1000 }
 	3369.1.1 = { holder = ashabah_1001 }
-	3481.1.1 = { holder = bergama_1005 }
+	3481.1.1 = { holder = seventhlegion_1001 liege = e_seventh_legion }
 }
 
 #k_rihad
@@ -607,7 +608,7 @@ c_onsi = {
 	3321.1.1 = { holder = ashabah_999 }
 	3341.1.1 = { holder = shaelan_1000 }
 	3396.1.1 = { holder = shaelan_1001 }
-	3501.12.12 = { liege = d_ojwambu holder = seventhlegion_1001 }
+	3501.12.12 = { holder = seventhlegion_1001 liege = e_seventh_legion }
 }
 #Edited
 d_thorstad = {
@@ -1080,8 +1081,7 @@ c_java = {
 	3321.1.1 = { holder = ashabah_999 }
 	3341.1.1 = { holder = rusofiz_1000 }
 	3471.1.1 = {
-		liege = e_daggerfall_covenant
-		holder = bergama_1005 } #edited
+		holder = seventhlegion_1001 liege = e_seventh_legion } #edited
 }
 
 #k_abecean

@@ -187,6 +187,16 @@ tharn_226 = {
 		trait = battlemage_3
 		trait = erudite
 		}
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:witheredhand_1000 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:witheredhand_1000
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:witheredhand_1000
+            }
+		}
+	}
 	3499.1.1 = {
 		religion = molag_cult
 		give_nickname = nick_magus

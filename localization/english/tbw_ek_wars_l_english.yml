@@ -1,0 +1,56 @@
+﻿l_english:
+ individual_kingdom_de_jure_cb:0 "Individual [de_jure|E] [kingdom|E]"
+ DEJURE_CB_KINGDOM_NAME:2 "Seize the [TITLE.GetBaseName] #weak ([de_jure|E])#!"
+ DEJURE_CB_KINGDOM_NAME_GENERIC:1 "Seize [de_jure|E] [kingdom|E]"
+ CONQUEST_KINGDOM_CB_NAME:0 "Conquer [kingdom|E]"
+ CONQUEST_EMPIRE_CB_NAME:1 "Conquer [empire|E]"
+
+	HOUSE_TOMB_0_CONQUEST_CB_NAME:0 "Retake Great House Tomb"
+ 
+ attrebus_potentate_cb:0 "Revolt against the Potentate"
+ attrebus_potentate_cb_defeat_desc:0 "[defender.GetShortUIName|U] stays as Potentate of Cyrodiil. [attacker.GetShortUIName|U] is imprisoned and shamed, and the Confederacy of the Colovian Estates shatters."
+ attrebus_potentate_cb_defeat_desc_defender:0 "You stay as Potentate of Cyrodiil. [attacker.GetShortUIName|U] is thrown into the dungeon, and the Confederacy of the Colovian Estates is dissolved.."
+ attrebus_potentate_cb_defeat_desc_attacker:0 "[defender.GetShortUIName|U] stays as Potentate of Cyrodiil. The Confederacy of the Colovian Estates will shatter without its purpose, and you will be thrown into the dungeons of the Imperial City."
+ attrebus_potentate_cb_victory_desc_defender:0 "[attacker.GetShortUIName|U] shatters the Potentate, and Cyrodiil holds its breath as the Warlord will shape its history forever..."
+ attrebus_potentate_cb_victory_desc_attacker:0 "The Potentate is destroyed. As Cyrodiil needs a strong guiding hand, and the Elder Council needs you to enact some reforms, you will be left in charge... for a while."
+ attrebus_potentate_cb_victory_desc:0 "[attacker.GetShortUIName|U] shatters the Potentate, and Cyrodiil holds its breath as the Warlord will shape its history forever..."
+ attrebus_potentate_cb_victory_with_liodes_desc:0 "If [liodes.GetNameNicknamed], or [liodes.GetHerHis] line, is still in the war they receive all the land held by the Potentate within any [de_jure|E] Duchy they hold land in"
+ attrebus_potentate_cb_seize_potentate_held_land:0 "You seize all the land held directly by the Potentate"
+ dres_argonian_war_cb_seize_thorn:0 "Madesi seizes Thorn and proclaims himself King of its lands"
+ dres_argonian_war_cb_claim_dres:0 "Savor leverages the support from his war allies to claim the rulership of House Dres"
+ 
+ war_4000_three_banners_war:0 "The Three Banners War"
+ 
+ war_4311_bloodthorn_cult:0 "The Bloodthorn Plot"
+ 
+ war_4312_red_rook:0 " Red Rook Bandits"
+ 
+ war_4313_farwatch:0 "Dominion Landing"
+ 
+ war_4314_bloodthorn_cult:0 "The Fall of Faolchu"
+ 
+ war_4315_virminas_gamble:0 "Vermina's Gamble"
+ 
+ war_4321_riven_montclair:0 "The Lightless Remnant"
+ 
+ war_4331_northpoint_bandit:0 "A Bitter Problem?"
+ 
+ war_4341_dark_wintess:0 "Heart of Evil"
+ 
+ war_4342_bangkorai_tharn:0 "Storming the Garrison"
+ 
+ war_4350_winterborn_campaign:0""
+ 
+ war_4360_kurogs_betreyal:0""
+ 
+ war_4400_witheredhand_uprising:0"Amputating the Hand"
+ 
+ war_4405_imperial_incursion:0 "Imperial Incursion"
+ 
+ war_4500_daggerfall_invasion:0""
+ 
+ war_4709_the_rim:0""
+ 
+ war_4710_veiled_queen:0""
+ 
+ war_4711_Arenthia:0""

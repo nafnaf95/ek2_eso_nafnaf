@@ -9,6 +9,16 @@ covenantcaptain_999 = {# Pointless char meant to die
 	martial = 20
 
 	3475.1.1 = { birth = yes }
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:cumberland_1004 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:cumberland_1004
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:cumberland_1004
+            }
+		}
+	}
 	3502.1.30 = {
 		effect = { 	
 			spawn_army = {
@@ -203,6 +213,16 @@ zimmeron_1000 = { #EP Grandwarlord
 	martial = 30
 
 	3371.1.1 = { birth = yes }	
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:flamehair_1014 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:flamehair_1014
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:flamehair_1014
+            }
+		}
+	}
 	3502.1.30 = {
 		effect = { 	
 			spawn_army = {
@@ -311,6 +331,88 @@ flamehair_1014 = {
 	father = ambershield_102
 	
 	3466.1.1 = { birth = yes }
+	
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:ambershield_104 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:ambershield_104
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:ambershield_104
+            }
+		}
+	}
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:redoran_1000 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:redoran_1000
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:redoran_1000
+            }
+		}
+	}
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:redoran_4000 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:redoran_4000
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:redoran_4000
+            }
+		}
+	}
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:hlaalu_48114 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:hlaalu_48114
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:hlaalu_48114
+            }
+		}
+	}
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:dres_106 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:dres_106
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:dres_106
+            }
+		}
+	}	
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:indoril_1012 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:indoril_1012
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:indoril_1012
+            }
+		}
+	}
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:zimmeron_1000 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:zimmeron_1000
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:zimmeron_1000
+            }
+		}
+	}
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:heitameen_1000 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:heitameen_1000
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:heitameen_1000
+            }
+		}
+	}
+	
 	3530.1.1 = { death = yes }
 	
 	portrait_override = {	# Will override the character's appearance
@@ -339,6 +441,16 @@ heitameen_1000 = {
 
 	
     3470.1.1 = { birth = yes }
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:flamehair_1014 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:flamehair_1014
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:flamehair_1014
+            }
+		}
+	}
     3583.1.1 = { death = { death_reason = death_old_age } }
 }
 
@@ -352,6 +464,16 @@ redoran_1000 = { # #General Gavryn Redoran, Ruler of Great House Redoran
 	father = redoran_999
 
 	3290.1.1 = { birth = yes }
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:flamehair_1014 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:flamehair_1014
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:flamehair_1014
+            }
+		}
+	}
 	3503.1.1 = { death = yes }
 }
 
@@ -366,6 +488,16 @@ redoran_4000 = { # ESO Leader of House Redoran
 	trait = lifespan_3
 
 	3476.1.1 = { birth = yes }
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:flamehair_1014 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:flamehair_1014
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:flamehair_1014
+            }
+		}
+	}
 	3690.1.1 = { death = yes }
 }
 	
@@ -381,6 +513,16 @@ indoril_1012 = { # Dies after his son to seal the second brother of strife away 
 	trait = lifespan_3
 	
 	3420.1.1 = { birth = yes }
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:flamehair_1014 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:flamehair_1014
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:flamehair_1014
+            }
+		}
+	}
 	# 3492.5.2 = {
     # raise_levies = {
          # location = 697 #Uveria
@@ -459,6 +601,16 @@ dres_106 = {
 	trait = lifespan_3
 
 	3306.1.1 = { birth = yes }
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:flamehair_1014 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:flamehair_1014
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:flamehair_1014
+            }
+		}
+	}
 	3510.1.1 = { death = yes } 
 }
 
@@ -486,6 +638,16 @@ hlaalu_48114 = {
 	father = hlaalu_48104
 	
 	3421.1.1 = { birth = yes }
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:flamehair_1014 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:flamehair_1014
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:flamehair_1014
+            }
+		}
+	}
 	# 3492.5.2 = {
 		# raise_levies = {
          # location = 96 #Bodrum

@@ -22,6 +22,7 @@ e_cyrodiil = {
 	3497.1.2 = { holder = aquilarios_varen } #Varen Aquilarios
 	3499.12.12 = { holder = tharn_227 } # Planemeld begins
 	3501.12.12 = { holder = 0 } # Clivia loses the tower
+	3502.1.1 = { holder = dremora_molag_kena } # Clivia loses the tower
 }
 #Colovian Estates, titular e_
 e_colovian_estates = {
@@ -114,6 +115,7 @@ k_heartlands = {
 	3430.1.1 = { holder = lex_105 }
 	3450.1.1 = { holder = lex_106 }
 	3455.1.1 = { holder = 0 }
+	3502.1.1 = { holder = dremora_molag_kena } # Clivia loses the tower
 	#3573.1.1 = { holder = 406 }
 	#3582.1.1 = { holder = 407 }
 	#3621.1.1 = { holder = 408 }

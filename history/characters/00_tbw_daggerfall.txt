@@ -13,6 +13,16 @@ dortene_1000 = {
 	martial = 30
 
 	3475.1.1 = { birth = yes }
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:cumberland_1004 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:cumberland_1004
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:cumberland_1004
+            }
+		}
+	}
 	3502.1.30 = {
 		effect = { 	
 			spawn_army = {
@@ -261,8 +271,8 @@ faolchu_1000 = {
 fausta_1100 = {
 	name = "Faolchu"
 	dynasty = 121000
-	culture = reachfolk
-	religion = hircine_cult
+	culture = glenumbran
+	religion = alessian
 	martial = 30
 	prowess = 50
 	
@@ -277,6 +287,22 @@ fausta_1100 = {
 	3501.1.1 = { 
 	trait = undead_character
 	give_nickname = nick_the_reborn
+	}
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Werewolf's"
+				men_at_arms = {
+					type = werewolf
+					stacks = 5
+				}
+				location = province:61
+				origin = province:61
+				war = war_4311_bloodthorn_cult
+				war_keep_on_attacker_victory = yes
+				inheritable = no
+			}
+		}
 	}
 	3503.1.1 = { death = yes }
 
@@ -328,6 +354,22 @@ bloodthorn_1000 = {
 	}
 	3502.1.1 = {
 		add_unpressed_claim = title:d_camlorn
+	}
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Undead Hoard"
+				men_at_arms = {
+					type = risen_dead
+					stacks = 20
+				}
+				location = province:81
+				origin = province:81
+				war = war_4311_bloodthorn_cult
+				war_keep_on_attacker_victory = yes
+				inheritable = no
+			}
+		}
 	}
 	3503.1.1 = {
 		death = yes 
@@ -576,16 +618,81 @@ cumberland_1004 = {
 	3486.7.1 = { add_spouse = bergama_1006 }
 
 	3486.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:bergama_1005 } }
+	3486.7.1 = {
+		effect = {
+			create_alliance = character:bergama_1005
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:bergama_1005
+            }
+		}
+	}
 	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:rielle_1005 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:rielle_1005
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:rielle_1005
+            }
+		}
+	}
 	3488.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:deleyn_1005 } }	
+	3488.7.1 = {
+		effect = {
+			create_alliance = character:deleyn_1005
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:deleyn_1005
+            }
+		}
+	}
 	3496.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:tamrith_1005 } }
+	3496.7.1 = {
+		effect = {
+			create_alliance = character:tamrith_1005
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:tamrith_1005
+            }
+		}
+	}
+	3497.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:guimard_1011 } }
+	3497.7.1 = {
+		effect = {
+			create_alliance = character:guimard_1011
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:guimard_1011
+            }
+		}
+	}
 	3498.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:bagrakh_1103 } }
+	3498.7.1 = {
+		effect = {
+			create_alliance = character:bagrakh_1103
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:bagrakh_1103
+            }
+		}
+	}
+	3500.7.1 = {
+		effect = {
+			create_alliance = character:covenantcaptain_999
+			create_alliance = character:dortene_1000
+		}
+	}
 	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:arana_1001 } }
 	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:flamehair_1014 } }
 	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:bloodthorn_1000 } }
 	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:fausta_1100 } }
 	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:branquette_montclair_1001 } }
 	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:supernaldreamers_1000 } }
+	
+	3500.7.1 = {
+		add_unpressed_claim = title:e_cyrodiil
+	}
 	
 	3500.1.30 = {
 		effect = { 	
@@ -603,8 +710,10 @@ cumberland_1004 = {
 					type = breton_pikemen_companies
 					stacks = 4
 				}
-				location = province:2689
-				origin = province:2689
+				location = province:181
+				origin = province:181
+				war = war_4315_virminas_gamble
+				war_keep_on_attacker_victory = yes
 				inheritable = yes
 			}
 		}
@@ -638,6 +747,126 @@ cumberland_1006 = {
 	3520.1.1 = { death = yes }
 }
 
+#Lion Guard
+
+# General
+
+lionguard_1001 = {
+	name = "Mandin"
+	female = yes
+	religion = breton_cult
+	culture = crown
+	trait = education_martial_4
+
+	3475.1.1 = { birth = yes }
+	3502.1.1 = { employer = rielle_1005 }
+}
+
+# Captain
+
+lionguard_1101 = {
+	name = "Pennet"
+	religion = breton_cult
+	culture = crown
+	trait = education_martial_3
+
+	3475.1.1 = { birth = yes }
+	3502.1.1 = { employer = rielle_1005 }
+}
+
+lionguard_1102 = {
+	name = "Vistra"
+	female = yes
+	religion = breton_cult
+	culture = glenumbran
+	trait = education_martial_3
+
+	3475.1.1 = { birth = yes }
+	3502.1.1 = { employer = rielle_1005 }
+}
+
+lionguard_1103 = {
+	name = "Binlay"
+	female = yes
+	religion = breton_cult
+	culture = glenumbran
+	trait = education_martial_3
+
+	3475.1.1 = { birth = yes }
+	3502.1.1 = { employer = rielle_1005 }
+}
+
+lionguard_1104 = {
+	name = "Commander Marone"
+	dynasty = 400106
+	religion = breton_cult
+	culture = glenumbran
+	trait = education_martial_3
+
+	3475.1.1 = { birth = yes }
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name =  "Lion Guard"
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 3
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 3
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 3
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 12
+				}
+				location = province:72
+				origin = province:184
+				war = war_4311_bloodthorn_cult
+				war_keep_on_attacker_victory = yes
+				inheritable = no
+			}
+		}
+	}
+}
+
+gautier_1101 = { # Lion Guard Camlorn
+	name = "General"
+	dynasty = 400050
+	religion = breton_cult
+	culture = glenumbran
+	trait = education_martial_4
+	martial = 30
+
+	3455.1.1 = { birth = yes }
+	3485.1.1 = { 
+		employer = rielle_1005 
+		give_council_position = councillor_court_marshall
+	}
+}
+
+gautier_1102 = {
+	name = "Darien"
+	dynasty = 400050
+	religion = breton_cult
+	culture = glenumbran
+	trait = education_martial_4
+	prowess = 20
+	intrigue = 20
+	
+	father = gautier_1101
+
+	3475.1.1 = { birth = yes }
+	3502.1.1 = { employer = rielle_1005 }
+}
+
+
+
+# Deleyn
 deleyn_1005 = {
 	name = "Casimir" #ESO
 	dna = deleyn_1005_dna_entry
@@ -648,6 +877,18 @@ deleyn_1005 = {
 	father = deleyn_1004
 
 	3470.1.1 = { birth = yes }
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:cumberland_1004 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:cumberland_1004
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:cumberland_1004
+            }
+		}
+	}
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:bloodthorn_1000 } }
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:fausta_1100 } }
 	3550.1.1 = { death = yes }
 	
 		portrait_override={
@@ -696,7 +937,20 @@ rielle_1005 = {
 	father = rielle_1004
 	mother = garclay_1003
 	
-	
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:cumberland_1004 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:cumberland_1004
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:cumberland_1004
+            }
+		}
+	}	
+	3500.7.1 = {
+		add_unpressed_claim = title:k_camlorn
+	}
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:bloodthorn_1000 } }
 	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:fausta_1100 } }
 	3500.1.1 = {
 		effect = { 	
@@ -720,8 +974,8 @@ rielle_1005 = {
 				}
 				location = province:42
 				origin = province:184
-				#war = war_4311_bloodthorn_cult
-				#war_keep_on_attacker_victory = yes
+				war = war_4311_bloodthorn_cult
+				war_keep_on_attacker_victory = yes
 				inheritable = no
 			}
 		}
@@ -738,39 +992,88 @@ guimard_1011 = {
 	father = guimard_1008
 
 	3447.1.1 = { birth = yes }
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:cumberland_1004 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:cumberland_1004
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:cumberland_1004
+            }
+		}
+	}
 	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:uela_01 } }
 	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:tharn_226 } }
 	#3478.1.1 = { add_spouse = 15127 }
 }
 
-gautier_1101 = {
-	name = "General"
-	dynasty = 400050
-	religion = breton_cult
-	culture = glenumbran
-	trait = education_martial_4
-	martial = 30
 
-	3455.1.1 = { birth = yes }
-	3485.1.1 = { 
-		employer = rielle_1005 
-		give_council_position = councillor_court_marshall
-	}
+#House Branquette-Montclair
+
+branquette_montclair_1000 = { #Lore
+	name = "Phylgeon"
+	dynasty = 410004
+	religion = breton_cult
+	culture = northmen
+
+	father = branquette_1003
+	mother = montclair_1002
+
+	3430.1.1 = { birth = yes }
+	3466.1.1 = { dynasty_house = branquette_montclair }
+	3492.1.1 = { death = yes }
 }
 
-gautier_1102 = {
-	name = "Darien"
-	dynasty = 400050
+branquette_montclair_1001 = { #ESO
+	name = "Wylon"
+	dynasty_house = branquette_montclair
 	religion = breton_cult
-	culture = glenumbran
-	trait = education_martial_4
-	prowess = 20
-	intrigue = 20
-	
-	father = gautier_1101
+	culture = northmen
 
-	3475.1.1 = { birth = yes }
-	3502.1.1 = { employer = rielle_1005 }
+	father = branquette_montclair_1000
+
+	3449.1.1 = { birth = yes }
+	3460.1.1 = { add_spouse = farr_1006 }
+	3460.1.1 = { set_relation_friend = { reason = friend_generic_history target = character:ravenn_1000 } }
+	3487.1.1 = {
+		effect = { 	
+			spawn_army = {
+				name = "Undead Hoard"
+				men_at_arms = {
+					type = risen_dead
+					stacks = 20
+				}
+				location = province:81
+				origin = province:81
+				war = war_4311_riven_montclair
+				war_keep_on_attacker_victory = yes
+				inheritable = no
+			}
+		}
+	}
+	3487.1.1 = {
+		effect = {
+			add_pressed_claim = title:c_branquette_tor
+			add_pressed_claim = title:c_shornhelm
+			add_pressed_claim = title:d_shornhelm
+			add_pressed_claim = title:k_shornhelm
+		}
+	}
+	3503.1.1 = { death = yes }
+}
+
+branquette_montclair_1002 = { #ESO
+	name = "Lleraya"
+	dynasty_house = branquette_montclair
+	religion = breton_cult
+	culture = northmen
+	female = yes
+
+	father = branquette_montclair_1001
+	mother = farr_1006
+
+	3471.1.1 = { birth = yes }
+	3503.1.1 = { death = yes }
 }
 
 # Edrald
@@ -784,6 +1087,9 @@ edrald_1002 = {
 
 	3435.1.1 = { birth = yes }
 	3486.7.1 = { add_spouse = edrald_1002 }
+	3500.7.1 = {
+		add_unpressed_claim = title:c_fells_run
+	}
 	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:bitterhand_1000 } }
 	3583.1.1 = { death = yes }
 }
@@ -812,6 +1118,7 @@ edrald_1004 = {
 }
 
 #Tamrith
+
 tamrith_1005 = {
 	name = "Eselde" #ESO
 	dynasty = 410005
@@ -825,6 +1132,16 @@ tamrith_1005 = {
 	mother = elde_1003
 
 	3475.1.1 = { birth = yes }
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:cumberland_1004 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:cumberland_1004
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:cumberland_1004
+            }
+		}
+	}
 	3490.1.1 = {
 		effect = {
 			add_pressed_claim = title:c_shornhelm
@@ -842,9 +1159,6 @@ tamrith_1005 = {
 		}
 	}
 }
-
-
-# Deleyn
 
 redain_1101 = {
 	name = "Bernard"
@@ -1143,7 +1457,7 @@ supernaldreamers_1000 = {
 bonebreaker_1000 = {
 	name = "Grog-Bonebreaker"
 	culture = mountain_orc
-	religion = vosh_rakh
+	religion = code_of_malacath
 	dynasty = bonebreaker
 	
 	dna =  bagrakh_1103_dna_entry
@@ -1369,7 +1683,7 @@ bagrakh_1103 = {
 	name = "Kurog"
 	dynasty = 800020
 	culture = mountain_orc
-	religion = vosh_rakh
+	religion = trinimac_cult
 	dna =  bagrakh_1103_dna_entry
 	
 	mother = bagrakh_1102
@@ -1378,6 +1692,36 @@ bagrakh_1103 = {
 	3461.1.1 = { birth = yes }
 	3500.1.30 = { add_spouse = morkul_1102 }
 	3500.1.30 = { add_spouse = shatul_1110 }
+	3501.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Sentinel Palace Guard"
+				men_at_arms = {
+					type = yokudan_way_of_the_sword
+					stacks = 5
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 10
+				}
+				location = province:435
+				origin = province:435
+				war = war_4350_winterborn_campaign
+				war_keep_on_attacker_victory = yes
+				inheritable = no
+			}
+		}
+	}
+	3500.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:cumberland_1004 } }
+	3500.7.1 = {
+		effect = {
+			create_alliance = character:cumberland_1004
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:cumberland_1004
+            }
+		}
+	}
 	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:winterborn_1100 } }
 	3504.3.11 = { death = {death_reason = death_duel killer = fharun_1102} }
 	
@@ -1519,9 +1863,33 @@ fharun_1102 = {
 	trait = ambitious
 	trait = sadistic
 	trait = brave
+	trait = fatewoven
 	give_nickname = "the Butcher"
 	
 	3461.1.1 = { birth = yes }
+	3501.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Trinimac's Own"
+				men_at_arms = {
+					type = bear_cavalry
+					stacks = 5
+				}
+				men_at_arms = {
+					type = orc_marauders
+					stacks = 10
+				}
+				location = province:435
+				origin = province:435
+				war = war_4350_winterborn_campaign
+				war_keep_on_attacker_victory = yes
+				inheritable = no
+			}
+		}
+	}
+	3501.3.11 = {
+		add_pressed_claim = title:k_orsinium
+	}
 }
 
 # Tumnosh
@@ -2055,21 +2423,33 @@ witheredhand_1000 = {
 	trait = undead_character
 	
 	3038.1.1 = { birth = yes }
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:tharn_226 } }
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:tharn_226
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:tharn_226
+            }
+		}
+	}
 	3502.1.30 = {
 		effect = { 	
 			spawn_army = {
 				name = "Undead Sword Masters"
 				men_at_arms = {
-					type = daedra
+					type = yokudan_way_of_the_sword
 					stacks = 4
 				}
 				men_at_arms = {
 					type = risen_dead
 					stacks = 10
 				}
-				location = province:2689
-				origin = province:2689
-				inheritable = yes
+				location = province:411
+				origin = province:411
+				war = war_4400_witheredhand_uprising
+				war_keep_on_attacker_victory = yes
+				inheritable = no
 			}
 		}
 	}
@@ -2100,9 +2480,11 @@ witheredhand_1001 = {
 					type = risen_dead
 					stacks = 5
 				}
-				location = province:2689
-				origin = province:2689
-				inheritable = yes
+				location = province:422
+				origin = province:422
+				war = war_4400_witheredhand_uprising
+				war_keep_on_attacker_victory = yes
+				inheritable = no
 			}
 		}
 	}
@@ -2134,9 +2516,11 @@ witheredhand_1002 = {
 					type = risen_dead
 					stacks = 5
 				}
-				location = province:2689
-				origin = province:2689
-				inheritable = yes
+				location = province:427
+				origin = province:427
+				war = war_4400_witheredhand_uprising
+				war_keep_on_attacker_victory = yes
+				inheritable = no
 			}
 		}
 	}
@@ -2178,10 +2562,46 @@ bergama_1005 = {
 	3438.1.1 = { birth = yes }
 	3465.1.1 = { add_spouse = danobia_1001 }
 	3471.1.1 = { effect = { add_pressed_claim = title:e_hammerfell } }
+	3486.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:cumberland_1004 } }
+	3486.7.1 = {
+		effect = {
+			create_alliance = character:cumberland_1004
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:cumberland_1004
+            }
+		}
+	}
 	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:tharn_226 } }
 	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:witheredhand_1000 } }
 	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:witheredhand_1001 } }
 	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:witheredhand_1002 } }
+	3500.7.1 = {
+		add_unpressed_claim = title:c_rhanano
+	}
+	3500.7.1 = {
+		add_unpressed_claim = title:c_java
+	}
+	3501.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Sentinel Palace Guard"
+				men_at_arms = {
+					type = yokudan_way_of_the_sword
+					stacks = 5
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 10
+				}
+				location = province:435
+				origin = province:435
+				war = war_4400_witheredhand_uprising
+				war_keep_on_attacker_victory = yes
+				inheritable = no
+			}
+		}
+	}
 	3507.1.1 = { death = yes }
 	
 	portrait_override = {	# Will override the character's appearance
@@ -2194,6 +2614,65 @@ bergama_1005 = {
 		}
 	}
 }
+
+thoda_1000 = {
+	name = "Thoda"
+	religion = redguard_cult
+	culture = forebear
+	
+
+	3458.1.1 = { birth = yes }
+	3486.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:bergama_1005 } }
+	3486.7.1 = {
+		effect = {
+			create_alliance = character:bergama_1005
+            add_opinion = {
+                modifier = perk_negotiated_alliance_opinion
+                target = character:bergama_1005
+            }
+		}
+	}
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:tharn_226 } }
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:witheredhand_1000 } }
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:witheredhand_1001 } }
+	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:witheredhand_1002 } }
+	3501.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "General Thoda's Warband"
+				men_at_arms = {
+					type = yokudan_way_of_the_sword
+					stacks = 3
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 8
+				}
+				men_at_arms = {
+					type = bow_men
+					stacks = 4
+				}
+				location = province:400
+				origin = province:435
+				war = war_4405_imperial_incursion
+				war_keep_on_attacker_victory = yes
+				inheritable = no
+			}
+		}
+	}
+	3507.1.1 = { death = yes }
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+				custom_hair=male_hair_sub_saharan_01
+				custom_beards=male_empty
+				custom_headgear=male_headgear_secular_ep1_mena_royalty_01
+				custom_clothes=male_clothes_secular_indian_war_nobility_01_low
+				custom_cloaks=male_cloaks_secular_western_royalty_01
+		}
+	}
+}
+
 
 acatis_1002 = {
 	name = "Sharela"

@@ -1,0 +1,267 @@
+##### Three Banners War
+
+war = {
+	name = "war_4000_three_banners_war"
+	start_date = 3502.1.30
+	end_date = 3522.1.30
+	targeted_titles = { e_cyrodiil }
+	casus_belli = claim_cb
+	attackers = { sorcalin_1000 arana_1001 }
+	defenders = { dremora_molag_kena }
+	claimant = sorcalin_1000
+}
+war = {
+	name = "war_4000_three_banners_war"
+	start_date = 3502.1.30
+	end_date = 3522.1.30
+	targeted_titles = { e_cyrodiil }
+	casus_belli = claim_cb
+	attackers = { zimmeron_1000 flamehair_1014 }
+	defenders = { dremora_molag_kena }
+	claimant = zimmeron_1000
+}
+war = {
+	name = "war_4000_three_banners_war"
+	start_date = 3502.1.30
+	end_date = 3522.1.30
+	targeted_titles = { e_cyrodiil }
+	casus_belli = claim_cb
+	attackers = { dortene_1000 cumberland_1004 }
+	defenders = { dremora_molag_kena }
+	claimant = dortene_1000
+}
+
+##########################
+#      High ROck         #
+##########################
+# Glenumbra
+
+
+
+#war = {
+	#name = "war_4311_bloodthorn_cult"
+	#start_date = 3502.1.30
+	#end_date = 3503.1.1
+	#targeted_titles = { d_camlorn c_aldcroft c_eagle_brook }
+	#casus_belli = claim_cb
+	#attackers = { bloodthorn_1000 bloodthorn_1001 murk_1000 }
+	#defenders = { rielle_1005 cumberland_1004 lionguard_1104 deleyn_1005 }
+	#claimant = bloodthorn_1000
+#}
+
+war = {
+	name = "war_4311_bloodthorn_cult"
+	start_date = 3502.1.30
+	end_date = 3509.1.1
+	targeted_titles = { d_reachmen_bloodthorn c_oloine c_cath_bedraud c_kambria c_cambray c_dwynnen c_urvaius c_daenia c_khuras c_cryngine }
+	casus_belli = duchy_conquest_cb
+	attackers = { rielle_1005 cumberland_1004 lionguard_1104 deleyn_1005 }
+	defenders = { bloodthorn_1000 bloodthorn_1001 murk_1000 }
+	claimant = rielle_1005
+}
+
+war = {
+	name = "war_4312_red_rook"
+	start_date = 3502.1.30
+	end_date = 3503.1.1
+	targeted_titles = { d_redrook c_ilessan c_rhalta }
+	casus_belli = claim_cb
+	attackers = { deleyn_1005  cumberland_1004 }
+	defenders = { redrook_1000 redrook_1001 redrook_1002 }
+	claimant = deleyn_1005
+}
+
+
+war = {
+	name = "war_4313_farwatch"
+	start_date = 3502.1.30
+	end_date = 3503.1.1
+	targeted_titles = { c_northmoor k_daggerfall }
+	casus_belli = claim_cb
+	attackers = { arana_1001 farwatch_1100 }
+	defenders = { cumberland_1004 deleyn_1005 stroud_1006 }
+	claimant = farwatch_1100
+}
+
+war = {
+	name = "war_4314_bloodthorn_cult"
+	start_date = 3502.1.30
+	end_date = 3503.1.1
+	targeted_titles = { c_camlorn c_glenumbra c_westtry }
+	casus_belli = claim_cb
+	attackers = { rielle_1005 cumberland_1004 deleyn_1005 }
+	defenders = { fausta_1100 }
+	claimant = rielle_1005
+}
+
+#Stormhaven
+
+war = {
+	name = "war_4315_virminas_gamble"
+	start_date = 3502.1.30
+	end_date = 3502.3.30
+	targeted_titles = { c_pariah_abbey }
+	casus_belli = de_jure_cb
+	attackers = { cumberland_1004 }
+	defenders = { supernaldreamers_1000 }
+	claimant = cumberland_1004 
+	}
+
+# Rivenspire
+
+war = {
+	name = "war_4321_riven_montclair"
+	start_date = 3502.1.30
+	end_date = 3503.4.11
+	targeted_titles = { k_shornhelm d_shornhelm c_shornhelm c_southgard c_oldgate  }
+	casus_belli = claim_cb
+	attackers = { branquette_montclair_1001 }
+	defenders = { tamrith_1005 ravenn_1000 dorell_1005 }
+	claimant = branquette_montclair_1001
+}
+
+#northpoint
+
+war = {
+	name = "war_4331_northpoint_bandit"
+	start_date = 3502.1.30
+	end_date = 3503.4.11
+	targeted_titles = { d_lorkrata c_fells_run }
+	casus_belli = claim_cb
+	attackers = { edrald_1002 dorell_1005 }
+	defenders = { bitterhand_1000 bitterhand_1003 }
+	claimant = edrald_1002
+}
+
+# Bankorai
+
+war = {
+	name = "war_4341_dark_wintess"
+	start_date = 3502.1.30
+	end_date = 3503.4.11
+	targeted_titles = { d_dunkarn }
+	casus_belli = duchy_conquest_cb
+	attackers = { guimard_1011 cumberland_1004 bonebreaker_1000 }
+	defenders = { uela_01 }
+	claimant = guimard_1011
+}
+
+war = {
+	name = "war_4342_bangkorai_tharn"
+	start_date = 3502.1.30
+	end_date = 3503.4.11
+	targeted_titles = { c_bangkorai }
+	casus_belli = de_jure_cb
+	attackers = { guimard_1011 cumberland_1004 bonebreaker_1000 }
+	defenders = { tharn_226 seventhlegion_1002 }
+	claimant = guimard_1011
+}
+
+# Wrothgar
+
+war = {
+	name = "war_4350_winterborn_campaign"
+	start_date = 3480.1.1
+	end_date = 3503.4.11
+	targeted_titles = { d_frostbreak c_frostbreak c_argent c_dunlain c_cloud_spring c_coldperch c_jehenna }
+	casus_belli = de_jure_cb
+	attackers = { bagrakh_1103 morkul_1100 fharun_1102 tumnosh_1100 shatul_1100 }
+	defenders = { winterborn_1100 magnar_100 tailas_1000 }
+	claimant = bagrakh_1103
+}
+
+war = {
+	name = "war_4360_kurogs_betreyal"
+	start_date = 3504.3.11
+	end_date = 3505.3.11
+	targeted_titles = { k_orsinium c_scarp c_cambrian c_worthgar c_shipwreck_coast}
+	casus_belli = duchy_conquest_cb
+	attackers = { morkul_1100 fharun_1102 tumnosh_1100 shatul_1100}
+	defenders = { bagrakh_1103 }
+	claimant = fharun_1102
+}
+
+############################
+#   Hammerfell Wars        #
+############################
+
+war = { # Necromancer Cult 
+	name = "war_4400_witheredhand_uprising"
+	start_date = 3499.1.1
+	end_date = 3503.4.11
+	targeted_titles = { d_witheredhand c_satakalaam c_myrkwasa c_lainlyn }
+	casus_belli = duchy_conquest_cb
+	attackers = { bergama_1005 cumberland_1004 }
+	defenders = { witheredhand_1000 witheredhand_1001 witheredhand_1002 witheredhand_1003 }
+	claimant = bergama_1005
+}
+
+war = {
+	name = "war_4405_imperial_incursion"
+	start_date = 3502.1.30
+	end_date = 3503.4.11
+	targeted_titles = { c_rhanano c_java }
+	casus_belli = claim_cb
+	attackers = { bergama_1005 thoda_1000 cumberland_1004 }
+	defenders = { tharn_226 seventhlegion_1001 }
+	claimant = bergama_1005
+}
+
+###############################
+#     Stonefalls           ####
+###############################
+
+war = { # Stonefalls Balfoyen and Fort Viraak Invasion force
+	name = "war_4500_daggerfall_invasion"
+	start_date = 3502.1.30
+	end_date = 3503.1.1
+	targeted_titles = { d_ebonheart d_viraak d_bal_foyen }
+	casus_belli = duchy_conquest_cb
+	attackers = { covenantcaptain_999 covenantcaptain_1000 covenantcaptain_1001 covenantcaptain_1003 }
+	defenders = { flamehair_1014 othral_101 morvayn_101 indoril_1012 }
+	claimant = covenantcaptain_999
+}
+
+
+
+#################################
+#        AD                     #
+#################################
+
+#TheRim
+war = { 
+	name = "war_4709_the_rim"
+	start_date = 3499.1.1
+	end_date = 3503.1.1
+	targeted_titles = { k_rimmen }
+	casus_belli = duchy_conquest_cb
+	attackers = { mane_1003 arana_1001 }
+	defenders = { tharn_202 }
+	claimant = mane_1003
+}
+
+
+#Vield Heritence#Veiled Queen
+war = { 
+	name = "war_4710_veiled_queen"
+	start_date = 3499.1.1
+	end_date = 3503.4.11
+	targeted_titles = { e_aldmeri_dominion }
+	casus_belli = claim_cb
+	attackers = { errinorne_1000 }
+	defenders = { arana_1001 }
+	claimant = errinorne_1000
+}
+
+# Arenthia
+
+war = { 
+	name = "war_4711_Arenthia"
+	start_date = 3499.1.1
+	end_date = 3503.4.11
+	targeted_titles = { c_arenthia c_palatine c_sphnixmoth c_senalana }
+	casus_belli = duchy_conquest_cb
+	attackers = { arana_1001 camoran_9 mane_1003 }
+	defenders = { lavinia_001 hassildor_1000 }
+	claimant = arana_1001
+}

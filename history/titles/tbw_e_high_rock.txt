@@ -441,6 +441,8 @@ c_northsalt = {
 
 d_lorkrata = {
 	3365.1.1 = { holder = lorkrata_1000 }
+	3486.7.1 = { holder = edrald_1002 liege = d_northpoint }
+	3499.1.1 = { holder = bitterhand_1000 }
 }
 
 c_lorkrata = {
@@ -449,13 +451,14 @@ c_lorkrata = {
 		liege = d_northpoint
 	}
 	3365.1.1 = { liege = d_lorkrata }
-	3486.7.1 = { holder = edrald_1002 }
+	3486.7.1 = { holder = edrald_1002 liege = d_northpoint }
 }
 
 c_fell_run = {
 	3355.1.1 = { holder = edrald_1000 }
 	3365.1.1 = { liege = d_northpoint }
-	3485.1.1 = { holder = bitterhand_1000 liege = bitterhand_1000 }
+	3486.7.1 = { holder = edrald_1002 liege = d_northpoint }
+	3499.1.1 = { holder = bitterhand_1000 }
 }
 
 b_orc_finger = {
@@ -670,7 +673,7 @@ c_penmarch = {
 		liege = d_camlorn
 	}
 	3365.1.1 = { liege = 0 }
-	3502.1.1 = { holder =  liege = e_daggerfall_covenant }
+	3502.1.1 = { holder =lionguard_1104  liege = e_daggerfall_covenant }
 }
 
 c_urvaius = {
@@ -1179,11 +1182,11 @@ c_viridian_hillside = {
 c_lakewatch = {
 	3360.1.1 = { holder = rane_1000 }
 	#3387.1.1 = {} #Orcs driven from Falkreath, take over lakewatch
-	3470.1.1 = { government = tribal_government liege = e_daggerfall_covenant holder = bonebreaker_1000 }  #Naf ESO character easteregg
+	3470.1.1 = { government = tribal_government liege = k_evermore holder = bonebreaker_1000 }  #Naf ESO character easteregg
 }
 
 b_forsaken_stronghold = {
-	3470.1.1 = { government = tribal_government liege = e_daggerfall_covenant holder = bonebreaker_1000 }  #Naf ESO character easteregg
+	3470.1.1 = { government = tribal_government liege = k_evermore holder = bonebreaker_1000 }  #Naf ESO character easteregg
 }
 
 c_viridian_woods = {
@@ -1230,7 +1233,6 @@ c_sunken_road = {
 
 d_reachmen_bloodthorn = {
 	3501.1.1 = { government = tribal_government holder = bloodthorn_1000 }
-	3501.1.1 = { government = tribal_government holder = bloodthorn_1000 }
 }
 
 d_red_rook = {
@@ -1244,7 +1246,7 @@ d_bitterhand = {
 
 k_camlorn_faolchu = { 
 	3490.1.1 = { government = tribal_government holder = fausta_1100 }
-	}
+}
 
 d_supernaldreamers = {
 	3500.1.1 = { holder = supernaldreamers_1000 }
@@ -1418,7 +1420,7 @@ c_dorven = {
 	3367.1.1 = { holder = winterborn_1001 }
 	3391.1.1 = { holder = baelborne_998c }
 	3486.1.30 = { holder = winterborn_1101 }
-	3490.1.1 = { holder = tailas_1000 liege = k_wayrest}
+	3490.1.1 = { holder = tailas_1000 liege = d_frostbreak}
 }
 
 c_graystone = {

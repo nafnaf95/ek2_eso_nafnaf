@@ -330,6 +330,7 @@
 	religion = beldama_wyrd
 	
 	holding = church_holding
+	special_building = { great_wyrd_tree_01 }
 }
 
 ####c_baelborne
@@ -660,7 +661,7 @@
 	culture = glenumbran
 	religion = breton_cult
 	
-	holding = church_holding
+	holding = tribal_holding
 	
 	special_building = cath_bedraud_01
 }
