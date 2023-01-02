@@ -1,6 +1,6 @@
 e_high_rock = {
 	3000.1.1 = { change_development_level = 7 }
-#	3486.1.30 = { holder = cumberland_1004 }
+	3500.1.30 = { holder = cumberland_1004 }
 }
 
 #k_evermore
@@ -107,6 +107,7 @@ c_turain = {
 		liege = d_wayrest
 	}
 	3369.1.1 = { holder = gardner_1000 }
+	3500.1.1 = { holder = at_tura_1000 liege = k_wayrest }
 }
 
 c_steelheart = {
@@ -173,6 +174,7 @@ c_vermeir = {
 		liege = d_gavaudon
 	}
 	3365.1.1 = { liege = d_bjoulsae }
+	3500.1.1 = { holder = dara_1000 liege = k_wayrest }
 }
 
 d_alcaire = {
@@ -189,6 +191,7 @@ c_alcaire = {
 c_firebrand = {
 	3300.1.1 = { holder = viralaine_999 }
 	3333.1.1 = { holder = viralaine_1000 }
+	3500.1.1 = { holder = hughes_1000 liege = d_alcaire }
 }
 
 c_dellese = {
