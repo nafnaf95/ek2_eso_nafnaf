@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\history",
+    "\\history\\titles",
+    "\\localization\\english"
   ],
+  "SelectedNode": "\\history\\titles\\tbw_e_high_rock.txt",
   "PreviewInSolutionExplorer": false
 }
