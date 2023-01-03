@@ -39,8 +39,8 @@ covenantcaptain_999 = {# Pointless char meant to die
 					type = light_footmen
 					stacks = 8
 				}
-				location = province:1852
-				origin = province:184
+				location = province:2767
+				origin = province:2767
 				inheritable = no
 			}
 		}
@@ -83,7 +83,7 @@ covenantcaptain_1000 = {# Pointless char meant to die
 					type = light_footmen
 					stacks = 14
 				}
-				location = province:1852
+				location = province:2799
 				origin = province:184
 				inheritable = no
 			}
@@ -127,7 +127,7 @@ covenantcaptain_1001 = {# Pointless char meant to die
 					type = light_footmen
 					stacks = 4
 				}
-				location = province:1852
+				location = province:2789
 				origin = province:184
 				inheritable = no
 			}
@@ -171,7 +171,7 @@ covenantcaptain_1003 = {# Pointless char meant to die
 					type = light_footmen
 					stacks = 14
 				}
-				location = province:1852
+				location = province:2810
 				origin = province:184
 				inheritable = no
 			}

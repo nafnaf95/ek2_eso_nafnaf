@@ -69,6 +69,28 @@ dortene_1000 = {
 				origin = province:184
 				inheritable = yes
 			}
+				spawn_army = {
+				name = "Covenant Warband"
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 4
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 6
+				}
+				men_at_arms = {
+					type = levies
+					stacks = 40
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 14
+				}
+				location = province:1933
+				origin = province:184
+				inheritable = yes
+			}
 		}
 	}
 	
@@ -1035,7 +1057,7 @@ rielle_1005 = {
 	}
 	
 	3500.7.1 = {
-		add_unpressed_claim = title:k_camlorn
+		add_pressed_claim = title:k_camlorn
 	}
 	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:bloodthorn_1000 } }
 	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:fausta_1100 } }
@@ -1076,6 +1098,8 @@ guimard_1011 = {
 	culture = iliac
 	religion = breton_cult
 
+	dna = guimard_1011_dna_entry
+	
 	father = guimard_1008
 
 	3447.1.1 = { birth = yes }
@@ -1089,9 +1113,62 @@ guimard_1011 = {
             }
 		}
 	}
+	
+	3478.1.1 = { add_spouse = guimard_1023 }
+	
 	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:uela_01 } }
 	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:tharn_226 } }
-	#3478.1.1 = { add_spouse = 15127 }
+}
+
+guimard_1013 = {
+	name = "Adrien" #Prince of Evermore, killed by Reachmen
+	dynasty = 430000
+	culture = iliac
+	religion = breton_cult
+
+	dna = guimard_1013_dna_entry
+	
+	father = guimard_1011
+	#mother = 15127
+
+	3478.1.1 = { birth = yes }
+	3502.1.1 = {
+		death = {
+			death_reason = death_battle
+			#killer = 3627
+		}
+	}
+}
+guimard_1014 = {
+	name = "Elara" #Princess of Evermore
+	female = yes
+	dynasty = 430000
+	culture = iliac
+	religion = breton_cult
+
+	dna = guimard_1014_dna_entry
+	
+	father = guimard_1011
+	#mother = 15127
+
+	3482.1.1 = { birth = yes }
+	3538.1.1 = { death = yes }
+}
+
+guimard_1023 = {
+	name = "Arzhela" #eso Queen of Evermore
+	female = yes
+	dynasty = 430000
+	culture = iliac
+	religion = breton_cult
+
+	dna = guimard_1023_dna_entry
+	
+	#father = guimard_1011
+	#mother = 15127
+
+	3452.1.1 = { birth = yes }
+	3538.1.1 = { death = yes }
 }
 
 
@@ -1128,9 +1205,22 @@ branquette_montclair_1001 = { #ESO
 				name = "Undead Hoard"
 				men_at_arms = {
 					type = risen_dead
-					stacks = 20
+					stacks = 10
 				}
 				location = province:109
+				origin = province:85
+				war = war_4311_riven_montclair
+				war_keep_on_attacker_victory = yes
+				inheritable = no
+			}
+
+			spawn_army = {
+				name = "Undead Hoard"
+				men_at_arms = {
+					type = risen_dead
+					stacks = 5
+				}
+				location = province:117
 				origin = province:85
 				war = war_4311_riven_montclair
 				war_keep_on_attacker_victory = yes
@@ -3214,14 +3304,14 @@ mornard_1003 = {
 }
 
 mornard_1004 = {
-	name = "Leonard" #Lore
+	name = "Stefan" #Lore
 	dynasty = 420017
 	culture = systrean
 	religion = breton_cult
 	
 	father = mornard_1003
 
-	3462.1.1 = { birth = yes }
+	3492.1.1 = { birth = yes }
 	3570.1.1 = { death = yes }
 }
 

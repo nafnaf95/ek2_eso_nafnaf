@@ -78,7 +78,7 @@ war = {
 	end_date = 3503.1.1
 	targeted_titles = { c_northmoor k_daggerfall }
 	casus_belli = claim_cb
-	attackers = { arana_1001 farwatch_1100 }
+	attackers = { farwatch_1100 }
 	defenders = { cumberland_1004 deleyn_1005 stroud_1006 }
 	claimant = farwatch_1100
 }
@@ -102,7 +102,7 @@ war = {
 	end_date = 3502.3.30
 	targeted_titles = { d_supernaldreamers c_pariah_abbey }
 	casus_belli = claim_cb
-	attackers = { cumberland_1004 }
+	attackers = { cumberland_1004 cumberland_1006 }
 	defenders = { supernaldreamers_1000 }
 	claimant = cumberland_1004 
 	}

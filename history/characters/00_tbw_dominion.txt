@@ -5,7 +5,7 @@ sorcalin_1000 = {
 	religion = auriel
 	culture = alinor
 	female = yes
-	dna = arana_1001_dna_entry
+	dna = sorcalin_1000_dna_entry
 	martial = 30
 	
 	trait = lifespan_3

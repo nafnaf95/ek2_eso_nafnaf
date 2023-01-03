@@ -304,9 +304,7 @@ c_branquette_tor = {
 
 c_ravenwatch = {
 	3205.1.1 = { holder = ravenn_998 }
-	3270.1.1 = { holder = ravenn_1000 liege = e_daggerfall_covenant}
-	3350.1.1 = { liege = e_daggerfall_covenant }#liege = d_shornhelm }
-	3365.1.1 = { liege = e_daggerfall_covenant }
+	3270.1.1 = { holder = ravenn_1000 liege = k_shornhelm }
 }
 
 c_southgard = {
@@ -378,7 +376,7 @@ d_westmark = {
 c_westmark_moor = {
 	3350.1.1 = { holder = succoth_1000 }
 	3400.1.1 = { holder = succoth_1001 }
-	3492.1.1 = { holder = dremora_molag_kena }
+	3492.1.1 = { holder = crypt_of_hearts_1000 }
 }
 
 b_crypt_of_hearts = {
@@ -391,7 +389,7 @@ c_moira_hope = {
 		liege = d_westmark
 	}
 	3365.1.1 = { liege = d_shornhelm }
-	3492.1.1 = { holder = branquette_montclair_1001 }
+	3492.1.1 = { holder = tamrith_1005 }
 }
 
 c_port_duncreek = {
