@@ -80,8 +80,8 @@ c_pellame = {
 }
 
 c_mopti = {
-	#3350.1.1 = { holder = dariene_1000 }
-	#3365.1.1 = { liege = d_nohotogrha }
+	3350.1.1 = { holder = dariene_1000 }
+	3365.1.1 = { liege = d_nohotogrha }
 	3485.1.1 = { holder = nizwa_1003 }#edited
 }
 #edited
@@ -230,17 +230,17 @@ c_granitsta = {
 }
 
 c_riverview = {
-	#3005.1.1 = { change_development_level = 2 }
-	#3327.1.1 = { holder = acatis_999 }
-	#3350.1.1 = { holder = acatis_1000 }
+	3005.1.1 = { change_development_level = 2 }
+	3327.1.1 = { holder = acatis_999 }
+	3350.1.1 = { holder = acatis_1000 }
 	3485.1.1 = { holder = nizwa_1003 }#edited
 }
 #Edited
 c_dakfron = {
-	#3350.1.1 = { 
-	#	holder = rhali_1000
-	#	liege = d_vulnim
-	#}
+	3350.1.1 = { 
+		holder = rhali_1000
+		liege = d_vulnim
+	}
 	3480.1.1 = { 
 		holder = acatis_1002
 	}
@@ -732,34 +732,34 @@ c_ko_estaran = {
 
 #k_taneth
 k_taneth = {
-	#3300.1.1 = { holder = taneth_1000 }
-	#3343.1.1 = { holder = taneth_1001 }
-	#3356.1.1 = { holder = danobia_997 }
-	#3382.1.1 = { holder = danobia_998 }
-	#3400.1.1 = { holder = danobia_999 }
-	#3430.1.1 = { holder = danobia_1000 }
+	3300.1.1 = { holder = taneth_1000 }
+	3343.1.1 = { holder = taneth_1001 }
+	3356.1.1 = { holder = danobia_997 }
+	3382.1.1 = { holder = danobia_998 }
+	3400.1.1 = { holder = danobia_999 }
+	3430.1.1 = { holder = danobia_1000 }
 	3480.1.1 = { holder = danobia_1002 }
 }
 
 d_taneth = {
-	#3300.1.1 = { holder = taneth_1000 }
-	#3343.1.1 = { holder = taneth_1001 }
-	#3356.1.1 = { holder = danobia_997 }
-	#3382.1.1 = { holder = danobia_998 }
-	#3400.1.1 = { holder = danobia_999 }
-	#3430.1.1 = { holder = danobia_1000 }
+	3300.1.1 = { holder = taneth_1000 }
+	3343.1.1 = { holder = taneth_1001 }
+	3356.1.1 = { holder = danobia_997 }
+	3382.1.1 = { holder = danobia_998 }
+	3400.1.1 = { holder = danobia_999 }
+	3430.1.1 = { holder = danobia_1000 }
 	3480.1.1 = { holder = danobia_1002 }
 }
 
 c_taneth = {
 	3005.1.1 = { change_development_level = 12 }
 	
-	#3300.1.1 = { holder = taneth_1000 }
-	#3343.1.1 = { holder = taneth_1001 }
-	#3356.1.1 = { holder = danobia_997 }
-	#3382.1.1 = { holder = danobia_998 }
-	#3400.1.1 = { holder = danobia_999 }
-	#3430.1.1 = { holder = danobia_1000 }
+	3300.1.1 = { holder = taneth_1000 }
+	3343.1.1 = { holder = taneth_1001 }
+	3356.1.1 = { holder = danobia_997 }
+	3382.1.1 = { holder = danobia_998 }
+	3400.1.1 = { holder = danobia_999 }
+	3430.1.1 = { holder = danobia_1000 }
 	3480.1.1 = { holder = danobia_1002 }
 }
 

@@ -580,7 +580,8 @@ c_taleon = {
 	3410.1.1 = { holder = indoril_1004 }
 	3434.1.1 = { holder = indoril_1010 }
 	3470.1.1 = { holder = indoril_1012 }
-	3502.8.15 = { holder = mabrigash_4 } # ESO ASHLANDER
+	3502.8.15 = { holder = indoril_1015 }
+	3502.1.1 = { holder = mabrigash_4 } # ESO ASHLANDER
 	3590.1.1 = { holder = indoril_1016 }
 }
 
@@ -608,6 +609,7 @@ d_taldeic = {
 	}
 	3360.1.1 = { 
 		holder = redoril_104
+		#liege = k_indoril 
 		liege = redoran_1000 
 	}
 	3500.1.1 = { holder = indoril_1012 }
@@ -667,7 +669,7 @@ d_astula = {
 	3360.1.1 = { holder = llethan_104
 				liege = k_indoril }
 	3480.1.1 = { holder = llethan_105
-				liege = e_tribunal_temple }
+				liege = k_indoril }
 	}
 	3500.1.1 = { holder = llethan_105
 				liege = e_tribunal_temple }
@@ -685,7 +687,7 @@ c_mansurabi = {
 	3360.1.1 = { holder = llethan_104
 				liege = k_indoril }
 	3480.1.1 = { holder = llethan_105
-				liege = e_tribunal_temple }
+				liege = k_indoril }
 				
 	3500.1.1 = { holder = llethan_105
 				liege = e_tribunal_temple }
@@ -2292,7 +2294,7 @@ c_gnisis = {
 	3000.1.1 = { holder = eribael_100 }
 	3350.1.1 = { holder = eribael_100
 				 liege = d_valenvaryon }
-	#3490.1.1 = { holder = redoran_3003 }
+	3490.1.1 = { holder = redoran_3003 }
 	3500.1.1 = { holder = redoran_1000 }
 }
 
@@ -2300,7 +2302,7 @@ c_berandas = {
 	3000.1.1 = { holder = eribael_100 }
 	3350.1.1 = { holder = eribael_100
 				 liege = d_valenvaryon }
-	#3490.1.1 = { holder = redoran_3003 }
+	3490.1.1 = { holder = redoran_3003 }
 	3500.1.1 = { holder = redoran_1000 }
 }
 

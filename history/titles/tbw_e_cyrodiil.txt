@@ -1078,20 +1078,20 @@ c_ni_mohk = {
 	3408.1.1 = { holder = haridor_6651 }
 	3445.1.1 = { holder = haridor_6652 }
 	3488.1.1 = { holder = haridor_6653 }
+	3499.1.1 = { liege = e_cyrodiil } #ek1 import
 	3500.1.1 = { holder = dortene_1000 liege = k_daggerfall_occupation}
-	#3499.1.1 = { liege = e_cyrodiil } #ek1 import
 	#3503.1.1 = { liege = d_colovianhighlands } #ek1 import
-	#3545.1.1 = { holder = haridor_6654 }
-	#3580.1.1 = { holder = haridor_6668 }
-	#3603.1.1 = { holder = haridor_6669 }
-	#3629.1.1 = { holder = haridor_6670 }
-	#3673.1.1 = { holder = haridor_6671 }
-	#3704.1.1 = { holder = haridor_6672 }
-	#3723.1.1 = { holder = haridor_6673 }
-	#3761.1.1 = { holder = haridor_6674 }
-	#3801.1.1 = { holder = haridor_6675 }
-	#3819.1.1 = { holder = haridor_6676 }
-	#3845.1.1 = { holder = haridor_6677 }
+	3545.1.1 = { holder = haridor_6654 }
+	3580.1.1 = { holder = haridor_6668 }
+	3603.1.1 = { holder = haridor_6669 }
+	3629.1.1 = { holder = haridor_6670 }
+	3673.1.1 = { holder = haridor_6671 }
+	3704.1.1 = { holder = haridor_6672 }
+	3723.1.1 = { holder = haridor_6673 }
+	3761.1.1 = { holder = haridor_6674 }
+	3801.1.1 = { holder = haridor_6675 }
+	3819.1.1 = { holder = haridor_6676 }
+	3845.1.1 = { holder = haridor_6677 }
 }
 c_northrock = {
 	300.1.1 = { change_development_level = 5 }
@@ -1103,20 +1103,20 @@ c_northrock = {
 	3408.1.1 = { holder = haridor_6651 }
 	3445.1.1 = { holder = haridor_6652 }
 	3488.1.1 = { holder = haridor_6653 }
+	3499.1.1 = { liege = e_cyrodiil } #ek1 import
 	3499.1.1 = { holder = dortene_1000 liege = k_daggerfall_occupation}
-	#3499.1.1 = { liege = e_cyrodiil } #ek1 import
 	#3503.1.1 = { liege = d_colovianhighlands } #ek1 import
-	#3545.1.1 = { holder = haridor_6654 }
-	#3580.1.1 = { holder = haridor_6668 }
-	#3603.1.1 = { holder = haridor_6669 }
-	#3629.1.1 = { holder = haridor_6670 }
-	#3673.1.1 = { holder = haridor_6671 }
-	#3704.1.1 = { holder = haridor_6672 }
-	#3723.1.1 = { holder = haridor_6673 }
-	#3761.1.1 = { holder = haridor_6674 }
-	##3801.1.1 = { holder = haridor_6675 }
-	#3819.1.1 = { holder = haridor_6676 }
-	#3845.1.1 = { holder = haridor_6677 }
+	3545.1.1 = { holder = haridor_6654 }
+	3580.1.1 = { holder = haridor_6668 }
+	3603.1.1 = { holder = haridor_6669 }
+	3629.1.1 = { holder = haridor_6670 }
+	3673.1.1 = { holder = haridor_6671 }
+	3704.1.1 = { holder = haridor_6672 }
+	3723.1.1 = { holder = haridor_6673 }
+	3761.1.1 = { holder = haridor_6674 }
+	3801.1.1 = { holder = haridor_6675 }
+	3819.1.1 = { holder = haridor_6676 }
+	3845.1.1 = { holder = haridor_6677 }
 }
 c_echo_cliffs = {
 	300.1.1 = { change_development_level = 6 }
@@ -1146,8 +1146,8 @@ c_rayles = {
 	3422.1.1 = { holder = rirol_203 }
 	3444.1.1 = { holder = rirol_204 }
 	3500.1.1 = { holder = dortene_1000 liege = k_daggerfall_occupation}
-	#3493.1.1 = { holder = rirol_206 }
-	#3538.1.1 = { holder = rirol_207 }
+	3493.1.1 = { holder = rirol_206 }
+	3538.1.1 = { holder = rirol_207 }
 }
 c_black_rock = {
 	3352.1.1 = { holder = hrol_107 }
@@ -1157,8 +1157,8 @@ c_black_rock = {
 	3422.1.1 = { holder = rirol_203 }
 	3444.1.1 = { holder = rirol_204 }
 	3499.1.1 = { holder = khamagash_1000 liege = d_daggerfall_occupation}
-	#3493.1.1 = { holder = rirol_206 }
-	#3538.1.1 = { holder = rirol_207 }
+	3493.1.1 = { holder = rirol_206 }
+	3538.1.1 = { holder = rirol_207 }
 	
 }
 c_alma_ruma = {
@@ -1412,7 +1412,8 @@ c_shetcombe = {
 	3396.1.1 = { holder = pinder_6300 }
 	3425.1.1 = { holder = pinder_antus_mother }
 	3440.1.1 = { holder = pinder_antus }
-	3492.1.1 = { liege = hassildor_1000 holder = pinder_6303 }
+	3492.1.1 = { holder = pinder_6303 }
+	3500.1.1 = { liege = hassildor_1000 holder = pinder_6303 }
 	3538.1.1 = { holder = pinder_6305 }
 	3562.1.1 = { holder = pinder_6306 }
 	3598.1.1 = { holder = pinder_6307 }
@@ -1478,6 +1479,7 @@ c_dagny = {
 
 d_ontus = {
 	300.1.1 = { change_development_level = 7 }
+	3468.1.1 = { holder = massiner_104 }
 	3468.1.1 = { liege = k_sutch holder = massiner_104 }
 }
 #	3240.1.1 = { holder = pasic_98 }
@@ -1931,6 +1933,7 @@ d_hastrel = {
 	3372.1.1 = { holder = inveran_101 }
 	3434.1.1 = { holder = inveran_102 }
 	3468.1.1 = { holder = massiner_104 }
+	3494.1.3 = { holder = vanar_1000 }
 	3494.1.3 = { liege = k_sutch holder = vanar_1000 }
 }
 c_hastrel = {
@@ -2762,7 +2765,8 @@ c_chim = {
 		liege = 0
 		holder = chim_1000
 	}
-	3500.1.1 = { holder = chim_1001 liege = d_ebonheart_occupation }
+	3500.1.1 = { holder = chim_1001 }
+	3500.2.1 = { holder = chim_1001 liege = d_ebonheart_occupation }
 }
 #c_ancestor_moth = {
 #	3360.1.1 = {

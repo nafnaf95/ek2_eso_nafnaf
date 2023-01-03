@@ -942,6 +942,7 @@ k_dune = {
     3260.1.1 = { holder = shabu_003 }
     3300.1.1 = { holder = shabu_002 }
     3325.1.1 = { holder = shabu_001 }
+    3500.1.1 = { holder = arana_1001 }
     3500.1.1 = { holder = mane_1003 }
 }
 
@@ -1063,7 +1064,8 @@ d_riverhold = {
 	3270.1.1 = { holder = naghei_003 }
 	3300.1.1 = { holder = naghei_004 }
 	3334.1.1 = { holder = raispoor_001 }
-    3500.1.1 = { holder = mane_1003 }
+    3500.1.1 = { holder = arana_1001 }
+    3500.2.1 = { holder = mane_1003 }
 }
 
 c_riverhold = {
@@ -1097,7 +1099,8 @@ c_margen = {
 #Tardorn
 d_tardorn = {
     3331.1.1 = { holder = shabu_001 }
-    3500.1.1 = { holder = mane_1003 }
+	3500.1.1 = { holder = arana_1001 }
+    3500.2.1 = { holder = mane_1003 }
 }
 
 c_tardorn = {
@@ -1137,7 +1140,8 @@ d_altadoon = {
     3302.1.1 = { holder = kingswalk_001 }
     3339.1.1 = { holder = kingswalk_003 }
     3347.1.1 = { holder = hopeful_001 }
-	3500.1.1 = { liege = e_aldmeri_dominion holder = sorcalin_1000 }
+	3500.1.1 = { holder = arana_1001 }
+	3500.2.1 = { liege = e_aldmeri_dominion holder = sorcalin_1000 }
 }
 
 c_altadoon = {
