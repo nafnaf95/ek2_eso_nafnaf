@@ -29,7 +29,7 @@ sorcalin_1000 = {
 	3502.1.30 = {
 		effect = { 	
 			spawn_army = {
-				name = Dominion
+				name = "Dominion Warband"
 				men_at_arms = {
 					type = light_horsemen
 					stacks = 2
@@ -51,7 +51,7 @@ sorcalin_1000 = {
 				inheritable = yes
 			}
 			spawn_army = {
-				name = Dominion
+				name = "Dominion Warband"
 				men_at_arms = {
 					type = light_horsemen
 					stacks = 2
@@ -69,6 +69,28 @@ sorcalin_1000 = {
 					stacks = 10
 				}
 				location = province:2350
+				origin = province:2929
+				inheritable = yes
+			}
+			spawn_army = {#IC
+				name = "Dominion Warband"
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 2
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 3
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 6
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 10
+				}
+				location = province:2061
 				origin = province:2929
 				inheritable = yes
 			}

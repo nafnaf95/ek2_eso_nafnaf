@@ -25,7 +25,7 @@ dortene_1000 = {
 	}
 	3502.1.30 = {
 		effect = { 	
-			spawn_army = {
+			spawn_army = {#north
 				name = "Covenant Warband"
 				men_at_arms = {
 					type = light_horsemen
@@ -42,53 +42,65 @@ dortene_1000 = {
 				men_at_arms = {
 					type = light_footmen
 					stacks = 14
-				}
-				location = province:1852
-				origin = province:184
-				inheritable = yes
-			}
-			spawn_army = {
-				name = "Covenant Warband"
-				men_at_arms = {
-					type = light_horsemen
-					stacks = 4
-				}
-				men_at_arms = {
-					type = war_mages
-					stacks = 6
-				}
-				men_at_arms = {
-					type = pikemen_unit
-					stacks = 4
-				}
-				men_at_arms = {
-					type = light_footmen
-					stacks = 14
-				}
-				location = province:1933
-				origin = province:184
-				inheritable = yes
-			}
-				spawn_army = {
-				name = "Covenant Warband"
-				men_at_arms = {
-					type = light_horsemen
-					stacks = 4
-				}
-				men_at_arms = {
-					type = war_mages
-					stacks = 6
 				}
 				men_at_arms = {
 					type = levies
-					stacks = 40
+					stacks = 20
+				}
+				location = province:1852
+				origin = province:1851
+				inheritable = yes
+			}
+			spawn_army = {#south
+				name = "Covenant Warband"
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 4
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 6
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 4
 				}
 				men_at_arms = {
 					type = light_footmen
 					stacks = 14
 				}
+				men_at_arms = {
+					type = levies
+					stacks = 20
+				}
 				location = province:1933
-				origin = province:184
+				origin = province:1851
+				inheritable = yes
+			}
+			spawn_army = {#IC
+				name = "Covenant Warband"
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 4
+				}
+				men_at_arms = {
+					type = war_mages
+					stacks = 6
+				}
+				men_at_arms = {
+					type = pikemen_unit
+					stacks = 4
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 14
+				}
+				men_at_arms = {
+					type = levies
+					stacks = 20
+				}
+				location = province:2055
+				origin = province:1851
 				inheritable = yes
 			}
 		}
@@ -803,8 +815,8 @@ cumberland_1006 = {
 					type = breton_pikemen_companies
 					stacks = 2
 				}
-				location = province:181
-				origin = province:181
+				location = province:158
+				origin = province:158
 				war = war_4315_virminas_gamble
 				war_keep_on_attacker_victory = yes
 				inheritable = yes
@@ -1071,7 +1083,7 @@ rielle_1005 = {
 				}
 				men_at_arms = {
 					type = war_mages
-					stacks = 1
+					stacks = 2
 				}
 				men_at_arms = {
 					type = pikemen_unit
@@ -1079,7 +1091,15 @@ rielle_1005 = {
 				}
 				men_at_arms = {
 					type = light_footmen
-					stacks = 12
+					stacks = 5
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 5
+				}
+				men_at_arms = {
+					type = levies
+					stacks = 10
 				}
 				location = province:42
 				origin = province:184
@@ -1898,20 +1918,20 @@ bagrakh_1103 = {
 	3461.1.1 = { birth = yes }
 	3500.1.30 = { add_spouse = morkul_1102 }
 	3500.1.30 = { add_spouse = shatul_1110 }
-	3501.1.30 = {
+	3500.1.30 = {
 		effect = { 	
 			spawn_army = {
-				name = "Sentinel Palace Guard"
+				name = "Clan Bagrakh Warriors"
 				men_at_arms = {
-					type = yokudan_way_of_the_sword
+					type = bear_cavalry
 					stacks = 5
 				}
 				men_at_arms = {
-					type = light_footmen
+					type = orc_marauders
 					stacks = 10
 				}
-				location = province:435
-				origin = province:435
+				location = province:298
+				origin = province:298
 				war = war_4350_winterborn_campaign
 				war_keep_on_attacker_victory = yes
 				inheritable = no
@@ -2076,7 +2096,7 @@ fharun_1102 = {
 	3501.1.30 = {
 		effect = { 	
 			spawn_army = {
-				name = "Trinimac's Own"
+				name = "Clan Fahrun Warriors"
 				men_at_arms = {
 					type = bear_cavalry
 					stacks = 5
@@ -2085,8 +2105,8 @@ fharun_1102 = {
 					type = orc_marauders
 					stacks = 10
 				}
-				location = province:435
-				origin = province:435
+				location = province:286
+				origin = province:286
 				war = war_4350_winterborn_campaign
 				war_keep_on_attacker_victory = yes
 				inheritable = no

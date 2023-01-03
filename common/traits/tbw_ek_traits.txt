@@ -15,12 +15,12 @@ fatewoven = {
 	
 	health = 100.0
 	immortal = yes
-	prowess = 8
+	prowess = 12
 	attraction_opinion = 20
-	monthly_lifestyle_xp_gain_mult = 0.2
+	monthly_lifestyle_xp_gain_mult = 0.3
 	stress_gain_mult = -0.4
-	monthly_prestige_gain_mult = 0.1
-	monthly_piety_gain_mult = 0.1
+	monthly_prestige_gain_mult = 0.2
+	monthly_piety_gain_mult = 0.2
 	hostile_scheme_resistance_add = 1000
 	
 	ai_energy = 20
@@ -39,6 +39,43 @@ fatewoven = {
 				desc = trait_fatewoven_desc
 			}
 			desc = trait_fatewoven_character_desc
+		}
+	}
+	
+}
+
+
+fatetied = {
+	education = no
+	flag = immune_to_disease
+	flag = lifespan_1_flag
+	
+	health = 10.0
+	immortal = no
+	prowess = 4
+	attraction_opinion = 20
+	monthly_lifestyle_xp_gain_mult = 0.1
+	stress_gain_mult = -0.1
+	monthly_prestige_gain_mult = 0.1
+	monthly_piety_gain_mult = 0.1
+	hostile_scheme_resistance_add = 100
+	
+	ai_energy = 20
+	ai_honor = 20
+	ai_rationality = 20
+	ai_zeal = 20
+	
+	shown_in_ruler_designer = yes
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_fatetied_desc
+			}
+			desc = trait_fatetied_character_desc
 		}
 	}
 	

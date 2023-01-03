@@ -273,7 +273,7 @@ d_shornhelm = {
 	3403.1.1 = { holder = branquette_1002 }
 	3442.1.1 = { holder = branquette_1003 }
 	3466.1.1 = { holder = branquette_1005 }
-	3495.1.1 = { holder = tamrith_1005 liege = e_daggerfall_covenant}
+	3495.1.1 = { holder = tamrith_1005 }
 }
 
 c_shornhelm = {
@@ -287,7 +287,7 @@ c_shornhelm = {
 	3403.1.1 = { holder = branquette_1002 }
 	3442.1.1 = { holder = branquette_1003 }
 	3466.1.1 = { holder = branquette_1005 }
-	3495.1.1 = { holder = tamrith_1005 liege = e_daggerfall_covenant}
+	3495.1.1 = { holder = tamrith_1005 }
 }
 
 c_branquette_tor = {
@@ -305,6 +305,8 @@ c_branquette_tor = {
 c_ravenwatch = {
 	3205.1.1 = { holder = ravenn_998 }
 	3270.1.1 = { holder = ravenn_1000 liege = k_shornhelm }
+	3500.1.1 = { holder = ravenn_1000 liege = tamrith_1005 }
+	3500.1.1 = { holder = ravenn_1000 liege = k_shornhelm }
 }
 
 c_southgard = {
@@ -316,7 +318,7 @@ c_southgard = {
 	3365.1.1 = { liege = 0 }
 	3392.1.1 = { holder = tamrith_1002 }
 	3431.1.1 = { holder = tamrith_1004 }
-	3490.1.1 = { holder = tamrith_1005 liege = e_daggerfall_covenant}
+	3490.1.1 = { holder = tamrith_1005 }
 }
 
 c_old_gate = {
@@ -327,7 +329,7 @@ c_old_gate = {
 	3357.1.1 = { holder = elde_1001 }
 	3402.1.1 = { holder = elde_1002 }
 	3420.1.1 = { holder = elde_1003 }
-	3495.1.1 = { holder = tamrith_1005 liege = e_daggerfall_covenant}
+	3495.1.1 = { holder = tamrith_1005 }
 }
 
 d_phrygias = {
@@ -674,7 +676,7 @@ c_penmarch = {
 		liege = d_camlorn
 	}
 	3365.1.1 = { liege = 0 }
-	3502.1.1 = { holder =lionguard_1104  liege = e_daggerfall_covenant }
+	3502.1.1 = { holder =lionguard_1104  liege = d_camlorn }
 }
 
 c_urvaius = {
@@ -1137,8 +1139,7 @@ c_mournoth = {
 		liege = k_evermore
 	}
 	3480.1.1 = { 
-		holder = uela_01 
-		liege = k_dark_witness
+		holder = uela_01
 	}
 }
 
@@ -1154,15 +1155,13 @@ d_dunkarn = {
 	3368.1.1 = { holder = sanuarach_1001 }
 	3480.1.1 = { 
 		holder = uela_01 
-		liege = k_dark_witness
 	}
 }
 c_dunkarn = {
 	3359.1.1 = { holder = sanuarach_1000 }
 	3368.1.1 = { holder = sanuarach_1001 }
 	3480.1.1 = { 
-		holder = uela_01 
-		liege = k_dark_witness
+		holder = uela_01
 	}
 }
 c_reachgate = {
@@ -1264,12 +1263,13 @@ d_fharun = {
 	3355.1.1 = { holder = fharun_1000 }
 	3369.1.1 = { holder = fharun_1001 }
 	3486.1.30 = { holder = 0 }
+	3486.1.30 = { holder = fharun_1102 liege = k_orsinium }
 }
 
 c_fharun = {
 	3350.1.1 = { holder = fharun_1000 }
 	3369.1.1 = { holder = fharun_1001 }
-	3486.1.30 = { holder = fharun_1102 liege = k_orsinium }
+	3486.1.30 = { holder = fharun_1102  }
 }
 
 c_fylmain = {
@@ -1338,6 +1338,10 @@ k_orsinium = {
 	3503.4.11 = { holder = fharun_1102 }
 }
 
+d_wrothgar = {
+	3486.1.30 = { holder = bagrakh_1103 }
+}
+
 c_wrothgar = {
 	3300.1.1 = { holder = agluk_999 }
 	3345.1.1 = { holder = agluk_1000 }
@@ -1375,6 +1379,7 @@ d_shipwreck_coast = {
 	950.1.1 = { holder = igrun_101 }
 	980.1.1 = { holder = 0 }
 	3351.1.1 = { holder = 0 }
+	3486.1.30 = { holder = bagrakh_1103 }
 }
 
 c_shipwreck_coast = {
