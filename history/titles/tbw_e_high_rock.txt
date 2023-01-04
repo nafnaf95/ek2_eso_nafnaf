@@ -898,6 +898,7 @@ d_camlorn = {
 	3451.1.1 = { holder = rielle_1004 }
 	3487.1.1 = { holder = rielle_1005 }
 	3486.1.30 = { holder = rielle_1005 liege = e_daggerfall_covenant }
+	3500.1.1 = { holder = rielle_1005 liege = e_daggerfall_covenant }
 	3507.1.1 = { holder = rielle_1006 }
 }
 c_camlorn = {
@@ -929,7 +930,7 @@ c_eagle_brook = {
 		liege = d_camlorn
 		holder = eagle_brook_1001
 	}
-	3486.1.30 = { holder = rielle_1005 liege = e_daggerfall_covenant }
+	3486.1.30 = { holder = rielle_1005 }
 }
 
 c_ykalon = {

@@ -679,7 +679,7 @@ rielle_1004 = {
 	3487.1.1 = { death = yes }
 }
 
-rielle_1005 = {#Nafedited
+rielle_1005 = {
 	name = "Sebastien"
 	dynasty = 400003
 	religion = breton_cult
@@ -687,6 +687,9 @@ rielle_1005 = {#Nafedited
 
 	father = rielle_1004
 	mother = garclay_1003
+	
+	3456.1.1 = { birth = yes }
+	3478.1.1 = { add_spouse = lariat_1004b }
 	
 	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:cumberland_1004 } }
 	3487.7.1 = {

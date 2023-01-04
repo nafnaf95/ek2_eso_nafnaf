@@ -1040,142 +1040,17 @@ brousseau_1007 = {
 
 # Camlorn
 
-#rielle_1005 = {
-	name = "Sebastien"
-	dynasty = 400003
-	religion = breton_cult
-	culture = glenumbran
+#rielle_1005 = { in 00_breton.txt
 
-	father = rielle_1004
-	mother = garclay_1003
-	
-	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:cumberland_1004 } }
-	3487.7.1 = {
-		effect = {
-			create_alliance = character:cumberland_1004
-            add_opinion = {
-                modifier = perk_negotiated_alliance_opinion
-                target = character:cumberland_1004
-            }
-		}
-	}
-
-	3487.7.1 = {
-		effect = {
-			create_alliance = character:deleyn_1005
-            add_opinion = {
-                modifier = perk_negotiated_alliance_opinion
-                target = character:deleyn_1005
-            }
-		}
-	}
-	
-	3500.7.1 = {
-		add_pressed_claim = title:k_camlorn
-	}
-	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:bloodthorn_1000 } }
-	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:fausta_1100 } }
-	3500.1.1 = {
-		effect = { 	
-			spawn_army = {
-				name = "Lion Guard"
-				men_at_arms = {
-					type = light_horsemen
-					stacks = 2
-				}
-				men_at_arms = {
-					type = war_mages
-					stacks = 2
-				}
-				men_at_arms = {
-					type = pikemen_unit
-					stacks = 3
-				}
-				men_at_arms = {
-					type = light_footmen
-					stacks = 5
-				}
-				men_at_arms = {
-					type = light_footmen
-					stacks = 5
-				}
-				men_at_arms = {
-					type = levies
-					stacks = 10
-				}
-				location = province:42
-				origin = province:184
-				war = war_4311_bloodthorn_cult
-				war_keep_on_attacker_victory = yes
-				inheritable = no
-			}
-		}
-	}
-}
 
 #evermore
-#guimard_1011 = {
-	name = "Eamond"
-	dynasty = 430000
-	culture = iliac
-	religion = breton_cult
+#guimard_1011 = {#in 00_breton.txt
 
-	dna = guimard_1011_dna_entry
-	
-	father = guimard_1008
 
-	3447.1.1 = { birth = yes }
-	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:cumberland_1004 } }
-	3487.7.1 = {
-		effect = {
-			create_alliance = character:cumberland_1004
-            add_opinion = {
-                modifier = perk_negotiated_alliance_opinion
-                target = character:cumberland_1004
-            }
-		}
-	}
-	
-	3478.1.1 = { add_spouse = guimard_1023 }
-	
-	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:uela_01 } }
-	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:tharn_226 } }
-}
+#guimard_1013 = {in 00_breton.txt
 
-#guimard_1013 = {
-	name = "Adrien" #Prince of Evermore, killed by Reachmen
-	dynasty = 430000
-	culture = iliac
-	religion = breton_cult
+#guimard_1014 = {in 00_breton.txt
 
-	dna = guimard_1013_dna_entry
-	
-	father = guimard_1011
-	#mother = 15127
-
-	3478.1.1 = { birth = yes }
-	3502.1.1 = {
-		death = {
-			death_reason = death_battle
-			#killer = 3627
-		}
-	}
-}
-#guimard_1014 = {
-	name = "Elara" #Princess of Evermore
-	female = yes
-	dynasty = 430000
-	culture = iliac
-	religion = breton_cult
-
-	dna = guimard_1014_dna_entry
-	
-	father = guimard_1011
-	#mother = 15127
-
-	3482.1.1 = { birth = yes }
-	3538.1.1 = { death = yes }
-}
 
 guimard_1023 = {
 	name = "Arzhela" #eso Queen of Evermore
@@ -1319,45 +1194,45 @@ edrald_1004 = {
 #Tamrith
 
 #tamrith_1005 = {
-	name = "Eselde" #ESO
-	dynasty = 410005
-	religion = breton_cult
-	culture = northmen
-	female = yes
-
-	dna = tamrith_1005_dna_entry
-	
-	father = tamrith_1004
-	mother = elde_1003
-
-	3475.1.1 = { birth = yes }
-	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:cumberland_1004 } }
-	3487.7.1 = {
-		effect = {
-			create_alliance = character:cumberland_1004
-            add_opinion = {
-                modifier = perk_negotiated_alliance_opinion
-                target = character:cumberland_1004
-            }
-		}
-	}
-	3490.1.1 = {
-		effect = {
-			add_pressed_claim = title:c_shornhelm
-			add_pressed_claim = title:d_shornhelm
-			add_pressed_claim = title:k_shornhelm
-		}
-	}
-	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:branquette_montclair_1001 } }
-	3535.1.1 = { death = yes }
-
-		portrait_override={
-		portrait_modifier_overrides={
-			custom_hair=female_hair_western_09
-			custom_beards=female_empty
-		}
-	}
-}
+#	name = "Eselde" #ESO
+#	dynasty = 410005
+#	religion = breton_cult
+#	culture = northmen
+#	female = yes
+#
+#	dna = tamrith_1005_dna_entry
+#	
+#	father = tamrith_1004
+#	mother = elde_1003
+#
+#	3475.1.1 = { birth = yes }
+#	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:cumberland_1004 } }
+#	3487.7.1 = {
+##		effect = {
+#			create_alliance = character:cumberland_1004
+  #          add_opinion = {
+   #             modifier = perk_negotiated_alliance_opinion
+    #            target = character:cumberland_1004
+     #       }
+		#}
+#	}
+#	3490.1.1 = {
+#		effect = {
+#			add_pressed_claim = title:c_shornhelm
+#			add_pressed_claim = title:d_shornhelm
+#			add_pressed_claim = title:k_shornhelm
+#		}
+#	}
+#	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:branquette_montclair_1001 } }
+#	3535.1.1 = { death = yes }
+#
+#		portrait_override={
+#		portrait_modifier_overrides={
+#			custom_hair=female_hair_western_09
+#			custom_beards=female_empty
+#		}
+#	}
+#}
 
 
 
