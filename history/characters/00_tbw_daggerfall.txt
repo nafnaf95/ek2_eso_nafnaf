@@ -201,7 +201,7 @@ Am-Shadal_1000 = {
 }
 
 
-##Imperial
+##Imperial characters and occupations
 
 seventhlegion_1000 = {## septimas mage commander
 	name = "Sadas Secundus"
@@ -292,6 +292,19 @@ seventhlegion_1003 = {#Damar
 	
 #}
 
+# Farwatch Tower
+
+farwatch_1100 = {
+	name = "Amuur" #ESO Farwatch Tower Boss
+	religion = auriel
+	culture = auridon
+
+	trait = lifespan_3
+	trait = blademaster_3
+	
+	3371.1.1 = { birth = yes }
+	3502.6.17 = { death = yes } #Killed by Vestige
+}
 
 ## Reachmen
 
@@ -363,61 +376,8 @@ fausta_1101 = {
 	3502.1.1 = { employer = rielle_1005 }
 }
 
-bloodthorn_1000 = {
-	name = "Angof" #"The Gravesinger"
-	dynasty_house = sanuarach_bloodthorn
-	culture = reachfolk
-	religion = old_gods
-	dna = bloodthorn_1000_dna_entry
-	
-	father = sanuarach_18136
+#bloodthorn_1000 in 00_reachfolk.txt
 
-	3462.1.1 = { birth = yes }
-	3478.1.1 = {
-		add_trait = education_magical_ability_4
-		add_trait = necromancer
-		add_trait = wrathful
-		add_trait = brave
-		add_trait = callous
-	}
-	3498.1.1 = {
-		add_trait = lifespan_7
-		#add_trait = lich immortal_age = 36
-		#add_trait = p_omolag
-		give_nickname = nick_the_gravesinger
-	}
-	3502.1.1 = {
-		add_unpressed_claim = title:d_camlorn
-	}
-	3502.1.30 = {
-		effect = { 	
-			spawn_army = {
-				name = "Undead Hoard"
-				men_at_arms = {
-					type = risen_dead
-					stacks = 20
-				}
-				location = province:81
-				origin = province:81
-				war = war_4311_bloodthorn_cult
-				war_keep_on_attacker_victory = yes
-				inheritable = no
-			}
-		}
-	}
-	3503.1.1 = {
-		death = yes 
-	}
-	portrait_override = {	# Will override the character's appearance
-		portrait_modifier_overrides={
-			custom_beards=male_empty
-			custom_hair=no_hair
-			custom_cloaks=male_empty
-			custom_special=male_headgear_special_face_mask_01
-			custom_headgear=male_empty
-		}
-	}
-}
 	
 bloodthorn_1001 = {
 	name = "Lilou"
@@ -605,182 +565,7 @@ uela_01 = {
 ## Bretons
 #Wayrest
 
-#cumberland_1004 = {
-#	name = "Emeric" #ESO
-#	dna = cumberland_1004_dna_entry
-#	dynasty = 420002
-#	religion = breton_cult
-#	culture = iliac
-#
-#	father = cumberland_1003
-#	mother = gardner_1004c
-#	
-#	trait = fatewoven
-#	trait = education_learning_2
-#	trait = education_martial_2
-#	trait = just
-#	trait = diligent
-#	trait = humble
-#	trait = intelligent_2
-#	trait = education_diplomacy_3
-#	trait = education_martial_prowess_2
-	
-#	3441.9.12 = { 
-#		birth = yes 
-#		trait = sign_thief
-#		trait = fatewoven
-#	}
-	
-#	3449.9.12 = {
-#		trait = diligent
-#		trait = ambitious
-#	}
-	
-#	3457.9.12 = {
-#		trait = diplomat
-#		trait = administrator
-#		trait = education_stewardship_4
-#	}
-
-#	3457.9.12 = { give_nickname = nick_trade_king }
-#	3457.10.11 = {
-#		effect = {
-#			add_prestige_level = 3
-#		}
-#	}
-#	3461.6.1 = { 
-#		trait = brave
-#		trait = gallant
-#	}
-#	
-#	3486.7.1 = { add_spouse = bergama_1006 }
-
-#	3486.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:bergama_1005 } }
-#	3486.7.1 = {
-#		effect = {
-#			create_alliance = character:bergama_1005
-#            add_opinion = {
-#                modifier = perk_negotiated_alliance_opinion
-#                target = character:bergama_1005
-#            }
-#		}
-#	}
-
-#	3487.7.1 = {
-#		effect = {
-#			create_alliance = character:rielle_1005
-#            add_opinion = {
-#                modifier = perk_negotiated_alliance_opinion
-#                target = character:rielle_1005
-#            }
-#		}
-#	}
-#	3488.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:deleyn_1005 } }	
-#	3488.7.1 = {
-#		effect = {
-#			create_alliance = character:deleyn_1005
-#            add_opinion = {
-#                modifier = perk_negotiated_alliance_opinion
-#                target = character:deleyn_1005
-#            }
-#		}
-#	}
-#	3496.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:tamrith_1005 } }
-#	3496.7.1 = {
-#		effect = {
-#			create_alliance = character:tamrith_1005
- #           add_opinion = {
- #               modifier = perk_negotiated_alliance_opinion
- #               target = character:tamrith_1005
- #           }
-#		}
-#	}
-#	3496.7.1 = {
-#		effect = {
-#			create_alliance = character:cumberland_1006
- #           add_opinion = {
-#                modifier = perk_negotiated_alliance_opinion
-#                target = character:cumberland_1006
-#            }
-#		}
-#	}
-#	3497.7.1 = {
-#		effect = {
-#			create_alliance = character:guimard_1011
-#            add_opinion = {
-#                modifier = perk_negotiated_alliance_opinion
-#                target = character:guimard_1011
-#            }
-#		}
-#	}
-#	3498.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:bagrakh_1103 } }
-#	3498.7.1 = {
-#		effect = {
-#			create_alliance = character:bagrakh_1103
-#            add_opinion = {
-#                modifier = perk_negotiated_alliance_opinion
-#                target = character:bagrakh_1103
-#           }
-#		}
-#	}
-#	3500.7.1 = {
-#		effect = {
-#			create_alliance = character:covenantcaptain_999
-#			create_alliance = character:dortene_1000
-#		}
-#	}
-#	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:arana_1001 } }
-#	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:flamehair_1014 } }
-#	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:bloodthorn_1000 } }
-#	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:fausta_1100 } }
-#	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:branquette_montclair_1001 } }
-#	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:supernaldreamers_1000 } }
-#	
-#	3500.7.1 = {
-#		add_unpressed_claim = title:e_cyrodiil
-#	}
-#	3500.7.1 = {
-#		add_pressed_claim = title:c_pariah_abbey
-#	}
-#	
-#	3500.1.30 = {
-#		effect = { 	
-#			spawn_army = {
-#				name = "Lion Guard"
-#				men_at_arms = {
-#					type = spellswords
-#					stacks = 3
-#				}
-#				men_at_arms = {
-#					type = breton_hedge_knights
-#					stacks = 9
-#				}
-#				men_at_arms = {
-#					type = breton_pikemen_companies
-#					stacks = 4
-#				}
-#				location = province:181
-#				origin = province:181
-#				war = war_4315_virminas_gamble
-#				war_keep_on_attacker_victory = yes
-#				inheritable = yes
-#			}
-#		}
-#	}
-#	
-#	
-#	3510.1.1 = { death = no }
-#	
-#	portrait_override={
-#		portrait_modifier_overrides={
-#				custom_headgear=male_headgear_secular_ep1_western_royalty_01
-#				custom_beards=male_beard_western_09
-#				custom_hair=male_hair_indian_02
-#				custom_clothes=male_clothes_secular_steppe_nobility_01_high
-#				custom_cloaks=male_cloaks_secular_fp1_nobility_02
-#		}
-#	}
-#}
+#cumberland_1004 in 00_breton.txt
 
 cumberland_1006 = {
 	name = "Nathaniel" #ESO
@@ -830,8 +615,6 @@ cumberland_1006 = {
 
 #Lion Guard
 
-# General
-
 lionguard_1001 = {
 	name = "Mandin"
 	female = yes
@@ -842,8 +625,6 @@ lionguard_1001 = {
 	3475.1.1 = { birth = yes }
 	3502.1.1 = { employer = rielle_1005 }
 }
-
-# Captain
 
 lionguard_1101 = {
 	name = "Pennet"
@@ -945,129 +726,25 @@ gautier_1102 = {
 	3502.1.1 = { employer = rielle_1005 }
 }
 
-#Daggerfall
 
-# Deleyn
-#deleyn_1005 = {
-	#name = "Casimir" #ESO
-#	dna = deleyn_1005_dna_entry
-#	dynasty = 400001
-#	religion = breton_cult
-#	culture = glenumbran
+#deleyn_1005 #in breton.txt
 
-##	father = deleyn_1004
+#croix_1006 #in breton.txt
 
-#	3470.1.1 = { birth = yes }
-#	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:cumberland_1004 } }
-#	3487.7.1 = {
-#		effect = {
-#			create_alliance = character:cumberland_1004
- #           add_opinion = {
- #               modifier = perk_negotiated_alliance_opinion
- #               target = character:cumberland_1004
- #           }
-#		}
-#	}
-	
-#	3487.7.1 = {
-#		effect = {
-#			create_alliance = character:rielle_1005
-#            add_opinion = {
- #               modifier = perk_negotiated_alliance_opinion
- #               target = character:rielle_1005
- #           }
-#		}
-#	}
-	
-#	3500.1.30 = {
-##		effect = { 	
-#			spawn_army = {
-#				name = "Knights of the Dragon"
-#				men_at_arms = {
-#					type = breton_hedge_knights
-#					stacks = 9
-#				}
-#				men_at_arms = {
-#					type = breton_pikemen_companies
-#					stacks = 4
-#				}
-#				location = province:18
-#				origin = province:18
-#				war = war_4311_bloodthorn_cult
-#				war_keep_on_attacker_victory = yes
-#				inheritable = yes
-#			}
-#		}
-#	}
-#	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:bloodthorn_1000 } }
-#	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:fausta_1100 } }
-#	3550.1.1 = { death = yes }
-#	
-#		portrait_override={
-#		portrait_modifier_overrides={
-#			custom_hair=male_hair_western_02
-#			custom_beards=male_beard_fp2_iberian_christian_01
-#		}
-#	}
-#}
-
-croix_1006 = {
-	name = "Grivier"
-	dynasty = 400014
-	religion = breton_cult
-	culture = glenumbran
-
-	mother = croix_1005
-
-	3472.1.1 = { birth = yes }
-	3495.1.1 = { employer = deleyn_1005 }
-	3495.1.1 = { give_council_position = councillor_court_steward }
-	3555.1.1 = { death = yes }
-}
-
-brousseau_1007 = {
-	name = "Jeberilie"
-	dynasty = 400015
-	female = yes
-	religion = breton_cult
-	culture = glenumbran
-
-	father = brousseau_1004
-
-	3475.1.1 = { birth = yes }
-	3535.1.1 = { death = yes }
-}
+#brousseau_1007 = {
 
 # Camlorn
 
 #rielle_1005 = { in 00_breton.txt
 
-
 #evermore
 #guimard_1011 = {#in 00_breton.txt
-
 
 #guimard_1013 = {in 00_breton.txt
 
 #guimard_1014 = {in 00_breton.txt
 
-
-guimard_1023 = {
-	name = "Arzhela" #eso Queen of Evermore
-	female = yes
-	dynasty = 430000
-	culture = iliac
-	religion = breton_cult
-
-	dna = guimard_1023_dna_entry
-	
-	#father = guimard_1011
-	#mother = 15127
-
-	3452.1.1 = { birth = yes }
-	3538.1.1 = { death = yes }
-}
-
+#guimard_1023 = {in 00_breton.txt
 
 #House Branquette-Montclair
 
@@ -1193,49 +870,10 @@ edrald_1004 = {
 
 #Tamrith
 
-#tamrith_1005 = {
-#	name = "Eselde" #ESO
-#	dynasty = 410005
-#	religion = breton_cult
-#	culture = northmen
-#	female = yes
-#
-#	dna = tamrith_1005_dna_entry
-#	
-#	father = tamrith_1004
-#	mother = elde_1003
-#
-#	3475.1.1 = { birth = yes }
-#	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:cumberland_1004 } }
-#	3487.7.1 = {
-##		effect = {
-#			create_alliance = character:cumberland_1004
-  #          add_opinion = {
-   #             modifier = perk_negotiated_alliance_opinion
-    #            target = character:cumberland_1004
-     #       }
-		#}
-#	}
-#	3490.1.1 = {
-#		effect = {
-#			add_pressed_claim = title:c_shornhelm
-#			add_pressed_claim = title:d_shornhelm
-#			add_pressed_claim = title:k_shornhelm
-#		}
-#	}
-#	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:branquette_montclair_1001 } }
-#	3535.1.1 = { death = yes }
-#
-#		portrait_override={
-#		portrait_modifier_overrides={
-#			custom_hair=female_hair_western_09
-#			custom_beards=female_empty
-#		}
-#	}
-#}
+#tamrith_1005 in 00_breton.txt
 
 
-
+#redain
 
 redain_1101 = {
 	name = "Bernard"
@@ -1275,6 +913,8 @@ redain_1103 = {
 	3565.1.1 = { death = yes }
 }
 
+#miller
+
 miller_1101 = {
 	name = "Morric"
 	dynasty = 400101
@@ -1298,6 +938,8 @@ miller_1102 = {
 	3502.1.1 = { employer = beldama_1003 }
 	3535.1.1 = { death = yes }
 }
+
+#chaudry
 
 chaudry_1101 = {
 	name = "Ronyssa"
@@ -1367,19 +1009,7 @@ noellaume_1003 = {
 	3518.1.1 = { death = yes }
 }
 
-# Farwatch Tower
 
-farwatch_1100 = {
-	name = "Amuur" #ESO Farwatch Tower Boss
-	religion = auriel
-	culture = auridon
-
-	trait = lifespan_3
-	trait = blademaster_3
-	
-	3371.1.1 = { birth = yes }
-	3502.6.17 = { death = yes } #Killed by Vestige
-}
 
 # Redrook Bandits
 
@@ -1723,38 +1353,7 @@ bonebreaker_1006 = {
 	}
 }
 
-seamount_1004 = {
-	name = "Tazgol" #ESO
-	dynasty = 800013
-	religion = code_of_malacath
-	culture = mountain_orc
-	
-	trait = brave
-	trait = blademaster_3
-	
-	father = seamount_1003
-	mother = seamount_1003b
-	
-	3460.1.1 = { birth = yes }
-	3480.1.1 = { add_spouse = seamount_1004b }
-	3482.1.1 = { effect = { make_concubine = character:seamount_1004c } }
-	3484.1.1 = { effect = { make_concubine = character:seamount_1004d } }
-	3512.1.1 = { 
-		death = {
-			death_reason = death_duel
-			killer = seamount_1006
-		}
-	}
-
-	portrait_override={
-		portrait_modifier_overrides={
-				custom_clothes=male_clothes_secular_riekling_01
-				custom_headgear=male_headgear_secular_steppe_war_nobility_01
-				custom_legwear=male_legwear_secular_western_war_01
-				custom_cloaks=male_furs_secular_fp1_nobility_03
-		}
-	}
-}
+#seamount_1004 in 00_orsimer.txt 
 
 #Bagrakh
 
@@ -2965,25 +2564,7 @@ bhosek_1003 = {
 #     Hews Bane             #
 #############################
 
-danobia_1002 = {
-	name = "Falorah"
-	dynasty = 210002
-	religion = tall_papa
-	culture = crown
-	female = yes
-	
-	trait = callous
-	trait = ambitious
-	trait = stubborn
-	trait = beauty_good_3
-	
-	father = danobia_1000
-
-	3455.1.1 = { birth = yes }
-	3465.1.1 = { give_nickname = nick_the_jewel }
-	3525.1.1 = { death = yes }	
-}
-
+#danobia_1002 in 00_redguard.txt
 
 ironwheel_1000 = {
 	name = "Chief Inspector Rhanbiq"
@@ -3143,11 +2724,6 @@ dufort_1007 = { #Eleas brother and court mage
 	3522.1.1 = { death = yes }
 }
 
-
-#garicks rest
-
-#gonfalon bay
-
 #tor draioch
 #Magister Irin
 tordraioch_1000 = {
@@ -3223,10 +2799,6 @@ mornard_1005 = {
 	3462.1.1 = { birth = yes }
 	3570.1.1 = { death = yes }
 }
-#old coin
-
-#brokerrockmine
-
 
 # yffelon
 
