@@ -244,7 +244,141 @@ e_seventh_legion = {
 
 }
 
+e_legion_loyalist = {
+	pattern="pattern__solid_designer.dds"
+	color1=grey
+	color2=rgb { 170 169 173 }
+	color3=blue
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_imperial_reman_2.dds"
+		instance={
+			position={ 0.750000 0.250000 }
+			scale={ 0.300000 0.300000 }
+			depth=4.010000
+		}
 
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_bendlet.dds"
+		instance={
+			position={ 0.880000 0.500000 }
+			scale={ 0.630000 1.000000 }
+			depth=1.010000
+			rotation=45
+		}
+
+		instance={
+			position={ 0.120000 0.500000 }
+			scale={ 0.630000 1.000000 }
+			depth=2.010000
+			rotation=45
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_imperial_reman_1.dds"
+		instance={
+			position={ 0.250000 0.250000 }
+			scale={ 0.300000 0.300000 }
+			depth=6.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_mascle.dds"
+		instance={
+			position={ 0.500000 0.780000 }
+			scale={ 0.180000 0.150000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.500000 0.220000 }
+			scale={ 0.180000 0.150000 }
+			depth=10.010000
+		}
+
+		instance={
+			scale={ 0.850000 0.850000 }
+			depth=12.010000
+		}
+
+		instance={
+			scale={ 0.300000 0.300000 }
+			depth=13.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_imperial_reman_3.dds"
+		instance={
+			position={ 0.250000 0.750000 }
+			scale={ 0.300000 0.300000 }
+			depth=5.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		texture="ce_mascle.dds"
+		instance={
+			scale={ 0.680000 0.680000 }
+			depth=11.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_imperial_reman_4.dds"
+		instance={
+			position={ 0.750000 0.750000 }
+			scale={ 0.300000 0.300000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_ordinary_pall_5.dds"
+		instance={
+			position={ 0.500000 0.040000 }
+			scale={ 0.000000 0.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_pile_mask.dds"
+		instance={
+			position={ 0.670000 0.500000 }
+			scale={ 0.080000 0.130000 }
+			depth=7.010000
+			rotation=270
+		}
+
+		instance={
+			position={ 0.330000 0.500000 }
+			scale={ 0.080000 0.130000 }
+			depth=8.010000
+			rotation=90
+		}
+
+	}
+
+}
 
 k_nomads_alikr = {
 				pattern="pattern_vertical_stripes_07.dds"

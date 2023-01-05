@@ -2384,7 +2384,7 @@ acatis_1002 = {
 	female = yes
 
 	father = 
-
+	
 	trait = education_stewardship_2
 	trait = paranoid
 	trait = brave

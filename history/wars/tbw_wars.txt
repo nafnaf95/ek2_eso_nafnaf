@@ -31,6 +31,17 @@ war = {
 	claimant = dortene_1000
 }
 
+war = {
+	name = "war_4000_three_banners_war"
+	start_date = 3502.1.30
+	end_date = 3522.1.30
+	targeted_titles = { e_legion_loyalist }
+	casus_belli = claim_cb
+	attackers = { dremora_molag_kena }
+	defenders = { nipia_1052 nipia_1022 }
+	claimant = dremora_molag_kena
+}
+
 ##########################
 #      High ROck         #
 ##########################

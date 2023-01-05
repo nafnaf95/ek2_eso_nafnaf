@@ -89,14 +89,74 @@ dremora_molag_kena = { #Molag Kena - Imperial City / Legion Zero
 				name = "Legion zero"
 				men_at_arms = {
 					type = spellswords
-					stacks = 2
+					stacks = 4
 				}
 				men_at_arms = {
 					type = armored_legionaires
-					stacks = 6
+					stacks = 8
 				}
 				location = province:2071
 				origin = province:2071
+				inheritable = yes
+			}
+		}
+	}
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Spawn of Molag Bal"
+				men_at_arms = {
+					type = daedra
+					stacks = 6
+				}
+				men_at_arms = {
+					type = risen_dead
+					stacks = 10
+				}
+				location = province:2088
+				origin = province:2071
+				war = war_4000_three_banners_war
+				war_keep_on_attacker_victory = yes
+				inheritable = yes
+			}
+		}
+	}
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Spawn of Molag Bal"
+				men_at_arms = {
+					type = daedra
+					stacks = 6
+				}
+				men_at_arms = {
+					type = risen_dead
+					stacks = 10
+				}
+				location = province:2147
+				origin = province:2071
+				war = war_4000_three_banners_war
+				war_keep_on_attacker_victory = yes
+				inheritable = yes
+			}
+		}
+	}
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Spawn of Molag Bal"
+				men_at_arms = {
+					type = daedra
+					stacks = 6
+				}
+				men_at_arms = {
+					type = risen_dead
+					stacks = 10
+				}
+				location = province:2138
+				origin = province:2071
+				war = war_4000_three_banners_war
+				war_keep_on_attacker_victory = yes
 				inheritable = yes
 			}
 		}

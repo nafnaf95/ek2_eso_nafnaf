@@ -154,8 +154,16 @@ e_legion_zero = {
 	3480.1.1 = { holder = dremora_molag_kena }	## ESO Molag Kenas Legion forces
 }
 
-e_seventh_legion = {
+e_seventh_legion = { # Septima Tharn Hallins Stand
 	3480.1.1 = { holder = tharn_226 }
+}
+
+e_legion_loyalist = { # Legion Loyalist forces in cyrodiil
+	3500.1.1 = { holder = nipia_1052}
+}
+
+k_second_legion = { # Legion Loyalist forces in cyrodiil
+	3500.1.1 = { holder = nipia_1022 liege = e_legion_loyalist }
 }
 
 d_sea_vipers = {

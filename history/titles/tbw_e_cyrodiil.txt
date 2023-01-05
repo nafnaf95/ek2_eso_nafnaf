@@ -283,6 +283,7 @@ c_nikel = {
 		holder = lex_caius
 	}
 	3496.1.3 = { holder = nipia_1052 }
+	3500.1.1 = { holder = dremora_molag_kena }
 	#3367.1.1 = { holder = nipia_1143 }
 }
 c_empire = {
@@ -295,6 +296,7 @@ c_empire = {
 		liege = k_heartlands
 	}
 	3496.1.3 = { holder = nipia_1052 }
+	3500.1.3 = { holder = nipia_1052 }
 }
 c_yellow_tick = {
 	3358.1.1 = {
@@ -326,6 +328,7 @@ d_virtue = {
 	3455.1.1 = { liege = e_cyrodiil } #EK1 import
 	3470.1.1 = { holder = quintilius_353 }
 	3495.1.1 = { holder = quintilius_354 }
+	3500.1.1 = { holder = dremora_molag_kena }
 	3514.1.1 = { liege = k_falkreath } #EK1 import
 	3518.1.1 = { liege = e_cyrodiil } #EK1 import
 	3534.1.1 = { liege = 0 }
@@ -345,6 +348,7 @@ c_virtue = {
 	3436.1.1 = { holder = quintilius_352 }
 	3470.1.1 = { holder = quintilius_353 }
 	3495.1.1 = { holder = quintilius_354 }
+	3500.1.1 = { holder = dremora_molag_kena }
 	3540.1.1 = { holder = quintilius_355 }
 	3586.1.1 = { holder = quintilius_356 }
 	3595.1.1 = { holder = quintilius_357 }
@@ -360,6 +364,7 @@ c_vindasel = {
 	3436.1.1 = { holder = quintilius_352 }
 	3470.1.1 = { holder = quintilius_353 }
 	3495.1.1 = { holder = quintilius_354 }
+	3500.1.1 = { holder = dremora_molag_kena }
 	3540.1.1 = { holder = quintilius_355 }
 	3586.1.1 = { holder = quintilius_356 }
 	3595.1.1 = { holder = quintilius_357 }
@@ -381,6 +386,7 @@ c_tenhall = {
 	3436.1.1 = { holder = quintilius_352 }
 	3470.1.1 = { holder = quintilius_353 }
 	3495.1.1 = { holder = quintilius_354 }
+	3500.1.1 = { holder = dremora_molag_kena }
 	3540.1.1 = { holder = quintilius_355 }
 	3586.1.1 = { holder = quintilius_356 }
 	3595.1.1 = { holder = quintilius_357 }
@@ -508,6 +514,7 @@ c_urasek = {
 	3414.1.1 = { holder = terentius_104 }
 	3418.1.1 = { holder = terentius_105 }
 	3466.1.1 = { holder = terentius_107 }
+	3500.1.3 = { holder = nipia_1052 }
 }
 c_chalman = {
 	300.1.1 = { change_development_level = 10 }
@@ -539,6 +546,7 @@ c_vilverin = {
 		liege = d_urasek
 	}
 	3500.1.1 = { holder = aerius_279 }
+	3500.1.1 = { holder = aerius_279 liege = e_legion_zero }
 	3546.1.1 = { holder = aerius_280 }
 	3572.1.1 = { holder = aerius_281 }
 	3592.1.1 = { holder = aerius_282 }
@@ -615,6 +623,7 @@ d_homestead = {
 	3373.1.1 = { holder = ottiliae_252 }
 	3410.1.1 = { holder = 0 }
 	3496.1.3 = { holder = nipia_1000 }
+	3500.1.3 = { holder = nipia_1000 liege = e_legion_zero }
 }
 c_homestead = {
 	300.1.1 = { change_development_level = 12 }
@@ -868,6 +877,7 @@ d_glademist = {
 	3403.1.1 = { holder = sosildor_102 }
 	3442.1.1 = { holder = sosildor_103 }
 	3468.1.1 = { holder = sosildor_104 }
+	3500.1.1 = { holder = sosildor_104 liege = e_legion_zero }
 	3503.1.1 = { holder = sosildor_106 }
 }
 c_glademist = {
@@ -2232,6 +2242,9 @@ d_vlastarus = {
 	3474.1.1 = { 
 		liege = 0
 		holder = falto_103 }
+	3500.1.1 = { 
+		liege = e_legion_loyalist
+		holder = falto_103 }
 	3511.1.1 = { 
 		liege = 0
 		holder = falto_104 }
@@ -2360,6 +2373,7 @@ d_faregyl = {
 	3409.1.1 = { holder = sintav_103 }
 	3439.1.1 = { holder = sintav_104 }
 	3476.1.1 = { holder = sintav_105 }
+	3500.1.1 = { holder = sintav_105 liege = e_legion_zero }
 }
 c_faregyl = {
 	300.1.1 = { change_development_level = 9 }
@@ -2434,6 +2448,7 @@ c_nisin = {
 	3374.1.1 = { holder = chiral_1001 }
 	3419.1.1 = { holder = chiral_1002 }
 	3495.1.1 = { holder = quintilius_354 }
+	3500.1.1 = { holder = dremora_molag_kena }
 }
 
 c_blessed_water = {
@@ -2460,6 +2475,7 @@ c_mistmirror = {
 		liege = k_abbey_eight
 		holder = scivia_1000
 	}
+	3500.1.1 = { holder = dremora_molag_kena }
 }
 ##Kingdom of Cheydinhal
 k_cheydinhal = {
@@ -2662,6 +2678,7 @@ c_belda = {
 	3424.1.1 = { holder = sartos_104 }
 	3455.1.1 = { holder = sartos_105 }
 	3490.1.1 = { holder = sartos_106 }
+	3500.1.1 = { holder = sartos_106 liege = e_legion_zero }
 	3520.1.1 = { holder = sartos_107 }
 }
 c_cephoriad = {
@@ -2676,6 +2693,7 @@ c_cephoriad = {
 	3437.1.1 = { holder = sartos_204 }
 	3456.1.1 = { holder = sartos_205 }
 	3489.1.1 = { holder = sartos_207 }
+	3500.1.1 = { holder = sartos_207 liege = e_legion_zero }
 	3525.1.1 = { holder = sartos_208 }
 }
 
@@ -2691,6 +2709,7 @@ d_blueroad = {
 	}
 	3410.1.1 = { holder = domian_3426 }
 	3465.1.1 = { holder = domian_3427 }
+	3500.1.1 = { holder = domian_3427 liege = e_legion_zero }
 	3506.1.1 = { holder = domian_3428 }
 }
 c_blue_road = {
@@ -2862,6 +2881,7 @@ d_scinia = {
 	3400.1.1 = { liege = e_nibenay }
 	3439.1.1 = { holder = crito_3467 }
 	3482.1.1 = { holder = crito_3468 }
+	3500.1.1 = { holder = crito_3468 liege = e_legion_loyalist }
 	3529.1.1 = { holder = crito_3469 }
 	3543.1.1 = { holder = crito_3470 }
 	3577.1.1 = { holder = crito_3471 }
@@ -3023,6 +3043,7 @@ d_cropsford = {
 	3423.1.1 = { holder = crestbridge_1001 }
 	3452.1.1 = { holder = cropsford_1001 }
 	3462.1.1 = { holder = cropsford_1002 }
+	3500.1.1 = { holder = cropsford_1002 liege = e_legion_zero }
 }
 c_cropsford = {
 	300.1.1 = { change_development_level = 9 }
@@ -3220,6 +3241,7 @@ c_bay_roan = {
 		liege = k_bravil
 		holder = bay_roan_1001
 	}
+	3500.1.1 = { holder = dremora_molag_kena }
 }
 c_ione = {
 	3301.1.1 = {
@@ -3234,6 +3256,7 @@ c_ione = {
 	3404.1.1 = { holder = fleccian_3389 }
 	3465.1.1 = { holder = fleccian_3390 }
 	3495.1.1 = { holder = fleccian_3391 }
+	3500.1.1 = { holder = dremora_molag_kena }
 	3508.1.1 = { holder = fleccian_3392 }
 	3560.1.1 = { holder = fleccian_3393 }
 	3598.1.1 = { holder = fleccian_3394 }
@@ -4396,6 +4419,7 @@ c_dragonclaw = {
 	3447.1.1 = { holder = wolfgale_9082 }
 	3483.1.1 = { holder = wolfgale_9083 }
 	3490.1.1 = { liege = d_frostcrag }
+	3500.1.1 = { holder = dremora_molag_kena }
 	3503.1.1 = { holder = wolfgale_9084 }
 	3562.1.1 = { holder = wolfgale_9085 }
 	3579.1.1 = { holder = wolfgale_9086 }
@@ -4553,6 +4577,7 @@ d_cloudruler = {
 	3421.1.1 = { holder = siborel_104 }
 	3422.1.1 = { liege = k_bruma }
 	3477.1.1 = { holder = siborel_105 }
+	3500.1.1 = { holder = siborel_105 liege = e_legion_loyalist }
 	3510.1.1 = { holder = siborel_106 }
 }
 c_cloudruler = {
@@ -4561,6 +4586,7 @@ c_cloudruler = {
 	3316.1.1 = { holder = ssaryz_100 }
 	3421.1.1 = { holder = siborel_104 }
 	3477.1.1 = { holder = siborel_105 }
+	3500.1.3 = { holder = dremora_molag_kena }
 	3510.1.1 = { holder = siborel_106 }
 }
 c_applewatch = {

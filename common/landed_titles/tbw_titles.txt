@@ -12,6 +12,30 @@ e_legion_zero = {
 	}		
 }
 
+e_legion_loyalist = {
+	color = { 60 60 60 }
+	capital = c_empire
+	definite_form = yes
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}		
+}
+
+k_second_legion = {
+	color = { 128 32 0 }
+	capital = c_red_ruby
+	definite_form = yes
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}		
+}
+
 e_seventh_legion = {
 	color = { 128 32 0 }
 	capital = c_ojwambu
