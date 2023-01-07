@@ -3,20 +3,11 @@
 ###########################################
 
 ###########################################
-#  NafNaf, Mettyu, TJG Three Banner War   #
+#  NafNaf_95, Mettyu, TJG, Emily,         #
 ###########################################
-
-#personality_cynical
-#personality_content
-
-
-
-
-
-
-
-
-
+###########################################
+#           Three Banners War             #
+###########################################
 bm_alliancewar = {
  	start_date = 3502.1.30
 	is_playable = yes
@@ -112,7 +103,7 @@ bm_alliancewar = {
 		dynasty_splendor_level = 5
 		type = female
 		birth = 3451.1.1
-		title = e_legion_zero
+		title = k_legion_zero
 		government = autocracy_government
 		culture = dremora
 		religion = molag_cult
@@ -196,7 +187,7 @@ bm_alliancewar_cyrodiil = {
 		dynasty_splendor_level = 5
 		type = female
 		birth = 3451.1.1
-		title = e_legion_zero
+		title = k_legion_zero
 		government = autocracy_government
 		culture = dremora
 		religion = molag_cult
@@ -537,14 +528,14 @@ bm_alliancewar_pact = {
 		name = "bm_alliancewar_pact_gavryn"
 		dynasty = 1300001
 		dynasty_splendor_level = 5
-		type = male
+		type = female
 		birth = 3290.1.1
 		title = k_redoran
 		government = autocracy_government
 		culture = gah_julan
 		religion = tribunal_temple
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		history_id = redoran_1000
+		history_id = redoran_4000
 		position = { 600 300 }
 
 		animation = personality_zealous
@@ -586,7 +577,7 @@ bm_alliancewar_pact = {
 	
 	character = {
 		name = "bm_alliancewar_pact_thorn"
-		dynasty = flamehair
+		dynasty = meen
 		dynasty_splendor_level = 5
 		type = male
 		birth = 3466.1.1
@@ -651,7 +642,7 @@ bm_alliancewar_hammerfell = {
 	
 	character = {
 		name = "bm_alliancewar_hammerfell_abah"
-		dynasty_house = 
+		dynasty_house = cosh
 		dynasty_splendor_level = 5
 		type = male
 		birth = 3438.1.1
@@ -720,7 +711,7 @@ bm_alliancewar_hammerfell = {
 	
 	character = {
 		name = "bm_alliancewar_hammerfell_dreadsails"
-		#dynasty = 800013
+		dynasty = maormer_pirate_1
 		dynasty_splendor_level = 5
 		type = male
 		birth = 3470.1.1
@@ -738,7 +729,7 @@ bm_alliancewar_hammerfell = {
 	
 	character = {
 		name = "bm_alliancewar_hammerfell_keelcutter"
-		dynasty = 110000
+		dynasty = maormer_pirate_1
 		dynasty_splendor_level = 10
 		type = female
 		birth = 3468.1.1
@@ -755,7 +746,7 @@ bm_alliancewar_hammerfell = {
 
 		character = {
 		name = "bm_alliancewar_hammerfell_dugal"
-		dynasty_house = 100042
+		dynasty = 100042
 		dynasty_splendor_level = 5
 		type = male
 		birth = 3438.1.1

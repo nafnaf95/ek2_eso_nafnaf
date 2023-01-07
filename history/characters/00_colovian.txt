@@ -4463,6 +4463,8 @@ nipia_1052 = {
 				}
 				location = province:2147
 				origin = province:2147
+				war = war_4000_three_banners_war
+				war_keep_on_attacker_victory = yes
 				inheritable = yes
 			}
 		}
@@ -4481,6 +4483,28 @@ nipia_1052 = {
 				}
 				location = province:2138
 				origin = province:2147
+				war = war_4000_three_banners_war
+				war_keep_on_attacker_victory = yes
+				inheritable = yes
+			}
+		}
+	}
+	3500.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "Legion loyalist's"
+				men_at_arms = {
+					type = nibenese_battlemages
+					stacks = 2
+				}
+				men_at_arms = {
+					type = armored_legionaires
+					stacks = 6
+				}
+				location = province:2103
+				origin = province:2147
+				war = war_4000_three_banners_war
+				war_keep_on_attacker_victory = yes
 				inheritable = yes
 			}
 		}

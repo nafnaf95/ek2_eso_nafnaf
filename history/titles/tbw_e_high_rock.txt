@@ -52,6 +52,7 @@ d_jehanna = {
 	3320.1.1 = { holder = orgak_999 }
 	3350.1.1 = { holder = sorrowmaker_1000 }
 	3395.1.1 = { holder = sorrowmaker_1001 }
+	3500.1.1 = { holder = winterborn_1100 }
 }
 
 c_jehanna = {
@@ -59,7 +60,7 @@ c_jehanna = {
 	3320.1.1 = { holder = orgak_999 }
 	3350.1.1 = { holder = sorrowmaker_1000 }
 	3395.1.1 = { holder = sorrowmaker_1001 }
-	3486.1.30 = { holder = winterborn_1100 }
+	3500.1.1 = { holder = winterborn_1100 }
 }
 
 c_sorrow = {
@@ -73,19 +74,19 @@ c_sorrow = {
 
 c_coldperch = {
 	3350.1.1 = { holder = coldperch_1000 }
-	3486.1.30 = { holder = winterborn_1100 }
+	3500.1.1 = { holder = winterborn_1100 }
 }
 
 c_dunlain = {
 	3350.1.1 = { holder = ironbeak_1000 }
 	3401.1.1 = { holder = ironbeak_1001 }
-	3486.1.30 = { holder = winterborn_1100 }
+	3500.1.1 = { holder = winterborn_1100 }
 }
 
 c_cloud_spring = {
 	3350.1.1 = { holder = ironbeak_1000 }
 	3365.1.1 = { holder = knotbeard_1000 }
-	3486.1.30 = { holder = winterborn_1100 }
+	3500.1.1 = { holder = winterborn_1100 }
 }
 
 #k_wrothgar
@@ -245,6 +246,7 @@ c_cambrian = {
 
 c_bonerock = {
 	3350.1.1 = { holder = bonecrack_1000 }
+	3500.1.1 = { holder = bagrakh_1103 }
 }
 
 c_scarp = {
@@ -1133,6 +1135,7 @@ d_kambria = {
 		government = feudal_government
 	}
 	3350.1.1 = { holder = ildene_1000 }
+	3500.1.1 = { holder = 0 }
 }
 
 c_kambria = {

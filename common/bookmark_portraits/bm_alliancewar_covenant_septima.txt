@@ -2,7 +2,7 @@
 # History database id:tharn_226
 bm_alliancewar_covenant_septima={
 	type=female
-	id=4275
+	id=4279
 	age=0.520000
 	genes={ 		hair_color={ 254 125 79 246 }
  		skin_color={ 161 22 181 116 }
@@ -90,14 +90,14 @@ bm_alliancewar_covenant_septima={
  		face_detail_nose_ridge_def={ "nose_ridge_def_pos" 0 "nose_ridge_def_pos" 0 }
  		face_detail_nose_tip_def={ "nose_tip_def" 181 "nose_tip_def" 181 }
  		face_detail_temple_def={ "temple_def" 127 "temple_def" 127 }
- 		expression_brow_wrinkles={ "brow_wrinkles_03" 123 "brow_wrinkles_03" 0 }
+ 		expression_brow_wrinkles={ "brow_wrinkles_03" 153 "brow_wrinkles_03" 0 }
  		expression_eye_wrinkles={ "eye_wrinkles_01" 255 "eye_wrinkles_01" 183 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_01" 61 "forehead_wrinkles_01" 61 }
- 		expression_other={ "cheek_wrinkles_both_01" 45 "cheek_wrinkles_both_01" 0 }
+ 		expression_other={ "cheek_wrinkles_both_01" 49 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_31" 27 "complexion_30" 137 }
  		gene_height={ "normal_height" 126 "normal_height" 126 }
- 		gene_bs_body_type={ "body_fat_head_fat_low" 157 "body_fat_head_fat_low" 140 }
- 		gene_bs_body_shape={ "body_shape_pear_half" 183 "body_shape_triangle_half" 0 }
+ 		gene_bs_body_type={ "body_fat_head_fat_low" 175 "body_fat_head_fat_low" 140 }
+ 		gene_bs_body_shape={ "body_shape_pear_half" 122 "body_shape_triangle_half" 0 }
  		gene_bs_bust={ "bust_clothes" 109 "bust_default" 93 }
  		gene_age={ "old_1" 159 "old_1" 159 }
  		gene_eyebrows_shape={ "far_spacing_lower_thickness" 237 "far_spacing_high_thickness" 241 }
@@ -181,10 +181,10 @@ bm_alliancewar_covenant_septima={
  		gene_bs_mouth_glamour_lips={ "mouth_glamour_lips" 22 "mouth_glamour_lips" 22 }
  		face_detail_eye_upper_lid_def={ "vanilla_upper_lid_def" 127 "vanilla_upper_lid_def" 127 }
  		pose={ "" 255 "" 0 }
- 		beards={ "western_beards_curly" 50 "no_beard" 0 }
- 		cloaks={ "ek_nibenese_cloak_high" 208 "no_cloak" 0 }
+ 		beards={ "western_beards_straight" 23 "no_beard" 0 }
+ 		cloaks={ "ek_nibenese_cloak_high" 45 "no_cloak" 0 }
  		clothes={ "indian_war_nobility_clothes" 255 "most_clothes" 0 }
- 		legwear={ "western_common_legwear" 50 "all_legwear" 0 }
+ 		legwear={ "western_common_legwear" 27 "all_legwear" 0 }
  		facepaint={ "no_facepaint" 255 "no_facepaint" 0 }
  		tattoos={ "no_tattoos" 255 "no_tattoos" 0 }
  		scarification={ "no_scarification" 255 "no_scarification" 0 }
@@ -200,6 +200,6 @@ bm_alliancewar_covenant_septima={
 		}
 	}
 
-	entity={ 2268070609 2268070609 }
+	entity={ 2268070609 2720375217 }
 }
 

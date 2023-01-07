@@ -688,6 +688,8 @@ rielle_1005 = { #nafedited
 	father = rielle_1004
 	mother = garclay_1003
 	
+	dna = rielle_1005_dna_entry
+
 	3456.1.1 = { birth = yes }
 	3478.1.1 = { add_spouse = lariat_1004b }
 	
@@ -2677,6 +2679,8 @@ branquette_montclair_1001 = { #ESO
 	religion = breton_cult
 	culture = northmen
 
+	dna = branquette_montclair_1001_dna_entry
+
 	father = branquette_montclair_1000
 
 	3449.1.1 = { birth = yes }
@@ -3028,6 +3032,8 @@ dorell_1005 = {
 	dynasty_house = dorell_flowdys
 	religion = breton_cult
 	culture = northmen
+
+	dna = dorell_1005_dna_entry
 
 	mother = dorell_1004
 

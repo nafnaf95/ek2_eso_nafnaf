@@ -91,13 +91,13 @@ bm_alliancewar_hammerfell_dreadsails={
  		face_detail_nose_tip_def={ "nose_tip_def" 22 "nose_tip_def" 22 }
  		face_detail_temple_def={ "temple_def" 193 "temple_def" 193 }
  		expression_brow_wrinkles={ "brow_wrinkles_02" 63 "brow_wrinkles_02" 63 }
- 		expression_eye_wrinkles={ "eye_wrinkles_01" 102 "eye_wrinkles_01" 1 }
- 		expression_forehead_wrinkles={ "forehead_wrinkles_01" 218 "forehead_wrinkles_01" 218 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_01" 1 "eye_wrinkles_01" 1 }
+ 		expression_forehead_wrinkles={ "forehead_wrinkles_01" 255 "forehead_wrinkles_01" 218 }
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_3" 127 "complexion_3" 127 }
  		gene_height={ "normal_height" 157 "normal_height" 157 }
  		gene_bs_body_type={ "body_fat_head_fat_full" 111 "body_fat_head_fat_full" 77 }
- 		gene_bs_body_shape={ "body_shape_average" 131 "body_shape_average" 9 }
+ 		gene_bs_body_shape={ "body_shape_average" 253 "body_shape_average" 9 }
  		gene_bs_bust={ "bust_clothes" 68 "bust_shape_4_full" 85 }
  		gene_age={ "old_elf" 124 "old_elf" 124 }
  		gene_eyebrows_shape={ "far_spacing_lower_thickness" 173 "far_spacing_lower_thickness" 173 }
@@ -199,7 +199,7 @@ bm_alliancewar_hammerfell_dreadsails={
 		}
 	}
 
-	entity={ 2697330347 2697330347 }
+	entity={ 2678666023 2678666023 }
 	tags={ {
 			hash=1796679079
 			invert=no

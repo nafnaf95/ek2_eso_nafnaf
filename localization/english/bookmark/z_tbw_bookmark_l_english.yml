@@ -3,57 +3,81 @@
  # Alliance War
  bm_alliancewar:0 "Three Banners War"
  bm_alliancewar_desc:0 "When Mannimarco, the King of Worms, corrupted the Amulet of Kings just before Emperor Varen's coronation ritual several years ago, he guaranteed that the covenant sealed by Alessia and Akatosh would be broken, and Nirn would no longer be protected from a Daedric invasion. Mannimarco's master, the Daedric Prince Molag Bal, seized the opportunity to initiate the Planemeld, using terrifying Dark Anchors to summon Daedric troops and drag Nirn into the realm of Coldharbour. But three political alliances — the Ebonheart Pact, Daggerfall Covenant, and Aldmeri Dominion — stand against the Daedric Prince and his forces.\n\n#bold The armies of the three alliances converge, ready to fight to the last to preserve their freedom. Never before have the disparate races cooperated so closely, but never before has the threat been so terrible.#!"
+
  bm_alliancewar_dominion:0 "The Aldmeri Dominion"
- bm_alliancewar_dominion_desc:0 "I have no hatred for the races of Man, but they are young. Like all children, they are driven by emotion. They lack the wisdom that comes with age. I would sooner place an Altmer infant on the Ruby Throne than surrender Tamriel to their capricious whims. The Altmer, the Bosmer and the Khajiit share the common traits of intelligence, patience and reason. We do not seek riches or plunder. Domination is not our goal, nor is the acclamation of power for its own sake. Today we make our stand. Today we take back the Ruby Throne, which is ours by ancient right and the blessings of the Divines. Stand with us. ― Ayrenn Arana Aldmeri \n\n#bold Can Queen Ayrenn acomplish her goals and take the ruby throne or will the everpresent darkness take hold? #!"
+
+ bm_alliancewar_dominion_desc:0 "I have no hatred for the races of Man, but they are young. Like all children, they are driven by emotion. They lack the wisdom that comes with age. I would sooner place an Altmer infant on the Ruby Throne than surrender Tamriel to their capricious whims. The Altmer, the Bosmer and the Khajiit share the common traits of intelligence, patience and reason. We do not seek riches or plunder. Domination is not our goal, nor is the acclamation of power for its own sake. Today we make our stand. Today we take back the Ruby Throne, which is ours by ancient right and the blessings of the Divines. Stand with us. ― Ayrenn Arana Aldmeri \n\n#bold The Lands of the Aldmeri Dominon span the golden dunes of Elsweyr, the endless forest that is Valenwood and the "Jewl of Tamriel". Otherwise known as The Summerset Isles and the home of the Altmer. #!"
+
  bm_alliancewar_covenant:0 "The Daggerfall Covenant"
- bm_alliancewar_covenant_desc:0 "Our supplies dwindle. Our trade routes are shut down. Our people suffer. Why? Because a pretender sits upon the Ruby Throne. Let us take up arms! Let the fields of Cyrodiil run red with the blood of our fallen enemies! But let us spare the lives of a few, so that they may return to their homelands to tell their fellows the fate they met at the hands of the Daggerfall Covenant. One land! One Emperor! Who among you will stand with me? ― High King Emeric" #NAFED
+
+ bm_alliancewar_covenant_desc:0 "Our supplies dwindle. Our trade routes are shut down. Our people suffer. Why? Because a pretender sits upon the Ruby Throne. Let us take up arms! Let the fields of Cyrodiil run red with the blood of our fallen enemies! But let us spare the lives of a few, so that they may return to their homelands to tell their fellows the fate they met at the hands of the Daggerfall Covenant. One land! One Emperor! Who among you will stand with me? ― High King Emeric \n\n#bold The Daggerfall Covenant, The idea to bring the Illiac bay together under one treaty, one covenant and restore order to Tamriel. The Kings of Highrock put down arms against an almost ancient foe in the Orcs of Orsinium and an alliance of marrage would bring Hammerfell into the fold. #!"
+
  bm_alliancewar_pact:0 "The Ebonheart Pact"
- bm_alliancewar_pact_desc:0 "Before Ysgramor led the Nord people south, our ancestors flourished in the frozen continent of Atmora, and to this day our people prefer the bitter climates of northern Tamriel. The Dark Elves abide in Morrowind, a harsh land of ashfall and perpetual earthquakes. The Argonians endure the treacherous and impenetrable depths of Black Marsh. The alliance between our races was born in dark times, when Nord, Dunmer and free Argonians fought as one to repel the invasion of the Akaviri slavemasters. Our greatest strength is the adversity we have overcome. Our resolve is glacial, our might is forged in fire, and our courage, cultivated by the beasts of the jungle. We are Ebonheart. We are as one. And by this, our victory is assured,Blood For The Pact! - Jorunn the Skald-King"
+ bm_alliancewar_pact_desc:0 "Before Ysgramor led the Nord people south, our ancestors flourished in the frozen continent of Atmora, and to this day our people prefer the bitter climates of northern Tamriel. The Dark Elves abide in Morrowind, a harsh land of ashfall and perpetual earthquakes. The Argonians endure the treacherous and impenetrable depths of Black Marsh. The alliance between our races was born in dark times, when Nord, Dunmer and free Argonians fought as one to repel the invasion of the Akaviri slavemasters. Our greatest strength is the adversity we have overcome. Our resolve is glacial, our might is forged in fire, and our courage, cultivated by the beasts of the jungle. We are Ebonheart. We are as one. And by this, our victory is assured,Blood For The Pact! - Jorunn the Skald-King  \n\n#bold An Alliance of many foes is what some call the Ebonheart Pact, History says otherwise. The Akaviri Invasion saw an almost unified Morrowind ,assistance from the hardy Nords of Eastern Skyrim and the almost savage tribes of Thorn and Shadowfen proved enough to repell the invaders. #! "
+
  bm_alliancewar_kena:0 "The Forces of Molag Bal"
  bm_alliancewar_kena_desc:0 "The Empress Regent is as lost as the White-Gold Tower! Fool's and craven's that call them selves kings and queens stand no chance against the will of Molag Bal! \n\n#bold Take lead of my forces mortal, Bring devistation and ruin to Nirn in my name!#!"
  
- bm_alliancewar_cyrodiil:0 "Three Banners War"
- bm_alliancewar_cyrodiil_desc:0 ""
+ bm_alliancewar_cyrodiil:0 "Cyrodiil"
+ bm_alliancewar_cyrodiil_desc:0 "When Mannimarco, the King of Worms, corrupted the Amulet of Kings just before Emperor Varen's coronation ritual several years ago, he guaranteed that the covenant sealed by Alessia and Akatosh would be broken, and Nirn would no longer be protected from a Daedric invasion. Mannimarco's master, the Daedric Prince Molag Bal, seized the opportunity to initiate the Planemeld, using terrifying Dark Anchors to summon Daedric troops and drag Nirn into the realm of Coldharbour. But three political alliances — the Ebonheart Pact, Daggerfall Covenant, and Aldmeri Dominion — stand against the Daedric Prince and his forces \n\n#bold The forces of three great alliances crash against the walls of a once great empire, Warlords pick sides and Legions fall while the Daedric Prince of Domination tears his mark on Nirn #!"
  
- "Molag Kena, disguised as the Empress Regent Clivia Tharn, ruled over the Imperial City for an indeterminate amount of time.[4] She consistently requested troops from the Imperial Legion to report to her personally, off the books. She moved the troops this way and that, having them defend positions with no strategic value and sending them off to die at the hands of the invading Daedra for nothing. Molag Kena manipulated legion officials with blackmail and other underhanded tactics to do what she wanted, and called one General Valerius to the White-Gold Tower before the Imperial City was overrun by Molag Bal's forces."
+ bm_alliancewar_cyrodiil_kena:0 "Molag Kena"
+ bm_alliancewar_cyrodiil_kena_desc:0 "Molag Kena, disguised as the Empress Regent Clivia Tharn, ruled over the Imperial City for an indeterminate amount of time. She consistently requested troops from the Imperial Legion to report to her personally, off the books. She moved the troops this way and that, having them defend positions with no strategic value and sending them off to die at the hands of the invading Daedra for nothing. Molag Kena manipulated legion officials with blackmail and other underhanded tactics to do what she wanted, and called one General Valerius to the White-Gold Tower before the Imperial City was overrun by Molag Bal's forces. \n\n#bold The Empress Regent is as lost as the White-Gold Tower! Fool's and craven's that call them selves kings and queens stand no chance against the will of Molag Bal!#!"
+ 
  
  # ep
  bm_alliancewar_pact_jorunn:0 "Jorunn the Skald-King"
  bm_alliancewar_pact_jorunn_desc:0 "Jorunn the Skald-King is a Nord and the High King of Eastern Skyrim and leader of the Ebonheart Pact. He presides over the Great Moot in the Pact's capital of Mournhold. He may be found in Windhelm, in the Skald-King's Temporary Court (located southwest of The Adept's Retreat). King Jorunn is the twin brother of Fildgor Orcthane and younger sibling to the late Queen Nurnhilde. He is also Prince Irnskar's father."
+
  bm_alliancewar_pact_tanval:0 "Grand Ascendant Tanval Indoril"
- bm_alliancewar_pact_tanval_desc:0 "Tanval Indoril is the Grandmaster of House Indoril and leader of the Vanguard. He served alongside Holgunn in the Akaviri War. He has a son, Garyn."
- bm_alliancewar_pact_gavryn:0 "General Gavryn Redoran"
- bm_alliancewar_pact_gavryn_desc:0 "Gavryn Redoran is a Dark Elf general running the Tal'Deic Fortress in eastern Deshaan. In recent times his behavior has become more erratic, punishing minor infractions with executions and accusing various soldiers of being spies and traitors."
+ bm_alliancewar_pact_tanval_desc:0 "House Indoril of Mournhold are one of the five Great Houses, The Indoril were orthodox and conservative supporters of the Tribunal Temple during its millennia-long reign over Morrowind. Claiming kinship with the Tribunal themselves and boasting such ancient heroes as the Hortator, Indoril Nerevar, House Indoril has dominated Temple authority since time immemorial. They have always held prominent positions within the Temple hierarchy, and throughout history the fates of House Indoril and the Temple have been closely linked. Through the Temple, House Indoril's influence was felt across Morrowind, even beyond their traditional borders. Tanval Indoril is the Grandmaster of House Indoril and leader of the Vanguard. He served alongside Holgunn in the Akaviri War. He has a son, Garyn."
+
+ bm_alliancewar_pact_gavryn:0 "High Councilor Meriath"
+ bm_alliancewar_pact_gavryn_desc:0 "House Redoran of Blacklight is one of the five Great Houses of Morrowind. When they joined the Ebonheart Pact House Redoran provided the vast majority of the Dunmer soldiers in the conflict.They are known as a warrior clan, who live by the ideals of duty, gravity, and piety. Their loyalty is first to the Tribunal, second to Great House Redoran, and third to Family and Clan. Redoran prize duty, honor, and piety above all else. They are deeply linked with the Tribunal Temple, helping to enforce the Tribunal's will across Morrowind. High Councilor Meriath rules as the House's Archmaster."
+
  bm_alliancewar_pact_valen:0 "Archcanon Valen"
- bm_alliancewar_pact_valen_desc:0 "Archcanon Valen is the Dunmer heigh priest of the Tribunal Temple, and Lord Vivec's primary servant."
+ bm_alliancewar_pact_valen_desc:0 "Archcanon Valen is the Dunmer heigh priest of the Tribunal Temple, and Lord Vivec's primary servant. The Tribunal Temple being the final voice for all the great Dunmer houses of Morrowind but remains indipendent. \n\n#bold Use the power of the great Dunmer houses of Morrowind as your weapon to bring others into the fold."
+
  bm_alliancewar_pact_omin:0 "Grandmaster Omin"
- bm_alliancewar_pact_omin_desc:0 "Dres"
+ bm_alliancewar_pact_omin_desc:0 "House Dres is one of the Great Houses of Morrowind. They controlled the southeast of Morrowind from Tear. This position allowed them to act as the main slavers for the rest of Morrowind. They were opposed to the Ebonheart Pact's terms, which freed all Argonian slaves. However, unlike the other three Great Houses which belong to the Pact, the Dres still keep non-Argonian slaves in the territories they control. They have strong ties to House Indoril. The House is ruled by Grandmaster Omin Dres from his palace in the Dres city of Kragenmoor."
+
  bm_alliancewar_pact_thorn:0 "Vicecanon Heita-Meen"
- bm_alliancewar_pact_thorn_desc:0 ""
+ bm_alliancewar_pact_thorn_desc:0 "Vicecanon Heita-Meen is an Argonian ex-slave who acts as vicecanon in Stormhold during the time of the Ebonheart Pact. She is largely responsible for the Argonians' entry into the Pact. Heita-Meen was born and raised as a house-dres slave. It was while she was held captive that Heita-Meen received a vision from the Hist, it wanted her to defend the Nords and Dunmer in battle. After seeing how weak the Dunmer in Thorn were, Heita-Meen strangled her Master with his own whip, and challenged the leader of the Archein guard for her position. After gaining command of the Archeins, she marched on Stormhold, the troop encountered Walks-in-Ash, who was able to convince Stormhold's Shellbacks to join without bloodshed. The army then marched on Stonefalls in Morrowind to fight the Akaviri."
+
  bm_alliancewar_pact_ralden:0 "Master Ralden"
- bm_alliancewar_pact_ralden_desc:0 ""
+ bm_alliancewar_pact_ralden_desc:0 "House Hlaalu is one of the Great Houses of Morrowind. Their capital of Narsis, on the banks of Lake Hlaalu, is an important trade city. Their main priorities are business and trade, making compromise a way of life, thus they had no real objection to the Ebonheart Pact, rather they saw it as an opportunity to open more trading routes."
+
  bm_alliancewar_pact_zimmeron:0 "Grand Warlord Zimmeron"
  bm_alliancewar_pact_zimmeron_desc:0 ""
  
  # dc
  bm_alliancewar_covenant_emeric:0 "High King Emeric"
  bm_alliancewar_covenant_emeric_desc:0 "High King Emeric is the King of Wayrest and the leader of the Daggerfall Covenant. He first forged an alliance with the kingdom of Sentinel, in part by marrying Maraya, the daughter of King Fahara'jad. He later convinced many Orc tribes to join the Covenant by promising to aid in the restoration of Orsinium. He leads the Covenant from its capital city of Wayrest, and is protected by the Breton Lion Guard."
+
  bm_alliancewar_covenant_faharajad:0 "King Fahara'jad"
  bm_alliancewar_covenant_faharajad_desc:0 "King Fahara'jad is the ruler of Sentinel and thus one of the chief leaders of the Daggerfall Covenant. With his wife Za-Rifah, he had three children Maraya, Lakana, and Azah. To solidify the Covenant, he agreed to political marriages for two daughters; the eldest, Maraya, married High King Emeric, while Lakana was married to Duke Nathaniel."
+
  bm_alliancewar_covenant_kurog:0 "King Kurog gro-Orsinium"
  bm_alliancewar_covenant_kurog_desc:0 "King Kurog, alternatively known as Kurog gro-Orsinium and Kurog gro-Bagrakh, is the King of Wrothgar and rules from Orsinium. He only rules in theory in northern Wrothgar, which is a patchwork of Strongholds, but he does control southern Wrothgar. Kurog is a controversial ruler, as he joined the Daggerfall Covenant—comprising primarily Redguard and Breton states, which had antagonized the Orcs for centuries. Moreover, Kurog publicly insists that his people worship Trinimac rather than the Daedric Prince Malacath, which fails to convince many other Covenant citizens and makes him unpopular with his people. Currently he is leading a campaign to push the Winterborn out of Wrothgar."
+
  bm_alliancewar_covenant_casimir:0 "King Casimir"
  bm_alliancewar_covenant_casimir_desc:0 "King Casimir is the Breton king of Daggerfall and ally to King Emeric. Currently, his realm of Glenumbra is being invaded by bandits, reachmen, and the Aldmeri Dominion. He must push back the Dominion at Farwatch before they gain a foothold, while also repelling the Bloodthorn Cult and retaking Camlorn for his vassal, Duke Sebastien. Additionally, the Red Rooks have taken several counties and must be pushed out."
+
  bm_alliancewar_covenant_sebastien:0 "Duke Sebastien"
  bm_alliancewar_covenant_sebastien_desc:0 "Duke Sebastien is a Breton and the exiled leader of Camlorn. He has a temporary command in Aldcroft where he spends time with his wife, Lady Rielle, and his daughter, Nadine Rielle. With the support of High Casimir and High King Emeric, Sebastien must lead the Lion Guard under General Gutier and retake his capital."
+
  bm_alliancewar_covenant_angof:0 "Chief Angof the Gravesinger"
  bm_alliancewar_covenant_angof_desc:0 "Angof the Gravesinger is a Reachman necromancer and the leader of the Bloodthorn Cult. He plans to conquer all of Glenumbra and turn its citizens into zombies. To further their goals, they have allied themselves with the Red Rook Bandits and the coven of Hag Fen.\n\n As a lich, he cannot die of old age, however he also cannot produce any hiers. He is currently at war with the Daggerfall Alliance, and failure means certain death."
- bm_alliancewar_covenant_septima:0 "Magnus Baroness Septima Tharn"
- bm_alliancewar_covenant_septima_desc:0 "Imperial"
+
+ bm_alliancewar_covenant_septima:0 "Magnus General Septima Tharn"
+ bm_alliancewar_covenant_septima_desc:0 "Septima Tharn is the Imperial Magus-General of the Imperial Seventh Legion. She is a relation to Empress Regent Clivia Tharn, though there are whispers that she might be a sister or cousin. The Seventh Legion have occupied the region of Bankorai and are at war with the King of Sentinel and Evermore."
+
  bm_alliancewar_covenant_maraya:0 "Queen Maraya"
- bm_alliancewar_covenant_maraya_desc:0 "Imperial"
+ bm_alliancewar_covenant_maraya_desc:0 "Queen Maraya is the wife of High King Emeric, and the daughter of King Fahara'jad. Her marriage to the High King was instrumental in forging the Daggerfall Covenant."
+
  bm_alliancewar_covenant_dortene:0 "Grand Warlord Dortene"
- bm_alliancewar_covenant_dortene_desc:0 "Imperial"
+ bm_alliancewar_covenant_dortene_desc:0 "Grand Warlord Dortene is a Breton commander in charge of the Daggerfall Covenant forces in Cyrodiil during the Three Banners War."
+
  #hammerfell
  bm_alliancewar_hammerfell:0 "Pirates of the Abecean"
  bm_alliancewar_hammerfell_desc:0 "With the Three Banner factions forming and the Ruby Throne falling to the forces of Molag Bal the Abecean Sea once again becomes a hotbed for slavemasters and pirates alike."
@@ -78,7 +102,7 @@
  
  # ad
  bm_alliancewar_dominion_ayrenn:0 "Queen Ayrenn"
- bm_alliancewar_dominion_ayrenn_desc:0 "Queen Ayrenn Arana Aldmeri, the Unforeseen Queen, is the Queen of Alinor and the leader of the Aldmeri Dominion. She leads the Dominion from its capital city of Elden Root."
+ bm_alliancewar_dominion_ayrenn_desc:0 "Queen Ayrenn Arana Aldmeri, the Unforeseen Queen, is the Queen of Alinor and the leader of the Aldmeri Dominion. She leads the Dominion from its capital city of Elden Root. \n\n#bold Can Queen Ayrenn acomplish her goals and take the ruby throne or will the everpresent darkness take hold? #!"
  bm_alliancewar_dominion_aeradan:0 "King Camoran Aeradan"
  bm_alliancewar_dominion_aeradan_desc:0 "King Camoran Aeradan is the current de jure ruler of Valenwood and one of the leaders of the Aldmeri Dominion. He can be found in his throne room within the great graht-oak of Elden Root."
  bm_alliancewar_dominion_akkhuzri:0 "Mane Akkhuz-ri"

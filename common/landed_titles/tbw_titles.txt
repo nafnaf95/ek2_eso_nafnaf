@@ -1,7 +1,7 @@
 ﻿@always_primary_score = 1000
 
-e_legion_zero = {
-	color = { 0 0 0 }
+e_molag_bal = {
+	color = { 60 0 120 }
 	capital = c_imperial_city
 	definite_form = yes
 	de_jure_drift_disabled = yes
@@ -12,7 +12,21 @@ e_legion_zero = {
 	}		
 }
 
-e_legion_loyalist = {
+
+
+k_legion_zero = {
+	color = { 20 20 20 }
+	capital = c_bastion
+	definite_form = yes
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}		
+}
+
+k_legion_loyalist = {
 	color = { 60 60 60 }
 	capital = c_empire
 	definite_form = yes
@@ -135,7 +149,7 @@ e_ebonheart_pact = {
 }
 
 d_ebonheart_occupation = {
-	color={ 102 0 0 }
+	color={ 122 0 0 }
 	definite_form = yes
 	capital = c_windhelm
 	de_jure_drift_disabled = yes

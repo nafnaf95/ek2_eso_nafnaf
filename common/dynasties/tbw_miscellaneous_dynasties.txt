@@ -32,3 +32,18 @@ commodus = {
 	name = "Commodus"
 	culture = colovian
 }
+
+cosh = {
+	name = "Cosh"
+	culture = strident
+}
+
+bhosek = {
+	name = "Bhosek"
+	culture = crown
+}
+
+meen = {
+	name = "meen"
+	culture = hleel
+}

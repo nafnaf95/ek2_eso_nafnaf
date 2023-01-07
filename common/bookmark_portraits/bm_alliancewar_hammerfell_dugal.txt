@@ -2,7 +2,7 @@
 # History database id:dugal_1000
 bm_alliancewar_hammerfell_dugal={
 	type=female
-	id=4437
+	id=4436
 	age=0.390000
 	genes={ 		hair_color={ 248 147 178 107 }
  		skin_color={ 23 39 100 66 }
@@ -96,8 +96,8 @@ bm_alliancewar_hammerfell_dugal={
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_5" 213 "complexion_2" 213 }
  		gene_height={ "normal_height" 150 "normal_height" 138 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 77 "body_fat_head_fat_medium" 133 }
- 		gene_bs_body_shape={ "body_shape_average" 255 "body_shape_apple_half" 32 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 132 "body_fat_head_fat_medium" 133 }
+ 		gene_bs_body_shape={ "body_shape_average" 164 "body_shape_apple_half" 32 }
  		gene_bs_bust={ "bust_clothes" 120 "bust_shape_3_full" 179 }
  		gene_age={ "old_3" 213 "old_3" 213 }
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 92 "avg_spacing_lower_thickness" 92 }
@@ -181,15 +181,15 @@ bm_alliancewar_hammerfell_dugal={
  		gene_bs_mouth_glamour_lips={ "vanilla_mouth_glamour_lips" 0 "vanilla_mouth_glamour_lips" 0 }
  		face_detail_eye_upper_lid_def={ "vanilla_upper_lid_def" 0 "vanilla_upper_lid_def" 0 }
  		pose={ "" 255 "" 0 }
- 		beards={ "western_beards_straight" 132 "no_beard" 0 }
- 		cloaks={ "western_royalty" 14 "no_cloak" 0 }
- 		clothes={ "fp2_christian_high_nobility_clothes" 48 "most_clothes" 0 }
- 		legwear={ "western_common_legwear" 14 "all_legwear" 0 }
+ 		beards={ "western_beards_straight" 191 "no_beard" 0 }
+ 		cloaks={ "western_royalty" 214 "no_cloak" 0 }
+ 		clothes={ "fp2_christian_high_nobility_clothes" 104 "most_clothes" 0 }
+ 		legwear={ "western_common_legwear" 214 "all_legwear" 0 }
  		facepaint={ "no_facepaint" 255 "no_facepaint" 0 }
  		tattoos={ "no_tattoos" 255 "no_tattoos" 0 }
  		scarification={ "no_scarification" 255 "no_scarification" 0 }
- 		hairstyles={ "byzantine_hairstyles_straight" 199 "all_hairstyles" 0 }
- 		headgear={ "dde_hre_high_nobility" 85 "no_headgear" 0 }
+ 		hairstyles={ "byzantine_hairstyles_straight" 197 "all_hairstyles" 0 }
+ 		headgear={ "dde_hre_high_nobility" 129 "no_headgear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  }
 	entity={ 979141817 979141817 }

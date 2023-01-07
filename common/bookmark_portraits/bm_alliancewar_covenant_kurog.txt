@@ -2,7 +2,7 @@
 # History database id:bagrakh_1103
 bm_alliancewar_covenant_kurog={
 	type=male
-	id=4403
+	id=4404
 	age=0.410000
 	genes={ 		hair_color={ 41 253 0 173 }
  		skin_color={ 23 165 128 195 }
@@ -96,8 +96,8 @@ bm_alliancewar_covenant_kurog={
  		expression_other={ "nose_wrinkles_01" 255 "nose_wrinkles_01" 237 }
  		complexion={ "complexion_1" 116 "complexion_5" 116 }
  		gene_height={ "normal_height" 155 "normal_height" 144 }
- 		gene_bs_body_type={ "body_fat_head_fat_full" 150 "body_fat_head_fat_low" 147 }
- 		gene_bs_body_shape={ "body_shape_average" 255 "body_shape_rectangle_full" 63 }
+ 		gene_bs_body_type={ "body_fat_head_fat_full" 168 "body_fat_head_fat_low" 147 }
+ 		gene_bs_body_shape={ "body_shape_average" 195 "body_shape_rectangle_full" 63 }
  		gene_bs_bust={ "bust_clothes" 68 "bust_shape_2_full" 107 }
  		gene_age={ "old_4" 152 "old_beauty_1" 152 }
  		gene_eyebrows_shape={ "avg_spacing_low_thickness" 255 "far_spacing_avg_thickness" 254 }
@@ -133,7 +133,7 @@ bm_alliancewar_covenant_kurog={
  		eye_sclera={ "black_sclera" 0 "black_sclera" 0 }
  		eye_pupil={ "cross_pupils" 0 "cross_pupils" 0 }
  		eye_overlay={ "no_overlay" 127 "no_overlay" 127 }
- 		hairline_type={ "mohawk" 255 "widows_peak" 118 }
+ 		hairline_type={ "receding" 10 "widows_peak" 118 }
  		hair_aging={ "no_hair_aging" 193 "vanilla_hair_aging" 193 }
  		race_gene_mer_forehead={ "mer_forehead" 195 "mer_forehead" 209 }
  		race_gene_mer_nose={ "orc_nose" 79 "orc_nose" 107 }
@@ -187,7 +187,7 @@ bm_alliancewar_covenant_kurog={
  		facepaint={ "no_facepaint" 255 "no_facepaint" 0 }
  		tattoos={ "no_tattoos" 255 "no_tattoos" 0 }
  		scarification={ "no_scarification" 255 "no_scarification" 0 }
- 		hairstyles={ "orc_hairstyles" 191 "all_hairstyles" 0 }
+ 		hairstyles={ "orc_hairstyles" 87 "all_hairstyles" 0 }
  		headgear={ "fp1_royalty" 255 "no_headgear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		cloaks={ "fp1_cloak" 212 "no_cloak" 0 }
@@ -202,7 +202,7 @@ bm_alliancewar_covenant_kurog={
 		}
 	}
 
-	entity={ 979141817 979141817 }
+	entity={ 2697330347 2697330347 }
 	tags={ {
 			hash=3027276145
 			invert=no

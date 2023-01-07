@@ -90,14 +90,14 @@ bm_alliancewar_hammerfell_keelcutter={
  		face_detail_nose_ridge_def={ "nose_ridge_def_pos" 0 "nose_ridge_def_pos" 0 }
  		face_detail_nose_tip_def={ "nose_tip_def" 50 "nose_tip_def" 50 }
  		face_detail_temple_def={ "temple_def" 143 "temple_def" 143 }
- 		expression_brow_wrinkles={ "brow_wrinkles_03" 15 "brow_wrinkles_03" 15 }
+ 		expression_brow_wrinkles={ "brow_wrinkles_03" 174 "brow_wrinkles_03" 15 }
  		expression_eye_wrinkles={ "eye_wrinkles_01" 36 "eye_wrinkles_01" 36 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_01" 82 "forehead_wrinkles_01" 82 }
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_3" 187 "complexion_3" 187 }
  		gene_height={ "normal_height" 146 "normal_height" 146 }
  		gene_bs_body_type={ "body_fat_head_fat_full" 65 "body_fat_head_fat_full" 100 }
- 		gene_bs_body_shape={ "body_shape_hourglass_half" 176 "body_shape_hourglass_half" 3 }
+ 		gene_bs_body_shape={ "body_shape_hourglass_half" 135 "body_shape_hourglass_half" 3 }
  		gene_bs_bust={ "bust_clothes" 118 "bust_default" 148 }
  		gene_age={ "old_elf" 228 "old_elf" 228 }
  		gene_eyebrows_shape={ "avg_spacing_avg_thickness" 168 "avg_spacing_avg_thickness" 168 }
@@ -202,7 +202,7 @@ bm_alliancewar_hammerfell_keelcutter={
 		}
 	}
 
-	entity={ 3267808479 3267808479 }
+	entity={ 1863162561 1863162561 }
 	tags={ {
 			hash=1796679079
 			invert=no

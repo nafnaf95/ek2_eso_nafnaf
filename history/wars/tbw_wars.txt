@@ -7,7 +7,7 @@ war = {
 	targeted_titles = { e_cyrodiil }
 	casus_belli = claim_cb
 	attackers = { sorcalin_1000 arana_1001 }
-	defenders = { dremora_molag_kena }
+	defenders = { tharn_227 dremora_molag_kena }
 	claimant = sorcalin_1000
 }
 war = {
@@ -17,7 +17,7 @@ war = {
 	targeted_titles = { e_cyrodiil }
 	casus_belli = claim_cb
 	attackers = { zimmeron_1000 flamehair_1014 }
-	defenders = { dremora_molag_kena }
+	defenders = { tharn_227 dremora_molag_kena }
 	claimant = zimmeron_1000
 }
 war = {
@@ -27,7 +27,7 @@ war = {
 	targeted_titles = { e_cyrodiil }
 	casus_belli = claim_cb
 	attackers = { dortene_1000 cumberland_1004 }
-	defenders = { dremora_molag_kena }
+	defenders = { tharn_227 dremora_molag_kena }
 	claimant = dortene_1000
 }
 
@@ -35,7 +35,7 @@ war = {
 	name = "war_4000_three_banners_war"
 	start_date = 3502.1.30
 	end_date = 3522.1.30
-	targeted_titles = { e_legion_loyalist }
+	targeted_titles = { k_legion_loyalist k_second_legion }
 	casus_belli = claim_cb
 	attackers = { dremora_molag_kena }
 	defenders = { nipia_1052 nipia_1022 }
