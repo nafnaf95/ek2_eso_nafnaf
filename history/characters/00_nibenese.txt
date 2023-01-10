@@ -956,7 +956,7 @@ tharn_226 = {
 
 tharn_227 = {
 	name = "Clivia" #Empress-Regent of Cyrodiil
-	#dna="cffbi0idbc0" Failed to read key reference
+	dna = tharn_227_dna_entry
 	#properties="ai0e0kcfbbfb"
 	female = yes
 	dynasty = 110000
