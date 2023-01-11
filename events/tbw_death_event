@@ -1,0 +1,13 @@
+﻿
+tbw_Clivia_Death = { # Use comments (like this one!) to put the event name here, this way other scripters can find the event you are working on without knowing the ID.
+	type = character_event
+	title = "Clivia Tharn Missing!" # The Dissapearance of clivia
+	desc = birth.1003.b # For Sublime users: there is a "find in files" feature that is excellent for digging through loc
+
+	theme = death
+	left_portrait = root
+
+	option = { # Use comments to state what the option says or does (eg "No, I denounce you heretic!" or "Engage in duel against child"), much like with event titles, it's good practice.
+		name = stewardship_domain_special.1424.a
+	}
+}
