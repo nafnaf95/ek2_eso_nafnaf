@@ -48,6 +48,7 @@ k_redoran = {
 	3369.1.1 = { holder = redoran_999 }
 	3437.1.1 = { holder = redoran_1000 }
 	3492.7.7 = { holder = redoran_1000 liege = e_ebonheart_pact }
+	3500.1.1 = { holder = redoran_4000 liege = e_ebonheart_pact }
 }
 
 k_hlaalu = {

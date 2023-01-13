@@ -484,13 +484,13 @@ redoran_1000 = { # #General Gavryn Redoran, Ruler of Great House Redoran
 	father = redoran_999
 
 	3290.1.1 = { birth = yes }
-	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:flamehair_1014 } }
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:redoran_4000 } }
 	3487.7.1 = {
 		effect = {
-			create_alliance = character:flamehair_1014
+			create_alliance = character:redoran_4000
             add_opinion = {
                 modifier = perk_negotiated_alliance_opinion
-                target = character:flamehair_1014
+                target = character:redoran_4000
             }
 		}
 	}
@@ -509,6 +509,7 @@ redoran_4000 = { # ESO Leader of House Redoran
 
 	3476.1.1 = { birth = yes }
 	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:flamehair_1014 } }
+	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:redoran_1000 } }
 	3487.7.1 = {
 		effect = {
 			create_alliance = character:flamehair_1014
@@ -516,6 +517,14 @@ redoran_4000 = { # ESO Leader of House Redoran
                 modifier = perk_negotiated_alliance_opinion
                 target = character:flamehair_1014
             }
+		}
+	3487.7.1 = {
+		effect = {
+			create_alliance = character:redoran_1000
+			add_opinion = {
+				modifier = perk_negotiated_alliance_opinion
+				target = character:redoran_1000
+			}
 		}
 	}
 	3690.1.1 = { death = yes }

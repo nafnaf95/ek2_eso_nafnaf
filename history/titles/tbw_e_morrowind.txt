@@ -1,5 +1,5 @@
 # Morrowind
-e_morrowind = {
+e_morrowind = {legion
 	300.1.1 = { change_development_level = 7 }
 	420.1.1 = { holder = mora_109 } #nice -astra
 	667.1.1 = { holder = 0 }
@@ -628,8 +628,9 @@ c_taldeic = {
 		holder = redoril_104
 		liege = k_indoril 
 	}
-	3500.1.1 = { holder = redoran_1000 }
-}
+	3500.2.1 = { 
+		holder = redoran_1000
+	}
 
 c_redor = {
 	2830.1.1 = { holder = redoran_996 }
@@ -836,7 +837,10 @@ c_serkamora = {
 	300.1.1 = { change_development_level = 16 }
 	3350.11.1 = { holder = hlaalu_48103 }
 	3450.1.1 = { holder = hlaalu_48114 }
-	3500.1.1 = { holder = redoran_1000 }
+	3500.1.1 = { 
+		holder = redoran_1000
+		liege = k_redoran
+	}
 }
 
 #k_stonefalls
@@ -1357,26 +1361,26 @@ k_velothis = {
 d_blacklight = {
 	3200.10.1 = { holder = redoran_998 }
 	3369.1.1 = { holder = redoran_999 }
-	3437.1.1 = { holder = redoran_1000 }
+	3437.1.1 = { holder = redoran_4000 }
 }
 
 c_blacklight = {
 	300.1.1 = { change_development_level = 13 }	
 	3200.10.1 = { holder = redoran_998 }
 	3369.1.1 = { holder = redoran_999 }
-	3437.1.1 = { holder = redoran_1000 }
+	3437.1.1 = { holder = redoran_4000 }
 }
 
 c_mandul = {
 	3200.10.1 = { holder = redoran_998 }
 	3369.1.1 = { holder = redoran_999 }
-	3437.1.1 = { holder = redoran_1000 }
+	3437.1.1 = { holder = redoran_4000 }
 }
 
 c_ornhold = {
 	3200.10.1 = { holder = redoran_998 }
 	3369.1.1 = { holder = redoran_999 }
-	3437.1.1 = { holder = redoran_1000 }
+	3437.1.1 = { holder = redoran_4000 }
 }
 
 c_fullstrom = {
@@ -1405,7 +1409,7 @@ d_kogomar = {
 		liege = k_redoran 
 	}
 	3350.1.1 = { holder = venim_101 }
-    3500.1.1 = { holder = redoran_1000
+    3500.1.1 = { holder = redoran_4000
 				 liege = k_redoran }
 }
 
@@ -1441,7 +1445,7 @@ c_rhanim = {
 	3220.1.1 = { holder = ahalkalun_1
 				  liege = k_redoran }
 
-	3500.1.1 = { holder = redoran_1000} #
+	3500.1.1 = { holder = redoran_4000} #
 }
 
 c_darissa = {
@@ -1467,14 +1471,14 @@ c_ashan = {
 	3300.1.1 = { holder = sarethi_100
 				  liege = d_kogomar }
 				  
-	3500.1.1 = { holder = redoran_1000} #
+	3500.1.1 = { holder = redoran_4000} #
 }
 
 c_belemis = {
 	3300.1.1 = { holder = sarethi_100
 				  liege = d_kogomar }
 				  
-	3500.1.1 = { holder = redoran_1000} #
+	3500.1.1 = { holder = redoran_4000} #
 }
 
 c_velayis = {
@@ -2073,7 +2077,10 @@ c_hlormaren = {
 	}
 	3360.1.1 = { holder = ahemmusa_101 }
 	
-	3500.1.1 = { holder = redoran_1000 }
+	3500.1.1 = { 
+		holder = redoran_1000
+		liege = k_redoran
+	}
 }
 
 c_gnaar_mok = {
@@ -2083,7 +2090,10 @@ c_gnaar_mok = {
 	}
 	3360.1.1 = { holder = ahemmusa_101 }#eso
 	
-	3500.1.1 = { holder = redoran_1000 }#eso
+	3500.1.1 = { 
+		holder = redoran_1000
+		liege = k_redoran
+	}
 }
 
 d_balmora = {
@@ -2264,7 +2274,10 @@ c_khuul = {
 c_caldera = {
 	3340.1.1 = { holder = sedri_1 }
 	
-	3500.1.1 = { holder = redoran_1000 } #eso
+	3500.1.1 = { 
+		holder = redoran_1000
+		liege = k_redoran
+	}
 }
 
 c_seyda_neen = {
@@ -2295,7 +2308,7 @@ c_gnisis = {
 	3350.1.1 = { holder = eribael_100
 				 liege = d_valenvaryon }
 	3490.1.1 = { holder = redoran_3003 }
-	3500.1.1 = { holder = redoran_1000 }
+	3500.1.1 = { holder = redoran_4000 }
 }
 
 c_berandas = {
@@ -2303,14 +2316,14 @@ c_berandas = {
 	3350.1.1 = { holder = eribael_100
 				 liege = d_valenvaryon }
 	3490.1.1 = { holder = redoran_3003 }
-	3500.1.1 = { holder = redoran_1000 }
+	3500.1.1 = { holder = redoran_4000 }
 }
 
 c_ald_velothi = {
 	3360.1.1 = { holder = ashlander_lowborn_3
 				 liege = d_valenvaryon }
 				 
-	3500.1.1 = { holder = redoran_1000} #
+	3500.1.1 = { holder = redoran_4000} #
 }
 
 k_ashlands = {
@@ -2415,8 +2428,10 @@ c_missir_dadalit = {
 c_andasreth = {
 	3350.1.1 = { holder = bensiberib_1  
 				 liege = d_bitter_coast
-				  }
-	3500.1.1 = { holder = redoran_1000 }
+}
+	3500.1.1 = { holder = redoran_1000
+				 liege = k_redoran
+}
 }
 c_ashimanu = {
 	3360.1.1 = { holder = zamarasour_1 
@@ -2433,7 +2448,10 @@ c_assarnatamat = {
 	3350.1.1 = { holder = urlvannu_1  
 				  }
 				  
-	3500.1.1 = { holder = redoran_1000 } #eso
+	3500.1.1 = { 
+		holder = redoran_1000
+		liege = k_redoran
+	}
 }
 c_shishara = {
 	3350.1.1 = { holder = serranipu_1  
