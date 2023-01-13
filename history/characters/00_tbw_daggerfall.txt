@@ -2225,71 +2225,7 @@ witheredhand_1003 = {
 	3470.1.1 = { employer = witheredhand_1000 }
 }
 
-bergama_1005 = {
-	name = "Faharajad"
-	dynasty_house = phyllocid_bergama
-	religion = redguard_cult
-	culture = forebear
-	dna = bergama_1005_dna_entry
-	
-	mother = bergama_1004
-	father = hegathe_1005
 
-	3438.1.1 = { birth = yes }
-	3465.1.1 = { add_spouse = danobia_1001 }
-	3471.1.1 = { effect = { add_pressed_claim = title:e_hammerfell } }
-	3486.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:cumberland_1004 } }
-	3486.7.1 = {
-		effect = {
-			create_alliance = character:cumberland_1004
-            add_opinion = {
-                modifier = perk_negotiated_alliance_opinion
-                target = character:cumberland_1004
-            }
-		}
-	}
-	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:tharn_226 } }
-	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:witheredhand_1000 } }
-	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:witheredhand_1001 } }
-	3500.7.1 = { set_relation_rival = { reason = rival_historical target = character:witheredhand_1002 } }
-	3500.7.1 = {
-		add_unpressed_claim = title:c_rhanano
-	}
-	3500.7.1 = {
-		add_unpressed_claim = title:c_java
-	}
-	3501.1.30 = {
-		effect = { 	
-			spawn_army = {
-				name = "Sentinel Palace Guard"
-				men_at_arms = {
-					type = yokudan_way_of_the_sword
-					stacks = 5
-				}
-				men_at_arms = {
-					type = light_footmen
-					stacks = 10
-				}
-				location = province:435
-				origin = province:435
-				war = war_4400_witheredhand_uprising
-				war_keep_on_attacker_victory = yes
-				inheritable = no
-			}
-		}
-	}
-	3507.1.1 = { death = yes }
-	
-	portrait_override = {	# Will override the character's appearance
-		portrait_modifier_overrides={
-				custom_hair=male_hair_sub_saharan_01
-				custom_beards=male_empty
-				custom_headgear=male_headgear_secular_ep1_mena_royalty_01
-				custom_clothes=male_clothes_secular_indian_war_nobility_01_low
-				custom_cloaks=male_cloaks_secular_western_royalty_01
-		}
-	}
-}
 
 thoda_1000 = {
 	name = "Thoda"

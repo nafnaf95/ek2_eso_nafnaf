@@ -197,9 +197,32 @@ Hleran_1000 = {
 	trait = lifespan_3
 }
 
+#eastern skyrim
 
+stormfist_b_1000 = { # Lob the Cleaver
+	name = "Lob The Cleaver"
+	culture = mountain_orc
+	religion = code_of_malacath
 
+	3471.1.1 = { birth = yes }	
+}
 
+stormfist_b_1003 = { # Lob the Cleaver
+	name = "Hakul gro-Agluk"
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	3471.1.1 = { birth = yes }	
+}
+
+boneshaper_1000 = { #Vernim woods reachmen
+	name = "??"
+	religion = old_gods
+	culture = reachfolk
+
+	3471.1.1 = { birth = yes }	
+
+}
 
 
 ## Pact

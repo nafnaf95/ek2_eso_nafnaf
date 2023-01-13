@@ -1371,7 +1371,7 @@
 }
 224 = { #b_lakewatch
 	culture = mountain_orc
-	religion = vosh_rakh
+	religion = code_of_malacath
 	
 	holding = tribal_holding
 }

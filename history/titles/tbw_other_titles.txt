@@ -104,16 +104,6 @@ k_archcanon_sotha_sil = {
 				 liege = e_tribunal_temple }
 }
 
-
-
-
-
-
-
-
-
-
-}
 #Khajiiti
 k_mane = {
 	3225.1.1 = {
@@ -130,28 +120,52 @@ k_mane = {
 
 #Naf ESO
 
+######################
+#        DC          #
+######################
+
+######################
+#        EP          #
+######################
+
+
+######################
+#        AD          #
+######################
+e_veiledheritance = {
+	3500.1.1 = { holder = errinorne_1000 }
+}
+
+e_earlclavicus = {
+	3500.1.1 = { holder = eldbar_1001 }
+}
+
+e_earlnocturn = {
+	3500.1.1 = { holder = releth_103 }
+}
+
 k_star-gazer = { 
-	3480.1.1 = { holder = star-gazer_1000 }
-	}
+	3480.1.1 = { holder = star-gazer_1000 } # SHOULD BE RELIGION
+}
 
 k_scaled_court = { 
-	3480.1.1 = { holder = braadoth_1000 }
-	}
+	3480.1.1 = { holder = braadoth_1000 } # SHOULD BE RELIGION
+}
 
 k_dark_witness = { 
-	3480.1.1 = { holder = dark_witness }
-	}
-	
+	3480.1.1 = { holder = dark_witness } # Reachmen tribe Evermore north
+}
+
 k_camlorn_faolchu = { 
-	3480.1.1 = { holder = fausta_1100 }
-	}
+	3480.1.1 = { holder = fausta_1100 } # Faolchu the returned occupies camlorn with his wearwolves
+}
 
 k_nomads_alikr = { 
-	3480.1.1 = { holder = acatis_1002 }
-	}
+	3480.1.1 = { holder = acatis_1002 } # TEMP Represents the Nomadic alikr tribes
+}
 
 e_molag_bal = {
-	3500.1.1 = { holder = tharn_227 }	## ESO Molag Bal army
+	3500.1.1 = { holder = dremora_molag_kena }	## ESO Molag Bal army
 }
 
 k_legion_zero = {
@@ -170,26 +184,11 @@ k_second_legion = { # Second Legion Based near Bruma
 	3500.1.1 = { holder = nipia_1022 }
 }
 
-d_sea_vipers = {
-	3360.1.1 = { 
-		holder = maormer_1_pirate
-		government = pirate_government 
-	}
-	3460.1.1 = { 
-		holder = maormer_1_pirate
-		government = pirate_government 
-	}
-	
+k_stormfist_clan = { 
+	3496.1.1 = { holder = flamehair_1015}
 }
 
-e_veiledheritance = {
-	3500.1.1 = { holder = errinorne_1000 }
-}
+d_boneshaper_clan = {
+	3500.1.1 = { holder = boneshaper_1000}
 
-e_earlclavicus = {
-	3500.1.1 = { holder = eldbar_1001 }
-}
-
-e_earlnocturn = {
-	3500.1.1 = { holder = releth_103 }
 }

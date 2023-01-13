@@ -971,7 +971,7 @@ tharn_227 = {
 
 	3452.1.1 = { birth = yes }
 	3490.1.1 = { add_spouse = blackdrake_105 } #Leovic
-	3504.1.1 = { death = { death_reason = death_disappearance } }
+	3501.1.1 = { death = { death_reason = death_disappearance } }
 }
 #Non-Canon Daughters
 tharn_228 = {

@@ -380,7 +380,7 @@ enabled=yes
 
 
 
-Clivia_dna_entry={ #mettyu
+tharn_227_dna_entry={ #mettyu
 	portrait_info={
 	genes={
 		hair_color={ 216 250 12 246 }

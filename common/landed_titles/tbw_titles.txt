@@ -160,7 +160,29 @@ d_ebonheart_occupation = {
 	}	
 }
 
+k_stormfist_clan = {
+	color={ 0 0  122 }
+	definite_form = yes
+	capital = c_bitterblade
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
 
+d_boneshaper_clan = {
+	color={ 0 0 0 }
+	definite_form = yes
+	capital = c_vernim_woods
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
 ###############################
 #           Dominion          #
 ###############################

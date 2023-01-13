@@ -370,7 +370,7 @@ bergama_1004 = {
 	3470.1.1 = { death = yes }	
 }
 
-bergama_1005 = {  #Naffed
+bergama_1005 = {
 	name = "Faharajad"
 	dynasty_house = phyllocid_bergama
 	religion = redguard_cult

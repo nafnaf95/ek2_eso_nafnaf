@@ -7,7 +7,7 @@ war = {
 	targeted_titles = { e_cyrodiil }
 	casus_belli = alliance_war_cb
 	attackers = { sorcalin_1000 arana_1001 }
-	defenders = { tharn_227 dremora_molag_kena }
+	defenders = { dremora_molag_kena }
 	claimant = sorcalin_1000
 }
 war = {
@@ -17,7 +17,7 @@ war = {
 	targeted_titles = { e_cyrodiil }
 	casus_belli = alliance_war_cb
 	attackers = { zimmeron_1000 flamehair_1014 }
-	defenders = { tharn_227 dremora_molag_kena }
+	defenders = { dremora_molag_kena }
 	claimant = zimmeron_1000
 }
 war = {
@@ -27,7 +27,7 @@ war = {
 	targeted_titles = { e_cyrodiil }
 	casus_belli = alliance_war_cb
 	attackers = { dortene_1000 cumberland_1004 }
-	defenders = { tharn_227 dremora_molag_kena }
+	defenders = { dremora_molag_kena }
 	claimant = dortene_1000
 }
 
@@ -36,10 +36,10 @@ war = {
 	start_date = 3502.1.30
 	end_date = 3522.1.30
 	targeted_titles = { k_legion_loyalist k_second_legion }
-	casus_belli = claim_cb
-	attackers = {tharn_227 dremora_molag_kena }
+	casus_belli = alliance_war_cb
+	attackers = { dremora_molag_kena }
 	defenders = { nipia_1052 nipia_1022 }
-	claimant = tharn_227
+	claimant = dremora_molag_kena
 }
 
 ##########################
@@ -175,7 +175,7 @@ war = {
 	start_date = 3480.1.1
 	end_date = 3503.4.11
 	targeted_titles = { d_frostbreak c_frostbreak c_argent c_dunlain c_cloud_spring c_coldperch c_jehenna }
-	casus_belli = claim_cb
+	casus_belli = alliance_war_cb
 	attackers = { bagrakh_1103 morkul_1100 fharun_1102 tumnosh_1100 shatul_1100 }
 	defenders = { winterborn_1100 magnar_100 tailas_1000 }
 	claimant = bagrakh_1103
@@ -258,7 +258,7 @@ war = {
 	start_date = 3499.1.1
 	end_date = 3503.4.11
 	targeted_titles = { e_aldmeri_dominion }
-	casus_belli = claim_cb
+	casus_belli = alliance_war_cb
 	attackers = { errinorne_1000 }
 	defenders = { arana_1001 }
 	claimant = errinorne_1000
@@ -271,7 +271,7 @@ war = {
 	start_date = 3499.1.1
 	end_date = 3503.4.11
 	targeted_titles = { c_arenthia c_palatine c_sphnixmoth c_senalana }
-	casus_belli = duchy_conquest_cb
+	casus_belli = alliance_war_cb
 	attackers = { arana_1001 camoran_9 mane_1003 }
 	defenders = { lavinia_001 hassildor_1000 }
 	claimant = arana_1001

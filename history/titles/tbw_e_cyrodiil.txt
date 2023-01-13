@@ -22,8 +22,7 @@ e_cyrodiil = {
 	3497.1.2 = { holder = aquilarios_varen } #Varen Aquilarios
 	3499.12.12 = { holder = tharn_227 } # Planemeld begins
 	3501.12.12 = { holder = 0 } # Clivia loses the tower
-	3502.1.1 = { holder = tharn_227 } # Clivia loses the tower
-	3504.1.1 = { holder = dremora_molag_kena } # Clivia loses the tower
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 }
 #Colovian Estates, titular e_
 e_colovian_estates = {
@@ -116,8 +115,7 @@ k_heartlands = {
 	3430.1.1 = { holder = lex_105 }
 	3450.1.1 = { holder = lex_106 }
 	3455.1.1 = { holder = 0 }
-	3502.1.1 = { holder = tharn_227 } # Clivia loses the tower
-	3504.1.1 = { holder = dremora_molag_kena } # Clivia loses the tower
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 	#3573.1.1 = { holder = 406 }
 	#3582.1.1 = { holder = 407 }
 	#3621.1.1 = { holder = 408 }
@@ -131,8 +129,7 @@ d_imperial_isle = {
 	300.1.1 = { change_development_level = 13 }
 	3350.12.18 = { holder = chorak_101 }
 	3362.12.4 = { holder = sosildor_100 }
-	3502.1.1 = { holder = tharn_227 } # Clivia loses the tower
-	3504.1.1 = { holder = dremora_molag_kena } # Clivia loses the tower
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 }
 c_imperial_city = {
 	100.1.1 = { holder = adonai_100 }
@@ -160,8 +157,8 @@ c_imperial_city = {
 	3367.1.1 = { change_development_level = 23 }
 	3368.9.22 = { holder = lex_caius }
 	3501.12.12 = { holder = dremora_molag_kena } #HistoryTemporary - Replace with Molag Kena
-	3502.1.1 = { holder = tharn_227 } # Clivia loses the tower
-	3504.1.1 = { holder = dremora_molag_kena } # Clivia loses the tower
+	3501.1.1 = { holder = tharn_227 } # Clivia loses the tower
+	3502.1.1 = { holder = dremora_molag_kena } # Clivia loses the tower
 }
 c_arcanorum = {
 	100.1.1 = { holder = adonai_100 }
@@ -333,7 +330,7 @@ d_virtue = {
 	3455.1.1 = { liege = e_cyrodiil } #EK1 import
 	3470.1.1 = { holder = quintilius_353 }
 	3495.1.1 = { holder = quintilius_354 }
-	3500.1.1 = { holder = tharn_227 }
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 	3514.1.1 = { liege = k_falkreath } #EK1 import
 	3518.1.1 = { liege = e_cyrodiil } #EK1 import
 	3534.1.1 = { liege = 0 }
@@ -353,7 +350,7 @@ c_virtue = {
 	3436.1.1 = { holder = quintilius_352 }
 	3470.1.1 = { holder = quintilius_353 }
 	3495.1.1 = { holder = quintilius_354 }
-	3500.1.1 = { holder = tharn_227 }
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 	3540.1.1 = { holder = quintilius_355 }
 	3586.1.1 = { holder = quintilius_356 }
 	3595.1.1 = { holder = quintilius_357 }
@@ -369,7 +366,7 @@ c_vindasel = {
 	3436.1.1 = { holder = quintilius_352 }
 	3470.1.1 = { holder = quintilius_353 }
 	3495.1.1 = { holder = quintilius_354 }
-	3500.1.1 = { holder = tharn_227 }
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 	3540.1.1 = { holder = quintilius_355 }
 	3586.1.1 = { holder = quintilius_356 }
 	3595.1.1 = { holder = quintilius_357 }
@@ -391,7 +388,7 @@ c_tenhall = {
 	3436.1.1 = { holder = quintilius_352 }
 	3470.1.1 = { holder = quintilius_353 }
 	3495.1.1 = { holder = quintilius_354 }
-	3500.1.1 = { holder = tharn_227 }
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 	3540.1.1 = { holder = quintilius_355 }
 	3586.1.1 = { holder = quintilius_356 }
 	3595.1.1 = { holder = quintilius_357 }
@@ -923,7 +920,7 @@ d_greenlake = {
 	300.1.1 = { change_development_level = 7 }	
 	3290.1.1 = { holder = vede_99 }
 	3341.1.1 = { holder = 0 }
-	3502.1.1 = { holder = tharn_227 }
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 }
 #c_greenlake
 c_greenlake = {
@@ -2355,7 +2352,7 @@ c_shadeleaf = {
 	3398.1.1 = {
 		holder = shadeleaf_10001
 	}
-	3500.1.1 = { holder = tharn_227 }
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 }
 c_gottlesfont = {
 	300.1.1 = { change_development_level = 9 }
@@ -2366,7 +2363,7 @@ c_gottlesfont = {
 	3391.1.1 = {
 		holder = gottlesfont_1001
 	}
-	3500.1.1 = { holder = tharn_227 }
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 			#holder = Theocracy 3360 - 3480
 }
 c_brindle_home = {
@@ -2378,7 +2375,7 @@ c_brindle_home = {
 	3391.1.1 = {
 		holder = gottlesfont_1001
 	}
-	3500.1.1 = { holder = tharn_227 }
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 		#holder = Republic x - 3500
 }
 ##Independent from Skingrad
@@ -2467,7 +2464,7 @@ c_nisin = {
 	3374.1.1 = { holder = chiral_1001 }
 	3419.1.1 = { holder = chiral_1002 }
 	3495.1.1 = { holder = quintilius_354 }
-	3500.1.1 = { holder = tharn_227 }
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 }
 
 c_blessed_water = {
@@ -2545,7 +2542,7 @@ c_blackside = {
 	3365.1.1 = { holder = tharn_abnur } #Abnur usurps due failure of his papa and ambition
 	
 	3501.12.12 = { holder = aeresius_106 } #Caelia Aeresius takes over when Abnur disappears/dies
-	3502.1.1 = { holder = tharn_227 }
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 }
 c_thornhal = {
 	300.1.1 = { change_development_level = 9 }
@@ -2599,7 +2596,7 @@ c_poppad = {
 	}
 	3369.1.1 = { holder = duronian_3450 }
 	3398.1.1 = { holder = duronian_3450_child }
-	3502.1.1 = { holder = tharn_227 }
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 }
 c_harlun_watch = {
 	3348.1.1 = {
@@ -2608,7 +2605,7 @@ c_harlun_watch = {
 	}
 	3369.1.1 = { holder = duronian_3450 }
 	3398.1.1 = { holder = duronian_3450_child }
-	3502.1.1 = { holder = tharn_227 }
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 }
 
 d_arrius = {
@@ -3263,7 +3260,7 @@ c_bay_roan = {
 		liege = k_bravil
 		holder = bay_roan_1001
 	}
-	3500.1.1 = { holder = tharn_227 }
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 }
 c_ione = {
 	3301.1.1 = {
@@ -3278,7 +3275,7 @@ c_ione = {
 	3404.1.1 = { holder = fleccian_3389 }
 	3465.1.1 = { holder = fleccian_3390 }
 	3495.1.1 = { holder = fleccian_3391 }
-	3500.1.1 = { holder = tharn_227 }
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 	3508.1.1 = { holder = fleccian_3392 }
 	3560.1.1 = { holder = fleccian_3393 }
 	3598.1.1 = { holder = fleccian_3394 }
@@ -4510,7 +4507,7 @@ c_toadstool = {
 	3397.1.1 = { holder = frostbeard_100 }
 	3446.1.1 = { holder = frostbeard_101 }
 	3461.1.1 = { holder = frostbeard_103 }
-	3500.1.1 = { holder = tharn_227 }
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 	3503.1.1 = { holder = frostbeard_104 }
 }
 c_bravin = {
@@ -4527,7 +4524,7 @@ c_bravin = {
 	3397.1.1 = { holder = frostbeard_100 }
 	3446.1.1 = { holder = frostbeard_101 }
 	3461.1.1 = { holder = frostbeard_103 }
-	3500.1.1 = { holder = tharn_227 }
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 	3503.1.1 = { holder = frostbeard_104 }
 }
 d_underpall = {
@@ -4612,7 +4609,7 @@ c_cloudruler = {
 	3316.1.1 = { holder = ssaryz_100 }
 	3421.1.1 = { holder = siborel_104 }
 	3477.1.1 = { holder = siborel_105 }
-	3502.1.1 = { holder = tharn_227 }
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 	3510.1.1 = { holder = siborel_106 }
 }
 c_applewatch = {
@@ -4621,7 +4618,7 @@ c_applewatch = {
 	3316.1.1 = { holder = ssaryz_100 }
 	3421.1.1 = { holder = siborel_104 }
 	3477.1.1 = { holder = siborel_105 }
-	3502.1.1 = { holder = tharn_227 }
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 	3510.1.1 = { holder = siborel_106 }
 }
 c_borelstone = {
@@ -4793,7 +4790,7 @@ c_renhal = {
 	3397.1.1 = { holder = frostbeard_100 }
 	3446.1.1 = { holder = frostbeard_101 }
 	3461.1.1 = { holder = frostbeard_103 }
-	3500.1.1 = { holder = tharn_227 }
+	3502.1.1 = { holder = dremora_molag_kena } #Molag Kena Becomes Ruler of Cyrodiil
 	3503.1.1 = { holder = frostbeard_104 }
 }
 
