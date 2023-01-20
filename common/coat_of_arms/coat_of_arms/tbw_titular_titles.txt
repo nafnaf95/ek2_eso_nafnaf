@@ -884,3 +884,75 @@ k_northpoint = {
 	}
 
 }
+
+e_thirteenth_legion = {
+	pattern="pattern_solid.dds"
+	color1=purple
+	color2=yellow
+	color3=yellow
+	color4=purple
+	colored_emblem={
+		color1=yellow
+		texture="ce_imperial_sigil_nipia_2.dds"
+		instance={
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 30 34 64 }
+		texture="ce_khajiit_claw_01.dds"
+		instance={
+			position={ 0.480000 0.510000 }
+			scale={ 0.500000 0.500000 }
+			depth=1.010000
+			rotation=179
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_tree.dds"
+		instance={
+			position={ 0.000000 0.000000 }
+			scale={ 0.000000 0.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 30 34 64 }
+		color2=red
+		color3=skyrim_gold
+		texture="ce_elsweyr_senchal_4.dds"
+		instance={
+			position={ 0.500000 0.460000 }
+			scale={ 0.880000 0.880000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_diamond_01.dds"
+		instance={
+			position={ 0.490000 0.460000 }
+			scale={ 0.870000 0.870000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_cyrodiil_frame_leyawiin_3.dds"
+		instance={
+			depth=5.010000
+		}
+
+	}
+
+}

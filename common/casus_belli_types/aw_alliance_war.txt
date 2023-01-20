@@ -1,4 +1,11 @@
-﻿### Wars for the Three Banners Alliance War
+﻿###########################################
+#  NafNaf_95, Mettyu, TJG, Emily,         #
+###########################################
+###########################################
+#           Three Banners War             #
+###########################################
+
+### Wars for the Three Banners Alliance War
 
 alliance_war_cb = {
 	group = event

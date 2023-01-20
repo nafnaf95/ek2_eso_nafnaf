@@ -2,8 +2,8 @@
 # History database id:arana_1001
 bm_alliancewar_dominion_ayrenn={
 	type=female
-	id=4638
-	age=0.251837
+	id=4634
+	age=0.260000
 	genes={ 		hair_color={ 14 63 65 70 }
  		skin_color={ 106 20 161 36 }
  		eye_color={ 170 21 82 44 }
@@ -91,7 +91,7 @@ bm_alliancewar_dominion_ayrenn={
  		face_detail_nose_tip_def={ "nose_tip_def" 130 "nose_tip_def" 186 }
  		face_detail_temple_def={ "temple_def" 176 "temple_def" 100 }
  		expression_brow_wrinkles={ "brow_wrinkles_04" 77 "brow_wrinkles_04" 0 }
- 		expression_eye_wrinkles={ "eye_wrinkles_01" 186 "eye_wrinkles_03" 0 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_01" 192 "eye_wrinkles_03" 0 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_02" 41 "forehead_wrinkles_01" 0 }
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_3" 127 "complexion_3" 149 }
@@ -181,10 +181,10 @@ bm_alliancewar_dominion_ayrenn={
  		gene_bs_mouth_glamour_lips={ "mouth_glamour_lips" 75 "mouth_glamour_lips" 42 }
  		face_detail_eye_upper_lid_def={ "vanilla_upper_lid_def" 127 "vanilla_upper_lid_def" 127 }
  		pose={ "" 255 "" 0 }
- 		beards={ "altmer_beards_fp2" 83 "no_beard" 0 }
- 		cloaks={ "ep1_cloak_adventurer" 113 "no_cloak" 0 }
+ 		beards={ "no_beard" 166 "no_beard" 0 }
+ 		cloaks={ "ep1_cloak_adventurer" 69 "no_cloak" 0 }
  		clothes={ "ek_altmer_noble_armor" 255 "most_clothes" 0 }
- 		legwear={ "ek_altmer_high_legwear" 79 "all_legwear" 0 }
+ 		legwear={ "ek_altmer_high_legwear" 191 "all_legwear" 0 }
  		facepaint={ "no_facepaint" 255 "no_facepaint" 0 }
  		tattoos={ "no_tattoos" 255 "no_tattoos" 0 }
  		scarification={ "no_scarification" 255 "no_scarification" 0 }

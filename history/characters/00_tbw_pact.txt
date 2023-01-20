@@ -505,6 +505,8 @@ redoran_4000 = { # ESO Leader of House Redoran
 	religion = tribunal_temple
 	father = redoran_1000
 	
+	dna = redoran_4000_dna_entry
+
 	trait = lifespan_3
 
 	3476.1.1 = { birth = yes }
@@ -537,6 +539,8 @@ indoril_1012 = { # Dies after his son to seal the second brother of strife away 
 	culture = chuzei
 	religion = tribunal_temple
 	
+	dna = indoril_1012_dna_entry
+
 	father = indoril_1010
 	
 	trait = lifespan_3
@@ -620,28 +624,35 @@ othral_101 = { #Governor of Ebonheart in ESO
 	3680.1.1 = { death = yes } 
 }
 
-dres_106 = {
-	name = "Omin" 
-	dynasty = 1300004 
-	culture = marduhn_oad
-	religion = tribunal_temple
-	father = dres_104
-
-	trait = lifespan_3
-
-	3306.1.1 = { birth = yes }
-	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:flamehair_1014 } }
-	3487.7.1 = {
-		effect = {
-			create_alliance = character:flamehair_1014
-            add_opinion = {
-                modifier = perk_negotiated_alliance_opinion
-                target = character:flamehair_1014
-            }
-		}
-	}
-	3510.1.1 = { death = yes } 
-}
+#dres_106 = {
+#	name = "Omin" 
+#	dynasty = 1300004 
+#	culture = marduhn_oad
+#	religion = tribunal_temple
+#	father = dres_104
+#
+#	trait = lifespan_3
+#
+#	3306.1.1 = { birth = yes }
+#	3487.7.1 = { set_relation_friend = { reason = friend_generic_history target = character:flamehair_1014 } }
+#	3487.7.1 = {
+#		effect = {
+#			create_alliance = character:flamehair_1014
+#            add_opinion = {
+#                modifier = perk_negotiated_alliance_opinion
+#                target = character:flamehair_1014
+#            }
+#		}
+#	}
+#	3510.1.1 = { death = yes } 
+#
+#	portrait_override = {	# Will override the character's appearance
+#		portrait_modifier_overrides={
+#			custom_beards=male_empty
+#			custom_hair=male_hair_fp1_06
+#		}
+#	}
+#}
 
 indoril_vehk = { #Archcanon of Vivec
 	name = "Valen" 

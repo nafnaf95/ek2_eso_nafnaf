@@ -5334,11 +5334,44 @@ renmus_1000 = { #General Renmus of Senchal
     3462.6.6 = { birth = yes }
 	3496.10.9 = {
 		effect = {
-			add_gold = 50
+			add_gold = 100
 			add_piety = 100
 		}
 	}
+
+	3500.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = "13th Legion"
+				men_at_arms = {
+					type = nibenese_battlemages
+					stacks = 2
+				}
+				men_at_arms = {
+					type = armored_legionaires
+					stacks = 5
+				}
+				men_at_arms = {
+					type = armored_legionaires
+					stacks = 5
+				}
+				location = province:3539
+				origin = province:3539
+				inheritable = yes
+			}
+		}
+	}
+
     3521.10.1 = { death = yes }
+
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_clothes=male_clothes_secular_fp2_iberian_christian_war_nobility_01
+			custom_beards=male_beard_western_03
+			custom_hair=male_hair_fp2_iberian_muslim_03
+			custom_cloaks=cloaks_nibenese_male_noble_01_high
+		}
+	}
 }
 renmus_1001 = { #General Renmus' daughter'
     name = "Aeliah"

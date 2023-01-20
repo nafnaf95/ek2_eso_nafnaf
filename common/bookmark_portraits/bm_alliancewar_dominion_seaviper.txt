@@ -2,7 +2,7 @@
 # History database id:maormer_1_pirate
 bm_alliancewar_dominion_seaviper={
 	type=female
-	id=2000
+	id=1998
 	age=0.540204
 	genes={ 		hair_color={ 223 161 109 177 }
  		skin_color={ 96 25 96 25 }
@@ -91,12 +91,12 @@ bm_alliancewar_dominion_seaviper={
  		face_detail_nose_tip_def={ "nose_tip_def" 236 "nose_tip_def" 236 }
  		face_detail_temple_def={ "temple_def" 139 "temple_def" 139 }
  		expression_brow_wrinkles={ "brow_wrinkles_02" 0 "brow_wrinkles_02" 0 }
- 		expression_eye_wrinkles={ "eye_wrinkles_03" 140 "eye_wrinkles_03" 0 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_03" 0 "eye_wrinkles_03" 0 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_03" 0 "forehead_wrinkles_03" 0 }
- 		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
+ 		expression_other={ "cheek_wrinkles_both_01" 51 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_3" 143 "complexion_3" 143 }
  		gene_height={ "normal_height" 157 "normal_height" 157 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 157 "body_fat_head_fat_medium" 114 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 147 "body_fat_head_fat_medium" 114 }
  		gene_bs_body_shape={ "body_shape_rectangle_full" 255 "body_shape_rectangle_full" 1 }
  		gene_bs_bust={ "bust_clothes" 126 "bust_default" 158 }
  		gene_age={ "old_elf" 111 "old_elf" 111 }
@@ -182,8 +182,8 @@ bm_alliancewar_dominion_seaviper={
  		face_detail_eye_upper_lid_def={ "vanilla_upper_lid_def" 127 "vanilla_upper_lid_def" 127 }
  		pose={ "" 255 "" 0 }
  		special_headgear_eye_patch={ "eye_patch" 255 "eye_patch" 0 }
- 		beards={ "no_beard" 57 "no_beard" 0 }
- 		cloaks={ "ek_altmer_cloak_high" 158 "no_cloak" 0 }
+ 		beards={ "no_beard" 47 "no_beard" 0 }
+ 		cloaks={ "ek_altmer_cloak_high" 29 "no_cloak" 0 }
  		clothes={ "ek_altmer_common_armor" 255 "most_clothes" 0 }
  		legwear={ "mena_war_legwear" 255 "all_legwear" 0 }
  		facepaint={ "no_facepaint" 255 "no_facepaint" 0 }
@@ -203,7 +203,7 @@ bm_alliancewar_dominion_seaviper={
 		}
 	}
 
-	entity={ 979141817 979141817 }
+	entity={ 807438772 807438772 }
 	tags={ {
 			hash=1796679079
 			invert=no
