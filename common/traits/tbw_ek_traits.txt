@@ -80,3 +80,38 @@ fatetied = {
 	}
 	
 }
+
+
+soulshriven_character = {
+	group = undead
+	level = 1
+
+	opposites = {
+		lich_character
+		undead_character
+	}	
+	
+	immortal = yes
+	flag = immune_to_disease
+	flag = lifespan_7_flag
+
+	monthly_lifestyle_xp_gain_mult = +0.5
+	monthly_prestige_gain_mult = -0.45
+	monthly_piety_gain_mult = -0.45
+	stress_loss_mult = -0.35
+	stress_gain_mult = -0.35
+	can_have_children = no
+	
+	shown_in_ruler_designer = yes
+
+	triggered_opinion = {
+		parameter = undeath_criminal
+		opinion_modifier = necromancy_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	#triggered_opinion = {
+	#	parameter = undeath_shunned
+	#	opinion_modifier = necromancy_intolerant
+	#	ignore_opinion_value_if_same_trait = yes
+	#}
+}

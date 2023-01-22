@@ -1,0 +1,1212 @@
+﻿vampire = {
+	vampire = {
+		traits = { vampire_character }
+		dna_modifiers = {
+			morph = {
+				mode = modify
+				gene = gene_bs_body_type
+				value = {
+					value = stress.negate #could use stess/100 instead of level for smoother
+					multiply = 0.001
+				}
+				# template = bs_gaunt_1
+			}
+			morph = {
+				mode = add			
+				gene = vampire_teeth
+				template = vampire_teeth
+				value = 1.0
+			}
+			color = {
+				gene = skin_color
+				mode = modify
+				
+				x = 0.0
+				y = {
+					value = stress.negate #could use stess/100 instead of level for smoother
+					multiply = 0.001
+					subtract = 0.1
+				}
+			}
+			color = {
+				gene = eye_color
+				mode = replace
+					
+				x = 0.008
+				y = 0.2
+				
+			}
+
+			morph = { #Add some eye glow. Maybe add more for vampire lords?
+				mode = modify		
+				gene = eye_pupil
+
+				value = 0.7 #use a script value or stress value for hunger to make vampire more/less vampiric
+			}
+
+			morph = {
+				mode = modify		
+				gene = eye_sclera
+				template = black_sclera
+				value = 0.0
+			}
+
+			# morph = {
+			# 	mode = modify
+			# 	gene = eye_overlay
+			# 	value = 1.0
+			# 	template = bloodshot #Add bloodshot eyes at high stress levels?
+			# }
+
+		}
+	}
+}
+
+briarheart = {  #this should work for now
+	briarheart = {
+		traits = { briarheart }
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = reachfolk_briarheart_body
+				template = briarheart_body
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = reachfolk_briarheart_fruit
+				template = briarheart
+				value = 1.0
+			}
+			color = {
+				gene = skin_color
+				mode = modify
+					
+				x = -0.3
+				y = -0.3
+			}
+		}
+	}
+}
+
+lich = {
+	lich = {
+		traits = { lich_character undead_character soulshriven_character}
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = draugr
+				template = draugr_bs
+				range = { 0.4 1.0 }
+			}
+		}
+	}
+}
+
+line_of = {
+	line_of = {
+		traits = { line_of_x }
+		dna_modifiers = {
+			morph = {
+				mode = replace				
+				gene = gene_bs_body_type
+				template = no_portrait
+				value = 1.0
+			}
+			morph = {
+				mode = replace				
+				gene = complexion
+				template = complexion_no_face
+				value = 1.0
+			}
+			morph = {
+				mode = replace				
+				gene = gene_age
+				template = no_aging
+				value = 1.0
+			}
+			morph = {
+				mode = modify				
+				gene = gene_eyebrows_shape
+				template = no_eyebrows
+				value = 0.5
+			}
+			morph = {
+				mode = modify				
+				gene = gene_eyebrows_fullness
+				template = no_eyebrows
+				value = 0.5
+			}
+			accessory = {
+				mode = add				
+				gene = clothes
+				template = no_clothes
+				value = 0.5
+			}
+			accessory = {
+				mode = modify				
+				gene = eye_L_accessory
+				template = no_eye
+				value = 0.5
+			}
+			accessory = {
+				mode = modify				
+				gene = eye_R_accessory
+				template = no_eye
+				value = 0.5
+			}
+			accessory = {
+				mode = modify				
+				gene = teeth_accessory
+				template = no_teeth
+				value = 0.5
+			}
+			accessory = {
+				mode = add				
+				gene = props
+				template = prophet_shield
+				value = 0.5
+			}				
+		}
+	}
+}
+
+#### KHAJIIT FURSTOCKS ####
+
+# OHMES
+
+furstock_ohmes = { # tattoos will be assigned as the other facepaints, in the facepaint.txt, the same way hairstyles and clothing are assigned
+	furstock_ohmes = {
+		traits = { furstock_ohmes }
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = race_beast_body_shaders
+				template = human_body
+				value = 1.0
+			}	
+			accessory = {
+				mode = replace
+				gene = tails
+				template = no_tail
+				value = 1.0
+			}
+			morph = {
+				mode = replace
+				gene = skin_color_hue
+				template = vanilla_skin_hue
+				value = 0.5
+			}
+
+			morph = {
+				mode = modify
+				gene = beast_race_features
+				template = human_features
+				value = 1.0
+			}
+
+			morph = {
+				mode = modify
+				gene = race_khajiit_ear_tufts
+				template = no_ear_tufts
+				value = 1.0
+			}
+
+			morph = {
+				mode = modify
+				gene = beast_teeth_tusks
+				template = no_tusks
+				value = 1.0
+			}
+
+			accessory = {
+				mode = add
+				gene = race_beast_body_shaders
+				template = human_body
+				value = 1.0
+			}
+
+			morph = {
+				mode = modify
+				gene = beast_race_decal_layer_03
+				template = no_decal_03
+				value = 1.0
+			}
+			morph = {
+				mode = modify
+				gene = beast_race_decal_layer_02
+				template = no_decal_02
+				value = 1.0
+			}
+			morph = {
+				mode = modify
+				gene = complexion
+				template = complexion_1
+				value = 1.0
+			}
+			morph = {
+				mode = modify
+				gene = beast_race_decal_layer_04
+				template = no_decal_04
+				value = 1.0
+			}
+			morph = {
+				mode = modify
+				gene = beast_race_decal_layer_05
+				template = no_decal_05
+				value = 1.0
+			}
+			morph = {
+				mode = modify
+				gene = race_gene_mer_ears_01
+				template = mer_ears_03
+				value = 1.0
+			}
+			morph = {
+				mode = modify
+				gene = race_gene_mer_ears_02
+				template = mer_ears_03
+				value = 0.0
+			}
+			morph = {
+				mode = add
+				gene = race_gene_mer_eyebrows_01
+				template = mer_eyebrows_01
+				value = 1.0
+			}			
+			morph = {
+				mode = modify
+				gene = gene_eyebrows_shape
+				template = avg_spacing_avg_thickness
+				value = 1.0
+			}		
+			morph = {
+				mode = modify
+				gene = gene_eyebrows_fullness
+				template = layer_2_lower_thickness
+				value = 1.0
+			}
+			morph = {
+				mode = replace
+				gene = race_gene_mer_forehead
+				template = mer_forehead
+				range = { 0.6 0.8 }
+			}
+			morph = {
+				mode = replace
+				gene = race_gene_mer_nose
+				template = mer_nose
+				range = { 0.8 1.0 }
+			}
+			morph = {
+				mode = replace
+				gene = gene_mouth_lower_lip_size
+				template = mouth_lower_lip_size_pos
+				range = {0.6 1.0}
+			}
+			morph = {
+				mode = modify
+				gene = gene_chin_height
+				value = -0.1
+			}
+			morph = {
+				mode = modify
+				gene = gene_head_height
+				value = -0.07
+			}
+			morph = {
+				mode = replace
+				gene = gene_jaw_width
+				range = { 0.6 1.0 }
+			}
+			morph = {
+				mode = modify
+				gene = gene_neck_width
+				value = -0.2
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_jaw_width
+				value = 0.6
+			}
+			morph = {
+				mode = modify
+				gene = gene_height
+				value = -0.07
+			}
+			color = {
+				gene = hair_color
+				mode = replace
+					
+				x = {0.0 1.0}
+				y = {0.15 0.5}
+			}
+			accessory = {
+				mode = modify
+				gene = beast_head_attachment_02
+				template = no_attachment_02
+				value = 1.0
+			}				
+
+		}
+	}
+}
+furstock_ohmes_raht = {
+	furstock_ohmes_raht = {
+		traits = { furstock_ohmes_raht }
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = race_beast_body_shaders
+				template = human_body
+				value = 1.0
+			}
+			accessory = {
+				mode = replace
+				gene = tails
+				template = no_tail
+				value = 1.0
+			}
+			morph = {
+				mode = replace
+				gene = skin_color_hue
+				template = vanilla_skin_hue
+				value = 0.5
+			}
+
+			morph = {
+				mode = modify
+				gene = beast_race_features
+				template = human_features
+				value = 1.0
+			}
+
+
+			morph = {
+				mode = modify
+				gene = race_khajiit_ear_tufts
+				template = no_ear_tufts
+				value = 1.0
+			}
+
+
+			morph = {
+				mode = modify
+				gene = beast_teeth_tusks
+				template = no_tusks
+				value = 1.0
+			}
+
+			accessory = {
+				mode = add
+				gene = race_beast_body_shaders
+				template = human_body
+				value = 1.0
+			}
+
+			morph = {
+				mode = modify
+				gene = beast_race_decal_layer_03
+				template = no_decal_03
+				value = 1.0
+			}
+			morph = {
+				mode = modify
+				gene = beast_race_decal_layer_02
+				template = no_decal_02
+				value = 1.0
+			}
+			morph = {
+				mode = modify
+				gene = complexion
+				template = complexion_1
+				value = 1.0
+			}
+			morph = {
+				mode = modify
+				gene = beast_race_decal_layer_04
+				template = no_decal_04
+				value = 1.0
+			}
+			morph = {
+				mode = modify
+				gene = beast_race_decal_layer_05
+				template = no_decal_05
+				value = 1.0
+			}
+			morph = {
+				mode = modify
+				gene = race_gene_mer_ears_01
+				template = mer_ears_03
+				value = 1.0
+			}
+			morph = {
+				mode = modify
+				gene = race_gene_mer_ears_02
+				template = mer_ears_03
+				value = 0.0
+			}
+			morph = {
+				mode = add
+				gene = race_gene_mer_eyebrows_01
+				template = mer_eyebrows_01
+				value = 1.0
+			}			
+			morph = {
+				mode = modify
+				gene = gene_eyebrows_shape
+				template = avg_spacing_avg_thickness
+				value = 1.0
+			}		
+			morph = {
+				mode = modify
+				gene = gene_eyebrows_fullness
+				template = layer_2_lower_thickness
+				value = 1.0
+			}
+			morph = {
+				mode = replace
+				gene = race_gene_mer_forehead
+				template = mer_forehead
+				range = { 0.6 0.8 }
+			}
+			morph = {
+				mode = replace
+				gene = race_gene_mer_nose
+				template = mer_nose
+				range = { 0.8 1.0 }
+			}
+			morph = {
+				mode = replace
+				gene = gene_mouth_lower_lip_size
+				template = mouth_lower_lip_size_pos
+				range = {0.6 1.0}
+			}
+			morph = {
+				mode = modify
+				gene = gene_chin_height
+				value = -0.1
+			}
+			morph = {
+				mode = modify
+				gene = gene_head_height
+				value = -0.07
+			}
+			morph = {
+				mode = replace
+				gene = gene_jaw_width
+				range = { 0.6 1.0 }
+			}
+			morph = {
+				mode = modify
+				gene = gene_neck_width
+				value = -0.2
+			}
+			morph = {
+				mode = modify
+				gene = gene_height
+				value = -0.04
+			}
+			accessory = {
+				mode = modify
+				gene = beast_head_attachment_02
+				template = no_attachment_02
+				value = 1.0
+			}				
+			color = {
+				gene = hair_color
+				mode = replace
+					
+				x = {0.0 1.0}
+				y = {0.15 0.5}
+			}
+		}
+	}
+}
+
+# CATHAY
+
+furstock_cathay = {
+	furstock_cathay = {
+		traits = { furstock_cathay }  # should look exactly the same as default khajiit + whiskers and tails (which the default doesn't have)
+	}
+}
+
+furstock_cathay_raht = {
+	furstock_cathay_raht = {
+		traits = { furstock_cathay_raht }  # same as Cathay but taller and beefier. Perhaps the beefyness can be represented by boosting prowess via the trait, which will make them appear more muscular as well
+		dna_modifiers = {
+			morph = {
+				mode = modify
+				gene = gene_height
+				value = 0.04
+			}		
+		}
+	}
+}
+
+# SUTHAY
+
+furstock_suthay = {
+	furstock_suthay = {
+		traits = { furstock_suthay }
+		dna_modifiers = {
+			morph = {
+				mode = modify
+				gene = gene_height
+				value = -0.06
+			}
+			morph = {
+				mode = modify
+				gene = leg_shape
+				template = khajiit_digitigrade_legs
+				value = 1
+			}		
+		}
+	}
+}
+
+furstock_suthay_raht = {
+	furstock_suthay_raht = {
+		traits = { furstock_suthay_raht }
+		dna_modifiers = {
+			morph = {
+				mode = modify
+				gene = gene_height
+				value = -0.04
+			}
+			morph = {
+				mode = modify
+				gene = leg_shape
+				template = khajiit_digitigrade_legs
+				value = 1
+			}		
+		}
+	}
+}
+
+# TOJAY
+
+furstock_tojay = {
+	furstock_tojay = {
+		traits = { furstock_tojay }
+		dna_modifiers = {
+			morph = {
+				mode = modify
+				gene = gene_height
+				value = -0.08
+			}
+			morph = {
+				mode = modify
+				gene = leg_shape
+				template = khajiit_digitigrade_legs
+				value = 1
+			}
+			morph = {
+				mode = add
+				gene = gene_eye_size
+				template = eye_size
+				value = 1.0
+			}	
+		}
+	}
+}
+
+furstock_tojay_raht = {
+	furstock_tojay_raht = {
+		traits = { furstock_tojay_raht }
+		dna_modifiers = {
+			morph = {
+				mode = modify
+				gene = gene_height
+				value = -0.06
+			}
+			morph = {
+				mode = modify
+				gene = leg_shape
+				template = khajiit_digitigrade_legs
+				value = 1
+			}
+			morph = {
+				mode = add
+				gene = gene_eye_size
+				template = eye_size
+				value = 1.0
+			}		
+		}
+	}
+}
+
+# DAGI
+
+furstock_dagi = {
+	furstock_dagi = {
+		traits = { furstock_dagi }  # will need to Lynx-ify these at some point
+		dna_modifiers = {
+			morph = {
+				mode = modify
+				gene = gene_height
+				value = -0.14
+			}		
+		}
+	}
+}
+
+furstock_dagi_raht = {
+	furstock_dagi_raht = {
+		traits = { furstock_dagi_raht } # will need to Lynx-ify these at some point
+		dna_modifiers = {
+			morph = {
+				mode = modify
+				gene = gene_height
+				value = -0.1
+			}		
+		}
+	}
+}
+
+# PAHMAR
+
+furstock_pahmar = {
+	furstock_pahmar = {
+		traits = { furstock_pahmar }
+		dna_modifiers = {
+			morph = {
+				mode = modify
+				gene = gene_height
+				value = 0.08
+			}
+
+			morph = {
+				mode = add
+				gene = beast_race_decal_layer_01
+				template = no_decal_01
+				range = { 0.25 0.36 }
+			}
+			morph = {
+				mode = add
+				gene = beast_race_decal_layer_03
+				template = khajiit_patterns
+				range = { 0.25 0.36 }
+			}
+			morph = {
+				mode = add
+				gene = beast_race_decal_layer_02
+				template = khajiit_shading
+				range = { 0.32 0.99 }
+			}
+			morph = {
+				mode = modify
+				gene = beast_race_decal_layer_04
+				template = no_decal_04
+				value = 1.0
+			}
+			morph = {
+				mode = modify
+				gene = beast_race_decal_layer_05
+				template = no_decal_05
+				value = 1.0
+			}
+
+			color = {
+				gene = hair_color
+				mode = modify
+					
+				x = -1.0
+				y = -0.1
+			}		
+		}
+	}
+}
+
+furstock_pahmar_raht = {
+	furstock_pahmar_raht = {
+		traits = { furstock_pahmar_raht }
+		dna_modifiers = {
+			morph = {
+				mode = modify
+				gene = gene_height
+				value = 0.12
+			}
+
+			morph = {
+				mode = add
+				gene = beast_race_decal_layer_01
+				template = no_decal_01
+				range = { 0.25 0.36 }
+			}
+			morph = {
+				mode = add
+				gene = beast_race_decal_layer_03
+				template = khajiit_patterns
+				range = { 0.25 0.36 }
+			}
+			morph = {
+				mode = add
+				gene = beast_race_decal_layer_02
+				template = khajiit_shading
+				range = { 0.32 0.99 }
+			}
+			morph = {
+				mode = modify
+				gene = beast_race_decal_layer_04
+				template = no_decal_04
+				value = 1.0
+			}
+			morph = {
+				mode = modify
+				gene = beast_race_decal_layer_05
+				template = no_decal_05
+				value = 1.0
+			}
+
+			color = {
+				gene = hair_color
+				mode = modify
+					
+				x = -1.0
+				y = -0.1
+			}
+		}
+	}
+}
+
+#### TSAESCI
+
+tsaesci = {
+	tsaesci_1 = {
+		traits = { tsaesci_1 }
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = tsaesci_skin
+				template = tsaesci_skin
+				range = { 0.6 0.75 }
+			}
+			morph = {
+				mode = add
+				gene = eye_pupil
+				template = argonian_pupils
+				value = 0.5
+			}
+			morph = {
+				mode = add
+				gene = race_gene_mer_nose
+				template = orc_nose
+				range = { 0.4 0.7 }
+			}
+			morph = {
+				mode = add
+				gene = gene_bs_nose_size
+				template = nose_size_neg
+				range = { 0.8 1.0 }
+			}
+			color = {
+				gene = skin_color
+				mode = modify	
+				x = 0.0
+				y = 0.2
+			}
+			color = {
+				gene = eye_color
+				mode = modify	
+				x = 0.45
+				y = -0.10
+			}
+		}
+	}
+	tsaesci_2 = {
+		traits = { tsaesci_2 }
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = tsaesci_skin
+				template = tsaesci_skin
+				range = { 0.6 0.8 }
+			}
+			morph = {
+				mode = add
+				gene = race_gene_skin_metallic
+				template = metallic_skin
+				range = { 0.2 0.4 }
+			}
+			morph = {
+				mode = add
+				gene = skin_color_hue
+				template = skin_color_hue_yellow
+				range = { 0.45 0.7 }
+			}
+			morph = {
+				mode = add
+				gene = skin_color_saturation
+				template = skin_color_saturation
+				range = { 0.5 0.6 }
+			}
+			morph = {
+				mode = modify
+				gene = gene_eye_size
+				template = eye_size
+				value = 0.1
+			}
+			morph = {
+				mode = add
+				gene = eye_pupil
+				template = argonian_pupils
+				value = 0.55
+			}
+			morph = {
+				mode = add
+				gene = race_gene_mer_nose
+				template = orc_nose
+				range = { 0.6 0.8 }
+			}
+#			morph = {
+#				mode = modify
+#				gene = gene_bs_nose_nostril_width
+#				template = nose_nostril_width_neg
+#				value = 0.0
+#			}
+			morph = {
+				mode = modify
+				gene = gene_bs_ear_size
+				template = ear_size_neg
+				value = 0.2
+			}
+			morph = {
+				mode = add
+				gene = gene_eye_angle
+				template = eye_angle_neg
+				value = 0.9
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_nose_size
+				template = nose_size_neg
+				value = 0.2
+			}
+			color = {
+				gene = skin_color
+				mode = modify	
+				x = 0.0
+				y = 0.2
+			}
+			color = {
+				gene = eye_color
+				mode = modify	
+				x = 0.45
+				y = -0.10
+			}
+		}
+	}
+	tsaesci_3 = {
+		traits = { tsaesci_3 }
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = tsaesci_skin
+				template = tsaesci_skin_2
+				range = { 0.75 0.85 }
+			}
+			morph = {
+				mode = add
+				gene = race_gene_skin_metallic
+				template = metallic_skin
+				range = { 0.25 0.4 }
+			}
+			morph = {
+				mode = add
+				gene = skin_color_hue
+				template = skin_color_hue_yellow
+				range = { 0.45 0.7 }
+			}
+			morph = {
+				mode = modify
+				gene = gene_eye_size
+				template = eye_size
+				value = 0.15
+			}
+			morph = {
+				mode = add
+				gene = skin_color_saturation
+				template = skin_color_saturation
+				range = { 0.6 0.7 }
+			}
+			morph = {
+				mode = add
+				gene = eye_color_saturation
+				template = eye_color_saturation
+				range = { 0.6 0.7 }
+			}
+			morph = {
+				mode = add
+				gene = eye_pupil
+				template = argonian_pupils
+				value = 0.65
+			}
+			morph = {
+				mode = add
+				gene = race_gene_mer_nose
+				template = orc_nose
+				range = { 0.65 0.85 }
+			}
+#			morph = {
+#				mode = modify
+#				gene = gene_bs_nose_nostril_width
+#				template = nose_nostril_width_neg
+#				value = 0.3
+#			}
+			morph = {
+				mode = add
+				gene = gene_eye_angle
+				template = eye_angle_neg
+				value = 1.0
+			}
+			morph = {
+				mode = add
+				gene = gene_bs_nose_size
+				template = nose_size_neg
+				range = { 0.9 1.0 }
+			}
+			morph = {
+				mode = add
+				gene = gene_bs_forehead_brow_inner_height
+				template = forehead_brow_inner_height_neg
+				range = { 0.9 1.0 }
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_ear_size
+				template = ear_size_neg
+				value = 0.4
+			}
+			color = {
+				gene = skin_color
+				mode = modify	
+				x = 0.0
+				y = 0.2
+			}
+			color = {
+				gene = eye_color
+				mode = modify	
+				x = 0.45
+				y = -0.10
+			}
+		}
+	}
+	tsaesci_4 = {
+		traits = { tsaesci_4 }
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = tsaesci_skin
+				template = tsaesci_skin_2
+				range = { 0.8 0.9 }
+			}
+			morph = {
+				mode = add
+				gene = race_gene_mer_forehead
+				template = dremora_face
+				value = 1.0
+			}
+			morph = {
+				mode = add
+				gene = race_gene_skin_metallic
+				template = metallic_skin
+				range = { 0.25 0.4 }
+			}
+			morph = {
+				mode = add
+				gene = skin_color_hue
+				template = skin_color_hue_yellow
+				range = { 0.45 0.7 }
+			}
+			morph = {
+				mode = modify
+				gene = gene_eye_size
+				template = eye_size
+				value = 0.2
+			}
+			morph = {
+				mode = add
+				gene = skin_color_saturation
+				template = skin_color_saturation
+				range = { 0.6 0.7 }
+			}
+			morph = {
+				mode = add
+				gene = eye_color_saturation
+				template = eye_color_saturation
+				range = { 0.6 0.7 }
+			}
+			morph = {
+				mode = add
+				gene = eye_pupil
+				template = argonian_pupils
+				value = 0.8
+			}
+			morph = {
+				mode = add
+				gene = race_gene_mer_nose
+				template = orc_nose
+				range = { 0.8 1.0 }
+			}
+#			morph = {
+#				mode = modify
+#				gene = gene_bs_nose_nostril_width
+#				template = nose_nostril_width_neg
+#				value = 0.1
+#			}
+			morph = {
+				mode = add
+				gene = gene_eye_angle
+				template = eye_angle_neg
+				value = 1.0
+			}
+			morph = {
+				mode = add
+				gene = gene_bs_nose_size
+				template = nose_size_neg
+				value = 1.0
+			}
+			morph = {
+				mode = add
+				gene = gene_bs_forehead_brow_inner_height
+				template = forehead_brow_inner_height_neg
+				range = { 0.9 1.0 }
+			}
+			morph = {
+				mode = modify
+				gene = gene_forehead_angle
+				template = forehead_angle_neg
+				range = -0.2
+			}
+			morph = {
+				mode = add
+				gene = gene_bs_forehead_brow_outer_height
+				template = forehead_brow_outer_height_pos
+				range = { 0.8 0.95 }
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_ear_size
+				template = ear_size_neg
+				value = 1.0
+			}
+			morph = {
+				mode = modify
+				gene = gene_head_height
+				template = head_height_neg
+				value = -0.1
+			}
+			morph = {
+				mode = modify
+				gene = gene_head_top_height
+				template = head_top_height_neg
+				value = -0.1
+			}
+			morph = {
+				mode = modify
+				gene = gene_eyebrows_shape
+				template = no_eyebrows
+				value = 0.5
+			}
+			morph = {
+				mode = modify
+				gene = gene_eyebrows_fullness
+				template = no_eyebrows
+				value = 0.5
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_cheek_width
+				template = cheek_width_pos
+				value = 0.5
+			}
+			color = {
+				gene = skin_color
+				mode = modify	
+				x = 0.1
+				y = 0.2
+			}
+			color = {
+				gene = eye_color
+				mode = modify	
+				x = 0.45
+				y = -0.10
+			}
+		}
+	}
+}
+
+#### ARGONIAN HIST FORMS ####
+
+argonian_behemoth = {
+	argonian_behemoth = {
+		traits = { argonian_behemoth }
+		dna_modifiers = {
+			morph = {
+				mode = modify
+				gene = gene_bs_body_shape
+				value = 1.0
+			}
+			morph = {
+				mode = modify
+				gene = gene_height
+				value = 0.4
+			}
+			morph = {
+				mode = modify
+				gene = gene_neck_width
+				value = 1.0
+			}
+			morph = {
+				mode = modify
+				gene = gene_jaw_height
+				value = 1.0
+			}
+			morph = {
+				mode = modify
+				gene = gene_jaw_angle
+				range = { 0.8 0.9 }
+			}
+			morph = {
+				mode = add
+				gene = race_gene_hunchbacked
+				template = hunchbacked
+				value = 0.49
+			}	
+			morph = {
+				mode = modify
+				gene = gene_head_width
+				template = head_width_pos
+				value = 0.5
+			}
+			morph = {
+				mode = modify
+				gene = gene_eye_angle
+				template = eye_angle_pos
+				value = 1.0
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_forehead_brow_inner_height
+				value = -1.0
+			}
+			morph = {
+				mode = modify
+				gene = gene_forehead_brow_height
+				value = -0.2
+			}				
+			morph = {
+				mode = modify
+				gene = gene_forehead_angle
+				value = -1.0
+			}
+			morph = {
+				mode = modify
+				gene = gene_eye_shut
+				value = 0.7
+			}				
+		}
+	}
+}
