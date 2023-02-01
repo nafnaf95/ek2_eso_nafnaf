@@ -5322,6 +5322,9 @@ renmus_1000 = { #General Renmus of Senchal
 	learning = 4
 	prowess = 5
 	sexuality = heterosexual
+
+	dna = renmus_1000_dna_entry
+
 	trait = sign_steed
 	trait = education_martial_3
 	trait = patient

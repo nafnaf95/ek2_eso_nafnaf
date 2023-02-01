@@ -151,7 +151,7 @@
 ####c_balfiera
 
 1 = { #b_adamantine	
-	culture = auridon
+	culture = balfiera
 	religion = mainland_auriel
 
 	holding = castle_holding
@@ -171,7 +171,7 @@
 	}
 }
 3 = { #b_blackhead
-	culture = auridon
+	culture = balfiera
 	holding = city_holding
 	buildings = {
 		city_02
