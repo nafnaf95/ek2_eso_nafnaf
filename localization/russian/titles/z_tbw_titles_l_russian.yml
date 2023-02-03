@@ -1,0 +1,63 @@
+﻿l_russian:
+ TITLE_NAME:0 "$NAME$"
+ TITLE_TIERED_NAME:0 "$TIER|U$ из $NAME$"
+ TITLE_CLAN_TIERED_NAME:0 "$NAME$ $TIER|U$"
+ TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME:0 "$NAME$ $TIER|U$ #F ($TIER|U$ из $BASE_NAME$) #!"
+ TITLE_TIER_AS_NAME:0 "$TIER|U$"
+ ##Alliance War
+ e_aldmeri_dominion:0 "Альдмерский доминион"
+ e_aldmeri_dominion_adj:0 "Альдмерский доминион"
+ e_daggerfall_covenant:0 "Даггерфолльский Ковенант"
+ e_daggerfall_covenant_adj:0 "Даггерфолльский Ковенант"
+ e_ebonheart_pact:0 "Эбонхартский Пакт"
+ e_ebonheart_pact_adj:0 "Эбонхартский Пакт"
+ e_molag_bal:0 "Великая Армия Молаг Бала"
+ k_legion_zero:0 "Легион Зеро"
+ k_legion_zero_adj:0 "Легион Зеро"
+ k_legion_loyalist:0 "Первый Легион"
+ k_second_legion:0 "Второй Легион"
+ e_seventh_legion:0 "Седьмой Легион"
+ e_seventh_legion_adj:0 "Седьмой Легион"
+ e_veiledheritance:0 "Скрытая герцианство"
+ e_veiledheritance_adj:0 "Скрытая герцианство"
+ k_nomads_alikr:0 "Алик'рские кочевники"
+ k_nomads_alikr_adj:0 "Алик'рские кочевники"
+ k_dark_witness:0 "Культ темных свидетелей"
+ k_dark_witness_adj:0 "Культ темных свидетелей"
+ k_scaled_court:0 "Чешуйчатый Двор"
+ k_scaled_court_adj:0 "Чешуйчатый Двор"
+ k_star-gazer:0 "Звездочеты "
+ k_star-gazer_adj:0 "Звездочеты"
+ k_camlorn_faolchu:0 "Родственники Фалчу"
+ k_camlorn_faolchu_adj:0 "Родственники Фалчу"
+ k_daggerfall_occupation:0 "Оккупационная зона Даггерфолла"
+ k_daggerfall_occupation_adj:0 "Оккупационная зона Даггерфолла"
+ k_sutch:0 "Сатч"
+ k_sutch_adj:0 "Сатч"
+ d_red_rook:0 "Разбойники Красной Ладьи"								#BANDITS
+ d_red_rook_adj:0 "Разбойники Красной Ладьи"							#BANDITS
+ d_reachmen_bloodthorn:0 "Культ Кровавого Шипа"					#CULT
+ d_reachmen_bloodthorn_adj:0 "Культ Кровавого Шипа"				#CULT
+ d_supernaldreamers:0 "Сверхъестественные мечтатели"					#CULT
+ d_supernaldreamers_adj:0 "Сверхъестественные мечтатели"				#CULT
+ d_bitterhand:0 "Разбойники Горькой Руки"							#BANDIT
+ d_bitterhand_adj:0 "Разбойники Горькой Руки"						#BANDIT
+ d_witheredhand:0 "Культ иссохшей руки"							#CULT
+ d_witheredhand_adj:0 "Культ иссохшей руки"						#CULT
+ d_ironwheel:0 "Наемники железного колеса" 								#MERCS
+ d_ironwheel_adj:0 "Наемники железного колеса" 							#MERCS
+ d_keelcutter:0 "Пираты килевого резака" 							#PIRATES
+ d_keelcutter_adj:0 "Пираты килевого резака" 						#PIRATES
+ d_sharksteeth:0 "Пираты Акульего Зуба" 						#PIRATES
+ d_sharksteeth_adj:0 "Пираты Акульего Зуба" 					#PIRATES
+ d_seadrake:0 "Пираты Морского Дрейка" 							#PIRATES
+ d_seadrake_adj:0 "Пираты Морского Дрейка" 						#PIRATES
+ d_bloodyfist:0 "Пираты кровавого кулака" 						#PIRATES
+ d_bloodyfist_adj:0 "Пираты кровавого кулака" 					#PIRATES
+ d_blackgull:0 "Рабовладельцы Черной Чайки"
+ d_blackgull_adj:0 "Рабовладельцы Черной Чайки"
+
+ d_wayrest:0 "Вэйрест"
+ ############################
+ # Holding name changes     #
+ ############################
