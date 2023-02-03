@@ -1,0 +1,5 @@
+﻿l_russian:
+##ESO
+ trait_fatewoven:0 "Судьбоносное плетение"
+ trait_fatewoven_desc:0 "Этому персонажу пророчат достижение величия, но его плетение судьбы непостижимо... пока что"
+ trait_fatewoven_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] пророчат достижение величия, но его плетение судьбы непостижимо... пока что"

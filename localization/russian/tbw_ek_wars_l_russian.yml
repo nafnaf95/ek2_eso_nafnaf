@@ -1,0 +1,56 @@
+﻿l_russian:
+ individual_kingdom_de_jure_cb:0 "Индивидуальное [de_jure|E] [kingdom|E]"
+ DEJURE_CB_KINGDOM_NAME:2 "Захватить [TITLE.GetBaseName] #weak ([de_jure|E])#!"
+ DEJURE_CB_KINGDOM_NAME_GENERIC:1 "Захват - [de_jure|E] [kingdom|E]"
+ CONQUEST_KINGDOM_CB_NAME:0 "Завоевание - [kingdom|E]"
+ CONQUEST_EMPIRE_CB_NAME:1 "Завоевание - [empire|E]"
+
+	HOUSE_TOMB_0_CONQUEST_CB_NAME:0 "Вернуть контроль над гробницей Великого дома"
+ 
+ attrebus_potentate_cb:0 "Восстание против Потентата"
+ attrebus_potentate_cb_defeat_desc:0 "[defender.GetShortUIName|U] остается в качестве Потентата Сиродила. [attacker.GetShortUIName|U] заключен в тюрьму и опозорен, а Конфедерация Коловианских владений распалась."
+ attrebus_potentate_cb_defeat_desc_defender:0 "Вы остаетесь Потентатом Сиродила. [attacker.GetShortUIName|U] брошен в темницу, а Конфедерация Коловианских владений распущена..."
+ attrebus_potentate_cb_defeat_desc_attacker:0 "[defender.GetShortUIName|U] остается в качестве Потентата Сиродила. Конфедерация Коловианских владений распадется без своей цели, а вы будете брошены в подземелья Имперского города."
+ attrebus_potentate_cb_victory_desc_defender:0 "[attacker.GetShortUIName|U] сокрушает Потентат, и Сиродил затаивает дыхание, в ожидании пока военачальник навсегда определит его историю..."
+ attrebus_potentate_cb_victory_desc_attacker:0 "Потентат уничтожен. Поскольку Сиродил нуждается в сильной направляющей руке, а Совету старейшин необходимо провести некоторые реформы, вас оставят за главного... на некоторое время."
+ attrebus_potentate_cb_victory_desc:0 "[attacker.GetShortUIName|U] сокрушает Потентат, и Сиродил затаивает дыхание, когда военачальник навсегда определит его историю..."
+ attrebus_potentate_cb_victory_with_liodes_desc:0 "Если [liodes.GetNameNicknamed], или [liodes.GetHerHis] линии все еще находятся в состоянии войны, они получают все земли, принадлежащие Потентату в пределах любого [de_jure|E] Герцогства, в котором они владеют землей"
+ attrebus_potentate_cb_seize_potentate_held_land:0 "Вы захватываете все земли, принадлежащие непосредственно Потентату"
+ dres_argonian_war_cb_seize_thorn:0 "Мадеси захватывает Торн и провозглашает себя королем его земель"
+ dres_argonian_war_cb_claim_dres:0 "Савор использует поддержку своих военных союзников, чтобы претендовать на власть над Домом Дрес"
+ 
+ war_4000_three_banners_war:0 "Война Трёх Знамён"
+ 
+ war_4311_bloodthorn_cult:0 "Заговор Кровавых шипов"
+ 
+ war_4312_red_rook:0 " Разбойники Красной Ладьи"
+ 
+ war_4313_farwatch:0 "Причал Доминиона"
+ 
+ war_4314_bloodthorn_cult:0 "Падение Фалчу"
+ 
+ war_4315_virminas_gamble:0 "Азарт Вермины"
+ 
+ war_4321_riven_montclair:0 "Беспросветный остаток"
+ 
+ war_4331_northpoint_bandit:0 "Горькая беда?"
+ 
+ war_4341_dark_wintess:0 "Сердце Зла"
+ 
+ war_4342_bangkorai_tharn:0 "Штурм гарнизона"
+ 
+ war_4350_winterborn_campaign:0""
+ 
+ war_4360_kurogs_betreyal:0""
+ 
+ war_4400_witheredhand_uprising:0"Ампутация руки"
+ 
+ war_4405_imperial_incursion:0 "Имперское вторжение"
+ 
+ war_4500_daggerfall_invasion:0""
+ 
+ war_4709_the_rim:0""
+ 
+ war_4710_veiled_queen:0""
+ 
+ war_4711_Arenthia:0""

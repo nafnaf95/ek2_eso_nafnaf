@@ -1,0 +1,14 @@
+﻿l_russian:
+ TITLE_NAME:0 "$NAME$"
+ TITLE_TIERED_NAME:0 "$TIER|U$ из $NAME$"
+ TITLE_CLAN_TIERED_NAME:0 "$NAME$ $TIER|U$"
+ TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME:0 "$NAME$ $TIER|U$ #F ($TIER|U$ из $BASE_NAME$) #!"
+ TITLE_TIER_AS_NAME:0 "$TIER|U$"
+ #Dominion#
+ k_theoelsweyr:0 "Теократия Эльсвейра"
+ k_theoelsweyr_adj:0 "Теократия Эльсвейра"
+ e_thirteenth_legion:0 "Щиты Сенчала"
+ e_thirteenth_legion_adj:0 "Щиты Сенчала"
+ #Holdings
+ b_temple_of_the_mourning_springs:0 "Храм скорбящих родников"#
+ b_moonmirth:0 "Плантация Виндкэтчер"
